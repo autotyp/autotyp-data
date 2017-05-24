@@ -1,0 +1,1867 @@
+# ------ NPAgrGender.Presence ------
+NPAgrGender.Presence:
+  Description : >
+     NP with any agreement in gender
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPAgrGender.Presence'
+  N.entries : 138
+  N.languages : 92
+  N.missing : 882
+  Notes : >
+     For the definition of 'gender', see the metadata for 'NPAgrCat' in NP_structure
+
+# ------ NPAgrNumber.Presence ------
+NPAgrNumber.Presence:
+  Description : >
+     NP with any kind agreement in number
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPAgrNumber.Presence'
+  N.entries : 138
+  N.languages : 92
+  N.missing : 882
+  Notes : >
+     For the definition of 'number', see the metadata for 'NPAgrCat' in NP_structure
+
+# ------ NPAgrPerson.Presence ------
+NPAgrPerson.Presence:
+  Description : >
+     NP with any agreement in person
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPAgrPerson.Presence'
+  N.entries : 138
+  N.languages : 92
+  N.missing : 882
+  Notes : >
+     For the definition of 'person', see the metadata for 'NPAgrCat' in NP_structure
+
+# ------ NPAgrReferential.Presence ------
+NPAgrReferential.Presence:
+  Description : >
+     NP with any agreement in referential values
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPAgrReferential.Presence'
+  N.entries : 138
+  N.languages : 92
+  N.missing : 882
+  Notes : >
+     For the definition of 'referential', see the metadata for 'NPAgrCat' in NP_structure
+
+# ------ NPAgrRole.Presence ------
+NPAgrRole.Presence:
+  Description : >
+     NP with any kind of agreement in role or case
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPAgrRole.Presence'
+  N.entries : 138
+  N.languages : 92
+  N.missing : 882
+  Notes : >
+     For the definition of 'role', see the metadata for 'NPAgrCat' in NP_structure
+
+# ------ NPAlienabilityConstraint.alienable.Presence ------
+NPAlienabilityConstraint.alienable.Presence:
+  Description : >
+     NP whose dependency constraints include reference to "alienable" heads
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPAlienabilityConstraint.alienable.Presence'
+  N.entries : 653
+  N.languages : 307
+  N.missing : 367
+  Notes : >
+     For the definition of 'alienable', see the metadata for 'NPAlienabilityType' in NP_structure
+
+# ------ NPAlienabilityConstraint.fluid.Presence ------
+NPAlienabilityConstraint.fluid.Presence:
+  Description : >
+     NP whose dependency constraints include reference to "fluid" heads
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPAlienabilityConstraint.fluid.Presence'
+  N.entries : 653
+  N.languages : 307
+  N.missing : 367
+  Notes : >
+     For the definition of 'fluid', see the metadata for 'NPAlienabilityType' in NP_structure
+
+# ------ NPAlienabilityConstraint.inalienable.Presence ------
+NPAlienabilityConstraint.inalienable.Presence:
+  Description : >
+     NP whose dependency constraints include reference to "inalienable" heads
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPAlienabilityConstraint.inalienable.Presence'
+  N.entries : 653
+  N.languages : 307
+  N.missing : 367
+  Notes : >
+     For the definition of 'inalienable', see the metadata for 'NPAlienabilityType' in NP_structure
+
+# ------ NPBroadLocus.D.Presence ------
+NPBroadLocus.D.Presence:
+  Description : >
+     NP with any marking on "D", based on broad locus (see Notes) coding
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPBroadLocus.D.Presence'
+  N.entries : 429
+  N.languages : 225
+  N.missing : 591
+  Notes : >
+     For the definition of the relevant locus, see the metadata for Locus.binned6 in Gramm_markers
+
+# ------ NPBroadLocus.D_on_H.Presence ------
+NPBroadLocus.D_on_H.Presence:
+  Description : >
+     NP with any marking on "D on H", based on broad locus (see Notes) coding
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPBroadLocus.D_on_H.Presence'
+  N.entries : 429
+  N.languages : 225
+  N.missing : 591
+  Notes : >
+     For the definition of the relevant locus, see the metadata for Locus.binned6 in Gramm_markers
+
+# ------ NPBroadLocus.F.Presence ------
+NPBroadLocus.F.Presence:
+  Description : >
+     NP with any marking on "F", based on broad locus (see Notes) coding
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPBroadLocus.F.Presence'
+  N.entries : 429
+  N.languages : 225
+  N.missing : 591
+  Notes : >
+     For the definition of the relevant locus, see the metadata for Locus.binned6 in Gramm_markers
+
+# ------ NPBroadLocus.H.Presence ------
+NPBroadLocus.H.Presence:
+  Description : >
+     NP with any marking on "H", based on broad locus (see Notes) coding
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPBroadLocus.H.Presence'
+  N.entries : 429
+  N.languages : 225
+  N.missing : 591
+  Notes : >
+     For the definition of the relevant locus, see the metadata for Locus.binned6 in Gramm_markers
+
+# ------ NPDepSemClassConstraint.animate.Presence ------
+NPDepSemClassConstraint.animate.Presence:
+  Description : >
+     NP whose dependency constraints include reference to animate dependents
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepSemClassConstraint.animate.Presence'
+  N.entries : 207
+  N.languages : 113
+  N.missing : 813
+  Notes : >
+     For the definition of 'animate', see the metadata for 'NPDepSemClass' in NP_structure
+
+# ------ NPDepSemClassConstraint.high_indexability.Presence ------
+NPDepSemClassConstraint.high_indexability.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents that are highly indexible
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepSemClassConstraint.high_indexability.Presence'
+  N.entries : 207
+  N.languages : 113
+  N.missing : 813
+  Notes : >
+     For the definition of 'high indexability', see the metadata for 'NPDepSemClass' in NP_structure
+
+# ------ NPDepSemClassConstraint.human.Presence ------
+NPDepSemClassConstraint.human.Presence:
+  Description : >
+     NP whose dependency constraints include reference to human dependents
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepSemClassConstraint.human.Presence'
+  N.entries : 207
+  N.languages : 113
+  N.missing : 813
+  Notes : >
+     For the definition of 'human', see the metadata for 'NPDepSemClass' in NP_structure
+
+# ------ NPDepSemClassConstraint.inanimate.Presence ------
+NPDepSemClassConstraint.inanimate.Presence:
+  Description : >
+     NP whose dependency constraints include reference to inanimate dependents
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepSemClassConstraint.inanimate.Presence'
+  N.entries : 207
+  N.languages : 113
+  N.missing : 813
+  Notes : >
+     For the definition of 'inanimate', see the metadata for 'NPDepSemClass' in NP_structure
+
+# ------ NPDepSemClassConstraint.low_indexability.Presence ------
+NPDepSemClassConstraint.low_indexability.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents that are not well indexible
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepSemClassConstraint.low_indexability.Presence'
+  N.entries : 207
+  N.languages : 113
+  N.missing : 813
+  Notes : >
+     For the definition of low indexability', see the metadata for 'NPDepSemClass' in NP_structure
+
+# ------ NPDepSemClassConstraint.meronyms.Presence ------
+NPDepSemClassConstraint.meronyms.Presence:
+  Description : >
+     NP whose dependency constraints include reference to meronymic (part-whole) dependents
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepSemClassConstraint.meronyms.Presence'
+  N.entries : 207
+  N.languages : 113
+  N.missing : 813
+  Notes : >
+     For the definition of 'meronyms', see the metadata for 'NPDepSemClass' in NP_structure
+
+# ------ NPDepSemClassConstraint.non_specific.Presence ------
+NPDepSemClassConstraint.non_specific.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents with non-specific reference
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepSemClassConstraint.non_specific.Presence'
+  N.entries : 207
+  N.languages : 113
+  N.missing : 813
+  Notes : >
+     For the definition of 'non-specific', see the metadata for 'NPDepSemClass' in NP_structure
+
+# ------ NPDepSemClassConstraint.specific.Presence ------
+NPDepSemClassConstraint.specific.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents with specific reference
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepSemClassConstraint.specific.Presence'
+  N.entries : 207
+  N.languages : 113
+  N.missing : 813
+  Notes : >
+     For the definition of 'specific', see the metadata for 'NPDepSemClass' in NP_structure
+
+# ------ NPDepCatConstraint.1_2Pro_or_N.Presence ------
+NPDepCatConstraint.1_2Pro_or_N.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "1_2Pro_or_N"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.1_2Pro_or_N.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.2_or_3Pro.Presence ------
+NPDepCatConstraint.2_or_3Pro.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "2_or_3Pro"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.2_or_3Pro.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.3Pro.Presence ------
+NPDepCatConstraint.3Pro.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "3Pro"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.3Pro.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.3sgPro.Presence ------
+NPDepCatConstraint.3sgPro.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "3sgPro"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.3sgPro.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.Adj.Presence ------
+NPDepCatConstraint.Adj.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "Adj"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.Adj.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.Adp.Presence ------
+NPDepCatConstraint.Adp.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "Adp"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.Adp.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.AdvP.Presence ------
+NPDepCatConstraint.AdvP.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "AdvP"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.AdvP.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.Art.Presence ------
+NPDepCatConstraint.Art.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "Art"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.Art.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.DEM.Presence ------
+NPDepCatConstraint.DEM.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "DEM"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.DEM.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.N.Presence ------
+NPDepCatConstraint.N.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "N"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.N.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.N_or_Pro.Presence ------
+NPDepCatConstraint.N_or_Pro.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "N_or_Pro"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.N_or_Pro.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.N_proper.Presence ------
+NPDepCatConstraint.N_proper.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "N_proper"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.N_proper.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.nonSAP.Presence ------
+NPDepCatConstraint.nonSAP.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "nonSAP"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.nonSAP.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.NP.Presence ------
+NPDepCatConstraint.NP.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "NP"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.NP.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.Num.Presence ------
+NPDepCatConstraint.Num.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "Num"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.Num.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.Num_above_20.Presence ------
+NPDepCatConstraint.Num_above_20.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "Num_above_20"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.Num_above_20.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.Nv.Presence ------
+NPDepCatConstraint.Nv.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "Nv"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.Nv.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.Ord.Presence ------
+NPDepCatConstraint.Ord.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "Ord"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.Ord.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.Ord1.Presence ------
+NPDepCatConstraint.Ord1.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "Ord1"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.Ord1.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.Pro.Presence ------
+NPDepCatConstraint.Pro.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "Pro"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.Pro.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.PTCP.Presence ------
+NPDepCatConstraint.PTCP.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "PTCP"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.PTCP.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.Quant.Presence ------
+NPDepCatConstraint.Quant.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "Quant"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.Quant.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.S.Presence ------
+NPDepCatConstraint.S.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "S"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.S.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.SAP.Presence ------
+NPDepCatConstraint.SAP.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "SAP"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.SAP.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPDepCatConstraint.V.Presence ------
+NPDepCatConstraint.V.Presence:
+  Description : >
+     NP whose dependency constraints include reference to dependents of category "V"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDepCatConstraint.V.Presence'
+  N.entries : 879
+  N.languages : 429
+  N.missing : 141
+  Notes : >
+     For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
+
+# ------ NPMarkerFusion.concatenative.Presence ------
+NPMarkerFusion.concatenative.Presence:
+  Description : >
+     NP with any marking of fusion type "concatenative"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.concatenative.Presence'
+  N.entries : 268
+  N.languages : 144
+  N.missing : 752
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion.binned6 in Gramm_markers
+
+# ------ NPMarkerFusion.isolating.Presence ------
+NPMarkerFusion.isolating.Presence:
+  Description : >
+     NP with any marking of fusion type "isolating"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.isolating.Presence'
+  N.entries : 268
+  N.languages : 144
+  N.missing : 752
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion.binned6 in Gramm_markers
+
+# ------ NPMarkerFusion.reduplicative.Presence ------
+NPMarkerFusion.reduplicative.Presence:
+  Description : >
+     NP with any marking of fusion type "reduplicative"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.reduplicative.Presence'
+  N.entries : 268
+  N.languages : 144
+  N.missing : 752
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion.binned6 in Gramm_markers
+
+# ------ NPMarkerFusion.replacive.Presence ------
+NPMarkerFusion.replacive.Presence:
+  Description : >
+     NP with any marking of fusion type "replacive"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.replacive.Presence'
+  N.entries : 268
+  N.languages : 144
+  N.missing : 752
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion.binned6 in Gramm_markers
+
+# ------ NPMarkerFusion.stem.Presence ------
+NPMarkerFusion.stem.Presence:
+  Description : >
+     NP with any marking of fusion type "stem"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.stem.Presence'
+  N.entries : 268
+  N.languages : 144
+  N.missing : 752
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion.binned6 in Gramm_markers
+
+# ------ NPMarkerFusion.tonal.Presence ------
+NPMarkerFusion.tonal.Presence:
+  Description : >
+     NP with any marking of fusion type "tonal"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.tonal.Presence'
+  N.entries : 268
+  N.languages : 144
+  N.missing : 752
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion.binned6 in Gramm_markers
+
+# ------ NPMarkerFusion.ablaut.Presence ------
+NPMarkerFusion.ablaut.Presence:
+  Description : >
+     NP with any marking of fusion type "ablaut"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.ablaut.Presence'
+  N.entries : 270
+  N.languages : 144
+  N.missing : 750
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
+
+# ------ NPMarkerFusion.ablaut_or_suppletive.Presence ------
+NPMarkerFusion.ablaut_or_suppletive.Presence:
+  Description : >
+     NP with any marking of fusion type "ablaut_or_suppletive"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.ablaut_or_suppletive.Presence'
+  N.entries : 270
+  N.languages : 144
+  N.missing : 750
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
+
+# ------ NPMarkerFusion.ablaut_or_tonal.Presence ------
+NPMarkerFusion.ablaut_or_tonal.Presence:
+  Description : >
+     NP with any marking of fusion type "ablaut_or_tonal"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.ablaut_or_tonal.Presence'
+  N.entries : 270
+  N.languages : 144
+  N.missing : 750
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
+
+# ------ NPMarkerFusion.concatenative_then_isolating.Presence ------
+NPMarkerFusion.concatenative_then_isolating.Presence:
+  Description : >
+     NP with any marking of fusion type "concatenative_then_isolating"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.concatenative_then_isolating.Presence'
+  N.entries : 270
+  N.languages : 144
+  N.missing : 750
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
+
+# ------ NPMarkerFusion.concat_ablaut.Presence ------
+NPMarkerFusion.concat_ablaut.Presence:
+  Description : >
+     NP with any marking of fusion type "concat_ablaut"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.concat_ablaut.Presence'
+  N.entries : 270
+  N.languages : 144
+  N.missing : 750
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
+
+# ------ NPMarkerFusion.concat_redupl.Presence ------
+NPMarkerFusion.concat_redupl.Presence:
+  Description : >
+     NP with any marking of fusion type "concat_redupl"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.concat_redupl.Presence'
+  N.entries : 270
+  N.languages : 144
+  N.missing : 750
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
+
+# ------ NPMarkerFusion.concatenative_or_suppletive.Presence ------
+NPMarkerFusion.concatenative_or_suppletive.Presence:
+  Description : >
+     NP with any marking of fusion type "concatenative_or_suppletive"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.concatenative_or_suppletive.Presence'
+  N.entries : 270
+  N.languages : 144
+  N.missing : 750
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
+
+# ------ NPMarkerFusion.concatenative_or_tonal.Presence ------
+NPMarkerFusion.concatenative_or_tonal.Presence:
+  Description : >
+     NP with any marking of fusion type "concatenative_or_tonal"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.concatenative_or_tonal.Presence'
+  N.entries : 270
+  N.languages : 144
+  N.missing : 750
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
+
+# ------ NPMarkerFusion.distributed.Presence ------
+NPMarkerFusion.distributed.Presence:
+  Description : >
+     NP with any marking of fusion type "distributed"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.distributed.Presence'
+  N.entries : 270
+  N.languages : 144
+  N.missing : 750
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
+
+# ------ NPMarkerFusion.isolating_then_concatenative.Presence ------
+NPMarkerFusion.isolating_then_concatenative.Presence:
+  Description : >
+     NP with any marking of fusion type "isolating_then_concatenative"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.isolating_then_concatenative.Presence'
+  N.entries : 270
+  N.languages : 144
+  N.missing : 750
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
+
+# ------ NPMarkerFusion.lenition.Presence ------
+NPMarkerFusion.lenition.Presence:
+  Description : >
+     NP with any marking of fusion type "lenition"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.lenition.Presence'
+  N.entries : 270
+  N.languages : 144
+  N.missing : 750
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
+
+# ------ NPMarkerFusion.tonal_or_ablaut_then_isolating.Presence ------
+NPMarkerFusion.tonal_or_ablaut_then_isolating.Presence:
+  Description : >
+     NP with any marking of fusion type "tonal_or_ablaut_then_isolating"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.tonal_or_ablaut_then_isolating.Presence'
+  N.entries : 270
+  N.languages : 144
+  N.missing : 750
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
+
+# ------ NPMarkerFusion.prosodic_template.Presence ------
+NPMarkerFusion.prosodic_template.Presence:
+  Description : >
+     NP with any marking of fusion type "prosodic_template"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.prosodic_template.Presence'
+  N.entries : 270
+  N.languages : 144
+  N.missing : 750
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
+
+# ------ NPMarkerFusion.reduplicative_or_suppletive.Presence ------
+NPMarkerFusion.reduplicative_or_suppletive.Presence:
+  Description : >
+     NP with any marking of fusion type "reduplicative_or_suppletive"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.reduplicative_or_suppletive.Presence'
+  N.entries : 270
+  N.languages : 144
+  N.missing : 750
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
+
+# ------ NPMarkerFusion.reduplication.Presence ------
+NPMarkerFusion.reduplication.Presence:
+  Description : >
+     NP with any marking of fusion type "reduplication"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.reduplication.Presence'
+  N.entries : 270
+  N.languages : 144
+  N.missing : 750
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
+
+# ------ NPMarkerFusion.suppletive.Presence ------
+NPMarkerFusion.suppletive.Presence:
+  Description : >
+     NP with any marking of fusion type "suppletive"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.suppletive.Presence'
+  N.entries : 270
+  N.languages : 144
+  N.missing : 750
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
+
+# ------ NPMarkerFusion.tonal_or_suppletive.Presence ------
+NPMarkerFusion.tonal_or_suppletive.Presence:
+  Description : >
+     NP with any marking of fusion type "tonal_or_suppletive"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.tonal_or_suppletive.Presence'
+  N.entries : 270
+  N.languages : 144
+  N.missing : 750
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
+
+# ------ NPHeadSemConstraint.formal.Presence ------
+NPHeadSemConstraint.formal.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "formal"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.formal.Presence'
+  N.entries : 458
+  N.languages : 243
+  N.missing : 562
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.kin.Presence ------
+NPHeadSemConstraint.kin.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "kin"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.kin.Presence'
+  N.entries : 458
+  N.languages : 243
+  N.missing : 562
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.kinds.Presence ------
+NPHeadSemConstraint.kinds.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "kinds"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.kinds.Presence'
+  N.entries : 458
+  N.languages : 243
+  N.missing : 562
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.names.Presence ------
+NPHeadSemConstraint.names.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "names"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.names.Presence'
+  N.entries : 458
+  N.languages : 243
+  N.missing : 562
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.parts.Presence ------
+NPHeadSemConstraint.parts.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "parts"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.parts.Presence'
+  N.entries : 458
+  N.languages : 243
+  N.missing : 562
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.pragmatic.Presence ------
+NPHeadSemConstraint.pragmatic.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "pragmatic"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.pragmatic.Presence'
+  N.entries : 458
+  N.languages : 243
+  N.missing : 562
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.referentiality.Presence ------
+NPHeadSemConstraint.referentiality.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "referentiality"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.referentiality.Presence'
+  N.entries : 458
+  N.languages : 243
+  N.missing : 562
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.alienable.Presence ------
+NPHeadSemConstraint.alienable.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "alienable"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.alienable.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.animals.Presence ------
+NPHeadSemConstraint.animals.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "animals"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.animals.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.body_parts.Presence ------
+NPHeadSemConstraint.body_parts.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "body_parts"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.body_parts.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.classifiers.Presence ------
+NPHeadSemConstraint.classifiers.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "classifiers"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.classifiers.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.clothing_terms.Presence ------
+NPHeadSemConstraint.clothing_terms.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "clothing_terms"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.clothing_terms.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.drinkable.Presence ------
+NPHeadSemConstraint.drinkable.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "drinkable"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.drinkable.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.edible.Presence ------
+NPHeadSemConstraint.edible.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "edible"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.edible.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.high_indexability.Presence ------
+NPHeadSemConstraint.high_indexability.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "high_indexability"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.high_indexability.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.human.Presence ------
+NPHeadSemConstraint.human.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "human"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.human.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.inalienable.Presence ------
+NPHeadSemConstraint.inalienable.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "inalienable"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.inalienable.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.kin_terms.Presence ------
+NPHeadSemConstraint.kin_terms.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "kin_terms"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.kin_terms.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.meronyms.Presence ------
+NPHeadSemConstraint.meronyms.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "meronyms"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.meronyms.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.non_human.Presence ------
+NPHeadSemConstraint.non_human.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "non_human"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.non_human.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.non_specific.Presence ------
+NPHeadSemConstraint.non_specific.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "non_specific"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.non_specific.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.origin.Presence ------
+NPHeadSemConstraint.origin.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "origin"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.origin.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.owner.Presence ------
+NPHeadSemConstraint.owner.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "owner"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.owner.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.parents_siblings.Presence ------
+NPHeadSemConstraint.parents_siblings.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "parents_siblings"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.parents_siblings.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.plant_parts.Presence ------
+NPHeadSemConstraint.plant_parts.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "plant_parts"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.plant_parts.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.plants.Presence ------
+NPHeadSemConstraint.plants.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "plants"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.plants.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.property.Presence ------
+NPHeadSemConstraint.property.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "property"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.property.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.quantificational.Presence ------
+NPHeadSemConstraint.quantificational.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "quantificational"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.quantificational.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.rocks.Presence ------
+NPHeadSemConstraint.rocks.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "rocks"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.rocks.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.semantic.Presence ------
+NPHeadSemConstraint.semantic.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "semantic"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.semantic.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.singular.Presence ------
+NPHeadSemConstraint.singular.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "singular"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.singular.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.specific.Presence ------
+NPHeadSemConstraint.specific.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "specific"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.specific.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.spouse.Presence ------
+NPHeadSemConstraint.spouse.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "spouse"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.spouse.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.subsets.Presence ------
+NPHeadSemConstraint.subsets.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "subsets"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.subsets.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.topological.Presence ------
+NPHeadSemConstraint.topological.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "topological"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.topological.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.tracks.Presence ------
+NPHeadSemConstraint.tracks.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "tracks"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.tracks.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.transportation_means.Presence ------
+NPHeadSemConstraint.transportation_means.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "transportation_means"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.transportation_means.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.unspecified_inanimate.Presence ------
+NPHeadSemConstraint.unspecified_inanimate.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "unspecified_inanimate"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.unspecified_inanimate.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.village_group.Presence ------
+NPHeadSemConstraint.village_group.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "village_group"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.village_group.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.volitional.Presence ------
+NPHeadSemConstraint.volitional.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "volitional"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.volitional.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPHeadSemConstraint.weapon.Presence ------
+NPHeadSemConstraint.weapon.Presence:
+  Description : >
+     NP whose dependency constraints include reference to heads of class "weapon"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPHeadSemConstraint.weapon.Presence'
+  N.entries : 460
+  N.languages : 243
+  N.missing : 560
+  Notes : >
+     For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
+
+# ------ NPDetailedLocus.D.Presence ------
+NPDetailedLocus.D.Presence:
+  Description : >
+     NP with any marking on "D", based on detailed locus coding (see Notes)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDetailedLocus.D.Presence'
+  N.entries : 429
+  N.languages : 225
+  N.missing : 591
+  Notes : >
+     For the definition of the relevant locus, see the metadata for Locus in Gramm_markers
+
+# ------ NPDetailedLocus.d_on_h.Presence ------
+NPDetailedLocus.d_on_h.Presence:
+  Description : >
+     NP with any marking on "d_on_h", based on detailed locus coding (see Notes)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDetailedLocus.d_on_h.Presence'
+  N.entries : 429
+  N.languages : 225
+  N.missing : 591
+  Notes : >
+     For the definition of the relevant locus, see the metadata for Locus in Gramm_markers
+
+# ------ NPDetailedLocus.D_on_H.Presence ------
+NPDetailedLocus.D_on_H.Presence:
+  Description : >
+     NP with any marking on "D_on_H", based on detailed locus coding (see Notes)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDetailedLocus.D_on_H.Presence'
+  N.entries : 429
+  N.languages : 225
+  N.missing : 591
+  Notes : >
+     For the definition of the relevant locus, see the metadata for Locus in Gramm_markers
+
+# ------ NPDetailedLocus.F.Presence ------
+NPDetailedLocus.F.Presence:
+  Description : >
+     NP with any marking on "F", based on detailed locus coding (see Notes)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDetailedLocus.F.Presence'
+  N.entries : 429
+  N.languages : 225
+  N.missing : 591
+  Notes : >
+     For the definition of the relevant locus, see the metadata for Locus in Gramm_markers
+
+# ------ NPDetailedLocus.H.Presence ------
+NPDetailedLocus.H.Presence:
+  Description : >
+     NP with any marking on "H", based on detailed locus coding (see Notes)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDetailedLocus.H.Presence'
+  N.entries : 429
+  N.languages : 225
+  N.missing : 591
+  Notes : >
+     For the definition of the relevant locus, see the metadata for Locus in Gramm_markers
+
+# ------ NPDetailedLocus.P.Presence ------
+NPDetailedLocus.P.Presence:
+  Description : >
+     NP with any marking on "P", based on detailed locus coding (see Notes)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPDetailedLocus.P.Presence'
+  N.entries : 429
+  N.languages : 225
+  N.missing : 591
+  Notes : >
+     For the definition of the relevant locus, see the metadata for Locus in Gramm_markers
+
+# ------ NPMarkersSource.agr_target.Presence ------
+NPMarkersSource.agr_target.Presence:
+  Description : >
+     NP with any marking caused by source type "agr_target"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkersSource.agr_target'
+  N.entries : 200
+  N.languages : 109
+  N.missing : 820
+  Notes : >
+     For the definition of the relevant source of marking type, see the metadata for SourceOfMarking
+     in Gramm_markers
+
+# ------ NPMarkersSource.agree.Presence ------
+NPMarkersSource.agree.Presence:
+  Description : >
+     NP with any marking caused by source type "agree"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkersSource.agree'
+  N.entries : 200
+  N.languages : 109
+  N.missing : 820
+  Notes : >
+     For the definition of the relevant source of marking type, see the metadata for SourceOfMarking
+     in Gramm_markers
+
+# ------ NPMarkersSource.assign.Presence ------
+NPMarkersSource.assign.Presence:
+  Description : >
+     NP with any marking caused by source type "assign"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkersSource.assign'
+  N.entries : 200
+  N.languages : 109
+  N.missing : 820
+  Notes : >
+     For the definition of the relevant source of marking type, see the metadata for SourceOfMarking
+     in Gramm_markers
+
+# ------ NPMarkersSource.both_assign_and_agree.Presence ------
+NPMarkersSource.both_assign_and_agree.Presence:
+  Description : >
+     NP with any marking caused by source type "both_assign_and_agree"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkersSource.both_assign_and_agree'
+  N.entries : 200
+  N.languages : 109
+  N.missing : 820
+  Notes : >
+     For the definition of the relevant source of marking type, see the metadata for SourceOfMarking
+     in Gramm_markers
+
+# ------ NPMarkersSource.case_assigned_gender_agrees.Presence ------
+NPMarkersSource.case_assigned_gender_agrees.Presence:
+  Description : >
+     NP with any marking caused by source type "case_assigned_gender_agrees"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkersSource.case_assigned_gender_agrees'
+  N.entries : 200
+  N.languages : 109
+  N.missing : 820
+  Notes : >
+     For the definition of the relevant source of marking type, see the metadata for SourceOfMarking
+     in Gramm_markers
+
+# ------ NPMarkersSource.free.Presence ------
+NPMarkersSource.free.Presence:
+  Description : >
+     NP with any marking caused by source type "free"
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkersSource.free'
+  N.entries : 200
+  N.languages : 109
+  N.missing : 820
+  Notes : >
+     For the definition of the relevant source of marking type, see the metadata for SourceOfMarking
+     in Gramm_markers
+
+# ------ NPMarkerType.formative.Presence ------
+NPMarkerType.formative.Presence:
+  Description : >
+     NP with any marking of type formative
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerType.Presence.formative'
+  N.entries : 339
+  N.languages : 192
+  N.missing : 681
+  Notes : >
+     For the definition of the relevant type, see the metadata for MorphemeType in Gramm_markers
+
+# ------ NPMarkerType.word.Presence ------
+NPMarkerType.word.Presence:
+  Description : >
+     NP with any marking of type word
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerType.Presence.formative'
+  N.entries : 339
+  N.languages : 192
+  N.missing : 681
+  Notes : >
+     For the definition of the relevant type, see the metadata for MorphemeType in Gramm_markers
+
+# ------ NPMarkerFusion.nonlinear.Presence ------
+NPMarkerFusion.nonlinear.Presence:
+  Description : >
+     NP with any nonlinear (nonconcatenative) markers
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarkerFusion.nonlinear.Presence'
+  N.entries : 268
+  N.languages : 144
+  N.missing : 752
+  Notes : >
+     For the definition of the relevant fusion type, see the metadata for Fusion.binned.nonlinear in
+     Gramm_markers
+

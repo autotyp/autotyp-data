@@ -1,0 +1,731 @@
+# ------ VInflAktionsart.Post.Presence ------
+VInflAktionsart.Post.Presence:
+  Description : >
+     Presence of separate markers of "Aktionsart" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflAktionsart.Post.Presence'
+  N.entries : 30
+  N.languages : 29
+  N.missing : 227
+  Notes : >
+     For the definition of "Aktionsart", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflApplicative.Post.Presence ------
+VInflApplicative.Post.Presence:
+  Description : >
+     Presence of separate markers of "Applicative" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflApplicative.Post.Presence'
+  N.entries : 23
+  N.languages : 22
+  N.missing : 234
+  Notes : >
+     For the definition of "Applicative", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflAspect.Post.Presence ------
+VInflAspect.Post.Presence:
+  Description : >
+     Presence of separate markers of "Aspect" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflAspect.Post.Presence'
+  N.entries : 92
+  N.languages : 90
+  N.missing : 165
+  Notes : >
+     For the definition of "Aspect", see the metadata for VInflCat in Synthesis; for the definition of
+     "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflCausative.Post.Presence ------
+VInflCausative.Post.Presence:
+  Description : >
+     Presence of separate markers of "Causative" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflCausative.Post.Presence'
+  N.entries : 41
+  N.languages : 40
+  N.missing : 216
+  Notes : >
+     For the definition of "Causative", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflClassifier.Post.Presence ------
+VInflClassifier.Post.Presence:
+  Description : >
+     Presence of separate markers of "Classifier" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflClassifier.Post.Presence'
+  N.entries : 2
+  N.languages : 2
+  N.missing : 255
+  Notes : >
+     For the definition of "Classifier", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflConnective.Post.Presence ------
+VInflConnective.Post.Presence:
+  Description : >
+     Presence of separate markers of "Connective" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflConnective.Post.Presence'
+  N.entries : 10
+  N.languages : 10
+  N.missing : 247
+  Notes : >
+     For the definition of "Connective", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflConstruct.Post.Presence ------
+VInflConstruct.Post.Presence:
+  Description : >
+     Presence of separate markers of "Construct" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflConstruct.Post.Presence'
+  N.entries : 2
+  N.languages : 2
+  N.missing : 255
+  Notes : >
+     For the definition of "Construct", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflControl.Post.Presence ------
+VInflControl.Post.Presence:
+  Description : >
+     Presence of separate markers of "Control" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflControl.Post.Presence'
+  N.entries : 2
+  N.languages : 2
+  N.missing : 255
+  Notes : >
+     For the definition of "Control", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflDeixis.Post.Presence ------
+VInflDeixis.Post.Presence:
+  Description : >
+     Presence of separate markers of "Deixis" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflDeixis.Post.Presence'
+  N.entries : 35
+  N.languages : 35
+  N.missing : 222
+  Notes : >
+     For the definition of "Deixis", see the metadata for VInflCat in Synthesis; for the definition of
+     "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflVoice.Post.Presence ------
+VInflVoice.Post.Presence:
+  Description : >
+     Presence of separate markers of "Voice" after the stem (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflVoice.Post.Presence'
+  N.entries : 58
+  N.languages : 57
+  N.missing : 199
+  Notes : >
+     For the definition of "Voice", see the metadata for VInflCat in Synthesis; for the definition of
+     "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflFocus.Post.Presence ------
+VInflFocus.Post.Presence:
+  Description : >
+     Presence of separate markers of "Focus" after the stem (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflFocus.Post.Presence'
+  N.entries : 8
+  N.languages : 7
+  N.missing : 249
+  Notes : >
+     For the definition of "Focus", see the metadata for VInflCat in Synthesis; for the definition of
+     "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflPosterior.Post.Presence ------
+VInflPosterior.Post.Presence:
+  Description : >
+     Presence of separate markers of "Posterior" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflPosterior.Post.Presence'
+  N.entries : 5
+  N.languages : 5
+  N.missing : 252
+  Notes : >
+     For the definition of "Future_Posterior", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflGender.Post.Presence ------
+VInflGender.Post.Presence:
+  Description : >
+     Presence of separate markers of "Gender" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflGender.Post.Presence'
+  N.entries : 4
+  N.languages : 4
+  N.missing : 253
+  Notes : >
+     For the definition of "Gender", see the metadata for VInflCat in Synthesis; for the definition of
+     "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflIllocution.Post.Presence ------
+VInflIllocution.Post.Presence:
+  Description : >
+     Presence of separate markers of "Illocution" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflIllocution.Post.Presence'
+  N.entries : 21
+  N.languages : 20
+  N.missing : 236
+  Notes : >
+     For the definition of "Illocution", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflMA.Post.Presence ------
+VInflMA.Post.Presence:
+  Description : >
+     Presence of separate markers of "MA" after the stem (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflMA.Post.Presence'
+  N.entries : 2
+  N.languages : 2
+  N.missing : 255
+  Notes : >
+     For the definition of "MA", see the metadata for VInflCat in Synthesis; for the definition of "after
+     the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflMN.Post.Presence ------
+VInflMN.Post.Presence:
+  Description : >
+     Presence of separate markers of "MN" after the stem (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflMN.Post.Presence'
+  N.entries : 2
+  N.languages : 2
+  N.missing : 255
+  Notes : >
+     For the definition of "MN", see the metadata for VInflCat in Synthesis; for the definition of "after
+     the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflModality.Post.Presence ------
+VInflModality.Post.Presence:
+  Description : >
+     Presence of separate markers of "Modality" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflModality.Post.Presence'
+  N.entries : 10
+  N.languages : 10
+  N.missing : 247
+  Notes : >
+     For the definition of "Modality", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflMood.Post.Presence ------
+VInflMood.Post.Presence:
+  Description : >
+     Presence of separate markers of "Mood" after the stem (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflMood.Post.Presence'
+  N.entries : 53
+  N.languages : 53
+  N.missing : 204
+  Notes : >
+     For the definition of "Mood", see the metadata for VInflCat in Synthesis; for the definition of
+     "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflMotion.Post.Presence ------
+VInflMotion.Post.Presence:
+  Description : >
+     Presence of separate markers of "Motion" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflMotion.Post.Presence'
+  N.entries : 7
+  N.languages : 7
+  N.missing : 250
+  Notes : >
+     For the definition of "Motion", see the metadata for VInflCat in Synthesis; for the definition of
+     "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflMSE.Post.Presence ------
+VInflMSE.Post.Presence:
+  Description : >
+     Presence of separate markers of "MSE" after the stem (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflMSE.Post.Presence'
+  N.entries : 4
+  N.languages : 4
+  N.missing : 253
+  Notes : >
+     For the definition of "MSE", see the metadata for VInflCat in Synthesis; for the definition of "after
+     the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflNominalizer.Post.Presence ------
+VInflNominalizer.Post.Presence:
+  Description : >
+     Presence of separate markers of "Nominalizer" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflNominalizer.Post.Presence'
+  N.entries : 3
+  N.languages : 3
+  N.missing : 254
+  Notes : >
+     For the definition of "Nominalizer", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflNumber.Post.Presence ------
+VInflNumber.Post.Presence:
+  Description : >
+     Presence of separate markers of "Number" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflNumber.Post.Presence'
+  N.entries : 50
+  N.languages : 47
+  N.missing : 207
+  Notes : >
+     For the definition of "Number", see the metadata for VInflCat in Synthesis; for the definition of
+     "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflPerson.Post.Presence ------
+VInflPerson.Post.Presence:
+  Description : >
+     Presence of separate markers of "Person" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflPerson.Post.Presence'
+  N.entries : 6
+  N.languages : 6
+  N.missing : 251
+  Notes : >
+     For the definition of "Person", see the metadata for VInflCat in Synthesis; for the definition of
+     "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflPolarity.Post.Presence ------
+VInflPolarity.Post.Presence:
+  Description : >
+     Presence of separate markers of "Polarity" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflPolarity.Post.Presence'
+  N.entries : 89
+  N.languages : 89
+  N.missing : 168
+  Notes : >
+     For the definition of "Polarity", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflPotentialis.Post.Presence ------
+VInflPotentialis.Post.Presence:
+  Description : >
+     Presence of separate markers of "Potentialis" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflPotentialis.Post.Presence'
+  N.entries : 1
+  N.languages : 1
+  N.missing : 256
+  Notes : >
+     For the definition of "Potentialis", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflQuantificational.Post.Presence ------
+VInflQuantificational.Post.Presence:
+  Description : >
+     Presence of separate markers of "Quantificational" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflQuantificational.Post.Presence'
+  N.entries : 38
+  N.languages : 37
+  N.missing : 219
+  Notes : >
+     For the definition of "Quantificational", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflReflexive_and_Reciprocal.Post.Presence ------
+VInflReflexive_and_Reciprocal.Post.Presence:
+  Description : >
+     Presence of separate markers of "Reflexive_and_Reciprocal" after the stem (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflReflexive_and_Reciprocal.Post.Presence'
+  N.entries : 35
+  N.languages : 35
+  N.missing : 222
+  Notes : >
+     For the definition of "Reflexive_and_Reciprocal", see the metadata for VInflCat in Synthesis; for
+     the definition of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflRECIP.Post.Presence ------
+VInflRECIP.Post.Presence:
+  Description : >
+     Presence of separate markers of "RECIP" after the stem (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflRECIP.Post.Presence'
+  N.entries : 9
+  N.languages : 9
+  N.missing : 248
+  Notes : >
+     For the definition of "RECIP", see the metadata for VInflCat in Synthesis; for the definition of
+     "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflReferential.Post.Presence ------
+VInflReferential.Post.Presence:
+  Description : >
+     Presence of separate markers of "Referential" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflReferential.Post.Presence'
+  N.entries : 7
+  N.languages : 7
+  N.missing : 250
+  Notes : >
+     For the definition of "Referential", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflReflexive.Post.Presence ------
+VInflReflexive.Post.Presence:
+  Description : >
+     Presence of separate markers of "Reflexive" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflReflexive.Post.Presence'
+  N.entries : 13
+  N.languages : 13
+  N.missing : 244
+  Notes : >
+     For the definition of "Reflexive", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflRepetition.Post.Presence ------
+VInflRepetition.Post.Presence:
+  Description : >
+     Presence of separate markers of "Repetition" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflRepetition.Post.Presence'
+  N.entries : 3
+  N.languages : 3
+  N.missing : 254
+  Notes : >
+     For the definition of "Repetition", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflReversative.Post.Presence ------
+VInflReversative.Post.Presence:
+  Description : >
+     Presence of separate markers of "Reversative" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflReversative.Post.Presence'
+  N.entries : 1
+  N.languages : 1
+  N.missing : 256
+  Notes : >
+     For the definition of "Reversative", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflSemistem.Post.Presence ------
+VInflSemistem.Post.Presence:
+  Description : >
+     Presence of separate markers of "Semistem" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflSemistem.Post.Presence'
+  N.entries : 10
+  N.languages : 10
+  N.missing : 247
+  Notes : >
+     For the definition of "Semistem", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflSpatial.Post.Presence ------
+VInflSpatial.Post.Presence:
+  Description : >
+     Presence of separate markers of "Spatial" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflSpatial.Post.Presence'
+  N.entries : 5
+  N.languages : 5
+  N.missing : 252
+  Notes : >
+     For the definition of "Spatial", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflStatus.Post.Presence ------
+VInflStatus.Post.Presence:
+  Description : >
+     Presence of separate markers of "Status" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflStatus.Post.Presence'
+  N.entries : 22
+  N.languages : 21
+  N.missing : 235
+  Notes : >
+     For the definition of "Status", see the metadata for VInflCat in Synthesis; for the definition of
+     "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflSwitch_reference.Post.Presence ------
+VInflSwitch_reference.Post.Presence:
+  Description : >
+     Presence of separate markers of "Switch_reference" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflSwitch_reference.Post.Presence'
+  N.entries : 5
+  N.languages : 5
+  N.missing : 252
+  Notes : >
+     For the definition of "Switch_reference", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflTense_and_Evidential.Post.Presence ------
+VInflTense_and_Evidential.Post.Presence:
+  Description : >
+     Presence of separate markers of "Tense_and_Evidential" after the stem (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflTense_and_Evidential.Post.Presence'
+  N.entries : 5
+  N.languages : 5
+  N.missing : 252
+  Notes : >
+     For the definition of "Tense_and_Evidential", see the metadata for VInflCat in Synthesis; for the
+     definition of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflTA.Post.Presence ------
+VInflTA.Post.Presence:
+  Description : >
+     Presence of separate markers of "TA" after the stem (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflTA.Post.Presence'
+  N.entries : 25
+  N.languages : 23
+  N.missing : 232
+  Notes : >
+     For the definition of "TA", see the metadata for VInflCat in Synthesis; for the definition of "after
+     the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflTAM.Post.Presence ------
+VInflTAM.Post.Presence:
+  Description : >
+     Presence of separate markers of "TAM" after the stem (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflTAM.Post.Presence'
+  N.entries : 91
+  N.languages : 85
+  N.missing : 166
+  Notes : >
+     For the definition of "TAM", see the metadata for VInflCat in Synthesis; for the definition of "after
+     the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflTense.Post.Presence ------
+VInflTense.Post.Presence:
+  Description : >
+     Presence of separate markers of "Tense" after the stem (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflTense.Post.Presence'
+  N.entries : 80
+  N.languages : 77
+  N.missing : 177
+  Notes : >
+     For the definition of "Tense", see the metadata for VInflCat in Synthesis; for the definition of
+     "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflTM.Post.Presence ------
+VInflTM.Post.Presence:
+  Description : >
+     Presence of separate markers of "TM" after the stem (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflTM.Post.Presence'
+  N.entries : 23
+  N.languages : 23
+  N.missing : 234
+  Notes : >
+     For the definition of "TM", see the metadata for VInflCat in Synthesis; for the definition of "after
+     the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflValence.Post.Presence ------
+VInflValence.Post.Presence:
+  Description : >
+     Presence of separate markers of inflectional category "Valence" after the stem (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflValence.Post.Presence'
+  N.entries : 6
+  N.languages : 6
+  N.missing : 251
+  Notes : >
+     For the definition of "Valence", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+
+# ------ VInflVersion.Post.Presence ------
+VInflVersion.Post.Presence:
+  Description : >
+     Presence of separate markers of "Version" after the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflVersion.Post.Presence'
+  N.entries : 3
+  N.languages : 3
+  N.missing : 254
+  Notes : >
+     For the definition of "Version", see the metadata for VInflCat in Synthesis; for the definition
+     of "after the stem", see the metadata for Position.binned.post in Gramm_markers
+

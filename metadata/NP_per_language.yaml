@@ -1,0 +1,129 @@
+# ------ AdjAttrAgr.Presence ------
+AdjAttrAgr.Presence:
+  Description : >
+     Adjective attribution with some kind of agreement (on the head or dependent or both) (see Riessler
+     2016, Adjective Attribution, Language Sciences Press)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPAgr.Presence'
+  N.entries : 485
+  N.languages : 485
+  N.missing : 0
+  Notes : >
+     For the definition of 'agreement', see the metadata for 'NPMarking.binned4' in NP_structure
+
+# ------ AdjAttrConstr.Presence ------
+AdjAttrConstr.Presence:
+  Description : >
+     Adjective attribution with some kind of (anti-)construct marker on the head or dependent, i.e. a
+     marker which signals the dependency of an embedded element and the head but results neither from
+     agreement nor from case assignment (e.g. part of speech markers, attributive particles, linkers,
+     construct markers etc.) (see Riessler 2016, Adjective Attribution, Language Sciences Press)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPConstr.Presence'
+  N.entries : 485
+  N.languages : 485
+  N.missing : 0
+  Notes : >
+     For the definition of 'construct', see the metadata for 'NPMarking.binned4' in NP_structure
+
+# ------ AdjAttrGvt.Presence ------
+AdjAttrGvt.Presence:
+  Description : >
+     Adjective attribution with some kind of marker which is governed/assigned by the head (see Riessler
+     2016, Adjective Attribution, Language Sciences Press)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPGvt.Presence'
+  N.entries : 485
+  N.languages : 485
+  N.missing : 0
+  Notes : >
+     For the definition of 'government', see the metadata for 'NPMarking.binned4' in NP_structure
+
+# ------ AdjAttrMarking.overt.Presence ------
+AdjAttrMarking.overt.Presence:
+  Description : >
+     Adjective attribution with some overt marking
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarking.overt'
+  N.entries : 485
+  N.languages : 485
+  N.missing : 0
+  Notes : >
+     For the definition of 'overt', see the metadata for 'NPMarking.binned.overt' in NP_structure
+
+# ------ NPAgr.Presence ------
+NPAgr.Presence:
+  Description : >
+     NP with some kind of agreement (on the head or dependent or both)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPAgr.Presence'
+  N.entries : 485
+  N.languages : 485
+  N.missing : 0
+  Notes : >
+     For the definition of 'agreement', see the metadata for 'NPMarking.binned4' in NP_structure
+
+# ------ NPConstr.Presence ------
+NPConstr.Presence:
+  Description : >
+     NP with some kind of (anti-)construct marker on the head or on the dependent, i.e. a marker which
+     signals the dependency of an embedded element and the head but results neither from agreement nor
+     from case assignment (e.g. part of speech markers, attributive particles, linkers, construct markers
+     etc.) (see Riessler 2011, Diss. U. Leipzig)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPConstr.Presence'
+  N.entries : 485
+  N.languages : 485
+  N.missing : 0
+  Notes : >
+     For the definition of 'construct', see the metadata for 'NPMarking.binned4' in NP_structure
+
+# ------ NPGvt.Presence ------
+NPGvt.Presence:
+  Description : >
+     NPs with some marker(s) governed/assigned by the head (see Riessler 2016, Adjective Attribution,
+     Language Sciences Press)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPGvt.Presence'
+  N.entries : 485
+  N.languages : 485
+  N.missing : 0
+  Notes : >
+     For the definition of 'government', see the metadata for 'NPMarking.binned4' in NP_structure
+
+# ------ NPMarking.overt.Presence ------
+NPMarking.overt.Presence:
+  Description : >
+     NPs with some overt marking of the dependency relation
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPMarking.overt'
+  N.entries : 485
+  N.languages : 485
+  N.missing : 0
+  Notes : >
+     For the definition of 'overt', see the metadata for 'NPMarking.binned.overt' in NP_structure
+

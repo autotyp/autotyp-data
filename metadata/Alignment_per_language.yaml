@@ -1,0 +1,410 @@
+# ------ AlignmentAgrAccDegree.binned3 ------
+AlignmentAgrAccDegree.binned3:
+  Description : >
+     Proportion of S≠P alignments among all conditions for agreement, binned into three 1/3 categories
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'AlignmentSAPTG'
+  N.levels : 3 # low,high,NA,medium
+  N.entries : 328
+  N.languages : 328
+  N.missing : 361
+
+# ------ AlignmentAgrAccDegree ------
+AlignmentAgrAccDegree:
+  Description : >
+     Proportion of S≠P alignments among all conditions for agreement (based on which arguments trigger
+     agreement vs do not trigger agreement, not based on morphological shape of markers)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'ratio'
+  VariantOf : 'AlignmentSAPTG'
+  N.entries : 328
+  N.languages : 328
+  N.missing : 361
+
+# ------ AlignmentAgrDominantPTG ------
+AlignmentAgrDominantPTG:
+  Description : >
+     The most common alignment of P, T, and G (as defined in Bickel et al. 2014 in Studies in Language)
+     among all conditions ('mixed' if there is a tie) in agreement (based on which arguments trigger
+     agreement vs do not trigger agreement, not based on morphological shape of markers)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'AlignmentSAPTG'
+  N.levels : 5
+  N.entries : 179
+  N.languages : 179
+  N.missing : 510
+
+# ------ AlignmentAgrDominantSAP ------
+AlignmentAgrDominantSAP:
+  Description : >
+     The most common alignment of S, A, and P (as defined in Bickel et al. 2014 in Studies in Language)
+     among all conditions ('mixed' if there is a tie) in agreement (based on which arguments trigger
+     agreement vs do not trigger agreement, not based on morphological shape of markers)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'AlignmentSAPTG'
+  N.levels : 5
+  N.entries : 328
+  N.languages : 328
+  N.missing : 361
+
+# ------ AlignmentAgrDominantSAPTG ------
+AlignmentAgrDominantSAPTG:
+  Description : >
+     The most common alignment of S, A, P, T, and G (as defined in Bickel et al. 2014 in Studies in Language)
+     among all conditions ('mixed' if there is a tie) in agreement (based on which arguments trigger
+     agreement vs do not trigger agreement, not based on morphological shape of markers)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'AlignmentSAPTG'
+  N.levels : 13
+  N.entries : 179
+  N.languages : 179
+  N.missing : 510
+
+# ------ AlignmentAgrErgDegree.binned3 ------
+AlignmentAgrErgDegree.binned3:
+  Description : >
+     Proportion of S≠A alignments among all conditions for agreement, binned into three 1/3 categories
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'AlignmentSAPTG'
+  N.levels : 3 # low,NA,high,medium
+  N.entries : 328
+  N.languages : 328
+  N.missing : 361
+
+# ------ AlignmentAgrErgDegree ------
+AlignmentAgrErgDegree:
+  Description : >
+     Proportion of S≠A alignments among all conditions for agreement (based on which arguments trigger
+     agreement vs do not trigger agreement, not based on morphological shape of markers)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'ratio'
+  VariantOf : 'AlignmentSAPTG'
+  N.entries : 328
+  N.languages : 328
+  N.missing : 361
+
+# ------ AlignmentCaseAccDegree.binned3 ------
+AlignmentCaseAccDegree.binned3:
+  Description : >
+     Proportion of S≠P alignments among all conditions for case, binned into three 1/3 categories
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'AlignmentSAPTG'
+  N.levels : 3 # low,high,medium,NA
+  N.entries : 646
+  N.languages : 646
+  N.missing : 43
+
+# ------ AlignmentCaseAccDegree ------
+AlignmentCaseAccDegree:
+  Description : >
+     Proportion of S≠P alignments among all conditions for case
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'ratio'
+  VariantOf : 'AlignmentSAPTG'
+  N.entries : 646
+  N.languages : 646
+  N.missing : 43
+
+# ------ AlignmentCaseDominantPTG ------
+AlignmentCaseDominantPTG:
+  Description : >
+     The most common alignment of P, T, and G (as defined in Bickel et al. 2014 in Studies in Language)
+     among all conditions ('mixed' if there is a tie) in case marking
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'AlignmentSAPTG'
+  N.levels : 5
+  N.entries : 353
+  N.languages : 353
+  N.missing : 336
+
+# ------ AlignmentCaseDominantSAP ------
+AlignmentCaseDominantSAP:
+  Description : >
+     The most common alignment of S, A, and P (as defined in Bickel et al. 2014 in Studies in Language)
+     among all conditions ('mixed' if there is a tie) in case marking
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'AlignmentSAPTG'
+  N.levels : 5
+  N.entries : 646
+  N.languages : 646
+  N.missing : 43
+
+# ------ AlignmentCaseDominantSAPTG ------
+AlignmentCaseDominantSAPTG:
+  Description : >
+     The most common alignment of S, A, P, T, and G (as defined in Bickel et al. 2014 in Studies in Language)
+     among all conditions ('mixed' if there is a tie) in case marking
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'AlignmentSAPTG'
+  N.levels : 15
+  N.entries : 353
+  N.languages : 353
+  N.missing : 336
+
+# ------ AlignmentCaseErgDegree.binned3 ------
+AlignmentCaseErgDegree.binned3:
+  Description : >
+     Proportion of S≠A alignments among all conditions for case, binned into three 1/3 categories
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'AlignmentSAPTG'
+  N.levels : 3 # low,NA,high,medium
+  N.entries : 646
+  N.languages : 646
+  N.missing : 43
+
+# ------ AlignmentCaseErgDegree ------
+AlignmentCaseErgDegree:
+  Description : >
+     Proportion of S≠A alignments among all conditions for case
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'ratio'
+  VariantOf : 'AlignmentSAPTG'
+  N.entries : 646
+  N.languages : 646
+  N.missing : 43
+
+# ------ AlignmentCaseDominantLexSAP ------
+AlignmentCaseDominantLexSAP:
+  Description : >
+     The dominant alignment of S, A, and P (as defined in Bickel et al. 2014 in Studies in Language)
+     for case marking on lexical arguments, following Comrie's (2005 in WALS) procedure for determining
+     what is dominant
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'AlignmentSAPTG'
+  N.levels : 3 # NA,accusative,ergative,tripartite
+  N.entries : 308
+  N.languages : 308
+  N.missing : 381
+
+# ------ AlignmentCaseDominantProSAP ------
+AlignmentCaseDominantProSAP:
+  Description : >
+     The dominant alignment of S, A, and P (as defined in Bickel et al. 2014 in Studies in Language)
+     for case marking on pronominal arguments, following Comrie's (2005 in WALS) procedure for determining
+     what is dominant
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'AlignmentSAPTG'
+  N.levels : 3 # NA,accusative,ergative,tripartite
+  N.entries : 384
+  N.languages : 384
+  N.missing : 305
+
+# ------ CaseSplitByPolarity.Presence ------
+CaseSplitByPolarity.Presence:
+  Description : >
+     Case marking split by polarity conditions
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'CaseSplitByPolarity.Presence'
+  N.entries : 646
+  N.languages : 646
+  N.missing : 43
+
+# ------ AgrSplitByRef.Presence ------
+AgrSplitByRef.Presence:
+  Description : >
+     Agreement syntax split by referential or parts of speech category conditions
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'AgrSplitByRef.Presence'
+  N.entries : 646
+  N.languages : 646
+  N.missing : 43
+
+# ------ CaseSplitByRef.Presence ------
+CaseSplitByRef.Presence:
+  Description : >
+     Case marking split by referential or part-of-speech category conditions
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'CaseSplitByRef.Presence'
+  N.entries : 646
+  N.languages : 646
+  N.missing : 43
+
+# ------ AgrSplitByValClass.Presence ------
+AgrSplitByValClass.Presence:
+  Description : >
+     Agreement syntax split by lexical valence class conditions
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'AgrSplitByValClass.Presence'
+  N.entries : 646
+  N.languages : 646
+  N.missing : 43
+
+# ------ CaseSplitByValClass.Presence ------
+CaseSplitByValClass.Presence:
+  Description : >
+     Case marking split by lexical valence class conditions
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'CaseSplitByValClass.Presence'
+  N.entries : 646
+  N.languages : 646
+  N.missing : 43
+
+# ------ AgrSplitByRank.Presence ------
+AgrSplitByRank.Presence:
+  Description : >
+     Agreement syntax split by clause rank (main, dependent etc.) conditions
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'AgrSplitByRank.Presence'
+  N.entries : 646
+  N.languages : 646
+  N.missing : 43
+
+# ------ CaseSplitByRank.Presence ------
+CaseSplitByRank.Presence:
+  Description : >
+     Case marking split by clause rank (main, dependent etc.) conditions
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'CaseSplitByRank.Presence'
+  N.entries : 646
+  N.languages : 646
+  N.missing : 43
+
+# ------ AgrSplitByCat.Presence ------
+AgrSplitByCat.Presence:
+  Description : >
+     Agreement syntax split by verbal category (TAM, forms etc.) conditions
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'AgrSplitByCat.Presence'
+  N.entries : 646
+  N.languages : 646
+  N.missing : 43
+
+# ------ CaseSplitByCat.Presence ------
+CaseSplitByCat.Presence:
+  Description : >
+     Case marking split by verbal category (TAM, forms etc.) conditions
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'CaseSplitByCat.Presence'
+  N.entries : 646
+  N.languages : 646
+  N.missing : 43
+
+# ------ AlignmentAgrMarkerAccDegree ------
+AlignmentAgrMarkerAccDegree:
+  Description : >
+     Proportion of S≠P alignments among all conditions for agreement (based on morphological shape of
+     markers)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'ratio'
+  VariantOf : 'AlignmentSAPTG'
+  N.entries : 160
+  N.languages : 160
+  N.missing : 529
+
+# ------ AlignmentAgrMarkerDominantSAP ------
+AlignmentAgrMarkerDominantSAP:
+  Description : >
+     The most common alignment of S, A, and P (as defined in Bickel et al. 2014 in Studies in Language)
+     among all conditions ('mixed' if there is a tie) in agreement (based on morphological shape of markers)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'AlignmentSAPTG'
+  N.levels : 4
+  N.entries : 160
+  N.languages : 160
+  N.missing : 529
+
+# ------ AlignmentAgrMarkerErgDegree.binned3 ------
+AlignmentAgrMarkerErgDegree.binned3:
+  Description : >
+     Proportion of S≠A alignments among all conditions for agreement (based on morphological shape of
+     markers), binned into three categories (1/3 each)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'AlignmentSAPTG'
+  N.levels : 3 # NA,low,medium,high
+  N.entries : 160
+  N.languages : 160
+  N.missing : 529
+
+# ------ AlignmentAgrMarkerErgDegree ------
+AlignmentAgrMarkerErgDegree:
+  Description : >
+     Proportion of S≠A alignments among all conditions for agreement (based on morphological shape of
+     markers)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'ratio'
+  VariantOf : 'AlignmentSAPTG'
+  N.entries : 160
+  N.languages : 160
+  N.missing : 529
+

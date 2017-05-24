@@ -1,0 +1,190 @@
+# ------ VAgreement.Presence.v2 ------
+VAgreement.Presence.v2:
+  Description : >
+     Some kind of verb agreement (including pronominal/anaphoric agreement), based on our records in
+     the Synthesis, Locus and Grammatical Relations modules
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VAgreement.Presence'
+  N.entries : 791
+  N.languages : 790
+  N.missing : 142
+
+# ------ Flexivity.Presence ------
+Flexivity.Presence:
+  Description : >
+     Some kind of flexivity in any part of morphology, i.e. some kind of allomorphy in stems and/or affixes,
+     lexically or grammatically conditioned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'Flexivity.Presence'
+  N.entries : 627
+  N.languages : 626
+  N.missing : 306
+
+# ------ FlexivityLexical.Presence ------
+FlexivityLexical.Presence:
+  Description : >
+     Some kind of lexical flexivity in any morphology, i.e. some kind of lexically conditioned allomorphy
+     in stems and/or affixes anywhere nominal or verbal morphology
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'FlexivityLexical.Presence'
+  N.entries : 587
+  N.languages : 586
+  N.missing : 346
+  Notes : >
+     For the definition of 'lexical', see the metadata for FlexivityStem and FlexivityFormative in Gramm_markers
+
+# ------ Polyexponence.Presence ------
+Polyexponence.Presence:
+  Description : >
+     Some kind of polyexponence somewhere in nominal or verbal morphology: whether or not markers express
+     more than one category
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'Polyexponence.Presence'
+  N.entries : 765
+  N.languages : 764
+  N.missing : 168
+
+# ------ FlexivityNoun.Presence ------
+FlexivityNoun.Presence:
+  Description : >
+     Some kind of flexivity in nominal morphology (case, possession, number etc), i.e. some kind of allomorphy
+     in stems and/or affixes, lexically or grammatically conditioned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'FlexivityNoun.Presence'
+  N.entries : 322
+  N.languages : 321
+  N.missing : 611
+  Notes : >
+     For the definition of 'nominal', see the metadata for 'Domain' in Gramm_markers; for the definition
+     of 'lexical', see the metadata for FlexivityStem and FlexivityFormative in Gramm_markers
+
+# ------ FlexivityVerb.Presence ------
+FlexivityVerb.Presence:
+  Description : >
+     Some kind of flexivity in verbal morphology (tense, agreement etc.), i.e. some kind of allomorphy
+     in stems and/or affixes, lexically or grammatically conditioned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'FlexivityVerb.Presence'
+  N.entries : 369
+  N.languages : 368
+  N.missing : 564
+  Notes : >
+     For the definition of 'verbal', see the metadata for 'Domain' in Gramm_markers; for the definition
+     of 'lexical', see the metadata for FlexivityStem and FlexivityFormative in Gramm_markers
+
+# ------ FlexivityLexicalNoun.Presence ------
+FlexivityLexicalNoun.Presence:
+  Description : >
+     Some kind of lexical flexivity in nominal morphology, also known as declension classes (but including
+     possessive markers), i.e. some kind of lexically conditioned allomorphy in stems and/or affixes
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'FlexivityLexicalNoun.Presence'
+  N.entries : 411
+  N.languages : 410
+  N.missing : 522
+  Notes : >
+     For the definition of 'nominal', see the metadata for 'Domain' in Gramm_markers; for the definition
+     of 'lexical', see the metadata for FlexivityStem and FlexivityFormative in Gramm_markers
+
+# ------ FlexivityLexicalVerb.Presence ------
+FlexivityLexicalVerb.Presence:
+  Description : >
+     Some kind of lexical flexivity in verbal morphology, also known as conjugation classes, i.e. some
+     kind of lexically conditioned allomorphy in stems and/or affixes
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'FlexivityLexicalVerb.Presence'
+  N.entries : 366
+  N.languages : 365
+  N.missing : 567
+  Notes : >
+     For the definition of 'verbal', see the metadata for 'Domain' in Gramm_markers; for the definition
+     of 'lexical', see the metadata for FlexivityStem and FlexivityFormative in Gramm_markers
+
+# ------ PolyexponenceNoun.Presence ------
+PolyexponenceNoun.Presence:
+  Description : >
+     Some kind of polyexponence somewhere in nominal morphology: whether or not markers express more
+     than one category
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PolyexponenceNoun.Presence'
+  N.entries : 436
+  N.languages : 435
+  N.missing : 497
+  Notes : >
+     For the definition of 'nominal', see the metadata for 'Domain' in Gramm_markers
+
+# ------ PolyexponenceVerb.Presence ------
+PolyexponenceVerb.Presence:
+  Description : >
+     Some kind of polyexponence somewhere in verbal morphology: whether or not markers express more than
+     one category
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PolyexponenceVerb.Presence'
+  N.entries : 428
+  N.languages : 427
+  N.missing : 505
+  Notes : >
+     For the definition of 'verbal', see the metadata for 'Domain' in Gramm_markers
+
+# ------ SlotsWithZerosPost.n ------
+SlotsWithZerosPost.n:
+  Description : >
+     Number of slots in verbal post-stem morphology where one or more overt markers are in opposition
+     to markers with zero exponence
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'ratio'
+  VariantOf : 'SlotsWithZerosPost.n'
+  N.entries : 105
+  N.languages : 105
+  N.missing : 828
+  Notes : >
+     For the definition of 'post-stem', see the metadata for 'Position.binned5' in 'Gramm_markers'
+
+# ------ SlotsWithZerosPrae.n ------
+SlotsWithZerosPrae.n:
+  Description : >
+     Number of slots in verbal pre-stem morphology where one or more overt markers are in opposition
+     to markers with zero exponence
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'ratio'
+  VariantOf : 'SlotsWithZerosPrae.n'
+  N.entries : 77
+  N.languages : 77
+  N.missing : 856
+  Notes : >
+     For the definition of 'pre-stem', see the metadata for 'Position.binned5' in 'Gramm_markers'
+

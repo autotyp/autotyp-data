@@ -1,0 +1,357 @@
+# ------ VInflClassification.Position ------
+VInflClassification.Position:
+  Description : >
+     Position of separate markers of macrocategory "classification' (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflClassification.Position'
+  N.levels : 2
+  N.entries : 6
+  N.languages : 6
+  N.missing : 317
+  Levels : 
+    'prae' : >
+       before the phonological host
+    'post' : >
+       after the phonological host
+  Notes : >
+     For the definition of macrocategory "classification", see the metadata for VInflCat in Synthesis
+
+# ------ VInflEvidential.Position ------
+VInflEvidential.Position:
+  Description : >
+     Position of separate markers of macrocategory "evidential' (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflEvidential.Position'
+  N.levels : 1
+  N.entries : 22
+  N.languages : 22
+  N.missing : 301
+  Levels : 
+    'post' : >
+       after the phonological host
+  Notes : >
+     For the definition of macrocategory "evidential", see the metadata for VInflCat in Synthesis
+
+# ------ VInflInter_clausal.Position ------
+VInflInter_clausal.Position:
+  Description : >
+     Position of separate markers of macrocategory "inter_clausal' (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflInter_clausal.Position'
+  N.levels : 3
+  N.entries : 15
+  N.languages : 15
+  N.missing : 308
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+  Notes : >
+     For the definition of macrocategory "inter_clausal", see the metadata for VInflCat in Synthesis
+
+# ------ VInflNP_related.Position ------
+VInflNP_related.Position:
+  Description : >
+     Position of separate markers of macrocategory "NP_related' (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflNP_related.Position'
+  N.levels : 2
+  N.entries : 5
+  N.languages : 5
+  N.missing : 318
+  Levels : 
+    'prae' : >
+       before the phonological host
+    'post' : >
+       after the phonological host
+  Notes : >
+     For the definition of macrocategory "NP_related", see the metadata for VInflCat in Synthesis
+
+# ------ VInflNumber.Position ------
+VInflNumber.Position:
+  Description : >
+     Position of separate markers of macrocategory "number' (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflNumber.Position'
+  N.levels : 8
+  N.entries : 96
+  N.languages : 87
+  N.missing : 227
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+    'prae/in/post' : >
+       either before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'in' : >
+       inside the phonological host
+    'in/prae' : >
+       either inside or before the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'in/post' : >
+       either inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'prae/post/circum' : >
+       either before, after or around the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+  Notes : >
+     For the definition of macrocategory "number", see the metadata for VInflCat in Synthesis
+
+# ------ VInflOperators.Position ------
+VInflOperators.Position:
+  Description : >
+     Position of separate markers of macrocategory "operators' (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflOperators.Position'
+  N.levels : 12
+  N.entries : 91
+  N.languages : 91
+  N.missing : 232
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+    'circum' : >
+       the formative has two exponents, one before and one after the phonological host. This is a special
+       case of the “simul” position
+    'in/prae' : >
+       either inside or before the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'post (prae)' : >
+       after the phonological host by default, before the host under exceptional conditions (typically
+       lexical)
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'simul (prae)' : >
+       in two or more different positions in (but not around) the phonological host by default, before
+       the host under exceptional conditions (typically lexical)
+    'simul' : >
+       the formative has two exponents at different positions in the phonological host (but it is not
+       the case that one is positioned before and the other after the host, which is coded as “circum”)
+    'not applicable' : >
+       not applicable because an element’s position is defined only with respect to grammatical words
+    'post/circum' : >
+       either after or around the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'in' : >
+       inside the phonological host
+    'prae/post/in/circum' : >
+       either before, after, inside or around the phonological host, conditioned by some structural context
+       (category, syntax etc.)
+  Notes : >
+     For the definition of macrocategory "operators", see the metadata for VInflCat in Synthesis
+
+# ------ VInflPerson.Position ------
+VInflPerson.Position:
+  Description : >
+     Position of separate markers of macrocategory "person' (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflPerson.Position'
+  N.levels : 2
+  N.entries : 6
+  N.languages : 6
+  N.missing : 317
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+  Notes : >
+     For the definition of macrocategory "person", see the metadata for VInflCat in Synthesis
+
+# ------ VInflPragmatic.Position ------
+VInflPragmatic.Position:
+  Description : >
+     Position of separate markers of macrocategory "pragmatic' (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflPragmatic.Position'
+  N.levels : 3
+  N.entries : 49
+  N.languages : 46
+  N.missing : 274
+  Levels : 
+    'prae' : >
+       before the phonological host
+    'post' : >
+       after the phonological host
+    'Wackernagel' : >
+       DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) -- see log 77
+  Notes : >
+     For the definition of macrocategory "pragmatic", see the metadata for VInflCat in Synthesis
+
+# ------ VInflPragmatics.Position ------
+VInflPragmatics.Position:
+  Description : >
+     Position of separate markers of macrocategory "pragmatics' (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflPragmatics.Position'
+  N.levels : 2
+  N.entries : 7
+  N.languages : 7
+  N.missing : 316
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+  Notes : >
+     For the definition of macrocategory "pragmatics", see the metadata for VInflCat in Synthesis
+
+# ------ VInflRole.Position ------
+VInflRole.Position:
+  Description : >
+     Position of separate markers of macrocategory "role' (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflRole.Position'
+  N.levels : 1
+  N.entries : 2
+  N.languages : 2
+  N.missing : 321
+  Levels : 
+    'post' : >
+       after the phonological host
+  Notes : >
+     For the definition of macrocategory "role", see the metadata for VInflCat in Synthesis
+
+# ------ VInflTAM.Position ------
+VInflTAM.Position:
+  Description : >
+     Position of separate markers of macrocategory "TAM' (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflTAM.Position'
+  N.levels : 14
+  N.entries : 298
+  N.languages : 227
+  N.missing : 25
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'prae' : >
+       before the phonological host
+    'in' : >
+       inside the phonological host
+    'Wackernagel' : >
+       DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) -- see log 77
+    'circum' : >
+       the formative has two exponents, one before and one after the phonological host. This is a special
+       case of the “simul” position
+    'post/circum' : >
+       either after or around the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'post (in)' : >
+       after the phonological host by default, inside the host under exceptional conditions (typically
+       lexical)
+    'not applicable' : >
+       not applicable because an element’s position is defined only with respect to grammatical words
+    'in/prae' : >
+       either inside or before the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'in/post' : >
+       either inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'post (prae)' : >
+       after the phonological host by default, before the host under exceptional conditions (typically
+       lexical)
+    'circum (post)' : >
+       around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)
+    'prae/in/post' : >
+       either before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+  Notes : >
+     For the definition of macrocategory "TAM", see the metadata for VInflCat in Synthesis
+
+# ------ VInflValence.Position ------
+VInflValence.Position:
+  Description : >
+     Position of separate markers of macrocategory "valence' (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflValence.Position'
+  N.levels : 7
+  N.entries : 143
+  N.languages : 124
+  N.missing : 180
+  Levels : 
+    'prae' : >
+       before the phonological host
+    'post' : >
+       after the phonological host
+    'in/prae' : >
+       either inside or before the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'in' : >
+       inside the phonological host
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'prae (post)' : >
+       before the phonological host by default, after the host under exceptional conditions (typically
+       lexical)
+    'in/post' : >
+       either inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+  Notes : >
+     For the definition of macrocategory "valence", see the metadata for VInflCat in Synthesis
+

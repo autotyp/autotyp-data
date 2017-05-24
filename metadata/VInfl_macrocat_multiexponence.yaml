@@ -1,0 +1,211 @@
+# ------ VInflClassification.Pre.Presence ------
+VInflClassification.Pre.Presence:
+  Description : >
+     Presence of multiple (distributed, simultaneous) exponence of separately marked macrocategory "classification"
+     (cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflClassification.Pre.Presence'
+  N.entries : 6
+  N.languages : 6
+  N.missing : 237
+  Notes : >
+     For the definition of macrocategory "classification", see the metadata for VInflCat in Synthesis;
+     for the definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1
+     in Gramm_markers
+
+# ------ VInflEvidential.Pre.Presence ------
+VInflEvidential.Pre.Presence:
+  Description : >
+     Presence of multiple (distributed, simultaneous) exponence of separately marked macrocategory "evidential"
+     (cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflEvidential.Pre.Presence'
+  N.entries : 22
+  N.languages : 22
+  N.missing : 221
+  Notes : >
+     For the definition of macrocategory "evidential", see the metadata for VInflCat in Synthesis; for
+     the definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in
+     Gramm_markers
+
+# ------ VInflInter_clausal.Pre.Presence ------
+VInflInter_clausal.Pre.Presence:
+  Description : >
+     Presence of multiple (distributed, simultaneous) exponence of separately marked macrocategory "inter_clausal"
+     (cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflInter_clausal.Pre.Presence'
+  N.entries : 15
+  N.languages : 15
+  N.missing : 228
+  Notes : >
+     For the definition of macrocategory "inter_clausal", see the metadata for VInflCat in Synthesis;
+     for the definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1
+     in Gramm_markers
+
+# ------ VInflNP_related.Pre.Presence ------
+VInflNP_related.Pre.Presence:
+  Description : >
+     Presence of multiple (distributed, simultaneous) exponence of separately marked macrocategory "NP_related"
+     (cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflNP_related.Pre.Presence'
+  N.entries : 5
+  N.languages : 5
+  N.missing : 238
+  Notes : >
+     For the definition of macrocategory "NP_related", see the metadata for VInflCat in Synthesis; for
+     the definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in
+     Gramm_markers
+
+# ------ VInflNumber.Pre.Presence ------
+VInflNumber.Pre.Presence:
+  Description : >
+     Presence of multiple (distributed, simultaneous) exponence of separately marked macrocategory "number"
+     (cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflNumber.Pre.Presence'
+  N.entries : 88
+  N.languages : 87
+  N.missing : 155
+  Notes : >
+     For the definition of macrocategory "number", see the metadata for VInflCat in Synthesis; for the
+     definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
+
+# ------ VInflOperators.Pre.Presence ------
+VInflOperators.Pre.Presence:
+  Description : >
+     Presence of multiple (distributed, simultaneous) exponence of separately marked macrocategory "operators"
+     (cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflOperators.Pre.Presence'
+  N.entries : 90
+  N.languages : 90
+  N.missing : 153
+  Notes : >
+     For the definition of macrocategory "operators", see the metadata for VInflCat in Synthesis; for
+     the definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in
+     Gramm_markers
+
+# ------ VInflPerson.Pre.Presence ------
+VInflPerson.Pre.Presence:
+  Description : >
+     Presence of multiple (distributed, simultaneous) exponence of separately marked macrocategory "person"
+     (cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflPerson.Pre.Presence'
+  N.entries : 6
+  N.languages : 6
+  N.missing : 237
+  Notes : >
+     For the definition of macrocategory "person", see the metadata for VInflCat in Synthesis; for the
+     definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
+
+# ------ VInflPragmatic.Pre.Presence ------
+VInflPragmatic.Pre.Presence:
+  Description : >
+     Presence of multiple (distributed, simultaneous) exponence of separately marked macrocategory "pragmatic"
+     (cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflPragmatic.Pre.Presence'
+  N.entries : 46
+  N.languages : 46
+  N.missing : 197
+  Notes : >
+     For the definition of macrocategory "pragmatic", see the metadata for VInflCat in Synthesis; for
+     the definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in
+     Gramm_markers
+
+# ------ VInflPragmatics.Pre.Presence ------
+VInflPragmatics.Pre.Presence:
+  Description : >
+     Presence of multiple (distributed, simultaneous) exponence of separately marked macrocategory "pragmatics"
+     (cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflPragmatics.Pre.Presence'
+  N.entries : 7
+  N.languages : 7
+  N.missing : 236
+  Notes : >
+     For the definition of macrocategory "pragmatics", see the metadata for VInflCat in Synthesis; for
+     the definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in
+     Gramm_markers
+
+# ------ VInflRole.Pre.Presence ------
+VInflRole.Pre.Presence:
+  Description : >
+     Presence of multiple (distributed, simultaneous) exponence of separately marked macrocategory "role"
+     (cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflRole.Pre.Presence'
+  N.entries : 2
+  N.languages : 2
+  N.missing : 241
+  Notes : >
+     For the definition of macrocategory "role", see the metadata for VInflCat in Synthesis; for the
+     definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
+
+# ------ VInflTAM.Pre.Presence ------
+VInflTAM.Pre.Presence:
+  Description : >
+     Presence of multiple (distributed, simultaneous) exponence of separately marked macrocategory "TAM"
+     (cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflTAM.Pre.Presence'
+  N.entries : 230
+  N.languages : 227
+  N.missing : 13
+  Notes : >
+     For the definition of macrocategory "TAM", see the metadata for VInflCat in Synthesis; for the definition
+     of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
+
+# ------ VInflValence.Pre.Presence ------
+VInflValence.Pre.Presence:
+  Description : >
+     Presence of multiple (distributed, simultaneous) exponence of separately marked macrocategory "valence"
+     (cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflValence.Pre.Presence'
+  N.entries : 124
+  N.languages : 124
+  N.missing : 119
+  Notes : >
+     For the definition of macrocategory "valence", see the metadata for VInflCat in Synthesis; for the
+     definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
+

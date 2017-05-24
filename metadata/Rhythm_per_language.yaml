@@ -1,0 +1,14 @@
+# ------ RhythmType ------
+RhythmType:
+  Description : >
+     Rhythm typology, as defined in Schiering et al. 2012 in Language Typology and Universals 65, 157-168
+  SetUp : 'single entry per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'RhythmType'
+  N.levels : 5
+  N.entries : 70
+  N.languages : 70
+  N.missing : 2
+

@@ -1,0 +1,1078 @@
+# ------ VInflAktionsart.Position ------
+VInflAktionsart.Position:
+  Description : >
+     Position of separate markers of "Aktionsart'(cf. Bickel & Nichols 2005 Inflectional Synthesis of
+     the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflAktionsart.Position'
+  N.levels : 3
+  N.entries : 33
+  N.languages : 32
+  N.missing : 230
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+    'in' : >
+       inside the phonological host
+  Notes : >
+     For the definition of "Aktionsart", see the metadata for VInflCat in Synthesis
+
+# ------ VInflApplicative.Position ------
+VInflApplicative.Position:
+  Description : >
+     Position of separate markers of "Applicative'(cf. Bickel & Nichols 2005 Inflectional Synthesis of
+     the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflApplicative.Position'
+  N.levels : 2
+  N.entries : 23
+  N.languages : 22
+  N.missing : 240
+  Levels : 
+    'prae' : >
+       before the phonological host
+    'post' : >
+       after the phonological host
+  Notes : >
+     For the definition of "Applicative", see the metadata for VInflCat in Synthesis
+
+# ------ VInflAspect.Position ------
+VInflAspect.Position:
+  Description : >
+     Position of separate markers of "Aspect'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the
+     Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflAspect.Position'
+  N.levels : 6
+  N.entries : 99
+  N.languages : 94
+  N.missing : 164
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+    'in' : >
+       inside the phonological host
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'in/post' : >
+       either inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'circum (post)' : >
+       around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)
+  Notes : >
+     For the definition of "Aspect", see the metadata for VInflCat in Synthesis
+
+# ------ VInflCausative.Position ------
+VInflCausative.Position:
+  Description : >
+     Position of separate markers of "Causative'(cf. Bickel & Nichols 2005 Inflectional Synthesis of
+     the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflCausative.Position'
+  N.levels : 4
+  N.entries : 43
+  N.languages : 42
+  N.missing : 220
+  Levels : 
+    'prae' : >
+       before the phonological host
+    'post' : >
+       after the phonological host
+    'in' : >
+       inside the phonological host
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+  Notes : >
+     For the definition of "Causative", see the metadata for VInflCat in Synthesis
+
+# ------ VInflClassifier.Position ------
+VInflClassifier.Position:
+  Description : >
+     Position of separate markers of "Classifier'(cf. Bickel & Nichols 2005 Inflectional Synthesis of
+     the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflClassifier.Position'
+  N.levels : 1
+  N.entries : 2
+  N.languages : 2
+  N.missing : 261
+  Levels : 
+    'prae' : >
+       before the phonological host
+  Notes : >
+     For the definition of "Classifier", see the metadata for VInflCat in Synthesis
+
+# ------ VInflConnective.Position ------
+VInflConnective.Position:
+  Description : >
+     Position of separate markers of "Connective'(cf. Bickel & Nichols 2005 Inflectional Synthesis of
+     the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflConnective.Position'
+  N.levels : 2
+  N.entries : 10
+  N.languages : 10
+  N.missing : 253
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+  Notes : >
+     For the definition of "Connective", see the metadata for VInflCat in Synthesis
+
+# ------ VInflConstruct.Position ------
+VInflConstruct.Position:
+  Description : >
+     Position of separate markers of "Construct'(cf. Bickel & Nichols 2005 Inflectional Synthesis of
+     the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflConstruct.Position'
+  N.levels : 2
+  N.entries : 2
+  N.languages : 2
+  N.missing : 261
+  Levels : 
+    'prae' : >
+       before the phonological host
+    'post' : >
+       after the phonological host
+  Notes : >
+     For the definition of "Construct", see the metadata for VInflCat in Synthesis
+
+# ------ VInflControl.Position ------
+VInflControl.Position:
+  Description : >
+     Position of separate markers of "Control'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the
+     Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflControl.Position'
+  N.levels : 1
+  N.entries : 2
+  N.languages : 2
+  N.missing : 261
+  Levels : 
+    'post' : >
+       after the phonological host
+  Notes : >
+     For the definition of "Control", see the metadata for VInflCat in Synthesis
+
+# ------ VInflDeixis.Position ------
+VInflDeixis.Position:
+  Description : >
+     Position of separate markers of "Deixis'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the
+     Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflDeixis.Position'
+  N.levels : 2
+  N.entries : 35
+  N.languages : 35
+  N.missing : 228
+  Levels : 
+    'prae' : >
+       before the phonological host
+    'post' : >
+       after the phonological host
+  Notes : >
+     For the definition of "Deixis", see the metadata for VInflCat in Synthesis
+
+# ------ VInflVoice.Position ------
+VInflVoice.Position:
+  Description : >
+     Position of separate markers of "Voice'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the
+     Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflVoice.Position'
+  N.levels : 6
+  N.entries : 59
+  N.languages : 58
+  N.missing : 204
+  Levels : 
+    'post' : >
+       after the phonological host
+    'in/prae' : >
+       either inside or before the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'prae' : >
+       before the phonological host
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'in' : >
+       inside the phonological host
+    'in/post' : >
+       either inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+  Notes : >
+     For the definition of "Diathesis", see the metadata for VInflCat in Synthesis
+
+# ------ VInflFocus.Position ------
+VInflFocus.Position:
+  Description : >
+     Position of separate markers of "Focus'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the
+     Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflFocus.Position'
+  N.levels : 3
+  N.entries : 9
+  N.languages : 8
+  N.missing : 254
+  Levels : 
+    'post' : >
+       after the phonological host
+    'Wackernagel' : >
+       DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) -- see log 77
+    'prae' : >
+       before the phonological host
+  Notes : >
+     For the definition of "Focus", see the metadata for VInflCat in Synthesis
+
+# ------ VInflPosterior.Position ------
+VInflPosterior.Position:
+  Description : >
+     Position of separate markers of "Posterior'(cf. Bickel & Nichols 2005 Inflectional Synthesis of
+     the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflPosterior.Position'
+  N.levels : 2
+  N.entries : 5
+  N.languages : 5
+  N.missing : 258
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+  Notes : >
+     For the definition of "Future_Posterior", see the metadata for VInflCat in Synthesis
+
+# ------ VInflGender.Position ------
+VInflGender.Position:
+  Description : >
+     Position of separate markers of "Gender'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the
+     Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflGender.Position'
+  N.levels : 2
+  N.entries : 4
+  N.languages : 4
+  N.missing : 259
+  Levels : 
+    'prae' : >
+       before the phonological host
+    'post' : >
+       after the phonological host
+  Notes : >
+     For the definition of "Gender", see the metadata for VInflCat in Synthesis
+
+# ------ VInflIllocution.Position ------
+VInflIllocution.Position:
+  Description : >
+     Position of separate markers of "Illocution'(cf. Bickel & Nichols 2005 Inflectional Synthesis of
+     the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflIllocution.Position'
+  N.levels : 2
+  N.entries : 21
+  N.languages : 20
+  N.missing : 242
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+  Notes : >
+     For the definition of "Illocution", see the metadata for VInflCat in Synthesis
+
+# ------ VInflMA.Position ------
+VInflMA.Position:
+  Description : >
+     Position of separate markers of "MA'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb,
+     in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflMA.Position'
+  N.levels : 2
+  N.entries : 3
+  N.languages : 3
+  N.missing : 260
+  Levels : 
+    'in' : >
+       inside the phonological host
+    'post' : >
+       after the phonological host
+  Notes : >
+     For the definition of "MA", see the metadata for VInflCat in Synthesis
+
+# ------ VInflMN.Position ------
+VInflMN.Position:
+  Description : >
+     Position of separate markers of "MN'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb,
+     in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflMN.Position'
+  N.levels : 2
+  N.entries : 2
+  N.languages : 2
+  N.missing : 261
+  Levels : 
+    'prae' : >
+       before the phonological host
+    'post' : >
+       after the phonological host
+  Notes : >
+     For the definition of "MN", see the metadata for VInflCat in Synthesis
+
+# ------ VInflModality.Position ------
+VInflModality.Position:
+  Description : >
+     Position of separate markers of "Modality'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the
+     Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflModality.Position'
+  N.levels : 2
+  N.entries : 10
+  N.languages : 10
+  N.missing : 253
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+  Notes : >
+     For the definition of "Modality", see the metadata for VInflCat in Synthesis
+
+# ------ VInflMood.Position ------
+VInflMood.Position:
+  Description : >
+     Position of separate markers of "Mood'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb,
+     in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflMood.Position'
+  N.levels : 5
+  N.entries : 54
+  N.languages : 54
+  N.missing : 209
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'not applicable' : >
+       not applicable because an element’s position is defined only with respect to grammatical words
+    'post (in)' : >
+       after the phonological host by default, inside the host under exceptional conditions (typically
+       lexical)
+  Notes : >
+     For the definition of "Mood", see the metadata for VInflCat in Synthesis
+
+# ------ VInflMotion.Position ------
+VInflMotion.Position:
+  Description : >
+     Position of separate markers of "Motion'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the
+     Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflMotion.Position'
+  N.levels : 1
+  N.entries : 7
+  N.languages : 7
+  N.missing : 256
+  Levels : 
+    'post' : >
+       after the phonological host
+  Notes : >
+     For the definition of "Motion", see the metadata for VInflCat in Synthesis
+
+# ------ VInflMSE.Position ------
+VInflMSE.Position:
+  Description : >
+     Position of separate markers of "MSE'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb,
+     in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflMSE.Position'
+  N.levels : 2
+  N.entries : 4
+  N.languages : 4
+  N.missing : 259
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+  Notes : >
+     For the definition of "MSE", see the metadata for VInflCat in Synthesis
+
+# ------ VInflNominalizer.Position ------
+VInflNominalizer.Position:
+  Description : >
+     Position of separate markers of "Nominalizer'(cf. Bickel & Nichols 2005 Inflectional Synthesis of
+     the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflNominalizer.Position'
+  N.levels : 1
+  N.entries : 3
+  N.languages : 3
+  N.missing : 260
+  Levels : 
+    'post' : >
+       after the phonological host
+  Notes : >
+     For the definition of "Nominalizer", see the metadata for VInflCat in Synthesis
+
+# ------ VInflNumber.Position ------
+VInflNumber.Position:
+  Description : >
+     Position of separate markers of "Number'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the
+     Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflNumber.Position'
+  N.levels : 4
+  N.entries : 52
+  N.languages : 49
+  N.missing : 211
+  Levels : 
+    'prae' : >
+       before the phonological host
+    'post' : >
+       after the phonological host
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'in' : >
+       inside the phonological host
+  Notes : >
+     For the definition of "Number", see the metadata for VInflCat in Synthesis
+
+# ------ VInflPerson.Position ------
+VInflPerson.Position:
+  Description : >
+     Position of separate markers of "Person'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the
+     Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflPerson.Position'
+  N.levels : 2
+  N.entries : 6
+  N.languages : 6
+  N.missing : 257
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+  Notes : >
+     For the definition of "Person", see the metadata for VInflCat in Synthesis
+
+# ------ VInflPolarity.Position ------
+VInflPolarity.Position:
+  Description : >
+     Position of separate markers of "Polarity'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the
+     Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflPolarity.Position'
+  N.levels : 12
+  N.entries : 91
+  N.languages : 91
+  N.missing : 172
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+    'circum' : >
+       the formative has two exponents, one before and one after the phonological host. This is a special
+       case of the “simul” position
+    'in/prae' : >
+       either inside or before the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'post (prae)' : >
+       after the phonological host by default, before the host under exceptional conditions (typically
+       lexical)
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'simul (prae)' : >
+       in two or more different positions in (but not around) the phonological host by default, before
+       the host under exceptional conditions (typically lexical)
+    'simul' : >
+       the formative has two exponents at different positions in the phonological host (but it is not
+       the case that one is positioned before and the other after the host, which is coded as “circum”)
+    'not applicable' : >
+       not applicable because an element’s position is defined only with respect to grammatical words
+    'post/circum' : >
+       either after or around the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'in' : >
+       inside the phonological host
+    'prae/post/in/circum' : >
+       either before, after, inside or around the phonological host, conditioned by some structural context
+       (category, syntax etc.)
+  Notes : >
+     For the definition of "Polarity", see the metadata for VInflCat in Synthesis
+
+# ------ VInflPotentialis.Position ------
+VInflPotentialis.Position:
+  Description : >
+     Position of separate markers of "Potentialis'(cf. Bickel & Nichols 2005 Inflectional Synthesis of
+     the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflPotentialis.Position'
+  N.levels : 1
+  N.entries : 1
+  N.languages : 1
+  N.missing : 262
+  Levels : 
+    'prae' : >
+       before the phonological host
+  Notes : >
+     For the definition of "Potentialis", see the metadata for VInflCat in Synthesis
+
+# ------ VInflQuantificational.Position ------
+VInflQuantificational.Position:
+  Description : >
+     Position of separate markers of "Quantificational'(cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflQuantificational.Position'
+  N.levels : 7
+  N.entries : 50
+  N.languages : 48
+  N.missing : 213
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae/in/post' : >
+       either before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'prae' : >
+       before the phonological host
+    'in' : >
+       inside the phonological host
+    'in/prae' : >
+       either inside or before the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'in/post' : >
+       either inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'prae/post/circum' : >
+       either before, after or around the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+  Notes : >
+     For the definition of "Quantificational", see the metadata for VInflCat in Synthesis
+
+# ------ VInflReflexive_and_Reciprocal.Position ------
+VInflReflexive_and_Reciprocal.Position:
+  Description : >
+     Position of separate markers of "Reflexive_and_Reciprocal'(cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflReflexive_and_Reciprocal.Position'
+  N.levels : 4
+  N.entries : 35
+  N.languages : 35
+  N.missing : 228
+  Levels : 
+    'prae' : >
+       before the phonological host
+    'post' : >
+       after the phonological host
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'prae (post)' : >
+       before the phonological host by default, after the host under exceptional conditions (typically
+       lexical)
+  Notes : >
+     For the definition of "Reflexive_and_Reciprocal", see the metadata for VInflCat in Synthesis
+
+# ------ VInflRECIP.Position ------
+VInflRECIP.Position:
+  Description : >
+     Position of separate markers of "RECIP'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the
+     Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflRECIP.Position'
+  N.levels : 3
+  N.entries : 10
+  N.languages : 10
+  N.missing : 253
+  Levels : 
+    'prae' : >
+       before the phonological host
+    'post' : >
+       after the phonological host
+    'in' : >
+       inside the phonological host
+  Notes : >
+     For the definition of "RECIP", see the metadata for VInflCat in Synthesis
+
+# ------ VInflReferential.Position ------
+VInflReferential.Position:
+  Description : >
+     Position of separate markers of "Referential'(cf. Bickel & Nichols 2005 Inflectional Synthesis of
+     the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflReferential.Position'
+  N.levels : 2
+  N.entries : 7
+  N.languages : 7
+  N.missing : 256
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+  Notes : >
+     For the definition of "Referential", see the metadata for VInflCat in Synthesis
+
+# ------ VInflReflexive.Position ------
+VInflReflexive.Position:
+  Description : >
+     Position of separate markers of "Reflexive'(cf. Bickel & Nichols 2005 Inflectional Synthesis of
+     the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflReflexive.Position'
+  N.levels : 3
+  N.entries : 14
+  N.languages : 14
+  N.missing : 249
+  Levels : 
+    'prae' : >
+       before the phonological host
+    'in' : >
+       inside the phonological host
+    'post' : >
+       after the phonological host
+  Notes : >
+     For the definition of "Reflexive", see the metadata for VInflCat in Synthesis
+
+# ------ VInflRepetition.Position ------
+VInflRepetition.Position:
+  Description : >
+     Position of separate markers of "Repetition'(cf. Bickel & Nichols 2005 Inflectional Synthesis of
+     the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflRepetition.Position'
+  N.levels : 3
+  N.entries : 4
+  N.languages : 4
+  N.missing : 259
+  Levels : 
+    'in' : >
+       inside the phonological host
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+  Notes : >
+     For the definition of "Repetition", see the metadata for VInflCat in Synthesis
+
+# ------ VInflReversative.Position ------
+VInflReversative.Position:
+  Description : >
+     Position of separate markers of "Reversative'(cf. Bickel & Nichols 2005 Inflectional Synthesis of
+     the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflReversative.Position'
+  N.levels : 1
+  N.entries : 1
+  N.languages : 1
+  N.missing : 262
+  Levels : 
+    'post' : >
+       after the phonological host
+  Notes : >
+     For the definition of "Reversative", see the metadata for VInflCat in Synthesis
+
+# ------ VInflSemistem.Position ------
+VInflSemistem.Position:
+  Description : >
+     Position of separate markers of "Semistem'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the
+     Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflSemistem.Position'
+  N.levels : 1
+  N.entries : 10
+  N.languages : 10
+  N.missing : 253
+  Levels : 
+    'prae' : >
+       before the phonological host
+  Notes : >
+     For the definition of "Semistem", see the metadata for VInflCat in Synthesis
+
+# ------ VInflSpatial.Position ------
+VInflSpatial.Position:
+  Description : >
+     Position of separate markers of "Spatial'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the
+     Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflSpatial.Position'
+  N.levels : 2
+  N.entries : 5
+  N.languages : 5
+  N.missing : 258
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+  Notes : >
+     For the definition of "Spatial", see the metadata for VInflCat in Synthesis
+
+# ------ VInflStatus.Position ------
+VInflStatus.Position:
+  Description : >
+     Position of separate markers of "Status'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the
+     Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflStatus.Position'
+  N.levels : 4
+  N.entries : 23
+  N.languages : 22
+  N.missing : 240
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+    'circum' : >
+       the formative has two exponents, one before and one after the phonological host. This is a special
+       case of the “simul” position
+    'in' : >
+       inside the phonological host
+  Notes : >
+     For the definition of "Status", see the metadata for VInflCat in Synthesis
+
+# ------ VInflSwitch_reference.Position ------
+VInflSwitch_reference.Position:
+  Description : >
+     Position of separate markers of "Switch_reference'(cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflSwitch_reference.Position'
+  N.levels : 2
+  N.entries : 5
+  N.languages : 5
+  N.missing : 258
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+  Notes : >
+     For the definition of "Switch_reference", see the metadata for VInflCat in Synthesis
+
+# ------ VInflTense_and_Evidential.Position ------
+VInflTense_and_Evidential.Position:
+  Description : >
+     Position of separate markers of "Tense_and_Evidential'(cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflTense_and_Evidential.Position'
+  N.levels : 2
+  N.entries : 5
+  N.languages : 5
+  N.missing : 258
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+  Notes : >
+     For the definition of "Tense_and_Evidential", see the metadata for VInflCat in Synthesis
+
+# ------ VInflTA.Position ------
+VInflTA.Position:
+  Description : >
+     Position of separate markers of "TA'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb,
+     in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflTA.Position'
+  N.levels : 7
+  N.entries : 29
+  N.languages : 25
+  N.missing : 234
+  Levels : 
+    'post' : >
+       after the phonological host
+    'Wackernagel' : >
+       DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) -- see log 77
+    'in/prae' : >
+       either inside or before the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'prae' : >
+       before the phonological host
+    'in' : >
+       inside the phonological host
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'prae/in/post' : >
+       either before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+  Notes : >
+     For the definition of "TA", see the metadata for VInflCat in Synthesis
+
+# ------ VInflTAM.Position ------
+VInflTAM.Position:
+  Description : >
+     Position of separate markers of "TAM'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb,
+     in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflTAM.Position'
+  N.levels : 8
+  N.entries : 93
+  N.languages : 86
+  N.missing : 170
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'post/circum' : >
+       either after or around the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'post (in)' : >
+       after the phonological host by default, inside the host under exceptional conditions (typically
+       lexical)
+    'prae' : >
+       before the phonological host
+    'in' : >
+       inside the phonological host
+    'post (prae)' : >
+       after the phonological host by default, before the host under exceptional conditions (typically
+       lexical)
+    'in/post' : >
+       either inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+  Notes : >
+     For the definition of "TAM", see the metadata for VInflCat in Synthesis
+
+# ------ VInflTense.Position ------
+VInflTense.Position:
+  Description : >
+     Position of separate markers of "Tense'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the
+     Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflTense.Position'
+  N.levels : 6
+  N.entries : 81
+  N.languages : 78
+  N.missing : 182
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'prae' : >
+       before the phonological host
+    'post (in)' : >
+       after the phonological host by default, inside the host under exceptional conditions (typically
+       lexical)
+    'not applicable' : >
+       not applicable because an element’s position is defined only with respect to grammatical words
+    'in/post' : >
+       either inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+  Notes : >
+     For the definition of "Tense", see the metadata for VInflCat in Synthesis
+
+# ------ VInflTM.Position ------
+VInflTM.Position:
+  Description : >
+     Position of separate markers of "TM'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb,
+     in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflTM.Position'
+  N.levels : 2
+  N.entries : 23
+  N.languages : 23
+  N.missing : 240
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+  Notes : >
+     For the definition of "TM", see the metadata for VInflCat in Synthesis
+
+# ------ VInflValence.Position ------
+VInflValence.Position:
+  Description : >
+     Position of separate markers of inflectional category "Valence'(cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflValence.Position'
+  N.levels : 3
+  N.entries : 7
+  N.languages : 7
+  N.missing : 256
+  Levels : 
+    'post' : >
+       after the phonological host
+    'in' : >
+       inside the phonological host
+    'prae' : >
+       before the phonological host
+  Notes : >
+     For the definition of "Valence", see the metadata for VInflCat in Synthesis
+
+# ------ VInflVersion.Position ------
+VInflVersion.Position:
+  Description : >
+     Position of separate markers of "Version'(cf. Bickel & Nichols 2005 Inflectional Synthesis of the
+     Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflVersion.Position'
+  N.levels : 1
+  N.entries : 3
+  N.languages : 3
+  N.missing : 260
+  Levels : 
+    'prae' : >
+       before the phonological host
+  Notes : >
+     For the definition of "Version", see the metadata for VInflCat in Synthesis
+

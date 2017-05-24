@@ -1,0 +1,56 @@
+# ------ InclExclAsPerson.Presence ------
+InclExclAsPerson.Presence:
+  Description : >
+     Inclusive/exclusive as person category ("Belhare type", as defined in Bickel & Nichols 2005 in Filimonova
+     ed. Clusivity, Amsterdam: Benjamins, 47-70)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'InclExclAsPerson'
+  N.entries : 427
+  N.languages : 427
+  N.missing : 39
+
+# ------ InclExclAny.Presence ------
+InclExclAny.Presence:
+  Description : >
+     Presence of any kind of Inclusive/exclusive distinction
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'InclExclAny'
+  N.entries : 466
+  N.languages : 466
+  N.missing : 0
+
+# ------ InclExclType ------
+InclExclType:
+  Description : >
+     Type of inclusive/exclusive distinction, as defined in Bickel & Nichols 2005 in Filimonova ed. Clusivity,
+     Amsterdam: Benjamins, 47-70
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'InclExclType'
+  N.levels : 4
+  N.entries : 466
+  N.languages : 466
+  N.missing : 0
+
+# ------ InclExclAsMinAug.Presence ------
+InclExclAsMinAug.Presence:
+  Description : >
+     Presence of an inclusive/exclusive distinction with a minimal/augmented number system (as defined
+     in Bickel & Nichols 2005 in Filimonova ed. Clusivity, Amsterdam: Benjamins, 47-70)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'InclExclAsMinAug'
+  N.entries : 424
+  N.languages : 424
+  N.missing : 42
+

@@ -1,0 +1,46 @@
+# ------ VAgrA.Presence ------
+VAgrA.Presence:
+  Description : >
+     Agreement or cross-reference (loosely defined) with macrorole "A" in the verb
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VAgrA.Presence'
+  N.entries : 277
+  N.languages : 277
+  N.missing : 18
+  Notes : >
+     For the definition of "A", see the metadata for Relation in LocusMacrorelations
+
+# ------ VAgrP.Presence ------
+VAgrP.Presence:
+  Description : >
+     Agreement or cross-reference (loosely defined) with macrorole "P" in the verb
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VAgrP.Presence'
+  N.entries : 246
+  N.languages : 246
+  N.missing : 49
+  Notes : >
+     For the definition of "P", see the metadata for Relation in LocusMacrorelations
+
+# ------ VAgrPOSS.Presence ------
+VAgrPOSS.Presence:
+  Description : >
+     Agreement or cross-reference (loosely defined) with macrorole "POSS" in the verb (i.e. the verb
+     agrees with the possessor of a dependent)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VAgrPOSS.Presence'
+  N.entries : 116
+  N.languages : 116
+  N.missing : 179
+  Notes : >
+     For the definition of "POSS", see the metadata for Relation in LocusMacrorelations
+

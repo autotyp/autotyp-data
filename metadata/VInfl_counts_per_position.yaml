@@ -1,0 +1,80 @@
+# ------ VInflCatAndAgrIn.n ------
+VInflCatAndAgrIn.n:
+  Description : >
+     Number of separately marked inflectional categories (including agreement) in position "in" of the
+     verb (cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'count'
+  VariantOf : 'VInflCatAndAgrIn.n'
+  N.entries : 278
+  N.languages : 278
+  N.missing : 0
+  Notes : >
+     For the definition of "in", see metadata for Position in Gramm_markers
+
+# ------ VInflCatAndAgrPost.n ------
+VInflCatAndAgrPost.n:
+  Description : >
+     Number of separately marked inflectional categories (including agreement) in position "post" of
+     the verb (cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'count'
+  VariantOf : 'VInflCatAndAgrPost.n'
+  N.entries : 278
+  N.languages : 278
+  N.missing : 0
+  Notes : >
+     For the definition of "post", see metadata for Position in Gramm_markers
+
+# ------ VInflCatAndAgrPrae.n ------
+VInflCatAndAgrPrae.n:
+  Description : >
+     Number of separately marked inflectional categories (including agreement) in position "prae" of
+     the verb (cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'count'
+  VariantOf : 'VInflCatAndAgrPrae.n'
+  N.entries : 278
+  N.languages : 278
+  N.missing : 0
+  Notes : >
+     For the definition of "prae", see metadata for Position in Gramm_markers
+
+# ------ VInflCatAndAgrSimul.n ------
+VInflCatAndAgrSimul.n:
+  Description : >
+     Number of separately marked inflectional categories (including agreement) with position property
+     "simul" of the verb (cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'count'
+  VariantOf : 'VInflCatAndAgrSimul.n'
+  N.entries : 278
+  N.languages : 278
+  N.missing : 0
+  Notes : >
+     For the definition of "simul", see metadata for Position in Gramm_markers
+
+# ------ VInflCatAndAgrSplit.n ------
+VInflCatAndAgrSplit.n:
+  Description : >
+     Number of separately marked inflectional categories (including agreement) with position property
+     "split" of the verb (cf. Bickel & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'count'
+  VariantOf : 'VInflCatAndAgrSplit.n'
+  N.entries : 278
+  N.languages : 278
+  N.missing : 0
+  Notes : >
+     For the definition of "split", see metadata for Position in Gramm_markers
+

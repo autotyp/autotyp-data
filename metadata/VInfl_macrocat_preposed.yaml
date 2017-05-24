@@ -1,0 +1,204 @@
+# ------ VInflClassification.Pre.Presence ------
+VInflClassification.Pre.Presence:
+  Description : >
+     Presence of separate markers of macrocategory "classification" before the stem (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflClassification.Pre.Presence'
+  N.entries : 6
+  N.languages : 6
+  N.missing : 297
+  Notes : >
+     For the definition of macrocategory "classification", see the metadata for VInflCat in Synthesis;
+     for the definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflEvidential.Pre.Presence ------
+VInflEvidential.Pre.Presence:
+  Description : >
+     Presence of separate markers of macrocategory "evidential" before the stem (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflEvidential.Pre.Presence'
+  N.entries : 22
+  N.languages : 22
+  N.missing : 281
+  Notes : >
+     For the definition of macrocategory "evidential", see the metadata for VInflCat in Synthesis; for
+     the definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflInter_clausal.Pre.Presence ------
+VInflInter_clausal.Pre.Presence:
+  Description : >
+     Presence of separate markers of macrocategory "inter_clausal" before the stem (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflInter_clausal.Pre.Presence'
+  N.entries : 15
+  N.languages : 15
+  N.missing : 288
+  Notes : >
+     For the definition of macrocategory "inter_clausal", see the metadata for VInflCat in Synthesis;
+     for the definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflNP_related.Pre.Presence ------
+VInflNP_related.Pre.Presence:
+  Description : >
+     Presence of separate markers of macrocategory "NP_related" before the stem (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflNP_related.Pre.Presence'
+  N.entries : 5
+  N.languages : 5
+  N.missing : 298
+  Notes : >
+     For the definition of macrocategory "NP_related", see the metadata for VInflCat in Synthesis; for
+     the definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflNumber.Pre.Presence ------
+VInflNumber.Pre.Presence:
+  Description : >
+     Presence of separate markers of macrocategory "number" before the stem (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflNumber.Pre.Presence'
+  N.entries : 95
+  N.languages : 87
+  N.missing : 208
+  Notes : >
+     For the definition of macrocategory "number", see the metadata for VInflCat in Synthesis; for the
+     definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflOperators.Pre.Presence ------
+VInflOperators.Pre.Presence:
+  Description : >
+     Presence of separate markers of macrocategory "operators" before the stem (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflOperators.Pre.Presence'
+  N.entries : 91
+  N.languages : 91
+  N.missing : 212
+  Notes : >
+     For the definition of macrocategory "operators", see the metadata for VInflCat in Synthesis; for
+     the definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflPerson.Pre.Presence ------
+VInflPerson.Pre.Presence:
+  Description : >
+     Presence of separate markers of macrocategory "person" before the stem (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflPerson.Pre.Presence'
+  N.entries : 6
+  N.languages : 6
+  N.missing : 297
+  Notes : >
+     For the definition of macrocategory "person", see the metadata for VInflCat in Synthesis; for the
+     definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflPragmatic.Pre.Presence ------
+VInflPragmatic.Pre.Presence:
+  Description : >
+     Presence of separate markers of macrocategory "pragmatic" before the stem (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflPragmatic.Pre.Presence'
+  N.entries : 48
+  N.languages : 46
+  N.missing : 255
+  Notes : >
+     For the definition of macrocategory "pragmatic", see the metadata for VInflCat in Synthesis; for
+     the definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflPragmatics.Pre.Presence ------
+VInflPragmatics.Pre.Presence:
+  Description : >
+     Presence of separate markers of macrocategory "pragmatics" before the stem (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflPragmatics.Pre.Presence'
+  N.entries : 7
+  N.languages : 7
+  N.missing : 296
+  Notes : >
+     For the definition of macrocategory "pragmatics", see the metadata for VInflCat in Synthesis; for
+     the definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflRole.Pre.Presence ------
+VInflRole.Pre.Presence:
+  Description : >
+     Presence of separate markers of macrocategory "role" before the stem (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflRole.Pre.Presence'
+  N.entries : 2
+  N.languages : 2
+  N.missing : 301
+  Notes : >
+     For the definition of macrocategory "role", see the metadata for VInflCat in Synthesis; for the
+     definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflTAM.Pre.Presence ------
+VInflTAM.Pre.Presence:
+  Description : >
+     Presence of separate markers of macrocategory "TAM" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflTAM.Pre.Presence'
+  N.entries : 276
+  N.languages : 227
+  N.missing : 27
+  Notes : >
+     For the definition of macrocategory "TAM", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflValence.Pre.Presence ------
+VInflValence.Pre.Presence:
+  Description : >
+     Presence of separate markers of macrocategory "valence" before the stem (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflValence.Pre.Presence'
+  N.entries : 142
+  N.languages : 124
+  N.missing : 161
+  Notes : >
+     For the definition of macrocategory "valence", see the metadata for VInflCat in Synthesis; for the
+     definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+

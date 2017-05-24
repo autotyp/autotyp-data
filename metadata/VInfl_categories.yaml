@@ -1,0 +1,704 @@
+# ------ VInflAktionsart.Presence ------
+VInflAktionsart.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Aktionsart" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflAktionsart.Presence'
+  N.entries : 162
+  N.languages : 162
+  N.missing : 161
+  Notes : >
+     For the definition of "Aktionsart", see the metadata for VInflCat in Synthesis
+
+# ------ VInflApplicative.Presence ------
+VInflApplicative.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Applicative" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflApplicative.Presence'
+  N.entries : 145
+  N.languages : 145
+  N.missing : 178
+  Notes : >
+     For the definition of "Applicative", see the metadata for VInflCat in Synthesis
+
+# ------ VInflAspect.Presence ------
+VInflAspect.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Aspect" in the verb (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflAspect.Presence'
+  N.entries : 211
+  N.languages : 211
+  N.missing : 112
+  Notes : >
+     For the definition of "Aspect", see the metadata for VInflCat in Synthesis
+
+# ------ VInflCausative.Presence ------
+VInflCausative.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Causative" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflCausative.Presence'
+  N.entries : 152
+  N.languages : 152
+  N.missing : 171
+  Notes : >
+     For the definition of "Causative", see the metadata for VInflCat in Synthesis
+
+# ------ VInflClassifier.Presence ------
+VInflClassifier.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Classifier" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflClassifier.Presence'
+  N.entries : 134
+  N.languages : 134
+  N.missing : 189
+  Notes : >
+     For the definition of "Classifier", see the metadata for VInflCat in Synthesis
+
+# ------ VInflConnective.Presence ------
+VInflConnective.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Connective" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflConnective.Presence'
+  N.entries : 147
+  N.languages : 147
+  N.missing : 176
+  Notes : >
+     For the definition of "Connective", see the metadata for VInflCat in Synthesis
+
+# ------ VInflConstruct.Presence ------
+VInflConstruct.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Construct" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflConstruct.Presence'
+  N.entries : 135
+  N.languages : 135
+  N.missing : 188
+  Notes : >
+     For the definition of "Construct", see the metadata for VInflCat in Synthesis
+
+# ------ VInflControl.Presence ------
+VInflControl.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Control" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflControl.Presence'
+  N.entries : 133
+  N.languages : 133
+  N.missing : 190
+  Notes : >
+     For the definition of "Control", see the metadata for VInflCat in Synthesis
+
+# ------ VInflDeixis.Presence ------
+VInflDeixis.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Deixis" in the verb (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflDeixis.Presence'
+  N.entries : 152
+  N.languages : 152
+  N.missing : 171
+  Notes : >
+     For the definition of "Deixis", see the metadata for VInflCat in Synthesis
+
+# ------ VInflVoice.Presence ------
+VInflVoice.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Voice" in the verb (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflVoice.Presence'
+  N.entries : 179
+  N.languages : 179
+  N.missing : 144
+  Notes : >
+     For the definition of "Diathesis", see the metadata for VInflCat in Synthesis
+
+# ------ VInflFocus.Presence ------
+VInflFocus.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Focus" in the verb (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflFocus.Presence'
+  N.entries : 139
+  N.languages : 139
+  N.missing : 184
+  Notes : >
+     For the definition of "Focus", see the metadata for VInflCat in Synthesis
+
+# ------ VInflPosterior.Presence ------
+VInflPosterior.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Posterior" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflPosterior.Presence'
+  N.entries : 137
+  N.languages : 137
+  N.missing : 186
+  Notes : >
+     For the definition of "Future_Posterior", see the metadata for VInflCat in Synthesis
+
+# ------ VInflGender.Presence ------
+VInflGender.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Gender" in the verb (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflGender.Presence'
+  N.entries : 134
+  N.languages : 134
+  N.missing : 189
+  Notes : >
+     For the definition of "Gender", see the metadata for VInflCat in Synthesis
+
+# ------ VInflHonorificity.Presence ------
+VInflHonorificity.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Honorificity" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflHonorificity.Presence'
+  N.entries : 133
+  N.languages : 133
+  N.missing : 190
+  Notes : >
+     For the definition of "Honorificity", see the metadata for VInflCat in Synthesis
+
+# ------ VInflIllocution.Presence ------
+VInflIllocution.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Illocution" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflIllocution.Presence'
+  N.entries : 149
+  N.languages : 149
+  N.missing : 174
+  Notes : >
+     For the definition of "Illocution", see the metadata for VInflCat in Synthesis
+
+# ------ VInflMA.Presence ------
+VInflMA.Presence:
+  Description : >
+     Presence of separately marked inflectional category "MA" in the verb (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflMA.Presence'
+  N.entries : 136
+  N.languages : 136
+  N.missing : 187
+  Notes : >
+     For the definition of "MA", see the metadata for VInflCat in Synthesis
+
+# ------ VInflMN.Presence ------
+VInflMN.Presence:
+  Description : >
+     Presence of separately marked inflectional category "MN" in the verb (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflMN.Presence'
+  N.entries : 134
+  N.languages : 134
+  N.missing : 189
+  Notes : >
+     For the definition of "MN", see the metadata for VInflCat in Synthesis
+
+# ------ VInflModality.Presence ------
+VInflModality.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Modality" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflModality.Presence'
+  N.entries : 142
+  N.languages : 142
+  N.missing : 181
+  Notes : >
+     For the definition of "Modality", see the metadata for VInflCat in Synthesis
+
+# ------ VInflMood.Presence ------
+VInflMood.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Mood" in the verb (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflMood.Presence'
+  N.entries : 171
+  N.languages : 171
+  N.missing : 152
+  Notes : >
+     For the definition of "Mood", see the metadata for VInflCat in Synthesis
+
+# ------ VInflMotion.Presence ------
+VInflMotion.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Motion" in the verb (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflMotion.Presence'
+  N.entries : 136
+  N.languages : 136
+  N.missing : 187
+  Notes : >
+     For the definition of "Motion", see the metadata for VInflCat in Synthesis
+
+# ------ VInflMSE.Presence ------
+VInflMSE.Presence:
+  Description : >
+     Presence of separately marked inflectional category "MSE" in the verb (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflMSE.Presence'
+  N.entries : 135
+  N.languages : 135
+  N.missing : 188
+  Notes : >
+     For the definition of "MSE", see the metadata for VInflCat in Synthesis
+
+# ------ VInflNominalizer.Presence ------
+VInflNominalizer.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Nominalizer" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflNominalizer.Presence'
+  N.entries : 135
+  N.languages : 135
+  N.missing : 188
+  Notes : >
+     For the definition of "Nominalizer", see the metadata for VInflCat in Synthesis
+
+# ------ VInflNumber.Presence ------
+VInflNumber.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Number" in the verb (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflNumber.Presence'
+  N.entries : 172
+  N.languages : 172
+  N.missing : 151
+  Notes : >
+     For the definition of "Number", see the metadata for VInflCat in Synthesis
+
+# ------ VInflPerson.Presence ------
+VInflPerson.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Person" in the verb (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflPerson.Presence'
+  N.entries : 135
+  N.languages : 135
+  N.missing : 188
+  Notes : >
+     For the definition of "Person", see the metadata for VInflCat in Synthesis
+
+# ------ VInflPolarity.Presence ------
+VInflPolarity.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Polarity" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflPolarity.Presence'
+  N.entries : 222
+  N.languages : 222
+  N.missing : 101
+  Notes : >
+     For the definition of "Polarity", see the metadata for VInflCat in Synthesis
+
+# ------ VInflPotentialis.Presence ------
+VInflPotentialis.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Potentialis" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflPotentialis.Presence'
+  N.entries : 135
+  N.languages : 135
+  N.missing : 188
+  Notes : >
+     For the definition of "Potentialis", see the metadata for VInflCat in Synthesis
+
+# ------ VInflQuantificational.Presence ------
+VInflQuantificational.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Quantificational" in the verb (cf. Bickel &
+     Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflQuantificational.Presence'
+  N.entries : 167
+  N.languages : 167
+  N.missing : 156
+  Notes : >
+     For the definition of "Quantificational", see the metadata for VInflCat in Synthesis
+
+# ------ VInflReflexive_and_Reciprocal.Presence ------
+VInflReflexive_and_Reciprocal.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Reflexive_and_Reciprocal" in the verb (cf.
+     Bickel & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflReflexive_and_Reciprocal.Presence'
+  N.entries : 149
+  N.languages : 149
+  N.missing : 174
+  Notes : >
+     For the definition of "Reflexive_and_Reciprocal", see the metadata for VInflCat in Synthesis
+
+# ------ VInflRECIP.Presence ------
+VInflRECIP.Presence:
+  Description : >
+     Presence of separately marked inflectional category "RECIP" in the verb (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflRECIP.Presence'
+  N.entries : 141
+  N.languages : 141
+  N.missing : 182
+  Notes : >
+     For the definition of "RECIP", see the metadata for VInflCat in Synthesis
+
+# ------ VInflReferential.Presence ------
+VInflReferential.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Referential" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflReferential.Presence'
+  N.entries : 140
+  N.languages : 140
+  N.missing : 183
+  Notes : >
+     For the definition of "Referential", see the metadata for VInflCat in Synthesis
+
+# ------ VInflReflexive.Presence ------
+VInflReflexive.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Reflexive" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflReflexive.Presence'
+  N.entries : 140
+  N.languages : 140
+  N.missing : 183
+  Notes : >
+     For the definition of "Reflexive", see the metadata for VInflCat in Synthesis
+
+# ------ VInflRepetition.Presence ------
+VInflRepetition.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Repetition" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflRepetition.Presence'
+  N.entries : 133
+  N.languages : 133
+  N.missing : 190
+  Notes : >
+     For the definition of "Repetition", see the metadata for VInflCat in Synthesis
+
+# ------ VInflReversative.Presence ------
+VInflReversative.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Reversative" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflReversative.Presence'
+  N.entries : 132
+  N.languages : 132
+  N.missing : 191
+  Notes : >
+     For the definition of "Reversative", see the metadata for VInflCat in Synthesis
+
+# ------ VInflSemistem.Presence ------
+VInflSemistem.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Semistem" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflSemistem.Presence'
+  N.entries : 138
+  N.languages : 138
+  N.missing : 185
+  Notes : >
+     For the definition of "Semistem", see the metadata for VInflCat in Synthesis
+
+# ------ VInflSpatial.Presence ------
+VInflSpatial.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Spatial" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflSpatial.Presence'
+  N.entries : 134
+  N.languages : 134
+  N.missing : 189
+  Notes : >
+     For the definition of "Spatial", see the metadata for VInflCat in Synthesis
+
+# ------ VInflStatus.Presence ------
+VInflStatus.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Status" in the verb (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflStatus.Presence'
+  N.entries : 160
+  N.languages : 160
+  N.missing : 163
+  Notes : >
+     For the definition of "Status", see the metadata for VInflCat in Synthesis
+
+# ------ VInflSwitch_reference.Presence ------
+VInflSwitch_reference.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Switch_reference" in the verb (cf. Bickel &
+     Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflSwitch_reference.Presence'
+  N.entries : 137
+  N.languages : 137
+  N.missing : 186
+  Notes : >
+     For the definition of "Switch_reference", see the metadata for VInflCat in Synthesis
+
+# ------ VInflTense_and_Evidential.Presence ------
+VInflTense_and_Evidential.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Tense_and_Evidential" in the verb (cf. Bickel
+     & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflTense_and_Evidential.Presence'
+  N.entries : 135
+  N.languages : 135
+  N.missing : 188
+  Notes : >
+     For the definition of "Tense_and_Evidential", see the metadata for VInflCat in Synthesis
+
+# ------ VInflTA.Presence ------
+VInflTA.Presence:
+  Description : >
+     Presence of separately marked inflectional category "TA" in the verb (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflTA.Presence'
+  N.entries : 153
+  N.languages : 153
+  N.missing : 170
+  Notes : >
+     For the definition of "TA", see the metadata for VInflCat in Synthesis
+
+# ------ VInflTAM.Presence ------
+VInflTAM.Presence:
+  Description : >
+     Presence of separately marked inflectional category "TAM" in the verb (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflTAM.Presence'
+  N.entries : 207
+  N.languages : 207
+  N.missing : 116
+  Notes : >
+     For the definition of "TAM", see the metadata for VInflCat in Synthesis
+
+# ------ VInflTense.Presence ------
+VInflTense.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Tense" in the verb (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflTense.Presence'
+  N.entries : 197
+  N.languages : 197
+  N.missing : 126
+  Notes : >
+     For the definition of "Tense", see the metadata for VInflCat in Synthesis
+
+# ------ VInflTM.Presence ------
+VInflTM.Presence:
+  Description : >
+     Presence of separately marked inflectional category "TM" in the verb (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflTM.Presence'
+  N.entries : 142
+  N.languages : 142
+  N.missing : 181
+  Notes : >
+     For the definition of "TM", see the metadata for VInflCat in Synthesis
+
+# ------ VInflValence.Presence ------
+VInflValence.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Valence" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflValence.Presence'
+  N.entries : 137
+  N.languages : 137
+  N.missing : 186
+  Notes : >
+     For the definition of "Valence", see the metadata for VInflCat in Synthesis
+
+# ------ VInflVersion.Presence ------
+VInflVersion.Presence:
+  Description : >
+     Presence of separately marked inflectional category "Version" in the verb (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflVersion.Presence'
+  N.entries : 133
+  N.languages : 133
+  N.missing : 190
+  Notes : >
+     For the definition of "Version", see the metadata for VInflCat in Synthesis
+

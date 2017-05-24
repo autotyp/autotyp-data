@@ -1,0 +1,731 @@
+# ------ VInflAktionsart.Pre.Presence ------
+VInflAktionsart.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Aktionsart" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflAktionsart.Pre.Presence'
+  N.entries : 33
+  N.languages : 32
+  N.missing : 226
+  Notes : >
+     For the definition of "Aktionsart", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflApplicative.Pre.Presence ------
+VInflApplicative.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Applicative" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflApplicative.Pre.Presence'
+  N.entries : 23
+  N.languages : 22
+  N.missing : 236
+  Notes : >
+     For the definition of "Applicative", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflAspect.Pre.Presence ------
+VInflAspect.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Aspect" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflAspect.Pre.Presence'
+  N.entries : 97
+  N.languages : 94
+  N.missing : 162
+  Notes : >
+     For the definition of "Aspect", see the metadata for VInflCat in Synthesis; for the definition of
+     "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflCausative.Pre.Presence ------
+VInflCausative.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Causative" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflCausative.Pre.Presence'
+  N.entries : 43
+  N.languages : 42
+  N.missing : 216
+  Notes : >
+     For the definition of "Causative", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflClassifier.Pre.Presence ------
+VInflClassifier.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Classifier" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflClassifier.Pre.Presence'
+  N.entries : 2
+  N.languages : 2
+  N.missing : 257
+  Notes : >
+     For the definition of "Classifier", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflConnective.Pre.Presence ------
+VInflConnective.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Connective" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflConnective.Pre.Presence'
+  N.entries : 10
+  N.languages : 10
+  N.missing : 249
+  Notes : >
+     For the definition of "Connective", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflConstruct.Pre.Presence ------
+VInflConstruct.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Construct" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflConstruct.Pre.Presence'
+  N.entries : 2
+  N.languages : 2
+  N.missing : 257
+  Notes : >
+     For the definition of "Construct", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflControl.Pre.Presence ------
+VInflControl.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Control" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflControl.Pre.Presence'
+  N.entries : 2
+  N.languages : 2
+  N.missing : 257
+  Notes : >
+     For the definition of "Control", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflDeixis.Pre.Presence ------
+VInflDeixis.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Deixis" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflDeixis.Pre.Presence'
+  N.entries : 35
+  N.languages : 35
+  N.missing : 224
+  Notes : >
+     For the definition of "Deixis", see the metadata for VInflCat in Synthesis; for the definition of
+     "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflVoice.Pre.Presence ------
+VInflVoice.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Voice" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflVoice.Pre.Presence'
+  N.entries : 59
+  N.languages : 58
+  N.missing : 200
+  Notes : >
+     For the definition of "Diathesis", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflFocus.Pre.Presence ------
+VInflFocus.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Focus" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflFocus.Pre.Presence'
+  N.entries : 8
+  N.languages : 7
+  N.missing : 251
+  Notes : >
+     For the definition of "Focus", see the metadata for VInflCat in Synthesis; for the definition of
+     "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflPosterior.Pre.Presence ------
+VInflPosterior.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Posterior" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflPosterior.Pre.Presence'
+  N.entries : 5
+  N.languages : 5
+  N.missing : 254
+  Notes : >
+     For the definition of "Future_Posterior", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflGender.Pre.Presence ------
+VInflGender.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Gender" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflGender.Pre.Presence'
+  N.entries : 4
+  N.languages : 4
+  N.missing : 255
+  Notes : >
+     For the definition of "Gender", see the metadata for VInflCat in Synthesis; for the definition of
+     "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflIllocution.Pre.Presence ------
+VInflIllocution.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Illocution" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflIllocution.Pre.Presence'
+  N.entries : 21
+  N.languages : 20
+  N.missing : 238
+  Notes : >
+     For the definition of "Illocution", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflMA.Pre.Presence ------
+VInflMA.Pre.Presence:
+  Description : >
+     Presence of separate markers of "MA" before the stem (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflMA.Pre.Presence'
+  N.entries : 3
+  N.languages : 3
+  N.missing : 256
+  Notes : >
+     For the definition of "MA", see the metadata for VInflCat in Synthesis; for the definition of "before
+     the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflMN.Pre.Presence ------
+VInflMN.Pre.Presence:
+  Description : >
+     Presence of separate markers of "MN" before the stem (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflMN.Pre.Presence'
+  N.entries : 2
+  N.languages : 2
+  N.missing : 257
+  Notes : >
+     For the definition of "MN", see the metadata for VInflCat in Synthesis; for the definition of "before
+     the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflModality.Pre.Presence ------
+VInflModality.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Modality" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflModality.Pre.Presence'
+  N.entries : 10
+  N.languages : 10
+  N.missing : 249
+  Notes : >
+     For the definition of "Modality", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflMood.Pre.Presence ------
+VInflMood.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Mood" before the stem (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflMood.Pre.Presence'
+  N.entries : 54
+  N.languages : 54
+  N.missing : 205
+  Notes : >
+     For the definition of "Mood", see the metadata for VInflCat in Synthesis; for the definition of
+     "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflMotion.Pre.Presence ------
+VInflMotion.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Motion" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflMotion.Pre.Presence'
+  N.entries : 7
+  N.languages : 7
+  N.missing : 252
+  Notes : >
+     For the definition of "Motion", see the metadata for VInflCat in Synthesis; for the definition of
+     "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflMSE.Pre.Presence ------
+VInflMSE.Pre.Presence:
+  Description : >
+     Presence of separate markers of "MSE" before the stem (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflMSE.Pre.Presence'
+  N.entries : 4
+  N.languages : 4
+  N.missing : 255
+  Notes : >
+     For the definition of "MSE", see the metadata for VInflCat in Synthesis; for the definition of "before
+     the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflNominalizer.Pre.Presence ------
+VInflNominalizer.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Nominalizer" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflNominalizer.Pre.Presence'
+  N.entries : 3
+  N.languages : 3
+  N.missing : 256
+  Notes : >
+     For the definition of "Nominalizer", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflNumber.Pre.Presence ------
+VInflNumber.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Number" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflNumber.Pre.Presence'
+  N.entries : 52
+  N.languages : 49
+  N.missing : 207
+  Notes : >
+     For the definition of "Number", see the metadata for VInflCat in Synthesis; for the definition of
+     "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflPerson.Pre.Presence ------
+VInflPerson.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Person" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflPerson.Pre.Presence'
+  N.entries : 6
+  N.languages : 6
+  N.missing : 253
+  Notes : >
+     For the definition of "Person", see the metadata for VInflCat in Synthesis; for the definition of
+     "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflPolarity.Pre.Presence ------
+VInflPolarity.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Polarity" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflPolarity.Pre.Presence'
+  N.entries : 91
+  N.languages : 91
+  N.missing : 168
+  Notes : >
+     For the definition of "Polarity", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflPotentialis.Pre.Presence ------
+VInflPotentialis.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Potentialis" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflPotentialis.Pre.Presence'
+  N.entries : 1
+  N.languages : 1
+  N.missing : 258
+  Notes : >
+     For the definition of "Potentialis", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflQuantificational.Pre.Presence ------
+VInflQuantificational.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Quantificational" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflQuantificational.Pre.Presence'
+  N.entries : 50
+  N.languages : 48
+  N.missing : 209
+  Notes : >
+     For the definition of "Quantificational", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflReflexive_and_Reciprocal.Pre.Presence ------
+VInflReflexive_and_Reciprocal.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Reflexive_and_Reciprocal" before the stem (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflReflexive_and_Reciprocal.Pre.Presence'
+  N.entries : 35
+  N.languages : 35
+  N.missing : 224
+  Notes : >
+     For the definition of "Reflexive_and_Reciprocal", see the metadata for VInflCat in Synthesis; for
+     the definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflRECIP.Pre.Presence ------
+VInflRECIP.Pre.Presence:
+  Description : >
+     Presence of separate markers of "RECIP" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflRECIP.Pre.Presence'
+  N.entries : 10
+  N.languages : 10
+  N.missing : 249
+  Notes : >
+     For the definition of "RECIP", see the metadata for VInflCat in Synthesis; for the definition of
+     "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflReferential.Pre.Presence ------
+VInflReferential.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Referential" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflReferential.Pre.Presence'
+  N.entries : 7
+  N.languages : 7
+  N.missing : 252
+  Notes : >
+     For the definition of "Referential", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflReflexive.Pre.Presence ------
+VInflReflexive.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Reflexive" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflReflexive.Pre.Presence'
+  N.entries : 14
+  N.languages : 14
+  N.missing : 245
+  Notes : >
+     For the definition of "Reflexive", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflRepetition.Pre.Presence ------
+VInflRepetition.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Repetition" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflRepetition.Pre.Presence'
+  N.entries : 4
+  N.languages : 4
+  N.missing : 255
+  Notes : >
+     For the definition of "Repetition", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflReversative.Pre.Presence ------
+VInflReversative.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Reversative" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflReversative.Pre.Presence'
+  N.entries : 1
+  N.languages : 1
+  N.missing : 258
+  Notes : >
+     For the definition of "Reversative", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflSemistem.Pre.Presence ------
+VInflSemistem.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Semistem" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflSemistem.Pre.Presence'
+  N.entries : 10
+  N.languages : 10
+  N.missing : 249
+  Notes : >
+     For the definition of "Semistem", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflSpatial.Pre.Presence ------
+VInflSpatial.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Spatial" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflSpatial.Pre.Presence'
+  N.entries : 5
+  N.languages : 5
+  N.missing : 254
+  Notes : >
+     For the definition of "Spatial", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflStatus.Pre.Presence ------
+VInflStatus.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Status" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflStatus.Pre.Presence'
+  N.entries : 23
+  N.languages : 22
+  N.missing : 236
+  Notes : >
+     For the definition of "Status", see the metadata for VInflCat in Synthesis; for the definition of
+     "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflSwitch_reference.Pre.Presence ------
+VInflSwitch_reference.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Switch_reference" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflSwitch_reference.Pre.Presence'
+  N.entries : 5
+  N.languages : 5
+  N.missing : 254
+  Notes : >
+     For the definition of "Switch_reference", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflTense_and_Evidential.Pre.Presence ------
+VInflTense_and_Evidential.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Tense_and_Evidential" before the stem (cf. Bickel & Nichols 2005
+     Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflTense_and_Evidential.Pre.Presence'
+  N.entries : 5
+  N.languages : 5
+  N.missing : 254
+  Notes : >
+     For the definition of "Tense_and_Evidential", see the metadata for VInflCat in Synthesis; for the
+     definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflTA.Pre.Presence ------
+VInflTA.Pre.Presence:
+  Description : >
+     Presence of separate markers of "TA" before the stem (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflTA.Pre.Presence'
+  N.entries : 27
+  N.languages : 24
+  N.missing : 232
+  Notes : >
+     For the definition of "TA", see the metadata for VInflCat in Synthesis; for the definition of "before
+     the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflTAM.Pre.Presence ------
+VInflTAM.Pre.Presence:
+  Description : >
+     Presence of separate markers of "TAM" before the stem (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflTAM.Pre.Presence'
+  N.entries : 92
+  N.languages : 86
+  N.missing : 167
+  Notes : >
+     For the definition of "TAM", see the metadata for VInflCat in Synthesis; for the definition of "before
+     the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflTense.Pre.Presence ------
+VInflTense.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Tense" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflTense.Pre.Presence'
+  N.entries : 81
+  N.languages : 78
+  N.missing : 178
+  Notes : >
+     For the definition of "Tense", see the metadata for VInflCat in Synthesis; for the definition of
+     "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflTM.Pre.Presence ------
+VInflTM.Pre.Presence:
+  Description : >
+     Presence of separate markers of "TM" before the stem (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflTM.Pre.Presence'
+  N.entries : 23
+  N.languages : 23
+  N.missing : 236
+  Notes : >
+     For the definition of "TM", see the metadata for VInflCat in Synthesis; for the definition of "before
+     the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflValence.Pre.Presence ------
+VInflValence.Pre.Presence:
+  Description : >
+     Presence of separate markers of inflectional category "Valence" before the stem (cf. Bickel & Nichols
+     2005 Inflectional Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflValence.Pre.Presence'
+  N.entries : 7
+  N.languages : 7
+  N.missing : 252
+  Notes : >
+     For the definition of "Valence", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+
+# ------ VInflVersion.Pre.Presence ------
+VInflVersion.Pre.Presence:
+  Description : >
+     Presence of separate markers of "Version" before the stem (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VInflVersion.Pre.Presence'
+  N.entries : 3
+  N.languages : 3
+  N.missing : 256
+  Notes : >
+     For the definition of "Version", see the metadata for VInflCat in Synthesis; for the definition
+     of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
+

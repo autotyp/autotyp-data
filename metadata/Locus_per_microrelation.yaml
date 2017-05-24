@@ -1,0 +1,413 @@
+# ------ LocusMicrorelations.binned6 ------
+LocusMicrorelations.binned6:
+  Description : >
+     Locus of marking of syntactic dependency relations (see LocusMicrorelation), binned into 6 basic
+     types
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'LocusMicrorelations'
+  N.levels : 6
+  N.entries : 2039
+  N.languages : 330
+  N.missing : 28
+  Levels : 
+    'D' : >
+       [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking that is available
+       only on a limited set of NPs or under specific morphosyntactic conditions as noted.], [On dependent,
+       with more than one formative or more than one category. Typical instance: genitive (or possessive
+       form of pronoun) plus head-driven agreement (dependent agreeing with head).], [Same as DD but
+       with the additional formative or category restricted to some possessors only (e.g. pronouns only:
+       German; contrast Hindi, where all possessors show head-driven agreement)]
+    'Ø' : >
+       No marking
+    'H' : >
+       [On head.], [Head marking that is available only on a limited set of NPs or under specific morphosyntactic
+       conditions as noted.], [On head, with more than one formative or more than one category. Typical
+       case: construct state or linker on head plus head-driven agreement ; or Philippine-style voice
+       plus agreement], [On head, with more than one formative or more than one category, but both formatives
+       have restricted distribution.], [NP-internal head in a modifier-headed agreement pattern], [Head
+       plus floating], [Possessor promoted to verb argument (external possession), and indexed or registered
+       on verb. Example: Registered in Nez Perce (Rude, U. Ore. diss. 1985:199ff.).]
+    '2' : >
+       [Simultaneously (or mostly simultaneously) on head and dependent], [Simultaneously (or mostly
+       simultaneously) detached and on dependent (e.g. an argument role is marked by both a Wackernagel
+       agreement clitic and case)], [Dependent marking is dominant. Additional head marking with some
+       verbs only or under specific morphosyntactic conditions as noted.], [Head marking is dominant.
+       Additional dependent marking with some NPs or under specific morphosyntactic conditions as noted.],
+       [Simultaneously on head and dependent, both with restrictions.], [Two head marks (one restricted)
+       plus one dependent.], [Two restricted H markers and one restricted D marker.], [Floating plus
+       restricted dependent marking.]
+    'D on H' : >
+       [Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where
+       nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the
+       dependent argument can be realized by agreement morphology on the head. If it is, it absorbs the
+       argument position in the clause and therefore does not allow an independent NP to show up in the
+       same clausal core.)], [Headward-migrated dependent marking, restricted in some way. Typical cases:
+       Bagirmi or standard French, where there is no case on independent pronouns and nouns, so only
+       pronominal agreement markers are case-marked. As a result, arguments are differentiated only in
+       headward-migrated dependent marking. This marking realizes the dependent argument syntactically
+       and leaves no place for an independent NP to show up in the same clausal core.], [Head marking
+       (construct state type, i.e. registers a dependent but does not index its properties) plus headward-migrated
+       dependent-marked pronouns]
+    'F' : >
+       [Free or floating, including particles or similar in phrase-second position (Wackernagel position),
+       e.g. Tagalog ‘linkers’], [Floating, under limited circumstances (e.g. Yagua DOM by floating agreement
+       with definite noun)]
+
+# ------ LocusMicrorelationDefaultStatus ------
+LocusMicrorelationDefaultStatus:
+  Description : >
+     Whether or not the given locus of marking is the default for a specific microrelation or whether
+     it is conditioned by a specific feature as specified in the variable “LocusMicrorelationCatCondition”
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'condition'
+  DataType : 'categorical'
+  VariantOf : 'LocusMicrorelationDefault'
+  N.levels : 2 # conditioned,default
+  N.entries : 2067
+  N.languages : 330
+  N.missing : 0
+
+# ------ LocusMicrorelations ------
+LocusMicrorelations:
+  Description : >
+     Locus of marking of syntactic dependency relations, as defined in Bickel & Nichols 2007
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'LocusMicrorelations'
+  N.levels : 30
+  N.entries : 2053
+  N.languages : 330
+  N.missing : 14
+  Levels : 
+    'D' : >
+       On dependent. For zero formative on dependent, code as Ø.
+    'Ø' : >
+       No marking
+    'H' : >
+       On head.
+    'H+D' : >
+       Simultaneously (or mostly simultaneously) on head and dependent
+    'D on H' : >
+       Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where
+       nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the
+       dependent argument can be realized by agreement morphology on the head. If it is, it absorbs the
+       argument position in the clause and therefore does not allow an independent NP to show up in the
+       same clausal core.)
+    'F' : >
+       Free or floating, including particles or similar in phrase-second position (Wackernagel position),
+       e.g. Tagalog ‘linkers’
+    'HH' : >
+       On head, with more than one formative or more than one category. Typical case: construct state
+       or linker on head plus head-driven agreement ; or Philippine-style voice plus agreement
+    'h' : >
+       Head marking that is available only on a limited set of NPs or under specific morphosyntactic
+       conditions as noted.
+    'hh' : >
+       On head, with more than one formative or more than one category, but both formatives have restricted
+       distribution.
+    'DD' : >
+       On dependent, with more than one formative or more than one category. Typical instance: genitive
+       (or possessive form of pronoun) plus head-driven agreement (dependent agreeing with head).
+    'h+D' : >
+       Dependent marking is dominant. Additional head marking with some verbs only or under specific
+       morphosyntactic conditions as noted.
+    'H/D' : >
+       Split, either H or D.
+    'Hh+D' : >
+       Two head marks (one restricted) plus one dependent.
+    'H’' : >
+       NP-internal head in a modifier-headed agreement pattern
+    'hh+d' : >
+       Two restricted H markers and one restricted D marker.
+    'H+d' : >
+       Head marking is dominant. Additional dependent marking with some NPs or under specific morphosyntactic
+       conditions as noted.
+    'd' : >
+       Dependent marking that is available only on a limited set of NPs or under specific morphosyntactic
+       conditions as noted.
+    'd on h' : >
+       Headward-migrated dependent marking, restricted in some way. Typical cases: Bagirmi or standard
+       French, where there is no case on independent pronouns and nouns, so only pronominal agreement
+       markers are case-marked. As a result, arguments are differentiated only in headward-migrated dependent
+       marking. This marking realizes the dependent argument syntactically and leaves no place for an
+       independent NP to show up in the same clausal core.
+    'Dd' : >
+       Same as DD but with the additional formative or category restricted to some possessors only (e.g.
+       pronouns only: German; contrast Hindi, where all possessors show head-driven agreement)
+    'H+d on h' : >
+       Head marking (construct state type, i.e. registers a dependent but does not index its properties)
+       plus headward-migrated dependent-marked pronouns
+    'F+D' : >
+       Simultaneously (or mostly simultaneously) detached and on dependent (e.g. an argument role is
+       marked by both a Wackernagel agreement clitic and case)
+    'F+d' : >
+       Floating plus restricted dependent marking.
+    'h+d on h' : >
+       Head marking (construct state type, i.e. registers a dependent but does not index its properties)
+       plus headward-migrated dependent-marked pronouns
+    'H+' : >
+       Possessor promoted to verb argument (external possession), and indexed or registered on verb.
+       Example: Registered in Nez Perce (Rude, U. Ore. diss. 1985:199ff.).
+    'f' : >
+       Floating, under limited circumstances (e.g. Yagua DOM by floating agreement with definite noun)
+    'P' : >
+       The relation is marked by position (word or morpheme order).
+    'H/D/DH' : >
+       Split, e.g. inalienables take H or D+H, alienables take only D.
+    'h+d' : >
+       Simultaneously on head and dependent, both with restrictions.
+    'H+F' : >
+       Head plus floating
+    'H/F' : >
+       Split, head or floating. E.g. Halkomelem (Galloway 1984:179): possessive 1sg is F, 3sg is H.
+
+# ------ LocusMicrorelationsRelation.binned5 ------
+LocusMicrorelationsRelation.binned5:
+  Description : >
+     Syntactic relation about which the locus is specified, binned into five macrorelations
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'condition'
+  DataType : 'categorical'
+  VariantOf : 'LocusMicrorelationsRelation'
+  N.levels : 5
+  N.entries : 2065
+  N.languages : 330
+  N.missing : 0
+  Levels : 
+    'A' : >
+       [Most agentive argument of (di)transitive verb. Includes experiencers as long as they are coded
+       in the same way as agents. If they are coded like patients, they are treated as ‘A-exp’ here.],
+       [Experiencers that behave like A but not entirely. Since this is a form class concept, it includes
+       arguments that are ‘obliged’ in an obligation construction and possessors in dative possessor
+       constructions (subspecies of A-obl). An experiencer is an A-exp only if it is thematically/topically
+       more prominent than the stimulus; otherwise it is a plain Patient.], [Transitive actors that are
+       animate], [volitional, agentive actors irrespective of transitivity. Typical in active/stative
+       systems, but often grammaticalized to a degree where ‘agentivity’ or ‘control’ do no longer predict
+       the distribution of the role.], [Pronominal A’s, including demonstratives. If the distinction
+       is between personal pronouns and everything else it is more likely to have to with empathy (‘A-emp’)],
+       [A in the nominative, unmarked case], [Possessor (in clause construction translatable with ‘have’).],
+       [roles marked simultaneously; A acts on U; typical in inverse markers], [Experiencer. Only if
+       covering ALL experiencers as distinct from A’s. If only some experiencers are covered, the others
+       being coded like agentive A’s, then this is coded as ‘A-exp’]
+    'P' : >
+       [Most patientive argument of monotransitive verb. Includes ‘contents/stimuli’ as long as they
+       are coded in the same way as patients. If they are coded like agents, they are treated as ‘C’
+       here], [Patientive argument irrespective of transitivity. Typical in active/stative systems, but
+       often grammaticalized to a degree where ‘agentivity’ or ‘control’ do no longer predict the distribution
+       of the role.], [Theme argument of ditransitives; corresponds to ‘secondary object’ in a language
+       that conflates U and G.], [beneficiary, goal, recipient argument of ditransitives; corresponds
+       to ‘indirect object’ in a language that conflates U and T.], [Definite U. Good example: accusative
+       marked Turkish direct objects], [Definite T. Good example: accusative marked Turkish direct objects],
+       [U with high empathy/animacy. Good example: Spanish a, Indo-Iranian datives], [Goal of motion
+       verbs], [stimuli that mostly but not entirely behave like the most patientive argument of transitive
+       verbs], [comitative object of applicative], [locative object of applicative], [circumstantial
+       object of applicative], [instrumental object of applicative], [U in the nominative, unmarked case],
+       [T in the nominative, unmarked case], [Recipients of ditransitives if formally distinct from beneficiaries
+       and goals], [Recipients of ditransitives if formally distinct from recipients and goals], [Referential
+       object,i.e. all arguments except those that refer to generic kinds], [Incorporated pronoun (can’t
+       co-occur with co-referential overt object NP in the same clause).], [Nonspecific U], [U in the
+       presence of an unmarked A; if the A is case-marked, U is not also case-marked. Example: Rapanui
+       Accusative], [U with both specific and animate reference], [U with specific reference], [B with
+       specific reference], [B with definite reference], [U with human reference], [B in a possessor-denoting
+       case (genitive)]
+    'S' : >
+       [Single argument of intransitive verb], [Single argument in intransitives that are derived from
+       transitives through (anti)passives and other detransitivizing morpholexical operations (only if
+       the language makes a distinction between derived and non-derived S)], [Experiencers that mostly
+       behave like S but not entirely], [S in the unmarked (nominative) case], [S in obligative constructions
+       (Russ. emu [nado] skazat’; Kewa ‘his says’ = ‘it’s up to him to say’)]
+    'POSS' : >
+       [Possessor: all genitival relations in an NP. Note: if a POSS marker is sused for indicating experience
+       beyond literal possession (e.g. my-thirst/my-love is.there vs. literal my-leg/my-heart hurts)
+       note this as A-exp (if with bivalent predicate) or as S-exp (if with a monovalent predicate)],
+       [possessor with specific reference]
+    'ATTR' : >
+       The relation borne by attributive adjectives.
+    '#ANY#' : >
+       No known applicable condition
+
+# ------ LocusMicrorelationCategoryCondition ------
+LocusMicrorelationCategoryCondition:
+  Description : >
+     Category that conditions the appearance of a non-default locus of marking in a given microrelation
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'condition'
+  DataType : 'categorical'
+  VariantOf : 'LocusMicrorelationCategoryCondition'
+  N.levels : 13
+  N.entries : 252
+  N.languages : 330
+  N.missing : 0
+  Levels : 
+    'N' : >
+       lexical noun, nominalized verb -- whether possessed or non-possessed (all)
+    'Pro' : >
+       Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal indexes.
+    'N-anim' : >
+       animate noun
+    'N-inal' : >
+       inalienably possessed noun
+    'N-alien' : >
+       alienably possessed noun, i.e. one taking alienable possession (see sem_class_def for alienability)
+    '1PERS' : >
+       1st person only
+    'N-kin' : >
+       kin terms
+    'N-hum' : >
+       human noun
+    'N_or_Pro' : >
+       noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
+       only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
+       all distinct PoS)
+    'Pro_or_N-hum' : >
+       personal pronoun or human noun
+    'N-inanim' : >
+       inanimate noun
+    'SAP' : >
+       Speech act participant, i.e. 1st or 2nd person. (Using SAP allows non-SAP to be used for 3rd person
+       pronouns and nouns
+    'N-proper&kin' : >
+       proper nouns and kin nouns
+    '#ANY#' : >
+       No known applicable condition
+
+# ------ LocusMicrorelations.binned5 ------
+LocusMicrorelations.binned5:
+  Description : >
+     Locus of marking of syntactic dependency relations (see LocusMicrorelation), binned into 5 basic
+     types
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'LocusMicrorelations'
+  N.levels : 5
+  N.entries : 2047
+  N.languages : 330
+  N.missing : 20
+  Levels : 
+    'D' : >
+       [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking is dominant. Additional
+       head marking with some verbs only or under specific morphosyntactic conditions as noted.], [Dependent
+       marking that is available only on a limited set of NPs or under specific morphosyntactic conditions
+       as noted.], [On dependent, with more than one formative or more than one category. Typical instance:
+       genitive (or possessive form of pronoun) plus head-driven agreement (dependent agreeing with head).],
+       [Same as DD but with the additional formative or category restricted to some possessors only (e.g.
+       pronouns only: German; contrast Hindi, where all possessors show head-driven agreement)]
+    'Ø' : >
+       No marking
+    'H' : >
+       [On head.], [Head marking is dominant. Additional dependent marking with some NPs or under specific
+       morphosyntactic conditions as noted.], [Head marking that is available only on a limited set of
+       NPs or under specific morphosyntactic conditions as noted.], [On head, with more than one formative
+       or more than one category. Typical case: construct state or linker on head plus head-driven agreement
+       ; or Philippine-style voice plus agreement], [On head, with more than one formative or more than
+       one category, but both formatives have restricted distribution.], [NP-internal head in a modifier-headed
+       agreement pattern], [Head plus floating], [Possessor promoted to verb argument (external possession),
+       and indexed or registered on verb. Example: Registered in Nez Perce (Rude, U. Ore. diss. 1985:199ff.).]
+    '2' : >
+       [Simultaneously (or mostly simultaneously) on head and dependent], [Simultaneously (or mostly
+       simultaneously) detached and on dependent (e.g. an argument role is marked by both a Wackernagel
+       agreement clitic and case)], [Simultaneously on head and dependent, both with restrictions.],
+       [Two head marks (one restricted) plus one dependent.], [Two restricted H markers and one restricted
+       D marker.], [Split, e.g. inalienables take H or D+H, alienables take only D.], [Split, either
+       H or D.], [Split, head or floating. E.g. Halkomelem (Galloway 1984:179): possessive 1sg is F,
+       3sg is H.]
+    'FloatingorClitic' : >
+       [Free or floating, including particles or similar in phrase-second position (Wackernagel position),
+       e.g. Tagalog ‘linkers’], [Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal
+       agreement, where nouns and independent pronouns are case-marked. (The case itself is dependent
+       marking, but the dependent argument can be realized by agreement morphology on the head. If it
+       is, it absorbs the argument position in the clause and therefore does not allow an independent
+       NP to show up in the same clausal core.)], [Headward-migrated dependent marking, restricted in
+       some way. Typical cases: Bagirmi or standard French, where there is no case on independent pronouns
+       and nouns, so only pronominal agreement markers are case-marked. As a result, arguments are differentiated
+       only in headward-migrated dependent marking. This marking realizes the dependent argument syntactically
+       and leaves no place for an independent NP to show up in the same clausal core.], [Head marking
+       (construct state type, i.e. registers a dependent but does not index its properties) plus headward-migrated
+       dependent-marked pronouns], [Clitic doubling, where the argument is D-marked and is doubled by
+       a D-marked pronominal on the verb.], [Floating, under limited circumstances (e.g. Yagua DOM by
+       floating agreement with definite noun)], [Floating plus restricted dependent marking.]
+
+# ------ LocusMicrorelationsRelation ------
+LocusMicrorelationsRelation:
+  Description : >
+     Syntactic relation about which the locus is specified
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'condition'
+  DataType : 'categorical'
+  VariantOf : 'LocusMicrorelationsRelation'
+  N.levels : 23
+  N.entries : 2067
+  N.languages : 330
+  N.missing : 0
+  Levels : 
+    'A-default' : >
+       Most agentive argument of (di)transitive verb. Includes experiencers as long as they are coded
+       in the same way as agents. If they are coded like patients, they are treated as ‘A-exp’ here.
+    'U-default' : >
+       Most patientive argument of monotransitive verb. Includes ‘contents/stimuli’ as long as they are
+       coded in the same way as patients. If they are coded like agents, they are treated as ‘C’ here
+    'S-default' : >
+       Single argument of intransitive verb
+    'B-default' : >
+       beneficiary, goal, recipient argument of ditransitives; corresponds to ‘indirect object’ in a
+       language that conflates U and T.
+    'POSS-default' : >
+       Possessor: all genitival relations in an NP. Note: if a POSS marker is sused for indicating experience
+       beyond literal possession (e.g. my-thirst/my-love is.there vs. literal my-leg/my-heart hurts)
+       note this as A-exp (if with bivalent predicate) or as S-exp (if with a monovalent predicate)
+    'ATTR-default' : >
+       The relation borne by attributive adjectives.
+    'Act' : >
+       volitional, agentive actors irrespective of transitivity. Typical in active/stative systems, but
+       often grammaticalized to a degree where ‘agentivity’ or ‘control’ do no longer predict the distribution
+       of the role.
+    'Pat' : >
+       Patientive argument irrespective of transitivity. Typical in active/stative systems, but often
+       grammaticalized to a degree where ‘agentivity’ or ‘control’ do no longer predict the distribution
+       of the role.
+    'A-anim' : >
+       Transitive actors that are animate
+    'A-exp' : >
+       Experiencers that behave like A but not entirely. Since this is a form class concept, it includes
+       arguments that are ‘obliged’ in an obligation construction and possessors in dative possessor
+       constructions (subspecies of A-obl). An experiencer is an A-exp only if it is thematically/topically
+       more prominent than the stimulus; otherwise it is a plain Patient.
+    'G-default' : >
+       Goal of motion verbs
+    'T-default' : >
+       Theme argument of ditransitives; corresponds to ‘secondary object’ in a language that conflates
+       U and G.
+    'U-ref' : >
+       Referential object,i.e. all arguments except those that refer to generic kinds
+    'U-stim' : >
+       stimuli that mostly but not entirely behave like the most patientive argument of transitive verbs
+    'U-def' : >
+       Definite U. Good example: accusative marked Turkish direct objects
+    'T-def' : >
+       Definite T. Good example: accusative marked Turkish direct objects
+    'A-poss' : >
+       Possessor (in clause construction translatable with ‘have’).
+    'T-emp' : >
+       U with high empathy/animacy. Good example: Spanish a, Indo-Iranian datives
+    'U-emp' : >
+       U with high empathy/animacy. Good example: Spanish a, Indo-Iranian datives
+    'I-default' : >
+       Instrument
+    'B-ben' : >
+       Recipients of ditransitives if formally distinct from recipients and goals
+    'B-rec' : >
+       Recipients of ditransitives if formally distinct from beneficiaries and goals
+    'locative' : >
+       locative
+

@@ -1,0 +1,40 @@
+# ------ CoArgSensitivityAgr.Presence ------
+CoArgSensitivityAgr.Presence:
+  Description : >
+     Grammatical agreement which is sensitive to coarguments
+  SetUp : 'single entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'CoArgSensitivityAgr.Presence'
+  N.entries : 166
+  N.languages : 166
+  N.missing : 531
+
+# ------ VAgreement.Presence.v1 ------
+VAgreement.Presence.v1:
+  Description : >
+     Grammatical agreement (in the sense of Bickel & Nichols 2007 in Shopen, T. [ed.] Language Typology
+     and Syntactic Description. CUP)
+  SetUp : 'single entry per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VAgreement.Presence'
+  N.entries : 624
+  N.languages : 623
+  N.missing : 73
+
+# ------ CoArgSensitivityCase.Presence ------
+CoArgSensitivityCase.Presence:
+  Description : >
+     Case marking which is sensitive to coarguments
+  SetUp : 'single entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'CoArgSensitivityCase.Presence'
+  N.entries : 655
+  N.languages : 654
+  N.missing : 42
+

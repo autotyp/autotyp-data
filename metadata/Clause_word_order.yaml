@@ -1,0 +1,364 @@
+# ------ WordOrderAPLex ------
+WordOrderAPLex:
+  Description : >
+     Relative order of A and O, or mixed (allowing both)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVBasicLex'
+  N.levels : 3 # mixed,AO,NA,OA
+  N.entries : 384
+  N.languages : 384
+  N.missing : 71
+
+# ------ WordOrderAPBasicLex ------
+WordOrderAPBasicLex:
+  Description : >
+     Basic order of lexical A and O
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVBasicLex'
+  N.levels : 2 # OA,AO,NA
+  N.entries : 383
+  N.languages : 383
+  N.missing : 72
+
+# ------ WordOrderAVBasicLex ------
+WordOrderAVBasicLex:
+  Description : >
+     Basic order of lexical A and V
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVBasicLex'
+  N.levels : 2
+  N.entries : 397
+  N.languages : 397
+  N.missing : 58
+
+# ------ PositionVBasicLex ------
+PositionVBasicLex:
+  Description : >
+     Basic position of V in clauses with pronominal A and O
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVBasicLex'
+  N.levels : 4
+  N.entries : 455
+  N.languages : 455
+  N.missing : 0
+
+# ------ WordOrderAPVBasicLex ------
+WordOrderAPVBasicLex:
+  Description : >
+     Basic order of lexical A, O and V (labelled S, O, V for backward compatibility)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVBasicLex'
+  N.levels : 10
+  N.entries : 455
+  N.languages : 455
+  N.missing : 0
+
+# ------ PositionVBasicLex.binned.v4 ------
+PositionVBasicLex.binned.v4:
+  Description : >
+     Basic position of V in clauses with lexical A and O
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVBasicLex'
+  N.levels : 2
+  N.entries : 400
+  N.languages : 400
+  N.missing : 55
+
+# ------ PositionVBasicLex.binned.v1 ------
+PositionVBasicLex.binned.v1:
+  Description : >
+     Basic position of V in clauses with lexical A and O
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVBasicLex'
+  N.levels : 2
+  N.entries : 455
+  N.languages : 455
+  N.missing : 0
+
+# ------ PositionVBasicLex.binned.v3 ------
+PositionVBasicLex.binned.v3:
+  Description : >
+     Basic position of V in clauses with lexical A and O
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVBasicLex'
+  N.levels : 2 # initial,other
+  N.entries : 455
+  N.languages : 455
+  N.missing : 0
+
+# ------ PositionVBasicLex.binned.v2 ------
+PositionVBasicLex.binned.v2:
+  Description : >
+     Basic position of V in clauses with lexical A and O
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVBasicLex'
+  N.levels : 2 # other,medial
+  N.entries : 455
+  N.languages : 455
+  N.missing : 0
+
+# ------ WordOrderPVBasicLex ------
+WordOrderPVBasicLex:
+  Description : >
+     Basic order of lexical O and V
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVBasicLex'
+  N.levels : 2
+  N.entries : 397
+  N.languages : 397
+  N.missing : 58
+
+# ------ WordOrderAPSecondaryLex ------
+WordOrderAPSecondaryLex:
+  Description : >
+     Secondary order of lexical A and O
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVSecondaryLex'
+  N.levels : 2 # AO,NA,OA
+  N.entries : 20
+  N.languages : 20
+  N.missing : 435
+
+# ------ WordOrderAVSecondaryLex ------
+WordOrderAVSecondaryLex:
+  Description : >
+     Secondary order of lexical A and V
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVSecondaryLex'
+  N.levels : 2
+  N.entries : 20
+  N.languages : 20
+  N.missing : 435
+
+# ------ PositionVSecondaryLex ------
+PositionVSecondaryLex:
+  Description : >
+     Secondary position of V in clauses with pronominal A and O
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVSecondaryLex'
+  N.levels : 4
+  N.entries : 21
+  N.languages : 21
+  N.missing : 434
+
+# ------ WordOrderAPVSecondaryLex ------
+WordOrderAPVSecondaryLex:
+  Description : >
+     Secondary order of lexical A, O and V
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVSecondaryLex'
+  N.levels : 6 # VAO,NA,OVA,VOA,AOV,AVO,free
+  N.entries : 21
+  N.languages : 21
+  N.missing : 434
+
+# ------ PositionVSecondaryLex.binned.v4 ------
+PositionVSecondaryLex.binned.v4:
+  Description : >
+     Secondary position of V in clauses with lexical A and O
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVSecondaryLex'
+  N.levels : 2
+  N.entries : 20
+  N.languages : 20
+  N.missing : 435
+
+# ------ PositionVSecondaryLex.binned.v1 ------
+PositionVSecondaryLex.binned.v1:
+  Description : >
+     Secondary position of V in clauses with lexical A and O
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVSecondaryLex'
+  N.levels : 2
+  N.entries : 21
+  N.languages : 21
+  N.missing : 434
+
+# ------ PositionVSecondaryLex.binned.v3 ------
+PositionVSecondaryLex.binned.v3:
+  Description : >
+     Secondary position of V in clauses with lexical A and O
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVSecondaryLex'
+  N.levels : 2 # initial,NA,other
+  N.entries : 21
+  N.languages : 21
+  N.missing : 434
+
+# ------ PositionVSecondaryLex.binned.v2 ------
+PositionVSecondaryLex.binned.v2:
+  Description : >
+     Secondary position of V in clauses with lexical A and O
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVSecondaryLex'
+  N.levels : 2 # other,NA,medial
+  N.entries : 21
+  N.languages : 21
+  N.missing : 434
+
+# ------ WordOrderPVSecondaryLex ------
+WordOrderPVSecondaryLex:
+  Description : >
+     Secondary order of lexical O and V
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVSecondaryLex'
+  N.levels : 2
+  N.entries : 20
+  N.languages : 20
+  N.missing : 435
+
+# ------ VFinalLex ------
+VFinalLex:
+  Description : >
+     Verb-final vs. other word order vs. mixed (allowing both)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVBasicLex'
+  N.levels : 3
+  N.entries : 401
+  N.languages : 401
+  N.missing : 54
+
+# ------ VFinalOrFreeLex ------
+VFinalOrFreeLex:
+  Description : >
+     Verb-final or free word order vs. other vs. mixed (allowing both)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVBasicLex'
+  N.levels : 3
+  N.entries : 455
+  N.languages : 455
+  N.missing : 0
+
+# ------ WordOrderAPVLexFlexible ------
+WordOrderAPVLexFlexible:
+  Description : >
+     Flexible (structurally conditioned) vs. rigid word order of lexical arguments
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVBasicLex'
+  N.levels : 3 # flexible,rigid,free
+  N.entries : 455
+  N.languages : 455
+  N.missing : 0
+
+# ------ VInitialLex ------
+VInitialLex:
+  Description : >
+     Verb-initial vs. other word order vs. mixed (allowing both)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVBasicLex'
+  N.levels : 3 # mixed,other,initial
+  N.entries : 455
+  N.languages : 455
+  N.missing : 0
+
+# ------ VMedialLex ------
+VMedialLex:
+  Description : >
+     Verb-medial vs. other word order vs. mixed (allowing both)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderAPVBasicLex'
+  N.levels : 3 # mixed,other,medial
+  N.entries : 455
+  N.languages : 455
+  N.missing : 0
+
+# ------ WordOrderSVBasicLex ------
+WordOrderSVBasicLex:
+  Description : >
+     Basic order of lexical S and V
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderSVBasicLex'
+  N.levels : 3 # VS,NA,free,SV
+  N.entries : 28
+  N.languages : 28
+  N.missing : 427
+
+# ------ WordOrderSVSecondaryLex ------
+WordOrderSVSecondaryLex:
+  Description : >
+     Secondary order of lexical S and V
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'WordOrderSVSecondaryLex'
+  N.levels : 1 # SV,NA
+  N.entries : 1
+  N.languages : 1
+  N.missing : 454
+

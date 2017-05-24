@@ -1,0 +1,162 @@
+# ------ NPLocusDistribution ------
+NPLocusDistribution:
+  Description : >
+     Distributuion of locus of marking across types of possessive relations
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'NPLocusDistribution'
+  N.levels : 18
+  N.entries : 207
+  N.languages : 207
+  N.missing : 97
+
+# ------ NPPossClassificationType ------
+NPPossClassificationType:
+  Description : >
+     Type of possessive classification
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'NPPossClassificationType'
+  N.levels : 2 # NA,classificatory,semantic
+  N.entries : 141
+  N.languages : 141
+  N.missing : 163
+
+# ------ NPPossBoundNouns.n ------
+NPPossBoundNouns.n:
+  Description : >
+     Number of bound (obligatorily possessed) nouns
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'ratio'
+  VariantOf : 'NPPossBoundNouns.n'
+  N.entries : 262
+  N.languages : 262
+  N.missing : 42
+
+# ------ NPPossBoundNouns.Presence ------
+NPPossBoundNouns.Presence:
+  Description : >
+     Presence of bound (obligatorily possessed) nouns
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'NPPossBoundNouns.Presence'
+  N.levels : 2 # none,NA,some
+  N.entries : 262
+  N.languages : 262
+  N.missing : 42
+
+# ------ NPPossClassesMultiple.Presence ------
+NPPossClassesMultiple.Presence:
+  Description : >
+     Multiple overt possessive classes
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPPossClassesMultiple.Presence'
+  N.entries : 274
+  N.languages : 274
+  N.missing : 30
+
+# ------ NPAlienableClasses.n ------
+NPAlienableClasses.n:
+  Description : >
+     Number of alienable classes
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'ratio'
+  VariantOf : 'NPAlienableClasses.n'
+  N.entries : 253
+  N.languages : 253
+  N.missing : 51
+
+# ------ NPAlienableClasses.Presence ------
+NPAlienableClasses.Presence:
+  Description : >
+     Presence of any alienable classes
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPAlienableClasses.Presence'
+  N.entries : 253
+  N.languages : 253
+  N.missing : 51
+
+# ------ NPInalienableClasses.n ------
+NPInalienableClasses.n:
+  Description : >
+     Number of inalienable classes
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'ratio'
+  VariantOf : 'NPInalienableClasses.n'
+  N.entries : 257
+  N.languages : 257
+  N.missing : 47
+
+# ------ NPInalienableClasses.Presence ------
+NPInalienableClasses.Presence:
+  Description : >
+     Presence of any inalienable class
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPInalienableClasses.Presence'
+  N.entries : 257
+  N.languages : 257
+  N.missing : 47
+
+# ------ NPPossClasses.n ------
+NPPossClasses.n:
+  Description : >
+     Number of possessive classes, distinguished by overt markers or differences in the form of the possessor
+     or the possessed or both
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'ratio'
+  VariantOf : 'NPPossClasses.n'
+  N.entries : 273
+  N.languages : 273
+  N.missing : 31
+
+# ------ NPPossClasses.Presence ------
+NPPossClasses.Presence:
+  Description : >
+     Presence of any possessive class distinction, distinguished by overt markers or differences in the
+     form of the possessor or the possessed or both
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPPossClasses.Presence'
+  N.entries : 274
+  N.languages : 274
+  N.missing : 30
+
+# ------ NPPossClassificationAny.Presence ------
+NPPossClassificationAny.Presence:
+  Description : >
+     Presence of any possessive classification, either in the form overtly marked classes or in the form
+     of bound nouns
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'NPPossClassificationAny.Presence'
+  N.entries : 282
+  N.languages : 282
+  N.missing : 22
+

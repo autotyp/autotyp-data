@@ -1,0 +1,14 @@
+# ------ CaseAPSplitByRef ------
+CaseAPSplitByRef:
+  Description : >
+     Splitting of the case marking of A and/or P by referential or parts of speech category conditions
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'CaseSplitByRef'
+  N.levels : 4
+  N.entries : 1326
+  N.languages : 646
+  N.missing : 0
+

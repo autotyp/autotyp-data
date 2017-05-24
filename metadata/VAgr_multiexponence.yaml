@@ -1,0 +1,50 @@
+# ------ VAgrA.Pre.Presence ------
+VAgrA.Pre.Presence:
+  Description : >
+     Presence of multiple (distributed, simultaneous) exponence of macrorole "A"
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VAgrA.Pre.Presence'
+  N.entries : 250
+  N.languages : 250
+  N.missing : 23
+  Notes : >
+     For the definition of macrorole "A", see the metadata for Relation in LocusMacrorelations; for the
+     definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
+
+# ------ VAgrP.Pre.Presence ------
+VAgrP.Pre.Presence:
+  Description : >
+     Presence of multiple (distributed, simultaneous) exponence of macrorole "P"
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VAgrP.Pre.Presence'
+  N.entries : 194
+  N.languages : 194
+  N.missing : 79
+  Notes : >
+     For the definition of macrorole "P", see the metadata for Relation in LocusMacrorelations; for the
+     definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
+
+# ------ VAgrPOSS.Pre.Presence ------
+VAgrPOSS.Pre.Presence:
+  Description : >
+     Presence of multiple (distributed, simultaneous) exponence of macrorole "POSS" (i.e. the verb agrees
+     with the possessor of a dependent)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'VAgrPOSS.Pre.Presence'
+  N.entries : 3
+  N.languages : 3
+  N.missing : 270
+  Notes : >
+     For the definition of macrorole "POSS", see the metadata for Relation in LocusMacrorelations; for
+     the definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in
+     Gramm_markers
+

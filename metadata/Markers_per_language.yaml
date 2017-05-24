@@ -1,0 +1,2520 @@
+# ------ BehaviorCase.binned4 ------
+BehaviorCase.binned4:
+  Description : >
+     Positional behavior of the exemplar case marker in its phrase, as defined in Bickel & Nichols 2007
+     (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (Exemplars as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5), binned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'BehaviorCase'
+  N.levels : 4
+  N.entries : 100
+  N.languages : 100
+  N.missing : 388
+
+# ------ BehaviorNeg.binned4 ------
+BehaviorNeg.binned4:
+  Description : >
+     Positional behavior of the exemplar negation marker in its phrase, as defined in Bickel & Nichols
+     2007 (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (For the definition of the examplar see the Notes field; for the general notion of exemplars
+     see Bickel & Nichols 2005 in WALS, http://wals.info/chapter/s5), binned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'BehaviorNeg'
+  N.levels : 3
+  N.entries : 50
+  N.languages : 50
+  N.missing : 438
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ BehaviorNounPlural.binned4 ------
+BehaviorNounPlural.binned4:
+  Description : >
+     Positional behavior of the exemplar noun plural marker in its phrase, as defined in Bickel & Nichols
+     2007 (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (For the definition of the examplar see the Notes field; for the general notion of exemplars
+     see Bickel & Nichols 2005 in WALS, http://wals.info/chapter/s5), binned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'BehaviorNounPlural'
+  N.levels : 3 # NA,spreading,initial,final
+  N.entries : 27
+  N.languages : 27
+  N.missing : 461
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ BehaviorTense.binned4 ------
+BehaviorTense.binned4:
+  Description : >
+     Positional behavior of the exemplar tense marker in its phrase, as defined in Bickel & Nichols 2007
+     (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (Exemplars as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5), binned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'BehaviorTense'
+  N.levels : 2 # NA,final,initial
+  N.entries : 6
+  N.languages : 6
+  N.missing : 482
+
+# ------ BehaviorCase.spreading.Presence ------
+BehaviorCase.spreading.Presence:
+  Description : >
+     Spreading of the exemplar case. Spreading as defined in Bickel & Nichols 2007 (in Language typology
+     and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press) and exemplar as
+     defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'BehaviorCase'
+  N.entries : 111
+  N.languages : 111
+  N.missing : 377
+
+# ------ BehaviorNeg.spreading.Presence ------
+BehaviorNeg.spreading.Presence:
+  Description : >
+     Spreading of the exemplar negation marker. Spreading as defined in Bickel & Nichols 2007 (in Language
+     typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press) and exemplar
+     as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'BehaviorNeg'
+  N.entries : 188
+  N.languages : 188
+  N.missing : 300
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ BehaviorNounPlural.spreading.Presence ------
+BehaviorNounPlural.spreading.Presence:
+  Description : >
+     Spreading of the exemplar nominal plural marker. Spreading as defined in Bickel & Nichols 2007 (in
+     Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press)
+     and exemplar as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'BehaviorNounPlural'
+  N.entries : 81
+  N.languages : 81
+  N.missing : 407
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ BehaviorTense.spreading.Presence ------
+BehaviorTense.spreading.Presence:
+  Description : >
+     Spreading of the exemplar tense marker. Spreading as defined in Bickel & Nichols 2007 (in Language
+     typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press) and exemplar
+     as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'BehaviorTense'
+  N.entries : 63
+  N.languages : 63
+  N.missing : 425
+
+# ------ BehaviorCase ------
+BehaviorCase:
+  Description : >
+     Positional behavior of the exemplar case marker in its phrase, as defined in Bickel & Nichols 2007
+     (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (Exemplars as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'BehaviorCase'
+  N.levels : 7
+  N.entries : 111
+  N.languages : 111
+  N.missing : 377
+
+# ------ BehaviorNeg ------
+BehaviorNeg:
+  Description : >
+     Positional behavior of the exemplar negation marker in its phrase, as defined in Bickel & Nichols
+     2007 (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (For the definition of the examplar see the Notes field; for the general notion of exemplars
+     see Bickel & Nichols 2005 in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'BehaviorNeg'
+  N.levels : 7
+  N.entries : 188
+  N.languages : 188
+  N.missing : 300
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ BehaviorNounPlural ------
+BehaviorNounPlural:
+  Description : >
+     Positional behavior of the exemplar noun plural marker in its phrase, as defined in Bickel & Nichols
+     2007 (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (For the definition of the examplar see the Notes field; for the general notion of exemplars
+     see Bickel & Nichols 2005 in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'BehaviorNounPlural'
+  N.levels : 6 # NA,inert,spreading,initial,stacking,final,flexible
+  N.entries : 81
+  N.languages : 81
+  N.missing : 407
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ BehaviorTense ------
+BehaviorTense:
+  Description : >
+     Positional behavior of the exemplar tense marker in its phrase, as defined in Bickel & Nichols 2007
+     (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (Exemplars as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'BehaviorTense'
+  N.levels : 4 # NA,inert,final,initial,flexible
+  N.entries : 63
+  N.languages : 63
+  N.missing : 425
+
+# ------ PolyexponentialityCase.Presence ------
+PolyexponentialityCase.Presence:
+  Description : >
+     Polyexponentiality of the exemplar case marker, as defined in Bickel & Nichols 2007 (in Language
+     typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press). (Exemplars
+     as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5), binned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'ExponentialityCase'
+  N.entries : 331
+  N.languages : 331
+  N.missing : 157
+
+# ------ PolyexponentialityNegation.Presence ------
+PolyexponentialityNegation.Presence:
+  Description : >
+     Polyexponentiality of the exemplar negation marker, as defined in Bickel & Nichols 2007 (in Language
+     typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press). (For
+     the definition of the examplar see the Notes field; for the general notion of exemplars see Bickel
+     & Nichols 2005 in WALS, http://wals.info/chapter/s5), binned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'ExponentialityNegation'
+  N.entries : 202
+  N.languages : 202
+  N.missing : 286
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ PolyexponentialityNounPlural.Presence ------
+PolyexponentialityNounPlural.Presence:
+  Description : >
+     Polyexponentiality of the exemplar noun plural marker, as defined in Bickel & Nichols 2007 (in Language
+     typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press). (For
+     the definition of the examplar see the Notes field; for the general notion of exemplars see Bickel
+     & Nichols 2005 in WALS, http://wals.info/chapter/s5), binned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'ExponentialityNounPlural'
+  N.entries : 188
+  N.languages : 188
+  N.missing : 300
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ PolyexponentialityTense.Presence ------
+PolyexponentialityTense.Presence:
+  Description : >
+     Polyexponentiality of the exemplar tense marker, as defined in Bickel & Nichols 2007 (in Language
+     typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press). (Exemplars
+     as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5), binned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'ExponentialityTense'
+  N.entries : 167
+  N.languages : 167
+  N.missing : 321
+
+# ------ ExponentialityCase.n ------
+ExponentialityCase.n:
+  Description : >
+     Number of categories co-expressed by the exemplar case marker, as defined in Bickel & Nichols 2007
+     (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (Exemplars as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'ratio'
+  VariantOf : 'ExponentialityCase'
+  N.entries : 405
+  N.languages : 405
+  N.missing : 83
+
+# ------ ExponentialityNegation.n ------
+ExponentialityNegation.n:
+  Description : >
+     Number of categories co-expressed by the exemplar negation marker, as defined in Bickel & Nichols
+     2007 (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (For the definition of the examplar see the Notes field; for the general notion of exemplars
+     see Bickel & Nichols 2005 in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'ratio'
+  VariantOf : 'ExponentialityNegation'
+  N.entries : 228
+  N.languages : 228
+  N.missing : 260
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ ExponentialityNounPlural.n ------
+ExponentialityNounPlural.n:
+  Description : >
+     Number of categories co-expressed by the exemplar noun plural marker, as defined in Bickel & Nichols
+     2007 (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (For the definition of the examplar see the Notes field; for the general notion of exemplars
+     see Bickel & Nichols 2005 in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'ratio'
+  VariantOf : 'ExponentialityNounPlural'
+  N.entries : 261
+  N.languages : 261
+  N.missing : 227
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ ExponentialityTense.n ------
+ExponentialityTense.n:
+  Description : >
+     Number of categories co-expressed by the exemplar tense marker, as defined in Bickel & Nichols 2007
+     (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (Exemplars as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'ratio'
+  VariantOf : 'ExponentialityTense'
+  N.entries : 175
+  N.languages : 175
+  N.missing : 313
+
+# ------ ExponentialityCase ------
+ExponentialityCase:
+  Description : >
+     Category combinations expressed by the exemplar case marker, as defined in Bickel & Nichols 2007
+     (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (Exemplars as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'ExponentialityCase'
+  N.levels : 12
+  N.entries : 403
+  N.languages : 403
+  N.missing : 85
+
+# ------ ExponentialityNegation ------
+ExponentialityNegation:
+  Description : >
+     Category combinations expressed by the exemplar negation marker, as defined in Bickel & Nichols
+     2007 (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (For the definition of the examplar see the Notes field; for the general notion of exemplars
+     see Bickel & Nichols 2005 in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'ExponentialityNegation'
+  N.levels : 10 # Polarity,PolarityHonorificity,NA,PolarityTA,PolarityTAM,PolarityTense,PolarityPersonTAMNumber,PolarityMood,PolarityIllocution,PolarityFocusTM,PolarityPersonRole
+  N.entries : 202
+  N.languages : 202
+  N.missing : 286
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ ExponentialityNounPlural ------
+ExponentialityNounPlural:
+  Description : >
+     Category combinations expressed by the exemplar noun plural marker, as defined in Bickel & Nichols
+     2007 (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (For the definition of the examplar see the Notes field; for the general notion of exemplars
+     see Bickel & Nichols 2005 in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'ExponentialityNounPlural'
+  N.levels : 11
+  N.entries : 189
+  N.languages : 189
+  N.missing : 299
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ ExponentialityTense ------
+ExponentialityTense:
+  Description : >
+     Category combinations expressed by the exemplar tense marker, as defined in Bickel & Nichols 2007
+     (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (Exemplars as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'ExponentialityTense'
+  N.levels : 35 # NA,TAM,Tense,TA,TAMNumberPerson,PersonNumber,TAMNumberRolePerson,TAPersonRoleNumber,TensePersonNumber,TARoleVoicePersonNumber,TM,TANumberGender,TenseNumberPersonRole,PersonRoleTAM,TAMGenderNumberRole,Posterior,TAMPolarity,TAMPerson,AspectPolarity,Aspect,PersonTenseRole,TensePersonVoiceNumberRole,TAMNumberPersonRole,TAMPersonVoiceNumberRole,Role,FocusTense,TenseRole,Progressive,TenseEvidential,Present,TensePolarity,PersonTAMNumber,PersonRoleNumberGender,TAPolarity,PersonTense,RoleTAM
+  N.entries : 167
+  N.languages : 167
+  N.missing : 321
+
+# ------ FlexivityFormativeCase ------
+FlexivityFormativeCase:
+  Description : >
+     Formative flexivity (allomorphy) of the exemplar case marker, as defined in Bickel & Nichols 2007
+     (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (Exemplars as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FlexivityFormativeCase'
+  N.levels : 4
+  N.entries : 169
+  N.languages : 169
+  N.missing : 319
+  Levels : 
+    'none' : >
+    'cat-based' : >
+       Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
+       ablaut in certain tense forms, across the regular lexicon)
+    'lex-based' : >
+       Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
+       some verbs, but not with others)
+    'both' : >
+
+# ------ FlexivityFormativeNeg ------
+FlexivityFormativeNeg:
+  Description : >
+     Formative flexivity (allomorphy) of the exemplar negation marker, as defined in Bickel & Nichols
+     2007 (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (For the definition of the examplar see the Notes field; for the general notion of exemplars
+     see Bickel & Nichols 2005 in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FlexivityFormativeNeg'
+  N.levels : 4
+  N.entries : 144
+  N.languages : 144
+  N.missing : 344
+  Levels : 
+    'none' : >
+    'cat-based' : >
+       Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
+       ablaut in certain tense forms, across the regular lexicon)
+    'lex-based' : >
+       Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
+       some verbs, but not with others)
+    'both' : >
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ FlexivityFormativeNounPlural ------
+FlexivityFormativeNounPlural:
+  Description : >
+     Formative flexivity (allomorphy) of the exemplar noun plural marker, as defined in Bickel & Nichols
+     2007 (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (For the definition of the examplar see the Notes field; for the general notion of exemplars
+     see Bickel & Nichols 2005 in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FlexivityFormativeNounPlural'
+  N.levels : 3
+  N.entries : 50
+  N.languages : 50
+  N.missing : 438
+  Levels : 
+    'lex-based' : >
+       Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
+       some verbs, but not with others)
+    'cat-based' : >
+       Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
+       ablaut in certain tense forms, across the regular lexicon)
+    'none' : >
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ FlexivityFormativeTense ------
+FlexivityFormativeTense:
+  Description : >
+     Formative flexivity (allomorphy) of the exemplar tense marker, as defined in Bickel & Nichols 2007
+     (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (Exemplars as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FlexivityFormativeTense'
+  N.levels : 3
+  N.entries : 50
+  N.languages : 50
+  N.missing : 438
+  Levels : 
+    'none' : >
+    'cat-based' : >
+       Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
+       ablaut in certain tense forms, across the regular lexicon)
+    'lex-based' : >
+       Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
+       some verbs, but not with others)
+
+# ------ FusionCase.binned.binned6 ------
+FusionCase.binned.binned6:
+  Description : >
+     Phonological fusion of the exemplar case marker, as defined in Bickel & Nichols 2007 (in Language
+     typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press). (Exemplars
+     as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FusionCase'
+  N.levels : 4
+  N.entries : 213
+  N.languages : 213
+  N.missing : 275
+  Levels : 
+    'concatenative' : >
+       [The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel
+       harmony), word-internal kinds of sandhi, prosodic phenomena (such as word stress) or general inability
+       to stand alone, identify a formative as concatenative (rather than an independent word). Unless
+       there is evidence to the contrary, zeroes are coded as concatenative.], [Isolating as regards
+       stress, concatenative as regards segmental rules -- or vice versa.], [Concatenative formative
+       plus reduplication (usually reduplication of stem). If some lexemes take just the affix and others
+       take the affix plus the reduplication, choose Concat + redupl and code for lexeme-based formative
+       flexivity. (The flexivity lies in whether they do or do not take the reduplication part.)], [Concatenative
+       formative plus ablaut (usually stem ablaut).], [Concatenative formative or ablaut, neither one
+       clearly primary (or both equally primary).], [First part of the formative is isolating, second
+       part is concatenative.], [First part of the formative is concatenative, second part is isolating.],
+       [Concatenative formative is default; isolating allomorph under certain conditions.]
+    'isolating' : >
+       [The formative is a free phonological word. If it is, it is likely to be written as a separate
+       word, though this is not always true: non-isolating formatives like clitics are often written
+       as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
+       Therefore you will need to look at prosodic factors such as word stress.], [Isolating formative
+       is default; concatenative allomorph under certain conditions.]
+    'tonal' : >
+       A tone contrast marks a morphological contrast. The tone must be not be the result of a general
+       phonological sandhi rule, but represent true internal tone changes.
+    'stem' : >
+       [Superimposition of a syllable or foot template onto the stem, resulting in such processes as
+       lengthening, gemination etc. Example: Lango alienable possesse marking, Semitic voice marking,
+       etc.], [First part of the formative is a tonal or ablaut alternation; second part is isolating.
+       Example: Kisi negation, where the verb stem undergoes tone changes and a particle is added (Childs,
+       A Grammar of Kisi, 220ff.; Mouton de Gruyter 1995.], [One root or morpheme replaces another in
+       part of a paradigm.], [Alternation in one or more consonant features], [Alternation of stem segments
+       in some grammatical context. Distinct from phonologically conditioned alternation.], [There are
+       realizational traces of the category on several or even all morphemes in a string, and none of
+       these seem more basic (so that others could be analyzed as category-triggered allomorphs. Good
+       example: Semitic root&pattern morphology, where for TAM+DIATHESIS values it seems abritrary to
+       either take the stem ablaut or the affix form as basic. They code TAM+DIATHESIS simultaneously.]
+
+# ------ FusionNegation.binned.binned6 ------
+FusionNegation.binned.binned6:
+  Description : >
+     Phonological fusion of the exemplar negation marker, as defined in Bickel & Nichols 2007 (in Language
+     typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press). (For
+     the definition of the examplar see the Notes field; for the general notion of exemplars see Bickel
+     & Nichols 2005 in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FusionNegation'
+  N.levels : 3
+  N.entries : 224
+  N.languages : 224
+  N.missing : 264
+  Levels : 
+    'concatenative' : >
+       [The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel
+       harmony), word-internal kinds of sandhi, prosodic phenomena (such as word stress) or general inability
+       to stand alone, identify a formative as concatenative (rather than an independent word). Unless
+       there is evidence to the contrary, zeroes are coded as concatenative.], [Isolating as regards
+       stress, concatenative as regards segmental rules -- or vice versa.], [Concatenative formative
+       plus reduplication (usually reduplication of stem). If some lexemes take just the affix and others
+       take the affix plus the reduplication, choose Concat + redupl and code for lexeme-based formative
+       flexivity. (The flexivity lies in whether they do or do not take the reduplication part.)], [Concatenative
+       formative plus ablaut (usually stem ablaut).], [Concatenative formative or ablaut, neither one
+       clearly primary (or both equally primary).], [First part of the formative is isolating, second
+       part is concatenative.], [First part of the formative is concatenative, second part is isolating.],
+       [Concatenative formative is default; isolating allomorph under certain conditions.]
+    'isolating' : >
+       [The formative is a free phonological word. If it is, it is likely to be written as a separate
+       word, though this is not always true: non-isolating formatives like clitics are often written
+       as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
+       Therefore you will need to look at prosodic factors such as word stress.], [Isolating formative
+       is default; concatenative allomorph under certain conditions.]
+    'stem' : >
+       [Superimposition of a syllable or foot template onto the stem, resulting in such processes as
+       lengthening, gemination etc. Example: Lango alienable possesse marking, Semitic voice marking,
+       etc.], [First part of the formative is a tonal or ablaut alternation; second part is isolating.
+       Example: Kisi negation, where the verb stem undergoes tone changes and a particle is added (Childs,
+       A Grammar of Kisi, 220ff.; Mouton de Gruyter 1995.], [One root or morpheme replaces another in
+       part of a paradigm.], [Alternation in one or more consonant features], [Alternation of stem segments
+       in some grammatical context. Distinct from phonologically conditioned alternation.], [There are
+       realizational traces of the category on several or even all morphemes in a string, and none of
+       these seem more basic (so that others could be analyzed as category-triggered allomorphs. Good
+       example: Semitic root&pattern morphology, where for TAM+DIATHESIS values it seems abritrary to
+       either take the stem ablaut or the affix form as basic. They code TAM+DIATHESIS simultaneously.]
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ FusionNounPlural.binned.binned6 ------
+FusionNounPlural.binned.binned6:
+  Description : >
+     Phonological fusion of the exemplar noun plural marker, as defined in Bickel & Nichols 2007 (in
+     Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press).
+     (For the definition of the examplar see the Notes field; for the general notion of exemplars see
+     Bickel & Nichols 2005 in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FusionNounPlural'
+  N.levels : 5
+  N.entries : 150
+  N.languages : 150
+  N.missing : 338
+  Levels : 
+    'concatenative' : >
+       [The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel
+       harmony), word-internal kinds of sandhi, prosodic phenomena (such as word stress) or general inability
+       to stand alone, identify a formative as concatenative (rather than an independent word). Unless
+       there is evidence to the contrary, zeroes are coded as concatenative.], [Isolating as regards
+       stress, concatenative as regards segmental rules -- or vice versa.], [Concatenative formative
+       plus reduplication (usually reduplication of stem). If some lexemes take just the affix and others
+       take the affix plus the reduplication, choose Concat + redupl and code for lexeme-based formative
+       flexivity. (The flexivity lies in whether they do or do not take the reduplication part.)], [Concatenative
+       formative plus ablaut (usually stem ablaut).], [Concatenative formative or ablaut, neither one
+       clearly primary (or both equally primary).], [First part of the formative is isolating, second
+       part is concatenative.], [First part of the formative is concatenative, second part is isolating.],
+       [Concatenative formative is default; isolating allomorph under certain conditions.]
+    'replacive' : >
+       The formative replaces a stem (or theme or base) segment. This is different from regularly concatenative
+       formatives which alternate with other formatives, and not with stem segments. Examples: Marxist
+       derived from Marxism (-ism replaces -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology,
+       140; Oxford, 1998). In Slavic hypocoristics, after truncation, the stem-final consonant is replaced
+       with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.
+    'isolating' : >
+       [The formative is a free phonological word. If it is, it is likely to be written as a separate
+       word, though this is not always true: non-isolating formatives like clitics are often written
+       as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
+       Therefore you will need to look at prosodic factors such as word stress.], [Isolating formative
+       is default; concatenative allomorph under certain conditions.]
+    'reduplicative' : >
+       A category is marked by some kind of reduplication effect
+    'stem' : >
+       [Superimposition of a syllable or foot template onto the stem, resulting in such processes as
+       lengthening, gemination etc. Example: Lango alienable possesse marking, Semitic voice marking,
+       etc.], [First part of the formative is a tonal or ablaut alternation; second part is isolating.
+       Example: Kisi negation, where the verb stem undergoes tone changes and a particle is added (Childs,
+       A Grammar of Kisi, 220ff.; Mouton de Gruyter 1995.], [One root or morpheme replaces another in
+       part of a paradigm.], [Alternation in one or more consonant features], [Alternation of stem segments
+       in some grammatical context. Distinct from phonologically conditioned alternation.], [There are
+       realizational traces of the category on several or even all morphemes in a string, and none of
+       these seem more basic (so that others could be analyzed as category-triggered allomorphs. Good
+       example: Semitic root&pattern morphology, where for TAM+DIATHESIS values it seems abritrary to
+       either take the stem ablaut or the affix form as basic. They code TAM+DIATHESIS simultaneously.]
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ FusionTense.binned.binned6 ------
+FusionTense.binned.binned6:
+  Description : >
+     Phonological fusion of the exemplar tense marker, as defined in Bickel & Nichols 2007 (in Language
+     typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press). (Exemplars
+     as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FusionTense'
+  N.levels : 5
+  N.entries : 167
+  N.languages : 167
+  N.missing : 321
+  Levels : 
+    'concatenative' : >
+       [The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel
+       harmony), word-internal kinds of sandhi, prosodic phenomena (such as word stress) or general inability
+       to stand alone, identify a formative as concatenative (rather than an independent word). Unless
+       there is evidence to the contrary, zeroes are coded as concatenative.], [Isolating as regards
+       stress, concatenative as regards segmental rules -- or vice versa.], [Concatenative formative
+       plus reduplication (usually reduplication of stem). If some lexemes take just the affix and others
+       take the affix plus the reduplication, choose Concat + redupl and code for lexeme-based formative
+       flexivity. (The flexivity lies in whether they do or do not take the reduplication part.)], [Concatenative
+       formative plus ablaut (usually stem ablaut).], [Concatenative formative or ablaut, neither one
+       clearly primary (or both equally primary).], [First part of the formative is isolating, second
+       part is concatenative.], [First part of the formative is concatenative, second part is isolating.],
+       [Concatenative formative is default; isolating allomorph under certain conditions.]
+    'isolating' : >
+       [The formative is a free phonological word. If it is, it is likely to be written as a separate
+       word, though this is not always true: non-isolating formatives like clitics are often written
+       as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
+       Therefore you will need to look at prosodic factors such as word stress.], [Isolating formative
+       is default; concatenative allomorph under certain conditions.]
+    'stem' : >
+       [Superimposition of a syllable or foot template onto the stem, resulting in such processes as
+       lengthening, gemination etc. Example: Lango alienable possesse marking, Semitic voice marking,
+       etc.], [First part of the formative is a tonal or ablaut alternation; second part is isolating.
+       Example: Kisi negation, where the verb stem undergoes tone changes and a particle is added (Childs,
+       A Grammar of Kisi, 220ff.; Mouton de Gruyter 1995.], [One root or morpheme replaces another in
+       part of a paradigm.], [Alternation in one or more consonant features], [Alternation of stem segments
+       in some grammatical context. Distinct from phonologically conditioned alternation.], [There are
+       realizational traces of the category on several or even all morphemes in a string, and none of
+       these seem more basic (so that others could be analyzed as category-triggered allomorphs. Good
+       example: Semitic root&pattern morphology, where for TAM+DIATHESIS values it seems abritrary to
+       either take the stem ablaut or the affix form as basic. They code TAM+DIATHESIS simultaneously.]
+    'reduplicative' : >
+       A category is marked by some kind of reduplication effect
+    'tonal' : >
+       A tone contrast marks a morphological contrast. The tone must be not be the result of a general
+       phonological sandhi rule, but represent true internal tone changes.
+
+# ------ FusionCase ------
+FusionCase:
+  Description : >
+     Phonological fusion of the exemplar case marker, as defined in Bickel & Nichols 2007 (in Language
+     typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press). (Exemplars
+     as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FusionCase'
+  N.levels : 8
+  N.entries : 223
+  N.languages : 223
+  N.missing : 265
+  Levels : 
+    'concatenative' : >
+       The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel
+       harmony), word-internal kinds of sandhi, prosodic phenomena (such as word stress) or general inability
+       to stand alone, identify a formative as concatenative (rather than an independent word). Unless
+       there is evidence to the contrary, zeroes are coded as concatenative.
+    'isolating' : >
+       The formative is a free phonological word. If it is, it is likely to be written as a separate
+       word, though this is not always true: non-isolating formatives like clitics are often written
+       as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
+       Therefore you will need to look at prosodic factors such as word stress.
+    'tonal' : >
+       A tone contrast marks a morphological contrast. The tone must be not be the result of a general
+       phonological sandhi rule, but represent true internal tone changes.
+    'concatenative_or_suppletive' : >
+       Concatenative formative or suppletion, under different conditions.
+    'ablaut' : >
+       Alternation of stem segments in some grammatical context. Distinct from phonologically conditioned
+       alternation.
+    'suppletive' : >
+       One root or morpheme replaces another in part of a paradigm.
+    'concatenative_and_ablaut' : >
+       Concatenative formative plus ablaut (usually stem ablaut).
+    'concatenative_or_ablaut' : >
+       Concatenative formative or ablaut, neither one clearly primary (or both equally primary).
+
+# ------ FusionNegation ------
+FusionNegation:
+  Description : >
+     Phonological fusion of the exemplar negation marker, as defined in Bickel & Nichols 2007 (in Language
+     typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press). (For
+     the definition of the examplar see the Notes field; for the general notion of exemplars see Bickel
+     & Nichols 2005 in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FusionNegation'
+  N.levels : 8
+  N.entries : 224
+  N.languages : 224
+  N.missing : 264
+  Levels : 
+    'concatenative' : >
+       The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel
+       harmony), word-internal kinds of sandhi, prosodic phenomena (such as word stress) or general inability
+       to stand alone, identify a formative as concatenative (rather than an independent word). Unless
+       there is evidence to the contrary, zeroes are coded as concatenative.
+    'isolating' : >
+       The formative is a free phonological word. If it is, it is likely to be written as a separate
+       word, though this is not always true: non-isolating formatives like clitics are often written
+       as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
+       Therefore you will need to look at prosodic factors such as word stress.
+    'isolating_then_concatenative' : >
+       First part of the formative is isolating, second part is concatenative.
+    'concatenative_default_or_isolating' : >
+       Concatenative formative is default; isolating allomorph under certain conditions.
+    'concatenative_then_isolating' : >
+       First part of the formative is concatenative, second part is isolating.
+    'isolating_default_or_concatenative' : >
+       Isolating formative is default; concatenative allomorph under certain conditions.
+    'isolating_or_concatenative' : >
+       Isolating as regards stress, concatenative as regards segmental rules -- or vice versa.
+    'tonal_or_ablaut_then_isolating' : >
+       First part of the formative is a tonal or ablaut alternation; second part is isolating. Example:
+       Kisi negation, where the verb stem undergoes tone changes and a particle is added (Childs, A Grammar
+       of Kisi, 220ff.; Mouton de Gruyter 1995.
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ FusionNounPlural ------
+FusionNounPlural:
+  Description : >
+     Phonological fusion of the exemplar noun plural marker, as defined in Bickel & Nichols 2007 (in
+     Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press).
+     (For the definition of the examplar see the Notes field; for the general notion of exemplars see
+     Bickel & Nichols 2005 in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FusionNounPlural'
+  N.levels : 8
+  N.entries : 150
+  N.languages : 150
+  N.missing : 338
+  Levels : 
+    'concatenative' : >
+       The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel
+       harmony), word-internal kinds of sandhi, prosodic phenomena (such as word stress) or general inability
+       to stand alone, identify a formative as concatenative (rather than an independent word). Unless
+       there is evidence to the contrary, zeroes are coded as concatenative.
+    'replacive' : >
+       The formative replaces a stem (or theme or base) segment. This is different from regularly concatenative
+       formatives which alternate with other formatives, and not with stem segments. Examples: Marxist
+       derived from Marxism (-ism replaces -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology,
+       140; Oxford, 1998). In Slavic hypocoristics, after truncation, the stem-final consonant is replaced
+       with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.
+    'isolating' : >
+       The formative is a free phonological word. If it is, it is likely to be written as a separate
+       word, though this is not always true: non-isolating formatives like clitics are often written
+       as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
+       Therefore you will need to look at prosodic factors such as word stress.
+    'reduplicative' : >
+       A category is marked by some kind of reduplication effect
+    'concatenative_and_ablaut' : >
+       Concatenative formative plus ablaut (usually stem ablaut).
+    'concatenative_and_reduplicative' : >
+       Concatenative formative plus reduplication (usually reduplication of stem). If some lexemes take
+       just the affix and others take the affix plus the reduplication, choose Concat + redupl and code
+       for lexeme-based formative flexivity. (The flexivity lies in whether they do or do not take the
+       reduplication part.)
+    'concatenative_or_ablaut' : >
+       Concatenative formative or ablaut, neither one clearly primary (or both equally primary).
+    'ablaut' : >
+       Alternation of stem segments in some grammatical context. Distinct from phonologically conditioned
+       alternation.
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ FusionTense ------
+FusionTense:
+  Description : >
+     Phonological fusion of the exemplar tense marker, as defined in Bickel & Nichols 2007 (in Language
+     typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press). (Exemplars
+     as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FusionTense'
+  N.levels : 8
+  N.entries : 167
+  N.languages : 167
+  N.missing : 321
+  Levels : 
+    'concatenative' : >
+       The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel
+       harmony), word-internal kinds of sandhi, prosodic phenomena (such as word stress) or general inability
+       to stand alone, identify a formative as concatenative (rather than an independent word). Unless
+       there is evidence to the contrary, zeroes are coded as concatenative.
+    'isolating' : >
+       The formative is a free phonological word. If it is, it is likely to be written as a separate
+       word, though this is not always true: non-isolating formatives like clitics are often written
+       as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
+       Therefore you will need to look at prosodic factors such as word stress.
+    'ablaut' : >
+       Alternation of stem segments in some grammatical context. Distinct from phonologically conditioned
+       alternation.
+    'isolating_or_concatenative' : >
+       Isolating as regards stress, concatenative as regards segmental rules -- or vice versa.
+    'reduplicative' : >
+       A category is marked by some kind of reduplication effect
+    'tonal' : >
+       A tone contrast marks a morphological contrast. The tone must be not be the result of a general
+       phonological sandhi rule, but represent true internal tone changes.
+    'concatenative_and_ablaut' : >
+       Concatenative formative plus ablaut (usually stem ablaut).
+    'concatenative_or_ablaut' : >
+       Concatenative formative or ablaut, neither one clearly primary (or both equally primary).
+
+# ------ FusionCase.isolating.Presence ------
+FusionCase.isolating.Presence:
+  Description : >
+     Phonological isolation of the exemplar case marker, i.e. the marker does not phonologically interact
+     with its host in any way. Exemplars as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'FusionCase'
+  N.entries : 213
+  N.languages : 213
+  N.missing : 275
+
+# ------ FusionNegation.isolating.Presence ------
+FusionNegation.isolating.Presence:
+  Description : >
+     Phonological isolation of the exemplar negation marker, i.e. the marker does not phonologically
+     interact with its host in any way. Exemplars as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'FusionNegation'
+  N.entries : 224
+  N.languages : 224
+  N.missing : 264
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ FusionNounPlural.isolating.Presence ------
+FusionNounPlural.isolating.Presence:
+  Description : >
+     Phonological isolation of the exemplar nominal plural marker, i.e. the marker does not phonologically
+     interact with its host in any way. Exemplars as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'FusionNounPlural'
+  N.entries : 150
+  N.languages : 150
+  N.missing : 338
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ FusionTense.isolating.Presence ------
+FusionTense.isolating.Presence:
+  Description : >
+     Phonological isolation of the exemplar tense marker, i.e. the marker does not phonologically interact
+     with its host in any way. Exemplars as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'FusionTense'
+  N.entries : 167
+  N.languages : 167
+  N.missing : 321
+
+# ------ FusionCase.nonlinear.Presence ------
+FusionCase.nonlinear.Presence:
+  Description : >
+     Nonlinear realization of the exemplar case marker, as defined in Bickel & Nichols 2007 (in Language
+     typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press). Exemplars
+     as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FusionCase'
+  N.levels : 2 # NA,linear,nonlinear
+  N.entries : 213
+  N.languages : 213
+  N.missing : 275
+
+# ------ FusionNegation.nonlinear.Presence ------
+FusionNegation.nonlinear.Presence:
+  Description : >
+     Nonlinear realization of the exemplar negation marker, as defined in Bickel & Nichols 2007 (in Language
+     typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press). Exemplars
+     as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FusionNegation'
+  N.levels : 2 # linear,NA,nonlinear
+  N.entries : 224
+  N.languages : 224
+  N.missing : 264
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ FusionNounPlural.nonlinear.Presence ------
+FusionNounPlural.nonlinear.Presence:
+  Description : >
+     Nonlinear realization of the exemplar nominal plural marker, as defined in Bickel & Nichols 2007
+     (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). Exemplars as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FusionNounPlural'
+  N.levels : 2 # NA,linear,nonlinear
+  N.entries : 150
+  N.languages : 150
+  N.missing : 338
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ FusionTense.nonlinear.Presence ------
+FusionTense.nonlinear.Presence:
+  Description : >
+     Nonlinear realization of the exemplar tense marker, as defined in Bickel & Nichols 2007 (in Language
+     typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press). Exemplars
+     as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FusionTense'
+  N.levels : 2 # NA,linear,nonlinear
+  N.entries : 167
+  N.languages : 167
+  N.missing : 321
+
+# ------ FusionCase.reduplicative.Presence ------
+FusionCase.reduplicative.Presence:
+  Description : >
+     Reduplicative realization of the exemplar case marker, as defined in Bickel & Nichols 2007 (in Language
+     typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press). (Exemplars
+     as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FusionCase'
+  N.levels : 1
+  N.entries : 213
+  N.languages : 213
+  N.missing : 275
+
+# ------ FusionNegation.reduplicative.Presence ------
+FusionNegation.reduplicative.Presence:
+  Description : >
+     Reduplicative realization of the exemplar negation marker, as defined in Bickel & Nichols 2007 (in
+     Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press).
+     (Exemplars as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FusionNegation'
+  N.levels : 1
+  N.entries : 224
+  N.languages : 224
+  N.missing : 264
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ FusionNounPlural.reduplicative.Presence ------
+FusionNounPlural.reduplicative.Presence:
+  Description : >
+     Reduplicative realization of the exemplar nominal plural marker, as defined in Bickel & Nichols
+     2007 (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (Exemplars as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FusionNounPlural'
+  N.levels : 2
+  N.entries : 150
+  N.languages : 150
+  N.missing : 338
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ FusionTense.reduplicative.Presence ------
+FusionTense.reduplicative.Presence:
+  Description : >
+     Reduplicative realization of the exemplar tense marker, as defined in Bickel & Nichols 2007 (in
+     Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press).
+     (Exemplars as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FusionTense'
+  N.levels : 2
+  N.entries : 167
+  N.languages : 167
+  N.missing : 321
+
+# ------ FusionCase.tonal.Presence ------
+FusionCase.tonal.Presence:
+  Description : >
+     Tonal realization of the exemplar case marker. Exemplars as defined in Bickel & Nichols 2005 in
+     WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'FusionCase'
+  N.entries : 213
+  N.languages : 213
+  N.missing : 275
+
+# ------ FusionNegation.tonal.Presence ------
+FusionNegation.tonal.Presence:
+  Description : >
+     Tonal realization of the exemplar negation marker. Exemplars as defined in Bickel & Nichols 2005
+     in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'FusionNegation'
+  N.entries : 224
+  N.languages : 224
+  N.missing : 264
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ FusionNounPlural.tonal.Presence ------
+FusionNounPlural.tonal.Presence:
+  Description : >
+     Tonal realization of the exemplar nominal plural marker. Exemplars as defined in Bickel & Nichols
+     2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'FusionNounPlural'
+  N.entries : 150
+  N.languages : 150
+  N.missing : 338
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ FusionTense.tonal.Presence ------
+FusionTense.tonal.Presence:
+  Description : >
+     Tonal realization of the exemplar tense marker. Exemplars as defined in Bickel & Nichols 2005 in
+     WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'FusionTense'
+  N.entries : 167
+  N.languages : 167
+  N.missing : 321
+
+# ------ MorphemeTypeCase ------
+MorphemeTypeCase:
+  Description : >
+     Type (word or formative) of the exemplar case marker, as defined in Bickel & Nichols 2007 (in Language
+     typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press). (Exemplars
+     as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'MorphemeTypeCase'
+  N.levels : 3
+  N.entries : 227
+  N.languages : 227
+  N.missing : 261
+  Levels : 
+    'formative' : >
+       Marker of a category that cannot occur as an independent part of speech unit in the syntax, but
+       instead grammatically requires some host.
+    'any' : >
+       A unit that can be used both as a formative or as PoSWd, e.g. SEA versatile verbs/coverbs
+    'PoSWd' : >
+       A syntactic unit that has its own part of speech (PoS) category. Depending on the diversity of
+       grammatical words (g-word) in a language (see “word_type” database), this may or may not coincide
+       with the g-word defined as ‘terminal node’. If g-word domains differ, “PoSWd” as used here refers
+       to the one domain that has a PoS label attached to it. What counts is the syntactic behavior,
+       e.g. if an element behaves like a verb but is defective morphologically, it still has the PoS
+       label ‘verb’ (see for example Quileute negation ‘é’, which behaves like a verb syntactically even
+       thought its inflectional paradigm is defective).
+
+# ------ MorphemeTypeNeg ------
+MorphemeTypeNeg:
+  Description : >
+     Type (word or formative) of the exemplar negation marker, as defined in Bickel & Nichols 2007 (in
+     Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press).
+     (For the definition of the examplar see the Notes field; for the general notion of exemplars see
+     Bickel & Nichols 2005 in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'MorphemeTypeNeg'
+  N.levels : 2
+  N.entries : 201
+  N.languages : 201
+  N.missing : 287
+  Levels : 
+    'formative' : >
+       Marker of a category that cannot occur as an independent part of speech unit in the syntax, but
+       instead grammatically requires some host.
+    'PoSWd' : >
+       A syntactic unit that has its own part of speech (PoS) category. Depending on the diversity of
+       grammatical words (g-word) in a language (see “word_type” database), this may or may not coincide
+       with the g-word defined as ‘terminal node’. If g-word domains differ, “PoSWd” as used here refers
+       to the one domain that has a PoS label attached to it. What counts is the syntactic behavior,
+       e.g. if an element behaves like a verb but is defective morphologically, it still has the PoS
+       label ‘verb’ (see for example Quileute negation ‘é’, which behaves like a verb syntactically even
+       thought its inflectional paradigm is defective).
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ PositionCase.post.Presence ------
+PositionCase.post.Presence:
+  Description : >
+     At least some realization of the exemplar case marker after the phonological host. Exemplars as
+     defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionCase'
+  N.entries : 204
+  N.languages : 204
+  N.missing : 284
+
+# ------ PositionNeg.post.Presence ------
+PositionNeg.post.Presence:
+  Description : >
+     At least some realization of the exemplar negation marker after the phonological host. Exemplars
+     as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionNeg'
+  N.entries : 220
+  N.languages : 220
+  N.missing : 268
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ PositionNounPlural.post.Presence ------
+PositionNounPlural.post.Presence:
+  Description : >
+     At least some realization of the exemplar nominal plural marker after the phonological host. Exemplars
+     as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionNounPlural'
+  N.entries : 187
+  N.languages : 187
+  N.missing : 301
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ PositionTense.post.Presence ------
+PositionTense.post.Presence:
+  Description : >
+     At least some realization of the exemplar tense marker after the phonological host. Exemplars as
+     defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionTense'
+  N.entries : 137
+  N.languages : 137
+  N.missing : 351
+
+# ------ PositionCase.binned4 ------
+PositionCase.binned4:
+  Description : >
+     Position of the exemplar case marker with respect to its phonological host. (Exemplars as defined
+     in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5), binned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'PositionCase'
+  N.levels : 3
+  N.entries : 205
+  N.languages : 205
+  N.missing : 283
+  Levels : 
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+    'in/simul' : >
+       [inside the phonological host], [the formative has two exponents at different positions in the
+       phonological host (but it is not the case that one is positioned before and the other after the
+       host, which is coded as “circum”)], [the formative has two exponents, one before and one after
+       the phonological host. This is a special case of the “simul” position], [inside the phonological
+       host by default, after the host under exceptional conditions (typically lexical)], [around the
+       phonological host by default, before the host under exceptional conditions (typically lexical)],
+       [around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)], [in two or more different positions in (but not around) the phonological host by default,
+       before the host under exceptional conditions (typically lexical)]
+
+# ------ PositionNeg.binned4 ------
+PositionNeg.binned4:
+  Description : >
+     Position of the exemplar negation marker with respect to its phonological host. (For the definition
+     of the examplar see the Notes field; for the general notion of exemplars see Bickel & Nichols 2005
+     in WALS, http://wals.info/chapter/s5), binned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'PositionNeg'
+  N.levels : 4
+  N.entries : 220
+  N.languages : 220
+  N.missing : 268
+  Levels : 
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+    'in/simul' : >
+       [inside the phonological host], [the formative has two exponents at different positions in the
+       phonological host (but it is not the case that one is positioned before and the other after the
+       host, which is coded as “circum”)], [the formative has two exponents, one before and one after
+       the phonological host. This is a special case of the “simul” position], [inside the phonological
+       host by default, after the host under exceptional conditions (typically lexical)], [around the
+       phonological host by default, before the host under exceptional conditions (typically lexical)],
+       [around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)], [in two or more different positions in (but not around) the phonological host by default,
+       before the host under exceptional conditions (typically lexical)]
+    'split' : >
+       [either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either inside or before the phonological host, conditioned by some structural
+       context (category, syntax etc.)], [either inside or after the phonological host, conditioned by
+       some structural context (category, syntax etc.)], [either before or around the phonological host,
+       conditioned by some structural context (category, syntax etc.)], [either before, after or around
+       the phonological host, conditioned by some structural context (category, syntax etc.)], [either
+       before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either before, after or in two or more positions in the phonological host, conditioned
+       by some structural context (category, syntax etc.)], [either before, after, inside or around the
+       phonological host, conditioned by some structural context (category, syntax etc.)], [either after
+       or around the phonological host, conditioned by some structural context (category, syntax etc.)],
+       [either before or inside the phonological host, conditioned by some structural context (category,
+       syntax etc.)]
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ PositionNounPlural.binned4 ------
+PositionNounPlural.binned4:
+  Description : >
+     Position of the exemplar noun plural marker with respect to its phonological host. (For the definition
+     of the examplar see the Notes field; for the general notion of exemplars see Bickel & Nichols 2005
+     in WALS, http://wals.info/chapter/s5), binned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'PositionNounPlural'
+  N.levels : 4
+  N.entries : 192
+  N.languages : 192
+  N.missing : 296
+  Levels : 
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+    'in/simul' : >
+       [inside the phonological host], [the formative has two exponents at different positions in the
+       phonological host (but it is not the case that one is positioned before and the other after the
+       host, which is coded as “circum”)], [the formative has two exponents, one before and one after
+       the phonological host. This is a special case of the “simul” position], [inside the phonological
+       host by default, after the host under exceptional conditions (typically lexical)], [around the
+       phonological host by default, before the host under exceptional conditions (typically lexical)],
+       [around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)], [in two or more different positions in (but not around) the phonological host by default,
+       before the host under exceptional conditions (typically lexical)]
+    'split' : >
+       [either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either inside or before the phonological host, conditioned by some structural
+       context (category, syntax etc.)], [either inside or after the phonological host, conditioned by
+       some structural context (category, syntax etc.)], [either before or around the phonological host,
+       conditioned by some structural context (category, syntax etc.)], [either before, after or around
+       the phonological host, conditioned by some structural context (category, syntax etc.)], [either
+       before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either before, after or in two or more positions in the phonological host, conditioned
+       by some structural context (category, syntax etc.)], [either before, after, inside or around the
+       phonological host, conditioned by some structural context (category, syntax etc.)], [either after
+       or around the phonological host, conditioned by some structural context (category, syntax etc.)],
+       [either before or inside the phonological host, conditioned by some structural context (category,
+       syntax etc.)]
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ PositionTense.binned4 ------
+PositionTense.binned4:
+  Description : >
+     Position of the exemplar tense marker with respect to its phonological host. (Exemplars as defined
+     in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5), binned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'PositionTense'
+  N.levels : 4
+  N.entries : 140
+  N.languages : 140
+  N.missing : 348
+  Levels : 
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+    'in/simul' : >
+       [inside the phonological host], [the formative has two exponents at different positions in the
+       phonological host (but it is not the case that one is positioned before and the other after the
+       host, which is coded as “circum”)], [the formative has two exponents, one before and one after
+       the phonological host. This is a special case of the “simul” position], [inside the phonological
+       host by default, after the host under exceptional conditions (typically lexical)], [around the
+       phonological host by default, before the host under exceptional conditions (typically lexical)],
+       [around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)], [in two or more different positions in (but not around) the phonological host by default,
+       before the host under exceptional conditions (typically lexical)]
+    'split' : >
+       [either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either inside or before the phonological host, conditioned by some structural
+       context (category, syntax etc.)], [either inside or after the phonological host, conditioned by
+       some structural context (category, syntax etc.)], [either before or around the phonological host,
+       conditioned by some structural context (category, syntax etc.)], [either before, after or around
+       the phonological host, conditioned by some structural context (category, syntax etc.)], [either
+       before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either before, after or in two or more positions in the phonological host, conditioned
+       by some structural context (category, syntax etc.)], [either before, after, inside or around the
+       phonological host, conditioned by some structural context (category, syntax etc.)], [either after
+       or around the phonological host, conditioned by some structural context (category, syntax etc.)],
+       [either before or inside the phonological host, conditioned by some structural context (category,
+       syntax etc.)]
+
+# ------ PositionCase.binned5 ------
+PositionCase.binned5:
+  Description : >
+     Position of the exemplar case marker with respect to its phonological host. (Exemplars as defined
+     in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5), binned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'PositionCase'
+  N.levels : 3
+  N.entries : 205
+  N.languages : 205
+  N.missing : 283
+  Levels : 
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+    'in' : >
+       [inside the phonological host], [inside the phonological host by default, after the host under
+       exceptional conditions (typically lexical)]
+
+# ------ PositionNeg.binned5 ------
+PositionNeg.binned5:
+  Description : >
+     Position of the exemplar negation marker with respect to its phonological host. (For the definition
+     of the examplar see the Notes field; for the general notion of exemplars see Bickel & Nichols 2005
+     in WALS, http://wals.info/chapter/s5), binned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'PositionNeg'
+  N.levels : 4
+  N.entries : 220
+  N.languages : 220
+  N.missing : 268
+  Levels : 
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+    'simul' : >
+       [the formative has two exponents at different positions in the phonological host (but it is not
+       the case that one is positioned before and the other after the host, which is coded as “circum”)],
+       [the formative has two exponents, one before and one after the phonological host. This is a special
+       case of the “simul” position], [around the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [around the phonological host by default, after the
+       host under exceptional conditions (typically lexical)], [in two or more different positions in
+       (but not around) the phonological host by default, before the host under exceptional conditions
+       (typically lexical)], [in two or more different positons in the phonological host by default,
+       after the host under exceptional conditions (typically lexical)], [a special case of “simul” where
+       one position is stem change itself]
+    'split' : >
+       [either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either inside or before the phonological host, conditioned by some structural
+       context (category, syntax etc.)], [either inside or after the phonological host, conditioned by
+       some structural context (category, syntax etc.)], [either before or around the phonological host,
+       conditioned by some structural context (category, syntax etc.)], [either before, after or around
+       the phonological host, conditioned by some structural context (category, syntax etc.)], [either
+       before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either before, after or in two or more positions in the phonological host, conditioned
+       by some structural context (category, syntax etc.)], [either before, after, inside or around the
+       phonological host, conditioned by some structural context (category, syntax etc.)], [either after
+       or around the phonological host, conditioned by some structural context (category, syntax etc.)],
+       [either before or inside the phonological host, conditioned by some structural context (category,
+       syntax etc.)]
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ PositionNounPlural.binned5 ------
+PositionNounPlural.binned5:
+  Description : >
+     Position of the exemplar noun plural marker with respect to its phonological host. (For the definition
+     of the examplar see the Notes field; for the general notion of exemplars see Bickel & Nichols 2005
+     in WALS, http://wals.info/chapter/s5), binned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'PositionNounPlural'
+  N.levels : 5
+  N.entries : 192
+  N.languages : 192
+  N.missing : 296
+  Levels : 
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+    'simul' : >
+       [the formative has two exponents at different positions in the phonological host (but it is not
+       the case that one is positioned before and the other after the host, which is coded as “circum”)],
+       [the formative has two exponents, one before and one after the phonological host. This is a special
+       case of the “simul” position], [around the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [around the phonological host by default, after the
+       host under exceptional conditions (typically lexical)], [in two or more different positions in
+       (but not around) the phonological host by default, before the host under exceptional conditions
+       (typically lexical)], [in two or more different positons in the phonological host by default,
+       after the host under exceptional conditions (typically lexical)], [a special case of “simul” where
+       one position is stem change itself]
+    'split' : >
+       [either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either inside or before the phonological host, conditioned by some structural
+       context (category, syntax etc.)], [either inside or after the phonological host, conditioned by
+       some structural context (category, syntax etc.)], [either before or around the phonological host,
+       conditioned by some structural context (category, syntax etc.)], [either before, after or around
+       the phonological host, conditioned by some structural context (category, syntax etc.)], [either
+       before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either before, after or in two or more positions in the phonological host, conditioned
+       by some structural context (category, syntax etc.)], [either before, after, inside or around the
+       phonological host, conditioned by some structural context (category, syntax etc.)], [either after
+       or around the phonological host, conditioned by some structural context (category, syntax etc.)],
+       [either before or inside the phonological host, conditioned by some structural context (category,
+       syntax etc.)]
+    'in' : >
+       [inside the phonological host], [inside the phonological host by default, after the host under
+       exceptional conditions (typically lexical)]
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ PositionTense.binned5 ------
+PositionTense.binned5:
+  Description : >
+     Position of the exemplar tense marker with respect to its phonological host. (Exemplars as defined
+     in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5), binned
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'PositionTense'
+  N.levels : 5
+  N.entries : 140
+  N.languages : 140
+  N.missing : 348
+  Levels : 
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+    'in' : >
+       [inside the phonological host], [inside the phonological host by default, after the host under
+       exceptional conditions (typically lexical)]
+    'split' : >
+       [either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either inside or before the phonological host, conditioned by some structural
+       context (category, syntax etc.)], [either inside or after the phonological host, conditioned by
+       some structural context (category, syntax etc.)], [either before or around the phonological host,
+       conditioned by some structural context (category, syntax etc.)], [either before, after or around
+       the phonological host, conditioned by some structural context (category, syntax etc.)], [either
+       before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either before, after or in two or more positions in the phonological host, conditioned
+       by some structural context (category, syntax etc.)], [either before, after, inside or around the
+       phonological host, conditioned by some structural context (category, syntax etc.)], [either after
+       or around the phonological host, conditioned by some structural context (category, syntax etc.)],
+       [either before or inside the phonological host, conditioned by some structural context (category,
+       syntax etc.)]
+    'simul' : >
+       [the formative has two exponents at different positions in the phonological host (but it is not
+       the case that one is positioned before and the other after the host, which is coded as “circum”)],
+       [the formative has two exponents, one before and one after the phonological host. This is a special
+       case of the “simul” position], [around the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [around the phonological host by default, after the
+       host under exceptional conditions (typically lexical)], [in two or more different positions in
+       (but not around) the phonological host by default, before the host under exceptional conditions
+       (typically lexical)], [in two or more different positons in the phonological host by default,
+       after the host under exceptional conditions (typically lexical)], [a special case of “simul” where
+       one position is stem change itself]
+
+# ------ PositionCase ------
+PositionCase:
+  Description : >
+     Position of the exemplar case marker with respect to its phonological host. (Exemplars as defined
+     in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'PositionCase'
+  N.levels : 5
+  N.entries : 237
+  N.languages : 237
+  N.missing : 251
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+    'not applicable' : >
+       not applicable because an element’s position is defined only with respect to grammatical words
+    'in' : >
+       inside the phonological host
+    'post (in)' : >
+       after the phonological host by default, inside the host under exceptional conditions (typically
+       lexical)
+
+# ------ PositionNeg ------
+PositionNeg:
+  Description : >
+     Position of the exemplar negation marker with respect to its phonological host. (For the definition
+     of the examplar see the Notes field; for the general notion of exemplars see Bickel & Nichols 2005
+     in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'PositionNeg'
+  N.levels : 10
+  N.entries : 221
+  N.languages : 221
+  N.missing : 267
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+    'circum' : >
+       the formative has two exponents, one before and one after the phonological host. This is a special
+       case of the “simul” position
+    'post (circum)' : >
+       after the phonological host by default, around the host under exceptional conditions (typically
+       lexical)
+    'circum (post)' : >
+       around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)
+    'circum (prae)' : >
+       around the phonological host by default, before the host under exceptional conditions (typically
+       lexical)
+    'simul (prae)' : >
+       in two or more different positions in (but not around) the phonological host by default, before
+       the host under exceptional conditions (typically lexical)
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'simul' : >
+       the formative has two exponents at different positions in the phonological host (but it is not
+       the case that one is positioned before and the other after the host, which is coded as “circum”)
+    'circum (W)' : >
+       DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) -- see log 77
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ PositionNounPlural ------
+PositionNounPlural:
+  Description : >
+     Position of the exemplar noun plural marker with respect to its phonological host. (For the definition
+     of the examplar see the Notes field; for the general notion of exemplars see Bickel & Nichols 2005
+     in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'PositionNounPlural'
+  N.levels : 8
+  N.entries : 193
+  N.languages : 193
+  N.missing : 295
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+    'simul' : >
+       the formative has two exponents at different positions in the phonological host (but it is not
+       the case that one is positioned before and the other after the host, which is coded as “circum”)
+    'in/post' : >
+       either inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'not applicable' : >
+       not applicable because an element’s position is defined only with respect to grammatical words
+    'prae/circum' : >
+       either before or around the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'in' : >
+       inside the phonological host
+    'prae/post/circum' : >
+       either before, after or around the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ PositionTense ------
+PositionTense:
+  Description : >
+     Position of the exemplar tense marker with respect to its phonological host. (Exemplars as defined
+     in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'PositionTense'
+  N.levels : 9
+  N.entries : 142
+  N.languages : 142
+  N.missing : 346
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+    'not applicable' : >
+       not applicable because an element’s position is defined only with respect to grammatical words
+    'in' : >
+       inside the phonological host
+    'in/prae' : >
+       either inside or before the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'circum' : >
+       the formative has two exponents, one before and one after the phonological host. This is a special
+       case of the “simul” position
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'simul' : >
+       the formative has two exponents at different positions in the phonological host (but it is not
+       the case that one is positioned before and the other after the host, which is coded as “circum”)
+    'in/post' : >
+       either inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+
+# ------ PositionCase.pre.Presence.v1 ------
+PositionCase.pre.Presence.v1:
+  Description : >
+     At least some realization of the exemplar case marker before its phonological host. Exemplars as
+     defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionCase'
+  N.entries : 237
+  N.languages : 237
+  N.missing : 251
+
+# ------ PositionNeg.pre.Presence.v1 ------
+PositionNeg.pre.Presence.v1:
+  Description : >
+     At least some realization of the exemplar negation marker before its phonological host. Exemplars
+     as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionNeg'
+  N.entries : 220
+  N.languages : 220
+  N.missing : 268
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ PositionNounPlural.pre.Presence.v1 ------
+PositionNounPlural.pre.Presence.v1:
+  Description : >
+     At least some realization of the exemplar nominal plural marker before its phonological host. Exemplars
+     as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionNounPlural'
+  N.entries : 193
+  N.languages : 193
+  N.missing : 295
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ PositionTense.pre.Presence.v1 ------
+PositionTense.pre.Presence.v1:
+  Description : >
+     At least some realization of the exemplar tense marker before its phonological host. Exemplars as
+     defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionTense'
+  N.entries : 142
+  N.languages : 142
+  N.missing : 346
+
+# ------ PositionCase.pre.Presence.v2 ------
+PositionCase.pre.Presence.v2:
+  Description : >
+     At least some default realizations of the exemplar case marker before its phonological host. Default
+     refers to that variant of a marker that is not contextually restricted (e.g. restricted to nonfinite
+     verb forms etc.). Exemplars as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionCase'
+  N.entries : 237
+  N.languages : 237
+  N.missing : 251
+
+# ------ PositionNeg.pre.Presence.v2 ------
+PositionNeg.pre.Presence.v2:
+  Description : >
+     At least some default realizations of the exemplar negation marker before its phonological host.
+     Default refers to that variant of a marker that is not contextually restricted (e.g. restricted
+     to nonfinite verb forms etc.). Exemplars as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionNeg'
+  N.entries : 220
+  N.languages : 220
+  N.missing : 268
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ PositionNounPlural.pre.Presence.v2 ------
+PositionNounPlural.pre.Presence.v2:
+  Description : >
+     At least some default realizations of the exemplar nominal plural marker before its phonological
+     host. Default refers to that variant of a marker that is not contextually restricted (e.g. restricted
+     to nonfinite verb forms etc.). Exemplars as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionNounPlural'
+  N.entries : 193
+  N.languages : 193
+  N.missing : 295
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ PositionTense.pre.Presence.v2 ------
+PositionTense.pre.Presence.v2:
+  Description : >
+     At least some default realizations of the exemplar tense marker before its phonological host. Default
+     refers to that variant of a marker that is not contextually restricted (e.g. restricted to nonfinite
+     verb forms etc.). Exemplars as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionTense'
+  N.entries : 142
+  N.languages : 142
+  N.missing : 346
+
+# ------ PositionCase.simul.Presence.v1 ------
+PositionCase.simul.Presence.v1:
+  Description : >
+     At least some multiple exponence of the exemplar case marker. Exemplars as defined in Bickel & Nichols
+     2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionCase'
+  N.entries : 205
+  N.languages : 205
+  N.missing : 283
+
+# ------ PositionNeg.simul.Presence.v1 ------
+PositionNeg.simul.Presence.v1:
+  Description : >
+     At least some multiple exponence of the exemplar negation marker. Exemplars as defined in Bickel
+     & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionNeg'
+  N.entries : 220
+  N.languages : 220
+  N.missing : 268
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ PositionNounPlural.simul.Presence.v1 ------
+PositionNounPlural.simul.Presence.v1:
+  Description : >
+     At least some multiple exponence of the exemplar nominal plural marker. Exemplars as defined in
+     Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionNounPlural'
+  N.entries : 192
+  N.languages : 192
+  N.missing : 296
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ PositionTense.simul.Presence.v1 ------
+PositionTense.simul.Presence.v1:
+  Description : >
+     At least some multiple exponence of the exemplar tense marker. Exemplars as defined in Bickel &
+     Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionTense'
+  N.entries : 140
+  N.languages : 140
+  N.missing : 348
+
+# ------ PositionCase.simul.Presence.v2 ------
+PositionCase.simul.Presence.v2:
+  Description : >
+     At least some multiple exponence of the exemplar case marker under the default condition. Exemplars
+     as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5). Default refers to the
+     variant of the marker that is not contextually restricted.
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionCase'
+  N.entries : 205
+  N.languages : 205
+  N.missing : 283
+
+# ------ PositionNeg.simul.Presence.v2 ------
+PositionNeg.simul.Presence.v2:
+  Description : >
+     At least some multiple exponence of the exemplar negation marker under the default condition. Exemplars
+     as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5). Default refers to the
+     variant of the marker that is not contextually restricted.
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionNeg'
+  N.entries : 220
+  N.languages : 220
+  N.missing : 268
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ PositionNounPlural.simul.Presence.v2 ------
+PositionNounPlural.simul.Presence.v2:
+  Description : >
+     At least some multiple exponence of the exemplar nominal plural marker under the default condition.
+     Exemplars as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5). Default refers
+     to the variant of the marker that is not contextually restricted.
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionNounPlural'
+  N.entries : 192
+  N.languages : 192
+  N.missing : 296
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ PositionTense.simul.Presence.v2 ------
+PositionTense.simul.Presence.v2:
+  Description : >
+     At least some multiple exponence of the exemplar tense marker under the default condition. Exemplars
+     as defined in Bickel & Nichols 2005 in WALS (http://wals.info/chapter/s5). Default refers to the
+     variant of the marker that is not contextually restricted.
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PositionTense'
+  N.entries : 140
+  N.languages : 140
+  N.missing : 348
+
+# ------ HostRestrictionsCase ------
+HostRestrictionsCase:
+  Description : >
+     Host restrictions (in terms of parts of speech categories) of the exemplar case marker in its phrase,
+     as defined in Bickel & Nichols 2007 (in Language typology and syntactic description, ed. T, Shopen,
+     Cambridge: Cambridge University Press). (Exemplars as defined in Bickel & Nichols 2005 in WALS;
+     http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'HostRestrictionsCase'
+  N.levels : 2
+  N.entries : 311
+  N.languages : 311
+  N.missing : 177
+  Levels : 
+    'restricted' : >
+       Is restricted to a specific type of host. When descriptions are silent about the range of hosts
+       that a marker can combine with, but analyze the marker as an “affix”, we assume it is restricted.
+    'semi-restricted' : >
+       Can occur with some, but not all host elements (so, NOT a ‘phrasal affix’, but rather simply a
+       ‘particle’-like formative that has some degree of selectional restrictions). Allows at least two
+       distinct hosts (in terms of their parts of speech categories)
+
+# ------ HostRestrictionsNegation ------
+HostRestrictionsNegation:
+  Description : >
+     Host restrictions (in terms of parts of speech categories) of the exemplar negation marker in its
+     phrase, as defined in Bickel & Nichols 2007 (in Language typology and syntactic description, ed.
+     T, Shopen, Cambridge: Cambridge University Press). (For the definition of the examplar see the Notes
+     field; for the general notion of exemplars see Bickel & Nichols 2005 in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'HostRestrictionsNegation'
+  N.levels : 3
+  N.entries : 196
+  N.languages : 196
+  N.missing : 292
+  Levels : 
+    'restricted' : >
+       Is restricted to a specific type of host. When descriptions are silent about the range of hosts
+       that a marker can combine with, but analyze the marker as an “affix”, we assume it is restricted.
+    'unrestricted' : >
+       occurs with anything (e.g. Turkish mi)
+    'semi-restricted' : >
+       Can occur with some, but not all host elements (so, NOT a ‘phrasal affix’, but rather simply a
+       ‘particle’-like formative that has some degree of selectional restrictions). Allows at least two
+       distinct hosts (in terms of their parts of speech categories)
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ HostRestrictionsNounPlural ------
+HostRestrictionsNounPlural:
+  Description : >
+     Host restrictions (in terms of parts of speech categories) of the exemplar noun plural marker in
+     its phrase, as defined in Bickel & Nichols 2007 (in Language typology and syntactic description,
+     ed. T, Shopen, Cambridge: Cambridge University Press). (For the definition of the examplar see the
+     Notes field; for the general notion of exemplars see Bickel & Nichols 2005 in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'HostRestrictionsNounPlural'
+  N.levels : 2
+  N.entries : 88
+  N.languages : 88
+  N.missing : 400
+  Levels : 
+    'restricted' : >
+       Is restricted to a specific type of host. When descriptions are silent about the range of hosts
+       that a marker can combine with, but analyze the marker as an “affix”, we assume it is restricted.
+    'semi-restricted' : >
+       Can occur with some, but not all host elements (so, NOT a ‘phrasal affix’, but rather simply a
+       ‘particle’-like formative that has some degree of selectional restrictions). Allows at least two
+       distinct hosts (in terms of their parts of speech categories)
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ HostRestrictionsTense ------
+HostRestrictionsTense:
+  Description : >
+     Host restrictions (in terms of parts of speech categories) of the exemplar tense marker in its phrase,
+     as defined in Bickel & Nichols 2007 (in Language typology and syntactic description, ed. T, Shopen,
+     Cambridge: Cambridge University Press). (Exemplars as defined in Bickel & Nichols 2005 in WALS;
+     http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'HostRestrictionsTense'
+  N.levels : 2
+  N.entries : 56
+  N.languages : 56
+  N.missing : 432
+  Levels : 
+    'restricted' : >
+       Is restricted to a specific type of host. When descriptions are silent about the range of hosts
+       that a marker can combine with, but analyze the marker as an “affix”, we assume it is restricted.
+    'semi-restricted' : >
+       Can occur with some, but not all host elements (so, NOT a ‘phrasal affix’, but rather simply a
+       ‘particle’-like formative that has some degree of selectional restrictions). Allows at least two
+       distinct hosts (in terms of their parts of speech categories)
+
+# ------ FlexivityStemCase ------
+FlexivityStemCase:
+  Description : >
+     Stem flexivity (allomorphy) of the exemplar case marker in its phrase, as defined in Bickel & Nichols
+     2007 (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (Exemplars as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FlexivityStemCase'
+  N.levels : 3
+  N.entries : 171
+  N.languages : 171
+  N.missing : 317
+  Levels : 
+    'none' : >
+    'lex-based' : >
+       Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
+       some verbs, but not with others)
+    'cat-based' : >
+       Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
+       ablaut in certain tense forms, across the regular lexicon)
+
+# ------ FlexivityStemNeg ------
+FlexivityStemNeg:
+  Description : >
+     Stem flexivity (allomorphy) of the exemplar negation marker in its phrase, as defined in Bickel
+     & Nichols 2007 (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge
+     University Press). (For the definition of the examplar see the Notes field; for the general notion
+     of exemplars see Bickel & Nichols 2005 in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FlexivityStemNeg'
+  N.levels : 3
+  N.entries : 144
+  N.languages : 144
+  N.missing : 344
+  Levels : 
+    'none' : >
+    'lex-based' : >
+       Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
+       some verbs, but not with others)
+    'cat-based' : >
+       Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
+       ablaut in certain tense forms, across the regular lexicon)
+  Notes : >
+     The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
+     markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
+     indicative > other illocutionary roles and moods; tense exemplar > other TAM values, i.e. past >
+     perfective > realis > others; clausal scope > constituent scope; verbal predicate > other predicate;
+     finite > nonfinite
+
+# ------ FlexivityStemNounPlural ------
+FlexivityStemNounPlural:
+  Description : >
+     Stem flexivity (allomorphy) of the exemplar noun plural marker in its phrase, as defined in Bickel
+     & Nichols 2007 (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge
+     University Press). (For the definition of the examplar see the Notes field; for the general notion
+     of exemplars see Bickel & Nichols 2005 in WALS, http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FlexivityStemNounPlural'
+  N.levels : 3
+  N.entries : 12
+  N.languages : 12
+  N.missing : 476
+  Levels : 
+    'none' : >
+    'lex-based' : >
+       Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
+       some verbs, but not with others)
+    'cat-based' : >
+       Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
+       ablaut in certain tense forms, across the regular lexicon)
+  Notes : >
+     The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
+     marking for nouns. If plural is different from dual, use the true plural. If different nouns have
+     different morphological plural formations, use the commonest (or default) one. If animate (or human)
+     and inanimate nouns have morphologically different plurals, enter both (creating two records for
+     Noun Plural). (If there is yet another morphologically different salient non-default plural, that
+     can also be entered in the database as well, but don’t flag it as this plural.) If plural marking
+     is described as optional, use it nonetheless (indicate optional nature in the database). Use only
+     true plurals; do not use a collective, distributive, etc. if there is no plural.
+
+# ------ FlexivityStemTense ------
+FlexivityStemTense:
+  Description : >
+     Stem flexivity (allomorphy) of the exemplar tense marker in its phrase, as defined in Bickel & Nichols
+     2007 (in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University
+     Press). (Exemplars as defined in Bickel & Nichols 2005 in WALS; http://wals.info/chapter/s5)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FlexivityStemTense'
+  N.levels : 4
+  N.entries : 50
+  N.languages : 50
+  N.missing : 438
+  Levels : 
+    'none' : >
+    'lex-based' : >
+       Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
+       some verbs, but not with others)
+    'cat-based' : >
+       Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
+       ablaut in certain tense forms, across the regular lexicon)
+    'both' : >
+

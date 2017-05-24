@@ -1,0 +1,319 @@
+"LID","Gender.n","Gender.binned4","Gender.Presence"
+1531,3,"3 genders",TRUE
+655,4,"4 genders",TRUE
+553,10,"more than 4 genders",TRUE
+1149,5,"more than 4 genders",TRUE
+2949,3,"3 genders",TRUE
+82,4,"4 genders",TRUE
+2962,3,"3 genders",TRUE
+173,3,"3 genders",TRUE
+895,5,"more than 4 genders",TRUE
+15,2,"2 genders",TRUE
+2536,4,"4 genders",TRUE
+534,3,"3 genders",TRUE
+512,2,"2 genders",TRUE
+71,4,"4 genders",TRUE
+651,3,"3 genders",TRUE
+540,2,"2 genders",TRUE
+660,4,"4 genders",TRUE
+3101,2,"2 genders",TRUE
+606,3,"3 genders",TRUE
+497,8,"more than 4 genders",TRUE
+493,2,"2 genders",TRUE
+212,2,"2 genders",
+378,2,"2 genders",TRUE
+80,20,"more than 4 genders",TRUE
+420,11,"more than 4 genders",TRUE
+145,3,"3 genders",TRUE
+686,,,FALSE
+692,4,"4 genders",TRUE
+668,,,FALSE
+580,,,FALSE
+64,,,FALSE
+355,2,"2 genders",TRUE
+571,2,"2 genders",TRUE
+1519,2,"2 genders",TRUE
+167,2,"2 genders",TRUE
+98,2,"2 genders",TRUE
+40,4,"4 genders",TRUE
+386,2,"2 genders",TRUE
+411,5,"more than 4 genders",TRUE
+132,,,FALSE
+87,3,"3 genders",TRUE
+114,5,"more than 4 genders",TRUE
+343,3,"3 genders",
+340,3,"3 genders",TRUE
+608,,,FALSE
+188,,,FALSE
+78,,,FALSE
+423,,,FALSE
+191,5,"more than 4 genders",TRUE
+22,2,"2 genders",TRUE
+438,2,"2 genders",
+325,,,FALSE
+348,,,FALSE
+388,,,FALSE
+318,6,"more than 4 genders",TRUE
+7,,,FALSE
+32,,,FALSE
+14,,,TRUE
+149,,,FALSE
+2967,3,"3 genders",TRUE
+69,,,FALSE
+2511,2,"2 genders",TRUE
+2828,,,FALSE
+2388,4,"4 genders",TRUE
+199,3,"3 genders",TRUE
+402,,,FALSE
+987,4,"4 genders",TRUE
+2779,,,FALSE
+21,2,"2 genders",TRUE
+499,18,"more than 4 genders",TRUE
+395,2,"2 genders",TRUE
+332,,,FALSE
+200,,,FALSE
+409,,,FALSE
+365,,,FALSE
+10,,,FALSE
+642,2,"2 genders",TRUE
+390,5,"more than 4 genders",TRUE
+148,5,"more than 4 genders",TRUE
+643,7,"more than 4 genders",TRUE
+461,4,"4 genders",TRUE
+129,3,"3 genders",TRUE
+2960,3,"3 genders",TRUE
+323,6,"more than 4 genders",TRUE
+347,,,TRUE
+443,,,FALSE
+2572,3,"3 genders",TRUE
+421,,,FALSE
+1807,3,"3 genders",TRUE
+1840,3,"3 genders",TRUE
+1263,4,"4 genders",TRUE
+530,5,"more than 4 genders",TRUE
+1700,5,"more than 4 genders",TRUE
+155,4,"4 genders",TRUE
+2947,3,"3 genders",TRUE
+2826,2,"2 genders",TRUE
+196,,,FALSE
+2948,4,"4 genders",TRUE
+210,,,FALSE
+319,,,FALSE
+162,,,FALSE
+408,,,FALSE
+416,,,FALSE
+50,,,FALSE
+2577,4,"4 genders",TRUE
+1816,,,TRUE
+186,,,FALSE
+917,4,"4 genders",TRUE
+389,,,FALSE
+413,4,"4 genders",TRUE
+86,,,FALSE
+481,,,FALSE
+34,2,"2 genders",TRUE
+65,2,"2 genders",TRUE
+75,,,FALSE
+81,,,FALSE
+91,,,FALSE
+111,,,FALSE
+123,,,FALSE
+422,5,"more than 4 genders",TRUE
+147,,,FALSE
+163,,,FALSE
+165,12,"more than 4 genders",TRUE
+464,3,"3 genders",TRUE
+100,2,"2 genders",TRUE
+107,,,FALSE
+373,,,FALSE
+456,,,FALSE
+68,4,"4 genders",TRUE
+84,,,FALSE
+128,,,FALSE
+170,4,"4 genders",TRUE
+178,6,"more than 4 genders",TRUE
+179,,,FALSE
+181,5,"more than 4 genders",TRUE
+93,4,"4 genders",TRUE
+141,,,FALSE
+198,2,"2 genders",TRUE
+205,,,FALSE
+433,,,FALSE
+405,6,"more than 4 genders",TRUE
+612,,,FALSE
+6,2,"2 genders",TRUE
+20,,,FALSE
+55,,,FALSE
+184,,,FALSE
+38,3,"3 genders",TRUE
+27,,,FALSE
+53,,,FALSE
+59,2,"2 genders",TRUE
+135,,,FALSE
+150,,,FALSE
+156,,,FALSE
+202,,,FALSE
+208,,,FALSE
+354,,,FALSE
+377,,,FALSE
+382,,,FALSE
+577,,,FALSE
+345,,,FALSE
+25,,,FALSE
+458,,,FALSE
+73,2,"2 genders",TRUE
+367,,,FALSE
+369,2,"2 genders",TRUE
+370,2,"2 genders",TRUE
+435,2,"2 genders",TRUE
+407,,,FALSE
+569,2,"2 genders",TRUE
+360,2,"2 genders",TRUE
+12,,,FALSE
+18,,,FALSE
+56,,,FALSE
+527,,,FALSE
+116,,,FALSE
+118,,,FALSE
+89,,,FALSE
+201,,,FALSE
+101,,,FALSE
+104,,,FALSE
+387,,,FALSE
+180,,,FALSE
+329,2,"2 genders",TRUE
+333,,,FALSE
+28,,,FALSE
+33,,,FALSE
+399,,,FALSE
+103,,,FALSE
+109,,,FALSE
+126,,,FALSE
+130,,,FALSE
+131,,,FALSE
+133,,,FALSE
+134,,,FALSE
+136,,,FALSE
+138,,,FALSE
+140,2,"2 genders",TRUE
+550,3,"3 genders",TRUE
+211,,,FALSE
+362,,,
+350,,,FALSE
+358,,,FALSE
+359,,,FALSE
+51,,,FALSE
+63,,,FALSE
+95,,,FALSE
+393,,,FALSE
+113,,,FALSE
+415,,,FALSE
+419,,,FALSE
+620,,,FALSE
+469,,,FALSE
+514,,,FALSE
+43,,,FALSE
+47,,,FALSE
+599,,,FALSE
+356,,,FALSE
+92,,,FALSE
+363,,,FALSE
+379,,,FALSE
+176,,,FALSE
+406,,,FALSE
+418,,,FALSE
+428,,,FALSE
+567,,,FALSE
+352,,,FALSE
+1397,,,FALSE
+576,3,"3 genders",TRUE
+9,,,FALSE
+35,,,FALSE
+463,,,FALSE
+44,3,"3 genders",
+154,,,FALSE
+99,2,"2 genders",TRUE
+500,,,FALSE
+225,,,FALSE
+171,,,FALSE
+197,,,FALSE
+327,,,FALSE
+26,,,FALSE
+374,,,FALSE
+375,,,FALSE
+494,,,FALSE
+459,,,FALSE
+551,2,"2 genders",TRUE
+669,,,FALSE
+432,,,FALSE
+505,,,FALSE
+125,,,FALSE
+168,,,FALSE
+72,,,FALSE
+338,2,"2 genders",TRUE
+344,,,FALSE
+351,,,FALSE
+442,,,FALSE
+535,3,"3 genders",TRUE
+357,,,FALSE
+656,,,FALSE
+77,,,FALSE
+398,,,FALSE
+112,,,FALSE
+454,,,FALSE
+498,,,FALSE
+429,,,FALSE
+1739,,,FALSE
+654,,,FALSE
+1036,2,"2 genders",TRUE
+492,,,FALSE
+2974,,,FALSE
+502,,,FALSE
+666,,,FALSE
+518,,,FALSE
+385,,,FALSE
+412,,,FALSE
+1896,2,"2 genders",TRUE
+177,,,FALSE
+649,,,FALSE
+305,3,"3 genders",TRUE
+400,3,"3 genders",TRUE
+466,,,TRUE
+564,,,FALSE
+226,,,FALSE
+2987,,,FALSE
+207,,,FALSE
+397,,,FALSE
+61,,,FALSE
+645,,,FALSE
+404,,,FALSE
+159,,,FALSE
+1828,2,"2 genders",TRUE
+223,,,FALSE
+515,,,FALSE
+2469,2,"2 genders",TRUE
+326,,,FALSE
+558,2,"2 genders",TRUE
+66,,,FALSE
+566,,,FALSE
+192,3,"3 genders",TRUE
+2797,,,FALSE
+538,,,FALSE
+2260,,,FALSE
+578,,,FALSE
+414,,,FALSE
+391,,,FALSE
+582,,,FALSE
+664,,,FALSE
+565,3,"3 genders",TRUE
+383,,,FALSE
+503,,,FALSE
+646,,,FALSE
+454,,,FALSE
+663,,,FALSE
+526,,,FALSE
+501,,,FALSE
+106,,,FALSE
+656,,,FALSE
+1625,,,FALSE
+528,,,FALSE

@@ -1,0 +1,347 @@
+# ------ IndividualPredicateMeaning ------
+IndividualPredicateMeaning:
+  Description : >
+     Rough translation of the verb in a given valence class
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'details'
+  DataType : 'categorical'
+  VariantOf : 'IndividualPredicateMeaning'
+  N.levels : 547
+  N.entries : 3410
+  N.languages : 218
+  N.missing : 5
+
+# ------ PredicateSemanticMalchukovClass ------
+PredicateSemanticMalchukovClass:
+  Description : >
+     Semantic category of the verb in a given valence class, based on Malchukov's taxonomy of semantic
+     classes (Malchukov, A., 2005, Case pattern splits, verb types and construction competition In: Amberber,
+     M. & H. de Hoop [eds], Competition and variation in natural languages: the case for case. Amsterdam:
+     Elsevier)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'PredicateSemanticMalchukovClass'
+  N.levels : 8
+  N.entries : 3401
+  N.languages : 218
+  N.missing : 14
+  Levels : 
+    'Malch_sensation' : >
+       [feel_thirsty], [have_fever], [have_a_headache], [be_ill], [want], [feel_sick], [feel_cold], [be_hungry],
+       [feel_itchy], [feel_tired], [feel_sleepy], [feel_pain], [feel_disgusted], [feel_hot], [be_satisfied_(with)],
+       [hunger_for], [have_sore_throat], [feel_dizzy], [feel_sexually_aroused], [feel_well], [nonspecific_sensation],
+       [suffer], [be_drunk], [feel_lazy], [have_heartache], [not_want], [have_a_stomachache], [have_a_toothache],
+       [have_ears_buzzing], [be_satiated]
+    'Malch_emotion' : >
+       [feel_like_laughing], [feel_fear], [be_surprised], [feel_ashamed_(of)], [feel_irritated], [be_angry_(with)],
+       [love], [admire], [enjoy], [be_proud_of], [feel_happy_(about)], [trust], [be_fed_up_with], [hate],
+       [feel_sorry_about], [hope], [feel_unhappy], [be_worried_(about)], [feel_sad], [annoy], [be_bored],
+       [miss_long_for], [nonspecific_emotion], [feel_envy], [regret], [be_dissatisfied_with], [disappoint],
+       [scorn], [despair], [feel_offended], [mourn_(for)], [feel_lonely], [fall_in_love_with], [fall_out_love_with],
+       [miss_not_meet], [feel_nervous], [prefer], [respect], [approve], [feel_compassion_to]
+    'Malch_other' : >
+       [be_able], [be_known], [be_equal], [be_necessary], [bring], [sneeze], [cough], [bark], [urinate],
+       [defecate], [spit], [smile], [shed_tears], [laugh], [bathe], [sleep], [have], [use], [be_occupied_with],
+       [suffer_from], [risk], [trade_in], [achieve], [lose], [obey], [vomit], [shiver], [work], [wake_up],
+       [find], [become_full_of], [take_care_of], [avoid], [get_rid_of], [exceed], [restrict], [exist],
+       [sit], [stand], [hang], [lie], [die], [appear], [place], [dance], [graze], [pray], [play], [sing],
+       [shout_(at)], [groan], [neigh], [crow], [belch], [snore], [no_details], [help], [pull], [be_successful],
+       [say], [speak], [get], [seem], [nonspecific_control], [become], [begin], [continue], [finish],
+       [cheat], [control], [ill-treat], [thank], [rebel_(against)], [scold], [be_older_than], [appreciate],
+       [answer], [order], [wash], [invite], [change], [overturn], [blow_away], [hold], [hurry_up], [greet],
+       [sacrifice], [get_to_know], [resemble], [close], [lift], [gather], [devide], [direct], [squeeze],
+       [roll], [curse], [defend], [agree], [turn], [push], [cause], [recover_from], [ask], [demand],
+       [need], [visit], [hide_oneself], [ambush], [warn], [threaten], [praise], [yawn], [smoke], [put],
+       [send], [give], [(unclear)], [insult], [try], [harm], [suit], [contradict], [forgive], [precede],
+       [lack], [commemorate], [suffice], [belong], [be_tasty_to], [promise], [claim], [allow], [advise],
+       [forbid], [persuade], [propose], [throw], [infect], [feed], [show], [pour], [cover], [bury], [spray],
+       [stain], [cut], [must], [may], [have_diarrhoea], [depend_on], [disagree], [lend], [call_for],
+       [remind], [proclaim], [load], [congratulate], [fill], [nonspecific_transfer], [attack], [teach],
+       [dress], [transform], [quarrel], [name], [pay_with_for], [deprive], [manage], [take_possession_of],
+       [nonspecific_transformation], [remove], [call_smb_smth], [wear], [disobey], [bid_farewell], [dally_with],
+       [refuse], [make], [drink], [eat], [function], [stay], [boil], [keep], [sow], [spill], [exchange],
+       [buy], [breathe], [grow], [blink], [take_a_vow], [sin], [joke], [spend_time], [paint], [revenge],
+       [surround], [be_lazy], [be_stiff], [snatch], [fight], [hide], [bleed], [nod], [kneel], [be_many],
+       [ring], [snap], [rattle], [fart], [blow_ones_nose], [stick_the_tongue_out], [be_fat], [be_tall],
+       [have_measles], [have_pneumonia], [have_a_nose_bleed], [have_a_runny_nose], [be_short], [have_a_spasm],
+       [be_pregnant], [be_poor], [have_leprosy], [be_sober], [be_crazy], [be_friendly], [be_hurt], [be_weak],
+       [choke], [be_awake], [smell_good], [smell_bad], [be_quiet], [be_good], [be_wet], [be_hot], [be_dirty],
+       [be_slow], [be_old], [be_grey-headed], [burn], [faint], [beg], [appoint_smb_as], [give_back],
+       [catch], [dismiss], [break], [burst], [miss_a_target], [cost], [steal], [borrow], [react], [be_finished],
+       [be_large], [have_difficulties], [be_injured], [affect], [be_full], [provide], [decorate], [sprinkle],
+       [accuse], [sell], [offer], [introduce], [explain], [wrap], [pack], [pile], [destroy], [nonspecific_quality],
+       [be_small], [be_of_colour], [nationality], [elect_smb_smth], [save_from], [give_birth_to], [have_the_habit],
+       [happen], [write], [dry], [shrink], [freeze], [grow_old], [drown], [swell], [slip], [get_undressed],
+       [shave], [disperse], [be_late], [cure], [hiccup], [be_ready], [stop], [taste_stale], [be_silent],
+       [scatter], [split], [tease], [be_clever], [add], [endure], [bless], [conspire], [share], [be_cruel],
+       [insist_on], [fail], [benefit_from], [make_fun_of], [have_sex], [flap], [describe], [judge], [live],
+       [reduce], [smell_of_smth], [consist_of], [address], [be_friends_with], [drop], [support], [choke_on],
+       [be_selfish], [be_ripe], [stutter], [be], [not_have], [be_good_at], [be_bad_at], [be_on_top_of],
+       [be_next_to], [be_apart_from], [be_bigger_than], [sweat], [disappear], [face], [decay], [trick],
+       [blossom], [misuse]
+    'Malch_perception_cognition' : >
+       [forget], [be_interested_in], [dream_during_sleep], [dream_daydream], [get_confused], [know],
+       [see], [believe], [get_used_to], [look_at], [hear], [find_out], [learn], [be_distracted], [think],
+       [guess], [become_aware_of], [be_sure_of], [fail_to_see], [nonspecific_cognition], [understand],
+       [listen_to], [watch], [remember], [notice], [review], [rely_on], [disbelieve], [not_know], [decide],
+       [feel_disoriented], [make_a_mistake], [consider_smb_smth], [ignore], [doubt], [nonspecific_perception],
+       [suspect], [smell], [plan], [experience], [concentrate], [give_up], [feel], [consider], [find_bitter],
+       [find_light], [find_sweet], [find_peppery], [find_sour], [find_stale]
+    'Malch_pursuit' : >
+       [wait_for], [look_for], [follow], [hunt], [fish], [chase], [watch_out_for]
+    'Malch_motion' : >
+       [swim], [pass], [come_to], [turn_towards], [approach], [go], [run], [escape], [fall], [come_in],
+       [accompany], [cross], [ride_to], [climb], [go_away_from], [mount_horse], [move_(to)], [jump],
+       [descend], [return], [fly], [walk], [rise], [come_from], [jump_over]
+    'Malch_contact' : >
+       [become_detached_from], [hit_against], [lean_against], [cling_to], [touch], [meet], [marry], [attach],
+       [come_together], [apply], [spread], [kick], [support], [beat], [join], [hit], [get_stuck_to],
+       [moor], [bump], [divorce_from], [lock], [milk], [be_close_to], [massage], [kiss], [rub], [stick],
+       [nail], [screw], [detach], [bite], [hug], [pinch], [be_married], [mix], [tear_from], [shoot]
+    'Malch_effective_action' : >
+       [let_go], [kill], [defeat], [pierce], [bake]
+
+# ------ ValClassLabel ------
+ValClassLabel:
+  Description : >
+     Descriptive label of the valence class
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'register'
+  DataType : 'categorical'
+  VariantOf : 'ValClassLabel'
+  N.levels : 568
+  N.entries : 3415
+  N.languages : 218
+  N.missing : 0
+
+# ------ ValClassDescription ------
+ValClassDescription:
+  Description : >
+     Description of the valence class
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'details'
+  DataType : 'categorical'
+  VariantOf : 'ValClassDescription'
+  N.levels : 841
+  N.entries : 3366
+  N.languages : 211
+  N.missing : 49
+
+# ------ ValClassDiscourseFreq ------
+ValClassDiscourseFreq:
+  Description : >
+     A rough estimate of the token frequency class of the predicate class
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'ValClassDiscourseFreq'
+  N.levels : 4
+  N.entries : 2953
+  N.languages : 187
+  N.missing : 462
+
+# ------ ValClassID ------
+ValClassID:
+  Description : >
+     Numerical ID of the valence class
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'register'
+  DataType : 'count'
+  VariantOf : 'ValClassID'
+  N.entries : 3415
+  N.languages : 218
+  N.missing : 0
+
+# ------ ValClassSize ------
+ValClassSize:
+  Description : >
+     A rough estimate of the lexical size of the valence class
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'ValClassSize'
+  N.levels : 5
+  N.entries : 2674
+  N.languages : 155
+  N.missing : 741
+
+# ------ PredicateSemanticClass ------
+PredicateSemanticClass:
+  Description : >
+     Semantic category of the verb in a given valence class
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'PredicateSemanticClass'
+  N.levels : 60
+  N.entries : 3338
+  N.languages : 208
+  N.missing : 77
+  Levels : 
+    'sensation' : >
+       [feel_thirsty], [have_fever], [be_ill], [feel_sick], [feel_cold], [be_hungry], [feel_itchy], [feel_tired],
+       [feel_sleepy], [feel_pain], [feel_disgusted], [feel_hot], [be_satisfied_(with)], [feel_dizzy],
+       [feel_well], [nonspecific_sensation], [suffer], [be_drunk], [feel_lazy], [be_satiated]
+    'emotion' : >
+       [feel_like_laughing], [feel_fear], [be_surprised], [feel_ashamed_(of)], [feel_irritated], [be_angry_(with)],
+       [love], [admire], [enjoy], [be_proud_of], [feel_happy_(about)], [trust], [be_fed_up_with], [hate],
+       [feel_sorry_about], [hope], [feel_unhappy], [be_worried_(about)], [feel_sad], [annoy], [be_bored],
+       [miss_long_for], [nonspecific_emotion], [feel_envy], [regret], [be_dissatisfied_with], [disappoint],
+       [scorn], [despair], [feel_offended], [mourn_(for)], [feel_lonely], [fall_in_love_with], [fall_out_love_with],
+       [feel_nervous], [prefer], [respect], [approve], [feel_compassion_to]
+    'diseases_and_bodily_states' : >
+       [have_a_headache], [suffer_from], [shiver], [recover_from], [be_stiff], [have_sore_throat], [have_measles],
+       [have_pneumonia], [have_a_runny_nose], [have_a_spasm], [be_pregnant], [have_leprosy], [be_hurt],
+       [choke], [faint], [feel_sexually_aroused], [be_injured], [give_birth_to], [swell], [have_heartache],
+       [have_a_stomachache], [have_a_toothache], [choke_on]
+    'ability' : >
+       [be_able], [endure]
+    'quality' : >
+       [be_known], [be_equal], [be_successful], [be_older_than], [resemble], [be_tasty_to], [be_lazy],
+       [be_close_to], [be_many], [be_fat], [be_tall], [be_short], [be_poor], [be_sober], [be_crazy],
+       [be_friendly], [be_weak], [be_quiet], [be_good], [be_wet], [be_hot], [be_dirty], [be_slow], [be_old],
+       [be_grey-headed], [be_large], [have_difficulties], [be_full], [nonspecific_quality], [be_small],
+       [be_of_colour], [nationality], [have_the_habit], [be_ready], [taste_stale], [be_clever], [be_cruel],
+       [consist_of], [be_selfish], [be_ripe], [be_good_at], [be_bad_at], [be_bigger_than]
+    'necessity' : >
+       [be_necessary], [need]
+    'send_carry_bring_take' : >
+       bring, send, milk
+    'cognition' : >
+       [forget], [be_interested_in], [dream_during_sleep], [dream_daydream], [get_confused], [know],
+       [believe], [get_used_to], [find_out], [learn], [be_distracted], [think], [guess], [become_aware_of],
+       [be_sure_of], [nonspecific_cognition], [understand], [remember], [review], [rely_on], [disbelieve],
+       [not_know], [decide], [feel_disoriented], [make_a_mistake], [ignore], [doubt], [suspect], [plan],
+       [concentrate], [give_up], [consider]
+    'bodily_emission' : >
+       [sneeze], [cough], [urinate], [defecate], [spit], [shed_tears], [vomit], [belch], [have_diarrhoea],
+       [breathe], [bleed], [have_a_nose_bleed], [hiccup], [sweat]
+    'sound_emission' : >
+       [bark], [sing], [shout_(at)], [groan], [neigh], [crow], [snore], [yawn], [ring], [snap], [rattle],
+       [fart], [blow_ones_nose], [be_silent], [stutter]
+    'laugh_wink' : >
+       [smile], [laugh], [blink], [nod], [stick_the_tongue_out], [flap]
+    'grooming' : >
+       [bathe], [wash], [dress], [wear], [get_undressed], [shave]
+    'sleep' : >
+       [sleep], [be_awake]
+    'possession' : >
+       [have], [lack], [belong], [not_have]
+    'use' : >
+       [use], [benefit_from], [misuse]
+    'activity' : >
+       [be_occupied_with], [risk], [work], [dance], [function], [spend_time]
+    'change_of_possession' : >
+       [trade_in], [find], [get], [give], [infect], [feed], [lend], [nonspecific_transfer], [pay_with_for],
+       [take_possession_of], [exchange], [buy], [give_back], [catch], [borrow], [provide], [sell], [offer],
+       [share]
+    'desideration' : >
+       [want], [hunger_for], [not_want]
+    'achieve' : >
+       achieve
+    'lose' : >
+       lose
+    'persuit' : >
+       [wait_for], [look_for], [follow], [hunt], [fish], [chase], [watch_out_for]
+    'social_interaction' : >
+       [obey], [meet], [marry], [pray], [play], [come_together], [cheat], [rebel_(against)], [sacrifice],
+       [get_to_know], [agree], [visit], [threaten], [allow], [persuade], [disagree], [quarrel], [manage],
+       [disobey], [dally_with], [joke], [react], [introduce], [tease], [conspire], [be_married], [insist_on],
+       [have_sex], [be_friends_with]
+    'motion' : >
+       [swim], [pass], [come_to], [turn_towards], [approach], [go], [run], [escape], [fall], [come_in],
+       [accompany], [cross], [ride_to], [climb], [go_away_from], [mount_horse], [move_(to)], [jump],
+       [descend], [return], [fly], [walk], [rise], [come_from], [jump_over], [slip], [stop]
+    'change_of_state' : >
+       [wake_up], [become_full_of], [die], [become], [close], [boil], [grow], [burn], [break], [burst],
+       [dry], [shrink], [freeze], [grow_old], [drown], [disperse], [cure], [decay], [blossom]
+    'perception' : >
+       [see], [look_at], [hear], [fail_to_see], [listen_to], [watch], [notice], [nonspecific_perception],
+       [smell], [experience], [feel], [find_bitter], [find_light], [find_sweet], [find_peppery], [find_sour],
+       [find_stale], [have_ears_buzzing]
+    'separate_disassemble' : >
+       [become_detached_from], [get_rid_of], [devide], [divorce_from], [detach], [split]
+    'hit' : >
+       [hit_against], [kick], [beat], [hit], [bump], [bite], [pierce], [shoot]
+    'help' : >
+       [take_care_of], [help], [save_from], [support]
+    'spatial_position' : >
+       [lean_against], [sit], [stand], [hang], [lie], [surround], [be_on_top_of], [be_next_to], [be_apart_from]
+    'combine_attach' : >
+       [cling_to], [attach], [gather], [join], [get_stuck_to], [moor], [lock], [stick], [nail], [screw],
+       [add], [mix], [tear_from]
+    'touch' : >
+       touch, massage, kiss, hug, pinch
+    'measure' : >
+       [exceed], [suit], [precede], [suffice], [cost], [be_late], [reduce]
+    'influence_cause' : >
+       restrict, control, direct, cause, affect
+    'existence' : >
+       [exist], [depend_on], [stay], [be_finished], [live]
+    'appearance_disappearance' : >
+       appear, disappear
+    'put_pour_spray_load_fill' : >
+       place, lift, roll, put, throw, pour, cover, bury, spray, stain, load, fill, sow, spill, paint,
+       decorate, sprinkle, hang, wrap, pack, pile, scatter, drop
+    'ingestion' : >
+       graze, smoke, drink, eat
+    'push_pull' : >
+       pull, push
+    'communication' : >
+       [say], [speak], [answer], [order], [invite], [greet], [curse], [ask], [demand], [warn], [contradict],
+       [promise], [claim], [advise], [forbid], [propose], [show], [call_for], [remind], [proclaim], [lie],
+       [teach], [bid_farewell], [refuse], [take_a_vow], [beg], [dismiss], [explain], [write], [describe],
+       [address]
+    'seem' : >
+       seem
+    'aspectual' : >
+       begin, continue, finish
+    'judge' : >
+       [ill-treat], [thank], [scold], [appreciate], [praise], [insult], [forgive], [commemorate], [congratulate],
+       [sin], [revenge], [accuse], [bless], [make_fun_of], [judge]
+    'spread_apply' : >
+       apply, spread, rub
+    'creation_transformation' : >
+       [change], [squeeze], [cut], [transform], [nonspecific_transformation], [make], [bake]
+    'caused_motion' : >
+       [overturn], [blow_away], [let_go], [hurry_up], [turn]
+    'hold_keep' : >
+       hold, support, keep
+    'kill' : >
+       kill
+    'fight' : >
+       defend, ambush, attack, fight, defeat, lose
+    'hide' : >
+       [hide_oneself], [hide]
+    'attempt' : >
+       try
+    'hurt' : >
+       harm
+    'obligation' : >
+       must
+    'modality' : >
+       may
+    'name' : >
+       [name], [call_smb_smth], [consider_smb_smth], [appoint_smb_as], [elect_smb_smth]
+    'remove_wipe_clear' : >
+       deprive, remove, snatch, steal
+    'assuming_position' : >
+       kneel
+    'scent_emission' : >
+       [smell_good], [smell_bad], [smell_of_smth]
+    'fail' : >
+       [miss_a_target], [miss_not_meet], [fail]
+    'destroy' : >
+       destroy
+    'happening' : >
+       happen
+

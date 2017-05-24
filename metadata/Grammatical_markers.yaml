@@ -1,0 +1,1720 @@
+# ------ AUTOTYPLabel ------
+AUTOTYPLabel:
+  Description : >
+     Category label, for identification purposes only. Not a variable! Do not use for typological purposes!
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'register'
+  DataType : 'categorical'
+  VariantOf : 'AUTOTYPLabel'
+  N.levels : 176
+  N.entries : 4748
+  N.languages : 793
+  N.missing : 130
+
+# ------ Behavior.binned4 ------
+Behavior.binned4:
+  Description : >
+     Positional behavior of a grammatical marker in its phrase, as defined in Bickel & Nichols 2007 (in
+     Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press),
+     binned into four broad types
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'Behavior'
+  N.levels : 4
+  N.entries : 602
+  N.languages : 256
+  N.missing : 4276
+
+# ------ Behavior.spreading.Presence ------
+Behavior.spreading.Presence:
+  Description : >
+     Grammatical markers which spreads in its phrase (spreading as defined in Bickel & Nichols 2007 (in
+     Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'Behavior'
+  N.entries : 1853
+  N.languages : 436
+  N.missing : 3025
+
+# ------ Behavior ------
+Behavior:
+  Description : >
+     Positional behavior of a grammatical marker in its phrase, as defined in Bickel & Nichols 2007 (in
+     Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'Behavior'
+  N.levels : 9
+  N.entries : 1853
+  N.languages : 436
+  N.missing : 3025
+
+# ------ Coexponence.CaseNumber.Presence ------
+Coexponence.CaseNumber.Presence:
+  Description : >
+     Case-Number Coexponence
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'Exponence'
+  N.entries : 345
+  N.languages : 331
+  N.missing : 4533
+
+# ------ Coexponence.CaseReference.Presence ------
+Coexponence.CaseReference.Presence:
+  Description : >
+     Case-Referentiality Coexponence
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'Exponentiality'
+  N.entries : 345
+  N.languages : 331
+  N.missing : 4533
+
+# ------ Domain ------
+Domain:
+  Description : >
+     The domain with respect to which the marker is syntactically placed
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'condition'
+  DataType : 'categorical'
+  VariantOf : 'Domain'
+  N.levels : 2
+  N.entries : 3189
+  N.languages : 808
+  N.missing : 0
+  Notes : >
+     This is based on a broad classification of specific domains. These domains will be included in a
+     future release. (They need some reshaping for inclusion in a flat table.)
+
+# ------ Exemplar ------
+Exemplar:
+  Description : >
+     Survey exemplar of grammatical marker (Tense, Case, Negation, Noun Plural), as defined in Bickel
+     & Nichols 2005 in WALS (http://wals.info/chapter/s5)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'register'
+  DataType : 'categorical'
+  VariantOf : 'Exemplar'
+  N.levels : 4
+  N.entries : 1101
+  N.languages : 466
+  N.missing : 3777
+  Levels : 
+    'CASE' : >
+       The inflectional case marker selected for comparison in a user-defined survey. Selection procedure:
+       If any of these markers differs from other in their morphological behavior, CASE refers to grammatical
+       (core) case; if any core case marker differs from others, CASE refers to accusative, ergative
+       or agentive case.
+    'NEG' : >
+       The form of standard clausal negation selected for comparison in a user-defined survey. Selection
+       procedure: If there are several negation markers, pick the one on the left: • declarative indicative
+       > other illocutionary roles and moods • TAM exemplar > other TAM values, i.e. past > perfective
+       > realis > others • clausal scope > constituent scope • verbal predicate > other predicate • finite
+       > nonfinite
+    'TAM' : >
+       The inflectional tense, aspect, mood, status, etc. marker selected for comparison in a user-defined
+       survey. Selection procedure: If any of these markers differ from others in their morphological
+       behavior, TAM refers to tense; if any tense marking differs from other tense markers, TAM refers
+       to the tense used for basic, aspectually unmarked past time reference, i.e. to the form that serves
+       as a simple response to ‘what happened’.
+    'Noun Plural' : >
+       The inflectional plural (or nonsingular) marking for nouns selected for comparison in a user-defined
+       survey. Selection procedure: If plural is different from dual, use the true plural. If different
+       nouns have different morphological plural formations, use the commonest (or default) one. If animate
+       (or human) and inanimate nouns have morphologically different plurals, enter both (creating two
+       records for Noun Plural). (If there is yet another morphologically different salient non-default
+       plural, that can also be entered in the database as well, but don’t flag it as this plural.) If
+       plural marking is described as optional, use it nonetheless (indicate optional nature in the database).
+       Use only true plurals; do not take a collective, distributive, etc. as the exemplar if there is
+       no plural.
+
+# ------ Polyexponence.Presence ------
+Polyexponence.Presence:
+  Description : >
+     Polyexponence: whether or not the marker expresses one or more categories
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'Exponence'
+  N.entries : 4331
+  N.languages : 764
+  N.missing : 547
+
+# ------ Exponence.n ------
+Exponence.n:
+  Description : >
+     Exponence: number of categories that are expressed in the same marker
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'count'
+  VariantOf : 'Exponence'
+  N.entries : 4878
+  N.languages : 808
+  N.missing : 0
+
+# ------ Exponence ------
+Exponence:
+  Description : >
+     Category combinations expressed in the same marker
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'Exponence'
+  N.levels : 175
+  N.entries : 4405
+  N.languages : 766
+  N.missing : 473
+
+# ------ Flexivity.Presence ------
+Flexivity.Presence:
+  Description : >
+     Some kind of flexivity in stem and/or affixes, either lexically or grammatically conditioned (see
+     Bickel & Nichols 2007 in Language typology and syntactic description, ed. T, Shopen, Cambridge:
+     Cambridge University Press)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'Flexivity.Presence'
+  N.entries : 3002
+  N.languages : 626
+  N.missing : 1876
+
+# ------ FlexivityFormative ------
+FlexivityFormative:
+  Description : >
+     Formative flexivity: allomorphy of affixes depending on grammatical categories or lexical choice
+     (see Bickel & Nichols 2007 in Language typology and syntactic description, ed. T, Shopen, Cambridge:
+     Cambridge University Press)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FlexivityFormative'
+  N.levels : 5
+  N.entries : 3005
+  N.languages : 624
+  N.missing : 1873
+  Levels : 
+    'none' : >
+    'lex-based' : >
+       Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
+       some verbs, but not with others)
+    'cat-based' : >
+       Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
+       ablaut in certain tense forms, across the regular lexicon)
+    'both' : >
+    'free' : >
+
+# ------ Form ------
+Form:
+  Description : >
+     Phonological form of the marker, for identification purposes only
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'register'
+  DataType : 'categorical'
+  VariantOf : 'Form'
+  N.levels : 3021
+  N.entries : 4035
+  N.languages : 743
+  N.missing : 843
+
+# ------ Fusion.binned6 ------
+Fusion.binned6:
+  Description : >
+     Phonological fusion of grammatical marker, as defined in Bickel & Nichols 2007 (in Language typology
+     and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press), binned
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'Fusion'
+  N.levels : 6
+  N.entries : 3855
+  N.languages : 691
+  N.missing : 1023
+  Levels : 
+    'concatenative' : >
+       [The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel
+       harmony), word-internal kinds of sandhi, prosodic phenomena (such as word stress) or general inability
+       to stand alone, identify a formative as concatenative (rather than an independent word). Unless
+       there is evidence to the contrary, zeroes are coded as concatenative.], [Isolating as regards
+       stress, concatenative as regards segmental rules -- or vice versa.], [Concatenative formative
+       plus reduplication (usually reduplication of stem). If some lexemes take just the affix and others
+       take the affix plus the reduplication, choose Concat + redupl and code for lexeme-based formative
+       flexivity. (The flexivity lies in whether they do or do not take the reduplication part.)], [Concatenative
+       formative plus ablaut (usually stem ablaut).], [Concatenative formative or ablaut, neither one
+       clearly primary (or both equally primary).], [First part of the formative is isolating, second
+       part is concatenative.], [First part of the formative is concatenative, second part is isolating.],
+       [Concatenative formative is default; isolating allomorph under certain conditions.]
+    'isolating' : >
+       [The formative is a free phonological word. If it is, it is likely to be written as a separate
+       word, though this is not always true: non-isolating formatives like clitics are often written
+       as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
+       Therefore you will need to look at prosodic factors such as word stress.], [Isolating formative
+       is default; concatenative allomorph under certain conditions.]
+    'stem' : >
+       [Superimposition of a syllable or foot template onto the stem, resulting in such processes as
+       lengthening, gemination etc. Example: Lango alienable possesse marking, Semitic voice marking,
+       etc.], [First part of the formative is a tonal or ablaut alternation; second part is isolating.
+       Example: Kisi negation, where the verb stem undergoes tone changes and a particle is added (Childs,
+       A Grammar of Kisi, 220ff.; Mouton de Gruyter 1995.], [One root or morpheme replaces another in
+       part of a paradigm.], [Alternation in one or more consonant features], [Alternation of stem segments
+       in some grammatical context. Distinct from phonologically conditioned alternation.], [There are
+       realizational traces of the category on several or even all morphemes in a string, and none of
+       these seem more basic (so that others could be analyzed as category-triggered allomorphs. Good
+       example: Semitic root&pattern morphology, where for TAM+DIATHESIS values it seems abritrary to
+       either take the stem ablaut or the affix form as basic. They code TAM+DIATHESIS simultaneously.]
+    'tonal' : >
+       A tone contrast marks a morphological contrast. The tone must be not be the result of a general
+       phonological sandhi rule, but represent true internal tone changes.
+    'replacive' : >
+       The formative replaces a stem (or theme or base) segment. This is different from regularly concatenative
+       formatives which alternate with other formatives, and not with stem segments. Examples: Marxist
+       derived from Marxism (-ism replaces -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology,
+       140; Oxford, 1998). In Slavic hypocoristics, after truncation, the stem-final consonant is replaced
+       with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.
+    'reduplicative' : >
+       A category is marked by some kind of reduplication effect
+
+# ------ Fusion ------
+Fusion:
+  Description : >
+     Phonological fusion of grammatical marker, as defined in Bickel & Nichols 2007 (in Language typology
+     and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'Fusion'
+  N.levels : 25
+  N.entries : 3904
+  N.languages : 701
+  N.missing : 974
+  Levels : 
+    'concatenative' : >
+       The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel
+       harmony), word-internal kinds of sandhi, prosodic phenomena (such as word stress) or general inability
+       to stand alone, identify a formative as concatenative (rather than an independent word). Unless
+       there is evidence to the contrary, zeroes are coded as concatenative.
+    'isolating' : >
+       The formative is a free phonological word. If it is, it is likely to be written as a separate
+       word, though this is not always true: non-isolating formatives like clitics are often written
+       as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
+       Therefore you will need to look at prosodic factors such as word stress.
+    'concatenative_or_suppletive' : >
+       Concatenative formative or suppletion, under different conditions.
+    'prosodic_templatic' : >
+       Superimposition of a syllable or foot template onto the stem, resulting in such processes as lengthening,
+       gemination etc. Example: Lango alienable possesse marking, Semitic voice marking, etc.
+    'suppletive' : >
+       One root or morpheme replaces another in part of a paradigm.
+    'isolating_or_concatenative' : >
+       Isolating as regards stress, concatenative as regards segmental rules -- or vice versa.
+    'concatenative_and_ablaut' : >
+       Concatenative formative plus ablaut (usually stem ablaut).
+    'ablaut_or_tonal' : >
+       Ablaut or tone change, under different conditions.
+    'tonal' : >
+       A tone contrast marks a morphological contrast. The tone must be not be the result of a general
+       phonological sandhi rule, but represent true internal tone changes.
+    'ablaut_or_suppletive' : >
+       Ablaut or suppletion, under different conditions.
+    'replacive' : >
+       The formative replaces a stem (or theme or base) segment. This is different from regularly concatenative
+       formatives which alternate with other formatives, and not with stem segments. Examples: Marxist
+       derived from Marxism (-ism replaces -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology,
+       140; Oxford, 1998). In Slavic hypocoristics, after truncation, the stem-final consonant is replaced
+       with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.
+    'isolating_then_concatenative' : >
+       First part of the formative is isolating, second part is concatenative.
+    'concatenative_then_isolating' : >
+       First part of the formative is concatenative, second part is isolating.
+    'ablaut' : >
+       Alternation of stem segments in some grammatical context. Distinct from phonologically conditioned
+       alternation.
+    'distributed' : >
+       There are realizational traces of the category on several or even all morphemes in a string, and
+       none of these seem more basic (so that others could be analyzed as category-triggered allomorphs.
+       Good example: Semitic root&pattern morphology, where for TAM+DIATHESIS values it seems abritrary
+       to either take the stem ablaut or the affix form as basic. They code TAM+DIATHESIS simultaneously.
+    'concatenative_or_tonal' : >
+       Concatenative or tonal formative, under different conditions.
+    'tonal_or_suppletive' : >
+       Tonal formative or suppletion, under different conditions.
+    'reduplicative' : >
+       A category is marked by some kind of reduplication effect
+    'concatenative_default_or_isolating' : >
+       Concatenative formative is default; isolating allomorph under certain conditions.
+    'tonal_or_ablaut_then_isolating' : >
+       First part of the formative is a tonal or ablaut alternation; second part is isolating. Example:
+       Kisi negation, where the verb stem undergoes tone changes and a particle is added (Childs, A Grammar
+       of Kisi, 220ff.; Mouton de Gruyter 1995.
+    'concatenative_or_ablaut' : >
+       Concatenative formative or ablaut, neither one clearly primary (or both equally primary).
+    'concatenative_and_reduplicative' : >
+       Concatenative formative plus reduplication (usually reduplication of stem). If some lexemes take
+       just the affix and others take the affix plus the reduplication, choose Concat + redupl and code
+       for lexeme-based formative flexivity. (The flexivity lies in whether they do or do not take the
+       reduplication part.)
+    'isolating_default_or_concatenative' : >
+       Isolating formative is default; concatenative allomorph under certain conditions.
+    'lenition' : >
+       Alternation in one or more consonant features
+    'reduplicative_or_suppletive' : >
+       Reduplication or suppletion, under different conditions.
+
+# ------ Fusion.isolating.Presence ------
+Fusion.isolating.Presence:
+  Description : >
+     Phonological isolation of grammatical marker, i.e. the marker does not phonologically interact with
+     any host
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'Fusion'
+  N.entries : 3855
+  N.languages : 691
+  N.missing : 1023
+
+# ------ Fusion.nonlinear.Presence ------
+Fusion.nonlinear.Presence:
+  Description : >
+     Nonlinear realization of grammatical marker, as defined in Bickel & Nichols 2007 (in Language typology
+     and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'Fusion'
+  N.levels : 2
+  N.entries : 3855
+  N.languages : 691
+  N.missing : 1023
+  Levels : 
+    'linear' : >
+       [The formative is a free phonological word. If it is, it is likely to be written as a separate
+       word, though this is not always true: non-isolating formatives like clitics are often written
+       as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
+       Therefore you will need to look at prosodic factors such as word stress.], [The formative is a
+       clitic or segmentable affix. Word-level phonological processes (such as vowel harmony), word-internal
+       kinds of sandhi, prosodic phenomena (such as word stress) or general inability to stand alone,
+       identify a formative as concatenative (rather than an independent word). Unless there is evidence
+       to the contrary, zeroes are coded as concatenative.], [Isolating as regards stress, concatenative
+       as regards segmental rules -- or vice versa.], [First part of the formative is isolating, second
+       part is concatenative.], [First part of the formative is concatenative, second part is isolating.],
+       [Alternation of stem segments in some grammatical context. Distinct from phonologically conditioned
+       alternation.], [Concatenative formative is default; isolating allomorph under certain conditions.],
+       [Isolating formative is default; concatenative allomorph under certain conditions.]
+    'nonlinear' : >
+       [A category is marked by some kind of reduplication effect], [A tone contrast marks a morphological
+       contrast. The tone must be not be the result of a general phonological sandhi rule, but represent
+       true internal tone changes.], [Concatenative formative plus reduplication (usually reduplication
+       of stem). If some lexemes take just the affix and others take the affix plus the reduplication,
+       choose Concat + redupl and code for lexeme-based formative flexivity. (The flexivity lies in whether
+       they do or do not take the reduplication part.)], [Concatenative formative plus ablaut (usually
+       stem ablaut).], [Concatenative formative or ablaut, neither one clearly primary (or both equally
+       primary).], [The formative replaces a stem (or theme or base) segment. This is different from
+       regularly concatenative formatives which alternate with other formatives, and not with stem segments.
+       Examples: Marxist derived from Marxism (-ism replaces -ist) (Spencer in Spencer & Zwicky, Handbook
+       of Morphology, 140; Oxford, 1998). In Slavic hypocoristics, after truncation, the stem-final consonant
+       is replaced with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.], [Superimposition of a syllable
+       or foot template onto the stem, resulting in such processes as lengthening, gemination etc. Example:
+       Lango alienable possesse marking, Semitic voice marking, etc.], [First part of the formative is
+       a tonal or ablaut alternation; second part is isolating. Example: Kisi negation, where the verb
+       stem undergoes tone changes and a particle is added (Childs, A Grammar of Kisi, 220ff.; Mouton
+       de Gruyter 1995.], [One root or morpheme replaces another in part of a paradigm.], [Alternation
+       in one or more consonant features], [There are realizational traces of the category on several
+       or even all morphemes in a string, and none of these seem more basic (so that others could be
+       analyzed as category-triggered allomorphs. Good example: Semitic root&pattern morphology, where
+       for TAM+DIATHESIS values it seems abritrary to either take the stem ablaut or the affix form as
+       basic. They code TAM+DIATHESIS simultaneously.]
+
+# ------ Fusion.reduplicative.Presence ------
+Fusion.reduplicative.Presence:
+  Description : >
+     Reduplicative realization of grammatical marker, as defined in Bickel & Nichols 2007 (in Language
+     typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge University Press)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'Fusion'
+  N.levels : 2
+  N.entries : 3855
+  N.languages : 691
+  N.missing : 1023
+  Levels : 
+    'non-reduplicative' : >
+       [The formative is a free phonological word. If it is, it is likely to be written as a separate
+       word, though this is not always true: non-isolating formatives like clitics are often written
+       as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
+       Therefore you will need to look at prosodic factors such as word stress.], [The formative is a
+       clitic or segmentable affix. Word-level phonological processes (such as vowel harmony), word-internal
+       kinds of sandhi, prosodic phenomena (such as word stress) or general inability to stand alone,
+       identify a formative as concatenative (rather than an independent word). Unless there is evidence
+       to the contrary, zeroes are coded as concatenative.], [Isolating as regards stress, concatenative
+       as regards segmental rules -- or vice versa.], [A tone contrast marks a morphological contrast.
+       The tone must be not be the result of a general phonological sandhi rule, but represent true internal
+       tone changes.], [Concatenative formative plus reduplication (usually reduplication of stem). If
+       some lexemes take just the affix and others take the affix plus the reduplication, choose Concat
+       + redupl and code for lexeme-based formative flexivity. (The flexivity lies in whether they do
+       or do not take the reduplication part.)], [Concatenative formative plus ablaut (usually stem ablaut).],
+       [Concatenative formative or ablaut, neither one clearly primary (or both equally primary).], [The
+       formative replaces a stem (or theme or base) segment. This is different from regularly concatenative
+       formatives which alternate with other formatives, and not with stem segments. Examples: Marxist
+       derived from Marxism (-ism replaces -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology,
+       140; Oxford, 1998). In Slavic hypocoristics, after truncation, the stem-final consonant is replaced
+       with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.], [Superimposition of a syllable or foot
+       template onto the stem, resulting in such processes as lengthening, gemination etc. Example: Lango
+       alienable possesse marking, Semitic voice marking, etc.], [First part of the formative is isolating,
+       second part is concatenative.], [First part of the formative is concatenative, second part is
+       isolating.], [First part of the formative is a tonal or ablaut alternation; second part is isolating.
+       Example: Kisi negation, where the verb stem undergoes tone changes and a particle is added (Childs,
+       A Grammar of Kisi, 220ff.; Mouton de Gruyter 1995.], [One root or morpheme replaces another in
+       part of a paradigm.], [Alternation in one or more consonant features], [Alternation of stem segments
+       in some grammatical context. Distinct from phonologically conditioned alternation.], [Concatenative
+       formative is default; isolating allomorph under certain conditions.], [Isolating formative is
+       default; concatenative allomorph under certain conditions.], [There are realizational traces of
+       the category on several or even all morphemes in a string, and none of these seem more basic (so
+       that others could be analyzed as category-triggered allomorphs. Good example: Semitic root&pattern
+       morphology, where for TAM+DIATHESIS values it seems abritrary to either take the stem ablaut or
+       the affix form as basic. They code TAM+DIATHESIS simultaneously.]
+    'reduplicative' : >
+       A category is marked by some kind of reduplication effect
+
+# ------ Fusion.tonal.Presence ------
+Fusion.tonal.Presence:
+  Description : >
+     Tonal realization of grammatical marker, i.e. the marker is realized by phonemic tone only
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'Fusion'
+  N.entries : 3855
+  N.languages : 691
+  N.missing : 1023
+
+# ------ FlexivityLexical.Presence ------
+FlexivityLexical.Presence:
+  Description : >
+     Lexical flexivity (i.e. lexically-conditioned allomorphy, also known as inflectional classes) in
+     the shape of stems and/or affixes (see Bickel & Nichols 2007 in Language typology and syntactic
+     description, ed. T, Shopen, Cambridge: Cambridge University Press)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'FlexivityLexical.Presence'
+  N.entries : 2961
+  N.languages : 620
+  N.missing : 1917
+
+# ------ Locus.binned6 ------
+Locus.binned6:
+  Description : >
+     Locus of the marker, as defined in Bickel & Nichols 2007 (in Language typology and syntactic description,
+     ed. T, Shopen, Cambridge: Cambridge University Press), binned into 6 basic types
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'Locus'
+  N.levels : 4
+  N.entries : 3854
+  N.languages : 732
+  N.missing : 1024
+  Levels : 
+    'H' : >
+       [On head.], [Head marking that is available only on a limited set of NPs or under specific morphosyntactic
+       conditions as noted.], [On head, with more than one formative or more than one category. Typical
+       case: construct state or linker on head plus head-driven agreement ; or Philippine-style voice
+       plus agreement], [On head, with more than one formative or more than one category, but both formatives
+       have restricted distribution.], [NP-internal head in a modifier-headed agreement pattern], [Head
+       plus floating], [Possessor promoted to verb argument (external possession), and indexed or registered
+       on verb. Example: Registered in Nez Perce (Rude, U. Ore. diss. 1985:199ff.).]
+    'D' : >
+       [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking that is available
+       only on a limited set of NPs or under specific morphosyntactic conditions as noted.], [On dependent,
+       with more than one formative or more than one category. Typical instance: genitive (or possessive
+       form of pronoun) plus head-driven agreement (dependent agreeing with head).], [Same as DD but
+       with the additional formative or category restricted to some possessors only (e.g. pronouns only:
+       German; contrast Hindi, where all possessors show head-driven agreement)]
+    'F' : >
+       [Free or floating, including particles or similar in phrase-second position (Wackernagel position),
+       e.g. Tagalog ‘linkers’], [Floating, under limited circumstances (e.g. Yagua DOM by floating agreement
+       with definite noun)]
+    'D on H' : >
+       [Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where
+       nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the
+       dependent argument can be realized by agreement morphology on the head. If it is, it absorbs the
+       argument position in the clause and therefore does not allow an independent NP to show up in the
+       same clausal core.)], [Headward-migrated dependent marking, restricted in some way. Typical cases:
+       Bagirmi or standard French, where there is no case on independent pronouns and nouns, so only
+       pronominal agreement markers are case-marked. As a result, arguments are differentiated only in
+       headward-migrated dependent marking. This marking realizes the dependent argument syntactically
+       and leaves no place for an independent NP to show up in the same clausal core.], [Head marking
+       (construct state type, i.e. registers a dependent but does not index its properties) plus headward-migrated
+       dependent-marked pronouns]
+
+# ------ Locus ------
+Locus:
+  Description : >
+     Locus of the marker, as defined in Bickel & Nichols 2007 (in Language typology and syntactic description,
+     ed. T, Shopen, Cambridge: Cambridge University Press)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'Locus'
+  N.levels : 6
+  N.entries : 3858
+  N.languages : 732
+  N.missing : 1020
+  Levels : 
+    'H' : >
+       On head.
+    'D' : >
+       On dependent. For zero formative on dependent, code as Ø.
+    'F' : >
+       Free or floating, including particles or similar in phrase-second position (Wackernagel position),
+       e.g. Tagalog ‘linkers’
+    'P' : >
+       The relation is marked by position (word or morpheme order).
+    'D on H' : >
+       Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where
+       nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the
+       dependent argument can be realized by agreement morphology on the head. If it is, it absorbs the
+       argument position in the clause and therefore does not allow an independent NP to show up in the
+       same clausal core.)
+    'd on h' : >
+       Headward-migrated dependent marking, restricted in some way. Typical cases: Bagirmi or standard
+       French, where there is no case on independent pronouns and nouns, so only pronominal agreement
+       markers are case-marked. As a result, arguments are differentiated only in headward-migrated dependent
+       marking. This marking realizes the dependent argument syntactically and leaves no place for an
+       independent NP to show up in the same clausal core.
+
+# ------ Locus.binned5 ------
+Locus.binned5:
+  Description : >
+     Locus of the marker, as defined in Bickel & Nichols 2007 (in Language typology and syntactic description,
+     ed. T, Shopen, Cambridge: Cambridge University Press), binned into 5 basic types
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'Locus'
+  N.levels : 3
+  N.entries : 3854
+  N.languages : 732
+  N.missing : 1024
+  Levels : 
+    'H' : >
+       [On head.], [Head marking is dominant. Additional dependent marking with some NPs or under specific
+       morphosyntactic conditions as noted.], [Head marking that is available only on a limited set of
+       NPs or under specific morphosyntactic conditions as noted.], [On head, with more than one formative
+       or more than one category. Typical case: construct state or linker on head plus head-driven agreement
+       ; or Philippine-style voice plus agreement], [On head, with more than one formative or more than
+       one category, but both formatives have restricted distribution.], [NP-internal head in a modifier-headed
+       agreement pattern], [Head plus floating], [Possessor promoted to verb argument (external possession),
+       and indexed or registered on verb. Example: Registered in Nez Perce (Rude, U. Ore. diss. 1985:199ff.).]
+    'D' : >
+       [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking is dominant. Additional
+       head marking with some verbs only or under specific morphosyntactic conditions as noted.], [Dependent
+       marking that is available only on a limited set of NPs or under specific morphosyntactic conditions
+       as noted.], [On dependent, with more than one formative or more than one category. Typical instance:
+       genitive (or possessive form of pronoun) plus head-driven agreement (dependent agreeing with head).],
+       [Same as DD but with the additional formative or category restricted to some possessors only (e.g.
+       pronouns only: German; contrast Hindi, where all possessors show head-driven agreement)]
+    'FloatingorClitic' : >
+       [Free or floating, including particles or similar in phrase-second position (Wackernagel position),
+       e.g. Tagalog ‘linkers’], [Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal
+       agreement, where nouns and independent pronouns are case-marked. (The case itself is dependent
+       marking, but the dependent argument can be realized by agreement morphology on the head. If it
+       is, it absorbs the argument position in the clause and therefore does not allow an independent
+       NP to show up in the same clausal core.)], [Headward-migrated dependent marking, restricted in
+       some way. Typical cases: Bagirmi or standard French, where there is no case on independent pronouns
+       and nouns, so only pronominal agreement markers are case-marked. As a result, arguments are differentiated
+       only in headward-migrated dependent marking. This marking realizes the dependent argument syntactically
+       and leaves no place for an independent NP to show up in the same clausal core.], [Head marking
+       (construct state type, i.e. registers a dependent but does not index its properties) plus headward-migrated
+       dependent-marked pronouns], [Clitic doubling, where the argument is D-marked and is doubled by
+       a D-marked pronominal on the verb.], [Floating, under limited circumstances (e.g. Yagua DOM by
+       floating agreement with definite noun)], [Floating plus restricted dependent marking.]
+
+# ------ HostRestrictions.binned.restricted ------
+HostRestrictions.binned.restricted:
+  Description : >
+     Categorical restriction on possible hosts in terms of parts of speech (simplified, binary)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'HostRestrictions'
+  N.levels : 2
+  N.entries : 3846
+  N.languages : 754
+  N.missing : 1032
+
+# ------ MorphemeType ------
+MorphemeType:
+  Description : >
+     Morpheme type (as defined in Bickel & Nichols 2007 (in Language typology and syntactic description,
+     ed. T, Shopen, Cambridge: Cambridge University Press)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'MorphemeType'
+  N.levels : 3
+  N.entries : 3985
+  N.languages : 713
+  N.missing : 893
+  Levels : 
+    'formative' : >
+       Marker of a category that cannot occur as an independent part of speech unit in the syntax, but
+       instead grammatically requires some host.
+    'PoSWd' : >
+       A syntactic unit that has its own part of speech (PoS) category. Depending on the diversity of
+       grammatical words (g-word) in a language (see “word_type” database), this may or may not coincide
+       with the g-word defined as ‘terminal node’. If g-word domains differ, “PoSWd” as used here refers
+       to the one domain that has a PoS label attached to it. What counts is the syntactic behavior,
+       e.g. if an element behaves like a verb but is defective morphologically, it still has the PoS
+       label ‘verb’ (see for example Quileute negation ‘é’, which behaves like a verb syntactically even
+       thought its inflectional paradigm is defective).
+    'any' : >
+       A unit that can be used both as a formative or as PoSWd, e.g. SEA versatile verbs/coverbs
+
+# ------ MorphemeType.Word.Presence ------
+MorphemeType.Word.Presence:
+  Description : >
+     Full grammatical word status of marker, i.e. the marker constitutes a distinct grammatical word,
+     with its own part of speech
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'MorphemeType'
+  N.entries : 3981
+  N.languages : 712
+  N.missing : 897
+
+# ------ PersonPortmanteau.Presence ------
+PersonPortmanteau.Presence:
+  Description : >
+     Portmanteau property of marker, i.e. the marker includes the expression of more than one category
+     while in other contexts these categories are expressed by separate markers
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'PersonPortmanteau'
+  N.entries : 1494
+  N.languages : 160
+  N.missing : 3384
+
+# ------ Placement ------
+Placement:
+  Description : >
+     Placement of grammatical marker within a phrasal domain
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'Placement'
+  N.levels : 3
+  N.entries : 648
+  N.languages : 169
+  N.missing : 4230
+
+# ------ Position.post.Presence ------
+Position.post.Presence:
+  Description : >
+     At least some exponents of the grammatical marker appear after its phonological host, i.e. the marker
+     includes some suffix/enclitic part under at least some conditions
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'Position'
+  N.entries : 3741
+  N.languages : 673
+  N.missing : 1137
+
+# ------ Position.binned4 ------
+Position.binned4:
+  Description : >
+     Position of grammatical marker with regard to its phonological host, binned into 4 basic types
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'Position'
+  N.levels : 4
+  N.entries : 3761
+  N.languages : 674
+  N.missing : 1117
+  Levels : 
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+    'in/simul' : >
+       [inside the phonological host], [the formative has two exponents at different positions in the
+       phonological host (but it is not the case that one is positioned before and the other after the
+       host, which is coded as “circum”)], [the formative has two exponents, one before and one after
+       the phonological host. This is a special case of the “simul” position], [inside the phonological
+       host by default, after the host under exceptional conditions (typically lexical)], [around the
+       phonological host by default, before the host under exceptional conditions (typically lexical)],
+       [around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)], [in two or more different positions in (but not around) the phonological host by default,
+       before the host under exceptional conditions (typically lexical)]
+    'split' : >
+       [either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either inside or before the phonological host, conditioned by some structural
+       context (category, syntax etc.)], [either inside or after the phonological host, conditioned by
+       some structural context (category, syntax etc.)], [either before or around the phonological host,
+       conditioned by some structural context (category, syntax etc.)], [either before, after or around
+       the phonological host, conditioned by some structural context (category, syntax etc.)], [either
+       before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either before, after or in two or more positions in the phonological host, conditioned
+       by some structural context (category, syntax etc.)], [either before, after, inside or around the
+       phonological host, conditioned by some structural context (category, syntax etc.)], [either after
+       or around the phonological host, conditioned by some structural context (category, syntax etc.)],
+       [either before or inside the phonological host, conditioned by some structural context (category,
+       syntax etc.)]
+
+# ------ Position ------
+Position:
+  Description : >
+     Position of grammatical marker with regard to its phonological host
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'Position'
+  N.levels : 22
+  N.entries : 4017
+  N.languages : 714
+  N.missing : 861
+  Levels : 
+    'post' : >
+       after the phonological host
+    'prae' : >
+       before the phonological host
+    'not applicable' : >
+       not applicable because an element’s position is defined only with respect to grammatical words
+    'circum' : >
+       the formative has two exponents, one before and one after the phonological host. This is a special
+       case of the “simul” position
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'in' : >
+       inside the phonological host
+    'prae/post/circum' : >
+       either before, after or around the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'in/prae' : >
+       either inside or before the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'circum (prae)' : >
+       around the phonological host by default, before the host under exceptional conditions (typically
+       lexical)
+    'in/post' : >
+       either inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'circum (post)' : >
+       around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)
+    'prae/circum' : >
+       either before or around the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'post/circum' : >
+       either after or around the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'post (circum)' : >
+       after the phonological host by default, around the host under exceptional conditions (typically
+       lexical)
+    'simul (prae)' : >
+       in two or more different positions in (but not around) the phonological host by default, before
+       the host under exceptional conditions (typically lexical)
+    'prae/post/in/circum' : >
+       either before, after, inside or around the phonological host, conditioned by some structural context
+       (category, syntax etc.)
+    'any' : >
+       unspecified; can appear anywhere where the language allows it.
+    'simul' : >
+       the formative has two exponents at different positions in the phonological host (but it is not
+       the case that one is positioned before and the other after the host, which is coded as “circum”)
+    'post (prae)' : >
+       after the phonological host by default, before the host under exceptional conditions (typically
+       lexical)
+    'circum (W)' : >
+       DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) -- see log 77
+    'in (post)' : >
+       inside the phonological host by default, after the host under exceptional conditions (typically
+       lexical)
+    'post (in)' : >
+       after the phonological host by default, inside the host under exceptional conditions (typically
+       lexical)
+
+# ------ Position.binned5 ------
+Position.binned5:
+  Description : >
+     Position of grammatical marker with regard to its phonological host, binned into 5 basic types
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'Position'
+  N.levels : 5
+  N.entries : 3761
+  N.languages : 674
+  N.missing : 1117
+  Levels : 
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+    'simul' : >
+       [the formative has two exponents at different positions in the phonological host (but it is not
+       the case that one is positioned before and the other after the host, which is coded as “circum”)],
+       [the formative has two exponents, one before and one after the phonological host. This is a special
+       case of the “simul” position], [around the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [around the phonological host by default, after the
+       host under exceptional conditions (typically lexical)], [in two or more different positions in
+       (but not around) the phonological host by default, before the host under exceptional conditions
+       (typically lexical)], [in two or more different positons in the phonological host by default,
+       after the host under exceptional conditions (typically lexical)], [a special case of “simul” where
+       one position is stem change itself]
+    'split' : >
+       [either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either inside or before the phonological host, conditioned by some structural
+       context (category, syntax etc.)], [either inside or after the phonological host, conditioned by
+       some structural context (category, syntax etc.)], [either before or around the phonological host,
+       conditioned by some structural context (category, syntax etc.)], [either before, after or around
+       the phonological host, conditioned by some structural context (category, syntax etc.)], [either
+       before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either before, after or in two or more positions in the phonological host, conditioned
+       by some structural context (category, syntax etc.)], [either before, after, inside or around the
+       phonological host, conditioned by some structural context (category, syntax etc.)], [either after
+       or around the phonological host, conditioned by some structural context (category, syntax etc.)],
+       [either before or inside the phonological host, conditioned by some structural context (category,
+       syntax etc.)]
+    'in' : >
+       [inside the phonological host], [inside the phonological host by default, after the host under
+       exceptional conditions (typically lexical)]
+
+# ------ Position.pre.Presence.v1 ------
+Position.pre.Presence.v1:
+  Description : >
+     At least some exponents of the grammatical marker appear before its phonological host, i.e. the
+     marker nclude some prefix/proclitic part under at least some conditions
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'Position'
+  N.entries : 4015
+  N.languages : 714
+  N.missing : 863
+
+# ------ Position.pre.Presence.v2 ------
+Position.pre.Presence.v2:
+  Description : >
+     At least some exponents of the grammatical marker appear after its phonological host. Default refers
+     to that variant of a marker that is not contextually restricted (e.g. restricted to nonfinite verb
+     forms etc.)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'Position'
+  N.entries : 4015
+  N.languages : 714
+  N.missing : 863
+
+# ------ Position.simul.Presence.v1 ------
+Position.simul.Presence.v1:
+  Description : >
+     Multiple exponence of at least some variants of a grammatical marker
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'Position'
+  N.entries : 3761
+  N.languages : 674
+  N.missing : 1117
+
+# ------ Position.simul.Presence.v2 ------
+Position.simul.Presence.v2:
+  Description : >
+     Multiple exponence of at least some default variants of a grammatical marker. Default refers to
+     that variant of a marker that is not contextually restricted (e.g. restricted to nonfinite verb
+     forms etc.)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'Position'
+  N.entries : 3761
+  N.languages : 674
+  N.missing : 1117
+
+# ------ HostRestrictions ------
+HostRestrictions:
+  Description : >
+     Categorical restriction on possible hosts in terms of parts of speech
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'HostRestrictions'
+  N.levels : 3
+  N.entries : 3846
+  N.languages : 754
+  N.missing : 1032
+  Levels : 
+    'restricted' : >
+       Is restricted to a specific type of host. When descriptions are silent about the range of hosts
+       that a marker can combine with, but analyze the marker as an “affix”, we assume it is restricted.
+    'semi-restricted' : >
+       Can occur with some, but not all host elements (so, NOT a ‘phrasal affix’, but rather simply a
+       ‘particle’-like formative that has some degree of selectional restrictions). Allows at least two
+       distinct hosts (in terms of their parts of speech categories)
+    'unrestricted' : >
+       occurs with anything (e.g. Turkish mi)
+
+# ------ Slot ------
+Slot:
+  Description : >
+     Morphological slot of the agreement marker; prefixes are preceded by a minus symbol (e.g. -2 stands
+     for the second prefix slot as counted from the root)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'Slot'
+  N.levels : 48
+  N.entries : 1550
+  N.languages : 168
+  N.missing : 3328
+
+# ------ SourceOfMarking ------
+SourceOfMarking:
+  Description : >
+     Source of grammatical marker (agreement vs. assigment or any combination thereof)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'SourceOfMarking'
+  N.levels : 6
+  N.entries : 3655
+  N.languages : 723
+  N.missing : 1223
+  Levels : 
+    'agree' : >
+       The formative is there because of agreement.
+    'assign' : >
+       The formative is there because of government, i.e. it is assigned by a head, i.e. it is specified
+       by a head’s valence.
+    'agr-target' : >
+       the formative agrees, but that is not the reason of its presence, i.e. it is present for some
+       other reason, e.g. derivation (unlike the type we call “agree”).
+    'case assigned, gender agrees' : >
+    'free' : >
+       In most contexts, use of the formative is the speaker’s choice. But to the degree that the formative
+       is inflectional, there are some grammatical environments where the use is compulsory (e.g. sequence
+       of tenses.)
+    'both assign and agree' : >
+
+# ------ FlexivityStem ------
+FlexivityStem:
+  Description : >
+     Stem flexivity: allomorphy of stems depending on grammatical categories or lexical choice (see Bickel
+     & Nichols 2007 in Language typology and syntactic description, ed. T, Shopen, Cambridge: Cambridge
+     University Press)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'FlexivityStem'
+  N.levels : 4
+  N.entries : 2926
+  N.languages : 609
+  N.missing : 1952
+  Levels : 
+    'none' : >
+    'cat-based' : >
+       Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
+       ablaut in certain tense forms, across the regular lexicon)
+    'lex-based' : >
+       Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
+       some verbs, but not with others)
+    'both' : >
+
+# ------ OppositionWithZero.Presence ------
+OppositionWithZero.Presence:
+  Description : >
+     Whether or not the marker is in opposition to a marker with zero exponence in the same slot (originally
+     entered so that we don't have to add entries for zero-exponence markers. To keep this easy, we define
+     the opposition per slot.)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'by hand'
+  VariableType : 'data'
+  DataType : 'logical'
+  VariantOf : 'OppositionWithZero.Presence'
+  N.entries : 1533
+  N.languages : 169
+  N.missing : 3345
+
+# ------ HostMacroCat ------
+HostMacroCat:
+  Description : >
+     The broad part of speech type that the marker can take as host (including both terminal and phrasal
+     versions, e.g. N and NP)
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'HostMacroCat'
+  N.levels : 3
+  N.entries : 3265
+  N.languages : 648
+  N.missing : 1613
+  Levels : 
+    'verbal' : >
+       [lexical verb], [verb phrase (syntactic domain hosting particles or complementing auxiliaries).
+       Includes all sorts of coconstituents (NPs, adverbs, etc.). For a more specific notion of VP, see
+       #48], [finite verb], [(subset) of auxiliary verbs], [any element in predicative use (verb, predicate
+       nominal etc.); predicate phrase], [type of verb phrase defined as Verb plus adverbials, particles,
+       perhaps pronouns -- but excluding NPs], [The elements of the VP with all and only the nonfinite
+       parts of the verb, as in German ;-)], [infinitive], [converb], [participle-based verb form], [nonfinite:
+       verb form with fewer categories coded than in the main clause], [supine (a nonfinite verb form
+       indicating purpose)], [independent order forms in Algonquian verbs], [conjunct order forms in
+       Algonquian verbs], [Russian S/A past feminine agreement], [Russian S/A past neuter agreement],
+       [Russian S/A past masculine agreement], [Russian S/A past masc agreement]
+    'nominal' : >
+       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [Pronouns. This
+       refers to free pronouns that head NPs; it does not refer to pronominal indexes.], [2nd or 3rd
+       person pronoun], [3rd person pronoun], [3rd person singular pronoun], [noun or pronoun (including
+       nominalized verbs, participles, etc. ). If a language or construction only includes root nouns,
+       this needs to be mentioned. NOT including Adjectives (if this is at all distinct PoS)], [1st or
+       2nd person, or noun.], [inalienably possessed noun], [alienably possessed noun, i.e. one taking
+       alienable possession (see sem_class_def for alienability)], [human noun], [nominalized verb],
+       [proper noun], [any possessor NP], [the head of a possessive NP], [Speech act participant, i.e.
+       1st or 2nd person. (Using SAP allows non-SAP to be used for 3rd person pronouns and nouns], [1st
+       person only], [proper nouns and kin nouns], [body parts and similar parts], [animate noun], [kin
+       terms], [1st person singular], [personal pronoun or human noun], [singular pronoun], [plural pronoun],
+       [any part of speech except verbs], [noun or third person pronoun (i.e. any third person NP).],
+       [participle], [(expandable) NP], [any noun or pronoun apart from 1sg pronoun], [deictic/demonstrative
+       pronouns], [non-participle], [noun or pronoun in singular], [definite noun], [‘high-indexability’,
+       nouns or pronouns with a higher discourse rank than ‘low-indexability’ (where rank is determined
+       by discourse factors with language-specific weights)], [‘low-indexability’, nouns or pronouns
+       with a higher discourse rank than ‘low-indexability’ (where rank is determined by discourse factors
+       with language-specific weights)], [definite nouns or pronouns], [indefinite noun], [non-human
+       noun], [1st and 2nd person pronouns], [3rd person pronoun or noun], [noun or pronoun in plural],
+       [any form apart from participle-based forms], [noun denoting a higher animate (humans and some
+       animals)], [noun denoting a lower animate (some animals, e.g. all non-mammals)], [2nd person singular
+       pronoun], [any noun or pronoun apart from 2sgPro], [human referent], [non-human referent], [1st
+       singular or 2nd singular pronoun], [1st plural or 2nd plural pronoun], [noun in singular number],
+       [noun in plural number], [3rd person plural pronoun], [2nd person pronoun], [1st person plural
+       pronoun], [noun with specific reference], [noun with non-specific reference], [inanimate noun],
+       [noun apart from kin terms], [1st person pronoun], [1st and 3rd person referents], [2nd person
+       referents], [any pronoun apart from 1sg pronoun], [1st person singular pronoun], [any noun or
+       pronoun apart from 2plPro], [any pronoun apart from 2plPro], [2nd person plural pronoun], [animate
+       noun with specific reference], [any pronoun apart from 1pl pronoun], [personal name (proper nouns
+       which are personal names, but not toponyms, etc.)], [noun in non-singular number (i.e. noun in
+       dual, trial, and plural)], [kinship pronoun], [1st person dual pronoun], [2nd person dual pronoun],
+       [non-human noun in singular], [noun with a higher discourse rank than ‘N-low’ (where rank is determined
+       by discourse factors with language-specific weights)], [noun with a lower discourse rank than
+       ‘N-high’ (where rank is determined by discourse factors with language-specific weights)], [3rd
+       person dual pronoun], [3rd person singular pronoun referring to a human], [3rd person singular
+       pronoun referring to a non-human], [non-personal noun (common nouns and proper nouns which are
+       not personal names (e.g. toponyms))], [3rd person singular pronoun with a higher discourse rank
+       than ‘3sgPro-low’ (where rank is determined by discourse factors with language-specific weights)],
+       [3rd person plural pronoun with a higher discourse rank than ‘3plPro-low’ (where rank is determined
+       by discourse factors with language-specific weights)], [3rd person plural pronoun with a lower
+       discourse rank than ‘3sgPro-high’ (where rank is determined by discourse factors with language-specific
+       weights)], [3rd person plural pronoun with a lower discourse rank than ‘3plPro-high’ (where rank
+       is determined by discourse factors with language-specific weights)], [proper noun in singular],
+       [proper noun in plural], [common (non-proper) noun in singular], [common (non-proper) noun in
+       plural], [common noun], [male personal name], [female personal name], [non-human noun in plural],
+       [non-human noun in dual], [dependent pronoun (e.g. procliticized, etc.) if a language has both
+       dependent and independent pronouns], [German masculine singular noun (case on determiner)], [German
+       feminine singular noun], [German neutral singular noun], [German 3rd person masculine pronoun],
+       [German 3rd person feminine pronoun], [German 3rd person neutral pronoun], [1st person (plural)
+       inclusive pronoun], [1st person (plural) exclusive pronoun], [pronoun with a higher discourse
+       rank than ‘Pro-low’ (where rank is determined by discourse factors with language-specific weights)],
+       [pronoun with a lower discourse rank than ‘Pro-high’ (where rank is determined by discourse factors
+       with language-specific weights)], [Russian inanimate noun of declension class 1 (e.g. zavod `factory’,
+       mesto `place’)], [Russian animate noun of declension class 1 (e.g. student `student’)], [Russian
+       noun of declension class 2 (e.g. komnata `room’, sestra ‘sister’)], [Russian noun of declension
+       class 3 (e.g. doč’ `daughter’)], [animate noun in plural], [inanimate noun in plural], [pronoun
+       referring to an animate entity], [pronoun referring to an inanimate entity], [animate referent],
+       [3rd person pronoun (no number distinction) with a higher discourse rank than ‘3Pro-low’ (where
+       rank is determined by discourse factors with language-specific weights)], [3rd person pronoun
+       (no number distinction) with a lower discourse rank than ‘3Pro-high’ (where rank is determined
+       by discourse factors with language-specific weights)], [noun in dual number], [animate noun in
+       singular], [animate noun in dual], [3rd person singular pronouns with animate reference], [3rd
+       person dual pronoun with animate reference], [3rd person plural pronoun with animate reference],
+       [1st person plural], [2nd person singular], [2nd person plural], [3rd person singular], [3rd person
+       plural], [1st person dual inclusive], [1st person plural inclusive], [1st person dual exclusive],
+       [1st person plural exclusive], [2nd person dual], [3rd person dual], [3rd person], [3rd person
+       singular animate argument with a higher discourse rank than ‘3sg-anim-low’ (where rank is determined
+       by discourse factors with language-specific weights)], [3rd person plural animate argument with
+       a higher discourse rank than ‘3pl-anim-low’ (where rank is determined by discourse factors with
+       language-specific weights)], [3rd person singular animate argument with a lower discourse rank
+       than ‘3sg-anim-high’ (where rank is determined by discourse factors with language-specific weights)],
+       [3rd person plural animate argument with a lower discourse rank than ‘3pl-anim-high’ (where rank
+       is determined by discourse factors with language-specific weights)], [indefinite referent], [animate
+       noun with a higher discourse rank than ‘N-anim-low’ (where rank is determined by discourse factors
+       with language-specific weights)], [animate noun with a lower discourse rank than ‘N-anim-high’
+       (where rank is determined by discourse factors with language-specific weights)], [3rd person high-indexability
+       animate referent, i.e. with a higher discourse rank than ‘low-indexability’ (where rank is determined
+       by discourse factors with language-specific weights)], [3rd person low-indexability animate referent,
+       i.e. with a lower discourse rank than ‘high-indexability’ (where rank is determined by discourse
+       factors with language-specific weights)], [inanimate referent (of the 3rd person)], [animate singular
+       noun with a higher discourse rank than ‘N-anim-low’ (where rank is determined by discourse factors
+       with language-specific weights)], [animate singular noun with a lower discourse rank than ‘N-anim-high’
+       (where rank is determined by discourse factors with language-specific weights)], [3rd person human
+       argument with a higher discourse rank than ‘3hum-low’ (where rank is determined by discourse factors
+       with language-specific weights)], [3rd person human argument with a lower discourse rank than
+       ‘3hum-high’ (where rank is determined by discourse factors with language-specific weights)], [3rd
+       person animate non-human argument with a higher discourse rank than ‘3anim-nhum-low’ (where rank
+       is determined by discourse factors with language-specific weights)], [3rd person animate non-human
+       argument with a lower discourse rank than ‘3anim-nhum-high’ (where rank is determined by discourse
+       factors with language-specific weights)], [3rd person inanimate argument with a higher discourse
+       rank than ‘3inanim-low’ (where rank is determined by discourse factors with language-specific
+       weights)], [3rd person inanimate argument with a lower discourse rank than ‘3inanim-high’ (where
+       rank is determined by discourse factors with language-specific weights)], [inanimate singular
+       referent (of the 3rd person)], [inanimate plural referent (of the 3rd person)], [inanimate singular
+       referent (of the 3rd person) with higher discourse rank than 3sg/pl-inanim-low], [inanimate plural
+       referent (of the 3rd person) with higher discourse rank than 3sg/pl-inanim-low], [inanimate singular
+       referent (of the 3rd person) with lower discourse rank than 3sg/pl-inanim-high], [inanimate plural
+       referent (of the 3rd person) with lower discourse rank than 3sg/pl-inanim-high], [3rd person singular
+       animate further obviative argument (i.e. with a lower dicourse rank than the 3rd person sg. animate
+       low argument)], [3rd person plural animate further obviative argument (i.e. with a lower dicourse
+       rank than the 3rd person pl. animate low argument)], [3rd person dual animate argument with a
+       higher discourse rank than ‘3sg-anim-low’ (where rank is determined by discourse factors with
+       language-specific weights)], [3rd person dual animate argument with a lower discourse rank than
+       ‘3sg-anim-high’ (where rank is determined by discourse factors with language-specific weights)],
+       [inanimate dual referent (of the 3rd person)], [1st person dual], [location nouns], [non-location
+       nouns], [toponym], [non-toponym noun], [dual], [plural], [definite argument], [animate plural
+       referent], [3rd person plural animate reference], [3rd person dual pronoun with a higher discourse
+       rank than ‘3plPro-low’ (where rank is determined by discourse factors with language-specific weights)],
+       [3rd person dual pronoun with a lower discourse rank than ‘3plPro-low’ (where rank is determined
+       by discourse factors with language-specific weights)], [3rd person singular argument with a higher
+       discourse rank than ‘3sg-anim-low’ (where rank is determined by discourse factors with language-specific
+       weights)], [3rd person dual argument with a higher discourse rank than ‘3sg-anim-low’ (where rank
+       is determined by discourse factors with language-specific weights)], [3rd person plural argument
+       with a higher discourse rank than ‘3sg-anim-low’ (where rank is determined by discourse factors
+       with language-specific weights)], [3rd person singular argument with a lower discourse rank than
+       ‘3sg-anim-high’ (where rank is determined by discourse factors with language-specific weights)],
+       [3rd person dual argument with a lower discourse rank than ‘3sg-anim-high’ (where rank is determined
+       by discourse factors with language-specific weights)], [3rd person plural argument with a lower
+       discourse rank than ‘3sg-anim-high’ (where rank is determined by discourse factors with language-specific
+       weights)], [3rd person singular animate argument], [3rd person dual animate argument], [singular
+       noun apart from kin terms], [plural noun apart from kin terms], [noun denoting the referent highest
+       in discourse (e.g. such as PROX in Algonquian languages)], [noun denoting any referent than the
+       highest one in discourse (e.g. such as PROX in Algonquian languages)], [3rd person plural argument
+       with unknown/unclear referential properties that result in a split, if there is a split triggered
+       by unclear referential properties 3pl-b for the other member of the opposition.], [3rd person
+       plural argument with unknown/unclear referential properties that result in a split, if there is
+       a split triggered by unclear referential properties 3pl-a for the other member of the opposition.],
+       [pronoun denoting the 3rd referent highest in discourse (e.g. such as PROX in Algonquian languages)],
+       [pronoun denoting any referent other than the highest one in discourse (e.g. such as PROX in Algonquian
+       languages)], [the referent highest in discourse], [2nd person argument with a higher discourse
+       rank than ‘2-low’ (where rank is determined by discourse factors with language-specific weights)],
+       [3rd person plural human argument], [3rd person singular pronouns with inanimate reference], [3rd
+       person dual pronoun with inanimate reference], [3rd person plural pronouns with inanimate reference],
+       [countable noun], [uncountable noun], [3rd person singular pronoun referring to a countable entity],
+       [3rd person singular pronoun referring to an uncountable entity], [1st person dual inclusive pronoun],
+       [1st person dual exclusive pronoun], [the referent non-highest in discourse], [1st person plural
+       inclusive pronoun], [1st person plural exclusive pronoun], [3rd person sg. with non-human referent],
+       [3rd person sg. with human referent], [3rd person pl. non-human referent], [3rd person pl. human
+       referent], [French 3rd person feminine pronoun], [French 3p person plural feminine pronoun], [French
+       3rd person singular masculine pronoun], [French 3rd person plural masculine pronoun], [2nd person
+       singular high], [2nd person plural high], [3rd person singular human argument with a higher discourse
+       rank than ‘3sg-anim-low’ (where rank is determined by discourse factors with language-specific
+       weights)], [3rd person plural human argument with a higher discourse rank than ‘3sg-anim-low’
+       (where rank is determined by discourse factors with language-specific weights)], [3rd person singular
+       argument with unknown/unclear referential properties that result in a split, if there is a split
+       triggered by unclear referential properties 3pl-a for the other member of the opposition.], [3rd
+       person singular argument with unknown/unclear referential properties that result in a split, if
+       there is a split triggered by unclear referential properties 3pl-b for the other member of the
+       opposition.], [Gahuku nouns taking the object suffix], [Gahuku nouns not taking the object suffix],
+       [2nd person singular, mid honorific], [2nd person plural, mid honorific], [2nd person singular,
+       high honorific], [2nd person plural, high honorific], [third person singular, mid honorific],
+       [third person plural, mid honorific], [third person singular, high honorific], [third person plural,
+       high honorific], [Serbian-Croatian nouns in SG that distinguish NOM and ACC], [Serbian-Croatian
+       nouns in PL that distinguish NOM and ACC], [Serbian-Croatian nouns in SG that do not distinguish
+       NOM and ACC], [Serbian-Croatian nouns in PL that do not distinguish NOM and ACC], [pronoun denoting
+       the 3rd sg. referent highest in discourse (e.g. such as PROX in Algonquian languages)], [pronoun
+       denoting the 3rd pl. referent highest in discourse (e.g. such as PROX in Algonquian languages)],
+       [pronoun denoting any 3rd sg. referent other than the highest one in discourse (e.g. such as PROX
+       Algonquian languages)], [pronoun denoting any 3rd pl. referent other than the highest one in discourse
+       (e.g. such as PROX Algonquian languages)], [noun apart from kin terms and proper nouns], [inanimate
+       noun with a higher discourse rank than ‘N-anim-low’ (where rank is determined by discourse factors
+       with language-specific weights)], [inanimate noun with a lower discourse rank than ‘N-anim-high’
+       (where rank is determined by discourse factors with language-specific weights)], [All referential
+       types], [Ancient Greek feminine and masculine nouns in singular and plural], [Ancient Greek feminine
+       and masculine nouns in dual and neuter nouns in all numbers], [Ancient Greek neuter 3sg pronoun],
+       [Ancient Greek feminine 3sg pronoun], [Ancient Greek masculine 3sg pronoun], [Ancient Greek masculine
+       3pl pronoun], [Ancient Greek feminine 3pl pronoun], [Ancient Greek neuter 3pl pronoun], [Icelandic
+       masculine nouns of strong and weak declension, no NOM/ACC syncretism], [Icelandic feminine nouns
+       of weak declension and a minor masculine strong class, show NOM/ACC syncretism in plural only
+       AND Icelandic neuter and feminine nouns of strong declension, show NOM/ACC syncretism in sg and
+       pl], [Icelandic 3rd person singular masculine pronoun], [Icelandic 3rd person singular feminine
+       pronoun], [Icelandic 3rd person singular neuter pronoun], [Icelandic 3rd person plural masculine
+       pronoun], [Icelandic 3rd person plural feminine pronoun], [Icelandic 3rd person plural neuter
+       pronoun], [Gothic nouns of every gender with syncretic NOM/ACC forms], [Gothic nouns of every
+       gender with non-syncretic NOM and ACC forms], [Gothic 3rd person singular masculine pronoun],
+       [Gothic 3rd person singular feminine pronoun], [Gothic 3rd person singular neutrum pronoun], [Gothic
+       3rd person plural masculine pronoun], [Gothic 3rd person plural feminine pronoun], [Gothic 3rd
+       person plural neuter pronoun], [Latvian nouns in feminine, which are syncretic only in the plural],
+       [Latvian nouns in masculine, which have no NOM/ACC syncretism], [Latvian feminine 3sg pronoun],
+       [Latvian feminine 3pl pronoun (syncretic NOM/ACC)], [Latvian masculine 3sg pronoun], [Latvian
+       masculine 3pl pronoun], [Avestan nouns of the inflectional classes with NOM/ACC syncretism (either
+       in du/pl only or also in sg)], [Avestan nouns of the inflectional classes without NOM/ACC syncretism],
+       [Greek nouns of the inflectional classes without NOM/ACC syncretism (some masculines and some
+       feminines)], [Greek nouns of the inflectional classes with NOM/ACC syncretism (all neutra, some
+       masculines and some feminines, some of them in pl. only, other both in sg. and pl.)], [Greek neuter
+       3sg pronoun], [Greek feminine 3sg pronoun Greek fem 3sg pronoun], [Greek masculine 3sg pronoun
+       Greek fem 3sg pronoun], [Greek neuter 3pl pronoun], [Greek feminine 3pl pronoun Greek fem 3sg
+       pronoun], [Greek masculine 3pl pronoun Greek fem 3sg pronoun]
+    'any' : >
+       [no restriction as to what kind of stem or terminal node can host the formative. This is one notion
+       of clitic; do not confuse with phrasal affixes,which are or not restricted to a specific XP],
+       [any phrase: the formative attaches to whatever phrase it refers to (typical of focus particles
+       and clitics)]
+
+# ------ HostType ------
+HostType:
+  Description : >
+     The projection level of the host: a phrase-level element vs a terminal element
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'HostType'
+  N.levels : 2
+  N.entries : 3351
+  N.languages : 654
+  N.missing : 1527
+  Levels : 
+    'terminal' : >
+       [lexical verb], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)],
+       [adjective], [Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal
+       indexes.], [Adposition], [Article], [no restriction as to what kind of stem or terminal node can
+       host the formative. This is one notion of clitic; do not confuse with phrasal affixes,which are
+       or not restricted to a specific XP], [2nd or 3rd person pronoun], [3rd person pronoun], [3rd person
+       singular pronoun], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
+       or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
+       (if this is at all distinct PoS)], [1st or 2nd person, or noun.], [inalienably possessed noun],
+       [alienably possessed noun, i.e. one taking alienable possession (see sem_class_def for alienability)],
+       [human noun], [nominalized verb], [demonstrative], [numeral], [proper noun], [the head of a possessive
+       NP], [Speech act participant, i.e. 1st or 2nd person. (Using SAP allows non-SAP to be used for
+       3rd person pronouns and nouns], [1st person only], [proper nouns and kin nouns], [body parts and
+       similar parts], [animate noun], [kin terms], [1st person singular], [personal pronoun or human
+       noun], [singular pronoun], [plural pronoun], [finite verb], [(subset) of auxiliary verbs], [Quantifiers],
+       [any part of speech except verbs], [noun or third person pronoun (i.e. any third person NP).],
+       [participle], [Ordinal numeral], [numeral greater than 20], [Ordinal numeral greater than 1],
+       [any noun or pronoun apart from 1sg pronoun], [deictic/demonstrative pronouns], [non-participle],
+       [noun or pronoun in singular], [definite noun], [‘high-indexability’, nouns or pronouns with a
+       higher discourse rank than ‘low-indexability’ (where rank is determined by discourse factors with
+       language-specific weights)], [‘low-indexability’, nouns or pronouns with a higher discourse rank
+       than ‘low-indexability’ (where rank is determined by discourse factors with language-specific
+       weights)], [definite nouns or pronouns], [indefinite noun], [non-human noun], [infinitive], [converb],
+       [1st and 2nd person pronouns], [3rd person pronoun or noun], [noun or pronoun in plural], [participle-based
+       verb form], [any form apart from participle-based forms], [nonfinite: verb form with fewer categories
+       coded than in the main clause], [noun denoting a higher animate (humans and some animals)], [noun
+       denoting a lower animate (some animals, e.g. all non-mammals)], [2nd person singular pronoun],
+       [any noun or pronoun apart from 2sgPro], [human referent], [non-human referent], [1st singular
+       or 2nd singular pronoun], [1st plural or 2nd plural pronoun], [noun in singular number], [noun
+       in plural number], [3rd person plural pronoun], [2nd person pronoun], [1st person plural pronoun],
+       [noun with specific reference], [noun with non-specific reference], [inanimate noun], [noun apart
+       from kin terms], [1st person pronoun], [1st and 3rd person referents], [2nd person referents],
+       [any pronoun apart from 1sg pronoun], [1st person singular pronoun], [any noun or pronoun apart
+       from 2plPro], [any pronoun apart from 2plPro], [2nd person plural pronoun], [animate noun with
+       specific reference], [any pronoun apart from 1pl pronoun], [personal name (proper nouns which
+       are personal names, but not toponyms, etc.)], [noun in non-singular number (i.e. noun in dual,
+       trial, and plural)], [kinship pronoun], [1st person dual pronoun], [2nd person dual pronoun],
+       [non-human noun in singular], [noun with a higher discourse rank than ‘N-low’ (where rank is determined
+       by discourse factors with language-specific weights)], [noun with a lower discourse rank than
+       ‘N-high’ (where rank is determined by discourse factors with language-specific weights)], [3rd
+       person dual pronoun], [3rd person singular pronoun referring to a human], [3rd person singular
+       pronoun referring to a non-human], [non-personal noun (common nouns and proper nouns which are
+       not personal names (e.g. toponyms))], [3rd person singular pronoun with a higher discourse rank
+       than ‘3sgPro-low’ (where rank is determined by discourse factors with language-specific weights)],
+       [3rd person plural pronoun with a higher discourse rank than ‘3plPro-low’ (where rank is determined
+       by discourse factors with language-specific weights)], [3rd person plural pronoun with a lower
+       discourse rank than ‘3sgPro-high’ (where rank is determined by discourse factors with language-specific
+       weights)], [3rd person plural pronoun with a lower discourse rank than ‘3plPro-high’ (where rank
+       is determined by discourse factors with language-specific weights)], [proper noun in singular],
+       [proper noun in plural], [common (non-proper) noun in singular], [common (non-proper) noun in
+       plural], [common noun], [supine (a nonfinite verb form indicating purpose)], [male personal name],
+       [female personal name], [non-human noun in plural], [non-human noun in dual], [dependent pronoun
+       (e.g. procliticized, etc.) if a language has both dependent and independent pronouns], [German
+       masculine singular noun (case on determiner)], [German feminine singular noun], [German neutral
+       singular noun], [German 3rd person masculine pronoun], [German 3rd person feminine pronoun], [German
+       3rd person neutral pronoun], [1st person (plural) inclusive pronoun], [1st person (plural) exclusive
+       pronoun], [pronoun with a higher discourse rank than ‘Pro-low’ (where rank is determined by discourse
+       factors with language-specific weights)], [pronoun with a lower discourse rank than ‘Pro-high’
+       (where rank is determined by discourse factors with language-specific weights)], [Russian inanimate
+       noun of declension class 1 (e.g. zavod `factory’, mesto `place’)], [Russian animate noun of declension
+       class 1 (e.g. student `student’)], [Russian noun of declension class 2 (e.g. komnata `room’, sestra
+       ‘sister’)], [Russian noun of declension class 3 (e.g. doč’ `daughter’)], [animate noun in plural],
+       [inanimate noun in plural], [Adverb], [pronoun referring to an animate entity], [pronoun referring
+       to an inanimate entity], [3rd person pronoun (no number distinction) with a higher discourse rank
+       than ‘3Pro-low’ (where rank is determined by discourse factors with language-specific weights)],
+       [3rd person pronoun (no number distinction) with a lower discourse rank than ‘3Pro-high’ (where
+       rank is determined by discourse factors with language-specific weights)], [animate noun in singular],
+       [animate noun in dual], [3rd person singular pronouns with animate reference], [3rd person dual
+       pronoun with animate reference], [3rd person plural pronoun with animate reference], [1st person
+       plural], [1st person dual inclusive], [1st person plural inclusive], [1st person dual exclusive],
+       [1st person plural exclusive], [definite argument], [animate plural referent], [3rd person plural
+       animate reference], [3rd person dual pronoun with a higher discourse rank than ‘3plPro-low’ (where
+       rank is determined by discourse factors with language-specific weights)], [3rd person dual pronoun
+       with a lower discourse rank than ‘3plPro-low’ (where rank is determined by discourse factors with
+       language-specific weights)], [singular noun apart from kin terms], [plural noun apart from kin
+       terms], [pronoun denoting the 3rd referent highest in discourse (e.g. such as PROX in Algonquian
+       languages)], [pronoun denoting any referent other than the highest one in discourse (e.g. such
+       as PROX in Algonquian languages)], [3rd person singular pronouns with inanimate reference], [3rd
+       person dual pronoun with inanimate reference], [3rd person plural pronouns with inanimate reference],
+       [3rd person singular pronoun referring to a countable entity], [3rd person singular pronoun referring
+       to an uncountable entity], [1st person dual inclusive pronoun], [1st person dual exclusive pronoun],
+       [1st person plural inclusive pronoun], [1st person plural exclusive pronoun], [3rd person sg.
+       with non-human referent], [3rd person sg. with human referent], [3rd person pl. non-human referent],
+       [3rd person pl. human referent], [French 3rd person feminine pronoun], [French 3p person plural
+       feminine pronoun], [French 3rd person singular masculine pronoun], [French 3rd person plural masculine
+       pronoun], [Gahuku nouns taking the object suffix], [Gahuku nouns not taking the object suffix],
+       [Serbian-Croatian nouns in SG that distinguish NOM and ACC], [Serbian-Croatian nouns in PL that
+       distinguish NOM and ACC], [Serbian-Croatian nouns in SG that do not distinguish NOM and ACC],
+       [Serbian-Croatian nouns in PL that do not distinguish NOM and ACC], [pronoun denoting the 3rd
+       sg. referent highest in discourse (e.g. such as PROX in Algonquian languages)], [pronoun denoting
+       the 3rd pl. referent highest in discourse (e.g. such as PROX in Algonquian languages)], [pronoun
+       denoting any 3rd sg. referent other than the highest one in discourse (e.g. such as PROX Algonquian
+       languages)], [pronoun denoting any 3rd pl. referent other than the highest one in discourse (e.g.
+       such as PROX Algonquian languages)], [noun apart from kin terms and proper nouns], [Ancient Greek
+       neuter 3sg pronoun], [Ancient Greek feminine 3sg pronoun], [Ancient Greek masculine 3sg pronoun],
+       [Ancient Greek masculine 3pl pronoun], [Ancient Greek feminine 3pl pronoun], [Ancient Greek neuter
+       3pl pronoun], [Icelandic masculine nouns of strong and weak declension, no NOM/ACC syncretism],
+       [Icelandic feminine nouns of weak declension and a minor masculine strong class, show NOM/ACC
+       syncretism in plural only AND Icelandic neuter and feminine nouns of strong declension, show NOM/ACC
+       syncretism in sg and pl], [Icelandic 3rd person singular masculine pronoun], [Icelandic 3rd person
+       singular feminine pronoun], [Icelandic 3rd person singular neuter pronoun], [Icelandic 3rd person
+       plural masculine pronoun], [Icelandic 3rd person plural feminine pronoun], [Icelandic 3rd person
+       plural neuter pronoun], [Gothic nouns of every gender with syncretic NOM/ACC forms], [Gothic nouns
+       of every gender with non-syncretic NOM and ACC forms], [Gothic 3rd person singular masculine pronoun],
+       [Gothic 3rd person singular feminine pronoun], [Gothic 3rd person singular neutrum pronoun], [Gothic
+       3rd person plural masculine pronoun], [Gothic 3rd person plural feminine pronoun], [Gothic 3rd
+       person plural neuter pronoun], [Latvian nouns in feminine, which are syncretic only in the plural],
+       [Latvian nouns in masculine, which have no NOM/ACC syncretism], [Latvian feminine 3sg pronoun],
+       [Latvian feminine 3pl pronoun (syncretic NOM/ACC)], [Latvian masculine 3sg pronoun], [Latvian
+       masculine 3pl pronoun], [Avestan nouns of the inflectional classes with NOM/ACC syncretism (either
+       in du/pl only or also in sg)], [Avestan nouns of the inflectional classes without NOM/ACC syncretism],
+       [Greek nouns of the inflectional classes without NOM/ACC syncretism (some masculines and some
+       feminines)], [Greek nouns of the inflectional classes with NOM/ACC syncretism (all neutra, some
+       masculines and some feminines, some of them in pl. only, other both in sg. and pl.)], [Greek neuter
+       3sg pronoun], [Greek feminine 3sg pronoun Greek fem 3sg pronoun], [Greek masculine 3sg pronoun
+       Greek fem 3sg pronoun], [Greek neuter 3pl pronoun], [Greek feminine 3pl pronoun Greek fem 3sg
+       pronoun], [Greek masculine 3pl pronoun Greek fem 3sg pronoun], [Latin nouns with NOM = ACC syncretism
+       both in sg. and pl. (all neuter nouns and fem. and masc. nouns of declension 3, 4 and 5)], [Latin
+       nouns without NOM = ACC syncretism neither in sg. not in pl.], [Latin 3rd person singular masculine
+       pronoun], [Latin 3rd person singular feminine pronoun], [Latin 3rd person singular neuter pronoun],
+       [Latin 3rd person plural masculine pronoun], [Latin 3rd person plural feminine pronoun], [Latin
+       3rd person plural neuter pronoun], [High German (old) nouns with NOM = ACC syncretism both in
+       sg. and pl. (nouns of all genders in the vocalic/strong declension, nouns in minor consonantal
+       declensions, neuter nouns of the weak -n-declension)], [High German (old) nouns without NOM/ACC
+       syncretism in sg.(masc. and fem. nouns of the weak declension); pl. is always syncreticvocalic/strong
+       declension, nouns in minor consonantal declensions, neuter nouns of the weak -n-declension)],
+       [High German (old) 3sgPro without NOM/ACC syncretism], [High German (old) 3sgPro with NOM = ACC
+       syncretism]
+    'phrasal' : >
+       [Adverb Phrases, including all sorts of ‘preverbs’ and predicative modifiers.], [any possessor
+       NP], [Clause], [verb phrase (syntactic domain hosting particles or complementing auxiliaries).
+       Includes all sorts of coconstituents (NPs, adverbs, etc.). For a more specific notion of VP, see
+       #48], [any element in predicative use (verb, predicate nominal etc.); predicate phrase], [type
+       of verb phrase defined as Verb plus adverbials, particles, perhaps pronouns -- but excluding NPs],
+       [(expandable) NP], [any phrase: the formative attaches to whatever phrase it refers to (typical
+       of focus particles and clitics)], [The elements of the VP with all and only the nonfinite parts
+       of the verb, as in German ;-)], [adjective phrase], [Adpositional phrase]
+
+# ------ HostCat ------
+HostCat:
+  Description : >
+     The syntactic host(s) that the marker can appear on
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'condition'
+  DataType : 'categorical'
+  VariantOf : 'HostCat'
+  N.levels : 98
+  N.entries : 4878
+  N.languages : 808
+  N.missing : 0
+  Levels : 
+    'V' : >
+       lexical verb
+    'NP' : >
+       (expandable) NP
+    'Adj,Adp,N_or_Pro' : >
+       [adjective], [Adposition], [noun or pronoun (including nominalized verbs, participles, etc. ).
+       If a language or construction only includes root nouns, this needs to be mentioned. NOT including
+       Adjectives (if this is at all distinct PoS)]
+    'AdvP,Num_above_20,PP' : >
+       [Adverb Phrases, including all sorts of ‘preverbs’ and predicative modifiers.], [numeral greater
+       than 20], [Adpositional phrase]
+    'AdjP,NP,S' : >
+       [adjective phrase], [(expandable) NP], [Clause]
+    'Adj,N_or_Pro,PTCP' : >
+       [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
+       or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
+       (if this is at all distinct PoS)], [participle]
+    'Adj,DEM' : >
+       adjective, demonstrative
+    'Adj,N_or_Pro,Ord' : >
+       [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
+       or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
+       (if this is at all distinct PoS)], [Ordinal numeral]
+    'Adj,N_or_Pro,Ord,PTCP' : >
+       [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
+       or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
+       (if this is at all distinct PoS)], [Ordinal numeral], [participle]
+    'Adj,N_or_Pro' : >
+       [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
+       or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
+       (if this is at all distinct PoS)]
+    'N_or_Pro' : >
+       noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
+       only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
+       all distinct PoS)
+    'Adj,N' : >
+       [adjective], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)]
+    'Adj,DEM,N_or_Pro,Num' : >
+       [adjective], [demonstrative], [noun or pronoun (including nominalized verbs, participles, etc.
+       ). If a language or construction only includes root nouns, this needs to be mentioned. NOT including
+       Adjectives (if this is at all distinct PoS)], [numeral]
+    'Adj,N,Num' : >
+       [adjective], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [numeral]
+    'N' : >
+       lexical noun, nominalized verb -- whether possessed or non-possessed (all)
+    'NP,S' : >
+       [(expandable) NP], [Clause]
+    'N_or_Pro,Ord' : >
+       [noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
+       only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
+       all distinct PoS)], [Ordinal numeral]
+    'Num' : >
+       numeral
+    'VP' : >
+       verb phrase (syntactic domain hosting particles or complementing auxiliaries). Includes all sorts
+       of coconstituents (NPs, adverbs, etc.). For a more specific notion of VP, see #48
+    'Pro' : >
+       Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal indexes.
+    'N,Pro' : >
+       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [Pronouns. This
+       refers to free pronouns that head NPs; it does not refer to pronominal indexes.]
+    'S' : >
+       Clause
+    'Adj,V' : >
+       [adjective], [lexical verb]
+    'N_or_Pro,Nv' : >
+       [noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
+       only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
+       all distinct PoS)], [nominalized verb]
+    'N_or_Pro,Num' : >
+       [noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
+       only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
+       all distinct PoS)], [numeral]
+    '1_2Pro_or_N' : >
+       1st or 2nd person, or noun.
+    'Adj' : >
+       adjective
+    'Adj,Art' : >
+       adjective, Article
+    'Adj,PTCP' : >
+       adjective, participle
+    'V,V-aux' : >
+       [lexical verb], [(subset) of auxiliary verbs]
+    'DEM,S' : >
+       demonstrative, Clause
+    'Adj,N,Num,V' : >
+       [adjective], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [numeral],
+       [lexical verb]
+    'N,Pro,V' : >
+       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [Pronouns. This
+       refers to free pronouns that head NPs; it does not refer to pronominal indexes.], [lexical verb]
+    'NP,Pro' : >
+       [(expandable) NP], [Pronouns. This refers to free pronouns that head NPs; it does not refer to
+       pronominal indexes.]
+    '3Pro,N,Pro-sg' : >
+       [3rd person pronoun], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)],
+       [singular pronoun]
+    'V-aux' : >
+       (subset) of auxiliary verbs
+    'Adj,N,V' : >
+       [adjective], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [lexical
+       verb]
+    'N,V' : >
+       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [lexical verb]
+    'Adj,Art,Pro' : >
+       [adjective], [Article], [Pronouns. This refers to free pronouns that head NPs; it does not refer
+       to pronominal indexes.]
+    'PRED,V' : >
+       [any element in predicative use (verb, predicate nominal etc.); predicate phrase], [lexical verb]
+    'AdvP,PRED' : >
+       [Adverb Phrases, including all sorts of ‘preverbs’ and predicative modifiers.], [any element in
+       predicative use (verb, predicate nominal etc.); predicate phrase]
+    'Adv,V' : >
+       [Adverb], [lexical verb]
+    'PRED' : >
+       any element in predicative use (verb, predicate nominal etc.); predicate phrase
+    '3sgPro,N-kin,Pro-pl' : >
+       [3rd person singular pronoun], [kin terms], [plural pronoun]
+    'XP' : >
+       any phrase: the formative attaches to whatever phrase it refers to (typical of focus particles
+       and clitics)
+    'N-proper' : >
+       proper noun
+    'VP-nonfin' : >
+       The elements of the VP with all and only the nonfinite parts of the verb, as in German ;-)
+    'NP,Pro,S' : >
+       [(expandable) NP], [Pronouns. This refers to free pronouns that head NPs; it does not refer to
+       pronominal indexes.], [Clause]
+    'N-hum' : >
+       human noun
+    'Adp,V' : >
+       [Adposition], [lexical verb]
+    'N-kin,Pro' : >
+       [kin terms], [Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal
+       indexes.]
+    'VAdvP' : >
+       type of verb phrase defined as Verb plus adverbials, particles, perhaps pronouns -- but excluding
+       NPs
+    'V-fin' : >
+       finite verb
+    '3Pro_or_N' : >
+       3rd person pronoun or noun
+    'N-high-anim' : >
+       noun denoting a higher animate (humans and some animals)
+    'Adj,Adv,Quant,V' : >
+       [adjective], [Adverb], [Quantifiers], [lexical verb]
+    'Pro,V' : >
+       [Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal indexes.],
+       [lexical verb]
+    'Adv,NP,S' : >
+       [Adverb], [(expandable) NP], [Clause]
+    'N-anim' : >
+       animate noun
+    'N-kin' : >
+       kin terms
+    '1/2Pro' : >
+       1st and 2nd person pronouns
+    'Adp,N' : >
+       [Adposition], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)]
+    'Pro_NOT_1sgPro' : >
+       any pronoun apart from 1sg pronoun
+    'Body_part,N-kin,N-proper' : >
+       [body parts and similar parts], [kin terms], [proper noun]
+    'Adj,DEM,N,Pro' : >
+       [adjective], [demonstrative], [lexical noun, nominalized verb -- whether possessed or non-possessed
+       (all)], [Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal
+       indexes.]
+    'Pro-sg' : >
+       singular pronoun
+    'N-non-kin' : >
+       noun apart from kin terms
+    'Art,N_or_Pro' : >
+       [Article], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language or
+       construction only includes root nouns, this needs to be mentioned. NOT including Adjectives (if
+       this is at all distinct PoS)]
+    'Body_part,N-anim,N-kin' : >
+       [body parts and similar parts], [animate noun], [kin terms]
+    'N-hum,N-non-sg,Pro,Pro-kin' : >
+       [human noun], [noun in non-singular number (i.e. noun in dual, trial, and plural)], [Pronouns.
+       This refers to free pronouns that head NPs; it does not refer to pronominal indexes.], [kinship
+       pronoun]
+    'Adj,N,Pro' : >
+       [adjective], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [Pronouns.
+       This refers to free pronouns that head NPs; it does not refer to pronominal indexes.]
+    'Body_part,N-hum,N-kin' : >
+       [body parts and similar parts], [human noun], [kin terms]
+    'Adp' : >
+       Adposition
+    'not_1sgPro' : >
+       any noun or pronoun apart from 1sg pronoun
+    '1/2plPro' : >
+       1st plural or 2nd plural pronoun
+    'Adv,N,V' : >
+       [Adverb], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [lexical
+       verb]
+    'N,Pro-pl' : >
+       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [plural pronoun]
+    'N-inal,N-kin' : >
+       [inalienably possessed noun], [kin terms]
+    'N,Pro-sg' : >
+       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [singular pronoun]
+    'N-inal' : >
+       inalienably possessed noun
+    '1/2sgPro,3Pro,N' : >
+       [1st singular or 2nd singular pronoun], [3rd person pronoun], [lexical noun, nominalized verb
+       -- whether possessed or non-possessed (all)]
+    'non-V' : >
+       any part of speech except verbs
+    '1sgPro' : >
+       1st person singular pronoun
+    '3sgPro' : >
+       3rd person singular pronoun
+    'N-alien' : >
+       alienably possessed noun, i.e. one taking alienable possession (see sem_class_def for alienability)
+    'N,Pro_NOT_1plPro' : >
+       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [any pronoun apart
+       from 1pl pronoun]
+    'Adp,Pro' : >
+       [Adposition], [Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal
+       indexes.]
+    'N-inal,Pro' : >
+       [inalienably possessed noun], [Pronouns. This refers to free pronouns that head NPs; it does not
+       refer to pronominal indexes.]
+    'N-pers,Pro' : >
+       [personal name (proper nouns which are personal names, but not toponyms, etc.)], [Pronouns. This
+       refers to free pronouns that head NPs; it does not refer to pronominal indexes.]
+    '#ANY#' : >
+       No known applicable condition
+

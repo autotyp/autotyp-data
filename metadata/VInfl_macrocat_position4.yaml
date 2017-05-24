@@ -1,0 +1,426 @@
+# ------ VInflClassification.Position.binned4 ------
+VInflClassification.Position.binned4:
+  Description : >
+     Position of separate markers of macrocategory "classification' (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflClassification.Position.binned4'
+  N.levels : 2
+  N.entries : 6
+  N.languages : 6
+  N.missing : 313
+  Levels : 
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+  Notes : >
+     For the definition of macrocategory "classification", see the metadata for VInflCat in Synthesis
+
+# ------ VInflEvidential.Position.binned4 ------
+VInflEvidential.Position.binned4:
+  Description : >
+     Position of separate markers of macrocategory "evidential' (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflEvidential.Position.binned4'
+  N.levels : 1
+  N.entries : 22
+  N.languages : 22
+  N.missing : 297
+  Levels : 
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+  Notes : >
+     For the definition of macrocategory "evidential", see the metadata for VInflCat in Synthesis
+
+# ------ VInflInter_clausal.Position.binned4 ------
+VInflInter_clausal.Position.binned4:
+  Description : >
+     Position of separate markers of macrocategory "inter_clausal' (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflInter_clausal.Position.binned4'
+  N.levels : 3
+  N.entries : 15
+  N.languages : 15
+  N.missing : 304
+  Levels : 
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+    'split' : >
+       [either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either inside or before the phonological host, conditioned by some structural
+       context (category, syntax etc.)], [either inside or after the phonological host, conditioned by
+       some structural context (category, syntax etc.)], [either before or around the phonological host,
+       conditioned by some structural context (category, syntax etc.)], [either before, after or around
+       the phonological host, conditioned by some structural context (category, syntax etc.)], [either
+       before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either before, after or in two or more positions in the phonological host, conditioned
+       by some structural context (category, syntax etc.)], [either before, after, inside or around the
+       phonological host, conditioned by some structural context (category, syntax etc.)], [either after
+       or around the phonological host, conditioned by some structural context (category, syntax etc.)],
+       [either before or inside the phonological host, conditioned by some structural context (category,
+       syntax etc.)]
+  Notes : >
+     For the definition of macrocategory "inter_clausal", see the metadata for VInflCat in Synthesis
+
+# ------ VInflNP_related.Position.binned4 ------
+VInflNP_related.Position.binned4:
+  Description : >
+     Position of separate markers of macrocategory "NP_related' (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflNP_related.Position.binned4'
+  N.levels : 2
+  N.entries : 5
+  N.languages : 5
+  N.missing : 314
+  Levels : 
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+  Notes : >
+     For the definition of macrocategory "NP_related", see the metadata for VInflCat in Synthesis
+
+# ------ VInflNumber.Position.binned4 ------
+VInflNumber.Position.binned4:
+  Description : >
+     Position of separate markers of macrocategory "number' (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflNumber.Position.binned4'
+  N.levels : 4
+  N.entries : 96
+  N.languages : 87
+  N.missing : 223
+  Levels : 
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+    'split' : >
+       [either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either inside or before the phonological host, conditioned by some structural
+       context (category, syntax etc.)], [either inside or after the phonological host, conditioned by
+       some structural context (category, syntax etc.)], [either before or around the phonological host,
+       conditioned by some structural context (category, syntax etc.)], [either before, after or around
+       the phonological host, conditioned by some structural context (category, syntax etc.)], [either
+       before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either before, after or in two or more positions in the phonological host, conditioned
+       by some structural context (category, syntax etc.)], [either before, after, inside or around the
+       phonological host, conditioned by some structural context (category, syntax etc.)], [either after
+       or around the phonological host, conditioned by some structural context (category, syntax etc.)],
+       [either before or inside the phonological host, conditioned by some structural context (category,
+       syntax etc.)]
+    'in/simul' : >
+       [inside the phonological host], [the formative has two exponents at different positions in the
+       phonological host (but it is not the case that one is positioned before and the other after the
+       host, which is coded as “circum”)], [the formative has two exponents, one before and one after
+       the phonological host. This is a special case of the “simul” position], [inside the phonological
+       host by default, after the host under exceptional conditions (typically lexical)], [around the
+       phonological host by default, before the host under exceptional conditions (typically lexical)],
+       [around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)], [in two or more different positions in (but not around) the phonological host by default,
+       before the host under exceptional conditions (typically lexical)]
+  Notes : >
+     For the definition of macrocategory "number", see the metadata for VInflCat in Synthesis
+
+# ------ VInflOperators.Position.binned4 ------
+VInflOperators.Position.binned4:
+  Description : >
+     Position of separate markers of macrocategory "operators' (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflOperators.Position.binned4'
+  N.levels : 4
+  N.entries : 90
+  N.languages : 90
+  N.missing : 229
+  Levels : 
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+    'in/simul' : >
+       [inside the phonological host], [the formative has two exponents at different positions in the
+       phonological host (but it is not the case that one is positioned before and the other after the
+       host, which is coded as “circum”)], [the formative has two exponents, one before and one after
+       the phonological host. This is a special case of the “simul” position], [inside the phonological
+       host by default, after the host under exceptional conditions (typically lexical)], [around the
+       phonological host by default, before the host under exceptional conditions (typically lexical)],
+       [around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)], [in two or more different positions in (but not around) the phonological host by default,
+       before the host under exceptional conditions (typically lexical)]
+    'split' : >
+       [either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either inside or before the phonological host, conditioned by some structural
+       context (category, syntax etc.)], [either inside or after the phonological host, conditioned by
+       some structural context (category, syntax etc.)], [either before or around the phonological host,
+       conditioned by some structural context (category, syntax etc.)], [either before, after or around
+       the phonological host, conditioned by some structural context (category, syntax etc.)], [either
+       before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either before, after or in two or more positions in the phonological host, conditioned
+       by some structural context (category, syntax etc.)], [either before, after, inside or around the
+       phonological host, conditioned by some structural context (category, syntax etc.)], [either after
+       or around the phonological host, conditioned by some structural context (category, syntax etc.)],
+       [either before or inside the phonological host, conditioned by some structural context (category,
+       syntax etc.)]
+  Notes : >
+     For the definition of macrocategory "operators", see the metadata for VInflCat in Synthesis
+
+# ------ VInflPerson.Position.binned4 ------
+VInflPerson.Position.binned4:
+  Description : >
+     Position of separate markers of macrocategory "person' (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflPerson.Position.binned4'
+  N.levels : 2
+  N.entries : 6
+  N.languages : 6
+  N.missing : 313
+  Levels : 
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+  Notes : >
+     For the definition of macrocategory "person", see the metadata for VInflCat in Synthesis
+
+# ------ VInflPragmatic.Position.binned4 ------
+VInflPragmatic.Position.binned4:
+  Description : >
+     Position of separate markers of macrocategory "pragmatic' (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflPragmatic.Position.binned4'
+  N.levels : 2
+  N.entries : 48
+  N.languages : 46
+  N.missing : 271
+  Levels : 
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+  Notes : >
+     For the definition of macrocategory "pragmatic", see the metadata for VInflCat in Synthesis
+
+# ------ VInflPragmatics.Position.binned4 ------
+VInflPragmatics.Position.binned4:
+  Description : >
+     Position of separate markers of macrocategory "pragmatics' (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflPragmatics.Position.binned4'
+  N.levels : 2
+  N.entries : 7
+  N.languages : 7
+  N.missing : 312
+  Levels : 
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+  Notes : >
+     For the definition of macrocategory "pragmatics", see the metadata for VInflCat in Synthesis
+
+# ------ VInflRole.Position.binned4 ------
+VInflRole.Position.binned4:
+  Description : >
+     Position of separate markers of macrocategory "role' (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflRole.Position.binned4'
+  N.levels : 1
+  N.entries : 2
+  N.languages : 2
+  N.missing : 317
+  Levels : 
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+  Notes : >
+     For the definition of macrocategory "role", see the metadata for VInflCat in Synthesis
+
+# ------ VInflTAM.Position.binned4 ------
+VInflTAM.Position.binned4:
+  Description : >
+     Position of separate markers of macrocategory "TAM' (cf. Bickel & Nichols 2005 Inflectional Synthesis
+     of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflTAM.Position.binned4'
+  N.levels : 4
+  N.entries : 293
+  N.languages : 227
+  N.missing : 26
+  Levels : 
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+    'split' : >
+       [either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either inside or before the phonological host, conditioned by some structural
+       context (category, syntax etc.)], [either inside or after the phonological host, conditioned by
+       some structural context (category, syntax etc.)], [either before or around the phonological host,
+       conditioned by some structural context (category, syntax etc.)], [either before, after or around
+       the phonological host, conditioned by some structural context (category, syntax etc.)], [either
+       before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either before, after or in two or more positions in the phonological host, conditioned
+       by some structural context (category, syntax etc.)], [either before, after, inside or around the
+       phonological host, conditioned by some structural context (category, syntax etc.)], [either after
+       or around the phonological host, conditioned by some structural context (category, syntax etc.)],
+       [either before or inside the phonological host, conditioned by some structural context (category,
+       syntax etc.)]
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+    'in/simul' : >
+       [inside the phonological host], [the formative has two exponents at different positions in the
+       phonological host (but it is not the case that one is positioned before and the other after the
+       host, which is coded as “circum”)], [the formative has two exponents, one before and one after
+       the phonological host. This is a special case of the “simul” position], [inside the phonological
+       host by default, after the host under exceptional conditions (typically lexical)], [around the
+       phonological host by default, before the host under exceptional conditions (typically lexical)],
+       [around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)], [in two or more different positions in (but not around) the phonological host by default,
+       before the host under exceptional conditions (typically lexical)]
+  Notes : >
+     For the definition of macrocategory "TAM", see the metadata for VInflCat in Synthesis
+
+# ------ VInflValence.Position.binned4 ------
+VInflValence.Position.binned4:
+  Description : >
+     Position of separate markers of macrocategory "valence' (cf. Bickel & Nichols 2005 Inflectional
+     Synthesis of the Verb, in WALS)
+  SetUp : 'single aggregated entry per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'VInflValence.Position.binned4'
+  N.levels : 4
+  N.entries : 143
+  N.languages : 124
+  N.missing : 176
+  Levels : 
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)]
+    'post' : >
+       [after the phonological host], [after the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [after the phonological host by default, around the
+       host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+    'split' : >
+       [either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either inside or before the phonological host, conditioned by some structural
+       context (category, syntax etc.)], [either inside or after the phonological host, conditioned by
+       some structural context (category, syntax etc.)], [either before or around the phonological host,
+       conditioned by some structural context (category, syntax etc.)], [either before, after or around
+       the phonological host, conditioned by some structural context (category, syntax etc.)], [either
+       before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either before, after or in two or more positions in the phonological host, conditioned
+       by some structural context (category, syntax etc.)], [either before, after, inside or around the
+       phonological host, conditioned by some structural context (category, syntax etc.)], [either after
+       or around the phonological host, conditioned by some structural context (category, syntax etc.)],
+       [either before or inside the phonological host, conditioned by some structural context (category,
+       syntax etc.)]
+    'in/simul' : >
+       [inside the phonological host], [the formative has two exponents at different positions in the
+       phonological host (but it is not the case that one is positioned before and the other after the
+       host, which is coded as “circum”)], [the formative has two exponents, one before and one after
+       the phonological host. This is a special case of the “simul” position], [inside the phonological
+       host by default, after the host under exceptional conditions (typically lexical)], [around the
+       phonological host by default, before the host under exceptional conditions (typically lexical)],
+       [around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)], [in two or more different positions in (but not around) the phonological host by default,
+       before the host under exceptional conditions (typically lexical)]
+  Notes : >
+     For the definition of macrocategory "valence", see the metadata for VInflCat in Synthesis
+
