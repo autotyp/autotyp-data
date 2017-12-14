@@ -7,6 +7,7 @@ ValClassesWithVerbsOfType.ability.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.ability.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -22,6 +23,7 @@ ValClassesWithVerbsOfType.achieve.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.achieve.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -37,6 +39,7 @@ ValClassesWithVerbsOfType.activity.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.activity.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -52,6 +55,7 @@ ValClassesWithVerbsOfType.appearance_disappearance.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.appearance_disappearance.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -67,6 +71,7 @@ ValClassesWithVerbsOfType.aspectual.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.aspectual.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -82,6 +87,7 @@ ValClassesWithVerbsOfType.assuming_position.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.assuming_position.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -97,6 +103,7 @@ ValClassesWithVerbsOfType.attempt.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.attempt.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -112,6 +119,7 @@ ValClassesWithVerbsOfType.bodily_emission.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.bodily_emission.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -127,6 +135,7 @@ ValClassesWithVerbsOfType.caused_motion.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.caused_motion.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -142,6 +151,7 @@ ValClassesWithVerbsOfType.change_of_possession.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.change_of_possession.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -157,6 +167,7 @@ ValClassesWithVerbsOfType.change_of_state.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.change_of_state.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -172,6 +183,7 @@ ValClassesWithVerbsOfType.cognition.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.cognition.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -187,6 +199,7 @@ ValClassesWithVerbsOfType.combine_attach.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.combine_attach.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -202,6 +215,7 @@ ValClassesWithVerbsOfType.communication.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.communication.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -217,6 +231,7 @@ ValClassesWithVerbsOfType.creation_transformation.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.creation_transformation.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -232,6 +247,7 @@ ValClassesWithVerbsOfType.desideration.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.desideration.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -247,6 +263,7 @@ ValClassesWithVerbsOfType.destroy.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.destroy.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -262,6 +279,7 @@ ValClassesWithVerbsOfType.diseases_and_bodily_states.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.diseases_and_bodily_states.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -277,6 +295,7 @@ ValClassesWithVerbsOfType.emotion.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.emotion.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -292,6 +311,7 @@ ValClassesWithVerbsOfType.existence.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.existence.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -307,6 +327,7 @@ ValClassesWithVerbsOfType.fail.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.fail.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -322,6 +343,7 @@ ValClassesWithVerbsOfType.fight.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.fight.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -337,6 +359,7 @@ ValClassesWithVerbsOfType.grooming.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.grooming.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -352,6 +375,7 @@ ValClassesWithVerbsOfType.happening.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.happening.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -367,6 +391,7 @@ ValClassesWithVerbsOfType.help.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.help.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -382,6 +407,7 @@ ValClassesWithVerbsOfType.hide.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.hide.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -397,6 +423,7 @@ ValClassesWithVerbsOfType.hit.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.hit.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -412,6 +439,7 @@ ValClassesWithVerbsOfType.hold_keep.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.hold_keep.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -427,6 +455,7 @@ ValClassesWithVerbsOfType.hurt.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.hurt.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -442,6 +471,7 @@ ValClassesWithVerbsOfType.influence_cause.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.influence_cause.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -457,6 +487,7 @@ ValClassesWithVerbsOfType.ingestion.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.ingestion.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -472,6 +503,7 @@ ValClassesWithVerbsOfType.judge.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.judge.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -487,6 +519,7 @@ ValClassesWithVerbsOfType.kill.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.kill.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -502,6 +535,7 @@ ValClassesWithVerbsOfType.lose.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.lose.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -517,6 +551,7 @@ ValClassesWithVerbsOfType.laugh_wink.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.laugh_wink.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -534,6 +569,7 @@ ValClassesWithVerbsOfType.M_contact.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.M_contact.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -553,6 +589,7 @@ ValClassesWithVerbsOfType.M_effective_action.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.M_effective_action.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -571,6 +608,7 @@ ValClassesWithVerbsOfType.M_emotion.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.M_emotion.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -589,6 +627,7 @@ ValClassesWithVerbsOfType.M_motion.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.M_motion.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -607,6 +646,7 @@ ValClassesWithVerbsOfType.M_other.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.M_other.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -626,6 +666,7 @@ ValClassesWithVerbsOfType.M_perception_cognition.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.M_perception_cognition.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -644,6 +685,7 @@ ValClassesWithVerbsOfType.M_pursuit.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.M_pursuit.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -662,6 +704,7 @@ ValClassesWithVerbsOfType.M_sensation.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.M_sensation.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -678,6 +721,7 @@ ValClassesWithVerbsOfType.measure.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.measure.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -693,6 +737,7 @@ ValClassesWithVerbsOfType.modality.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.modality.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -708,6 +753,7 @@ ValClassesWithVerbsOfType.motion.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.motion.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -723,6 +769,7 @@ ValClassesWithVerbsOfType.name.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.name.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -738,6 +785,7 @@ ValClassesWithVerbsOfType.necessity.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.necessity.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -753,6 +801,7 @@ ValClassesWithVerbsOfType.obligation.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.obligation.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -768,6 +817,7 @@ ValClassesWithVerbsOfType.perception.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.perception.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -783,6 +833,7 @@ ValClassesWithVerbsOfType.persuit.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.persuit.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -798,6 +849,7 @@ ValClassesWithVerbsOfType.possession.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.possession.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -813,6 +865,7 @@ ValClassesWithVerbsOfType.push_pull.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.push_pull.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -828,6 +881,7 @@ ValClassesWithVerbsOfType.put_pour_spray_load_fill.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.put_pour_spray_load_fill.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -843,6 +897,7 @@ ValClassesWithVerbsOfType.quality.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.quality.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -858,6 +913,7 @@ ValClassesWithVerbsOfType.remove_wipe_clear.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.remove_wipe_clear.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -873,6 +929,7 @@ ValClassesWithVerbsOfType.scent_emission.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.scent_emission.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -888,6 +945,7 @@ ValClassesWithVerbsOfType.seem.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.seem.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -903,6 +961,7 @@ ValClassesWithVerbsOfType.send_carry_bring_take.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.send_carry_bring_take.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -918,6 +977,7 @@ ValClassesWithVerbsOfType.sensation.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.sensation.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -933,6 +993,7 @@ ValClassesWithVerbsOfType.separate_disassemble.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.separate_disassemble.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -948,6 +1009,7 @@ ValClassesWithVerbsOfType.sleep.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.sleep.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -963,6 +1025,7 @@ ValClassesWithVerbsOfType.social_interaction.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.social_interaction.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -978,6 +1041,7 @@ ValClassesWithVerbsOfType.sound_emission.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.sound_emission.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -993,6 +1057,7 @@ ValClassesWithVerbsOfType.spatial_position.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.spatial_position.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -1008,6 +1073,7 @@ ValClassesWithVerbsOfType.spread_apply.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.spread_apply.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -1023,6 +1089,7 @@ ValClassesWithVerbsOfType.touch.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.touch.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0
@@ -1038,6 +1105,7 @@ ValClassesWithVerbsOfType.use.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ValClassesWithVerbsOfType.use.Presence'
+  N.levels : 2
   N.entries : 208
   N.languages : 208
   N.missing : 0

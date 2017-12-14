@@ -155,6 +155,7 @@ ValClassID:
   VariableType : 'register'
   DataType : 'count'
   VariantOf : 'ValClassID'
+  N.levels : 925
   N.entries : 3415
   N.languages : 218
   N.missing : 0

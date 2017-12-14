@@ -8,6 +8,7 @@ VPolyagreement.Presence.v2:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VPolyagreement'
+  N.levels : 2
   N.entries : 380
   N.languages : 380
   N.missing : 31
@@ -24,6 +25,7 @@ VPolyagreement.Presence.v1:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VPolyagreement'
+  N.levels : 2
   N.entries : 368
   N.languages : 368
   N.missing : 43

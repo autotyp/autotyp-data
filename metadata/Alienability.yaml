@@ -35,6 +35,7 @@ NPPossBoundNouns.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'NPPossBoundNouns.n'
+  N.levels : 4
   N.entries : 262
   N.languages : 262
   N.missing : 42
@@ -62,6 +63,7 @@ NPPossClassesMultiple.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPPossClassesMultiple.Presence'
+  N.levels : 2
   N.entries : 274
   N.languages : 274
   N.missing : 30
@@ -75,6 +77,7 @@ NPAlienableClasses.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'NPAlienableClasses.n'
+  N.levels : 5
   N.entries : 253
   N.languages : 253
   N.missing : 51
@@ -88,6 +91,7 @@ NPAlienableClasses.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAlienableClasses.Presence'
+  N.levels : 2
   N.entries : 253
   N.languages : 253
   N.missing : 51
@@ -101,6 +105,7 @@ NPInalienableClasses.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'NPInalienableClasses.n'
+  N.levels : 8
   N.entries : 257
   N.languages : 257
   N.missing : 47
@@ -114,6 +119,7 @@ NPInalienableClasses.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPInalienableClasses.Presence'
+  N.levels : 2
   N.entries : 257
   N.languages : 257
   N.missing : 47
@@ -128,6 +134,7 @@ NPPossClasses.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'NPPossClasses.n'
+  N.levels : 10
   N.entries : 273
   N.languages : 273
   N.missing : 31
@@ -142,6 +149,7 @@ NPPossClasses.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPPossClasses.Presence'
+  N.levels : 2
   N.entries : 274
   N.languages : 274
   N.missing : 30
@@ -156,6 +164,7 @@ NPPossClassificationAny.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPPossClassificationAny.Presence'
+  N.levels : 2
   N.entries : 282
   N.languages : 282
   N.missing : 22

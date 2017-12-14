@@ -8,6 +8,7 @@ AdjAttrAgr.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAgr.Presence'
+  N.levels : 2
   N.entries : 485
   N.languages : 485
   N.missing : 0
@@ -26,6 +27,7 @@ AdjAttrConstr.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPConstr.Presence'
+  N.levels : 2
   N.entries : 485
   N.languages : 485
   N.missing : 0
@@ -42,6 +44,7 @@ AdjAttrGvt.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPGvt.Presence'
+  N.levels : 2
   N.entries : 485
   N.languages : 485
   N.missing : 0
@@ -57,6 +60,7 @@ AdjAttrMarking.overt.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarking.overt'
+  N.levels : 2
   N.entries : 485
   N.languages : 485
   N.missing : 0
@@ -72,6 +76,7 @@ NPAgr.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAgr.Presence'
+  N.levels : 2
   N.entries : 485
   N.languages : 485
   N.missing : 0
@@ -90,6 +95,7 @@ NPConstr.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPConstr.Presence'
+  N.levels : 2
   N.entries : 485
   N.languages : 485
   N.missing : 0
@@ -106,6 +112,7 @@ NPGvt.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPGvt.Presence'
+  N.levels : 2
   N.entries : 485
   N.languages : 485
   N.missing : 0
@@ -121,6 +128,7 @@ NPMarking.overt.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarking.overt'
+  N.levels : 2
   N.entries : 485
   N.languages : 485
   N.missing : 0

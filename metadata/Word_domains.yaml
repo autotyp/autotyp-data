@@ -37,6 +37,7 @@ MphmTypesInCohDomain.prop:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'MphmTypesInCohDomain'
+  N.levels : 21
   N.entries : 879
   N.languages : 76
   N.missing : 2
@@ -53,6 +54,7 @@ MphmTypesInCohPrefixDomain.prop:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'MphmTypesInCohDomain'
+  N.levels : 15
   N.entries : 877
   N.languages : 76
   N.missing : 4
@@ -81,6 +83,7 @@ MphmTypesInCohSuffixDomain.prop:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'MphmTypesInCohDomain'
+  N.levels : 14
   N.entries : 877
   N.languages : 76
   N.missing : 4
@@ -109,6 +112,7 @@ MphmTypesInCohStemDomain.prop:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'MphmTypesInCohDomain'
+  N.levels : 7
   N.entries : 877
   N.languages : 76
   N.missing : 4
@@ -167,6 +171,7 @@ MphmTypesInCohDomain.binned77:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'MphmTypesInCohDomain'
+  N.levels : 76
   N.entries : 877
   N.languages : 76
   N.missing : 4
@@ -183,6 +188,7 @@ CoherentEncliticBoundary.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CoherentEncliticBoundary'
+  N.levels : 2
   N.entries : 518
   N.languages : 55
   N.missing : 363
@@ -196,6 +202,7 @@ CoherentEnclEnclBoundary.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CoherentEnclEnclBoundary'
+  N.levels : 2
   N.entries : 589
   N.languages : 55
   N.missing : 292
@@ -246,6 +253,7 @@ MphmTypesInCohDomain.multistem.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'MphmTypesInCohDomain'
+  N.levels : 2
   N.entries : 877
   N.languages : 76
   N.missing : 4
@@ -2880,6 +2888,7 @@ CoherentPrefixBoundary.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CoherentPrefixBoundary'
+  N.levels : 2
   N.entries : 722
   N.languages : 62
   N.missing : 159
@@ -2896,6 +2905,7 @@ CoherentPrefixPrefixBoundary.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CoherentPrefixPrefixBoundary'
+  N.levels : 2
   N.entries : 726
   N.languages : 62
   N.missing : 155
@@ -2912,6 +2922,7 @@ CoherentPrefixStemBoundary.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CoherentPrefixStemBoundary'
+  N.levels : 2
   N.entries : 727
   N.languages : 62
   N.missing : 154
@@ -2928,6 +2939,7 @@ CoherentProclBoundary.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CoherentProclBoundary'
+  N.levels : 2
   N.entries : 313
   N.languages : 26
   N.missing : 568
@@ -2941,6 +2953,7 @@ CoherentProclPrefixBoundary.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CoherentProclPrefixBoundary'
+  N.levels : 2
   N.entries : 284
   N.languages : 23
   N.missing : 597
@@ -2957,6 +2970,7 @@ CoherentProclProcliticBoundary.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CoherentProclProcliticBoundary'
+  N.levels : 2
   N.entries : 313
   N.languages : 26
   N.missing : 568
@@ -2973,6 +2987,7 @@ CoherentProclStemBoundary.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CoherentProclStemBoundary'
+  N.levels : 2
   N.entries : 315
   N.languages : 26
   N.missing : 566
@@ -3022,6 +3037,7 @@ MphmTypesInCohDomain.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'MphmTypesInCohDomain'
+  N.levels : 8
   N.entries : 877
   N.languages : 76
   N.missing : 4
@@ -3038,6 +3054,7 @@ MphmTypesInCohPrefixDomain.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'MphmTypesInCohDomain'
+  N.levels : 7
   N.entries : 875
   N.languages : 76
   N.missing : 6
@@ -3054,6 +3071,7 @@ MphmTypesInCohSuffixDomain.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'MphmTypesInCohDomain'
+  N.levels : 6
   N.entries : 875
   N.languages : 76
   N.missing : 6
@@ -3070,6 +3088,7 @@ CoherentStemBoundary.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CoherentStemBoundary'
+  N.levels : 2
   N.entries : 839
   N.languages : 75
   N.missing : 42
@@ -3086,6 +3105,7 @@ CoherentStemEnclBoundary.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CoherentStemEnclBoundary'
+  N.levels : 2
   N.entries : 592
   N.languages : 55
   N.missing : 289
@@ -3102,6 +3122,7 @@ CoherentStemEndoclBoundary.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CoherentStemEndoclBoundary'
+  N.levels : 2
   N.entries : 8
   N.languages : 1
   N.missing : 873
@@ -3118,6 +3139,7 @@ CoherentStemInfixBoundary.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CoherentStemInfixBoundary'
+  N.levels : 2
   N.entries : 104
   N.languages : 8
   N.missing : 777
@@ -3131,6 +3153,7 @@ CoherentStemSuffixBoundary.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CoherentStemSuffixBoundary'
+  N.levels : 2
   N.entries : 759
   N.languages : 68
   N.missing : 122
@@ -3148,6 +3171,7 @@ CohesionPattern.stress.Presence:
   VariableType : 'condition'
   DataType : 'logical'
   VariantOf : 'CohesionPattern'
+  N.levels : 2
   N.entries : 833
   N.languages : 74
   N.missing : 48
@@ -3162,6 +3186,7 @@ CohPatternStructurePreserving.Presence:
   VariableType : 'condition'
   DataType : 'logical'
   VariantOf : 'CohPatternOutputOrigin'
+  N.levels : 2
   N.entries : 805
   N.languages : 70
   N.missing : 76
@@ -3175,6 +3200,7 @@ CoherentSuffixBoundary.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CoherentSuffixBoundary'
+  N.levels : 2
   N.entries : 731
   N.languages : 68
   N.missing : 150
@@ -3191,6 +3217,7 @@ CoherentSuffixEnclBoundary.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CoherentSuffixEnclBoundary'
+  N.levels : 2
   N.entries : 532
   N.languages : 51
   N.missing : 349
@@ -3207,6 +3234,7 @@ CoherentSuffixSuffixBoundary.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CoherentSuffixSuffixBoundary'
+  N.levels : 2
   N.entries : 740
   N.languages : 68
   N.missing : 141

@@ -80,6 +80,7 @@ NPAlienability.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAlienabilityType'
+  N.levels : 2
   N.entries : 652
   N.languages : 307
   N.missing : 385
@@ -492,6 +493,7 @@ NPHeadSemClassSize.n:
   VariableType : 'data'
   DataType : 'count'
   VariantOf : 'NPHeadSemClassSize.n'
+  N.levels : 7
   N.entries : 1037
   N.languages : 485
   N.missing : 0
@@ -584,6 +586,7 @@ NPMarking.overt.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarking'
+  N.levels : 2
   N.entries : 824
   N.languages : 420
   N.missing : 213
@@ -702,6 +705,7 @@ NPLabel:
   VariableType : 'register'
   DataType : 'count'
   VariantOf : 'NPLabel'
+  N.levels : 1037
   N.entries : 1037
   N.languages : 485
   N.missing : 0
@@ -800,6 +804,7 @@ NPHeadSemConstraints.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraints.Presence'
+  N.levels : 2
   N.entries : 508
   N.languages : 263
   N.missing : 529

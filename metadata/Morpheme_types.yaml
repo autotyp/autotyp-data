@@ -7,6 +7,7 @@ Enclitic.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Enclitic.Presence'
+  N.levels : 2
   N.entries : 77
   N.languages : 76
   N.missing : 0
@@ -27,6 +28,7 @@ Endoclitic.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Endoclitic.Presence'
+  N.levels : 2
   N.entries : 77
   N.languages : 76
   N.missing : 0
@@ -47,6 +49,7 @@ Infix.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Infix.Presence'
+  N.levels : 2
   N.entries : 77
   N.languages : 76
   N.missing : 0
@@ -68,6 +71,7 @@ MorphemeType.n:
   VariableType : 'data'
   DataType : 'count'
   VariantOf : 'MorphemeType.n'
+  N.levels : 6
   N.entries : 77
   N.languages : 76
   N.missing : 0
@@ -89,6 +93,7 @@ PreMorpheme.n:
   VariableType : 'data'
   DataType : 'count'
   VariantOf : 'PreMorpheme.n'
+  N.levels : 5
   N.entries : 77
   N.languages : 76
   N.missing : 0
@@ -110,6 +115,7 @@ PostMorpheme.n:
   VariableType : 'data'
   DataType : 'count'
   VariantOf : 'PostMorpheme.n'
+  N.levels : 5
   N.entries : 77
   N.languages : 76
   N.missing : 0
@@ -130,6 +136,7 @@ Prefix.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Prefix.Presence'
+  N.levels : 2
   N.entries : 77
   N.languages : 76
   N.missing : 0
@@ -150,6 +157,7 @@ Proclitic.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Proclitic.Presence'
+  N.levels : 2
   N.entries : 77
   N.languages : 76
   N.missing : 0
@@ -170,6 +178,7 @@ Suffix.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Suffix.Presence'
+  N.levels : 2
   N.entries : 77
   N.languages : 76
   N.missing : 0

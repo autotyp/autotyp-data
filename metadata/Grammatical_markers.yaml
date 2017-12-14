@@ -38,6 +38,7 @@ Behavior.spreading.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Behavior'
+  N.levels : 2
   N.entries : 1853
   N.languages : 436
   N.missing : 3025
@@ -66,6 +67,7 @@ Coexponence.CaseNumber.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Exponence'
+  N.levels : 2
   N.entries : 345
   N.languages : 331
   N.missing : 4533
@@ -79,6 +81,7 @@ Coexponence.CaseReference.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Exponentiality'
+  N.levels : 2
   N.entries : 345
   N.languages : 331
   N.missing : 4533
@@ -152,6 +155,7 @@ Polyexponence.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Exponence'
+  N.levels : 2
   N.entries : 4331
   N.languages : 764
   N.missing : 547
@@ -165,6 +169,7 @@ Exponence.n:
   VariableType : 'data'
   DataType : 'count'
   VariantOf : 'Exponence'
+  N.levels : 6
   N.entries : 4878
   N.languages : 808
   N.missing : 0
@@ -194,6 +199,7 @@ Flexivity.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Flexivity.Presence'
+  N.levels : 2
   N.entries : 3002
   N.languages : 626
   N.missing : 1876
@@ -393,6 +399,7 @@ Fusion.isolating.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Fusion'
+  N.levels : 2
   N.entries : 3855
   N.languages : 691
   N.missing : 1023
@@ -512,6 +519,7 @@ Fusion.tonal.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Fusion'
+  N.levels : 2
   N.entries : 3855
   N.languages : 691
   N.missing : 1023
@@ -527,6 +535,7 @@ FlexivityLexical.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FlexivityLexical.Presence'
+  N.levels : 2
   N.entries : 2961
   N.languages : 620
   N.missing : 1917
@@ -716,6 +725,7 @@ MorphemeType.Word.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'MorphemeType'
+  N.levels : 2
   N.entries : 3981
   N.languages : 712
   N.missing : 897
@@ -730,6 +740,7 @@ PersonPortmanteau.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PersonPortmanteau'
+  N.levels : 2
   N.entries : 1494
   N.languages : 160
   N.missing : 3384
@@ -758,6 +769,7 @@ Position.post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Position'
+  N.levels : 2
   N.entries : 3741
   N.languages : 673
   N.missing : 1137
@@ -947,6 +959,7 @@ Position.pre.Presence.v1:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Position'
+  N.levels : 2
   N.entries : 4015
   N.languages : 714
   N.missing : 863
@@ -962,6 +975,7 @@ Position.pre.Presence.v2:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Position'
+  N.levels : 2
   N.entries : 4015
   N.languages : 714
   N.missing : 863
@@ -975,6 +989,7 @@ Position.simul.Presence.v1:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Position'
+  N.levels : 2
   N.entries : 3761
   N.languages : 674
   N.missing : 1117
@@ -990,6 +1005,7 @@ Position.simul.Presence.v2:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Position'
+  N.levels : 2
   N.entries : 3761
   N.languages : 674
   N.missing : 1117
@@ -1098,6 +1114,7 @@ OppositionWithZero.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'OppositionWithZero.Presence'
+  N.levels : 2
   N.entries : 1533
   N.languages : 169
   N.missing : 3345

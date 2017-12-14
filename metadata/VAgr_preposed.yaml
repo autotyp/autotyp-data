@@ -7,6 +7,7 @@ VAgrA.Pre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VAgrA.Pre.Presence'
+  N.levels : 2
   N.entries : 252
   N.languages : 250
   N.missing : 30
@@ -23,6 +24,7 @@ VAgrP.Pre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VAgrP.Pre.Presence'
+  N.levels : 2
   N.entries : 201
   N.languages : 194
   N.missing : 81
@@ -40,6 +42,7 @@ VAgrPOSS.Pre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VAgrPOSS.Pre.Presence'
+  N.levels : 2
   N.entries : 3
   N.languages : 3
   N.missing : 279

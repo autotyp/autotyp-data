@@ -22,6 +22,7 @@ AlignmentAgrAccDegree:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'AlignmentSAPTG'
+  N.levels : 3
   N.entries : 328
   N.languages : 328
   N.missing : 361
@@ -98,6 +99,7 @@ AlignmentAgrErgDegree:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'AlignmentSAPTG'
+  N.levels : 3
   N.entries : 328
   N.languages : 328
   N.missing : 361
@@ -125,6 +127,7 @@ AlignmentCaseAccDegree:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'AlignmentSAPTG'
+  N.levels : 36
   N.entries : 646
   N.languages : 646
   N.missing : 43
@@ -197,6 +200,7 @@ AlignmentCaseErgDegree:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'AlignmentSAPTG'
+  N.levels : 29
   N.entries : 646
   N.languages : 646
   N.missing : 43
@@ -242,6 +246,7 @@ CaseSplitByPolarity.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CaseSplitByPolarity.Presence'
+  N.levels : 1
   N.entries : 646
   N.languages : 646
   N.missing : 43
@@ -255,6 +260,7 @@ AgrSplitByRef.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'AgrSplitByRef.Presence'
+  N.levels : 2
   N.entries : 646
   N.languages : 646
   N.missing : 43
@@ -268,6 +274,7 @@ CaseSplitByRef.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CaseSplitByRef.Presence'
+  N.levels : 2
   N.entries : 646
   N.languages : 646
   N.missing : 43
@@ -281,6 +288,7 @@ AgrSplitByValClass.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'AgrSplitByValClass.Presence'
+  N.levels : 2
   N.entries : 646
   N.languages : 646
   N.missing : 43
@@ -294,6 +302,7 @@ CaseSplitByValClass.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CaseSplitByValClass.Presence'
+  N.levels : 2
   N.entries : 646
   N.languages : 646
   N.missing : 43
@@ -307,6 +316,7 @@ AgrSplitByRank.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'AgrSplitByRank.Presence'
+  N.levels : 2
   N.entries : 646
   N.languages : 646
   N.missing : 43
@@ -320,6 +330,7 @@ CaseSplitByRank.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CaseSplitByRank.Presence'
+  N.levels : 2
   N.entries : 646
   N.languages : 646
   N.missing : 43
@@ -333,6 +344,7 @@ AgrSplitByCat.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'AgrSplitByCat.Presence'
+  N.levels : 2
   N.entries : 646
   N.languages : 646
   N.missing : 43
@@ -346,6 +358,7 @@ CaseSplitByCat.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CaseSplitByCat.Presence'
+  N.levels : 2
   N.entries : 646
   N.languages : 646
   N.missing : 43
@@ -360,6 +373,7 @@ AlignmentAgrMarkerAccDegree:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'AlignmentSAPTG'
+  N.levels : 72
   N.entries : 160
   N.languages : 160
   N.missing : 529
@@ -404,6 +418,7 @@ AlignmentAgrMarkerErgDegree:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'AlignmentSAPTG'
+  N.levels : 47
   N.entries : 160
   N.languages : 160
   N.missing : 529

@@ -7,6 +7,7 @@ LID:
   VariableType : 'register'
   DataType : 'count'
   VariantOf : 'LID'
+  N.levels : 2950
   N.entries : 2950
   N.languages : 2950
   N.missing : 0
@@ -152,6 +153,7 @@ Longitude:
   VariableType : 'register'
   DataType : 'ratio'
   VariantOf : 'Longitude'
+  N.levels : 1604
   N.entries : 2949
   N.languages : 2949
   N.missing : 1
@@ -169,6 +171,7 @@ Latitude:
   VariableType : 'register'
   DataType : 'ratio'
   VariantOf : 'Latitude'
+  N.levels : 1090
   N.entries : 2949
   N.languages : 2949
   N.missing : 1

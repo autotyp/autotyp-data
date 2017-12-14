@@ -7,6 +7,7 @@ VInlfCatSurveyComplete:
   VariableType : 'quality'
   DataType : 'logical'
   VariantOf : 'VInlfCatSurveyComplete'
+  N.levels : 2
   N.entries : 184
   N.languages : 184
   N.missing : 190
@@ -21,6 +22,7 @@ VBipartiteStem.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VBipartiteStem.Presence'
+  N.levels : 2
   N.entries : 180
   N.languages : 180
   N.missing : 194
@@ -4979,6 +4981,7 @@ VInflCatAndAgrMax.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'VInflCatAndAgrMax.n'
+  N.levels : 15
   N.entries : 331
   N.languages : 331
   N.missing : 43
@@ -4994,6 +4997,7 @@ VInflCatMax.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'VInflCatMax.n'
+  N.levels : 11
   N.entries : 251
   N.languages : 251
   N.missing : 123
@@ -5039,6 +5043,7 @@ VInflCatAndAgrFmtvMax.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'VInflCatandAgrFmtvMax.n'
+  N.levels : 20
   N.entries : 320
   N.languages : 320
   N.missing : 54
@@ -5052,6 +5057,7 @@ VInflCatFmtvMax.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'VInflCatFmtvMax.n'
+  N.levels : 17
   N.entries : 204
   N.languages : 204
   N.missing : 170
@@ -5079,6 +5085,7 @@ VAnyIncorporation.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VAnyIncorporation.Presence'
+  N.levels : 2
   N.entries : 374
   N.languages : 374
   N.missing : 0
@@ -5108,6 +5115,7 @@ VNounIncorporation.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VNounIncorporation.Presence'
+  N.levels : 2
   N.entries : 80
   N.languages : 80
   N.missing : 294
@@ -5121,6 +5129,7 @@ VPhonCoherence.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VPhonCoherence.Presence'
+  N.levels : 2
   N.entries : 91
   N.languages : 91
   N.missing : 283
@@ -5134,6 +5143,7 @@ VAgrAllPre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VAgrAllPre.Presence'
+  N.levels : 2
   N.entries : 277
   N.languages : 277
   N.missing : 97
@@ -5147,6 +5157,7 @@ VAgrAnyPre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VAgrAnyPre.Presence'
+  N.levels : 2
   N.entries : 277
   N.languages : 277
   N.missing : 97
@@ -5160,6 +5171,7 @@ VProsCoherence.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VProsCoherence.Presence'
+  N.levels : 2
   N.entries : 129
   N.languages : 129
   N.missing : 245
@@ -5330,6 +5342,7 @@ VInflMax.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'VInflMax.n'
+  N.levels : 30
   N.entries : 320
   N.languages : 320
   N.missing : 54
@@ -5343,6 +5356,7 @@ VSynCoherence.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VSynCoherence.Presence'
+  N.levels : 2
   N.entries : 120
   N.languages : 120
   N.missing : 254
@@ -5371,6 +5385,7 @@ VIncorporationVorN.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VIncorporationVorN.Presence'
+  N.levels : 2
   N.entries : 80
   N.languages : 80
   N.missing : 294
@@ -5384,6 +5399,7 @@ VIncorporationV.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VIncorporationV.Presence'
+  N.levels : 2
   N.entries : 80
   N.languages : 80
   N.missing : 294
