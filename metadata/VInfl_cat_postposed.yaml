@@ -8,6 +8,7 @@ VInflAktionsart.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflAktionsart.Post.Presence'
+  N.levels : 2
   N.entries : 30
   N.languages : 29
   N.missing : 227
@@ -25,6 +26,7 @@ VInflApplicative.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflApplicative.Post.Presence'
+  N.levels : 2
   N.entries : 23
   N.languages : 22
   N.missing : 234
@@ -42,6 +44,7 @@ VInflAspect.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflAspect.Post.Presence'
+  N.levels : 2
   N.entries : 92
   N.languages : 90
   N.missing : 165
@@ -59,6 +62,7 @@ VInflCausative.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflCausative.Post.Presence'
+  N.levels : 2
   N.entries : 41
   N.languages : 40
   N.missing : 216
@@ -76,6 +80,7 @@ VInflClassifier.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflClassifier.Post.Presence'
+  N.levels : 1
   N.entries : 2
   N.languages : 2
   N.missing : 255
@@ -93,6 +98,7 @@ VInflConnective.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflConnective.Post.Presence'
+  N.levels : 2
   N.entries : 10
   N.languages : 10
   N.missing : 247
@@ -110,6 +116,7 @@ VInflConstruct.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflConstruct.Post.Presence'
+  N.levels : 2
   N.entries : 2
   N.languages : 2
   N.missing : 255
@@ -127,6 +134,7 @@ VInflControl.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflControl.Post.Presence'
+  N.levels : 1
   N.entries : 2
   N.languages : 2
   N.missing : 255
@@ -144,6 +152,7 @@ VInflDeixis.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflDeixis.Post.Presence'
+  N.levels : 2
   N.entries : 35
   N.languages : 35
   N.missing : 222
@@ -161,6 +170,7 @@ VInflVoice.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflVoice.Post.Presence'
+  N.levels : 2
   N.entries : 58
   N.languages : 57
   N.missing : 199
@@ -178,6 +188,7 @@ VInflFocus.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflFocus.Post.Presence'
+  N.levels : 2
   N.entries : 8
   N.languages : 7
   N.missing : 249
@@ -195,6 +206,7 @@ VInflPosterior.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflPosterior.Post.Presence'
+  N.levels : 2
   N.entries : 5
   N.languages : 5
   N.missing : 252
@@ -212,6 +224,7 @@ VInflGender.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflGender.Post.Presence'
+  N.levels : 2
   N.entries : 4
   N.languages : 4
   N.missing : 253
@@ -229,6 +242,7 @@ VInflIllocution.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflIllocution.Post.Presence'
+  N.levels : 2
   N.entries : 21
   N.languages : 20
   N.missing : 236
@@ -246,6 +260,7 @@ VInflMA.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflMA.Post.Presence'
+  N.levels : 1
   N.entries : 2
   N.languages : 2
   N.missing : 255
@@ -263,6 +278,7 @@ VInflMN.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflMN.Post.Presence'
+  N.levels : 2
   N.entries : 2
   N.languages : 2
   N.missing : 255
@@ -280,6 +296,7 @@ VInflModality.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflModality.Post.Presence'
+  N.levels : 2
   N.entries : 10
   N.languages : 10
   N.missing : 247
@@ -297,6 +314,7 @@ VInflMood.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflMood.Post.Presence'
+  N.levels : 2
   N.entries : 53
   N.languages : 53
   N.missing : 204
@@ -314,6 +332,7 @@ VInflMotion.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflMotion.Post.Presence'
+  N.levels : 1
   N.entries : 7
   N.languages : 7
   N.missing : 250
@@ -331,6 +350,7 @@ VInflMSE.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflMSE.Post.Presence'
+  N.levels : 2
   N.entries : 4
   N.languages : 4
   N.missing : 253
@@ -348,6 +368,7 @@ VInflNominalizer.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflNominalizer.Post.Presence'
+  N.levels : 1
   N.entries : 3
   N.languages : 3
   N.missing : 254
@@ -365,6 +386,7 @@ VInflNumber.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflNumber.Post.Presence'
+  N.levels : 2
   N.entries : 50
   N.languages : 47
   N.missing : 207
@@ -382,6 +404,7 @@ VInflPerson.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflPerson.Post.Presence'
+  N.levels : 2
   N.entries : 6
   N.languages : 6
   N.missing : 251
@@ -399,6 +422,7 @@ VInflPolarity.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflPolarity.Post.Presence'
+  N.levels : 2
   N.entries : 89
   N.languages : 89
   N.missing : 168
@@ -416,6 +440,7 @@ VInflPotentialis.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflPotentialis.Post.Presence'
+  N.levels : 1
   N.entries : 1
   N.languages : 1
   N.missing : 256
@@ -433,6 +458,7 @@ VInflQuantificational.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflQuantificational.Post.Presence'
+  N.levels : 2
   N.entries : 38
   N.languages : 37
   N.missing : 219
@@ -450,6 +476,7 @@ VInflReflexive_and_Reciprocal.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflReflexive_and_Reciprocal.Post.Presence'
+  N.levels : 2
   N.entries : 35
   N.languages : 35
   N.missing : 222
@@ -467,6 +494,7 @@ VInflRECIP.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflRECIP.Post.Presence'
+  N.levels : 2
   N.entries : 9
   N.languages : 9
   N.missing : 248
@@ -484,6 +512,7 @@ VInflReferential.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflReferential.Post.Presence'
+  N.levels : 2
   N.entries : 7
   N.languages : 7
   N.missing : 250
@@ -501,6 +530,7 @@ VInflReflexive.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflReflexive.Post.Presence'
+  N.levels : 2
   N.entries : 13
   N.languages : 13
   N.missing : 244
@@ -518,6 +548,7 @@ VInflRepetition.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflRepetition.Post.Presence'
+  N.levels : 2
   N.entries : 3
   N.languages : 3
   N.missing : 254
@@ -535,6 +566,7 @@ VInflReversative.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflReversative.Post.Presence'
+  N.levels : 1
   N.entries : 1
   N.languages : 1
   N.missing : 256
@@ -552,6 +584,7 @@ VInflSemistem.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflSemistem.Post.Presence'
+  N.levels : 1
   N.entries : 10
   N.languages : 10
   N.missing : 247
@@ -569,6 +602,7 @@ VInflSpatial.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflSpatial.Post.Presence'
+  N.levels : 2
   N.entries : 5
   N.languages : 5
   N.missing : 252
@@ -586,6 +620,7 @@ VInflStatus.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflStatus.Post.Presence'
+  N.levels : 2
   N.entries : 22
   N.languages : 21
   N.missing : 235
@@ -603,6 +638,7 @@ VInflSwitch_reference.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflSwitch_reference.Post.Presence'
+  N.levels : 1
   N.entries : 5
   N.languages : 5
   N.missing : 252
@@ -620,6 +656,7 @@ VInflTense_and_Evidential.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflTense_and_Evidential.Post.Presence'
+  N.levels : 1
   N.entries : 5
   N.languages : 5
   N.missing : 252
@@ -637,6 +674,7 @@ VInflTA.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflTA.Post.Presence'
+  N.levels : 2
   N.entries : 25
   N.languages : 23
   N.missing : 232
@@ -654,6 +692,7 @@ VInflTAM.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflTAM.Post.Presence'
+  N.levels : 2
   N.entries : 91
   N.languages : 85
   N.missing : 166
@@ -671,6 +710,7 @@ VInflTense.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflTense.Post.Presence'
+  N.levels : 2
   N.entries : 80
   N.languages : 77
   N.missing : 177
@@ -688,6 +728,7 @@ VInflTM.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflTM.Post.Presence'
+  N.levels : 2
   N.entries : 23
   N.languages : 23
   N.missing : 234
@@ -705,6 +746,7 @@ VInflValence.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflValence.Post.Presence'
+  N.levels : 2
   N.entries : 6
   N.languages : 6
   N.missing : 251
@@ -722,6 +764,7 @@ VInflVersion.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflVersion.Post.Presence'
+  N.levels : 1
   N.entries : 3
   N.languages : 3
   N.missing : 254

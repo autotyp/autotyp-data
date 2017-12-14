@@ -8,6 +8,7 @@ InclExclAsPerson.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'InclExclAsPerson'
+  N.levels : 2
   N.entries : 427
   N.languages : 427
   N.missing : 39
@@ -21,6 +22,7 @@ InclExclAny.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'InclExclAny'
+  N.levels : 2
   N.entries : 466
   N.languages : 466
   N.missing : 0
@@ -50,6 +52,7 @@ InclExclAsMinAug.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'InclExclAsMinAug'
+  N.levels : 2
   N.entries : 424
   N.languages : 424
   N.missing : 42

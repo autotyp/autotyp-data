@@ -8,6 +8,7 @@ VAgreement.Presence.v2:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VAgreement.Presence'
+  N.levels : 2
   N.entries : 791
   N.languages : 790
   N.missing : 142
@@ -22,6 +23,7 @@ Flexivity.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Flexivity.Presence'
+  N.levels : 2
   N.entries : 627
   N.languages : 626
   N.missing : 306
@@ -36,6 +38,7 @@ FlexivityLexical.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FlexivityLexical.Presence'
+  N.levels : 2
   N.entries : 587
   N.languages : 586
   N.missing : 346
@@ -52,6 +55,7 @@ Polyexponence.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Polyexponence.Presence'
+  N.levels : 2
   N.entries : 765
   N.languages : 764
   N.missing : 168
@@ -66,6 +70,7 @@ FlexivityNoun.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FlexivityNoun.Presence'
+  N.levels : 2
   N.entries : 322
   N.languages : 321
   N.missing : 611
@@ -83,6 +88,7 @@ FlexivityVerb.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FlexivityVerb.Presence'
+  N.levels : 2
   N.entries : 369
   N.languages : 368
   N.missing : 564
@@ -100,6 +106,7 @@ FlexivityLexicalNoun.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FlexivityLexicalNoun.Presence'
+  N.levels : 2
   N.entries : 411
   N.languages : 410
   N.missing : 522
@@ -117,6 +124,7 @@ FlexivityLexicalVerb.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FlexivityLexicalVerb.Presence'
+  N.levels : 2
   N.entries : 366
   N.languages : 365
   N.missing : 567
@@ -134,6 +142,7 @@ PolyexponenceNoun.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PolyexponenceNoun.Presence'
+  N.levels : 2
   N.entries : 436
   N.languages : 435
   N.missing : 497
@@ -150,6 +159,7 @@ PolyexponenceVerb.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PolyexponenceVerb.Presence'
+  N.levels : 2
   N.entries : 428
   N.languages : 427
   N.missing : 505
@@ -166,6 +176,7 @@ SlotsWithZerosPost.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'SlotsWithZerosPost.n'
+  N.levels : 20
   N.entries : 105
   N.languages : 105
   N.missing : 828
@@ -182,6 +193,7 @@ SlotsWithZerosPrae.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'SlotsWithZerosPrae.n'
+  N.levels : 13
   N.entries : 77
   N.languages : 77
   N.missing : 856

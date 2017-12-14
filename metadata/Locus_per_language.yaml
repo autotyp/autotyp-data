@@ -2014,6 +2014,7 @@ LocusAandP.dm.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'LocusAandP.dm'
+  N.levels : 2
   N.entries : 330
   N.languages : 330
   N.missing : 0
@@ -2027,6 +2028,7 @@ LocusAandP.hm.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'LocusAandP.hm'
+  N.levels : 2
   N.entries : 330
   N.languages : 330
   N.missing : 0
@@ -2040,6 +2042,7 @@ LocusA.dm.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'LocusA'
+  N.levels : 2
   N.entries : 330
   N.languages : 330
   N.missing : 0
@@ -2053,6 +2056,7 @@ LocusA.hm.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'LocusA'
+  N.levels : 2
   N.entries : 330
   N.languages : 330
   N.missing : 0
@@ -2066,6 +2070,7 @@ LocusAorP.dm.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'LocusAorP.dm'
+  N.levels : 2
   N.entries : 330
   N.languages : 330
   N.missing : 0
@@ -2079,6 +2084,7 @@ LocusAorP.hm.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'LocusAorP.hm'
+  N.levels : 2
   N.entries : 330
   N.languages : 330
   N.missing : 0
@@ -2092,6 +2098,7 @@ LocusARG.dm.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'LocusARG.dm'
+  N.levels : 2
   N.entries : 330
   N.languages : 330
   N.missing : 0
@@ -2105,6 +2112,7 @@ LocusP.dm.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'LocusP'
+  N.levels : 2
   N.entries : 330
   N.languages : 330
   N.missing : 0
@@ -2118,6 +2126,7 @@ LocusP.hm.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'LocusP'
+  N.levels : 2
   N.entries : 330
   N.languages : 330
   N.missing : 0
@@ -2131,6 +2140,7 @@ LocusPOSS.dm.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'LocusPOSS'
+  N.levels : 2
   N.entries : 318
   N.languages : 318
   N.missing : 12
@@ -2144,6 +2154,7 @@ LocusPOSS.hm.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'LocusPOSS'
+  N.levels : 2
   N.entries : 318
   N.languages : 318
   N.missing : 12
@@ -2157,6 +2168,7 @@ LocusSandA.dm.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'LocusSandA.dm'
+  N.levels : 2
   N.entries : 330
   N.languages : 330
   N.missing : 0
@@ -2170,6 +2182,7 @@ LocusSandA.hm.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'LocusSandA.hm'
+  N.levels : 2
   N.entries : 330
   N.languages : 330
   N.missing : 0
@@ -2183,6 +2196,7 @@ LocusS.dm.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'LocusS'
+  N.levels : 2
   N.entries : 330
   N.languages : 330
   N.missing : 0
@@ -2196,6 +2210,7 @@ LocusS.hm.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'LocusS'
+  N.levels : 2
   N.entries : 330
   N.languages : 330
   N.missing : 0
@@ -2513,6 +2528,7 @@ LocusARG.hm.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'LocusARG.hm'
+  N.levels : 2
   N.entries : 330
   N.languages : 330
   N.missing : 0

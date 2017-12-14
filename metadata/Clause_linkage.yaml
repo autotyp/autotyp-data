@@ -153,6 +153,7 @@ Finiteness:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'Finiteness'
+  N.levels : 3
   N.entries : 40
   N.languages : 15
   N.missing : 62

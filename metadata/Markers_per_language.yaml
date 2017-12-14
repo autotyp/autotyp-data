@@ -90,6 +90,7 @@ BehaviorCase.spreading.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'BehaviorCase'
+  N.levels : 2
   N.entries : 111
   N.languages : 111
   N.missing : 377
@@ -105,6 +106,7 @@ BehaviorNeg.spreading.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'BehaviorNeg'
+  N.levels : 1
   N.entries : 188
   N.languages : 188
   N.missing : 300
@@ -126,6 +128,7 @@ BehaviorNounPlural.spreading.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'BehaviorNounPlural'
+  N.levels : 2
   N.entries : 81
   N.languages : 81
   N.missing : 407
@@ -150,6 +153,7 @@ BehaviorTense.spreading.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'BehaviorTense'
+  N.levels : 1
   N.entries : 63
   N.languages : 63
   N.missing : 425
@@ -246,6 +250,7 @@ PolyexponentialityCase.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ExponentialityCase'
+  N.levels : 2
   N.entries : 331
   N.languages : 331
   N.missing : 157
@@ -262,6 +267,7 @@ PolyexponentialityNegation.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ExponentialityNegation'
+  N.levels : 2
   N.entries : 202
   N.languages : 202
   N.missing : 286
@@ -284,6 +290,7 @@ PolyexponentialityNounPlural.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ExponentialityNounPlural'
+  N.levels : 2
   N.entries : 188
   N.languages : 188
   N.missing : 300
@@ -308,6 +315,7 @@ PolyexponentialityTense.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ExponentialityTense'
+  N.levels : 2
   N.entries : 167
   N.languages : 167
   N.missing : 321
@@ -323,6 +331,7 @@ ExponentialityCase.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'ExponentialityCase'
+  N.levels : 5
   N.entries : 405
   N.languages : 405
   N.missing : 83
@@ -339,6 +348,7 @@ ExponentialityNegation.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'ExponentialityNegation'
+  N.levels : 5
   N.entries : 228
   N.languages : 228
   N.missing : 260
@@ -361,6 +371,7 @@ ExponentialityNounPlural.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'ExponentialityNounPlural'
+  N.levels : 5
   N.entries : 261
   N.languages : 261
   N.missing : 227
@@ -385,6 +396,7 @@ ExponentialityTense.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'ExponentialityTense'
+  N.levels : 6
   N.entries : 175
   N.languages : 175
   N.missing : 313
@@ -1007,6 +1019,7 @@ FusionCase.isolating.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FusionCase'
+  N.levels : 2
   N.entries : 213
   N.languages : 213
   N.missing : 275
@@ -1021,6 +1034,7 @@ FusionNegation.isolating.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FusionNegation'
+  N.levels : 2
   N.entries : 224
   N.languages : 224
   N.missing : 264
@@ -1041,6 +1055,7 @@ FusionNounPlural.isolating.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FusionNounPlural'
+  N.levels : 2
   N.entries : 150
   N.languages : 150
   N.missing : 338
@@ -1064,6 +1079,7 @@ FusionTense.isolating.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FusionTense'
+  N.levels : 2
   N.entries : 167
   N.languages : 167
   N.missing : 321
@@ -1236,6 +1252,7 @@ FusionCase.tonal.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FusionCase'
+  N.levels : 2
   N.entries : 213
   N.languages : 213
   N.missing : 275
@@ -1250,6 +1267,7 @@ FusionNegation.tonal.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FusionNegation'
+  N.levels : 1
   N.entries : 224
   N.languages : 224
   N.missing : 264
@@ -1270,6 +1288,7 @@ FusionNounPlural.tonal.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FusionNounPlural'
+  N.levels : 1
   N.entries : 150
   N.languages : 150
   N.missing : 338
@@ -1293,6 +1312,7 @@ FusionTense.tonal.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FusionTense'
+  N.levels : 2
   N.entries : 167
   N.languages : 167
   N.missing : 321
@@ -1372,6 +1392,7 @@ PositionCase.post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionCase'
+  N.levels : 2
   N.entries : 204
   N.languages : 204
   N.missing : 284
@@ -1386,6 +1407,7 @@ PositionNeg.post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionNeg'
+  N.levels : 2
   N.entries : 220
   N.languages : 220
   N.missing : 268
@@ -1406,6 +1428,7 @@ PositionNounPlural.post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionNounPlural'
+  N.levels : 2
   N.entries : 187
   N.languages : 187
   N.missing : 301
@@ -1429,6 +1452,7 @@ PositionTense.post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionTense'
+  N.levels : 2
   N.entries : 137
   N.languages : 137
   N.missing : 351
@@ -2005,6 +2029,7 @@ PositionCase.pre.Presence.v1:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionCase'
+  N.levels : 2
   N.entries : 237
   N.languages : 237
   N.missing : 251
@@ -2019,6 +2044,7 @@ PositionNeg.pre.Presence.v1:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionNeg'
+  N.levels : 2
   N.entries : 220
   N.languages : 220
   N.missing : 268
@@ -2039,6 +2065,7 @@ PositionNounPlural.pre.Presence.v1:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionNounPlural'
+  N.levels : 2
   N.entries : 193
   N.languages : 193
   N.missing : 295
@@ -2062,6 +2089,7 @@ PositionTense.pre.Presence.v1:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionTense'
+  N.levels : 2
   N.entries : 142
   N.languages : 142
   N.missing : 346
@@ -2077,6 +2105,7 @@ PositionCase.pre.Presence.v2:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionCase'
+  N.levels : 2
   N.entries : 237
   N.languages : 237
   N.missing : 251
@@ -2092,6 +2121,7 @@ PositionNeg.pre.Presence.v2:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionNeg'
+  N.levels : 2
   N.entries : 220
   N.languages : 220
   N.missing : 268
@@ -2113,6 +2143,7 @@ PositionNounPlural.pre.Presence.v2:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionNounPlural'
+  N.levels : 2
   N.entries : 193
   N.languages : 193
   N.missing : 295
@@ -2137,6 +2168,7 @@ PositionTense.pre.Presence.v2:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionTense'
+  N.levels : 2
   N.entries : 142
   N.languages : 142
   N.missing : 346
@@ -2151,6 +2183,7 @@ PositionCase.simul.Presence.v1:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionCase'
+  N.levels : 1
   N.entries : 205
   N.languages : 205
   N.missing : 283
@@ -2165,6 +2198,7 @@ PositionNeg.simul.Presence.v1:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionNeg'
+  N.levels : 2
   N.entries : 220
   N.languages : 220
   N.missing : 268
@@ -2185,6 +2219,7 @@ PositionNounPlural.simul.Presence.v1:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionNounPlural'
+  N.levels : 2
   N.entries : 192
   N.languages : 192
   N.missing : 296
@@ -2208,6 +2243,7 @@ PositionTense.simul.Presence.v1:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionTense'
+  N.levels : 2
   N.entries : 140
   N.languages : 140
   N.missing : 348
@@ -2223,6 +2259,7 @@ PositionCase.simul.Presence.v2:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionCase'
+  N.levels : 1
   N.entries : 205
   N.languages : 205
   N.missing : 283
@@ -2238,6 +2275,7 @@ PositionNeg.simul.Presence.v2:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionNeg'
+  N.levels : 2
   N.entries : 220
   N.languages : 220
   N.missing : 268
@@ -2259,6 +2297,7 @@ PositionNounPlural.simul.Presence.v2:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionNounPlural'
+  N.levels : 2
   N.entries : 192
   N.languages : 192
   N.missing : 296
@@ -2283,6 +2322,7 @@ PositionTense.simul.Presence.v2:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionTense'
+  N.levels : 2
   N.entries : 140
   N.languages : 140
   N.missing : 348

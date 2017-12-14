@@ -7,6 +7,7 @@ NPAgrGender.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAgrGender.Presence'
+  N.levels : 2
   N.entries : 138
   N.languages : 92
   N.missing : 882
@@ -22,6 +23,7 @@ NPAgrNumber.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAgrNumber.Presence'
+  N.levels : 2
   N.entries : 138
   N.languages : 92
   N.missing : 882
@@ -37,6 +39,7 @@ NPAgrPerson.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAgrPerson.Presence'
+  N.levels : 2
   N.entries : 138
   N.languages : 92
   N.missing : 882
@@ -52,6 +55,7 @@ NPAgrReferential.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAgrReferential.Presence'
+  N.levels : 2
   N.entries : 138
   N.languages : 92
   N.missing : 882
@@ -67,6 +71,7 @@ NPAgrRole.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAgrRole.Presence'
+  N.levels : 2
   N.entries : 138
   N.languages : 92
   N.missing : 882
@@ -82,6 +87,7 @@ NPAlienabilityConstraint.alienable.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAlienabilityConstraint.alienable.Presence'
+  N.levels : 2
   N.entries : 653
   N.languages : 307
   N.missing : 367
@@ -97,6 +103,7 @@ NPAlienabilityConstraint.fluid.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAlienabilityConstraint.fluid.Presence'
+  N.levels : 2
   N.entries : 653
   N.languages : 307
   N.missing : 367
@@ -112,6 +119,7 @@ NPAlienabilityConstraint.inalienable.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAlienabilityConstraint.inalienable.Presence'
+  N.levels : 2
   N.entries : 653
   N.languages : 307
   N.missing : 367
@@ -127,6 +135,7 @@ NPBroadLocus.D.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPBroadLocus.D.Presence'
+  N.levels : 2
   N.entries : 429
   N.languages : 225
   N.missing : 591
@@ -142,6 +151,7 @@ NPBroadLocus.D_on_H.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPBroadLocus.D_on_H.Presence'
+  N.levels : 2
   N.entries : 429
   N.languages : 225
   N.missing : 591
@@ -157,6 +167,7 @@ NPBroadLocus.F.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPBroadLocus.F.Presence'
+  N.levels : 2
   N.entries : 429
   N.languages : 225
   N.missing : 591
@@ -172,6 +183,7 @@ NPBroadLocus.H.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPBroadLocus.H.Presence'
+  N.levels : 2
   N.entries : 429
   N.languages : 225
   N.missing : 591
@@ -187,6 +199,7 @@ NPDepSemClassConstraint.animate.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepSemClassConstraint.animate.Presence'
+  N.levels : 2
   N.entries : 207
   N.languages : 113
   N.missing : 813
@@ -202,6 +215,7 @@ NPDepSemClassConstraint.high_indexability.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepSemClassConstraint.high_indexability.Presence'
+  N.levels : 2
   N.entries : 207
   N.languages : 113
   N.missing : 813
@@ -217,6 +231,7 @@ NPDepSemClassConstraint.human.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepSemClassConstraint.human.Presence'
+  N.levels : 2
   N.entries : 207
   N.languages : 113
   N.missing : 813
@@ -232,6 +247,7 @@ NPDepSemClassConstraint.inanimate.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepSemClassConstraint.inanimate.Presence'
+  N.levels : 2
   N.entries : 207
   N.languages : 113
   N.missing : 813
@@ -247,6 +263,7 @@ NPDepSemClassConstraint.low_indexability.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepSemClassConstraint.low_indexability.Presence'
+  N.levels : 2
   N.entries : 207
   N.languages : 113
   N.missing : 813
@@ -262,6 +279,7 @@ NPDepSemClassConstraint.meronyms.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepSemClassConstraint.meronyms.Presence'
+  N.levels : 2
   N.entries : 207
   N.languages : 113
   N.missing : 813
@@ -277,6 +295,7 @@ NPDepSemClassConstraint.non_specific.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepSemClassConstraint.non_specific.Presence'
+  N.levels : 2
   N.entries : 207
   N.languages : 113
   N.missing : 813
@@ -292,6 +311,7 @@ NPDepSemClassConstraint.specific.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepSemClassConstraint.specific.Presence'
+  N.levels : 2
   N.entries : 207
   N.languages : 113
   N.missing : 813
@@ -307,6 +327,7 @@ NPDepCatConstraint.1_2Pro_or_N.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.1_2Pro_or_N.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -322,6 +343,7 @@ NPDepCatConstraint.2_or_3Pro.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.2_or_3Pro.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -337,6 +359,7 @@ NPDepCatConstraint.3Pro.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.3Pro.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -352,6 +375,7 @@ NPDepCatConstraint.3sgPro.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.3sgPro.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -367,6 +391,7 @@ NPDepCatConstraint.Adj.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Adj.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -382,6 +407,7 @@ NPDepCatConstraint.Adp.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Adp.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -397,6 +423,7 @@ NPDepCatConstraint.AdvP.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.AdvP.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -412,6 +439,7 @@ NPDepCatConstraint.Art.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Art.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -427,6 +455,7 @@ NPDepCatConstraint.DEM.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.DEM.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -442,6 +471,7 @@ NPDepCatConstraint.N.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.N.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -457,6 +487,7 @@ NPDepCatConstraint.N_or_Pro.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.N_or_Pro.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -472,6 +503,7 @@ NPDepCatConstraint.N_proper.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.N_proper.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -487,6 +519,7 @@ NPDepCatConstraint.nonSAP.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.nonSAP.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -502,6 +535,7 @@ NPDepCatConstraint.NP.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.NP.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -517,6 +551,7 @@ NPDepCatConstraint.Num.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Num.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -532,6 +567,7 @@ NPDepCatConstraint.Num_above_20.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Num_above_20.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -547,6 +583,7 @@ NPDepCatConstraint.Nv.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Nv.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -562,6 +599,7 @@ NPDepCatConstraint.Ord.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Ord.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -577,6 +615,7 @@ NPDepCatConstraint.Ord1.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Ord1.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -592,6 +631,7 @@ NPDepCatConstraint.Pro.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Pro.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -607,6 +647,7 @@ NPDepCatConstraint.PTCP.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.PTCP.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -622,6 +663,7 @@ NPDepCatConstraint.Quant.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Quant.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -637,6 +679,7 @@ NPDepCatConstraint.S.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.S.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -652,6 +695,7 @@ NPDepCatConstraint.SAP.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.SAP.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -667,6 +711,7 @@ NPDepCatConstraint.V.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.V.Presence'
+  N.levels : 2
   N.entries : 879
   N.languages : 429
   N.missing : 141
@@ -682,6 +727,7 @@ NPMarkerFusion.concatenative.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.concatenative.Presence'
+  N.levels : 2
   N.entries : 268
   N.languages : 144
   N.missing : 752
@@ -697,6 +743,7 @@ NPMarkerFusion.isolating.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.isolating.Presence'
+  N.levels : 2
   N.entries : 268
   N.languages : 144
   N.missing : 752
@@ -712,6 +759,7 @@ NPMarkerFusion.reduplicative.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.reduplicative.Presence'
+  N.levels : 1
   N.entries : 268
   N.languages : 144
   N.missing : 752
@@ -727,6 +775,7 @@ NPMarkerFusion.replacive.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.replacive.Presence'
+  N.levels : 1
   N.entries : 268
   N.languages : 144
   N.missing : 752
@@ -742,6 +791,7 @@ NPMarkerFusion.stem.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.stem.Presence'
+  N.levels : 2
   N.entries : 268
   N.languages : 144
   N.missing : 752
@@ -757,6 +807,7 @@ NPMarkerFusion.tonal.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.tonal.Presence'
+  N.levels : 2
   N.entries : 268
   N.languages : 144
   N.missing : 752
@@ -772,6 +823,7 @@ NPMarkerFusion.ablaut.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.ablaut.Presence'
+  N.levels : 1
   N.entries : 270
   N.languages : 144
   N.missing : 750
@@ -787,6 +839,7 @@ NPMarkerFusion.ablaut_or_suppletive.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.ablaut_or_suppletive.Presence'
+  N.levels : 1
   N.entries : 270
   N.languages : 144
   N.missing : 750
@@ -802,6 +855,7 @@ NPMarkerFusion.ablaut_or_tonal.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.ablaut_or_tonal.Presence'
+  N.levels : 1
   N.entries : 270
   N.languages : 144
   N.missing : 750
@@ -817,6 +871,7 @@ NPMarkerFusion.concatenative_then_isolating.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.concatenative_then_isolating.Presence'
+  N.levels : 1
   N.entries : 270
   N.languages : 144
   N.missing : 750
@@ -832,6 +887,7 @@ NPMarkerFusion.concat_ablaut.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.concat_ablaut.Presence'
+  N.levels : 1
   N.entries : 270
   N.languages : 144
   N.missing : 750
@@ -847,6 +903,7 @@ NPMarkerFusion.concat_redupl.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.concat_redupl.Presence'
+  N.levels : 1
   N.entries : 270
   N.languages : 144
   N.missing : 750
@@ -862,6 +919,7 @@ NPMarkerFusion.concatenative_or_suppletive.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.concatenative_or_suppletive.Presence'
+  N.levels : 2
   N.entries : 270
   N.languages : 144
   N.missing : 750
@@ -877,6 +935,7 @@ NPMarkerFusion.concatenative_or_tonal.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.concatenative_or_tonal.Presence'
+  N.levels : 1
   N.entries : 270
   N.languages : 144
   N.missing : 750
@@ -892,6 +951,7 @@ NPMarkerFusion.distributed.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.distributed.Presence'
+  N.levels : 1
   N.entries : 270
   N.languages : 144
   N.missing : 750
@@ -907,6 +967,7 @@ NPMarkerFusion.isolating_then_concatenative.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.isolating_then_concatenative.Presence'
+  N.levels : 1
   N.entries : 270
   N.languages : 144
   N.missing : 750
@@ -922,6 +983,7 @@ NPMarkerFusion.lenition.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.lenition.Presence'
+  N.levels : 2
   N.entries : 270
   N.languages : 144
   N.missing : 750
@@ -937,6 +999,7 @@ NPMarkerFusion.tonal_or_ablaut_then_isolating.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.tonal_or_ablaut_then_isolating.Presence'
+  N.levels : 1
   N.entries : 270
   N.languages : 144
   N.missing : 750
@@ -952,6 +1015,7 @@ NPMarkerFusion.prosodic_template.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.prosodic_template.Presence'
+  N.levels : 2
   N.entries : 270
   N.languages : 144
   N.missing : 750
@@ -967,6 +1031,7 @@ NPMarkerFusion.reduplicative_or_suppletive.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.reduplicative_or_suppletive.Presence'
+  N.levels : 1
   N.entries : 270
   N.languages : 144
   N.missing : 750
@@ -982,6 +1047,7 @@ NPMarkerFusion.reduplication.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.reduplication.Presence'
+  N.levels : 1
   N.entries : 270
   N.languages : 144
   N.missing : 750
@@ -997,6 +1063,7 @@ NPMarkerFusion.suppletive.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.suppletive.Presence'
+  N.levels : 2
   N.entries : 270
   N.languages : 144
   N.missing : 750
@@ -1012,6 +1079,7 @@ NPMarkerFusion.tonal_or_suppletive.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.tonal_or_suppletive.Presence'
+  N.levels : 1
   N.entries : 270
   N.languages : 144
   N.missing : 750
@@ -1027,6 +1095,7 @@ NPHeadSemConstraint.formal.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.formal.Presence'
+  N.levels : 2
   N.entries : 458
   N.languages : 243
   N.missing : 562
@@ -1042,6 +1111,7 @@ NPHeadSemConstraint.kin.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.kin.Presence'
+  N.levels : 2
   N.entries : 458
   N.languages : 243
   N.missing : 562
@@ -1057,6 +1127,7 @@ NPHeadSemConstraint.kinds.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.kinds.Presence'
+  N.levels : 2
   N.entries : 458
   N.languages : 243
   N.missing : 562
@@ -1072,6 +1143,7 @@ NPHeadSemConstraint.names.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.names.Presence'
+  N.levels : 2
   N.entries : 458
   N.languages : 243
   N.missing : 562
@@ -1087,6 +1159,7 @@ NPHeadSemConstraint.parts.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.parts.Presence'
+  N.levels : 2
   N.entries : 458
   N.languages : 243
   N.missing : 562
@@ -1102,6 +1175,7 @@ NPHeadSemConstraint.pragmatic.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.pragmatic.Presence'
+  N.levels : 2
   N.entries : 458
   N.languages : 243
   N.missing : 562
@@ -1117,6 +1191,7 @@ NPHeadSemConstraint.referentiality.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.referentiality.Presence'
+  N.levels : 2
   N.entries : 458
   N.languages : 243
   N.missing : 562
@@ -1132,6 +1207,7 @@ NPHeadSemConstraint.alienable.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.alienable.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1147,6 +1223,7 @@ NPHeadSemConstraint.animals.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.animals.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1162,6 +1239,7 @@ NPHeadSemConstraint.body_parts.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.body_parts.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1177,6 +1255,7 @@ NPHeadSemConstraint.classifiers.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.classifiers.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1192,6 +1271,7 @@ NPHeadSemConstraint.clothing_terms.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.clothing_terms.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1207,6 +1287,7 @@ NPHeadSemConstraint.drinkable.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.drinkable.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1222,6 +1303,7 @@ NPHeadSemConstraint.edible.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.edible.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1237,6 +1319,7 @@ NPHeadSemConstraint.high_indexability.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.high_indexability.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1252,6 +1335,7 @@ NPHeadSemConstraint.human.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.human.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1267,6 +1351,7 @@ NPHeadSemConstraint.inalienable.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.inalienable.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1282,6 +1367,7 @@ NPHeadSemConstraint.kin_terms.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.kin_terms.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1297,6 +1383,7 @@ NPHeadSemConstraint.meronyms.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.meronyms.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1312,6 +1399,7 @@ NPHeadSemConstraint.non_human.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.non_human.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1327,6 +1415,7 @@ NPHeadSemConstraint.non_specific.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.non_specific.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1342,6 +1431,7 @@ NPHeadSemConstraint.origin.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.origin.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1357,6 +1447,7 @@ NPHeadSemConstraint.owner.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.owner.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1372,6 +1463,7 @@ NPHeadSemConstraint.parents_siblings.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.parents_siblings.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1387,6 +1479,7 @@ NPHeadSemConstraint.plant_parts.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.plant_parts.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1402,6 +1495,7 @@ NPHeadSemConstraint.plants.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.plants.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1417,6 +1511,7 @@ NPHeadSemConstraint.property.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.property.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1432,6 +1527,7 @@ NPHeadSemConstraint.quantificational.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.quantificational.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1447,6 +1543,7 @@ NPHeadSemConstraint.rocks.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.rocks.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1462,6 +1559,7 @@ NPHeadSemConstraint.semantic.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.semantic.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1477,6 +1575,7 @@ NPHeadSemConstraint.singular.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.singular.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1492,6 +1591,7 @@ NPHeadSemConstraint.specific.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.specific.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1507,6 +1607,7 @@ NPHeadSemConstraint.spouse.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.spouse.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1522,6 +1623,7 @@ NPHeadSemConstraint.subsets.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.subsets.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1537,6 +1639,7 @@ NPHeadSemConstraint.topological.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.topological.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1552,6 +1655,7 @@ NPHeadSemConstraint.tracks.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.tracks.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1567,6 +1671,7 @@ NPHeadSemConstraint.transportation_means.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.transportation_means.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1582,6 +1687,7 @@ NPHeadSemConstraint.unspecified_inanimate.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.unspecified_inanimate.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1597,6 +1703,7 @@ NPHeadSemConstraint.village_group.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.village_group.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1612,6 +1719,7 @@ NPHeadSemConstraint.volitional.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.volitional.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1627,6 +1735,7 @@ NPHeadSemConstraint.weapon.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.weapon.Presence'
+  N.levels : 2
   N.entries : 460
   N.languages : 243
   N.missing : 560
@@ -1642,6 +1751,7 @@ NPDetailedLocus.D.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDetailedLocus.D.Presence'
+  N.levels : 2
   N.entries : 429
   N.languages : 225
   N.missing : 591
@@ -1657,6 +1767,7 @@ NPDetailedLocus.d_on_h.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDetailedLocus.d_on_h.Presence'
+  N.levels : 1
   N.entries : 429
   N.languages : 225
   N.missing : 591
@@ -1672,6 +1783,7 @@ NPDetailedLocus.D_on_H.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDetailedLocus.D_on_H.Presence'
+  N.levels : 2
   N.entries : 429
   N.languages : 225
   N.missing : 591
@@ -1687,6 +1799,7 @@ NPDetailedLocus.F.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDetailedLocus.F.Presence'
+  N.levels : 2
   N.entries : 429
   N.languages : 225
   N.missing : 591
@@ -1702,6 +1815,7 @@ NPDetailedLocus.H.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDetailedLocus.H.Presence'
+  N.levels : 2
   N.entries : 429
   N.languages : 225
   N.missing : 591
@@ -1717,6 +1831,7 @@ NPDetailedLocus.P.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDetailedLocus.P.Presence'
+  N.levels : 1
   N.entries : 429
   N.languages : 225
   N.missing : 591
@@ -1732,6 +1847,7 @@ NPMarkersSource.agr_target.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkersSource.agr_target'
+  N.levels : 2
   N.entries : 200
   N.languages : 109
   N.missing : 820
@@ -1748,6 +1864,7 @@ NPMarkersSource.agree.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkersSource.agree'
+  N.levels : 2
   N.entries : 200
   N.languages : 109
   N.missing : 820
@@ -1764,6 +1881,7 @@ NPMarkersSource.assign.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkersSource.assign'
+  N.levels : 2
   N.entries : 200
   N.languages : 109
   N.missing : 820
@@ -1780,6 +1898,7 @@ NPMarkersSource.both_assign_and_agree.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkersSource.both_assign_and_agree'
+  N.levels : 2
   N.entries : 200
   N.languages : 109
   N.missing : 820
@@ -1796,6 +1915,7 @@ NPMarkersSource.case_assigned_gender_agrees.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkersSource.case_assigned_gender_agrees'
+  N.levels : 2
   N.entries : 200
   N.languages : 109
   N.missing : 820
@@ -1812,6 +1932,7 @@ NPMarkersSource.free.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkersSource.free'
+  N.levels : 2
   N.entries : 200
   N.languages : 109
   N.missing : 820
@@ -1828,6 +1949,7 @@ NPMarkerType.formative.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerType.Presence.formative'
+  N.levels : 2
   N.entries : 339
   N.languages : 192
   N.missing : 681
@@ -1843,6 +1965,7 @@ NPMarkerType.word.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerType.Presence.formative'
+  N.levels : 2
   N.entries : 339
   N.languages : 192
   N.missing : 681
@@ -1858,6 +1981,7 @@ NPMarkerFusion.nonlinear.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.nonlinear.Presence'
+  N.levels : 2
   N.entries : 268
   N.languages : 144
   N.missing : 752

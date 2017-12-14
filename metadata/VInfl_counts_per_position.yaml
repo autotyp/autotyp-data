@@ -8,6 +8,7 @@ VInflCatAndAgrIn.n:
   VariableType : 'data'
   DataType : 'count'
   VariantOf : 'VInflCatAndAgrIn.n'
+  N.levels : 4
   N.entries : 278
   N.languages : 278
   N.missing : 0
@@ -24,6 +25,7 @@ VInflCatAndAgrPost.n:
   VariableType : 'data'
   DataType : 'count'
   VariantOf : 'VInflCatAndAgrPost.n'
+  N.levels : 12
   N.entries : 278
   N.languages : 278
   N.missing : 0
@@ -40,6 +42,7 @@ VInflCatAndAgrPrae.n:
   VariableType : 'data'
   DataType : 'count'
   VariantOf : 'VInflCatAndAgrPrae.n'
+  N.levels : 12
   N.entries : 278
   N.languages : 278
   N.missing : 0
@@ -56,6 +59,7 @@ VInflCatAndAgrSimul.n:
   VariableType : 'data'
   DataType : 'count'
   VariantOf : 'VInflCatAndAgrSimul.n'
+  N.levels : 2
   N.entries : 278
   N.languages : 278
   N.missing : 0
@@ -72,6 +76,7 @@ VInflCatAndAgrSplit.n:
   VariableType : 'data'
   DataType : 'count'
   VariantOf : 'VInflCatAndAgrSplit.n'
+  N.levels : 6
   N.entries : 278
   N.languages : 278
   N.missing : 0

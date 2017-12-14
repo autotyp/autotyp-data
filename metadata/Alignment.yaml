@@ -8,6 +8,7 @@ AlignmentAequivalentS.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'AlignmentSAPTG'
+  N.levels : 2
   N.entries : 260281
   N.languages : 689
   N.missing : 0
@@ -70,6 +71,7 @@ AlignmentValClassCondition.binned.default:
   VariableType : 'condition'
   DataType : 'logical'
   VariantOf : 'AlignmentValClassCondition'
+  N.levels : 2
   N.entries : 18636
   N.languages : 688
   N.missing : 241645
@@ -167,6 +169,7 @@ AlignmentGequivalentP.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'AlignmentSAPTG'
+  N.levels : 2
   N.entries : 17245
   N.languages : 388
   N.missing : 243036
@@ -199,6 +202,7 @@ AlignmentPequivalentS.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'AlignmentSAPTG'
+  N.levels : 2
   N.entries : 260281
   N.languages : 689
   N.missing : 0
@@ -776,6 +780,7 @@ AlignmentTequivalentP.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'AlignmentSAPTG'
+  N.levels : 2
   N.entries : 17245
   N.languages : 388
   N.missing : 243036

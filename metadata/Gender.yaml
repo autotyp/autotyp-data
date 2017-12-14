@@ -7,6 +7,7 @@ Gender.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'Gender'
+  N.levels : 12
   N.entries : 112
   N.languages : 112
   N.missing : 206
@@ -34,6 +35,7 @@ Gender.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Gender'
+  N.levels : 2
   N.entries : 313
   N.languages : 311
   N.missing : 5
