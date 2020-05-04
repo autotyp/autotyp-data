@@ -249,6 +249,7 @@
 569,"high",1,"P=T=G","S=Atr≠P","S=Atr=Aditr≠P=T=G","low",0,"medium",0.666666666666667,,"S=Atr≠P",,"low",0,"accusative","accusative",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,
 571,"high",1,,"S=Atr≠P",,"low",0,"high",1,,"S=Atr≠P",,"low",0,"accusative","accusative",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,0.666666666666667,"S=Atr≠P","low",0
 572,"low",0,,"S=Atr=P",,"low",0,"low",0,,"S=Atr=P",,"low",0,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,0.722222222222222,"S=Atr≠P","low",0
+574,"high",1,,"S=Atr≠P",,"low",0,,,,,,,,,,,,,,,,,,,,,,
 576,,,,,,,,"low",0,"P=T=G","S=Atr=P","S=Atr=Aditr=P=T=G","low",0,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,
 580,,,,,,,,"medium",0.666666666666667,,"S=Atr≠P",,"medium",0.555555555555556,"ergative","tripartite",FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,,,,
 581,"high",1,,"S=Atr≠P",,"low",0,"medium",0.5,,"mixed",,"low",0,,"accusative",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,
@@ -426,9 +427,10 @@
 1682,"high",1,"P=T=G","S=Atr≠P","S=Atr=Aditr≠P=T=G","low",0,"low",0,"P=T≠G","S=Atr=P","S=Atr=Aditr=P=T≠G","low",0,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,
 1691,"low",0,,"S=Atr=P",,"low",0,"medium",0.666666666666667,,"S=Atr≠P",,"low",0,"accusative","accusative",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,
 1692,,,,,,,,"medium",0.5,"mixed","mixed","mixed","low",0,"accusative","accusative",FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,,,,
+1693,"high",1,,"S=Atr≠P",,"low",0,,,,,,,,,,,,,,,,,,,,,,
 1702,,,,,,,,"low",0,"P=T=G","S=Atr=P","S=Atr=Aditr=P=T=G","low",0,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,
 1703,,,,,,,,"high",1,,"S=Atr≠P",,"low",0,"accusative","accusative",FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,
-1704,"low",0,,"S=Atr=P",,"low",0,,,,,,,,,,,,,,,,,,,1,"S=Atr≠P","medium",0.591836734693878
+1704,"low",0,,"S=Atr=P",,"low",0,,,,,,,,,,,,,,,,,,,1,"S≠Atr=P","high",0.612244897959184
 1709,"low",0,"P=G≠T","S=Atr=P","S=Atr=Aditr=P=G≠T","low",0,"low",0,"P=T=G","S=Atr=P","S=Atr=Aditr=P=T=G","low",0,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,
 1739,"high",1,"P=T=G","S=Atr≠P","S=Atr=Aditr≠P=T=G","low",0,"medium",0.666666666666667,"P=G≠T","S=Atr≠P","S=Atr=Aditr=T≠P=G","low",0,"accusative","accusative",FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,,,,
 1743,,,,,,,,"low",0,"P=T≠G","S=Atr=P","S=Atr=Aditr=P=T≠G","low",0,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,
@@ -502,6 +504,7 @@
 2227,"high",1,,"S=Atr≠P",,"low",0,"medium",0.5,,"mixed",,"low",0,,"accusative",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,
 2233,,,,,,,,"high",0.888888888888889,,"mixed",,"medium",0.555555555555556,"ergative","tripartite",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,
 2244,"low",0,,"S=Atr=P",,"low",0,,,,,,,,,,,,,,,,,,,0.191184224401561,"S≠Atr=P","low",0.191184224401561
+2250,"low",0,,"S=Atr=P",,"low",0,,,,,,,,,,,,,,,,,,,,,,
 2251,"low",0,"P=G≠T","S=Atr=P","S=Atr=Aditr=P=G≠T","low",0,"low",0,"P=T=G","S=Atr=P","S=Atr=Aditr=P=T=G","low",0,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,0.75,"S=Atr≠P","low",0
 2255,"high",1,,"S=Atr≠P",,"low",0,"low",0,,"S=Atr=P",,"low",0,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,
 2259,,,,,,,,"medium",0.428571428571429,"P=T=G","S=Atr=P","S=Atr=Aditr=P=T=G","low",0,"accusative","accusative",FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,,,,
@@ -631,7 +634,7 @@
 2987,"high",1,"P=T=G","S=Atr≠P","S=Atr=Aditr≠P=T=G","low",0,"medium",0.5,"P=T≠G","mixed","mixed","low",0,,"accusative",FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,0.125,"S=Atr≠P","low",0
 2989,,,,,,,,"low",0,"P=T≠G","S=Atr=P","S=Atr=Aditr=P=T≠G","low",0,,,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,,,,
 2990,,,,,,,,"low",0,"P=T≠G","S=Atr=P","S=Atr=Aditr=P=T≠G","low",0,,,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,,,,
-2992,,,,,,,,"low",0.285714285714286,,"S=Atr=P",,"low",0,,"accusative",FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,,,,
+2992,"high",1,"P=G≠T","S=Atr≠P","S=Atr=Aditr=T≠P=G","low",0,"low",0.285714285714286,,"S=Atr=P",,"low",0,,"accusative",FALSE,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,0.777777777777778,"S=Atr≠P","low",0
 2993,"low",0,,"S=Atr=P",,"low",0,"low",0,"P=T≠G","S=Atr=P","S=Atr=Aditr=P=T≠G","low",0,,,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,,,,
 2994,"low",0,,"S=Atr=P",,"low",0,"low",0,,"S=Atr=P",,"low",0,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,
 2996,"low",0,,"S=Atr=P",,"low",0,,,,,,,,,,,,,,,,,,,0.199215212798068,"S=Atr≠P","low",0.0834591005131301
@@ -682,9 +685,13 @@
 3096,"high",1,"P=T=G","S=Atr≠P","S=Atr=Aditr≠P=T=G","low",0,"low",0,,"S=Atr=P",,"low",0,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,0.833333333333333,"S=Atr≠P","low",0
 3099,"high",1,,"S=Atr≠P",,"low",0,,,,,,,,,,,,,,,,,,,,,,
 3117,"medium",0.5,,"mixed",,"high",1,,,,,,,,,,,,,,,,,,,0.928571428571429,"S=Atr≠P","low",0
+3131,"low",0,,"S=Atr=P",,"low",0,,,,,,,,,,,,,,,,,,,,,,
 3206,,,,,,,,"low",0,"P=T≠G","S=P≠Atr","S=P=T≠Atr=Aditr≠G","high",1,"ergative","ergative",FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,,,,
 3213,"high",1,"P=T=G","S=Atr≠P","S=Atr=Aditr≠P=T=G","low",0,,,,,,,,,,,,,,,,,,,,,,
-3249,"low",0,,"S=Atr=P",,"low",0,,,,,,,,,,,,,,,,,,,0.73469387755102,"S≠Atr=P","high",0.785714285714286
+3249,"low",0,,"S=Atr=P",,"low",0,,,,,,,,,,,,,,,,,,,0.775510204081633,"S≠Atr=P","high",0.785714285714286
 3250,,,,,,,,,,,,,,,,,,,,,,,,,,1,"S≠Atr=P","high",0.63265306122449
 3261,"low",0,,"S=Atr=P",,"low",0,,,,,,,,,,,,,,,,,,,,,,
+3263,"low",0,,"S=Atr=P",,"low",0,,,,,,,,,,,,,,,,,,,1,"S≠Atr=P","high",0.63265306122449
+3264,"high",1,,"S=Atr≠P",,"low",0,,,,,,,,,,,,,,,,,,,0.5,"S≠Atr=P","medium",0.316326530612245
 3269,"low",0,,"S=Atr=P",,"low",0,,,,,,,,,,,,,,,,,,,1,"S=Atr≠P","high",0.63265306122449
+3305,"high",1,,"S=Atr≠P",,"low",0,,,,,,,,,,,,,,,,,,,,,,

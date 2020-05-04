@@ -8,8 +8,8 @@ AdjAttrAgr.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAgr.Presence'
-  N.entries : 485
-  N.languages : 485
+  N.entries : 486
+  N.languages : 486
   N.missing : 0
   Notes : >
      For the definition of 'agreement', see the metadata for 'NPMarking.binned4' in NP_structure
@@ -26,8 +26,8 @@ AdjAttrConstr.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPConstr.Presence'
-  N.entries : 485
-  N.languages : 485
+  N.entries : 486
+  N.languages : 486
   N.missing : 0
   Notes : >
      For the definition of 'construct', see the metadata for 'NPMarking.binned4' in NP_structure
@@ -42,8 +42,8 @@ AdjAttrGvt.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPGvt.Presence'
-  N.entries : 485
-  N.languages : 485
+  N.entries : 486
+  N.languages : 486
   N.missing : 0
   Notes : >
      For the definition of 'government', see the metadata for 'NPMarking.binned4' in NP_structure
@@ -57,8 +57,8 @@ AdjAttrMarking.overt.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarking.overt'
-  N.entries : 485
-  N.languages : 485
+  N.entries : 486
+  N.languages : 486
   N.missing : 0
   Notes : >
      For the definition of 'overt', see the metadata for 'NPMarking.binned.overt' in NP_structure
@@ -72,8 +72,8 @@ NPAgr.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAgr.Presence'
-  N.entries : 485
-  N.languages : 485
+  N.entries : 486
+  N.languages : 486
   N.missing : 0
   Notes : >
      For the definition of 'agreement', see the metadata for 'NPMarking.binned4' in NP_structure
@@ -90,8 +90,8 @@ NPConstr.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPConstr.Presence'
-  N.entries : 485
-  N.languages : 485
+  N.entries : 486
+  N.languages : 486
   N.missing : 0
   Notes : >
      For the definition of 'construct', see the metadata for 'NPMarking.binned4' in NP_structure
@@ -106,8 +106,8 @@ NPGvt.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPGvt.Presence'
-  N.entries : 485
-  N.languages : 485
+  N.entries : 486
+  N.languages : 486
   N.missing : 0
   Notes : >
      For the definition of 'government', see the metadata for 'NPMarking.binned4' in NP_structure
@@ -121,8 +121,8 @@ NPMarking.overt.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarking.overt'
-  N.entries : 485
-  N.languages : 485
+  N.entries : 486
+  N.languages : 486
   N.missing : 0
   Notes : >
      For the definition of 'overt', see the metadata for 'NPMarking.binned.overt' in NP_structure

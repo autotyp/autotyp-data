@@ -5,11 +5,11 @@
 40,"none",,"asymmetrical","ad-sentential","flexible-adjacent","adjoined",,,"0","nonfinite",,"banned","Burushaski:chain",,"constraint-free","narrative","cosubordination",,"none","banned","extensible"
 502,"none",,"asymmetrical","ad-sentential","fixed:pre-main","adjoined",,,"0","nonfinite",,"ok","Turkish:chain","ok","conjunct","narrative","cosubordination",,"none","banned","conjunct"
 35,"none",,"symmetrical","ad-sentential","flexible-adjacent","adjoined","extraction_impossible",1,".1","finite",,"banned","Belhare:and","ok","constraint-free","conjunction","coordination",,"none","ok","local"
-629,"none",,"asymmetrical","ad-sentential","flexible-adjacent","adjoined",,1,".5","nonfinite",,,"Chantyal:chain",,,"narrative","cosubordination","Chaining","none","banned","extensible"
+629,"none",,"asymmetrical","ad-sentential","flexible-adjacent","adjoined",,1,".3333333333333333","nonfinite",,,"Chantyal:chain",,,"narrative","cosubordination","Chaining","none","banned","extensible"
 74,"none","cataphora_possible","symmetrical","ad-sentential","flexible-relational","adjoined","extraction_impossible",,"0","nonfinite","banned","ok","English:although","ok","disjunct",,,,"none","ok","local"
 35,"none",,"asymmetrical","ad-sentential","flexible-adjacent","adjoined","extraction_impossible",,"0","nonfinite","ok","ok","Belhare:inconseq","ok","local","inconsequential","coordination",,"none","banned","extensible"
 49,"none","cataphora_impossible","symmetrical","ad-sentential","flexible-adjacent","adjoined","extraction_impossible",,,"finite","ok",,"Chechen:and","ok","local","conjunction",,,"none","ok","local"
-468,"none",,"asymmetrical","ad-sentential","flexible-adjacent","adjoined",,,,"nonfinite",,"ok","Newar (Dolakha):chain",,"constraint-free","narrative","cosubordination",,"none","banned",
+468,"none",,"asymmetrical","ad-sentential","flexible-adjacent","adjoined",,,"0","nonfinite",,"ok","Newar (Dolakha):chain",,"constraint-free","narrative","cosubordination",,"none","banned",
 20,,"cataphora_impossible","symmetrical","ad-sentential","fixed:pre-main","adjoined",,1,".1428571428571429","finite",,,"Amele:but","banned","local","inconsequential","coordination","Coordination","none","ok","local"
 87,"none","cataphora_possible","constraint-free","ad-sentential","flexible-relational","adjoined","extraction_impossible",1,".5","finite","banned","ok","German:sub","banned","disjunct","causal","subordination",,"none","ok","local"
 361,"none",,"asymmetrical","ad-sentential","flexible-relational","adjoined",,,"0","nonfinite",,"ok","Swahili:topic","banned","disjunct","topic","subordination",,"none","banned","conjunct"

@@ -7,9 +7,9 @@ CoArgSensitivityAgr.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'CoArgSensitivityAgr.Presence'
-  N.entries : 166
-  N.languages : 166
-  N.missing : 531
+  N.entries : 171
+  N.languages : 171
+  N.missing : 533
 
 # ------ VAgreement.Presence.v1 ------
 VAgreement.Presence.v1:
@@ -21,8 +21,8 @@ VAgreement.Presence.v1:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VAgreement.Presence'
-  N.entries : 624
-  N.languages : 623
+  N.entries : 631
+  N.languages : 630
   N.missing : 73
 
 # ------ CoArgSensitivityCase.Presence ------
@@ -36,5 +36,5 @@ CoArgSensitivityCase.Presence:
   VariantOf : 'CoArgSensitivityCase.Presence'
   N.entries : 655
   N.languages : 654
-  N.missing : 42
+  N.missing : 49
 

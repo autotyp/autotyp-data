@@ -6,7 +6,7 @@ Balthasar Bickel, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, Kr
 
 ---
 
-**Release version 0.1.0**
+**Release version 0.1.1**
 
 ---
 
@@ -34,7 +34,7 @@ Balthasar Bickel, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, Kr
 These files are stored as `csv` tables in the directory `data/`.
 
 ## General design
-AUTOTYP differs from traditional typological databases in that in most cases, data is entered in a fairly raw format (comparable to reference grammar descriptions) and need to be aggregated and reshaped for most analytical purposes. For example, we do not enter alignment statements ('S=A≠P' or 'nominative-accusative alignment', etc) but enter individual case markers with the roles they cover and the conditions under which they occur. Alignment statements can then be ***derived*** (i.e. aggregated and/or reshaped) from the data using scripts. The raw data supports a variety of such derivations (apart from alignment statements, one might be interested in whether or not there is a split in case marking, or how many cases can code the same generalized semantic argument role etc.). As a result, AUTOTYP usually contains several alternative derivations from the same raw data. However, the current release (version 0.1.0) includes only tables that we have already derived in earlier research, and the few raw tables that can be used off the shelf. The raw data has a more complex database structure and will be released later, together with scripts for making your own aggregations as well as for exploring and mapping the data. (But of course, it will always be possible to use the data tables without scripts, e.g. for exploring, looking things up in particular languages, copying data to your own spreadsheet, etc.)
+AUTOTYP differs from traditional typological databases in that in most cases, data is entered in a fairly raw format (comparable to reference grammar descriptions) and need to be aggregated and reshaped for most analytical purposes. For example, we do not enter alignment statements ('S=A≠P' or 'nominative-accusative alignment', etc) but enter individual case markers with the roles they cover and the conditions under which they occur. Alignment statements can then be ***derived*** (i.e. aggregated and/or reshaped) from the data using scripts. The raw data supports a variety of such derivations (apart from alignment statements, one might be interested in whether or not there is a split in case marking, or how many cases can code the same generalized semantic argument role etc.). As a result, AUTOTYP usually contains several alternative derivations from the same raw data. However, the current release (version 0.1.1) includes only tables that we have already derived in earlier research, and the few raw tables that can be used off the shelf. The raw data has a more complex database structure and will be released later, together with scripts for making your own aggregations as well as for exploring and mapping the data. (But of course, it will always be possible to use the data tables without scripts, e.g. for exploring, looking things up in particular languages, copying data to your own spreadsheet, etc.)
 
 Another way in which AUTOTYP differs from traditional databases is that most variables were not predefined but were developed in a technique we call ***autotypologizing*** (Bickel & Nichols 2002): the values of the variables (features, categories, types) and their definitions are constantly revised and expanded during data collection until they stabilize. For example, instead of surveying the presence/absence of a predefined category like 'aspect', we develop a list of categories as we encounter them in our survey work and equate them (or not) to cross-linguistically stable types on the basis of an evolving analysis. The result is a list of categories and definitions and this can then be queried later as to which category occurs where. The outputs of such queries are published here, with the definitions stored in the metadata. 
 
@@ -217,7 +217,7 @@ The following fields are provided for each variable:
 
 
 # Bibliographical references
-The sources for all entries can be retrieved from the `.bib` file (see [Formats](#file-formats-and-how-to-download-and-access-the-data)) via the language identifier (`LID`) which comes with every entry. There may be gaps, in which case the references listed in [Glottolog](http://glottolog.org) are likely to correspond to what we relied on.
+The sources for all entries can be retrieved from the `.bib` file (see [Formats](#file-formats-and-how-to-download-and-access-the-data) via the language identifier (`LID`) which comes with every entry. There may be gaps, in which case the references listed in [Glottolog](http://glottolog.org) are likely to correspond to what we relied on.
 
 # Naming conventions
 <!-- (see public.release.paper/autotyp_data_curation_bestpractices_rev.pages) -->
@@ -259,7 +259,7 @@ Both error reports and feature requests can be submitted online using the [GitHu
 
 # Citation
 
-Bickel, Balthasar, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, Kristine Hildebrandt, Michael Rießler, Lennart Bierkandt, Fernando Zúñiga & John B. Lowe. 2017. *The AUTOTYP typological databases*. Version 0.1.0 [https://github.com/autotyp/autotyp-data/tree/0.1.0](https://github.com/autotyp/autotyp-data/tree/0.1.0)
+Bickel, Balthasar, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, Kristine Hildebrandt, Michael Rießler, Lennart Bierkandt, Fernando Zúñiga & John B. Lowe. 2017. *The AUTOTYP typological databases*. Version 0.1.1 [https://github.com/autotyp/autotyp-data/tree/0.1.1](https://github.com/autotyp/autotyp-data/tree/0.1.1)
 
 Please make sure to always include the version number with your citation. This ensures that results can be always reproduced even after the database has been updated. The GitHub website tracks all versions of the database that were ever published (you can switch between them by clicking on the branch menu on the top of this page and selecting an appropriate tag). AUTOTYP uses [semantic versioning ](https://semver.org/spec/v2.0.0.html). 
 
@@ -274,7 +274,7 @@ Please make sure to always include the version number with your citation. This e
 
 **A**: Click on the "Raw" button and then use the URL of this page as the argument of `read.csv(<insert URL here>, na.strings = "")`
 More generally, the following URL fits all content and will give you the most recent version of the file:
-`https://raw.githubusercontent.com/autotyp/autotyp-data/0.1.0/...`
+`https://raw.githubusercontent.com/autotyp/autotyp-data/0.1.1/...`
 
 We recommend downloading the database for offline use (and noting down the version number), in the interest of replicability. You will find the version number in the readme file and also in the `VERSION` file in the database folder. 
 

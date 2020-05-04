@@ -8,9 +8,9 @@ AUTOTYPLabel:
   DataType : 'categorical'
   VariantOf : 'AUTOTYPLabel'
   N.levels : 176
-  N.entries : 4748
-  N.languages : 793
-  N.missing : 130
+  N.entries : 4916
+  N.languages : 811
+  N.missing : 131
 
 # ------ Behavior.binned4 ------
 Behavior.binned4:
@@ -24,9 +24,9 @@ Behavior.binned4:
   DataType : 'categorical'
   VariantOf : 'Behavior'
   N.levels : 4
-  N.entries : 602
-  N.languages : 256
-  N.missing : 4276
+  N.entries : 603
+  N.languages : 257
+  N.missing : 4444
 
 # ------ Behavior.spreading.Presence ------
 Behavior.spreading.Presence:
@@ -38,9 +38,9 @@ Behavior.spreading.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Behavior'
-  N.entries : 1853
-  N.languages : 436
-  N.missing : 3025
+  N.entries : 1873
+  N.languages : 442
+  N.missing : 3174
 
 # ------ Behavior ------
 Behavior:
@@ -52,10 +52,10 @@ Behavior:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Behavior'
-  N.levels : 9
-  N.entries : 1853
-  N.languages : 436
-  N.missing : 3025
+  N.levels : 10
+  N.entries : 2057
+  N.languages : 488
+  N.missing : 2990
 
 # ------ Coexponence.CaseNumber.Presence ------
 Coexponence.CaseNumber.Presence:
@@ -68,7 +68,7 @@ Coexponence.CaseNumber.Presence:
   VariantOf : 'Exponence'
   N.entries : 345
   N.languages : 331
-  N.missing : 4533
+  N.missing : 4702
 
 # ------ Coexponence.CaseReference.Presence ------
 Coexponence.CaseReference.Presence:
@@ -81,7 +81,7 @@ Coexponence.CaseReference.Presence:
   VariantOf : 'Exponentiality'
   N.entries : 345
   N.languages : 331
-  N.missing : 4533
+  N.missing : 4702
 
 # ------ Domain ------
 Domain:
@@ -93,8 +93,8 @@ Domain:
   DataType : 'categorical'
   VariantOf : 'Domain'
   N.levels : 2
-  N.entries : 3189
-  N.languages : 808
+  N.entries : 3355
+  N.languages : 826
   N.missing : 0
   Notes : >
      This is based on a broad classification of specific domains. These domains will be included in a
@@ -113,7 +113,7 @@ Exemplar:
   N.levels : 4
   N.entries : 1101
   N.languages : 466
-  N.missing : 3777
+  N.missing : 3946
   Levels : 
     'CASE' : >
        The inflectional case marker selected for comparison in a user-defined survey. Selection procedure:
@@ -152,9 +152,9 @@ Polyexponence.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Exponence'
-  N.entries : 4331
-  N.languages : 764
-  N.missing : 547
+  N.entries : 4499
+  N.languages : 782
+  N.missing : 548
 
 # ------ Exponence.n ------
 Exponence.n:
@@ -165,8 +165,8 @@ Exponence.n:
   VariableType : 'data'
   DataType : 'count'
   VariantOf : 'Exponence'
-  N.entries : 4878
-  N.languages : 808
+  N.entries : 5047
+  N.languages : 826
   N.missing : 0
 
 # ------ Exponence ------
@@ -178,10 +178,10 @@ Exponence:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Exponence'
-  N.levels : 175
-  N.entries : 4405
-  N.languages : 766
-  N.missing : 473
+  N.levels : 113
+  N.entries : 4573
+  N.languages : 784
+  N.missing : 474
 
 # ------ Flexivity.Presence ------
 Flexivity.Presence:
@@ -194,9 +194,9 @@ Flexivity.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Flexivity.Presence'
-  N.entries : 3002
-  N.languages : 626
-  N.missing : 1876
+  N.entries : 3014
+  N.languages : 632
+  N.missing : 2033
 
 # ------ FlexivityFormative ------
 FlexivityFormative:
@@ -209,10 +209,10 @@ FlexivityFormative:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'FlexivityFormative'
-  N.levels : 5
-  N.entries : 3005
-  N.languages : 624
-  N.missing : 1873
+  N.levels : 6
+  N.entries : 3047
+  N.languages : 634
+  N.missing : 2000
   Levels : 
     'none' : >
     'lex-based' : >
@@ -221,8 +221,9 @@ FlexivityFormative:
     'cat-based' : >
        Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
        ablaut in certain tense forms, across the regular lexicon)
-    'both' : >
+    'n/a' : >
     'free' : >
+    'both' : >
 
 # ------ Form ------
 Form:
@@ -233,10 +234,10 @@ Form:
   VariableType : 'register'
   DataType : 'categorical'
   VariantOf : 'Form'
-  N.levels : 3021
-  N.entries : 4035
-  N.languages : 743
-  N.missing : 843
+  N.levels : 3162
+  N.entries : 4203
+  N.languages : 761
+  N.missing : 844
 
 # ------ Fusion.binned6 ------
 Fusion.binned6:
@@ -249,9 +250,9 @@ Fusion.binned6:
   DataType : 'categorical'
   VariantOf : 'Fusion'
   N.levels : 6
-  N.entries : 3855
-  N.languages : 691
-  N.missing : 1023
+  N.entries : 4022
+  N.languages : 709
+  N.missing : 1025
   Levels : 
     'concatenative' : >
        [The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel
@@ -272,6 +273,9 @@ Fusion.binned6:
        as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
        Therefore you will need to look at prosodic factors such as word stress.], [Isolating formative
        is default; concatenative allomorph under certain conditions.]
+    'tonal' : >
+       A tone contrast marks a morphological contrast. The tone must be not be the result of a general
+       phonological sandhi rule, but represent true internal tone changes.
     'stem' : >
        [Superimposition of a syllable or foot template onto the stem, resulting in such processes as
        lengthening, gemination etc. Example: Lango alienable possesse marking, Semitic voice marking,
@@ -284,17 +288,14 @@ Fusion.binned6:
        these seem more basic (so that others could be analyzed as category-triggered allomorphs. Good
        example: Semitic root&pattern morphology, where for TAM+DIATHESIS values it seems abritrary to
        either take the stem ablaut or the affix form as basic. They code TAM+DIATHESIS simultaneously.]
-    'tonal' : >
-       A tone contrast marks a morphological contrast. The tone must be not be the result of a general
-       phonological sandhi rule, but represent true internal tone changes.
+    'reduplicative' : >
+       A category is marked by some kind of reduplication effect
     'replacive' : >
        The formative replaces a stem (or theme or base) segment. This is different from regularly concatenative
        formatives which alternate with other formatives, and not with stem segments. Examples: Marxist
        derived from Marxism (-ism replaces -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology,
        140; Oxford, 1998). In Slavic hypocoristics, after truncation, the stem-final consonant is replaced
        with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.
-    'reduplicative' : >
-       A category is marked by some kind of reduplication effect
 
 # ------ Fusion ------
 Fusion:
@@ -306,10 +307,10 @@ Fusion:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Fusion'
-  N.levels : 25
-  N.entries : 3904
-  N.languages : 701
-  N.missing : 974
+  N.levels : 27
+  N.entries : 4593
+  N.languages : 789
+  N.missing : 454
   Levels : 
     'concatenative' : >
        The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel
@@ -321,8 +322,12 @@ Fusion:
        word, though this is not always true: non-isolating formatives like clitics are often written
        as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
        Therefore you will need to look at prosodic factors such as word stress.
+    'n/a' : >
     'concatenative_or_suppletive' : >
        Concatenative formative or suppletion, under different conditions.
+    'tonal' : >
+       A tone contrast marks a morphological contrast. The tone must be not be the result of a general
+       phonological sandhi rule, but represent true internal tone changes.
     'prosodic_templatic' : >
        Superimposition of a syllable or foot template onto the stem, resulting in such processes as lengthening,
        gemination etc. Example: Lango alienable possesse marking, Semitic voice marking, etc.
@@ -330,47 +335,38 @@ Fusion:
        One root or morpheme replaces another in part of a paradigm.
     'isolating_or_concatenative' : >
        Isolating as regards stress, concatenative as regards segmental rules -- or vice versa.
-    'concatenative_and_ablaut' : >
-       Concatenative formative plus ablaut (usually stem ablaut).
+    'isolating_then_concatenative' : >
+       First part of the formative is isolating, second part is concatenative.
     'ablaut_or_tonal' : >
        Ablaut or tone change, under different conditions.
-    'tonal' : >
-       A tone contrast marks a morphological contrast. The tone must be not be the result of a general
-       phonological sandhi rule, but represent true internal tone changes.
-    'ablaut_or_suppletive' : >
-       Ablaut or suppletion, under different conditions.
+    'distributed' : >
+       There are realizational traces of the category on several or even all morphemes in a string, and
+       none of these seem more basic (so that others could be analyzed as category-triggered allomorphs.
+       Good example: Semitic root&pattern morphology, where for TAM+DIATHESIS values it seems abritrary
+       to either take the stem ablaut or the affix form as basic. They code TAM+DIATHESIS simultaneously.
+    'reduplicative' : >
+       A category is marked by some kind of reduplication effect
+    'concatenative_and_ablaut' : >
+       Concatenative formative plus ablaut (usually stem ablaut).
+    '<?>' : >
+       Unknown
+    'tonal_or_ablaut_then_isolating' : >
+       First part of the formative is a tonal or ablaut alternation; second part is isolating. Example:
+       Kisi negation, where the verb stem undergoes tone changes and a particle is added (Childs, A Grammar
+       of Kisi, 220ff.; Mouton de Gruyter 1995.
+    'concatenative_default_or_isolating' : >
+       Concatenative formative is default; isolating allomorph under certain conditions.
     'replacive' : >
        The formative replaces a stem (or theme or base) segment. This is different from regularly concatenative
        formatives which alternate with other formatives, and not with stem segments. Examples: Marxist
        derived from Marxism (-ism replaces -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology,
        140; Oxford, 1998). In Slavic hypocoristics, after truncation, the stem-final consonant is replaced
        with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.
-    'isolating_then_concatenative' : >
-       First part of the formative is isolating, second part is concatenative.
-    'concatenative_then_isolating' : >
-       First part of the formative is concatenative, second part is isolating.
+    'ablaut_or_suppletive' : >
+       Ablaut or suppletion, under different conditions.
     'ablaut' : >
        Alternation of stem segments in some grammatical context. Distinct from phonologically conditioned
        alternation.
-    'distributed' : >
-       There are realizational traces of the category on several or even all morphemes in a string, and
-       none of these seem more basic (so that others could be analyzed as category-triggered allomorphs.
-       Good example: Semitic root&pattern morphology, where for TAM+DIATHESIS values it seems abritrary
-       to either take the stem ablaut or the affix form as basic. They code TAM+DIATHESIS simultaneously.
-    'concatenative_or_tonal' : >
-       Concatenative or tonal formative, under different conditions.
-    'tonal_or_suppletive' : >
-       Tonal formative or suppletion, under different conditions.
-    'reduplicative' : >
-       A category is marked by some kind of reduplication effect
-    'concatenative_default_or_isolating' : >
-       Concatenative formative is default; isolating allomorph under certain conditions.
-    'tonal_or_ablaut_then_isolating' : >
-       First part of the formative is a tonal or ablaut alternation; second part is isolating. Example:
-       Kisi negation, where the verb stem undergoes tone changes and a particle is added (Childs, A Grammar
-       of Kisi, 220ff.; Mouton de Gruyter 1995.
-    'concatenative_or_ablaut' : >
-       Concatenative formative or ablaut, neither one clearly primary (or both equally primary).
     'concatenative_and_reduplicative' : >
        Concatenative formative plus reduplication (usually reduplication of stem). If some lexemes take
        just the affix and others take the affix plus the reduplication, choose Concat + redupl and code
@@ -378,10 +374,18 @@ Fusion:
        reduplication part.)
     'isolating_default_or_concatenative' : >
        Isolating formative is default; concatenative allomorph under certain conditions.
-    'lenition' : >
-       Alternation in one or more consonant features
+    'tonal_or_suppletive' : >
+       Tonal formative or suppletion, under different conditions.
+    'concatenative_then_isolating' : >
+       First part of the formative is concatenative, second part is isolating.
+    'concatenative_or_tonal' : >
+       Concatenative or tonal formative, under different conditions.
+    'concatenative_or_ablaut' : >
+       Concatenative formative or ablaut, neither one clearly primary (or both equally primary).
     'reduplicative_or_suppletive' : >
        Reduplication or suppletion, under different conditions.
+    'lenition' : >
+       Alternation in one or more consonant features
 
 # ------ Fusion.isolating.Presence ------
 Fusion.isolating.Presence:
@@ -393,9 +397,9 @@ Fusion.isolating.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Fusion'
-  N.entries : 3855
-  N.languages : 691
-  N.missing : 1023
+  N.entries : 4022
+  N.languages : 709
+  N.missing : 1025
 
 # ------ Fusion.nonlinear.Presence ------
 Fusion.nonlinear.Presence:
@@ -407,10 +411,10 @@ Fusion.nonlinear.Presence:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Fusion'
-  N.levels : 2
-  N.entries : 3855
-  N.languages : 691
-  N.missing : 1023
+  N.levels : 3
+  N.entries : 4544
+  N.languages : 785
+  N.missing : 503
   Levels : 
     'linear' : >
        [The formative is a free phonological word. If it is, it is likely to be written as a separate
@@ -426,6 +430,8 @@ Fusion.nonlinear.Presence:
        [Alternation of stem segments in some grammatical context. Distinct from phonologically conditioned
        alternation.], [Concatenative formative is default; isolating allomorph under certain conditions.],
        [Isolating formative is default; concatenative allomorph under certain conditions.]
+    'NA' : >
+       Unknown
     'nonlinear' : >
        [A category is marked by some kind of reduplication effect], [A tone contrast marks a morphological
        contrast. The tone must be not be the result of a general phonological sandhi rule, but represent
@@ -461,9 +467,9 @@ Fusion.reduplicative.Presence:
   DataType : 'categorical'
   VariantOf : 'Fusion'
   N.levels : 2
-  N.entries : 3855
-  N.languages : 691
-  N.missing : 1023
+  N.entries : 4022
+  N.languages : 709
+  N.missing : 1025
   Levels : 
     'non-reduplicative' : >
        [The formative is a free phonological word. If it is, it is likely to be written as a separate
@@ -512,9 +518,9 @@ Fusion.tonal.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Fusion'
-  N.entries : 3855
-  N.languages : 691
-  N.missing : 1023
+  N.entries : 4022
+  N.languages : 709
+  N.missing : 1025
 
 # ------ FlexivityLexical.Presence ------
 FlexivityLexical.Presence:
@@ -527,9 +533,9 @@ FlexivityLexical.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FlexivityLexical.Presence'
-  N.entries : 2961
-  N.languages : 620
-  N.missing : 1917
+  N.entries : 2971
+  N.languages : 625
+  N.missing : 2076
 
 # ------ Locus.binned6 ------
 Locus.binned6:
@@ -541,10 +547,10 @@ Locus.binned6:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus'
-  N.levels : 4
-  N.entries : 3854
-  N.languages : 732
-  N.missing : 1024
+  N.levels : 5
+  N.entries : 4307
+  N.languages : 779
+  N.missing : 740
   Levels : 
     'H' : >
        [On head.], [Head marking that is available only on a limited set of NPs or under specific morphosyntactic
@@ -554,6 +560,10 @@ Locus.binned6:
        have restricted distribution.], [NP-internal head in a modifier-headed agreement pattern], [Head
        plus floating], [Possessor promoted to verb argument (external possession), and indexed or registered
        on verb. Example: Registered in Nez Perce (Rude, U. Ore. diss. 1985:199ff.).]
+    'F' : >
+       [Free or floating, including particles or similar in phrase-second position (Wackernagel position),
+       e.g. Tagalog ‘linkers’], [Floating, under limited circumstances (e.g. Yagua DOM by floating agreement
+       with definite noun)]
     'D' : >
        [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking that is available
        only on a limited set of NPs or under specific morphosyntactic conditions as noted.], [On dependent,
@@ -561,10 +571,10 @@ Locus.binned6:
        form of pronoun) plus head-driven agreement (dependent agreeing with head).], [Same as DD but
        with the additional formative or category restricted to some possessors only (e.g. pronouns only:
        German; contrast Hindi, where all possessors show head-driven agreement)]
-    'F' : >
-       [Free or floating, including particles or similar in phrase-second position (Wackernagel position),
-       e.g. Tagalog ‘linkers’], [Floating, under limited circumstances (e.g. Yagua DOM by floating agreement
-       with definite noun)]
+    'n/a' : >
+       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
+       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
+       marker])]
     'D on H' : >
        [Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where
        nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the
@@ -588,18 +598,20 @@ Locus:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus'
-  N.levels : 6
-  N.entries : 3858
-  N.languages : 732
-  N.missing : 1020
+  N.levels : 8
+  N.entries : 4307
+  N.languages : 779
+  N.missing : 740
   Levels : 
     'H' : >
        On head.
-    'D' : >
-       On dependent. For zero formative on dependent, code as Ø.
     'F' : >
        Free or floating, including particles or similar in phrase-second position (Wackernagel position),
        e.g. Tagalog ‘linkers’
+    'D' : >
+       On dependent. For zero formative on dependent, code as Ø.
+    '<n.a.>' : >
+       not applicable
     'P' : >
        The relation is marked by position (word or morpheme order).
     'D on H' : >
@@ -614,6 +626,9 @@ Locus:
        markers are case-marked. As a result, arguments are differentiated only in headward-migrated dependent
        marking. This marking realizes the dependent argument syntactically and leaves no place for an
        independent NP to show up in the same clausal core.
+    '<?>' : >
+       Uncertain data (usually with possessive relators that could be F [=linker], D [=case] or H [=construct
+       state marker])
 
 # ------ Locus.binned5 ------
 Locus.binned5:
@@ -625,10 +640,10 @@ Locus.binned5:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus'
-  N.levels : 3
-  N.entries : 3854
-  N.languages : 732
-  N.missing : 1024
+  N.levels : 4
+  N.entries : 4307
+  N.languages : 779
+  N.missing : 740
   Levels : 
     'H' : >
        [On head.], [Head marking is dominant. Additional dependent marking with some NPs or under specific
@@ -639,14 +654,6 @@ Locus.binned5:
        one category, but both formatives have restricted distribution.], [NP-internal head in a modifier-headed
        agreement pattern], [Head plus floating], [Possessor promoted to verb argument (external possession),
        and indexed or registered on verb. Example: Registered in Nez Perce (Rude, U. Ore. diss. 1985:199ff.).]
-    'D' : >
-       [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking is dominant. Additional
-       head marking with some verbs only or under specific morphosyntactic conditions as noted.], [Dependent
-       marking that is available only on a limited set of NPs or under specific morphosyntactic conditions
-       as noted.], [On dependent, with more than one formative or more than one category. Typical instance:
-       genitive (or possessive form of pronoun) plus head-driven agreement (dependent agreeing with head).],
-       [Same as DD but with the additional formative or category restricted to some possessors only (e.g.
-       pronouns only: German; contrast Hindi, where all possessors show head-driven agreement)]
     'FloatingorClitic' : >
        [Free or floating, including particles or similar in phrase-second position (Wackernagel position),
        e.g. Tagalog ‘linkers’], [Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal
@@ -662,6 +669,18 @@ Locus.binned5:
        dependent-marked pronouns], [Clitic doubling, where the argument is D-marked and is doubled by
        a D-marked pronominal on the verb.], [Floating, under limited circumstances (e.g. Yagua DOM by
        floating agreement with definite noun)], [Floating plus restricted dependent marking.]
+    'D' : >
+       [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking is dominant. Additional
+       head marking with some verbs only or under specific morphosyntactic conditions as noted.], [Dependent
+       marking that is available only on a limited set of NPs or under specific morphosyntactic conditions
+       as noted.], [On dependent, with more than one formative or more than one category. Typical instance:
+       genitive (or possessive form of pronoun) plus head-driven agreement (dependent agreeing with head).],
+       [Same as DD but with the additional formative or category restricted to some possessors only (e.g.
+       pronouns only: German; contrast Hindi, where all possessors show head-driven agreement)]
+    'n/a' : >
+       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
+       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
+       marker])], [No information available.]
 
 # ------ HostRestrictions.binned.restricted ------
 HostRestrictions.binned.restricted:
@@ -673,9 +692,9 @@ HostRestrictions.binned.restricted:
   DataType : 'categorical'
   VariantOf : 'HostRestrictions'
   N.levels : 2
-  N.entries : 3846
-  N.languages : 754
-  N.missing : 1032
+  N.entries : 4013
+  N.languages : 772
+  N.missing : 1034
 
 # ------ MorphemeType ------
 MorphemeType:
@@ -687,10 +706,10 @@ MorphemeType:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'MorphemeType'
-  N.levels : 3
-  N.entries : 3985
-  N.languages : 713
-  N.missing : 893
+  N.levels : 5
+  N.entries : 4716
+  N.languages : 803
+  N.missing : 331
   Levels : 
     'formative' : >
        Marker of a category that cannot occur as an independent part of speech unit in the syntax, but
@@ -703,8 +722,12 @@ MorphemeType:
        e.g. if an element behaves like a verb but is defective morphologically, it still has the PoS
        label ‘verb’ (see for example Quileute negation ‘é’, which behaves like a verb syntactically even
        thought its inflectional paradigm is defective).
+    'n/a' : >
+       In domain_def, use if no other morph domain parts relevant in domain definition
     'any' : >
        A unit that can be used both as a formative or as PoSWd, e.g. SEA versatile verbs/coverbs
+    'unknown' : >
+       type is unknown at this time
 
 # ------ MorphemeType.Word.Presence ------
 MorphemeType.Word.Presence:
@@ -716,9 +739,9 @@ MorphemeType.Word.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'MorphemeType'
-  N.entries : 3981
-  N.languages : 712
-  N.missing : 897
+  N.entries : 4148
+  N.languages : 730
+  N.missing : 899
 
 # ------ PersonPortmanteau.Presence ------
 PersonPortmanteau.Presence:
@@ -730,9 +753,9 @@ PersonPortmanteau.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PersonPortmanteau'
-  N.entries : 1494
-  N.languages : 160
-  N.missing : 3384
+  N.entries : 1507
+  N.languages : 163
+  N.missing : 3540
 
 # ------ Placement ------
 Placement:
@@ -743,10 +766,10 @@ Placement:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Placement'
-  N.levels : 3
-  N.entries : 648
-  N.languages : 169
-  N.missing : 4230
+  N.levels : 4
+  N.entries : 813
+  N.languages : 189
+  N.missing : 4234
 
 # ------ Position.post.Presence ------
 Position.post.Presence:
@@ -758,9 +781,9 @@ Position.post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Position'
-  N.entries : 3741
-  N.languages : 673
-  N.missing : 1137
+  N.entries : 3905
+  N.languages : 690
+  N.missing : 1142
 
 # ------ Position.binned4 ------
 Position.binned4:
@@ -772,9 +795,9 @@ Position.binned4:
   DataType : 'categorical'
   VariantOf : 'Position'
   N.levels : 4
-  N.entries : 3761
-  N.languages : 674
-  N.missing : 1117
+  N.entries : 3925
+  N.languages : 691
+  N.missing : 1122
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -784,7 +807,8 @@ Position.binned4:
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'in/simul' : >
        [inside the phonological host], [the formative has two exponents at different positions in the
        phonological host (but it is not the case that one is positioned before and the other after the
@@ -819,16 +843,16 @@ Position:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Position'
-  N.levels : 22
-  N.entries : 4017
-  N.languages : 714
-  N.missing : 861
+  N.levels : 23
+  N.entries : 4183
+  N.languages : 731
+  N.missing : 864
   Levels : 
     'post' : >
        after the phonological host
     'prae' : >
        before the phonological host
-    'not applicable' : >
+    'n/a' : >
        not applicable because an element’s position is defined only with respect to grammatical words
     'circum' : >
        the formative has two exponents, one before and one after the phonological host. This is a special
@@ -838,51 +862,54 @@ Position:
        syntax etc.)
     'in' : >
        inside the phonological host
-    'prae/post/circum' : >
-       either before, after or around the phonological host, conditioned by some structural context (category,
-       syntax etc.)
     'in/prae' : >
        either inside or before the phonological host, conditioned by some structural context (category,
        syntax etc.)
     'circum (prae)' : >
        around the phonological host by default, before the host under exceptional conditions (typically
        lexical)
+    'circum (W)' : >
+       DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) -- see log 77
     'in/post' : >
        either inside or after the phonological host, conditioned by some structural context (category,
-       syntax etc.)
-    'circum (post)' : >
-       around the phonological host by default, after the host under exceptional conditions (typically
-       lexical)
-    'prae/circum' : >
-       either before or around the phonological host, conditioned by some structural context (category,
        syntax etc.)
     'post/circum' : >
        either after or around the phonological host, conditioned by some structural context (category,
        syntax etc.)
-    'post (circum)' : >
-       after the phonological host by default, around the host under exceptional conditions (typically
-       lexical)
-    'simul (prae)' : >
-       in two or more different positions in (but not around) the phonological host by default, before
-       the host under exceptional conditions (typically lexical)
-    'prae/post/in/circum' : >
-       either before, after, inside or around the phonological host, conditioned by some structural context
-       (category, syntax etc.)
-    'any' : >
-       unspecified; can appear anywhere where the language allows it.
     'simul' : >
        the formative has two exponents at different positions in the phonological host (but it is not
        the case that one is positioned before and the other after the host, which is coded as “circum”)
     'post (prae)' : >
        after the phonological host by default, before the host under exceptional conditions (typically
        lexical)
-    'circum (W)' : >
-       DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) -- see log 77
-    'in (post)' : >
-       inside the phonological host by default, after the host under exceptional conditions (typically
+    'prae/circum' : >
+       either before or around the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'prae/post/circum' : >
+       either before, after or around the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'post (circum)' : >
+       after the phonological host by default, around the host under exceptional conditions (typically
+       lexical)
+    'circum (post)' : >
+       around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)
+    'prae/post/in/circum' : >
+       either before, after, inside or around the phonological host, conditioned by some structural context
+       (category, syntax etc.)
+    'any' : >
+       unspecified; can appear anywhere where the language allows it.
+    'simul (prae)' : >
+       in two or more different positions in (but not around) the phonological host by default, before
+       the host under exceptional conditions (typically lexical)
+    'prae (circum)' : >
+       before the phonological host by default, around the host under exceptional conditions (typically
        lexical)
     'post (in)' : >
        after the phonological host by default, inside the host under exceptional conditions (typically
+       lexical)
+    'in (post)' : >
+       inside the phonological host by default, after the host under exceptional conditions (typically
        lexical)
 
 # ------ Position.binned5 ------
@@ -895,9 +922,9 @@ Position.binned5:
   DataType : 'categorical'
   VariantOf : 'Position'
   N.levels : 5
-  N.entries : 3761
-  N.languages : 674
-  N.missing : 1117
+  N.entries : 3925
+  N.languages : 691
+  N.missing : 1122
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -907,7 +934,8 @@ Position.binned5:
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'simul' : >
        [the formative has two exponents at different positions in the phonological host (but it is not
        the case that one is positioned before and the other after the host, which is coded as “circum”)],
@@ -916,7 +944,7 @@ Position.binned5:
        exceptional conditions (typically lexical)], [around the phonological host by default, after the
        host under exceptional conditions (typically lexical)], [in two or more different positions in
        (but not around) the phonological host by default, before the host under exceptional conditions
-       (typically lexical)], [in two or more different positons in the phonological host by default,
+       (typically lexical)], [in two or more different positions in the phonological host by default,
        after the host under exceptional conditions (typically lexical)], [a special case of “simul” where
        one position is stem change itself]
     'split' : >
@@ -947,9 +975,9 @@ Position.pre.Presence.v1:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Position'
-  N.entries : 4015
-  N.languages : 714
-  N.missing : 863
+  N.entries : 4181
+  N.languages : 731
+  N.missing : 866
 
 # ------ Position.pre.Presence.v2 ------
 Position.pre.Presence.v2:
@@ -962,9 +990,9 @@ Position.pre.Presence.v2:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Position'
-  N.entries : 4015
-  N.languages : 714
-  N.missing : 863
+  N.entries : 4181
+  N.languages : 731
+  N.missing : 866
 
 # ------ Position.simul.Presence.v1 ------
 Position.simul.Presence.v1:
@@ -975,9 +1003,9 @@ Position.simul.Presence.v1:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Position'
-  N.entries : 3761
-  N.languages : 674
-  N.missing : 1117
+  N.entries : 3925
+  N.languages : 691
+  N.missing : 1122
 
 # ------ Position.simul.Presence.v2 ------
 Position.simul.Presence.v2:
@@ -990,9 +1018,9 @@ Position.simul.Presence.v2:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Position'
-  N.entries : 3761
-  N.languages : 674
-  N.missing : 1117
+  N.entries : 3925
+  N.languages : 691
+  N.missing : 1122
 
 # ------ HostRestrictions ------
 HostRestrictions:
@@ -1004,9 +1032,9 @@ HostRestrictions:
   DataType : 'categorical'
   VariantOf : 'HostRestrictions'
   N.levels : 3
-  N.entries : 3846
-  N.languages : 754
-  N.missing : 1032
+  N.entries : 4013
+  N.languages : 772
+  N.missing : 1034
   Levels : 
     'restricted' : >
        Is restricted to a specific type of host. When descriptions are silent about the range of hosts
@@ -1029,9 +1057,9 @@ Slot:
   DataType : 'categorical'
   VariantOf : 'Slot'
   N.levels : 48
-  N.entries : 1550
-  N.languages : 168
-  N.missing : 3328
+  N.entries : 1708
+  N.languages : 185
+  N.missing : 3339
 
 # ------ SourceOfMarking ------
 SourceOfMarking:
@@ -1043,9 +1071,9 @@ SourceOfMarking:
   DataType : 'categorical'
   VariantOf : 'SourceOfMarking'
   N.levels : 6
-  N.entries : 3655
-  N.languages : 723
-  N.missing : 1223
+  N.entries : 3822
+  N.languages : 740
+  N.missing : 1225
   Levels : 
     'agree' : >
        The formative is there because of agreement.
@@ -1055,11 +1083,11 @@ SourceOfMarking:
     'agr-target' : >
        the formative agrees, but that is not the reason of its presence, i.e. it is present for some
        other reason, e.g. derivation (unlike the type we call “agree”).
-    'case assigned, gender agrees' : >
     'free' : >
        In most contexts, use of the formative is the speaker’s choice. But to the degree that the formative
        is inflectional, there are some grammatical environments where the use is compulsory (e.g. sequence
        of tenses.)
+    'case assigned, gender agrees' : >
     'both assign and agree' : >
 
 # ------ FlexivityStem ------
@@ -1073,10 +1101,10 @@ FlexivityStem:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'FlexivityStem'
-  N.levels : 4
-  N.entries : 2926
-  N.languages : 609
-  N.missing : 1952
+  N.levels : 5
+  N.entries : 2978
+  N.languages : 623
+  N.missing : 2069
   Levels : 
     'none' : >
     'cat-based' : >
@@ -1085,6 +1113,7 @@ FlexivityStem:
     'lex-based' : >
        Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
        some verbs, but not with others)
+    'n/a' : >
     'both' : >
 
 # ------ OppositionWithZero.Presence ------
@@ -1098,9 +1127,9 @@ OppositionWithZero.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'OppositionWithZero.Presence'
-  N.entries : 1533
-  N.languages : 169
-  N.missing : 3345
+  N.entries : 1693
+  N.languages : 186
+  N.missing : 3354
 
 # ------ HostMacroCat ------
 HostMacroCat:
@@ -1113,9 +1142,9 @@ HostMacroCat:
   DataType : 'categorical'
   VariantOf : 'HostMacroCat'
   N.levels : 3
-  N.entries : 3265
-  N.languages : 648
-  N.missing : 1613
+  N.entries : 3431
+  N.languages : 666
+  N.missing : 1616
   Levels : 
     'verbal' : >
        [lexical verb], [verb phrase (syntactic domain hosting particles or complementing auxiliaries).
@@ -1333,9 +1362,9 @@ HostType:
   DataType : 'categorical'
   VariantOf : 'HostType'
   N.levels : 2
-  N.entries : 3351
-  N.languages : 654
-  N.missing : 1527
+  N.entries : 3517
+  N.languages : 672
+  N.missing : 1530
   Levels : 
     'terminal' : >
        [lexical verb], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)],
@@ -1484,9 +1513,9 @@ HostCat:
   VariableType : 'condition'
   DataType : 'categorical'
   VariantOf : 'HostCat'
-  N.levels : 98
-  N.entries : 4878
-  N.languages : 808
+  N.levels : 103
+  N.entries : 5047
+  N.languages : 826
   N.missing : 0
   Levels : 
     'V' : >
@@ -1506,215 +1535,229 @@ HostCat:
        [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
        or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
        (if this is at all distinct PoS)], [participle]
-    'Adj,DEM' : >
-       adjective, demonstrative
     'Adj,N_or_Pro,Ord' : >
        [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
        or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
        (if this is at all distinct PoS)], [Ordinal numeral]
+    'Adj,DEM' : >
+       adjective, demonstrative
+    'n/a' : >
+       not applicable
     'Adj,N_or_Pro,Ord,PTCP' : >
        [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
        or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
        (if this is at all distinct PoS)], [Ordinal numeral], [participle]
+    'VP' : >
+       verb phrase (syntactic domain hosting particles or complementing auxiliaries). Includes all sorts
+       of coconstituents (NPs, adverbs, etc.). For a more specific notion of VP, see #48
     'Adj,N_or_Pro' : >
        [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
        or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
        (if this is at all distinct PoS)]
-    'N_or_Pro' : >
-       noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
-       only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
-       all distinct PoS)
+    'Adj,N,Num' : >
+       [adjective], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [numeral]
     'Adj,N' : >
        [adjective], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)]
     'Adj,DEM,N_or_Pro,Num' : >
        [adjective], [demonstrative], [noun or pronoun (including nominalized verbs, participles, etc.
        ). If a language or construction only includes root nouns, this needs to be mentioned. NOT including
        Adjectives (if this is at all distinct PoS)], [numeral]
-    'Adj,N,Num' : >
-       [adjective], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [numeral]
-    'N' : >
-       lexical noun, nominalized verb -- whether possessed or non-possessed (all)
+    'N_or_Pro' : >
+       noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
+       only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
+       all distinct PoS)
     'NP,S' : >
        [(expandable) NP], [Clause]
+    'N' : >
+       lexical noun, nominalized verb -- whether possessed or non-possessed (all)
     'N_or_Pro,Ord' : >
        [noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
        only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
        all distinct PoS)], [Ordinal numeral]
+    '<any>' : >
+       no restriction as to what kind of stem or terminal node can host the formative. This is one notion
+       of clitic; do not confuse with phrasal affixes,which are or not restricted to a specific XP
     'Num' : >
        numeral
-    'VP' : >
-       verb phrase (syntactic domain hosting particles or complementing auxiliaries). Includes all sorts
-       of coconstituents (NPs, adverbs, etc.). For a more specific notion of VP, see #48
-    'Pro' : >
-       Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal indexes.
-    'N,Pro' : >
-       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [Pronouns. This
-       refers to free pronouns that head NPs; it does not refer to pronominal indexes.]
-    'S' : >
-       Clause
-    'Adj,V' : >
-       [adjective], [lexical verb]
-    'N_or_Pro,Nv' : >
-       [noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
-       only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
-       all distinct PoS)], [nominalized verb]
+    '1_2Pro_or_N' : >
+       1st or 2nd person, or noun.
     'N_or_Pro,Num' : >
        [noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
        only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
        all distinct PoS)], [numeral]
-    '1_2Pro_or_N' : >
-       1st or 2nd person, or noun.
+    'N,Pro' : >
+       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [Pronouns. This
+       refers to free pronouns that head NPs; it does not refer to pronominal indexes.]
+    'Pro' : >
+       Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal indexes.
+    'N_or_Pro,Nv' : >
+       [noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
+       only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
+       all distinct PoS)], [nominalized verb]
     'Adj' : >
        adjective
-    'Adj,Art' : >
-       adjective, Article
     'Adj,PTCP' : >
        adjective, participle
+    'Adj,Art' : >
+       adjective, Article
     'V,V-aux' : >
        [lexical verb], [(subset) of auxiliary verbs]
+    'Adj,V' : >
+       [adjective], [lexical verb]
     'DEM,S' : >
        demonstrative, Clause
+    'S' : >
+       Clause
     'Adj,N,Num,V' : >
        [adjective], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [numeral],
        [lexical verb]
-    'N,Pro,V' : >
-       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [Pronouns. This
-       refers to free pronouns that head NPs; it does not refer to pronominal indexes.], [lexical verb]
     'NP,Pro' : >
        [(expandable) NP], [Pronouns. This refers to free pronouns that head NPs; it does not refer to
        pronominal indexes.]
     '3Pro,N,Pro-sg' : >
        [3rd person pronoun], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)],
        [singular pronoun]
-    'V-aux' : >
-       (subset) of auxiliary verbs
+    'PRED,V' : >
+       [any element in predicative use (verb, predicate nominal etc.); predicate phrase], [lexical verb]
     'Adj,N,V' : >
        [adjective], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [lexical
        verb]
-    'N,V' : >
-       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [lexical verb]
-    'Adj,Art,Pro' : >
-       [adjective], [Article], [Pronouns. This refers to free pronouns that head NPs; it does not refer
-       to pronominal indexes.]
-    'PRED,V' : >
-       [any element in predicative use (verb, predicate nominal etc.); predicate phrase], [lexical verb]
-    'AdvP,PRED' : >
-       [Adverb Phrases, including all sorts of ‘preverbs’ and predicative modifiers.], [any element in
-       predicative use (verb, predicate nominal etc.); predicate phrase]
-    'Adv,V' : >
-       [Adverb], [lexical verb]
     'PRED' : >
        any element in predicative use (verb, predicate nominal etc.); predicate phrase
+    'V-fin' : >
+       finite verb
     '3sgPro,N-kin,Pro-pl' : >
        [3rd person singular pronoun], [kin terms], [plural pronoun]
+    'V-aux' : >
+       (subset) of auxiliary verbs
     'XP' : >
        any phrase: the formative attaches to whatever phrase it refers to (typical of focus particles
        and clitics)
     'N-proper' : >
        proper noun
-    'VP-nonfin' : >
-       The elements of the VP with all and only the nonfinite parts of the verb, as in German ;-)
-    'NP,Pro,S' : >
-       [(expandable) NP], [Pronouns. This refers to free pronouns that head NPs; it does not refer to
-       pronominal indexes.], [Clause]
-    'N-hum' : >
-       human noun
-    'Adp,V' : >
-       [Adposition], [lexical verb]
-    'N-kin,Pro' : >
-       [kin terms], [Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal
-       indexes.]
-    'VAdvP' : >
-       type of verb phrase defined as Verb plus adverbials, particles, perhaps pronouns -- but excluding
-       NPs
-    'V-fin' : >
-       finite verb
-    '3Pro_or_N' : >
-       3rd person pronoun or noun
+    'N,V' : >
+       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [lexical verb]
     'N-high-anim' : >
        noun denoting a higher animate (humans and some animals)
-    'Adj,Adv,Quant,V' : >
-       [adjective], [Adverb], [Quantifiers], [lexical verb]
+    'AdvP,PRED' : >
+       [Adverb Phrases, including all sorts of ‘preverbs’ and predicative modifiers.], [any element in
+       predicative use (verb, predicate nominal etc.); predicate phrase]
+    '1/2Pro' : >
+       1st and 2nd person pronouns
     'Pro,V' : >
        [Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal indexes.],
        [lexical verb]
-    'Adv,NP,S' : >
-       [Adverb], [(expandable) NP], [Clause]
+    'Adj,Adv,Quant,V' : >
+       [adjective], [Adverb], [Quantifiers], [lexical verb]
+    'Adv,V' : >
+       [Adverb], [lexical verb]
+    'VAdvP' : >
+       type of verb phrase defined as Verb plus adverbials, particles, perhaps pronouns -- but excluding
+       NPs
+    'Adj,Art,Pro' : >
+       [adjective], [Article], [Pronouns. This refers to free pronouns that head NPs; it does not refer
+       to pronominal indexes.]
+    'NP,Pro,S' : >
+       [(expandable) NP], [Pronouns. This refers to free pronouns that head NPs; it does not refer to
+       pronominal indexes.], [Clause]
+    'VP-nonfin' : >
+       The elements of the VP with all and only the nonfinite parts of the verb, as in German ;-)
+    'Adp,V' : >
+       [Adposition], [lexical verb]
     'N-anim' : >
        animate noun
-    'N-kin' : >
-       kin terms
-    '1/2Pro' : >
-       1st and 2nd person pronouns
-    'Adp,N' : >
-       [Adposition], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)]
-    'Pro_NOT_1sgPro' : >
-       any pronoun apart from 1sg pronoun
-    'Body_part,N-kin,N-proper' : >
-       [body parts and similar parts], [kin terms], [proper noun]
+    '<any>,V' : >
+       [no restriction as to what kind of stem or terminal node can host the formative. This is one notion
+       of clitic; do not confuse with phrasal affixes,which are or not restricted to a specific XP],
+       [lexical verb]
+    'n11.d.' : >
+       no data
     'Adj,DEM,N,Pro' : >
        [adjective], [demonstrative], [lexical noun, nominalized verb -- whether possessed or non-possessed
        (all)], [Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal
        indexes.]
-    'Pro-sg' : >
-       singular pronoun
+    'N-hum' : >
+       human noun
+    '3Pro_or_N' : >
+       3rd person pronoun or noun
+    'N-kin' : >
+       kin terms
+    'Adv,N,V' : >
+       [Adverb], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [lexical
+       verb]
+    '1sgPro' : >
+       1st person singular pronoun
+    'N,Pro,V' : >
+       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [Pronouns. This
+       refers to free pronouns that head NPs; it does not refer to pronominal indexes.], [lexical verb]
+    'N-kin,Pro' : >
+       [kin terms], [Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal
+       indexes.]
     'N-non-kin' : >
        noun apart from kin terms
-    'Art,N_or_Pro' : >
-       [Article], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language or
-       construction only includes root nouns, this needs to be mentioned. NOT including Adjectives (if
-       this is at all distinct PoS)]
+    'N-inal' : >
+       inalienably possessed noun
+    'Adv,NP,S' : >
+       [Adverb], [(expandable) NP], [Clause]
     'Body_part,N-anim,N-kin' : >
        [body parts and similar parts], [animate noun], [kin terms]
+    'N-pers,Pro' : >
+       [personal name (proper nouns which are personal names, but not toponyms, etc.)], [Pronouns. This
+       refers to free pronouns that head NPs; it does not refer to pronominal indexes.]
+    'Adp,Pro' : >
+       [Adposition], [Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal
+       indexes.]
+    'Body_part,N-hum,N-kin' : >
+       [body parts and similar parts], [human noun], [kin terms]
+    'N,Pro_NOT_1plPro' : >
+       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [any pronoun apart
+       from 1pl pronoun]
+    'Pro-sg' : >
+       singular pronoun
+    '1/2sgPro,3Pro,N' : >
+       [1st singular or 2nd singular pronoun], [3rd person pronoun], [lexical noun, nominalized verb
+       -- whether possessed or non-possessed (all)]
+    'Pro_NOT_1sgPro' : >
+       any pronoun apart from 1sg pronoun
+    'Adj,N,Pro' : >
+       [adjective], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [Pronouns.
+       This refers to free pronouns that head NPs; it does not refer to pronominal indexes.]
+    'N,Pro-sg' : >
+       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [singular pronoun]
+    '3sgPro' : >
+       3rd person singular pronoun
     'N-hum,N-non-sg,Pro,Pro-kin' : >
        [human noun], [noun in non-singular number (i.e. noun in dual, trial, and plural)], [Pronouns.
        This refers to free pronouns that head NPs; it does not refer to pronominal indexes.], [kinship
        pronoun]
-    'Adj,N,Pro' : >
-       [adjective], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [Pronouns.
-       This refers to free pronouns that head NPs; it does not refer to pronominal indexes.]
-    'Body_part,N-hum,N-kin' : >
-       [body parts and similar parts], [human noun], [kin terms]
-    'Adp' : >
-       Adposition
-    'not_1sgPro' : >
-       any noun or pronoun apart from 1sg pronoun
-    '1/2plPro' : >
-       1st plural or 2nd plural pronoun
-    'Adv,N,V' : >
-       [Adverb], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [lexical
-       verb]
-    'N,Pro-pl' : >
-       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [plural pronoun]
-    'N-inal,N-kin' : >
-       [inalienably possessed noun], [kin terms]
-    'N,Pro-sg' : >
-       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [singular pronoun]
-    'N-inal' : >
-       inalienably possessed noun
-    '1/2sgPro,3Pro,N' : >
-       [1st singular or 2nd singular pronoun], [3rd person pronoun], [lexical noun, nominalized verb
-       -- whether possessed or non-possessed (all)]
-    'non-V' : >
-       any part of speech except verbs
-    '1sgPro' : >
-       1st person singular pronoun
-    '3sgPro' : >
-       3rd person singular pronoun
+    'Art,N_or_Pro' : >
+       [Article], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language or
+       construction only includes root nouns, this needs to be mentioned. NOT including Adjectives (if
+       this is at all distinct PoS)]
+    'n/a,Pro' : >
+       [not applicable], [Pronouns. This refers to free pronouns that head NPs; it does not refer to
+       pronominal indexes.]
     'N-alien' : >
        alienably possessed noun, i.e. one taking alienable possession (see sem_class_def for alienability)
-    'N,Pro_NOT_1plPro' : >
-       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [any pronoun apart
-       from 1pl pronoun]
-    'Adp,Pro' : >
-       [Adposition], [Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal
-       indexes.]
+    'non-V' : >
+       any part of speech except verbs
+    'not_1sgPro' : >
+       any noun or pronoun apart from 1sg pronoun
+    'Adp' : >
+       Adposition
+    'N,Pro-pl' : >
+       [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [plural pronoun]
+    '1/2plPro' : >
+       1st plural or 2nd plural pronoun
+    'Body_part,N-kin,N-proper' : >
+       [body parts and similar parts], [kin terms], [proper noun]
     'N-inal,Pro' : >
        [inalienably possessed noun], [Pronouns. This refers to free pronouns that head NPs; it does not
        refer to pronominal indexes.]
-    'N-pers,Pro' : >
-       [personal name (proper nouns which are personal names, but not toponyms, etc.)], [Pronouns. This
-       refers to free pronouns that head NPs; it does not refer to pronominal indexes.]
+    'N-inal,N-kin' : >
+       [inalienably possessed noun], [kin terms]
+    'Adp,N' : >
+       [Adposition], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)]
     '#ANY#' : >
        No known applicable condition
 

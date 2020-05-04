@@ -167,10 +167,10 @@ FinitenessRatio:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Finiteness'
-  N.levels : 10
-  N.entries : 83
-  N.languages : 25
-  N.missing : 19
+  N.levels : 11
+  N.entries : 84
+  N.languages : 26
+  N.missing : 18
 
 # ------ FinitenessSimplified ------
 FinitenessSimplified:

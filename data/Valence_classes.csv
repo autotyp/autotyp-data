@@ -1,22 +1,13 @@
 "LID","IndividualPredicateMeaning","PredicateSemanticMalchukovClass","ValClassLabel","ValClassDescription","ValClassDiscourseFreq","ValClassID","ValClassSize","PredicateSemanticClass"
-535,"feel_thirsty","Malch_sensation","SDAT","‘be thirsty’, ‘feel like laughing’, ‘to have fever’, ‘to have a headache’, ‘to be arrogant’,  ‘to feel fear’, ‘to feel irritation’, ‘to feel surprise’, 
-feel angry, feel shy (Amritavalli 2004)","infrequent",14,"medium (<20 verbs)","sensation"
-535,"feel_like_laughing","Malch_emotion","SDAT","‘be thirsty’, ‘feel like laughing’, ‘to have fever’, ‘to have a headache’, ‘to be arrogant’,  ‘to feel fear’, ‘to feel irritation’, ‘to feel surprise’, 
-feel angry, feel shy (Amritavalli 2004)","infrequent",14,"medium (<20 verbs)","emotion"
-535,"have_fever","Malch_sensation","SDAT","‘be thirsty’, ‘feel like laughing’, ‘to have fever’, ‘to have a headache’, ‘to be arrogant’,  ‘to feel fear’, ‘to feel irritation’, ‘to feel surprise’, 
-feel angry, feel shy (Amritavalli 2004)","infrequent",14,"medium (<20 verbs)","sensation"
-535,"have_a_headache","Malch_sensation","SDAT","‘be thirsty’, ‘feel like laughing’, ‘to have fever’, ‘to have a headache’, ‘to be arrogant’,  ‘to feel fear’, ‘to feel irritation’, ‘to feel surprise’, 
-feel angry, feel shy (Amritavalli 2004)","infrequent",14,"medium (<20 verbs)","diseases_and_bodily_states"
-535,"feel_fear","Malch_emotion","SDAT","‘be thirsty’, ‘feel like laughing’, ‘to have fever’, ‘to have a headache’, ‘to be arrogant’,  ‘to feel fear’, ‘to feel irritation’, ‘to feel surprise’, 
-feel angry, feel shy (Amritavalli 2004)","infrequent",14,"medium (<20 verbs)","emotion"
-535,"be_surprised","Malch_emotion","SDAT","‘be thirsty’, ‘feel like laughing’, ‘to have fever’, ‘to have a headache’, ‘to be arrogant’,  ‘to feel fear’, ‘to feel irritation’, ‘to feel surprise’, 
-feel angry, feel shy (Amritavalli 2004)","infrequent",14,"medium (<20 verbs)","emotion"
-535,"feel_ashamed_(of)","Malch_emotion","SDAT","‘be thirsty’, ‘feel like laughing’, ‘to have fever’, ‘to have a headache’, ‘to be arrogant’,  ‘to feel fear’, ‘to feel irritation’, ‘to feel surprise’, 
-feel angry, feel shy (Amritavalli 2004)","infrequent",14,"medium (<20 verbs)","emotion"
-535,"feel_irritated","Malch_emotion","SDAT","‘be thirsty’, ‘feel like laughing’, ‘to have fever’, ‘to have a headache’, ‘to be arrogant’,  ‘to feel fear’, ‘to feel irritation’, ‘to feel surprise’, 
-feel angry, feel shy (Amritavalli 2004)","infrequent",14,"medium (<20 verbs)","emotion"
-535,"be_angry_(with)","Malch_emotion","SDAT","‘be thirsty’, ‘feel like laughing’, ‘to have fever’, ‘to have a headache’, ‘to be arrogant’,  ‘to feel fear’, ‘to feel irritation’, ‘to feel surprise’, 
-feel angry, feel shy (Amritavalli 2004)","infrequent",14,"medium (<20 verbs)","emotion"
+535,"feel_thirsty","Malch_sensation","SDAT","‘be thirsty’, ‘feel like laughing’, ‘to have fever’, ‘to have a headache’, ‘to be arrogant’,  ‘to feel fear’, ‘to feel irritation’, ‘to feel surprise’, feel angry, feel shy (Amritavalli 2004)","infrequent",14,"medium (<20 verbs)","sensation"
+535,"feel_like_laughing","Malch_emotion","SDAT","‘be thirsty’, ‘feel like laughing’, ‘to have fever’, ‘to have a headache’, ‘to be arrogant’,  ‘to feel fear’, ‘to feel irritation’, ‘to feel surprise’, feel angry, feel shy (Amritavalli 2004)","infrequent",14,"medium (<20 verbs)","emotion"
+535,"have_fever","Malch_sensation","SDAT","‘be thirsty’, ‘feel like laughing’, ‘to have fever’, ‘to have a headache’, ‘to be arrogant’,  ‘to feel fear’, ‘to feel irritation’, ‘to feel surprise’, feel angry, feel shy (Amritavalli 2004)","infrequent",14,"medium (<20 verbs)","sensation"
+535,"have_a_headache","Malch_sensation","SDAT","‘be thirsty’, ‘feel like laughing’, ‘to have fever’, ‘to have a headache’, ‘to be arrogant’,  ‘to feel fear’, ‘to feel irritation’, ‘to feel surprise’, feel angry, feel shy (Amritavalli 2004)","infrequent",14,"medium (<20 verbs)","diseases_and_bodily_states"
+535,"feel_fear","Malch_emotion","SDAT","‘be thirsty’, ‘feel like laughing’, ‘to have fever’, ‘to have a headache’, ‘to be arrogant’,  ‘to feel fear’, ‘to feel irritation’, ‘to feel surprise’, feel angry, feel shy (Amritavalli 2004)","infrequent",14,"medium (<20 verbs)","emotion"
+535,"be_surprised","Malch_emotion","SDAT","‘be thirsty’, ‘feel like laughing’, ‘to have fever’, ‘to have a headache’, ‘to be arrogant’,  ‘to feel fear’, ‘to feel irritation’, ‘to feel surprise’, feel angry, feel shy (Amritavalli 2004)","infrequent",14,"medium (<20 verbs)","emotion"
+535,"feel_ashamed_(of)","Malch_emotion","SDAT","‘be thirsty’, ‘feel like laughing’, ‘to have fever’, ‘to have a headache’, ‘to be arrogant’,  ‘to feel fear’, ‘to feel irritation’, ‘to feel surprise’, feel angry, feel shy (Amritavalli 2004)","infrequent",14,"medium (<20 verbs)","emotion"
+535,"feel_irritated","Malch_emotion","SDAT","‘be thirsty’, ‘feel like laughing’, ‘to have fever’, ‘to have a headache’, ‘to be arrogant’,  ‘to feel fear’, ‘to feel irritation’, ‘to feel surprise’, feel angry, feel shy (Amritavalli 2004)","infrequent",14,"medium (<20 verbs)","emotion"
+535,"be_angry_(with)","Malch_emotion","SDAT","‘be thirsty’, ‘feel like laughing’, ‘to have fever’, ‘to have a headache’, ‘to be arrogant’,  ‘to feel fear’, ‘to feel irritation’, ‘to feel surprise’, feel angry, feel shy (Amritavalli 2004)","infrequent",14,"medium (<20 verbs)","emotion"
 387,"love","Malch_emotion","PDAT","‘like’, ‘be able’",,11,,"emotion"
 387,"be_able","Malch_other","PDAT","‘like’, ‘be able’",,11,,"ability"
 387,"be_known","Malch_other","ADAT","ceratin adjectival predicates, like ‘known, equal, necessary’",,15,,"quality"

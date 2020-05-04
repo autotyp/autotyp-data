@@ -8,8 +8,8 @@ AlignmentAequivalentS.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'AlignmentSAPTG'
-  N.entries : 260281
-  N.languages : 689
+  N.entries : 260896
+  N.languages : 696
   N.missing : 0
 
 # ------ AlignmentPTG ------
@@ -24,9 +24,9 @@ AlignmentPTG:
   DataType : 'categorical'
   VariantOf : 'AlignmentSAPTG'
   N.levels : 5
-  N.entries : 17245
-  N.languages : 388
-  N.missing : 243036
+  N.entries : 17247
+  N.languages : 389
+  N.missing : 243649
 
 # ------ AlignmentSAP ------
 AlignmentSAP:
@@ -40,8 +40,8 @@ AlignmentSAP:
   DataType : 'categorical'
   VariantOf : 'AlignmentSAPTG'
   N.levels : 5
-  N.entries : 260281
-  N.languages : 689
+  N.entries : 260896
+  N.languages : 696
   N.missing : 0
 
 # ------ AlignmentSAPTG ------
@@ -56,9 +56,9 @@ AlignmentSAPTG:
   DataType : 'categorical'
   VariantOf : 'AlignmentSAPTG'
   N.levels : 155
-  N.entries : 17245
-  N.languages : 388
-  N.missing : 243036
+  N.entries : 17247
+  N.languages : 389
+  N.missing : 243649
 
 # ------ AlignmentValClassCondition.binned.default ------
 AlignmentValClassCondition.binned.default:
@@ -70,9 +70,9 @@ AlignmentValClassCondition.binned.default:
   VariableType : 'condition'
   DataType : 'logical'
   VariantOf : 'AlignmentValClassCondition'
-  N.entries : 18636
-  N.languages : 688
-  N.missing : 241645
+  N.entries : 18654
+  N.languages : 695
+  N.missing : 242242
 
 # ------ AlignmentDiathesisCondition ------
 AlignmentDiathesisCondition:
@@ -84,8 +84,8 @@ AlignmentDiathesisCondition:
   DataType : 'categorical'
   VariantOf : 'AlignmentDiathesisCondition'
   N.levels : 2
-  N.entries : 260277
-  N.languages : 689
+  N.entries : 260892
+  N.languages : 696
   N.missing : 0
 
 # ------ AlignmentDomainCondition ------
@@ -101,7 +101,7 @@ AlignmentDomainCondition:
   VariantOf : 'AlignmentDomainCondition'
   N.levels : 24
   N.entries : 142
-  N.languages : 689
+  N.languages : 696
   N.missing : 0
   Levels : 
     '9_notVA' : >
@@ -167,9 +167,9 @@ AlignmentGequivalentP.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'AlignmentSAPTG'
-  N.entries : 17245
-  N.languages : 388
-  N.missing : 243036
+  N.entries : 17247
+  N.languages : 389
+  N.missing : 243649
 
 # ------ AlignmentSelector ------
 AlignmentSelector:
@@ -185,8 +185,8 @@ AlignmentSelector:
   DataType : 'categorical'
   VariantOf : 'AlignmentSelector'
   N.levels : 3
-  N.entries : 260281
-  N.languages : 689
+  N.entries : 260896
+  N.languages : 696
   N.missing : 0
 
 # ------ AlignmentPequivalentS.Presence ------
@@ -199,8 +199,8 @@ AlignmentPequivalentS.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'AlignmentSAPTG'
-  N.entries : 260281
-  N.languages : 689
+  N.entries : 260896
+  N.languages : 696
   N.missing : 0
 
 # ------ AlignmentPolarityCondition ------
@@ -214,7 +214,7 @@ AlignmentPolarityCondition:
   VariantOf : 'AlignmentPolarityCondition'
   N.levels : 2
   N.entries : 126310
-  N.languages : 689
+  N.languages : 696
   N.missing : 0
 
 # ------ AlignmentRefCondition ------
@@ -228,8 +228,8 @@ AlignmentRefCondition:
   DataType : 'categorical'
   VariantOf : 'AlignmentRefCondition'
   N.levels : 218
-  N.entries : 260281
-  N.languages : 689
+  N.entries : 260896
+  N.languages : 696
   N.missing : 0
   Levels : 
     '#ANY#' : >
@@ -732,9 +732,9 @@ AlignmentValClassCondition:
   VariableType : 'condition'
   DataType : 'categorical'
   VariantOf : 'AlignmentValClassCondition'
-  N.levels : 2539
-  N.entries : 18636
-  N.languages : 689
+  N.levels : 2540
+  N.entries : 18654
+  N.languages : 696
   N.missing : 0
 
 # ------ AlignmentRankCondition ------
@@ -747,8 +747,8 @@ AlignmentRankCondition:
   DataType : 'categorical'
   VariantOf : 'AlignmentRankCondition'
   N.levels : 3
-  N.entries : 156411
-  N.languages : 689
+  N.entries : 157028
+  N.languages : 696
   N.missing : 0
 
 # ------ AlignmentMarkerSlot ------
@@ -762,8 +762,8 @@ AlignmentMarkerSlot:
   DataType : 'categorical'
   VariantOf : 'AlignmentMarkerSlot'
   N.levels : 48
-  N.entries : 238513
-  N.languages : 689
+  N.entries : 239101
+  N.languages : 696
   N.missing : 0
 
 # ------ AlignmentTequivalentP.Presence ------
@@ -776,9 +776,9 @@ AlignmentTequivalentP.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'AlignmentSAPTG'
-  N.entries : 17245
-  N.languages : 388
-  N.missing : 243036
+  N.entries : 17247
+  N.languages : 389
+  N.missing : 243649
 
 # ------ AlignmentCatCondition ------
 AlignmentCatCondition:
@@ -791,7 +791,7 @@ AlignmentCatCondition:
   VariantOf : 'AlignmentCatCondition'
   N.levels : 151
   N.entries : 240109
-  N.languages : 689
+  N.languages : 696
   N.missing : 0
   Levels : 
     '21_IPFV' : >
@@ -828,14 +828,14 @@ AlignmentCatCondition:
        PTCP_based
     '159_PFV' : >
        perfective
-    '169_CONV' : >
-       CONV
-    '169_INF' : >
-       INF
-    '2797_FIN' : >
-       final verb
     '169_PTCP' : >
        PTCP
+    '169_CONV' : >
+       CONV
+    '2797_FIN' : >
+       final verb
+    '169_INF' : >
+       INF
     '299_NONSNPST' : >
        all tenses apart from simple non-past
     '299_SNPST' : >
@@ -934,10 +934,10 @@ AlignmentCatCondition:
        perfective aspect
     '1439_NPST.IND' : >
        non-past indicative
-    '1528_COMPL/NEUT' : >
-       COMPL and NEUT aspect
     '1528_CONT/POT' : >
        CONT and POTential aspect
+    '1528_COMPL/NEUT' : >
+       COMPL and NEUT aspect
     '1577_VIS' : >
        visual evidentiality
     '1660_COMPL' : >
@@ -968,10 +968,10 @@ AlignmentCatCondition:
        non past
     '2063_PST' : >
        past
-    '2081_PTCP' : >
-       PTCP based
     '2081_NPTCP' : >
        non-PTCP based
+    '2081_PTCP' : >
+       PTCP based
     '2148_OBL' : >
        obligative mood
     '2148_NOBL' : >
@@ -1004,14 +1004,14 @@ AlignmentCatCondition:
        non-PTCP based
     '2681_PTCP' : >
        PTCP based
-    '2706_NFIN' : >
-       non-final verb
     '2706_FIN' : >
        final verb
-    '2761_PTCP' : >
-       PTCP based
+    '2706_NFIN' : >
+       non-final verb
     '2761_NPTCP' : >
        non-PTCP based
+    '2761_PTCP' : >
+       PTCP based
     '2772_IMPFV' : >
        imperfective
     '2772_PFV' : >
@@ -1026,14 +1026,14 @@ AlignmentCatCondition:
        non-PTCP based
     '2883_PTCP' : >
        PTCP based
-    '2886_PTCP' : >
-       PTCP based
     '2886_NPTCP' : >
        non-PTCP based
-    '2918_NPTCP' : >
-       non-PTCP based
+    '2886_PTCP' : >
+       PTCP based
     '2918_PTCP' : >
        PTCP based
+    '2918_NPTCP' : >
+       non-PTCP based
     '2919_NPTCP' : >
        non-PTCP based
     '2919_PTCP' : >
@@ -1054,14 +1054,14 @@ AlignmentCatCondition:
        non-PTCP based
     '2925_PTCP' : >
        PTCP based
-    '2927_PTCP' : >
-       PTCP based
     '2927_NPTCP' : >
        non-PTCP based
-    '2929_NPTCP' : >
-       non-PTCP based
+    '2927_PTCP' : >
+       PTCP based
     '2929_PTCP' : >
        PTCP based
+    '2929_NPTCP' : >
+       non-PTCP based
     '2930_FIN' : >
        final verb
     '2956_NPST.IND' : >
@@ -1110,8 +1110,8 @@ AlignmentRefCoArgA:
   DataType : 'categorical'
   VariantOf : 'AlignmentRefCoArgA'
   N.levels : 29
-  N.entries : 241645
-  N.languages : 689
+  N.entries : 242242
+  N.languages : 696
   N.missing : 0
   Levels : 
     '2sg' : >
@@ -1191,9 +1191,9 @@ AlignmentMarker.overt:
   DataType : 'categorical'
   VariantOf : 'AlignmentMarker.overt'
   N.levels : 2 # NA,overt,zero
-  N.entries : 241645
-  N.languages : 160
-  N.missing : 18636
+  N.entries : 242242
+  N.languages : 163
+  N.missing : 18654
 
 # ------ AlignmentRefCoArgP ------
 AlignmentRefCoArgP:
@@ -1206,8 +1206,8 @@ AlignmentRefCoArgP:
   DataType : 'categorical'
   VariantOf : 'AlignmentRefCoArgP'
   N.levels : 29
-  N.entries : 241645
-  N.languages : 689
+  N.entries : 242242
+  N.languages : 696
   N.missing : 0
   Levels : 
     '2sg' : >

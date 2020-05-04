@@ -9,14 +9,15 @@ VInflClassification.Position.binned4:
   DataType : 'categorical'
   VariantOf : 'VInflClassification.Position.binned4'
   N.levels : 2
-  N.entries : 6
-  N.languages : 6
-  N.missing : 313
+  N.entries : 4
+  N.languages : 4
+  N.missing : 442
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
        exceptional conditions (typically lexical)], [after the phonological host by default, around the
@@ -36,9 +37,9 @@ VInflEvidential.Position.binned4:
   DataType : 'categorical'
   VariantOf : 'VInflEvidential.Position.binned4'
   N.levels : 1
-  N.entries : 22
-  N.languages : 22
-  N.missing : 297
+  N.entries : 35
+  N.languages : 35
+  N.missing : 411
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -59,9 +60,9 @@ VInflInter_clausal.Position.binned4:
   DataType : 'categorical'
   VariantOf : 'VInflInter_clausal.Position.binned4'
   N.levels : 3
-  N.entries : 15
-  N.languages : 15
-  N.missing : 304
+  N.entries : 18
+  N.languages : 18
+  N.missing : 428
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -71,7 +72,8 @@ VInflInter_clausal.Position.binned4:
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'split' : >
        [either before or after the phonological host, conditioned by some structural context (category,
        syntax etc.)], [either inside or before the phonological host, conditioned by some structural
@@ -99,20 +101,31 @@ VInflNP_related.Position.binned4:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'VInflNP_related.Position.binned4'
-  N.levels : 2
-  N.entries : 5
-  N.languages : 5
-  N.missing : 314
+  N.levels : 3
+  N.entries : 9
+  N.languages : 9
+  N.missing : 437
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
        exceptional conditions (typically lexical)], [after the phonological host by default, around the
        host under exceptional conditions (typically lexical)], [after the phonological host by default,
        inside the host under exceptional conditions (typically lexical)]
+    'in/simul' : >
+       [inside the phonological host], [the formative has two exponents at different positions in the
+       phonological host (but it is not the case that one is positioned before and the other after the
+       host, which is coded as “circum”)], [the formative has two exponents, one before and one after
+       the phonological host. This is a special case of the “simul” position], [inside the phonological
+       host by default, after the host under exceptional conditions (typically lexical)], [around the
+       phonological host by default, before the host under exceptional conditions (typically lexical)],
+       [around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)], [in two or more different positions in (but not around) the phonological host by default,
+       before the host under exceptional conditions (typically lexical)]
   Notes : >
      For the definition of macrocategory "NP_related", see the metadata for VInflCat in Synthesis
 
@@ -127,9 +140,9 @@ VInflNumber.Position.binned4:
   DataType : 'categorical'
   VariantOf : 'VInflNumber.Position.binned4'
   N.levels : 4
-  N.entries : 96
-  N.languages : 87
-  N.missing : 223
+  N.entries : 107
+  N.languages : 96
+  N.missing : 339
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -139,7 +152,8 @@ VInflNumber.Position.binned4:
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'split' : >
        [either before or after the phonological host, conditioned by some structural context (category,
        syntax etc.)], [either inside or before the phonological host, conditioned by some structural
@@ -178,9 +192,9 @@ VInflOperators.Position.binned4:
   DataType : 'categorical'
   VariantOf : 'VInflOperators.Position.binned4'
   N.levels : 4
-  N.entries : 90
-  N.languages : 90
-  N.missing : 229
+  N.entries : 171
+  N.languages : 171
+  N.missing : 275
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -190,7 +204,8 @@ VInflOperators.Position.binned4:
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'in/simul' : >
        [inside the phonological host], [the formative has two exponents at different positions in the
        phonological host (but it is not the case that one is positioned before and the other after the
@@ -229,9 +244,9 @@ VInflPerson.Position.binned4:
   DataType : 'categorical'
   VariantOf : 'VInflPerson.Position.binned4'
   N.levels : 2
-  N.entries : 6
-  N.languages : 6
-  N.missing : 313
+  N.entries : 4
+  N.languages : 4
+  N.missing : 442
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -241,7 +256,8 @@ VInflPerson.Position.binned4:
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
   Notes : >
      For the definition of macrocategory "person", see the metadata for VInflCat in Synthesis
 
@@ -255,49 +271,33 @@ VInflPragmatic.Position.binned4:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'VInflPragmatic.Position.binned4'
-  N.levels : 2
-  N.entries : 48
-  N.languages : 46
-  N.missing : 271
+  N.levels : 3
+  N.entries : 80
+  N.languages : 76
+  N.missing : 366
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
        exceptional conditions (typically lexical)], [after the phonological host by default, around the
        host under exceptional conditions (typically lexical)], [after the phonological host by default,
        inside the host under exceptional conditions (typically lexical)]
+    'in/simul' : >
+       [inside the phonological host], [the formative has two exponents at different positions in the
+       phonological host (but it is not the case that one is positioned before and the other after the
+       host, which is coded as “circum”)], [the formative has two exponents, one before and one after
+       the phonological host. This is a special case of the “simul” position], [inside the phonological
+       host by default, after the host under exceptional conditions (typically lexical)], [around the
+       phonological host by default, before the host under exceptional conditions (typically lexical)],
+       [around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)], [in two or more different positions in (but not around) the phonological host by default,
+       before the host under exceptional conditions (typically lexical)]
   Notes : >
      For the definition of macrocategory "pragmatic", see the metadata for VInflCat in Synthesis
-
-# ------ VInflPragmatics.Position.binned4 ------
-VInflPragmatics.Position.binned4:
-  Description : >
-     Position of separate markers of macrocategory "pragmatics' (cf. Bickel & Nichols 2005 Inflectional
-     Synthesis of the Verb, in WALS)
-  SetUp : 'single aggregated entry per language'
-  DataEntry : 'derived'
-  VariableType : 'data'
-  DataType : 'categorical'
-  VariantOf : 'VInflPragmatics.Position.binned4'
-  N.levels : 2
-  N.entries : 7
-  N.languages : 7
-  N.missing : 312
-  Levels : 
-    'post' : >
-       [after the phonological host], [after the phonological host by default, before the host under
-       exceptional conditions (typically lexical)], [after the phonological host by default, around the
-       host under exceptional conditions (typically lexical)], [after the phonological host by default,
-       inside the host under exceptional conditions (typically lexical)]
-    'prae' : >
-       [before the phonological host], [before the phonological host by default, around the host under
-       exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
-  Notes : >
-     For the definition of macrocategory "pragmatics", see the metadata for VInflCat in Synthesis
 
 # ------ VInflRole.Position.binned4 ------
 VInflRole.Position.binned4:
@@ -309,15 +309,20 @@ VInflRole.Position.binned4:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'VInflRole.Position.binned4'
-  N.levels : 1
-  N.entries : 2
-  N.languages : 2
-  N.missing : 317
+  N.levels : 2
+  N.entries : 7
+  N.languages : 7
+  N.missing : 439
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
        exceptional conditions (typically lexical)], [after the phonological host by default, around the
        host under exceptional conditions (typically lexical)], [after the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
+    'prae' : >
+       [before the phonological host], [before the phonological host by default, around the host under
+       exceptional conditions (typically lexical)], [before the phonological host by default, after the
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
        inside the host under exceptional conditions (typically lexical)]
   Notes : >
      For the definition of macrocategory "role", see the metadata for VInflCat in Synthesis
@@ -333,9 +338,9 @@ VInflTAM.Position.binned4:
   DataType : 'categorical'
   VariantOf : 'VInflTAM.Position.binned4'
   N.levels : 4
-  N.entries : 293
-  N.languages : 227
-  N.missing : 26
+  N.entries : 412
+  N.languages : 320
+  N.missing : 34
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -359,7 +364,8 @@ VInflTAM.Position.binned4:
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'in/simul' : >
        [inside the phonological host], [the formative has two exponents at different positions in the
        phonological host (but it is not the case that one is positioned before and the other after the
@@ -384,14 +390,15 @@ VInflValence.Position.binned4:
   DataType : 'categorical'
   VariantOf : 'VInflValence.Position.binned4'
   N.levels : 4
-  N.entries : 143
-  N.languages : 124
-  N.missing : 176
+  N.entries : 186
+  N.languages : 162
+  N.missing : 260
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
        exceptional conditions (typically lexical)], [after the phonological host by default, around the

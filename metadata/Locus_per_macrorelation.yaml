@@ -9,10 +9,10 @@ LocusMacrorelationsRelation.binned6:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'LocusMacrorelationsRelation'
-  N.levels : 6
-  N.entries : 1443
+  N.levels : 8
+  N.entries : 1455
   N.languages : 330
-  N.missing : 26
+  N.missing : 14
   Levels : 
     'D' : >
        [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking that is available
@@ -44,6 +44,8 @@ LocusMacrorelationsRelation.binned6:
        [Free or floating, including particles or similar in phrase-second position (Wackernagel position),
        e.g. Tagalog ‘linkers’], [Floating, under limited circumstances (e.g. Yagua DOM by floating agreement
        with definite noun)]
+    'n.d.' : >
+       No information available.
     'D on H' : >
        [Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where
        nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the
@@ -56,6 +58,10 @@ LocusMacrorelationsRelation.binned6:
        and leaves no place for an independent NP to show up in the same clausal core.], [Head marking
        (construct state type, i.e. registers a dependent but does not index its properties) plus headward-migrated
        dependent-marked pronouns]
+    'n/a' : >
+       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
+       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
+       marker])]
 
 # ------ LocusMacrorelations ------
 LocusMacrorelations:
@@ -67,10 +73,10 @@ LocusMacrorelations:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'LocusMacrorelations'
-  N.levels : 27
-  N.entries : 1452
+  N.levels : 29
+  N.entries : 1459
   N.languages : 330
-  N.missing : 17
+  N.missing : 10
   Levels : 
     'D' : >
        On dependent. For zero formative on dependent, code as Ø.
@@ -102,6 +108,8 @@ LocusMacrorelations:
     'd' : >
        Dependent marking that is available only on a limited set of NPs or under specific morphosyntactic
        conditions as noted.
+    '<n.d.>' : >
+       No information available.
     'H+d' : >
        Head marking is dominant. Additional dependent marking with some NPs or under specific morphosyntactic
        conditions as noted.
@@ -142,6 +150,9 @@ LocusMacrorelations:
        Head plus floating
     'H’' : >
        NP-internal head in a modifier-headed agreement pattern
+    '<?>' : >
+       Uncertain data (usually with possessive relators that could be F [=linker], D [=case] or H [=construct
+       state marker])
     'H/F' : >
        Split, head or floating. E.g. Halkomelem (Galloway 1984:179): possessive 1sg is F, 3sg is H.
 
@@ -222,10 +233,10 @@ LocusMacrorelations.binned5:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'LocusMacrorelations'
-  N.levels : 5
-  N.entries : 1447
+  N.levels : 6
+  N.entries : 1459
   N.languages : 330
-  N.missing : 22
+  N.missing : 10
   Levels : 
     'D' : >
        [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking is dominant. Additional
@@ -269,4 +280,8 @@ LocusMacrorelations.binned5:
        dependent-marked pronouns], [Clitic doubling, where the argument is D-marked and is doubled by
        a D-marked pronominal on the verb.], [Floating, under limited circumstances (e.g. Yagua DOM by
        floating agreement with definite noun)], [Floating plus restricted dependent marking.]
+    'n/a' : >
+       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
+       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
+       marker])], [No information available.]
 

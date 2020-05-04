@@ -7,8 +7,8 @@ VAgrA.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VAgrA.Presence'
-  N.entries : 277
-  N.languages : 277
+  N.entries : 338
+  N.languages : 338
   N.missing : 18
   Notes : >
      For the definition of "A", see the metadata for Relation in LocusMacrorelations
@@ -22,9 +22,9 @@ VAgrP.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VAgrP.Presence'
-  N.entries : 246
-  N.languages : 246
-  N.missing : 49
+  N.entries : 311
+  N.languages : 311
+  N.missing : 45
   Notes : >
      For the definition of "P", see the metadata for Relation in LocusMacrorelations
 
@@ -38,9 +38,9 @@ VAgrPOSS.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VAgrPOSS.Presence'
-  N.entries : 116
-  N.languages : 116
-  N.missing : 179
+  N.entries : 184
+  N.languages : 184
+  N.missing : 172
   Notes : >
      For the definition of "POSS", see the metadata for Relation in LocusMacrorelations
 

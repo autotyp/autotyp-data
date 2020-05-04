@@ -7,9 +7,9 @@ VAgrA.Pre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VAgrA.Pre.Presence'
-  N.entries : 252
-  N.languages : 250
-  N.missing : 30
+  N.entries : 313
+  N.languages : 311
+  N.missing : 31
   Notes : >
      For the definition of macrorole "A", see the metadata for Relation in LocusMacrorelations; for the
      definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
@@ -23,9 +23,9 @@ VAgrP.Pre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VAgrP.Pre.Presence'
-  N.entries : 201
-  N.languages : 194
-  N.missing : 81
+  N.entries : 235
+  N.languages : 228
+  N.missing : 109
   Notes : >
      For the definition of macrorole "P", see the metadata for Relation in LocusMacrorelations; for the
      definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
@@ -40,9 +40,9 @@ VAgrPOSS.Pre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VAgrPOSS.Pre.Presence'
-  N.entries : 3
-  N.languages : 3
-  N.missing : 279
+  N.entries : 4
+  N.languages : 4
+  N.missing : 340
   Notes : >
      For the definition of macrorole "POSS", see the metadata for Relation in LocusMacrorelations; for
      the definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers

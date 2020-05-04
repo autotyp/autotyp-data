@@ -8,14 +8,15 @@ VAgrA.Position.binned4:
   DataType : 'categorical'
   VariantOf : 'VAgrA.Position.binned4'
   N.levels : 4
-  N.entries : 252
-  N.languages : 250
-  N.missing : 30
+  N.entries : 313
+  N.languages : 311
+  N.missing : 31
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
        exceptional conditions (typically lexical)], [after the phonological host by default, around the
@@ -58,14 +59,15 @@ VAgrP.Position.binned4:
   DataType : 'categorical'
   VariantOf : 'VAgrP.Position.binned4'
   N.levels : 4
-  N.entries : 201
-  N.languages : 194
-  N.missing : 81
+  N.entries : 235
+  N.languages : 228
+  N.missing : 109
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
        exceptional conditions (typically lexical)], [after the phonological host by default, around the
@@ -107,20 +109,35 @@ VAgrPOSS.Position.binned4:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'VAgrPOSS.Position.binned4'
-  N.levels : 2
-  N.entries : 3
-  N.languages : 3
-  N.missing : 279
+  N.levels : 3
+  N.entries : 4
+  N.languages : 4
+  N.missing : 340
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
        exceptional conditions (typically lexical)], [after the phonological host by default, around the
        host under exceptional conditions (typically lexical)], [after the phonological host by default,
        inside the host under exceptional conditions (typically lexical)]
+    'split' : >
+       [either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either inside or before the phonological host, conditioned by some structural
+       context (category, syntax etc.)], [either inside or after the phonological host, conditioned by
+       some structural context (category, syntax etc.)], [either before or around the phonological host,
+       conditioned by some structural context (category, syntax etc.)], [either before, after or around
+       the phonological host, conditioned by some structural context (category, syntax etc.)], [either
+       before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either before, after or in two or more positions in the phonological host, conditioned
+       by some structural context (category, syntax etc.)], [either before, after, inside or around the
+       phonological host, conditioned by some structural context (category, syntax etc.)], [either after
+       or around the phonological host, conditioned by some structural context (category, syntax etc.)],
+       [either before or inside the phonological host, conditioned by some structural context (category,
+       syntax etc.)]
   Notes : >
      For the definition of macrorole "POSS", see the metadata for Relation in LocusMacrorelations
 
