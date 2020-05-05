@@ -13,7 +13,7 @@
 
 - Grammatical_markers:
 
-  - `Exponence` field is not a seminolon-separated contatenation of feature values, the values 
+  - `Exponence` field is now a seminolon-separated contatenation of feature values, the values 
     are now pre-sorted 
   - New language descriptions added: vá-Canoeiro, Cocama, Guajá, Guarayu, Kaiwá, Kayabí, 
     Pai Tavytera, Parakanã, Tocantins Asurini, Wayampi
