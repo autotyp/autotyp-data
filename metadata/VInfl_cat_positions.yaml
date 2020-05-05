@@ -422,18 +422,16 @@ VInflMood.Position:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'VInflMood.Position'
-  N.levels : 5
-  N.entries : 78
-  N.languages : 77
-  N.missing : 289
+  N.levels : 4
+  N.entries : 77
+  N.languages : 76
+  N.missing : 290
   Levels : 
     'post' : >
        after the phonological host
     'prae/post' : >
        either before or after the phonological host, conditioned by some structural context (category,
        syntax etc.)
-    'n/a' : >
-       not applicable because an element’s position is defined only with respect to grammatical words
     'post (in)' : >
        after the phonological host by default, inside the host under exceptional conditions (typically
        lexical)
@@ -569,10 +567,10 @@ VInflPolarity.Position:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'VInflPolarity.Position'
-  N.levels : 13
-  N.entries : 172
-  N.languages : 172
-  N.missing : 195
+  N.levels : 12
+  N.entries : 171
+  N.languages : 171
+  N.missing : 196
   Levels : 
     'post' : >
        after the phonological host
@@ -604,8 +602,6 @@ VInflPolarity.Position:
     'post/prae (simul)' : >
        either before, after or in two or more positions in the phonological host, conditioned by some
        structural context (category, syntax etc.)
-    'n/a' : >
-       not applicable because an element’s position is defined only with respect to grammatical words
     'prae/circum' : >
        either before or around the phonological host, conditioned by some structural context (category,
        syntax etc.)
@@ -1012,10 +1008,10 @@ VInflTense.Position:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'VInflTense.Position'
-  N.levels : 6
-  N.entries : 110
-  N.languages : 106
-  N.missing : 257
+  N.levels : 5
+  N.entries : 109
+  N.languages : 105
+  N.missing : 258
   Levels : 
     'post' : >
        after the phonological host
@@ -1027,8 +1023,6 @@ VInflTense.Position:
     'post (in)' : >
        after the phonological host by default, inside the host under exceptional conditions (typically
        lexical)
-    'n/a' : >
-       not applicable because an element’s position is defined only with respect to grammatical words
     'in/post' : >
        either inside or after the phonological host, conditioned by some structural context (category,
        syntax etc.)

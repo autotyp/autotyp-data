@@ -89,7 +89,7 @@
 212,,,"Aktionsart,Deixis,Number,Tense,Voice","number,pragmatic,TAM+,valence",8,6,"medium","medium",9,8,"medium",FALSE,"distributive",,,FALSE,FALSE,,"A-default,U-default",17,,"medium",,
 55,FALSE,,"Aktionsart,Number,Polarity,Symmetrical_voice,Tense","number,operators,pragmatic,TAM+",7,5,"low","medium",7,5,"medium",FALSE,"separative",,,TRUE,TRUE,,"A-default,U-default",14,,"medium",,
 1531,TRUE,,"Connective,Polarity,TAM,Voice","inter-clausal,operators,TAM+,valence",6,4,,"medium",,,,FALSE,,,,TRUE,TRUE,FALSE,"S-default,U-default",,,,,
-68,TRUE,,"Deixis,n/a,Reflexive_and_Reciprocal,Semistem,Tense","other,pragmatic,TAM+,valence",7,5,"low","medium",5,3,"low",FALSE,"cumulative",,,TRUE,TRUE,,"A-default,U-default",12,,"medium",,
+68,TRUE,,"Deixis,Reflexive_and_Reciprocal,Semistem,Tense","other,pragmatic,TAM+,valence",7,5,"low","medium",5,3,"low",FALSE,"cumulative",,,TRUE,TRUE,,"A-default,U-default",12,,"medium",,
 3278,TRUE,FALSE,"Direction,MA,Mood,Polarity","operators,role,TAM+",6,4,"low","medium",5,4,"low",TRUE,"cumulative",TRUE,TRUE,FALSE,TRUE,TRUE,"A-default,U-default",11,TRUE,"low",TRUE,FALSE
 202,,,"Aspect,Connective,Number,Polarity,TM","inter-clausal,number,operators,TAM+",9,6,"medium","medium",10,7,"medium",FALSE,"cumulative",,,TRUE,TRUE,,"A-default,B-default,U-default",19,,"medium",,
 332,,,"Number,TAM","number,TAM+",4,,,"low",4,,"low",FALSE,"separative",,,TRUE,TRUE,,"A-default,U-default",8,,"low",,
@@ -288,7 +288,7 @@
 495,,FALSE,"Tense,Valence,Voice","TAM+,valence",4,,,"low",5,,"low",FALSE,"distributive",,TRUE,TRUE,TRUE,TRUE,"A-default",9,TRUE,"low",,
 2577,,TRUE,"Aspect,Causative,Evidential,Polarity,Semistem,TAM","evidential,operators,other,TAM+,valence",7,6,"low","medium",6,5,"low",FALSE,"cumulative",,,FALSE,FALSE,,"U-default",13,,"medium",,
 3272,TRUE,FALSE,"Aspect,Polarity","operators,TAM+",3,2,"low","low",3,2,"low",FALSE,"separative",,TRUE,FALSE,FALSE,,"A-default",6,TRUE,"low",,
-3143,FALSE,,"Applicative,Causative,Deixis,n/a,RECIP,Reflexive,Spatial,Status","event-specs,pragmatic,TAM+,valence",9,8,"medium","medium",9,8,"medium",FALSE,"separative",,,FALSE,FALSE,,"A-default",18,,"medium",,
+3143,FALSE,,"Applicative,Causative,Deixis,RECIP,Reflexive,Spatial,Status","event-specs,pragmatic,TAM+,valence",9,8,"medium","medium",9,8,"medium",FALSE,"separative",,,FALSE,FALSE,,"A-default",18,,"medium",,
 2900,TRUE,FALSE,"Causative,Mood,TAM","TAM+,valence",4,3,"low","low",4,3,"low",FALSE,"separative",,FALSE,FALSE,FALSE,FALSE,"A-default",8,,"low",,
 1840,FALSE,,"Aspect,Evidential,Polarity,TM","evidential,operators,TAM+",5,4,"low","medium",4,3,"low",FALSE,"cumulative",,,TRUE,TRUE,,"U-default",9,,"low",,
 361,FALSE,FALSE,"MTN,Tense,Voice","TAM+,valence",5,,,"medium",12,,"medium",FALSE,"cumulative",,,,,TRUE,"A-default,U-default",17,TRUE,"medium",,

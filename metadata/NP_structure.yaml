@@ -7,10 +7,10 @@ NPAgrCat:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'NPAgrCat'
-  N.levels : 15
+  N.levels : 14
   N.entries : 1038
   N.languages : 92
-  N.missing : 899
+  N.missing : 900
   Levels : 
     'Gender,Number,Person' : >
        [Agreement category involving noun classification. Usually covert on nouns; overt on agreeing
@@ -62,7 +62,6 @@ NPAgrCat:
        NP doesn’t have specific reference, changes the syntactic role the NP is in.]
     'Number' : >
        Singular, plural, sometimes others. Other than in role agreement.
-    'n/a' : >
     'Person' : >
        1st, 2nd, 3rd person (and sometimes others), i.e. noun or pronoun referents defined as speaker/hearer/neither.
     'Role' : >

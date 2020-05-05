@@ -7,10 +7,10 @@ LocusA.binned6:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'LocusA'
-  N.levels : 7
-  N.entries : 328
-  N.languages : 328
-  N.missing : 2
+  N.levels : 6
+  N.entries : 327
+  N.languages : 327
+  N.missing : 3
   Levels : 
     'Ø' : >
        No marking
@@ -54,10 +54,6 @@ LocusA.binned6:
        and leaves no place for an independent NP to show up in the same clausal core.], [Head marking
        (construct state type, i.e. registers a dependent but does not index its properties) plus headward-migrated
        dependent-marked pronouns]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])]
   Notes : >
      For the definition of the relevant role, see the metadata for LocusMacrorelationRelation in Locus_per_macrorelation
 
@@ -70,10 +66,10 @@ Locus.A.default.binned6:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus.A.default'
-  N.levels : 7
-  N.entries : 326
-  N.languages : 326
-  N.missing : 4
+  N.levels : 6
+  N.entries : 325
+  N.languages : 325
+  N.missing : 5
   Levels : 
     'Ø' : >
        No marking
@@ -117,10 +113,6 @@ Locus.A.default.binned6:
        and leaves no place for an independent NP to show up in the same clausal core.], [Head marking
        (construct state type, i.e. registers a dependent but does not index its properties) plus headward-migrated
        dependent-marked pronouns]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])]
   Notes : >
      For the definition of the relevant role, see the metadata for LocusMicrorelationsRelation in Locus_per_microrelation
 
@@ -392,10 +384,10 @@ Locus.ATTR.default.binned6:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus.ATTR.default'
-  N.levels : 7
-  N.entries : 161
-  N.languages : 161
-  N.missing : 169
+  N.levels : 5
+  N.entries : 154
+  N.languages : 154
+  N.missing : 176
   Levels : 
     'Ø' : >
        No marking
@@ -410,8 +402,6 @@ Locus.ATTR.default.binned6:
        form of pronoun) plus head-driven agreement (dependent agreeing with head).], [Same as DD but
        with the additional formative or category restricted to some possessors only (e.g. pronouns only:
        German; contrast Hindi, where all possessors show head-driven agreement)]
-    'n.d.' : >
-       No information available.
     '2' : >
        [Simultaneously (or mostly simultaneously) on head and dependent], [Simultaneously (or mostly
        simultaneously) detached and on dependent (e.g. an argument role is marked by both a Wackernagel
@@ -429,10 +419,6 @@ Locus.ATTR.default.binned6:
        have restricted distribution.], [NP-internal head in a modifier-headed agreement pattern], [Head
        plus floating], [Possessor promoted to verb argument (external possession), and indexed or registered
        on verb. Example: Registered in Nez Perce (Rude, U. Ore. diss. 1985:199ff.).]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])]
   Notes : >
      For the definition of the relevant role, see the metadata for LocusMicrorelationsRelation in Locus_per_microrelation
 
@@ -506,10 +492,10 @@ Locus.B.default.binned6:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus.B.default'
-  N.levels : 8
-  N.entries : 203
-  N.languages : 203
-  N.missing : 127
+  N.levels : 6
+  N.entries : 196
+  N.languages : 196
+  N.missing : 134
   Levels : 
     'D' : >
        [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking that is available
@@ -537,12 +523,6 @@ Locus.B.default.binned6:
        [Simultaneously on head and dependent, both with restrictions.], [Two head marks (one restricted)
        plus one dependent.], [Two restricted H markers and one restricted D marker.], [Floating plus
        restricted dependent marking.]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])]
-    'n.d.' : >
-       No information available.
     'D on H' : >
        [Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where
        nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the
@@ -757,10 +737,10 @@ LocusP.binned6:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'LocusP'
-  N.levels : 7
-  N.entries : 328
-  N.languages : 328
-  N.missing : 2
+  N.levels : 6
+  N.entries : 325
+  N.languages : 325
+  N.missing : 5
   Levels : 
     'D' : >
        [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking that is available
@@ -804,10 +784,6 @@ LocusP.binned6:
        [Free or floating, including particles or similar in phrase-second position (Wackernagel position),
        e.g. Tagalog ‘linkers’], [Floating, under limited circumstances (e.g. Yagua DOM by floating agreement
        with definite noun)]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])]
   Notes : >
      For the definition of the relevant role, see the metadata for LocusMacrorelationRelation in Locus_per_macrorelation
 
@@ -1169,10 +1145,10 @@ Locus.POSS.default.elsewhere.binned6:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus.POSS.default.elsewhere'
-  N.levels : 7
-  N.entries : 65
-  N.languages : 65
-  N.missing : 265
+  N.levels : 6
+  N.entries : 64
+  N.languages : 64
+  N.missing : 266
   Levels : 
     'H' : >
        [On head.], [Head marking that is available only on a limited set of NPs or under specific morphosyntactic
@@ -1216,10 +1192,6 @@ Locus.POSS.default.elsewhere.binned6:
        [Free or floating, including particles or similar in phrase-second position (Wackernagel position),
        e.g. Tagalog ‘linkers’], [Floating, under limited circumstances (e.g. Yagua DOM by floating agreement
        with definite noun)]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])]
   Notes : >
      For the definition of the relevant role and the category conditions, see the metadata for LocusMicrorelationsRelation
      and LocusMicrorelationCategoryCondition in Locus_per_microrelation respectively
@@ -1293,10 +1265,10 @@ LocusS.binned6:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'LocusS'
-  N.levels : 6
-  N.entries : 324
-  N.languages : 324
-  N.missing : 6
+  N.levels : 5
+  N.entries : 323
+  N.languages : 323
+  N.missing : 7
   Levels : 
     'D' : >
        [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking that is available
@@ -1328,10 +1300,6 @@ LocusS.binned6:
        [Free or floating, including particles or similar in phrase-second position (Wackernagel position),
        e.g. Tagalog ‘linkers’], [Floating, under limited circumstances (e.g. Yagua DOM by floating agreement
        with definite noun)]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])]
   Notes : >
      For the definition of the relevant role, see the metadata for LocusMacrorelationRelation in Locus_per_macrorelation
 
@@ -1344,10 +1312,10 @@ Locus.S.default.binned6:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus.S.default'
-  N.levels : 6
-  N.entries : 324
-  N.languages : 324
-  N.missing : 6
+  N.levels : 5
+  N.entries : 323
+  N.languages : 323
+  N.missing : 7
   Levels : 
     'D' : >
        [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking that is available
@@ -1379,10 +1347,6 @@ Locus.S.default.binned6:
        [Free or floating, including particles or similar in phrase-second position (Wackernagel position),
        e.g. Tagalog ‘linkers’], [Floating, under limited circumstances (e.g. Yagua DOM by floating agreement
        with definite noun)]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])]
   Notes : >
      For the definition of the relevant role, see the metadata for LocusMicrorelationsRelation in Locus_per_microrelation
 
@@ -1701,10 +1665,10 @@ Locus.U.default.binned6:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus.U.default'
-  N.levels : 7
-  N.entries : 324
-  N.languages : 324
-  N.missing : 6
+  N.levels : 6
+  N.entries : 321
+  N.languages : 321
+  N.missing : 9
   Levels : 
     'D' : >
        [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking that is available
@@ -1748,10 +1712,6 @@ Locus.U.default.binned6:
        [Free or floating, including particles or similar in phrase-second position (Wackernagel position),
        e.g. Tagalog ‘linkers’], [Floating, under limited circumstances (e.g. Yagua DOM by floating agreement
        with definite noun)]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])]
   Notes : >
      For the definition of the relevant role, see the metadata for LocusMicrorelationsRelation in Locus_per_microrelation
 
@@ -2566,10 +2526,10 @@ Locus.ATTR.default:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus.ATTR.default'
-  N.levels : 10
-  N.entries : 161
-  N.languages : 161
-  N.missing : 169
+  N.levels : 8
+  N.entries : 154
+  N.languages : 154
+  N.missing : 176
   Levels : 
     'Ø' : >
        No marking
@@ -2578,8 +2538,6 @@ Locus.ATTR.default:
        e.g. Tagalog ‘linkers’
     'D' : >
        On dependent. For zero formative on dependent, code as Ø.
-    '<n.d.>' : >
-       No information available.
     'd' : >
        Dependent marking that is available only on a limited set of NPs or under specific morphosyntactic
        conditions as noted.
@@ -2592,9 +2550,6 @@ Locus.ATTR.default:
        On head.
     'H’' : >
        NP-internal head in a modifier-headed agreement pattern
-    '<?>' : >
-       Uncertain data (usually with possessive relators that could be F [=linker], D [=case] or H [=construct
-       state marker])
   Notes : >
      For the definition of the relevant role, see the metadata for LocusMicrorelationsRelation in Locus_per_microrelation
 
@@ -2653,10 +2608,10 @@ Locus.B.default:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus.B.default'
-  N.levels : 14
-  N.entries : 204
-  N.languages : 204
-  N.missing : 126
+  N.levels : 12
+  N.entries : 197
+  N.languages : 197
+  N.missing : 133
   Levels : 
     'D' : >
        On dependent. For zero formative on dependent, code as Ø.
@@ -2666,14 +2621,9 @@ Locus.B.default:
        On head.
     'H+D' : >
        Simultaneously (or mostly simultaneously) on head and dependent
-    '<?>' : >
-       Uncertain data (usually with possessive relators that could be F [=linker], D [=case] or H [=construct
-       state marker])
     'H+d' : >
        Head marking is dominant. Additional dependent marking with some NPs or under specific morphosyntactic
        conditions as noted.
-    '<n.d.>' : >
-       No information available.
     'h+D' : >
        Dependent marking is dominant. Additional head marking with some verbs only or under specific
        morphosyntactic conditions as noted.
@@ -3936,10 +3886,10 @@ LocusA.binned5:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'LocusA'
-  N.levels : 6
-  N.entries : 328
-  N.languages : 328
-  N.missing : 2
+  N.levels : 5
+  N.entries : 327
+  N.languages : 327
+  N.missing : 3
   Levels : 
     'Ø' : >
        No marking
@@ -3983,10 +3933,6 @@ LocusA.binned5:
        dependent-marked pronouns], [Clitic doubling, where the argument is D-marked and is doubled by
        a D-marked pronominal on the verb.], [Floating, under limited circumstances (e.g. Yagua DOM by
        floating agreement with definite noun)], [Floating plus restricted dependent marking.]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])], [No information available.]
   Notes : >
      For the definition of the relevant role, see the metadata for LocusMacrorelationRelation in Locus_per_macrorelation
 
@@ -3999,10 +3945,10 @@ Locus.A.default.binned5:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus.A.default'
-  N.levels : 6
-  N.entries : 326
-  N.languages : 326
-  N.missing : 4
+  N.levels : 5
+  N.entries : 325
+  N.languages : 325
+  N.missing : 5
   Levels : 
     'Ø' : >
        No marking
@@ -4046,10 +3992,6 @@ Locus.A.default.binned5:
        dependent-marked pronouns], [Clitic doubling, where the argument is D-marked and is doubled by
        a D-marked pronominal on the verb.], [Floating, under limited circumstances (e.g. Yagua DOM by
        floating agreement with definite noun)], [Floating plus restricted dependent marking.]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])], [No information available.]
   Notes : >
      For the definition of the relevant role, see the metadata for LocusMicrorelationsRelation in Locus_per_microrelation
 
@@ -4330,10 +4272,10 @@ Locus.ATTR.default.binned5:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus.ATTR.default'
-  N.levels : 6
-  N.entries : 161
-  N.languages : 161
-  N.missing : 169
+  N.levels : 5
+  N.entries : 154
+  N.languages : 154
+  N.missing : 176
   Levels : 
     'Ø' : >
        No marking
@@ -4360,10 +4302,6 @@ Locus.ATTR.default.binned5:
        genitive (or possessive form of pronoun) plus head-driven agreement (dependent agreeing with head).],
        [Same as DD but with the additional formative or category restricted to some possessors only (e.g.
        pronouns only: German; contrast Hindi, where all possessors show head-driven agreement)]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])], [No information available.]
     '2' : >
        [Simultaneously (or mostly simultaneously) on head and dependent], [Simultaneously (or mostly
        simultaneously) detached and on dependent (e.g. an argument role is marked by both a Wackernagel
@@ -4455,10 +4393,10 @@ Locus.B.default.binned5:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus.B.default'
-  N.levels : 6
-  N.entries : 204
-  N.languages : 204
-  N.missing : 126
+  N.levels : 5
+  N.entries : 197
+  N.languages : 197
+  N.missing : 133
   Levels : 
     'D' : >
        [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking is dominant. Additional
@@ -4487,10 +4425,6 @@ Locus.B.default.binned5:
        D marker.], [Split, e.g. inalienables take H or D+H, alienables take only D.], [Split, either
        H or D.], [Split, head or floating. E.g. Halkomelem (Galloway 1984:179): possessive 1sg is F,
        3sg is H.]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])], [No information available.]
     'FloatingorClitic' : >
        [Free or floating, including particles or similar in phrase-second position (Wackernagel position),
        e.g. Tagalog ‘linkers’], [Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal
@@ -4711,10 +4645,10 @@ LocusP.binned5:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'LocusP'
-  N.levels : 6
-  N.entries : 328
-  N.languages : 328
-  N.missing : 2
+  N.levels : 5
+  N.entries : 325
+  N.languages : 325
+  N.missing : 5
   Levels : 
     'D' : >
        [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking is dominant. Additional
@@ -4758,10 +4692,6 @@ LocusP.binned5:
        dependent-marked pronouns], [Clitic doubling, where the argument is D-marked and is doubled by
        a D-marked pronominal on the verb.], [Floating, under limited circumstances (e.g. Yagua DOM by
        floating agreement with definite noun)], [Floating plus restricted dependent marking.]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])], [No information available.]
   Notes : >
      For the definition of the relevant role, see the metadata for LocusMacrorelationRelation in Locus_per_macrorelation
 
@@ -5146,10 +5076,10 @@ Locus.POSS.default.elsewhere.binned5:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus.POSS.default.elsewhere'
-  N.levels : 6
-  N.entries : 66
-  N.languages : 66
-  N.missing : 264
+  N.levels : 5
+  N.entries : 65
+  N.languages : 65
+  N.missing : 265
   Levels : 
     'H' : >
        [On head.], [Head marking is dominant. Additional dependent marking with some NPs or under specific
@@ -5193,10 +5123,6 @@ Locus.POSS.default.elsewhere.binned5:
        genitive (or possessive form of pronoun) plus head-driven agreement (dependent agreeing with head).],
        [Same as DD but with the additional formative or category restricted to some possessors only (e.g.
        pronouns only: German; contrast Hindi, where all possessors show head-driven agreement)]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])], [No information available.]
   Notes : >
      For the definition of the relevant role and the category conditions, see the metadata for LocusMicrorelationsRelation
      and LocusMicrorelationCategoryCondition in Locus_per_microrelation respectively
@@ -5270,10 +5196,10 @@ LocusS.binned5:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'LocusS'
-  N.levels : 6
-  N.entries : 324
-  N.languages : 324
-  N.missing : 6
+  N.levels : 5
+  N.entries : 323
+  N.languages : 323
+  N.missing : 7
   Levels : 
     'D' : >
        [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking is dominant. Additional
@@ -5317,10 +5243,6 @@ LocusS.binned5:
        dependent-marked pronouns], [Clitic doubling, where the argument is D-marked and is doubled by
        a D-marked pronominal on the verb.], [Floating, under limited circumstances (e.g. Yagua DOM by
        floating agreement with definite noun)], [Floating plus restricted dependent marking.]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])], [No information available.]
   Notes : >
      For the definition of the relevant role, see the metadata for LocusMacrorelationRelation in Locus_per_macrorelation
 
@@ -5333,10 +5255,10 @@ Locus.S.default.binned5:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus.S.default'
-  N.levels : 6
-  N.entries : 324
-  N.languages : 324
-  N.missing : 6
+  N.levels : 5
+  N.entries : 323
+  N.languages : 323
+  N.missing : 7
   Levels : 
     'D' : >
        [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking is dominant. Additional
@@ -5380,10 +5302,6 @@ Locus.S.default.binned5:
        dependent-marked pronouns], [Clitic doubling, where the argument is D-marked and is doubled by
        a D-marked pronominal on the verb.], [Floating, under limited circumstances (e.g. Yagua DOM by
        floating agreement with definite noun)], [Floating plus restricted dependent marking.]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])], [No information available.]
   Notes : >
      For the definition of the relevant role, see the metadata for LocusMicrorelationsRelation in Locus_per_microrelation
 
@@ -5724,10 +5642,10 @@ Locus.U.default.binned5:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus.U.default'
-  N.levels : 6
-  N.entries : 324
-  N.languages : 324
-  N.missing : 6
+  N.levels : 5
+  N.entries : 321
+  N.languages : 321
+  N.missing : 9
   Levels : 
     'D' : >
        [On dependent. For zero formative on dependent, code as Ø.], [Dependent marking is dominant. Additional
@@ -5771,10 +5689,6 @@ Locus.U.default.binned5:
        dependent-marked pronouns], [Clitic doubling, where the argument is D-marked and is doubled by
        a D-marked pronominal on the verb.], [Floating, under limited circumstances (e.g. Yagua DOM by
        floating agreement with definite noun)], [Floating plus restricted dependent marking.]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])], [No information available.]
   Notes : >
      For the definition of the relevant role, see the metadata for LocusMicrorelationsRelation in Locus_per_microrelation
 

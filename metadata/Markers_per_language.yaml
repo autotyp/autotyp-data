@@ -165,10 +165,10 @@ BehaviorCase:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'BehaviorCase'
-  N.levels : 8
-  N.entries : 137
-  N.languages : 137
-  N.missing : 351
+  N.levels : 7
+  N.entries : 111
+  N.languages : 111
+  N.missing : 377
 
 # ------ BehaviorNeg ------
 BehaviorNeg:
@@ -182,10 +182,10 @@ BehaviorNeg:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'BehaviorNeg'
-  N.levels : 8
-  N.entries : 189
-  N.languages : 189
-  N.missing : 299
+  N.levels : 7
+  N.entries : 188
+  N.languages : 188
+  N.missing : 300
   Notes : >
      The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
      markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
@@ -400,10 +400,10 @@ ExponentialityCase:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'ExponentialityCase'
-  N.levels : 11
-  N.entries : 403
-  N.languages : 403
-  N.missing : 85
+  N.levels : 10
+  N.entries : 331
+  N.languages : 331
+  N.missing : 157
 
 # ------ ExponentialityNegation ------
 ExponentialityNegation:
@@ -440,10 +440,10 @@ ExponentialityNounPlural:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'ExponentialityNounPlural'
-  N.levels : 10
-  N.entries : 189
-  N.languages : 189
-  N.missing : 299
+  N.levels : 9
+  N.entries : 188
+  N.languages : 188
+  N.missing : 300
   Notes : >
      The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
      marking for nouns. If plural is different from dual, use the true plural. If different nouns have
@@ -481,10 +481,10 @@ FlexivityFormativeCase:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'FlexivityFormativeCase'
-  N.levels : 5
-  N.entries : 176
-  N.languages : 176
-  N.missing : 312
+  N.levels : 4
+  N.entries : 169
+  N.languages : 169
+  N.missing : 319
   Levels : 
     'none' : >
     'cat-based' : >
@@ -493,7 +493,6 @@ FlexivityFormativeCase:
     'lex-based' : >
        Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
        some verbs, but not with others)
-    'n/a' : >
     'both' : >
 
 # ------ FlexivityFormativeNeg ------
@@ -822,12 +821,11 @@ FusionCase:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'FusionCase'
-  N.levels : 9
-  N.entries : 398
-  N.languages : 398
-  N.missing : 90
+  N.levels : 8
+  N.entries : 223
+  N.languages : 223
+  N.missing : 265
   Levels : 
-    'n/a' : >
     'concatenative' : >
        The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel
        harmony), word-internal kinds of sandhi, prosodic phenomena (such as word stress) or general inability
@@ -913,10 +911,10 @@ FusionNounPlural:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'FusionNounPlural'
-  N.levels : 9
-  N.entries : 151
-  N.languages : 151
-  N.missing : 337
+  N.levels : 8
+  N.entries : 150
+  N.languages : 150
+  N.missing : 338
   Levels : 
     'concatenative' : >
        The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel
@@ -945,7 +943,6 @@ FusionNounPlural:
        just the affix and others take the affix plus the reduplication, choose Concat + redupl and code
        for lexeme-based formative flexivity. (The flexivity lies in whether they do or do not take the
        reduplication part.)
-    'n/a' : >
     'ablaut' : >
        Alternation of stem segments in some grammatical context. Distinct from phonologically conditioned
        alternation.
@@ -970,10 +967,10 @@ FusionTense:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'FusionTense'
-  N.levels : 9
-  N.entries : 170
-  N.languages : 170
-  N.missing : 318
+  N.levels : 8
+  N.entries : 167
+  N.languages : 167
+  N.missing : 321
   Levels : 
     'concatenative' : >
        The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel
@@ -985,7 +982,6 @@ FusionTense:
        word, though this is not always true: non-isolating formatives like clitics are often written
        as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
        Therefore you will need to look at prosodic factors such as word stress.
-    'n/a' : >
     'ablaut' : >
        Alternation of stem segments in some grammatical context. Distinct from phonologically conditioned
        alternation.
@@ -1083,10 +1079,10 @@ FusionCase.nonlinear.Presence:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'FusionCase'
-  N.levels : 3 # NA,linear,NA,nonlinear
-  N.entries : 388
-  N.languages : 388
-  N.missing : 100
+  N.levels : 2 # NA,linear,nonlinear
+  N.entries : 213
+  N.languages : 213
+  N.missing : 275
 
 # ------ FusionNegation.nonlinear.Presence ------
 FusionNegation.nonlinear.Presence:
@@ -1121,10 +1117,10 @@ FusionNounPlural.nonlinear.Presence:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'FusionNounPlural'
-  N.levels : 3 # NA,linear,nonlinear,NA
-  N.entries : 151
-  N.languages : 151
-  N.missing : 337
+  N.levels : 2 # NA,linear,nonlinear
+  N.entries : 150
+  N.languages : 150
+  N.missing : 338
   Notes : >
      The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
      marking for nouns. If plural is different from dual, use the true plural. If different nouns have
@@ -1146,10 +1142,10 @@ FusionTense.nonlinear.Presence:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'FusionTense'
-  N.levels : 3 # NA,linear,NA,nonlinear
-  N.entries : 170
-  N.languages : 170
-  N.missing : 318
+  N.levels : 2 # NA,linear,nonlinear
+  N.entries : 167
+  N.languages : 167
+  N.missing : 321
 
 # ------ FusionCase.reduplicative.Presence ------
 FusionCase.reduplicative.Presence:
@@ -1312,13 +1308,11 @@ MorphemeTypeCase:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'MorphemeTypeCase'
-  N.levels : 4
-  N.entries : 402
-  N.languages : 402
-  N.missing : 86
+  N.levels : 3
+  N.entries : 227
+  N.languages : 227
+  N.missing : 261
   Levels : 
-    'n/a' : >
-       In domain_def, use if no other morph domain parts relevant in domain definition
     'formative' : >
        Marker of a category that cannot occur as an independent part of speech unit in the syntax, but
        instead grammatically requires some host.
@@ -1857,17 +1851,15 @@ PositionCase:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'PositionCase'
-  N.levels : 5
-  N.entries : 237
-  N.languages : 237
-  N.missing : 251
+  N.levels : 4
+  N.entries : 205
+  N.languages : 205
+  N.missing : 283
   Levels : 
     'post' : >
        after the phonological host
     'prae' : >
        before the phonological host
-    'n/a' : >
-       not applicable because an element’s position is defined only with respect to grammatical words
     'in' : >
        inside the phonological host
     'post (in)' : >
@@ -1938,10 +1930,10 @@ PositionNounPlural:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'PositionNounPlural'
-  N.levels : 8
-  N.entries : 193
-  N.languages : 193
-  N.missing : 295
+  N.levels : 7
+  N.entries : 192
+  N.languages : 192
+  N.missing : 296
   Levels : 
     'post' : >
        after the phonological host
@@ -1953,8 +1945,6 @@ PositionNounPlural:
     'simul' : >
        the formative has two exponents at different positions in the phonological host (but it is not
        the case that one is positioned before and the other after the host, which is coded as “circum”)
-    'n/a' : >
-       not applicable because an element’s position is defined only with respect to grammatical words
     'in' : >
        inside the phonological host
     'prae/circum' : >
@@ -1983,15 +1973,13 @@ PositionTense:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'PositionTense'
-  N.levels : 9
-  N.entries : 142
-  N.languages : 142
-  N.missing : 346
+  N.levels : 8
+  N.entries : 140
+  N.languages : 140
+  N.missing : 348
   Levels : 
     'post' : >
        after the phonological host
-    'n/a' : >
-       not applicable because an element’s position is defined only with respect to grammatical words
     'in' : >
        inside the phonological host
     'in/prae' : >
@@ -2432,12 +2420,11 @@ FlexivityStemCase:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'FlexivityStemCase'
-  N.levels : 4
-  N.entries : 201
-  N.languages : 201
-  N.missing : 287
+  N.levels : 3
+  N.entries : 171
+  N.languages : 171
+  N.missing : 317
   Levels : 
-    'n/a' : >
     'none' : >
     'lex-based' : >
        Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with

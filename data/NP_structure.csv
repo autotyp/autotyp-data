@@ -181,7 +181,7 @@ etc.","Dependent-Head"
 131,,TRUE,"inalienable","kin terms",,"n11.d.",1,"",,,,,133,,,TRUE,,
 2345,"Number",,,,,"N",0,"","agreement/class marker",,TRUE,"Dep-driven agreement",871,,,,,"Head-Dependent"
 407,,TRUE,"inalienable","body parts,kin terms",,"N_or_Pro",2,"206",,,,,325,,,TRUE,,
-683,"n/a",FALSE,"neutral",,,"Adp,AdvP",0,"1391","government",,TRUE,"Governed",572,,,,,"Dependent-Head"
+683,,FALSE,"neutral",,,"Adp,AdvP",0,"1391","government",,TRUE,"Governed",572,,,,,"Dependent-Head"
 84,,TRUE,"alienable","neutral",,"N_or_Pro",1,"218,219",,,,,85,,,FALSE,,"Head-Dependent"
 682,"Person",TRUE,"alienable","alienable",,,1,"1397,1398","mixed","ungrammatical",TRUE,"Dep-driven agr. + Construct state",580,,,TRUE,,"Head-Dependent"
 86,"Role",FALSE,"neutral","neutral",,"N",1,"139","government",,TRUE,"Governed",632,,,FALSE,,"Head-Dependent"

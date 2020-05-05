@@ -52,10 +52,10 @@ Behavior:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Behavior'
-  N.levels : 10
-  N.entries : 2057
-  N.languages : 488
-  N.missing : 2990
+  N.levels : 9
+  N.entries : 1873
+  N.languages : 442
+  N.missing : 3174
 
 # ------ Coexponence.CaseNumber.Presence ------
 Coexponence.CaseNumber.Presence:
@@ -178,10 +178,10 @@ Exponence:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Exponence'
-  N.levels : 113
-  N.entries : 4573
-  N.languages : 784
-  N.missing : 474
+  N.levels : 112
+  N.entries : 4499
+  N.languages : 782
+  N.missing : 548
 
 # ------ Flexivity.Presence ------
 Flexivity.Presence:
@@ -209,10 +209,10 @@ FlexivityFormative:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'FlexivityFormative'
-  N.levels : 6
-  N.entries : 3047
-  N.languages : 634
-  N.missing : 2000
+  N.levels : 5
+  N.entries : 3015
+  N.languages : 629
+  N.missing : 2032
   Levels : 
     'none' : >
     'lex-based' : >
@@ -221,7 +221,6 @@ FlexivityFormative:
     'cat-based' : >
        Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
        ablaut in certain tense forms, across the regular lexicon)
-    'n/a' : >
     'free' : >
     'both' : >
 
@@ -307,10 +306,10 @@ Fusion:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Fusion'
-  N.levels : 27
-  N.entries : 4593
-  N.languages : 789
-  N.missing : 454
+  N.levels : 25
+  N.entries : 4071
+  N.languages : 719
+  N.missing : 976
   Levels : 
     'concatenative' : >
        The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel
@@ -322,7 +321,6 @@ Fusion:
        word, though this is not always true: non-isolating formatives like clitics are often written
        as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
        Therefore you will need to look at prosodic factors such as word stress.
-    'n/a' : >
     'concatenative_or_suppletive' : >
        Concatenative formative or suppletion, under different conditions.
     'tonal' : >
@@ -348,8 +346,6 @@ Fusion:
        A category is marked by some kind of reduplication effect
     'concatenative_and_ablaut' : >
        Concatenative formative plus ablaut (usually stem ablaut).
-    '<?>' : >
-       Unknown
     'tonal_or_ablaut_then_isolating' : >
        First part of the formative is a tonal or ablaut alternation; second part is isolating. Example:
        Kisi negation, where the verb stem undergoes tone changes and a particle is added (Childs, A Grammar
@@ -411,10 +407,10 @@ Fusion.nonlinear.Presence:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Fusion'
-  N.levels : 3
-  N.entries : 4544
-  N.languages : 785
-  N.missing : 503
+  N.levels : 2
+  N.entries : 4022
+  N.languages : 709
+  N.missing : 1025
   Levels : 
     'linear' : >
        [The formative is a free phonological word. If it is, it is likely to be written as a separate
@@ -430,8 +426,6 @@ Fusion.nonlinear.Presence:
        [Alternation of stem segments in some grammatical context. Distinct from phonologically conditioned
        alternation.], [Concatenative formative is default; isolating allomorph under certain conditions.],
        [Isolating formative is default; concatenative allomorph under certain conditions.]
-    'NA' : >
-       Unknown
     'nonlinear' : >
        [A category is marked by some kind of reduplication effect], [A tone contrast marks a morphological
        contrast. The tone must be not be the result of a general phonological sandhi rule, but represent
@@ -547,10 +541,10 @@ Locus.binned6:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus'
-  N.levels : 5
-  N.entries : 4307
-  N.languages : 779
-  N.missing : 740
+  N.levels : 4
+  N.entries : 4022
+  N.languages : 750
+  N.missing : 1025
   Levels : 
     'H' : >
        [On head.], [Head marking that is available only on a limited set of NPs or under specific morphosyntactic
@@ -571,10 +565,6 @@ Locus.binned6:
        form of pronoun) plus head-driven agreement (dependent agreeing with head).], [Same as DD but
        with the additional formative or category restricted to some possessors only (e.g. pronouns only:
        German; contrast Hindi, where all possessors show head-driven agreement)]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])]
     'D on H' : >
        [Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where
        nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the
@@ -598,10 +588,10 @@ Locus:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus'
-  N.levels : 8
-  N.entries : 4307
-  N.languages : 779
-  N.missing : 740
+  N.levels : 6
+  N.entries : 4026
+  N.languages : 750
+  N.missing : 1021
   Levels : 
     'H' : >
        On head.
@@ -610,8 +600,6 @@ Locus:
        e.g. Tagalog ‘linkers’
     'D' : >
        On dependent. For zero formative on dependent, code as Ø.
-    '<n.a.>' : >
-       not applicable
     'P' : >
        The relation is marked by position (word or morpheme order).
     'D on H' : >
@@ -626,9 +614,6 @@ Locus:
        markers are case-marked. As a result, arguments are differentiated only in headward-migrated dependent
        marking. This marking realizes the dependent argument syntactically and leaves no place for an
        independent NP to show up in the same clausal core.
-    '<?>' : >
-       Uncertain data (usually with possessive relators that could be F [=linker], D [=case] or H [=construct
-       state marker])
 
 # ------ Locus.binned5 ------
 Locus.binned5:
@@ -640,10 +625,10 @@ Locus.binned5:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Locus'
-  N.levels : 4
-  N.entries : 4307
-  N.languages : 779
-  N.missing : 740
+  N.levels : 3
+  N.entries : 4022
+  N.languages : 750
+  N.missing : 1025
   Levels : 
     'H' : >
        [On head.], [Head marking is dominant. Additional dependent marking with some NPs or under specific
@@ -677,10 +662,6 @@ Locus.binned5:
        genitive (or possessive form of pronoun) plus head-driven agreement (dependent agreeing with head).],
        [Same as DD but with the additional formative or category restricted to some possessors only (e.g.
        pronouns only: German; contrast Hindi, where all possessors show head-driven agreement)]
-    'n/a' : >
-       [The relation is marked by position (word or morpheme order).], [not applicable], [Uncertain data
-       (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state
-       marker])], [No information available.]
 
 # ------ HostRestrictions.binned.restricted ------
 HostRestrictions.binned.restricted:
@@ -706,10 +687,10 @@ MorphemeType:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'MorphemeType'
-  N.levels : 5
-  N.entries : 4716
-  N.languages : 803
-  N.missing : 331
+  N.levels : 4
+  N.entries : 4153
+  N.languages : 731
+  N.missing : 894
   Levels : 
     'formative' : >
        Marker of a category that cannot occur as an independent part of speech unit in the syntax, but
@@ -722,8 +703,6 @@ MorphemeType:
        e.g. if an element behaves like a verb but is defective morphologically, it still has the PoS
        label ‘verb’ (see for example Quileute negation ‘é’, which behaves like a verb syntactically even
        thought its inflectional paradigm is defective).
-    'n/a' : >
-       In domain_def, use if no other morph domain parts relevant in domain definition
     'any' : >
        A unit that can be used both as a formative or as PoSWd, e.g. SEA versatile verbs/coverbs
     'unknown' : >
@@ -843,17 +822,15 @@ Position:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'Position'
-  N.levels : 23
-  N.entries : 4183
-  N.languages : 731
-  N.missing : 864
+  N.levels : 22
+  N.entries : 3927
+  N.languages : 691
+  N.missing : 1120
   Levels : 
     'post' : >
        after the phonological host
     'prae' : >
        before the phonological host
-    'n/a' : >
-       not applicable because an element’s position is defined only with respect to grammatical words
     'circum' : >
        the formative has two exponents, one before and one after the phonological host. This is a special
        case of the “simul” position
@@ -1101,10 +1078,10 @@ FlexivityStem:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'FlexivityStem'
-  N.levels : 5
-  N.entries : 2978
-  N.languages : 623
-  N.missing : 2069
+  N.levels : 4
+  N.entries : 2934
+  N.languages : 614
+  N.missing : 2113
   Levels : 
     'none' : >
     'cat-based' : >
@@ -1113,7 +1090,6 @@ FlexivityStem:
     'lex-based' : >
        Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
        some verbs, but not with others)
-    'n/a' : >
     'both' : >
 
 # ------ OppositionWithZero.Presence ------

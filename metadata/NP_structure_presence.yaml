@@ -7,9 +7,9 @@ NPAgrGender.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAgrGender.Presence'
-  N.entries : 139
+  N.entries : 138
   N.languages : 92
-  N.missing : 883
+  N.missing : 884
   Notes : >
      For the definition of 'gender', see the metadata for 'NPAgrCat' in NP_structure
 
@@ -22,9 +22,9 @@ NPAgrNumber.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAgrNumber.Presence'
-  N.entries : 139
+  N.entries : 138
   N.languages : 92
-  N.missing : 883
+  N.missing : 884
   Notes : >
      For the definition of 'number', see the metadata for 'NPAgrCat' in NP_structure
 
@@ -37,9 +37,9 @@ NPAgrPerson.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAgrPerson.Presence'
-  N.entries : 139
+  N.entries : 138
   N.languages : 92
-  N.missing : 883
+  N.missing : 884
   Notes : >
      For the definition of 'person', see the metadata for 'NPAgrCat' in NP_structure
 
@@ -52,9 +52,9 @@ NPAgrReferential.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAgrReferential.Presence'
-  N.entries : 139
+  N.entries : 138
   N.languages : 92
-  N.missing : 883
+  N.missing : 884
   Notes : >
      For the definition of 'referential', see the metadata for 'NPAgrCat' in NP_structure
 
@@ -67,9 +67,9 @@ NPAgrRole.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAgrRole.Presence'
-  N.entries : 139
+  N.entries : 138
   N.languages : 92
-  N.missing : 883
+  N.missing : 884
   Notes : >
      For the definition of 'role', see the metadata for 'NPAgrCat' in NP_structure
 
@@ -127,9 +127,9 @@ NPBroadLocus.D.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPBroadLocus.D.Presence'
-  N.entries : 436
-  N.languages : 230
-  N.missing : 586
+  N.entries : 431
+  N.languages : 227
+  N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus.binned6 in Gramm_markers
 
@@ -142,9 +142,9 @@ NPBroadLocus.D_on_H.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPBroadLocus.D_on_H.Presence'
-  N.entries : 436
-  N.languages : 230
-  N.missing : 586
+  N.entries : 431
+  N.languages : 227
+  N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus.binned6 in Gramm_markers
 
@@ -157,9 +157,9 @@ NPBroadLocus.F.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPBroadLocus.F.Presence'
-  N.entries : 436
-  N.languages : 230
-  N.missing : 586
+  N.entries : 431
+  N.languages : 227
+  N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus.binned6 in Gramm_markers
 
@@ -172,9 +172,9 @@ NPBroadLocus.H.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPBroadLocus.H.Presence'
-  N.entries : 436
-  N.languages : 230
-  N.missing : 586
+  N.entries : 431
+  N.languages : 227
+  N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus.binned6 in Gramm_markers
 
@@ -1642,9 +1642,9 @@ NPDetailedLocus.D.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDetailedLocus.D.Presence'
-  N.entries : 436
-  N.languages : 230
-  N.missing : 586
+  N.entries : 431
+  N.languages : 227
+  N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus in Gramm_markers
 
@@ -1657,9 +1657,9 @@ NPDetailedLocus.d_on_h.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDetailedLocus.d_on_h.Presence'
-  N.entries : 436
-  N.languages : 230
-  N.missing : 586
+  N.entries : 431
+  N.languages : 227
+  N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus in Gramm_markers
 
@@ -1672,9 +1672,9 @@ NPDetailedLocus.D_on_H.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDetailedLocus.D_on_H.Presence'
-  N.entries : 436
-  N.languages : 230
-  N.missing : 586
+  N.entries : 431
+  N.languages : 227
+  N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus in Gramm_markers
 
@@ -1687,9 +1687,9 @@ NPDetailedLocus.F.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDetailedLocus.F.Presence'
-  N.entries : 436
-  N.languages : 230
-  N.missing : 586
+  N.entries : 431
+  N.languages : 227
+  N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus in Gramm_markers
 
@@ -1702,9 +1702,9 @@ NPDetailedLocus.H.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDetailedLocus.H.Presence'
-  N.entries : 436
-  N.languages : 230
-  N.missing : 586
+  N.entries : 431
+  N.languages : 227
+  N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus in Gramm_markers
 
@@ -1717,9 +1717,9 @@ NPDetailedLocus.P.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDetailedLocus.P.Presence'
-  N.entries : 436
-  N.languages : 230
-  N.missing : 586
+  N.entries : 431
+  N.languages : 227
+  N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus in Gramm_markers
 

@@ -11,7 +11,7 @@ VInflClassification.Position:
   N.levels : 2
   N.entries : 4
   N.languages : 4
-  N.missing : 446
+  N.missing : 444
   Levels : 
     'prae' : >
        before the phonological host
@@ -33,7 +33,7 @@ VInflEvidential.Position:
   N.levels : 1
   N.entries : 35
   N.languages : 35
-  N.missing : 415
+  N.missing : 413
   Levels : 
     'post' : >
        after the phonological host
@@ -53,7 +53,7 @@ VInflInter_clausal.Position:
   N.levels : 4
   N.entries : 18
   N.languages : 18
-  N.missing : 432
+  N.missing : 430
   Levels : 
     'post' : >
        after the phonological host
@@ -81,7 +81,7 @@ VInflNP_related.Position:
   N.levels : 3
   N.entries : 9
   N.languages : 9
-  N.missing : 441
+  N.missing : 439
   Levels : 
     'prae' : >
        before the phonological host
@@ -105,7 +105,7 @@ VInflNumber.Position:
   N.levels : 8
   N.entries : 107
   N.languages : 96
-  N.missing : 343
+  N.missing : 341
   Levels : 
     'post' : >
        after the phonological host
@@ -141,10 +141,10 @@ VInflOperators.Position:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'VInflOperators.Position'
-  N.levels : 13
-  N.entries : 172
-  N.languages : 172
-  N.missing : 278
+  N.levels : 12
+  N.entries : 171
+  N.languages : 171
+  N.missing : 277
   Levels : 
     'post' : >
        after the phonological host
@@ -176,8 +176,6 @@ VInflOperators.Position:
     'post/prae (simul)' : >
        either before, after or in two or more positions in the phonological host, conditioned by some
        structural context (category, syntax etc.)
-    'n/a' : >
-       not applicable because an element’s position is defined only with respect to grammatical words
     'prae/circum' : >
        either before or around the phonological host, conditioned by some structural context (category,
        syntax etc.)
@@ -197,7 +195,7 @@ VInflPerson.Position:
   N.levels : 2
   N.entries : 4
   N.languages : 4
-  N.missing : 446
+  N.missing : 444
   Levels : 
     'post' : >
        after the phonological host
@@ -219,7 +217,7 @@ VInflPragmatic.Position:
   N.levels : 5
   N.entries : 81
   N.languages : 76
-  N.missing : 369
+  N.missing : 367
   Levels : 
     'prae' : >
        before the phonological host
@@ -248,7 +246,7 @@ VInflRole.Position:
   N.levels : 2
   N.entries : 7
   N.languages : 7
-  N.missing : 443
+  N.missing : 441
   Levels : 
     'post' : >
        after the phonological host
@@ -267,8 +265,8 @@ VInflTAM.Position:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'VInflTAM.Position'
-  N.levels : 14
-  N.entries : 417
+  N.levels : 13
+  N.entries : 415
   N.languages : 320
   N.missing : 33
   Levels : 
@@ -295,8 +293,6 @@ VInflTAM.Position:
     'prae/in/post' : >
        either before, inside or after the phonological host, conditioned by some structural context (category,
        syntax etc.)
-    'n/a' : >
-       not applicable because an element’s position is defined only with respect to grammatical words
     'in/prae' : >
        either inside or before the phonological host, conditioned by some structural context (category,
        syntax etc.)
@@ -325,7 +321,7 @@ VInflValence.Position:
   N.levels : 8
   N.entries : 186
   N.languages : 162
-  N.missing : 264
+  N.missing : 262
   Levels : 
     'prae' : >
        before the phonological host

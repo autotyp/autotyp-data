@@ -8,8 +8,8 @@
 <Style id="FF7F00"><IconStyle><color>ff007fff</color><Icon><href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href></Icon></IconStyle></Style>
 <Style id="FFFF33"><IconStyle><color>ff33ffff</color><Icon><href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href></Icon></IconStyle></Style>
 <Style id="A65628"><IconStyle><color>ff2856a6</color><Icon><href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href></Icon></IconStyle></Style>
-<Style id="F781BF"><IconStyle><color>ffbf81f7</color><Icon><href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href></Icon></IconStyle></Style>
 <Style id="8DD3C7"><IconStyle><color>ffc7d38d</color><Icon><href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href></Icon></IconStyle></Style>
+<Style id="F781BF"><IconStyle><color>ffbf81f7</color><Icon><href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href></Icon></IconStyle></Style>
 <Style id="BEBADA"><IconStyle><color>ffdababe</color><Icon><href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href></Icon></IconStyle></Style>
 <Style id="NA"><IconStyle><color>ffffffff</color><Icon><href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href></Icon></IconStyle></Style>
 <Folder>
@@ -203,24 +203,24 @@
 <Placemark><name>Nunggubuyu</name><styleUrl>#FFFF33</styleUrl><description>Stock: Gunwingguan</description><Point><coordinates>135.67,-13.75</coordinates></Point></Placemark>
 <Placemark><name>Larakiya</name><styleUrl>#FFFF33</styleUrl><description>Stock: Larakiya</description><Point><coordinates>130.83,-12.67</coordinates></Point></Placemark>
 <Placemark><name>Pomo (Eastern)</name><styleUrl>#A65628</styleUrl><description>Stock: Pomoan</description><Point><coordinates>-122.67,39</coordinates></Point></Placemark>
-<Placemark><name>Diegueño</name><styleUrl>#A65628</styleUrl><description>Stock: Yuman</description><Point><coordinates>-117,33</coordinates></Point></Placemark>
+<Placemark><name>Diegueño</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Yuman</description><Point><coordinates>-117,33</coordinates></Point></Placemark>
 <Placemark><name>Chimariko</name><styleUrl>#A65628</styleUrl><description>Stock: Chimariko</description><Point><coordinates>-123,41</coordinates></Point></Placemark>
 <Placemark><name>Karok</name><styleUrl>#A65628</styleUrl><description>Stock: Karok</description><Point><coordinates>-123,41.67</coordinates></Point></Placemark>
 <Placemark><name>Shasta</name><styleUrl>#A65628</styleUrl><description>Stock: Shasta</description><Point><coordinates>-122.67,41.83</coordinates></Point></Placemark>
 <Placemark><name>Washo</name><styleUrl>#A65628</styleUrl><description>Stock: Washo</description><Point><coordinates>-120,39.25</coordinates></Point></Placemark>
 <Placemark><name>Yokuts (Yawelmani)</name><styleUrl>#A65628</styleUrl><description>Stock: Yokuts-Utian</description><Point><coordinates>-119,35</coordinates></Point></Placemark>
-<Placemark><name>Sahaptin</name><styleUrl>#F781BF</styleUrl><description>Stock: Plateau Penutian</description><Point><coordinates>-118,46</coordinates></Point></Placemark>
+<Placemark><name>Sahaptin</name><styleUrl>#A65628</styleUrl><description>Stock: Plateau Penutian</description><Point><coordinates>-118,46</coordinates></Point></Placemark>
 <Placemark><name>Maidu (Northeast)</name><styleUrl>#A65628</styleUrl><description>Stock: Maiduan</description><Point><coordinates>-120.67,40</coordinates></Point></Placemark>
-<Placemark><name>Nez Perce</name><styleUrl>#F781BF</styleUrl><description>Stock: Plateau Penutian</description><Point><coordinates>-115.3,45</coordinates></Point></Placemark>
+<Placemark><name>Nez Perce</name><styleUrl>#A65628</styleUrl><description>Stock: Plateau Penutian</description><Point><coordinates>-115.3,45</coordinates></Point></Placemark>
 <Placemark><name>Miwok (Southern Sierra)</name><styleUrl>#A65628</styleUrl><description>Stock: Yokuts-Utian</description><Point><coordinates>-120,37.5</coordinates></Point></Placemark>
 <Placemark><name>Wintu</name><styleUrl>#A65628</styleUrl><description>Stock: Wintuan</description><Point><coordinates>-122.5,41</coordinates></Point></Placemark>
 <Placemark><name>Wishram</name><styleUrl>#A65628</styleUrl><description>Stock: Chinookan</description><Point><coordinates>-122.5,45.5</coordinates></Point></Placemark>
 <Placemark><name>Ineseño</name><styleUrl>#A65628</styleUrl><description>Stock: Chumashan</description><Point><coordinates>-120.25,34.67</coordinates></Point></Placemark>
 <Placemark><name>Haida</name><styleUrl>#A65628</styleUrl><description>Stock: Haida</description><Point><coordinates>-132,53</coordinates></Point></Placemark>
-<Placemark><name>Kutenai</name><styleUrl>#F781BF</styleUrl><description>Stock: Kutenai</description><Point><coordinates>-116,49.5</coordinates></Point></Placemark>
+<Placemark><name>Kutenai</name><styleUrl>#A65628</styleUrl><description>Stock: Kutenai</description><Point><coordinates>-116,49.5</coordinates></Point></Placemark>
 <Placemark><name>Salinan</name><styleUrl>#A65628</styleUrl><description>Stock: Salinan</description><Point><coordinates>-121,36</coordinates></Point></Placemark>
 <Placemark><name>Timucua</name><styleUrl>#F781BF</styleUrl><description>Stock: Timucua</description><Point><coordinates>-82,30</coordinates></Point></Placemark>
-<Placemark><name>Zuni</name><styleUrl>#F781BF</styleUrl><description>Stock: Zuni</description><Point><coordinates>-108.83,35.08</coordinates></Point></Placemark>
+<Placemark><name>Zuni</name><styleUrl>#A65628</styleUrl><description>Stock: Zuni</description><Point><coordinates>-108.83,35.08</coordinates></Point></Placemark>
 <Placemark><name>Takelma</name><styleUrl>#A65628</styleUrl><description>Stock: Takelma-Kalapuyan</description><Point><coordinates>-123,42.5</coordinates></Point></Placemark>
 <Placemark><name>Wiyot</name><styleUrl>#A65628</styleUrl><description>Stock: Algic</description><Point><coordinates>-124.17,40.83</coordinates></Point></Placemark>
 <Placemark><name>Yurok</name><styleUrl>#A65628</styleUrl><description>Stock: Algic</description><Point><coordinates>-124,41.33</coordinates></Point></Placemark>
@@ -231,10 +231,10 @@
 <Placemark><name>Quileute</name><styleUrl>#A65628</styleUrl><description>Stock: Chimakuan</description><Point><coordinates>-124.25,47.92</coordinates></Point></Placemark>
 <Placemark><name>Chitimacha</name><styleUrl>#F781BF</styleUrl><description>Stock: Chitimacha</description><Point><coordinates>-91,29.67</coordinates></Point></Placemark>
 <Placemark><name>Seneca</name><styleUrl>#F781BF</styleUrl><description>Stock: Iroquoian</description><Point><coordinates>-77.5,42.5</coordinates></Point></Placemark>
-<Placemark><name>Acoma</name><styleUrl>#F781BF</styleUrl><description>Stock: Keresan</description><Point><coordinates>-107.58,34.92</coordinates></Point></Placemark>
+<Placemark><name>Acoma</name><styleUrl>#A65628</styleUrl><description>Stock: Keresan</description><Point><coordinates>-107.58,34.92</coordinates></Point></Placemark>
 <Placemark><name>Kiowa</name><styleUrl>#F781BF</styleUrl><description>Stock: Kiowa-Tanoan</description><Point><coordinates>-99,37</coordinates></Point></Placemark>
 <Placemark><name>Koasati</name><styleUrl>#F781BF</styleUrl><description>Stock: Muskogean</description><Point><coordinates>-85.17,34.83</coordinates></Point></Placemark>
-<Placemark><name>Navajo</name><styleUrl>#F781BF</styleUrl><description>Stock: Na-Dene</description><Point><coordinates>-108,36.17</coordinates></Point></Placemark>
+<Placemark><name>Navajo</name><styleUrl>#A65628</styleUrl><description>Stock: Na-Dene</description><Point><coordinates>-108,36.17</coordinates></Point></Placemark>
 <Placemark><name>Slave</name><styleUrl>#F781BF</styleUrl><description>Stock: Na-Dene</description><Point><coordinates>-116,60</coordinates></Point></Placemark>
 <Placemark><name>Tlingit</name><styleUrl>#A65628</styleUrl><description>Stock: Na-Dene</description><Point><coordinates>-135,59</coordinates></Point></Placemark>
 <Placemark><name>Eyak</name><styleUrl>#A65628</styleUrl><description>Stock: Na-Dene</description><Point><coordinates>-145,60.5</coordinates></Point></Placemark>
@@ -247,9 +247,9 @@
 <Placemark><name>Gitksan</name><styleUrl>#A65628</styleUrl><description>Stock: Tsimshianic</description><Point><coordinates>-127.75,55.33</coordinates></Point></Placemark>
 <Placemark><name>Tunica</name><styleUrl>#F781BF</styleUrl><description>Stock: Tunica</description><Point><coordinates>-91,32.67</coordinates></Point></Placemark>
 <Placemark><name>Alsea</name><styleUrl>#A65628</styleUrl><description>Stock: Alsean</description><Point><coordinates>-123.92,44.67</coordinates></Point></Placemark>
-<Placemark><name>Luiseño</name><styleUrl>#A65628</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-117.17,33.33</coordinates></Point></Placemark>
+<Placemark><name>Luiseño</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-117.17,33.33</coordinates></Point></Placemark>
 <Placemark><name>Tümpisa Shoshone</name><styleUrl>#A65628</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-117,37</coordinates></Point></Placemark>
-<Placemark><name>O’odham</name><styleUrl>#F781BF</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-112,32</coordinates></Point></Placemark>
+<Placemark><name>O’odham</name><styleUrl>#A65628</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-112,32</coordinates></Point></Placemark>
 <Placemark><name>Pipil</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-89.58,13.83</coordinates></Point></Placemark>
 <Placemark><name>Kwakwala</name><styleUrl>#A65628</styleUrl><description>Stock: Wakashan</description><Point><coordinates>-127,51</coordinates></Point></Placemark>
 <Placemark><name>Nuuchahnulth</name><styleUrl>#A65628</styleUrl><description>Stock: Wakashan</description><Point><coordinates>-126.67,49.67</coordinates></Point></Placemark>
@@ -332,20 +332,20 @@
 <Placemark><name>Ku Waru</name><styleUrl>#FF7F00</styleUrl><description>Stock: Chimbu-Wahgi</description><Point><coordinates>144,-6</coordinates></Point></Placemark>
 <Placemark><name>Maybrat</name><styleUrl>#FF7F00</styleUrl><description>Stock: West Papuan</description><Point><coordinates>132.5,-1.33</coordinates></Point></Placemark>
 <Placemark><name>Nasioi</name><styleUrl>#FF7F00</styleUrl><description>Stock: South Bougainville</description><Point><coordinates>155.58,-6.33</coordinates></Point></Placemark>
-<Placemark><name>Paiute (Southern)</name><styleUrl>#F781BF</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-118,37</coordinates></Point></Placemark>
+<Placemark><name>Paiute (Southern)</name><styleUrl>#A65628</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-118,37</coordinates></Point></Placemark>
 <Placemark><name>Siuslaw (Lower Umpqua)</name><styleUrl>#A65628</styleUrl><description>Stock: Siuslawan</description><Point><coordinates>-124,44</coordinates></Point></Placemark>
 <Placemark><name>Songhai (Koyra Chiini)</name><styleUrl>#E41A1C</styleUrl><description>Stock: Songhai</description><Point><coordinates>-3,17</coordinates></Point></Placemark>
 <Placemark><name>Futuna (West)</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>170.22,-19.53</coordinates></Point></Placemark>
 <Placemark><name>Rama</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Chibchan</description><Point><coordinates>-83.75,11.75</coordinates></Point></Placemark>
 <Placemark><name>Yup’ik (Central)</name><styleUrl>#A65628</styleUrl><description>Stock: Eskimo-Aleut</description><Point><coordinates>-157,57</coordinates></Point></Placemark>
 <Placemark><name>Persian</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>52,34</coordinates></Point></Placemark>
-<Placemark><name>Circassian (West)</name><styleUrl>#377EB8</styleUrl><description>Stock: West Caucasian</description><Point><coordinates>39.08,44.1</coordinates></Point></Placemark>
+<Placemark><name>Adyghe (West Circassian)</name><styleUrl>#377EB8</styleUrl><description>Stock: West Caucasian</description><Point><coordinates>39.08,44.1</coordinates></Point></Placemark>
 <Placemark><name>Zapotec (Isthmus)</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Otomanguean</description><Point><coordinates>-94.17,16.33</coordinates></Point></Placemark>
 <Placemark><name>Jacaltec</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Mayan</description><Point><coordinates>-91.67,15.67</coordinates></Point></Placemark>
 <Placemark><name>Oneida</name><styleUrl>#F781BF</styleUrl><description>Stock: Iroquoian</description><Point><coordinates>-75.67,43</coordinates></Point></Placemark>
 <Placemark><name>Burmese</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>96,21</coordinates></Point></Placemark>
 <Placemark><name>Greek (modern)</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>22,39</coordinates></Point></Placemark>
-<Placemark><name>Maricopa</name><styleUrl>#F781BF</styleUrl><description>Stock: Yuman</description><Point><coordinates>-113.17,33.17</coordinates></Point></Placemark>
+<Placemark><name>Maricopa</name><styleUrl>#A65628</styleUrl><description>Stock: Yuman</description><Point><coordinates>-113.17,33.17</coordinates></Point></Placemark>
 <Placemark><name>Sango</name><styleUrl>#E41A1C</styleUrl><description>Stock: Adamawa-Ubangi</description><Point><coordinates>18,5</coordinates></Point></Placemark>
 <Placemark><name>Paamese</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>168.25,-16.5</coordinates></Point></Placemark>
 <Placemark><name>Newar (Dolakha)</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>86.2,27.75</coordinates></Point></Placemark>
@@ -395,9 +395,9 @@
 <Placemark><name>Bagirmi</name><styleUrl>#E41A1C</styleUrl><description>Stock: Bongo-Bagirmi</description><Point><coordinates>16,11.67</coordinates></Point></Placemark>
 <Placemark><name>Bambara</name><styleUrl>#E41A1C</styleUrl><description>Stock: Mande</description><Point><coordinates>-7.5,12.5</coordinates></Point></Placemark>
 <Placemark><name>Bawm</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>92.25,22.5</coordinates></Point></Placemark>
-<Placemark><name>Brahui</name><styleUrl>#984EA3</styleUrl><description>Stock: Dravidian</description><Point><coordinates>67,28.5</coordinates></Point></Placemark>
+<Placemark><name>Brahui</name><styleUrl>#377EB8</styleUrl><description>Stock: Dravidian</description><Point><coordinates>67,28.5</coordinates></Point></Placemark>
 <Placemark><name>Bribri</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Chibchan</description><Point><coordinates>-83,9.42</coordinates></Point></Placemark>
-<Placemark><name>Cahuilla</name><styleUrl>#A65628</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-116.25,33.5</coordinates></Point></Placemark>
+<Placemark><name>Cahuilla</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-116.25,33.5</coordinates></Point></Placemark>
 <Placemark><name>Tsimshian (Coast)</name><styleUrl>#A65628</styleUrl><description>Stock: Tsimshianic</description><Point><coordinates>-129,52.5</coordinates></Point></Placemark>
 <Placemark><name>Comanche</name><styleUrl>#F781BF</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-101.5,33.5</coordinates></Point></Placemark>
 <Placemark><name>Diola-Fogny</name><styleUrl>#E41A1C</styleUrl><description>Stock: North Atlantic</description><Point><coordinates>-16,13</coordinates></Point></Placemark>
@@ -413,7 +413,7 @@
 <Placemark><name>Iraqw</name><styleUrl>#E41A1C</styleUrl><description>Stock: Cushitic</description><Point><coordinates>35.5,-4</coordinates></Point></Placemark>
 <Placemark><name>Kannada</name><styleUrl>#984EA3</styleUrl><description>Stock: Dravidian</description><Point><coordinates>76,14</coordinates></Point></Placemark>
 <Placemark><name>Kapau</name><styleUrl>#FF7F00</styleUrl><description>Stock: Angan</description><Point><coordinates>146.25,-7.5</coordinates></Point></Placemark>
-<Placemark><name>Kayah Li (Easterrn)</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>97.5,19</coordinates></Point></Placemark>
+<Placemark><name>Kayah Li (Eastern)</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>97.5,19</coordinates></Point></Placemark>
 <Placemark><name>Kera</name><styleUrl>#E41A1C</styleUrl><description>Stock: Chadic</description><Point><coordinates>15.08,9.83</coordinates></Point></Placemark>
 <Placemark><name>Khasi</name><styleUrl>#984EA3</styleUrl><description>Stock: Austroasiatic</description><Point><coordinates>92,25.5</coordinates></Point></Placemark>
 <Placemark><name>Khmu</name><styleUrl>#984EA3</styleUrl><description>Stock: Austroasiatic</description><Point><coordinates>102,21</coordinates></Point></Placemark>
@@ -424,7 +424,7 @@
 <Placemark><name>Koromfe</name><styleUrl>#E41A1C</styleUrl><description>Stock: Gur</description><Point><coordinates>-0.92,14.25</coordinates></Point></Placemark>
 <Placemark><name>Ladakhi</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>78,34</coordinates></Point></Placemark>
 <Placemark><name>Latvian</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Indo-European</description><Point><coordinates>24,57</coordinates></Point></Placemark>
-<Placemark><name>Lavukaleve</name><styleUrl>#FF7F00</styleUrl><description>Stock: Central Solomons</description><Point><coordinates>159.2,-9.08</coordinates></Point></Placemark>
+<Placemark><name>Lavukaleve</name><styleUrl>#FF7F00</styleUrl><description>Stock: Lavukaleve</description><Point><coordinates>159.2,-9.08</coordinates></Point></Placemark>
 <Placemark><name>Chinantec (Lealao)</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Otomanguean</description><Point><coordinates>-95.92,17.33</coordinates></Point></Placemark>
 <Placemark><name>Lepcha</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>88.5,27.17</coordinates></Point></Placemark>
 <Placemark><name>Luvale</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>22,-12</coordinates></Point></Placemark>
@@ -447,7 +447,7 @@
 <Placemark><name>Tamazight (Ayt Ndhir)</name><styleUrl>#E41A1C</styleUrl><description>Stock: Berber</description><Point><coordinates>5,30</coordinates></Point></Placemark>
 <Placemark><name>Nahuatl (Tetelcingo)</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-99,19.67</coordinates></Point></Placemark>
 <Placemark><name>Una</name><styleUrl>#FF7F00</styleUrl><description>Stock: Mek</description><Point><coordinates>140,-4.67</coordinates></Point></Placemark>
-<Placemark><name>Uruba-Kaapor</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-46.5,-2.33</coordinates></Point></Placemark>
+<Placemark><name>Urubú-Kaapor</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-46.5,-2.33</coordinates></Point></Placemark>
 <Placemark><name>Wambaya</name><styleUrl>#FFFF33</styleUrl><description>Stock: Mirndi</description><Point><coordinates>135.75,-18.67</coordinates></Point></Placemark>
 <Placemark><name>Wari</name><styleUrl>#BEBADA</styleUrl><description>Stock: Chapakuran</description><Point><coordinates>-65,-11.33</coordinates></Point></Placemark>
 <Placemark><name>Wichita</name><styleUrl>#F781BF</styleUrl><description>Stock: Caddoan</description><Point><coordinates>-97.33,33.33</coordinates></Point></Placemark>
@@ -472,7 +472,7 @@
 <Placemark><name>Yup’ik (Siberian)</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Eskimo-Aleut</description><Point><coordinates>172,64</coordinates></Point></Placemark>
 <Placemark><name>Malay</name><styleUrl>#984EA3</styleUrl><description>Stock: Austronesian</description><Point><coordinates>102,3</coordinates></Point></Placemark>
 <Placemark><name>Cambodian</name><styleUrl>#984EA3</styleUrl><description>Stock: Austroasiatic</description><Point><coordinates>105,12.5</coordinates></Point></Placemark>
-<Placemark><name>Cocopa</name><styleUrl>#A65628</styleUrl><description>Stock: Yuman</description><Point><coordinates>-115,32.33</coordinates></Point></Placemark>
+<Placemark><name>Cocopa</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Yuman</description><Point><coordinates>-115,32.33</coordinates></Point></Placemark>
 <Placemark><name>Alabama</name><styleUrl>#F781BF</styleUrl><description>Stock: Muskogean</description><Point><coordinates>-87.42,32.33</coordinates></Point></Placemark>
 <Placemark><name>Huastec</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Mayan</description><Point><coordinates>-99.33,22.08</coordinates></Point></Placemark>
 <Placemark><name>Araona</name><styleUrl>#BEBADA</styleUrl><description>Stock: Pano-Tacanan</description><Point><coordinates>-67.75,-12.33</coordinates></Point></Placemark>
@@ -514,7 +514,7 @@
 <Placemark><name>Bandjalang</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>153,-28.75</coordinates></Point></Placemark>
 <Placemark><name>Ndjebbana</name><styleUrl>#FFFF33</styleUrl><description>Stock: Gunabidjian</description><Point><coordinates>134.12,-12.17</coordinates></Point></Placemark>
 <Placemark><name>Apatani</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>93.75,27.5</coordinates></Point></Placemark>
-<Placemark><name>Dulong</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>103,25.5</coordinates></Point></Placemark>
+<Placemark><name>Drung</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>103,25.5</coordinates></Point></Placemark>
 <Placemark><name>Kham</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>82.75,28.5</coordinates></Point></Placemark>
 <Placemark><name>Yana</name><styleUrl>#A65628</styleUrl><description>Stock: Yana</description><Point><coordinates>-122,40.5</coordinates></Point></Placemark>
 <Placemark><name>Coahuiltec</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Coahuiltec</description><Point><coordinates>-100,28</coordinates></Point></Placemark>
@@ -536,9 +536,9 @@
 <Placemark><name>Romanian</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>25,46</coordinates></Point></Placemark>
 <Placemark><name>Klamath</name><styleUrl>#A65628</styleUrl><description>Stock: Plateau Penutian</description><Point><coordinates>-121.5,42.5</coordinates></Point></Placemark>
 <Placemark><name>Dahalo</name><styleUrl>#E41A1C</styleUrl><description>Stock: Cushitic</description><Point><coordinates>40.5,-2.33</coordinates></Point></Placemark>
-<Placemark><name>Hopi</name><styleUrl>#F781BF</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-110,36</coordinates></Point></Placemark>
+<Placemark><name>Hopi</name><styleUrl>#A65628</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-110,36</coordinates></Point></Placemark>
 <Placemark><name>Cora</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-104.83,22.17</coordinates></Point></Placemark>
-<Placemark><name>Rarámuri</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-107.08,26.85</coordinates></Point></Placemark>
+<Placemark><name>Rarámuri</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-107.2922,27.4489</coordinates></Point></Placemark>
 <Placemark><name>Manange</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>84.01,28.4</coordinates></Point></Placemark>
 <Placemark><name>Tibetan (Lhasa)</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>91.1,29.65</coordinates></Point></Placemark>
 <Placemark><name>Limilngan</name><styleUrl>#FFFF33</styleUrl><description>Stock: Limilngan</description><Point><coordinates>131.92,-12.5</coordinates></Point></Placemark>
@@ -566,7 +566,7 @@
 <Placemark><name>Scottish Gaelic</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>-4,57</coordinates></Point></Placemark>
 <Placemark><name>Nenets (Forest)</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Uralic</description><Point><coordinates>65.31,57.09</coordinates></Point></Placemark>
 <Placemark><name>Komi (Permyak)</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Uralic</description><Point><coordinates>54.5,59.5</coordinates></Point></Placemark>
-<Placemark><name>Paiute (Northern)</name><styleUrl>#F781BF</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-118,42</coordinates></Point></Placemark>
+<Placemark><name>Paiute (Northern)</name><styleUrl>#A65628</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-118,42</coordinates></Point></Placemark>
 <Placemark><name>Tofa (Karagas)</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Turkic</description><Point><coordinates>98,53.75</coordinates></Point></Placemark>
 <Placemark><name>Tibetan (Kyirong)</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>85.16,28.28</coordinates></Point></Placemark>
 <Placemark><name>Qiang (Northern)</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>102.67,32</coordinates></Point></Placemark>
@@ -630,7 +630,7 @@
 <Placemark><name>Madimadi</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>143.5,-34.5</coordinates></Point></Placemark>
 <Placemark><name>Maipure</name><styleUrl>#BEBADA</styleUrl><description>Stock: Arawakan</description><Point><coordinates>-67.5,5.5</coordinates></Point></Placemark>
 <Placemark><name>Máko</name><styleUrl>#BEBADA</styleUrl><description>Stock: Máko</description><Point><coordinates>-69.83,0.42</coordinates></Point></Placemark>
-<Placemark><name>Marchha</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>79.58,30.25</coordinates></Point></Placemark>
+<Placemark><name>Rongpo</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>79.58,30.25</coordinates></Point></Placemark>
 <Placemark><name>Mayi-Yapi</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>141,-20</coordinates></Point></Placemark>
 <Placemark><name>Mbabaram</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>145,-17.17</coordinates></Point></Placemark>
 <Placemark><name>Milang</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>95.25,28.5</coordinates></Point></Placemark>
@@ -655,7 +655,7 @@
 <Placemark><name>Woiwurrung</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>145.5,-37.5</coordinates></Point></Placemark>
 <Placemark><name>Womo</name><styleUrl>#FF7F00</styleUrl><description>Stock: Macro-Skou</description><Point><coordinates>141.83,-2.92</coordinates></Point></Placemark>
 <Placemark><name>Yaygir</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>153,-29.67</coordinates></Point></Placemark>
-<Placemark><name>Yiddish</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>23,52</coordinates></Point></Placemark>
+<Placemark><name>Yiddish</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Indo-European</description><Point><coordinates>23,52</coordinates></Point></Placemark>
 <Placemark><name>Yorta Yorta</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>146,-36</coordinates></Point></Placemark>
 <Placemark><name>Yurimangí</name><styleUrl>#BEBADA</styleUrl><description>Stock: Yurimangí</description><Point><coordinates>-77,3.83</coordinates></Point></Placemark>
 <Placemark><name>Ghotuo</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>5.75,7.08</coordinates></Point></Placemark>
@@ -684,7 +684,7 @@
 <Placemark><name>Pa'a</name><styleUrl>#E41A1C</styleUrl><description>Stock: Chadic</description><Point><coordinates>9.25,11</coordinates></Point></Placemark>
 <Placemark><name>Arabic (Gulf)</name><styleUrl>#377EB8</styleUrl><description>Stock: Semitic</description><Point><coordinates>49,26</coordinates></Point></Placemark>
 <Placemark><name>Arabic (Bahrain)</name><styleUrl>#377EB8</styleUrl><description>Stock: Semitic</description><Point><coordinates>50.5,26</coordinates></Point></Placemark>
-<Placemark><name>Afrikaans</name><styleUrl>#NA</styleUrl><description>Stock: Indo-European</description><Point><coordinates>22,-31</coordinates></Point></Placemark>
+<Placemark><name>Afrikaans</name><styleUrl>#E41A1C</styleUrl><description>Stock: Indo-European</description><Point><coordinates>22,-31</coordinates></Point></Placemark>
 <Placemark><name>Defaka</name><styleUrl>#E41A1C</styleUrl><description>Stock: Ijoid</description><Point><coordinates>7.5,4.58</coordinates></Point></Placemark>
 <Placemark><name>Qafar</name><styleUrl>#E41A1C</styleUrl><description>Stock: Cushitic</description><Point><coordinates>42,12</coordinates></Point></Placemark>
 <Placemark><name>Obokuitai</name><styleUrl>#FF7F00</styleUrl><description>Stock: Lakes Plain</description><Point><coordinates>138,-3</coordinates></Point></Placemark>
@@ -748,12 +748,12 @@
 <Placemark><name>Sa'a</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>161.45,-9.62</coordinates></Point></Placemark>
 <Placemark><name>Arabic (North Levantine Spoken)</name><styleUrl>#377EB8</styleUrl><description>Stock: Semitic</description><Point><coordinates>36,33.75</coordinates></Point></Placemark>
 <Placemark><name>Athpare</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>87.33,27</coordinates></Point></Placemark>
-<Placemark><name>Apache (Jicarilla)</name><styleUrl>#F781BF</styleUrl><description>Stock: Na-Dene</description><Point><coordinates>-104,36.58</coordinates></Point></Placemark>
-<Placemark><name>Apache (Chiricahua)</name><styleUrl>#F781BF</styleUrl><description>Stock: Na-Dene</description><Point><coordinates>-108,33.25</coordinates></Point></Placemark>
+<Placemark><name>Apache (Jicarilla)</name><styleUrl>#A65628</styleUrl><description>Stock: Na-Dene</description><Point><coordinates>-104,36.58</coordinates></Point></Placemark>
+<Placemark><name>Apache (Chiricahua)</name><styleUrl>#A65628</styleUrl><description>Stock: Na-Dene</description><Point><coordinates>-108,33.25</coordinates></Point></Placemark>
 <Placemark><name>Apinayé</name><styleUrl>#BEBADA</styleUrl><description>Stock: Macro-Ge</description><Point><coordinates>-48,-5.5</coordinates></Point></Placemark>
 <Placemark><name>A-Pucikwar</name><styleUrl>#984EA3</styleUrl><description>Stock: Great Andamanese</description><Point><coordinates>92.83,12.17</coordinates></Point></Placemark>
 <Placemark><name>Arop-Lokep</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>147.05,-5.38</coordinates></Point></Placemark>
-<Placemark><name>Apache (Western)</name><styleUrl>#F781BF</styleUrl><description>Stock: Na-Dene</description><Point><coordinates>-110,33.75</coordinates></Point></Placemark>
+<Placemark><name>Apache (Western)</name><styleUrl>#A65628</styleUrl><description>Stock: Na-Dene</description><Point><coordinates>-110,33.75</coordinates></Point></Placemark>
 <Placemark><name>Ampeeli</name><styleUrl>#FF7F00</styleUrl><description>Stock: Angan</description><Point><coordinates>146.08,-6.75</coordinates></Point></Placemark>
 <Placemark><name>Akawaio</name><styleUrl>#BEBADA</styleUrl><description>Stock: Cariban</description><Point><coordinates>-59.5,6</coordinates></Point></Placemark>
 <Placemark><name>Archi</name><styleUrl>#377EB8</styleUrl><description>Stock: Nakh-Daghestanian</description><Point><coordinates>46.83,42.07</coordinates></Point></Placemark>
@@ -840,16 +840,16 @@
 <Placemark><name>Bari</name><styleUrl>#E41A1C</styleUrl><description>Stock: Nilotic</description><Point><coordinates>31.67,5</coordinates></Point></Placemark>
 <Placemark><name>Bafut</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>9.92,6.25</coordinates></Point></Placemark>
 <Placemark><name>Badaga</name><styleUrl>#984EA3</styleUrl><description>Stock: Dravidian</description><Point><coordinates>76.75,11.67</coordinates></Point></Placemark>
-<Placemark><name>Gahri</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>77,32.5</coordinates></Point></Placemark>
+<Placemark><name>Bunan</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>77,32.5</coordinates></Point></Placemark>
 <Placemark><name>Remo</name><styleUrl>#984EA3</styleUrl><description>Stock: Austroasiatic</description><Point><coordinates>82,18</coordinates></Point></Placemark>
-<Placemark><name>Balochi (Southern)</name><styleUrl>#984EA3</styleUrl><description>Stock: Indo-European</description><Point><coordinates>62,28</coordinates></Point></Placemark>
+<Placemark><name>Balochi (Southern)</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>64,26</coordinates></Point></Placemark>
 <Placemark><name>Bagri</name><styleUrl>#984EA3</styleUrl><description>Stock: Indo-European</description><Point><coordinates>74.33,29.58</coordinates></Point></Placemark>
 <Placemark><name>Banggai</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>123.17,-1.42</coordinates></Point></Placemark>
 <Placemark><name>Bhili</name><styleUrl>#984EA3</styleUrl><description>Stock: Indo-European</description><Point><coordinates>73,22</coordinates></Point></Placemark>
 <Placemark><name>Binandere</name><styleUrl>#FF7F00</styleUrl><description>Stock: Greater Binanderean</description><Point><coordinates>148,-8.25</coordinates></Point></Placemark>
 <Placemark><name>Bhojpuri</name><styleUrl>#984EA3</styleUrl><description>Stock: Indo-European</description><Point><coordinates>84,25.5</coordinates></Point></Placemark>
 <Placemark><name>Sign Language British</name><styleUrl>#377EB8</styleUrl><description>Stock: Sign Language British</description><Point><coordinates>-1,52</coordinates></Point></Placemark>
-<Placemark><name>Bima</name><styleUrl>#984EA3</styleUrl><description>Stock: Austronesian</description><Point><coordinates>118.5,-8.5</coordinates></Point></Placemark>
+<Placemark><name>Bima</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>118.5,-8.5</coordinates></Point></Placemark>
 <Placemark><name>Biak</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>136,-1</coordinates></Point></Placemark>
 <Placemark><name>Badimaya</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>118,-27.67</coordinates></Point></Placemark>
 <Placemark><name>Bisa</name><styleUrl>#E41A1C</styleUrl><description>Stock: Mande</description><Point><coordinates>-0.5,11.5</coordinates></Point></Placemark>
@@ -871,7 +871,7 @@
 <Placemark><name>Bikol</name><styleUrl>#984EA3</styleUrl><description>Stock: Austronesian</description><Point><coordinates>123.5,13.33</coordinates></Point></Placemark>
 <Placemark><name>Kom</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>10.33,6.25</coordinates></Point></Placemark>
 <Placemark><name>Bakairí</name><styleUrl>#BEBADA</styleUrl><description>Stock: Cariban</description><Point><coordinates>-55,-14</coordinates></Point></Placemark>
-<Placemark><name>Bilua</name><styleUrl>#FF7F00</styleUrl><description>Stock: Central Solomons</description><Point><coordinates>156.67,-7.75</coordinates></Point></Placemark>
+<Placemark><name>Bilua</name><styleUrl>#FF7F00</styleUrl><description>Stock: Bilua</description><Point><coordinates>156.67,-7.75</coordinates></Point></Placemark>
 <Placemark><name>Blackfoot</name><styleUrl>#F781BF</styleUrl><description>Stock: Algic</description><Point><coordinates>-112.67,50</coordinates></Point></Placemark>
 <Placemark><name>Bolia</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>18.33,-1.25</coordinates></Point></Placemark>
 <Placemark><name>Biloxi</name><styleUrl>#F781BF</styleUrl><description>Stock: Siouan</description><Point><coordinates>-88.67,30.5</coordinates></Point></Placemark>
@@ -1004,7 +1004,7 @@
 <Placemark><name>Chicomuceltec</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Mayan</description><Point><coordinates>-92.25,15.5</coordinates></Point></Placemark>
 <Placemark><name>Cocama</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-74.5,-5</coordinates></Point></Placemark>
 <Placemark><name>Koreguaje</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tucánoan</description><Point><coordinates>-75.5,1</coordinates></Point></Placemark>
-<Placemark><name>Columbia-Wenatchi</name><styleUrl>#F781BF</styleUrl><description>Stock: Salishan</description><Point><coordinates>-120,47.5</coordinates></Point></Placemark>
+<Placemark><name>Columbia-Wenatchi</name><styleUrl>#A65628</styleUrl><description>Stock: Salishan</description><Point><coordinates>-120,47.5</coordinates></Point></Placemark>
 <Placemark><name>Comox</name><styleUrl>#A65628</styleUrl><description>Stock: Salishan</description><Point><coordinates>-125,50.17</coordinates></Point></Placemark>
 <Placemark><name>Coptic</name><styleUrl>#E41A1C</styleUrl><description>Stock: Egyptian</description><Point><coordinates>32,26</coordinates></Point></Placemark>
 <Placemark><name>Konyagi</name><styleUrl>#E41A1C</styleUrl><description>Stock: North Atlantic</description><Point><coordinates>-13.25,12.5</coordinates></Point></Placemark>
@@ -1012,7 +1012,7 @@
 <Placemark><name>Chinantec (Palantla)</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Otomanguean</description><Point><coordinates>-96.75,18.83</coordinates></Point></Placemark>
 <Placemark><name>Chipewyan</name><styleUrl>#F781BF</styleUrl><description>Stock: Na-Dene</description><Point><coordinates>-106,59</coordinates></Point></Placemark>
 <Placemark><name>Lonwolwol</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>168,-16.22</coordinates></Point></Placemark>
-<Placemark><name>Coeur d'Alene</name><styleUrl>#F781BF</styleUrl><description>Stock: Salishan</description><Point><coordinates>-116.5,47.25</coordinates></Point></Placemark>
+<Placemark><name>Coeur d'Alene</name><styleUrl>#A65628</styleUrl><description>Stock: Salishan</description><Point><coordinates>-116.5,47.25</coordinates></Point></Placemark>
 <Placemark><name>Cree (Eastern)</name><styleUrl>#F781BF</styleUrl><description>Stock: Algic</description><Point><coordinates>-74,51</coordinates></Point></Placemark>
 <Placemark><name>Michif</name><styleUrl>#F781BF</styleUrl><description>Stock: Algic</description><Point><coordinates>-100.17,52</coordinates></Point></Placemark>
 <Placemark><name>Tatar (Crimean)</name><styleUrl>#377EB8</styleUrl><description>Stock: Turkic</description><Point><coordinates>34.08,45</coordinates></Point></Placemark>
@@ -1020,9 +1020,9 @@
 <Placemark><name>Cornish</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>-5,50.33</coordinates></Point></Placemark>
 <Placemark><name>Crow</name><styleUrl>#F781BF</styleUrl><description>Stock: Siouan</description><Point><coordinates>-108,47</coordinates></Point></Placemark>
 <Placemark><name>Chorote</name><styleUrl>#BEBADA</styleUrl><description>Stock: Matacoan</description><Point><coordinates>-62.5,-22.5</coordinates></Point></Placemark>
-<Placemark><name>Seychelles Creole</name><styleUrl>#E41A1C</styleUrl><description>Stock: Seychelles Creole</description><Point><coordinates>55.5,-4.75</coordinates></Point></Placemark>
+<Placemark><name>Seychelles Creole</name><styleUrl>#984EA3</styleUrl><description>Stock: Seychelles Creole</description><Point><coordinates>55.5,-4.75</coordinates></Point></Placemark>
 <Placemark><name>Kashubian</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>18,54</coordinates></Point></Placemark>
-<Placemark><name>Hyow</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>92.42,22.08</coordinates></Point></Placemark>
+<Placemark><name>Asho Chin</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>92.42,22.08</coordinates></Point></Placemark>
 <Placemark><name>Miwok (Bodega)</name><styleUrl>#A65628</styleUrl><description>Stock: Yokuts-Utian</description><Point><coordinates>-123,38.33</coordinates></Point></Placemark>
 <Placemark><name>Sign Language Chinese</name><styleUrl>#984EA3</styleUrl><description>Stock: Sign Language Chinese</description><Point><coordinates>115,35</coordinates></Point></Placemark>
 <Placemark><name>Miwok (Central Sierra)</name><styleUrl>#A65628</styleUrl><description>Stock: Yokuts-Utian</description><Point><coordinates>-120.33,38</coordinates></Point></Placemark>
@@ -1037,7 +1037,7 @@
 <Placemark><name>Cubeo</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tucánoan</description><Point><coordinates>-70.5,1.33</coordinates></Point></Placemark>
 <Placemark><name>Cuiba</name><styleUrl>#BEBADA</styleUrl><description>Stock: Guahiboan</description><Point><coordinates>-70,6.5</coordinates></Point></Placemark>
 <Placemark><name>Culina</name><styleUrl>#BEBADA</styleUrl><description>Stock: Arawan</description><Point><coordinates>-70.5,-6</coordinates></Point></Placemark>
-<Placemark><name>Cupeño</name><styleUrl>#A65628</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-116.5,33.17</coordinates></Point></Placemark>
+<Placemark><name>Cupeño</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-116.5,33.17</coordinates></Point></Placemark>
 <Placemark><name>Chinantec (San Felipe Usila)</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Otomanguean</description><Point><coordinates>-96.5,17.92</coordinates></Point></Placemark>
 <Placemark><name>Cuicatec</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Otomanguean</description><Point><coordinates>-96.83,17.83</coordinates></Point></Placemark>
 <Placemark><name>Chatino (Nopala)</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Otomanguean</description><Point><coordinates>-97.17,16.08</coordinates></Point></Placemark>
@@ -1083,7 +1083,7 @@
 <Placemark><name>Umaua</name><styleUrl>#BEBADA</styleUrl><description>Stock: Cariban</description><Point><coordinates>-72,1</coordinates></Point></Placemark>
 <Placemark><name>Chaozhou</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>116.67,23.67</coordinates></Point></Placemark>
 <Placemark><name>Hokkien</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>118,25</coordinates></Point></Placemark>
-<Placemark><name>Taiwanese</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>121.5,25</coordinates></Point></Placemark>
+<Placemark><name>Taiwanese Mandarin</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>121.5,25</coordinates></Point></Placemark>
 <Placemark><name>Xiamen</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>118.17,24.5</coordinates></Point></Placemark>
 <Placemark><name>Kunming</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>102.75,25</coordinates></Point></Placemark>
 <Placemark><name>Chippewa (Red Lake and Pillager)</name><styleUrl>#F781BF</styleUrl><description>Stock: Algic</description><Point><coordinates>-95,48</coordinates></Point></Placemark>
@@ -1098,7 +1098,7 @@
 <Placemark><name>Tiipay (Jamul)</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Yuman</description><Point><coordinates>-116.5,32.17</coordinates></Point></Placemark>
 <Placemark><name>Djaru</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>128,-18.75</coordinates></Point></Placemark>
 <Placemark><name>Tsez</name><styleUrl>#377EB8</styleUrl><description>Stock: Nakh-Daghestanian</description><Point><coordinates>45.95,42.2</coordinates></Point></Placemark>
-<Placemark><name>Kam (Zhanglu)</name><styleUrl>#984EA3</styleUrl><description>Stock: Tai-Kadai</description><Point><coordinates>108.5,26</coordinates></Point></Placemark>
+<Placemark><name>Northern Dong</name><styleUrl>#984EA3</styleUrl><description>Stock: Tai-Kadai</description><Point><coordinates>108.5,26</coordinates></Point></Placemark>
 <Placemark><name>Dogoso</name><styleUrl>#E41A1C</styleUrl><description>Stock: Dogon</description><Point><coordinates>-6.05,10.58</coordinates></Point></Placemark>
 <Placemark><name>Guadeloupe Creole</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Guadeloupe Creole</description><Point><coordinates>-61.5,16.25</coordinates></Point></Placemark>
 <Placemark><name>Martinique Creole</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Martinique Creole</description><Point><coordinates>-61,14.67</coordinates></Point></Placemark>
@@ -1190,7 +1190,6 @@
 <Placemark><name>Dumaki</name><styleUrl>#984EA3</styleUrl><description>Stock: Indo-European</description><Point><coordinates>74,36.17</coordinates></Point></Placemark>
 <Placemark><name>Ketapang</name><styleUrl>#984EA3</styleUrl><description>Stock: Austronesian</description><Point><coordinates>110,-1.87</coordinates></Point></Placemark>
 <Placemark><name>Malay (Kuala Lumpur)</name><styleUrl>#984EA3</styleUrl><description>Stock: Austronesian</description><Point><coordinates>101.7,3.17</coordinates></Point></Placemark>
-<Placemark><name>Mandinka (Gambian)</name><styleUrl>#E41A1C</styleUrl><description>Stock: Mande</description><Point><coordinates>-16,13.42</coordinates></Point></Placemark>
 <Placemark><name>Mantjiltjara</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>125.08,-22.67</coordinates></Point></Placemark>
 <Placemark><name>Yulparija</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>124,-21</coordinates></Point></Placemark>
 <Placemark><name>Bhumij</name><styleUrl>#984EA3</styleUrl><description>Stock: Austroasiatic</description><Point><coordinates>86.5,21.33</coordinates></Point></Placemark>
@@ -1231,10 +1230,10 @@
 <Placemark><name>Darai</name><styleUrl>#984EA3</styleUrl><description>Stock: Indo-European</description><Point><coordinates>84,24</coordinates></Point></Placemark>
 <Placemark><name>Sign Language Dutch</name><styleUrl>#377EB8</styleUrl><description>Stock: Sign Language Dutch</description><Point><coordinates>5.5,52.25</coordinates></Point></Placemark>
 <Placemark><name>Dhaasanac</name><styleUrl>#E41A1C</styleUrl><description>Stock: Cushitic</description><Point><coordinates>36.33,4.67</coordinates></Point></Placemark>
-<Placemark><name>Shoshone (Wind River)</name><styleUrl>#F781BF</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-108.83,43.42</coordinates></Point></Placemark>
+<Placemark><name>Shoshone (Wind River)</name><styleUrl>#A65628</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-108.83,43.42</coordinates></Point></Placemark>
 <Placemark><name>Arabic (Abbéché Chad)</name><styleUrl>#E41A1C</styleUrl><description>Stock: Semitic</description><Point><coordinates>20.83,13.83</coordinates></Point></Placemark>
 <Placemark><name>Arabic (Borno Nigerian)</name><styleUrl>#E41A1C</styleUrl><description>Stock: Semitic</description><Point><coordinates>12.42,8.58</coordinates></Point></Placemark>
-<Placemark><name>Spanish (Canary Islands)</name><styleUrl>#NA</styleUrl><description>Stock: Indo-European</description><Point><coordinates>-15.58,28</coordinates></Point></Placemark>
+<Placemark><name>Spanish (Canary Islands)</name><styleUrl>#E41A1C</styleUrl><description>Stock: Indo-European</description><Point><coordinates>-15.58,28</coordinates></Point></Placemark>
 <Placemark><name>Bosnian</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>18,43</coordinates></Point></Placemark>
 <Placemark><name>Lummi</name><styleUrl>#A65628</styleUrl><description>Stock: Salishan</description><Point><coordinates>-122.67,48.7</coordinates></Point></Placemark>
 <Placemark><name>Saanich</name><styleUrl>#A65628</styleUrl><description>Stock: Salishan</description><Point><coordinates>-123.42,48.58</coordinates></Point></Placemark>
@@ -1246,8 +1245,8 @@
 <Placemark><name>Swedish (Västerbotten)</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>19.75,64.25</coordinates></Point></Placemark>
 <Placemark><name>Dagur</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Mongolic</description><Point><coordinates>124,48</coordinates></Point></Placemark>
 <Placemark><name>Tamil (Spoken)</name><styleUrl>#984EA3</styleUrl><description>Stock: Dravidian</description><Point><coordinates>78,11</coordinates></Point></Placemark>
-<Placemark><name>Tewa (Rio Grande)</name><styleUrl>#F781BF</styleUrl><description>Stock: Kiowa-Tanoan</description><Point><coordinates>-106.17,36.25</coordinates></Point></Placemark>
-<Placemark><name>Tewa (San Juan Pueblo)</name><styleUrl>#F781BF</styleUrl><description>Stock: Kiowa-Tanoan</description><Point><coordinates>-106.08,36.08</coordinates></Point></Placemark>
+<Placemark><name>Tewa (Rio Grande)</name><styleUrl>#A65628</styleUrl><description>Stock: Kiowa-Tanoan</description><Point><coordinates>-106.17,36.25</coordinates></Point></Placemark>
+<Placemark><name>Tewa (San Juan Pueblo)</name><styleUrl>#A65628</styleUrl><description>Stock: Kiowa-Tanoan</description><Point><coordinates>-106.08,36.08</coordinates></Point></Placemark>
 <Placemark><name>Tuareg (Air)</name><styleUrl>#E41A1C</styleUrl><description>Stock: Berber</description><Point><coordinates>9,19</coordinates></Point></Placemark>
 <Placemark><name>Tuareg (Ghat)</name><styleUrl>#E41A1C</styleUrl><description>Stock: Berber</description><Point><coordinates>10.17,25</coordinates></Point></Placemark>
 <Placemark><name>Jad</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>79,30.83</coordinates></Point></Placemark>
@@ -1268,7 +1267,7 @@
 <Placemark><name>Paita</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>166.5,-22.08</coordinates></Point></Placemark>
 <Placemark><name>Dumi</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>86.67,27.25</coordinates></Point></Placemark>
 <Placemark><name>Dutch</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>6,52.5</coordinates></Point></Placemark>
-<Placemark><name>Chemehuevi</name><styleUrl>#F781BF</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-115.17,34.33</coordinates></Point></Placemark>
+<Placemark><name>Chemehuevi</name><styleUrl>#A65628</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-115.17,34.33</coordinates></Point></Placemark>
 <Placemark><name>Krymchak</name><styleUrl>#377EB8</styleUrl><description>Stock: Turkic</description><Point><coordinates>34.25,45</coordinates></Point></Placemark>
 <Placemark><name>Patwin</name><styleUrl>#A65628</styleUrl><description>Stock: Wintuan</description><Point><coordinates>-122.33,39</coordinates></Point></Placemark>
 <Placemark><name>Yiddish (Bessarabian)</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>28.5,47</coordinates></Point></Placemark>
@@ -1278,9 +1277,9 @@
 <Placemark><name>Wikchamni</name><styleUrl>#A65628</styleUrl><description>Stock: Yokuts-Utian</description><Point><coordinates>-119.08,36.42</coordinates></Point></Placemark>
 <Placemark><name>Yokuts (Yaudanchi)</name><styleUrl>#A65628</styleUrl><description>Stock: Yokuts-Utian</description><Point><coordinates>-119.08,36.08</coordinates></Point></Placemark>
 <Placemark><name>Dyula</name><styleUrl>#E41A1C</styleUrl><description>Stock: Mande</description><Point><coordinates>-4.67,9.83</coordinates></Point></Placemark>
-<Placemark><name>Havasupai</name><styleUrl>#F781BF</styleUrl><description>Stock: Yuman</description><Point><coordinates>-112.5,35.75</coordinates></Point></Placemark>
-<Placemark><name>Hualapai</name><styleUrl>#F781BF</styleUrl><description>Stock: Yuman</description><Point><coordinates>-113.75,35.5</coordinates></Point></Placemark>
-<Placemark><name>Yavapai</name><styleUrl>#F781BF</styleUrl><description>Stock: Yuman</description><Point><coordinates>-113.33,34</coordinates></Point></Placemark>
+<Placemark><name>Havasupai</name><styleUrl>#A65628</styleUrl><description>Stock: Yuman</description><Point><coordinates>-112.5,35.75</coordinates></Point></Placemark>
+<Placemark><name>Hualapai</name><styleUrl>#A65628</styleUrl><description>Stock: Yuman</description><Point><coordinates>-113.75,35.5</coordinates></Point></Placemark>
+<Placemark><name>Yavapai</name><styleUrl>#A65628</styleUrl><description>Stock: Yuman</description><Point><coordinates>-113.33,34</coordinates></Point></Placemark>
 <Placemark><name>Binga</name><styleUrl>#E41A1C</styleUrl><description>Stock: Bongo-Bagirmi</description><Point><coordinates>25,8</coordinates></Point></Placemark>
 <Placemark><name>Djabugay</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>145.58,-16.75</coordinates></Point></Placemark>
 <Placemark><name>Zoque (Ostuacan)</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Mixe-Zoque</description><Point><coordinates>-93.3,17.42</coordinates></Point></Placemark>
@@ -1312,7 +1311,7 @@
 <Placemark><name>Palor</name><styleUrl>#E41A1C</styleUrl><description>Stock: North Atlantic</description><Point><coordinates>-16.75,14.83</coordinates></Point></Placemark>
 <Placemark><name>Sign Language Québec</name><styleUrl>#F781BF</styleUrl><description>Stock: Sign Language Québec</description><Point><coordinates>-75,48</coordinates></Point></Placemark>
 <Placemark><name>Nobiin</name><styleUrl>#E41A1C</styleUrl><description>Stock: Nubian</description><Point><coordinates>31,21</coordinates></Point></Placemark>
-<Placemark><name>Kalispel</name><styleUrl>#F781BF</styleUrl><description>Stock: Salishan</description><Point><coordinates>-117,48</coordinates></Point></Placemark>
+<Placemark><name>Kalispel</name><styleUrl>#A65628</styleUrl><description>Stock: Salishan</description><Point><coordinates>-117,48</coordinates></Point></Placemark>
 <Placemark><name>Fe'fe'</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>10.17,5.25</coordinates></Point></Placemark>
 <Placemark><name>Fongbe</name><styleUrl>#E41A1C</styleUrl><description>Stock: Kwa</description><Point><coordinates>2.17,6.42</coordinates></Point></Placemark>
 <Placemark><name>Foe</name><styleUrl>#FF7F00</styleUrl><description>Stock: East Kutubu</description><Point><coordinates>143.5,-6.5</coordinates></Point></Placemark>
@@ -1390,7 +1389,7 @@
 <Placemark><name>Guajajara</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-46,-5</coordinates></Point></Placemark>
 <Placemark><name>Gurindji</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>130.67,-17.67</coordinates></Point></Placemark>
 <Placemark><name>Guahibo</name><styleUrl>#BEBADA</styleUrl><description>Stock: Guahiboan</description><Point><coordinates>-69,5</coordinates></Point></Placemark>
-<Placemark><name>Chiriguano</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-64.33,-23.67</coordinates></Point></Placemark>
+<Placemark><name>Eastern Bolivian Guaraní</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-64.33,-23.67</coordinates></Point></Placemark>
 <Placemark><name>Guambiano</name><styleUrl>#BEBADA</styleUrl><description>Stock: Barbacoan</description><Point><coordinates>-76.67,2.5</coordinates></Point></Placemark>
 <Placemark><name>Guayabero</name><styleUrl>#BEBADA</styleUrl><description>Stock: Guahiboan</description><Point><coordinates>-72,2.83</coordinates></Point></Placemark>
 <Placemark><name>Aché</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-55.17,-25.25</coordinates></Point></Placemark>
@@ -1504,7 +1503,7 @@
 <Placemark><name>Manem</name><styleUrl>#FF7F00</styleUrl><description>Stock: Border</description><Point><coordinates>140.83,-3</coordinates></Point></Placemark>
 <Placemark><name>Jahai</name><styleUrl>#984EA3</styleUrl><description>Stock: Austroasiatic</description><Point><coordinates>101.5,5.75</coordinates></Point></Placemark>
 <Placemark><name>Tol</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Jicaquean</description><Point><coordinates>-87,14.67</coordinates></Point></Placemark>
-<Placemark><name>Jinuo</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>101,22</coordinates></Point></Placemark>
+<Placemark><name>Youle Jinuo</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>101,22</coordinates></Point></Placemark>
 <Placemark><name>Yamdena</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>131.5,-7.5</coordinates></Point></Placemark>
 <Placemark><name>Zhang-Zhung</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>78.42,31.58</coordinates></Point></Placemark>
 <Placemark><name>Yemsa</name><styleUrl>#E41A1C</styleUrl><description>Stock: Omotic</description><Point><coordinates>37.33,7.83</coordinates></Point></Placemark>
@@ -1513,7 +1512,7 @@
 <Placemark><name>Jurchen</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Tungusic</description><Point><coordinates>130,47</coordinates></Point></Placemark>
 <Placemark><name>Juang</name><styleUrl>#984EA3</styleUrl><description>Stock: Austroasiatic</description><Point><coordinates>86,21.33</coordinates></Point></Placemark>
 <Placemark><name>Hup</name><styleUrl>#BEBADA</styleUrl><description>Stock: Nadahup</description><Point><coordinates>-69.25,0.17</coordinates></Point></Placemark>
-<Placemark><name>Juruna</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-54.5,-5</coordinates></Point></Placemark>
+<Placemark><name>Jurúna</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-54.5,-5</coordinates></Point></Placemark>
 <Placemark><name>Jiarong</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>102,31.5</coordinates></Point></Placemark>
 <Placemark><name>Karakalpak</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Turkic</description><Point><coordinates>60,43</coordinates></Point></Placemark>
 <Placemark><name>Chaga</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>37,-3</coordinates></Point></Placemark>
@@ -1524,7 +1523,7 @@
 <Placemark><name>Capanahua</name><styleUrl>#BEBADA</styleUrl><description>Stock: Pano-Tacanan</description><Point><coordinates>-74,-7</coordinates></Point></Placemark>
 <Placemark><name>Kasem</name><styleUrl>#E41A1C</styleUrl><description>Stock: Gur</description><Point><coordinates>-1.25,11.25</coordinates></Point></Placemark>
 <Placemark><name>Kawaiisu</name><styleUrl>#A65628</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-117.5,36</coordinates></Point></Placemark>
-<Placemark><name>Kamaiurá</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-52.67,-12</coordinates></Point></Placemark>
+<Placemark><name>Kamayurá</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-52.67,-12</coordinates></Point></Placemark>
 <Placemark><name>Kazakh</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Turkic</description><Point><coordinates>70,50</coordinates></Point></Placemark>
 <Placemark><name>Kadiwéu</name><styleUrl>#BEBADA</styleUrl><description>Stock: Guaicuruan</description><Point><coordinates>-57,-20</coordinates></Point></Placemark>
 <Placemark><name>Kanembu</name><styleUrl>#E41A1C</styleUrl><description>Stock: Saharan</description><Point><coordinates>15,14</coordinates></Point></Placemark>
@@ -1547,7 +1546,7 @@
 <Placemark><name>Kagoma</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>8.17,9.25</coordinates></Point></Placemark>
 <Placemark><name>Kirghiz</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Turkic</description><Point><coordinates>75,42</coordinates></Point></Placemark>
 <Placemark><name>Karaim</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Turkic</description><Point><coordinates>24.92,54.67</coordinates></Point></Placemark>
-<Placemark><name>Keresan (Santa Ana)</name><styleUrl>#F781BF</styleUrl><description>Stock: Keresan</description><Point><coordinates>-106.67,35.42</coordinates></Point></Placemark>
+<Placemark><name>Keresan (Santa Ana)</name><styleUrl>#A65628</styleUrl><description>Stock: Keresan</description><Point><coordinates>-106.67,35.42</coordinates></Point></Placemark>
 <Placemark><name>Kana</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>7.42,4.75</coordinates></Point></Placemark>
 <Placemark><name>Kei</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>132.92,-5.83</coordinates></Point></Placemark>
 <Placemark><name>K'ekchí</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Mayan</description><Point><coordinates>-89.83,16</coordinates></Point></Placemark>
@@ -1790,7 +1789,7 @@
 <Placemark><name>Arabic (Bani-Hassan)</name><styleUrl>#377EB8</styleUrl><description>Stock: Semitic</description><Point><coordinates>37,31</coordinates></Point></Placemark>
 <Placemark><name>Menomini</name><styleUrl>#F781BF</styleUrl><description>Stock: Algic</description><Point><coordinates>-88.33,45.5</coordinates></Point></Placemark>
 <Placemark><name>Mba</name><styleUrl>#E41A1C</styleUrl><description>Stock: Adamawa-Ubangi</description><Point><coordinates>25,1</coordinates></Point></Placemark>
-<Placemark><name>Mauritian Creole</name><styleUrl>#E41A1C</styleUrl><description>Stock: Mauritian Creole</description><Point><coordinates>57.5,-20.33</coordinates></Point></Placemark>
+<Placemark><name>Mauritian Creole</name><styleUrl>#984EA3</styleUrl><description>Stock: Mauritian Creole</description><Point><coordinates>57.5,-20.33</coordinates></Point></Placemark>
 <Placemark><name>Malgwa</name><styleUrl>#E41A1C</styleUrl><description>Stock: Chadic</description><Point><coordinates>13.75,11.5</coordinates></Point></Placemark>
 <Placemark><name>Manjaku</name><styleUrl>#E41A1C</styleUrl><description>Stock: North Atlantic</description><Point><coordinates>-16.25,12</coordinates></Point></Placemark>
 <Placemark><name>Mende</name><styleUrl>#E41A1C</styleUrl><description>Stock: Mande</description><Point><coordinates>-11.5,7.83</coordinates></Point></Placemark>
@@ -1842,7 +1841,7 @@
 <Placemark><name>Mixtec (Silacayoapan)</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Otomanguean</description><Point><coordinates>-98.17,17.5</coordinates></Point></Placemark>
 <Placemark><name>Tamabo</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>167.17,-15.67</coordinates></Point></Placemark>
 <Placemark><name>Manambu</name><styleUrl>#FF7F00</styleUrl><description>Stock: Sepik</description><Point><coordinates>142.83,-4.25</coordinates></Point></Placemark>
-<Placemark><name>Moghol</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Mongolic</description><Point><coordinates>62,35</coordinates></Point></Placemark>
+<Placemark><name>Moghol</name><styleUrl>#377EB8</styleUrl><description>Stock: Mongolic</description><Point><coordinates>62,35</coordinates></Point></Placemark>
 <Placemark><name>Mulao</name><styleUrl>#984EA3</styleUrl><description>Stock: Tai-Kadai</description><Point><coordinates>108,25</coordinates></Point></Placemark>
 <Placemark><name>Mugil</name><styleUrl>#FF7F00</styleUrl><description>Stock: Madang</description><Point><coordinates>145.75,-4.88</coordinates></Point></Placemark>
 <Placemark><name>Maninka (Western)</name><styleUrl>#E41A1C</styleUrl><description>Stock: Mande</description><Point><coordinates>-11,13</coordinates></Point></Placemark>
@@ -1873,7 +1872,7 @@
 <Placemark><name>Mono (USA)</name><styleUrl>#A65628</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-119,38</coordinates></Point></Placemark>
 <Placemark><name>Mopan</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Mayan</description><Point><coordinates>-88.67,16.58</coordinates></Point></Placemark>
 <Placemark><name>Motilón (Chibchan)</name><styleUrl>#BEBADA</styleUrl><description>Stock: Chibchan</description><Point><coordinates>-73,9</coordinates></Point></Placemark>
-<Placemark><name>Mojave</name><styleUrl>#F781BF</styleUrl><description>Stock: Yuman</description><Point><coordinates>-114.58,34.67</coordinates></Point></Placemark>
+<Placemark><name>Mojave</name><styleUrl>#A65628</styleUrl><description>Stock: Yuman</description><Point><coordinates>-114.58,34.67</coordinates></Point></Placemark>
 <Placemark><name>Moca</name><styleUrl>#E41A1C</styleUrl><description>Stock: Omotic</description><Point><coordinates>35.5,7.58</coordinates></Point></Placemark>
 <Placemark><name>Mokilko</name><styleUrl>#E41A1C</styleUrl><description>Stock: Chadic</description><Point><coordinates>18.08,11.92</coordinates></Point></Placemark>
 <Placemark><name>Majang</name><styleUrl>#E41A1C</styleUrl><description>Stock: Surmic</description><Point><coordinates>35,6.75</coordinates></Point></Placemark>
@@ -1970,7 +1969,7 @@
 <Placemark><name>Ndebele (South Africa)</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>29,-25.33</coordinates></Point></Placemark>
 <Placemark><name>Nengone</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>168,-21.5</coordinates></Point></Placemark>
 <Placemark><name>Nafaanra</name><styleUrl>#E41A1C</styleUrl><description>Stock: Senufo</description><Point><coordinates>-2.58,8</coordinates></Point></Placemark>
-<Placemark><name>Ngbaka</name><styleUrl>#E41A1C</styleUrl><description>Stock: Adamawa-Ubangi</description><Point><coordinates>20,3.5</coordinates></Point></Placemark>
+<Placemark><name>Ngbaka</name><styleUrl>#E41A1C</styleUrl><description>Stock: NA</description><Point><coordinates>20,3.5</coordinates></Point></Placemark>
 <Placemark><name>Ngombe</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>23,3</coordinates></Point></Placemark>
 <Placemark><name>Ngemba</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>10,6.2</coordinates></Point></Placemark>
 <Placemark><name>Ngizim</name><styleUrl>#E41A1C</styleUrl><description>Stock: Chadic</description><Point><coordinates>10.92,12.08</coordinates></Point></Placemark>
@@ -1993,7 +1992,7 @@
 <Placemark><name>Lotha</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>94.25,26.5</coordinates></Point></Placemark>
 <Placemark><name>Ao</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>94.67,26.58</coordinates></Point></Placemark>
 <Placemark><name>Ngadjumaja</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>123.83,-32.33</coordinates></Point></Placemark>
-<Placemark><name>Kabui</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>94,24.83</coordinates></Point></Placemark>
+<Placemark><name>Rongmei Naga</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>94,24.83</coordinates></Point></Placemark>
 <Placemark><name>Nkonya</name><styleUrl>#E41A1C</styleUrl><description>Stock: Kwa</description><Point><coordinates>0.25,7.17</coordinates></Point></Placemark>
 <Placemark><name>Nukuoro</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>154.92,3.83</coordinates></Point></Placemark>
 <Placemark><name>Gela</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>160.25,-9.08</coordinates></Point></Placemark>
@@ -2058,7 +2057,7 @@
 <Placemark><name>Ogbronuagum</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>6.87,4.75</coordinates></Point></Placemark>
 <Placemark><name>Ojibwa (Eastern)</name><styleUrl>#F781BF</styleUrl><description>Stock: Algic</description><Point><coordinates>-80,46</coordinates></Point></Placemark>
 <Placemark><name>Ojibwa (Severn)</name><styleUrl>#F781BF</styleUrl><description>Stock: Algic</description><Point><coordinates>-90,53</coordinates></Point></Placemark>
-<Placemark><name>Okanagan</name><styleUrl>#F781BF</styleUrl><description>Stock: Salishan</description><Point><coordinates>-118.5,49.5</coordinates></Point></Placemark>
+<Placemark><name>Okanagan</name><styleUrl>#A65628</styleUrl><description>Stock: Salishan</description><Point><coordinates>-118.5,49.5</coordinates></Point></Placemark>
 <Placemark><name>Kuo</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>10.5,6.25</coordinates></Point></Placemark>
 <Placemark><name>Omaha</name><styleUrl>#F781BF</styleUrl><description>Stock: Siouan</description><Point><coordinates>-97.25,42</coordinates></Point></Placemark>
 <Placemark><name>Ambae (Lolovoli Northeast)</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>167.88,-15.42</coordinates></Point></Placemark>
@@ -2070,7 +2069,7 @@
 <Placemark><name>Orokaiva</name><styleUrl>#FF7F00</styleUrl><description>Stock: Greater Binanderean</description><Point><coordinates>148.25,-8.83</coordinates></Point></Placemark>
 <Placemark><name>Orokolo</name><styleUrl>#FF7F00</styleUrl><description>Stock: Eleman</description><Point><coordinates>145.33,-7.83</coordinates></Point></Placemark>
 <Placemark><name>Oriya (Kotia)</name><styleUrl>#984EA3</styleUrl><description>Stock: Indo-European</description><Point><coordinates>83,18.33</coordinates></Point></Placemark>
-<Placemark><name>Ormuri</name><styleUrl>#984EA3</styleUrl><description>Stock: Indo-European</description><Point><coordinates>69.75,32.5</coordinates></Point></Placemark>
+<Placemark><name>Ormuri</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>69.75,32.5</coordinates></Point></Placemark>
 <Placemark><name>Osage</name><styleUrl>#F781BF</styleUrl><description>Stock: Siouan</description><Point><coordinates>-94,37</coordinates></Point></Placemark>
 <Placemark><name>Otomí (Ixtenco)</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Otomanguean</description><Point><coordinates>-97.92,19.08</coordinates></Point></Placemark>
 <Placemark><name>Otomí (Sierra)</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Otomanguean</description><Point><coordinates>-98.83,20.67</coordinates></Point></Placemark>
@@ -2083,7 +2082,7 @@
 <Placemark><name>Pacoh</name><styleUrl>#984EA3</styleUrl><description>Stock: Austroasiatic</description><Point><coordinates>107.08,16.42</coordinates></Point></Placemark>
 <Placemark><name>Papiamentu</name><styleUrl>#BEBADA</styleUrl><description>Stock: Papiamentu</description><Point><coordinates>-69,12.25</coordinates></Point></Placemark>
 <Placemark><name>Palikur</name><styleUrl>#BEBADA</styleUrl><description>Stock: Arawakan</description><Point><coordinates>-51,3</coordinates></Point></Placemark>
-<Placemark><name>Shoshoni</name><styleUrl>#F781BF</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-114,41</coordinates></Point></Placemark>
+<Placemark><name>Shoshoni</name><styleUrl>#A65628</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-114,41</coordinates></Point></Placemark>
 <Placemark><name>Pech</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Chibchan</description><Point><coordinates>-85.5,15</coordinates></Point></Placemark>
 <Placemark><name>Popoloca (Metzontla)</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Otomanguean</description><Point><coordinates>-97.5,18.17</coordinates></Point></Placemark>
 <Placemark><name>Popoloca (San Vicente Coyotepec)</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Otomanguean</description><Point><coordinates>-97.83,18.25</coordinates></Point></Placemark>
@@ -2099,7 +2098,7 @@
 <Placemark><name>Pengo</name><styleUrl>#984EA3</styleUrl><description>Stock: Dravidian</description><Point><coordinates>83.83,19.83</coordinates></Point></Placemark>
 <Placemark><name>Baonan</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Mongolic</description><Point><coordinates>102.5,36</coordinates></Point></Placemark>
 <Placemark><name>Pomo (Northern)</name><styleUrl>#A65628</styleUrl><description>Stock: Pomoan</description><Point><coordinates>-123.5,39.33</coordinates></Point></Placemark>
-<Placemark><name>Tajik</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Indo-European</description><Point><coordinates>70,38.67</coordinates></Point></Placemark>
+<Placemark><name>Tajik</name><styleUrl>#984EA3</styleUrl><description>Stock: Indo-European</description><Point><coordinates>70,38.67</coordinates></Point></Placemark>
 <Placemark><name>Pagu</name><styleUrl>#FF7F00</styleUrl><description>Stock: West Papuan</description><Point><coordinates>127.75,1.25</coordinates></Point></Placemark>
 <Placemark><name>Pima Bajo</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-111,29</coordinates></Point></Placemark>
 <Placemark><name>Piaroa</name><styleUrl>#BEBADA</styleUrl><description>Stock: Saliban</description><Point><coordinates>-67,5</coordinates></Point></Placemark>
@@ -2149,7 +2148,7 @@
 <Placemark><name>Sign Language Plains-Indians</name><styleUrl>#F781BF</styleUrl><description>Stock: Sign Language Plains-Indians</description><Point><coordinates>-100,40</coordinates></Point></Placemark>
 <Placemark><name>Língua Gestual Portuguesa</name><styleUrl>#377EB8</styleUrl><description>Stock: Língua Gestual Portuguesa</description><Point><coordinates>-8,40</coordinates></Point></Placemark>
 <Placemark><name>Kaulong</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>149.67,-6.17</coordinates></Point></Placemark>
-<Placemark><name>Pashto (Central)</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Indo-European</description><Point><coordinates>67,33</coordinates></Point></Placemark>
+<Placemark><name>Pashto (Central)</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>67,33</coordinates></Point></Placemark>
 <Placemark><name>Patep</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>146.58,-6.92</coordinates></Point></Placemark>
 <Placemark><name>Bambam</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>119.08,-3.08</coordinates></Point></Placemark>
 <Placemark><name>Puinave</name><styleUrl>#BEBADA</styleUrl><description>Stock: Puinave</description><Point><coordinates>-68,4</coordinates></Point></Placemark>
@@ -2274,7 +2273,7 @@
 <Placemark><name>Songe</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>22,-6.83</coordinates></Point></Placemark>
 <Placemark><name>Sonsorol-Tobi</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>132.25,5.33</coordinates></Point></Placemark>
 <Placemark><name>Ladino</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>33,40</coordinates></Point></Placemark>
-<Placemark><name>Spokane</name><styleUrl>#F781BF</styleUrl><description>Stock: Salishan</description><Point><coordinates>-117.75,47.67</coordinates></Point></Placemark>
+<Placemark><name>Spokane</name><styleUrl>#A65628</styleUrl><description>Stock: Salishan</description><Point><coordinates>-117.75,47.67</coordinates></Point></Placemark>
 <Placemark><name>Taiof</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>154.63,-5.53</coordinates></Point></Placemark>
 <Placemark><name>Sapuan</name><styleUrl>#984EA3</styleUrl><description>Stock: Austroasiatic</description><Point><coordinates>106.83,15.17</coordinates></Point></Placemark>
 <Placemark><name>Soqotri</name><styleUrl>#E41A1C</styleUrl><description>Stock: Semitic</description><Point><coordinates>54,12.5</coordinates></Point></Placemark>
@@ -2308,7 +2307,7 @@
 <Placemark><name>Sundanese</name><styleUrl>#984EA3</styleUrl><description>Stock: Austronesian</description><Point><coordinates>107,-7</coordinates></Point></Placemark>
 <Placemark><name>Mupun</name><styleUrl>#E41A1C</styleUrl><description>Stock: Chadic</description><Point><coordinates>8.83,9.5</coordinates></Point></Placemark>
 <Placemark><name>Sulung</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>93.25,28.33</coordinates></Point></Placemark>
-<Placemark><name>Savosavo</name><styleUrl>#FF7F00</styleUrl><description>Stock: Central Solomons</description><Point><coordinates>159.8,-9.13</coordinates></Point></Placemark>
+<Placemark><name>Savosavo</name><styleUrl>#FF7F00</styleUrl><description>Stock: Savosavo</description><Point><coordinates>159.8,-9.13</coordinates></Point></Placemark>
 <Placemark><name>Comorian</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>44,-12</coordinates></Point></Placemark>
 <Placemark><name>Sui</name><styleUrl>#984EA3</styleUrl><description>Stock: Tai-Kadai</description><Point><coordinates>107.5,26</coordinates></Point></Placemark>
 <Placemark><name>Svenska Teckenspråket</name><styleUrl>#377EB8</styleUrl><description>Stock: Svenska Teckenspråket</description><Point><coordinates>15,59</coordinates></Point></Placemark>
@@ -2324,7 +2323,7 @@
 <Placemark><name>Tapiete</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-61.67,-19.75</coordinates></Point></Placemark>
 <Placemark><name>Tampulma</name><styleUrl>#E41A1C</styleUrl><description>Stock: Gur</description><Point><coordinates>-0.58,10.42</coordinates></Point></Placemark>
 <Placemark><name>Tangale</name><styleUrl>#E41A1C</styleUrl><description>Stock: Chadic</description><Point><coordinates>11.33,9.75</coordinates></Point></Placemark>
-<Placemark><name>Tiwa (Northern)</name><styleUrl>#F781BF</styleUrl><description>Stock: Kiowa-Tanoan</description><Point><coordinates>-105.5,36.5</coordinates></Point></Placemark>
+<Placemark><name>Tiwa (Northern)</name><styleUrl>#A65628</styleUrl><description>Stock: Kiowa-Tanoan</description><Point><coordinates>-105.5,36.5</coordinates></Point></Placemark>
 <Placemark><name>Tabwa</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>29.5,-8</coordinates></Point></Placemark>
 <Placemark><name>Tarahumara (Central)</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Uto-Aztecan</description><Point><coordinates>-107.5,27.5</coordinates></Point></Placemark>
 <Placemark><name>Tatuyo</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tucánoan</description><Point><coordinates>-70.5,0.42</coordinates></Point></Placemark>
@@ -2360,7 +2359,7 @@
 <Placemark><name>Temein</name><styleUrl>#E41A1C</styleUrl><description>Stock: Temein</description><Point><coordinates>29.42,11.92</coordinates></Point></Placemark>
 <Placemark><name>Atikamekw</name><styleUrl>#F781BF</styleUrl><description>Stock: Algic</description><Point><coordinates>-74,48</coordinates></Point></Placemark>
 <Placemark><name>So</name><styleUrl>#E41A1C</styleUrl><description>Stock: Kuliak</description><Point><coordinates>34.75,2.58</coordinates></Point></Placemark>
-<Placemark><name>Tewa (Arizona)</name><styleUrl>#F781BF</styleUrl><description>Stock: Kiowa-Tanoan</description><Point><coordinates>-110.42,35.83</coordinates></Point></Placemark>
+<Placemark><name>Tewa (Arizona)</name><styleUrl>#A65628</styleUrl><description>Stock: Kiowa-Tanoan</description><Point><coordinates>-110.42,35.83</coordinates></Point></Placemark>
 <Placemark><name>Tennet</name><styleUrl>#E41A1C</styleUrl><description>Stock: Surmic</description><Point><coordinates>32.5,4.42</coordinates></Point></Placemark>
 <Placemark><name>Tanaina</name><styleUrl>#A65628</styleUrl><description>Stock: Na-Dene</description><Point><coordinates>-150,62</coordinates></Point></Placemark>
 <Placemark><name>Teribe</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Chibchan</description><Point><coordinates>-82.67,9.33</coordinates></Point></Placemark>
@@ -2382,7 +2381,7 @@
 <Placemark><name>Tindi</name><styleUrl>#377EB8</styleUrl><description>Stock: Nakh-Daghestanian</description><Point><coordinates>46.14,42.45</coordinates></Point></Placemark>
 <Placemark><name>Teop</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>155,-5.67</coordinates></Point></Placemark>
 <Placemark><name>Tiv</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>9,7.5</coordinates></Point></Placemark>
-<Placemark><name>Tiwa (Southern)</name><styleUrl>#F781BF</styleUrl><description>Stock: Kiowa-Tanoan</description><Point><coordinates>-106.33,35</coordinates></Point></Placemark>
+<Placemark><name>Tiwa (Southern)</name><styleUrl>#A65628</styleUrl><description>Stock: Kiowa-Tanoan</description><Point><coordinates>-106.33,35</coordinates></Point></Placemark>
 <Placemark><name>Tiruray</name><styleUrl>#984EA3</styleUrl><description>Stock: Austronesian</description><Point><coordinates>124.17,6.75</coordinates></Point></Placemark>
 <Placemark><name>Tsakhur</name><styleUrl>#377EB8</styleUrl><description>Stock: Nakh-Daghestanian</description><Point><coordinates>47.17,41.67</coordinates></Point></Placemark>
 <Placemark><name>Tati (Southern)</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>49.67,36</coordinates></Point></Placemark>
@@ -2409,7 +2408,7 @@
 <Placemark><name>Totonac (Xicotepec de Juárez)</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Totonac-Tepehuan</description><Point><coordinates>-97.83,20.42</coordinates></Point></Placemark>
 <Placemark><name>Totonac (Sierra)</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Totonac-Tepehuan</description><Point><coordinates>-97.42,19.92</coordinates></Point></Placemark>
 <Placemark><name>Tongan</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>-175.17,-21.17</coordinates></Point></Placemark>
-<Placemark><name>Jemez</name><styleUrl>#F781BF</styleUrl><description>Stock: Kiowa-Tanoan</description><Point><coordinates>-107,35.83</coordinates></Point></Placemark>
+<Placemark><name>Jemez</name><styleUrl>#A65628</styleUrl><description>Stock: Kiowa-Tanoan</description><Point><coordinates>-107,35.83</coordinates></Point></Placemark>
 <Placemark><name>Toaripi</name><styleUrl>#FF7F00</styleUrl><description>Stock: Eleman</description><Point><coordinates>146.25,-8.33</coordinates></Point></Placemark>
 <Placemark><name>Nyamkad</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>78.5,32</coordinates></Point></Placemark>
 <Placemark><name>Tlapanec</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Subtiaba-Tlapanec</description><Point><coordinates>-99,17.08</coordinates></Point></Placemark>
@@ -2472,7 +2471,7 @@
 <Placemark><name>Ulcha</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Tungusic</description><Point><coordinates>140.33,52.25</coordinates></Point></Placemark>
 <Placemark><name>Ulithian</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>139.58,9.92</coordinates></Point></Placemark>
 <Placemark><name>Meryam Mir</name><styleUrl>#FFFF33</styleUrl><description>Stock: Western Fly</description><Point><coordinates>144.08,-9.92</coordinates></Point></Placemark>
-<Placemark><name>Sahaptin (Umatilla)</name><styleUrl>#F781BF</styleUrl><description>Stock: Plateau Penutian</description><Point><coordinates>-118.5,45.67</coordinates></Point></Placemark>
+<Placemark><name>Sahaptin (Umatilla)</name><styleUrl>#A65628</styleUrl><description>Stock: Plateau Penutian</description><Point><coordinates>-118.5,45.67</coordinates></Point></Placemark>
 <Placemark><name>Kaugel</name><styleUrl>#FF7F00</styleUrl><description>Stock: Chimbu-Wahgi</description><Point><coordinates>144,-6</coordinates></Point></Placemark>
 <Placemark><name>Munsee</name><styleUrl>#F781BF</styleUrl><description>Stock: Algic</description><Point><coordinates>-74.67,41.5</coordinates></Point></Placemark>
 <Placemark><name>Worora</name><styleUrl>#FFFF33</styleUrl><description>Stock: Worrorran</description><Point><coordinates>124.67,-15.67</coordinates></Point></Placemark>
@@ -2486,7 +2485,6 @@
 <Placemark><name>Urum</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Turkic</description><Point><coordinates>37.55,47.12</coordinates></Point></Placemark>
 <Placemark><name>Ura</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>169.08,-18.67</coordinates></Point></Placemark>
 <Placemark><name>Kugu Nganhcara</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>142,-14.42</coordinates></Point></Placemark>
-<Placemark><name>Uzbek (Northern)</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Turkic</description><Point><coordinates>66.5,40.67</coordinates></Point></Placemark>
 <Placemark><name>Vafsi</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>49.92,34.67</coordinates></Point></Placemark>
 <Placemark><name>Vagla</name><styleUrl>#E41A1C</styleUrl><description>Stock: Gur</description><Point><coordinates>-2.42,9.42</coordinates></Point></Placemark>
 <Placemark><name>Vai</name><styleUrl>#E41A1C</styleUrl><description>Stock: Mande</description><Point><coordinates>-11.25,6.92</coordinates></Point></Placemark>
@@ -2502,7 +2500,7 @@
 <Placemark><name>Dutch (Zeeuws)</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>3.75,51.5</coordinates></Point></Placemark>
 <Placemark><name>Makua</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>38.67,-15</coordinates></Point></Placemark>
 <Placemark><name>Votic</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Uralic</description><Point><coordinates>30,59.5</coordinates></Point></Placemark>
-<Placemark><name>Sahaptin (Northern)</name><styleUrl>#F781BF</styleUrl><description>Stock: Plateau Penutian</description><Point><coordinates>-120,46.5</coordinates></Point></Placemark>
+<Placemark><name>Sahaptin (Northern)</name><styleUrl>#A65628</styleUrl><description>Stock: Plateau Penutian</description><Point><coordinates>-120,46.5</coordinates></Point></Placemark>
 <Placemark><name>Wahgi</name><styleUrl>#FF7F00</styleUrl><description>Stock: Chimbu-Wahgi</description><Point><coordinates>144.72,-5.83</coordinates></Point></Placemark>
 <Placemark><name>Wallisian</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>-176.2,-13.3</coordinates></Point></Placemark>
 <Placemark><name>Massachusett</name><styleUrl>#F781BF</styleUrl><description>Stock: Algic</description><Point><coordinates>-71,42.5</coordinates></Point></Placemark>
@@ -2567,7 +2565,7 @@
 <Placemark><name>Yaka</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>17.5,-7</coordinates></Point></Placemark>
 <Placemark><name>Yahgan</name><styleUrl>#BEBADA</styleUrl><description>Stock: Yahgan</description><Point><coordinates>-68,-55</coordinates></Point></Placemark>
 <Placemark><name>Yazgulyam</name><styleUrl>#984EA3</styleUrl><description>Stock: Indo-European</description><Point><coordinates>71.5,38.5</coordinates></Point></Placemark>
-<Placemark><name>Yaghnobi</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Indo-European</description><Point><coordinates>69,39</coordinates></Point></Placemark>
+<Placemark><name>Yaghnobi</name><styleUrl>#984EA3</styleUrl><description>Stock: Indo-European</description><Point><coordinates>69,39</coordinates></Point></Placemark>
 <Placemark><name>Yamba</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>11.08,6.42</coordinates></Point></Placemark>
 <Placemark><name>Yao (in Malawi)</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>35.5,-14.5</coordinates></Point></Placemark>
 <Placemark><name>Gunu</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>11.25,4.58</coordinates></Point></Placemark>
@@ -2576,7 +2574,7 @@
 <Placemark><name>Tarok</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>10.08,9</coordinates></Point></Placemark>
 <Placemark><name>Yeyi</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>23.5,-20</coordinates></Point></Placemark>
 <Placemark><name>Yingkarta</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>114.83,-25.17</coordinates></Point></Placemark>
-<Placemark><name>Yi</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>104,24</coordinates></Point></Placemark>
+<Placemark><name>Sichuan Yi</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>104,24</coordinates></Point></Placemark>
 <Placemark><name>Koegu</name><styleUrl>#E41A1C</styleUrl><description>Stock: Surmic</description><Point><coordinates>36.08,7</coordinates></Point></Placemark>
 <Placemark><name>Yindjibarndi</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>117.92,-21.75</coordinates></Point></Placemark>
 <Placemark><name>Lalo</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>100.25,25</coordinates></Point></Placemark>
@@ -2596,7 +2594,7 @@
 <Placemark><name>Yuruti</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tucánoan</description><Point><coordinates>-70.42,1</coordinates></Point></Placemark>
 <Placemark><name>Yuki</name><styleUrl>#A65628</styleUrl><description>Stock: Yuki-Wappo</description><Point><coordinates>-123.5,39.67</coordinates></Point></Placemark>
 <Placemark><name>Yulu</name><styleUrl>#E41A1C</styleUrl><description>Stock: Bongo-Bagirmi</description><Point><coordinates>25.25,8.5</coordinates></Point></Placemark>
-<Placemark><name>Quechan</name><styleUrl>#F781BF</styleUrl><description>Stock: Yuman</description><Point><coordinates>-114.33,32.83</coordinates></Point></Placemark>
+<Placemark><name>Quechan</name><styleUrl>#A65628</styleUrl><description>Stock: Yuman</description><Point><coordinates>-114.33,32.83</coordinates></Point></Placemark>
 <Placemark><name>Yukpa</name><styleUrl>#BEBADA</styleUrl><description>Stock: Cariban</description><Point><coordinates>-72.75,10.17</coordinates></Point></Placemark>
 <Placemark><name>Yugh</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Yeniseian</description><Point><coordinates>90,61</coordinates></Point></Placemark>
 <Placemark><name>Yukagir (Kolyma)</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Yukagir</description><Point><coordinates>150.83,65.75</coordinates></Point></Placemark>
@@ -2661,7 +2659,7 @@
 <Placemark><name>Wambule</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>86.5,27.31</coordinates></Point></Placemark>
 <Placemark><name>Pali</name><styleUrl>#984EA3</styleUrl><description>Stock: Indo-European</description><Point><coordinates>83,25.2</coordinates></Point></Placemark>
 <Placemark><name>Yagaria</name><styleUrl>#FF7F00</styleUrl><description>Stock: Eastern Highlands</description><Point><coordinates>145.38,-6.08</coordinates></Point></Placemark>
-<Placemark><name>Tujia</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>110.5,31.8</coordinates></Point></Placemark>
+<Placemark><name>Northern Tujia</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>110.5,31.8</coordinates></Point></Placemark>
 <Placemark><name>Lani (Western Dani)</name><styleUrl>#FF7F00</styleUrl><description>Stock: Dani</description><Point><coordinates>142,-4.32</coordinates></Point></Placemark>
 <Placemark><name>Bantawa</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>87.0475,27.1775</coordinates></Point></Placemark>
 <Placemark><name>Waruwaru</name><styleUrl>#BEBADA</styleUrl><description>Stock: Hotí</description><Point><coordinates>-65.5,7</coordinates></Point></Placemark>
@@ -2686,7 +2684,7 @@
 <Placemark><name>Mongolian (Peripheral)</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Mongolic</description><Point><coordinates>105,47</coordinates></Point></Placemark>
 <Placemark><name>Argobba</name><styleUrl>#E41A1C</styleUrl><description>Stock: Semitic</description><Point><coordinates>39.48,9.32</coordinates></Point></Placemark>
 <Placemark><name>Assiniboine</name><styleUrl>#F781BF</styleUrl><description>Stock: Siouan</description><Point><coordinates>-106.3,52.07</coordinates></Point></Placemark>
-<Placemark><name>French (Cajun)</name><styleUrl>#NA</styleUrl><description>Stock: Indo-European</description><Point><coordinates>-91.8,30.27</coordinates></Point></Placemark>
+<Placemark><name>French (Cajun)</name><styleUrl>#F781BF</styleUrl><description>Stock: Indo-European</description><Point><coordinates>-91.8,30.27</coordinates></Point></Placemark>
 <Placemark><name>Avestan</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Indo-European</description><Point><coordinates>61,41</coordinates></Point></Placemark>
 <Placemark><name>Yala</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>8.48,6.4</coordinates></Point></Placemark>
 <Placemark><name>Tharaka</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>37.2,-0.32</coordinates></Point></Placemark>
@@ -2732,7 +2730,7 @@
 <Placemark><name>Eton</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>11.2,4.26</coordinates></Point></Placemark>
 <Placemark><name>Torau</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>155.63,-6.21</coordinates></Point></Placemark>
 <Placemark><name>Kõic</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>86.3,27.5</coordinates></Point></Placemark>
-<Placemark><name>Keresan (Laguna)</name><styleUrl>#F781BF</styleUrl><description>Stock: Keresan</description><Point><coordinates>-106.67,35.42</coordinates></Point></Placemark>
+<Placemark><name>Keresan (Laguna)</name><styleUrl>#A65628</styleUrl><description>Stock: Keresan</description><Point><coordinates>-106.67,35.42</coordinates></Point></Placemark>
 <Placemark><name>Puyuma</name><styleUrl>#984EA3</styleUrl><description>Stock: Austronesian</description><Point><coordinates>121.13,22.75</coordinates></Point></Placemark>
 <Placemark><name>Avar (Chadakolob)</name><styleUrl>#377EB8</styleUrl><description>Stock: Nakh-Daghestanian</description><Point><coordinates>46.32,42.19</coordinates></Point></Placemark>
 <Placemark><name>Akhvakh (Northern)</name><styleUrl>#377EB8</styleUrl><description>Stock: Nakh-Daghestanian</description><Point><coordinates>46.35,42.52</coordinates></Point></Placemark>
@@ -2758,7 +2756,7 @@
 <Placemark><name>Teiwa</name><styleUrl>#FF7F00</styleUrl><description>Stock: Timor-Alor-Pantar</description><Point><coordinates>124.22,-8.28</coordinates></Point></Placemark>
 <Placemark><name>Witsuwit'en</name><styleUrl>#A65628</styleUrl><description>Stock: Na-Dene</description><Point><coordinates>-126,55</coordinates></Point></Placemark>
 <Placemark><name>Huave (San Francisco del Mar)</name><styleUrl>#8DD3C7</styleUrl><description>Stock: Huave</description><Point><coordinates>-94.63,16.23</coordinates></Point></Placemark>
-<Placemark><name>Sasak</name><styleUrl>#984EA3</styleUrl><description>Stock: Austronesian</description><Point><coordinates>116.2,-8.42</coordinates></Point></Placemark>
+<Placemark><name>Sasak</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>116.2,-8.42</coordinates></Point></Placemark>
 <Placemark><name>Yakkha</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>87.38,27.21</coordinates></Point></Placemark>
 <Placemark><name>Reyesano</name><styleUrl>#BEBADA</styleUrl><description>Stock: Pano-Tacanan</description><Point><coordinates>-66.44,-14.51</coordinates></Point></Placemark>
 <Placemark><name>Jero</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>86.44,27.32</coordinates></Point></Placemark>
@@ -2775,7 +2773,7 @@
 <Placemark><name>Tsamai</name><styleUrl>#E41A1C</styleUrl><description>Stock: Cushitic</description><Point><coordinates>36.87,5.42</coordinates></Point></Placemark>
 <Placemark><name>Lohorung</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>87.2,27.4</coordinates></Point></Placemark>
 <Placemark><name>Tamambo</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>167.17,-15.67</coordinates></Point></Placemark>
-<Placemark><name>Yakima</name><styleUrl>#F781BF</styleUrl><description>Stock: Plateau Penutian</description><Point><coordinates>-120,46.3</coordinates></Point></Placemark>
+<Placemark><name>Yakima</name><styleUrl>#A65628</styleUrl><description>Stock: Plateau Penutian</description><Point><coordinates>-120,46.3</coordinates></Point></Placemark>
 <Placemark><name>Zay</name><styleUrl>#E41A1C</styleUrl><description>Stock: Semitic</description><Point><coordinates>38.49,8</coordinates></Point></Placemark>
 <Placemark><name>Kachama-Ganjule</name><styleUrl>#E41A1C</styleUrl><description>Stock: Omotic</description><Point><coordinates>37.53,6.26</coordinates></Point></Placemark>
 <Placemark><name>Ngiemboon</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>10.15,5.38</coordinates></Point></Placemark>
@@ -2858,10 +2856,9 @@
 <Placemark><name>Biwat</name><styleUrl>#FF7F00</styleUrl><description>Stock: Yuat</description><Point><coordinates>143.87,-4.39</coordinates></Point></Placemark>
 <Placemark><name>Rangkas</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>80.32,29.5</coordinates></Point></Placemark>
 <Placemark><name>Leningitij</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>141.5,-13</coordinates></Point></Placemark>
-<Placemark><name>Guaraní (Mbyá)</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-50.36,-25.87</coordinates></Point></Placemark>
+<Placemark><name>Mbyá Guaraní</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-50.36,-25.87</coordinates></Point></Placemark>
 <Placemark><name>Legbo</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>8,6</coordinates></Point></Placemark>
 <Placemark><name>Agta (Dupaninan)</name><styleUrl>#984EA3</styleUrl><description>Stock: Austronesian</description><Point><coordinates>122.08,18</coordinates></Point></Placemark>
-<Placemark><name>Tibetan (Amdo)</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>98,38</coordinates></Point></Placemark>
 <Placemark><name>Avikam</name><styleUrl>#E41A1C</styleUrl><description>Stock: Kwa</description><Point><coordinates>-5.5,5.17</coordinates></Point></Placemark>
 <Placemark><name>Ama</name><styleUrl>#FF7F00</styleUrl><description>Stock: Left May</description><Point><coordinates>141.62,-4.22</coordinates></Point></Placemark>
 <Placemark><name>Budu</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>28,2</coordinates></Point></Placemark>
@@ -2876,7 +2873,7 @@
 <Placemark><name>Gupapuyngu</name><styleUrl>#FFFF33</styleUrl><description>Stock: Pama-Nyungan</description><Point><coordinates>136,-12</coordinates></Point></Placemark>
 <Placemark><name>Gungbe</name><styleUrl>#E41A1C</styleUrl><description>Stock: Kwa</description><Point><coordinates>2.5,6.5</coordinates></Point></Placemark>
 <Placemark><name>‡Hoan</name><styleUrl>#E41A1C</styleUrl><description>Stock: !Ui-Taa</description><Point><coordinates>25,-25.5</coordinates></Point></Placemark>
-<Placemark><name>Kham (Dege)</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>98.58,31.83</coordinates></Point></Placemark>
+<Placemark><name>Khams (Tibetan)</name><styleUrl>#4DAF4A</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>98.58,31.83</coordinates></Point></Placemark>
 <Placemark><name>Khün</name><styleUrl>#984EA3</styleUrl><description>Stock: Tai-Kadai</description><Point><coordinates>100,21</coordinates></Point></Placemark>
 <Placemark><name>Kuikúro</name><styleUrl>#BEBADA</styleUrl><description>Stock: Cariban</description><Point><coordinates>-53.08,-12.42</coordinates></Point></Placemark>
 <Placemark><name>Iwoyo</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>12.25,-5.5</coordinates></Point></Placemark>
@@ -2936,7 +2933,7 @@
 <Placemark><name>Moskona</name><styleUrl>#FF7F00</styleUrl><description>Stock: East Bird’s Head</description><Point><coordinates>133.5,-1.17</coordinates></Point></Placemark>
 <Placemark><name>Irish (Old)</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>-8,53</coordinates></Point></Placemark>
 <Placemark><name>Tabasaran (Northern: Djubek)</name><styleUrl>#377EB8</styleUrl><description>Stock: Nakh-Daghestanian</description><Point><coordinates>47.97,42.02</coordinates></Point></Placemark>
-<Placemark><name>Lulamogi</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>33.39,0.4</coordinates></Point></Placemark>
+<Placemark><name>Soga</name><styleUrl>#E41A1C</styleUrl><description>Stock: Benue-Congo</description><Point><coordinates>33.39,0.4</coordinates></Point></Placemark>
 <Placemark><name>Sereer</name><styleUrl>#E41A1C</styleUrl><description>Stock: North Atlantic</description><Point><coordinates>-16.39,13.89</coordinates></Point></Placemark>
 <Placemark><name>Torlak Serbian</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>21.37,43.01</coordinates></Point></Placemark>
 <Placemark><name>Arumanian (Krushevo)</name><styleUrl>#377EB8</styleUrl><description>Stock: Indo-European</description><Point><coordinates>21.2,41.01</coordinates></Point></Placemark>
@@ -2963,6 +2960,71 @@
 <Placemark><name>Sateré-Mawé</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-56.87,-3.64</coordinates></Point></Placemark>
 <Placemark><name>Tenharim</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-61.94,-7.93</coordinates></Point></Placemark>
 <Placemark><name>Tenetehara</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-48.24,-2.61</coordinates></Point></Placemark>
+<Placemark><name>Axi Yi</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>103.71,24.6</coordinates></Point></Placemark>
+<Placemark><name>Zaiwa</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>98.36,24.17</coordinates></Point></Placemark>
+<Placemark><name>Azha</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>104.15,23.9</coordinates></Point></Placemark>
+<Placemark><name>Jianchuan</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>99.91,26.54</coordinates></Point></Placemark>
+<Placemark><name>Pela</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>97.92,24.21</coordinates></Point></Placemark>
+<Placemark><name>Tshobdun</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>101.84,32.18</coordinates></Point></Placemark>
+<Placemark><name>Mün Chin</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>94.39,20.29</coordinates></Point></Placemark>
+<Placemark><name>Guiqiong</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>102.13,30.48</coordinates></Point></Placemark>
+<Placemark><name>Kaduo</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>101.74,22.3</coordinates></Point></Placemark>
+<Placemark><name>Enu</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>101.85,22.95</coordinates></Point></Placemark>
+<Placemark><name>Hlepho Phowa</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>103.73,23.59</coordinates></Point></Placemark>
+<Placemark><name>North Hpon</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>97.11,24.46</coordinates></Point></Placemark>
+<Placemark><name>Kayan Lahwi</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>97.41,19.52</coordinates></Point></Placemark>
+<Placemark><name>Kucong</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>101.25,22.26</coordinates></Point></Placemark>
+<Placemark><name>Na (Lahu)</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>100.21,21.27</coordinates></Point></Placemark>
+<Placemark><name>Lahu Shi</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>100.97,21.21</coordinates></Point></Placemark>
+<Placemark><name>Lawng Hsu</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>99.83,24.94</coordinates></Point></Placemark>
+<Placemark><name>Laze</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>101.45,27.85</coordinates></Point></Placemark>
+<Placemark><name>Lashi</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>98.55,26.1</coordinates></Point></Placemark>
+<Placemark><name>Lipo</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>101.3,25.23</coordinates></Point></Placemark>
+<Placemark><name>Black Lisu</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>94.02,22.55</coordinates></Point></Placemark>
+<Placemark><name>Longchuan</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>97.74,24.35</coordinates></Point></Placemark>
+<Placemark><name>Chongli</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>94.38,26.32</coordinates></Point></Placemark>
+<Placemark><name>Mongsen Khari</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>94.39,26.33</coordinates></Point></Placemark>
+<Placemark><name>Prakaa</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>84.05,28.64</coordinates></Point></Placemark>
+<Placemark><name>Mpi</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>100.21,18.17</coordinates></Point></Placemark>
+<Placemark><name>Yongning Na</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>100.9,27.8</coordinates></Point></Placemark>
+<Placemark><name>Lichiang</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>100.18,27.46</coordinates></Point></Placemark>
+<Placemark><name>Chiripá</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-55.05,-25.65</coordinates></Point></Placemark>
+<Placemark><name>Nhengatu</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-66.96,1.05</coordinates></Point></Placemark>
+<Placemark><name>Pai Tavytera</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-56.12,-23.16</coordinates></Point></Placemark>
+<Placemark><name>Suruí Do Pará</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-48.59,-5.93</coordinates></Point></Placemark>
+<Placemark><name>Xipaya</name><styleUrl>#BEBADA</styleUrl><description>Stock: Tupian</description><Point><coordinates>-49.95,-4.13</coordinates></Point></Placemark>
+<Placemark><name>Situ</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>102.66,31.59</coordinates></Point></Placemark>
+<Placemark><name>Balochi (Western)</name><styleUrl>#984EA3</styleUrl><description>Stock: Indo-European</description><Point><coordinates>62.2,37.8</coordinates></Point></Placemark>
+<Placemark><name>Tangut</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>102.25,38.89</coordinates></Point></Placemark>
+<Placemark><name>Khezha</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>94.31,25.71</coordinates></Point></Placemark>
+<Placemark><name>Hkongso</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>98.59,23.34</coordinates></Point></Placemark>
+<Placemark><name>Kurtokha</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>90.98,27.54</coordinates></Point></Placemark>
+<Placemark><name>Touo</name><styleUrl>#NA</styleUrl><description>Stock: Touo</description><Point><coordinates>NA,NA</coordinates></Point></Placemark>
+<Placemark><name>Khwarezmian</name><styleUrl>#NA</styleUrl><description>Stock: Indo-European</description><Point><coordinates>59.19,42.11</coordinates></Point></Placemark>
+<Placemark><name>Majhi</name><styleUrl>#NA</styleUrl><description>Stock: Indo-European</description><Point><coordinates>80.38,29.46</coordinates></Point></Placemark>
+<Placemark><name>Rana Tharu</name><styleUrl>#NA</styleUrl><description>Stock: Indo-European</description><Point><coordinates>80.44,28.65</coordinates></Point></Placemark>
+<Placemark><name>Vaagri Booli</name><styleUrl>#NA</styleUrl><description>Stock: Indo-European</description><Point><coordinates>79.53,12.21</coordinates></Point></Placemark>
+<Placemark><name>Phrygian</name><styleUrl>#NA</styleUrl><description>Stock: Indo-European</description><Point><coordinates>30.41,39.26</coordinates></Point></Placemark>
+<Placemark><name>Jiǎomùzú</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>102.66,31.59</coordinates></Point></Placemark>
+<Placemark><name>Balochi (Eastern)</name><styleUrl>#984EA3</styleUrl><description>Stock: Indo-European</description><Point><coordinates>62,28</coordinates></Point></Placemark>
+<Placemark><name>South Estonian</name><styleUrl>#NA</styleUrl><description>Stock: Uralic</description><Point><coordinates>NA,NA</coordinates></Point></Placemark>
+<Placemark><name>Khroskyabs</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>NA,NA</coordinates></Point></Placemark>
+<Placemark><name>Zbu</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>101.84,32.18</coordinates></Point></Placemark>
+<Placemark><name>Liangmai Naga</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>94,24.83</coordinates></Point></Placemark>
+<Placemark><name>Maram Naga</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>93.5,25.17</coordinates></Point></Placemark>
+<Placemark><name>Tagin</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>93.5,27.5</coordinates></Point></Placemark>
+<Placemark><name>Daai Chin</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>94.39,20.29</coordinates></Point></Placemark>
+<Placemark><name>Yacham-Tengsa</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>94.25,26.5</coordinates></Point></Placemark>
+<Placemark><name>Anal</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>94.17,24.25</coordinates></Point></Placemark>
+<Placemark><name>Hakhun</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>NA,NA</coordinates></Point></Placemark>
+<Placemark><name>Konyak Naga</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>NA,NA</coordinates></Point></Placemark>
+<Placemark><name>Zhaba</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>101.84,32.18</coordinates></Point></Placemark>
+<Placemark><name>Wusa Nasu</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>101.3,25.23</coordinates></Point></Placemark>
+<Placemark><name>Ugong</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>101.3,25.23</coordinates></Point></Placemark>
+<Placemark><name>Phuza</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>101.3,25.23</coordinates></Point></Placemark>
+<Placemark><name>Phola</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>101.3,25.23</coordinates></Point></Placemark>
+<Placemark><name>Lolopo</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>101.3,25.23</coordinates></Point></Placemark>
+<Placemark><name>Baima</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>78,32.25</coordinates></Point></Placemark>
 </Folder>
 </Document>
 </kml>

@@ -569,7 +569,7 @@ VInflCat:
        status (proximate, topic, focus, etc.) without a change in syntactic transitivity. This includes
        systems such as Western Austronesian focus, Yukagir focus, Algonquian obviation, etc.], [The traditional
        category of time reference (absolute or relative) in verbs.]
-    'Deixis,n/a,Reflexive_and_Reciprocal,Semistem,Tense' : >
+    'Deixis,Reflexive_and_Reciprocal,Semistem,Tense' : >
        [Any grammatical category distinguishing direction toward vs. from speaker, or similar; also up
        (from speaker), down (from speaker). Common terms: cislocative, translocative.], [Reflexive and/or
        reciprocal, for languages in which these two are non-distinct or in complementary distribution.],
@@ -1517,7 +1517,7 @@ VInflCat:
        as perfective and imperfective.], [Adds an agent to the valence.], [Evidentials, miratives, evaluatives,
        etc.], [Negative vs. Affirmative], [The more wordlike or noun-like element of a bipartite stem
        that interacts with the inflectional system.], [Tense, aspect, and mood]
-    'Applicative,Causative,Deixis,n/a,RECIP,Reflexive,Spatial,Status' : >
+    'Applicative,Causative,Deixis,RECIP,Reflexive,Spatial,Status' : >
        [Adds another object to the valence.], [Adds an agent to the valence.], [Any grammatical category
        distinguishing direction toward vs. from speaker, or similar; also up (from speaker), down (from
        speaker). Common terms: cislocative, translocative.], [Reciprocal], [Reflexives unless they serve
