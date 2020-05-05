@@ -10,7 +10,7 @@ VInflClassification.Post.Presence:
   VariantOf : 'VInflClassification.Post.Presence'
   N.entries : 4
   N.languages : 4
-  N.missing : 414
+  N.missing : 415
   Notes : >
      For the definition of macrocategory "classification", see the metadata for VInflCat in Synthesis;
      for the definition of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -27,7 +27,7 @@ VInflEvidential.Post.Presence:
   VariantOf : 'VInflEvidential.Post.Presence'
   N.entries : 35
   N.languages : 35
-  N.missing : 383
+  N.missing : 384
   Notes : >
      For the definition of macrocategory "evidential", see the metadata for VInflCat in Synthesis; for
      the definition of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -44,7 +44,7 @@ VInflInter_clausal.Post.Presence:
   VariantOf : 'VInflInter_clausal.Post.Presence'
   N.entries : 18
   N.languages : 18
-  N.missing : 400
+  N.missing : 401
   Notes : >
      For the definition of macrocategory "inter_clausal", see the metadata for VInflCat in Synthesis;
      for the definition of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -61,7 +61,7 @@ VInflNP_related.Post.Presence:
   VariantOf : 'VInflNP_related.Post.Presence'
   N.entries : 8
   N.languages : 8
-  N.missing : 410
+  N.missing : 411
   Notes : >
      For the definition of macrocategory "NP_related", see the metadata for VInflCat in Synthesis; for
      the definition of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -78,7 +78,7 @@ VInflNumber.Post.Presence:
   VariantOf : 'VInflNumber.Post.Presence'
   N.entries : 90
   N.languages : 83
-  N.missing : 328
+  N.missing : 329
   Notes : >
      For the definition of macrocategory "number", see the metadata for VInflCat in Synthesis; for the
      definition of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -93,8 +93,8 @@ VInflOperators.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflOperators.Post.Presence'
-  N.entries : 169
-  N.languages : 169
+  N.entries : 170
+  N.languages : 170
   N.missing : 249
   Notes : >
      For the definition of macrocategory "operators", see the metadata for VInflCat in Synthesis; for
@@ -112,7 +112,7 @@ VInflPerson.Post.Presence:
   VariantOf : 'VInflPerson.Post.Presence'
   N.entries : 4
   N.languages : 4
-  N.missing : 414
+  N.missing : 415
   Notes : >
      For the definition of macrocategory "person", see the metadata for VInflCat in Synthesis; for the
      definition of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -129,7 +129,7 @@ VInflPragmatic.Post.Presence:
   VariantOf : 'VInflPragmatic.Post.Presence'
   N.entries : 76
   N.languages : 73
-  N.missing : 342
+  N.missing : 343
   Notes : >
      For the definition of macrocategory "pragmatic", see the metadata for VInflCat in Synthesis; for
      the definition of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -146,7 +146,7 @@ VInflRole.Post.Presence:
   VariantOf : 'VInflRole.Post.Presence'
   N.entries : 7
   N.languages : 7
-  N.missing : 411
+  N.missing : 412
   Notes : >
      For the definition of macrocategory "role", see the metadata for VInflCat in Synthesis; for the
      definition of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -161,8 +161,8 @@ VInflTAM.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflTAM.Post.Presence'
-  N.entries : 370
-  N.languages : 316
+  N.entries : 371
+  N.languages : 317
   N.missing : 48
   Notes : >
      For the definition of macrocategory "TAM", see the metadata for VInflCat in Synthesis; for the definition
@@ -178,8 +178,8 @@ VInflValence.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflValence.Post.Presence'
-  N.entries : 179
-  N.languages : 159
+  N.entries : 180
+  N.languages : 160
   N.missing : 239
   Notes : >
      For the definition of macrocategory "valence", see the metadata for VInflCat in Synthesis; for the

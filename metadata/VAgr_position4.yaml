@@ -8,8 +8,8 @@ VAgrA.Position.binned4:
   DataType : 'categorical'
   VariantOf : 'VAgrA.Position.binned4'
   N.levels : 4
-  N.entries : 313
-  N.languages : 311
+  N.entries : 314
+  N.languages : 312
   N.missing : 31
   Levels : 
     'prae' : >
@@ -59,8 +59,8 @@ VAgrP.Position.binned4:
   DataType : 'categorical'
   VariantOf : 'VAgrP.Position.binned4'
   N.levels : 4
-  N.entries : 235
-  N.languages : 228
+  N.entries : 236
+  N.languages : 229
   N.missing : 109
   Levels : 
     'prae' : >
@@ -112,7 +112,7 @@ VAgrPOSS.Position.binned4:
   N.levels : 3
   N.entries : 4
   N.languages : 4
-  N.missing : 340
+  N.missing : 341
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under

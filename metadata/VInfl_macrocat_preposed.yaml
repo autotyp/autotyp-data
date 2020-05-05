@@ -10,7 +10,7 @@ VInflClassification.Pre.Presence:
   VariantOf : 'VInflClassification.Pre.Presence'
   N.entries : 4
   N.languages : 4
-  N.missing : 415
+  N.missing : 416
   Notes : >
      For the definition of macrocategory "classification", see the metadata for VInflCat in Synthesis;
      for the definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
@@ -27,7 +27,7 @@ VInflEvidential.Pre.Presence:
   VariantOf : 'VInflEvidential.Pre.Presence'
   N.entries : 35
   N.languages : 35
-  N.missing : 384
+  N.missing : 385
   Notes : >
      For the definition of macrocategory "evidential", see the metadata for VInflCat in Synthesis; for
      the definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
@@ -44,7 +44,7 @@ VInflInter_clausal.Pre.Presence:
   VariantOf : 'VInflInter_clausal.Pre.Presence'
   N.entries : 18
   N.languages : 18
-  N.missing : 401
+  N.missing : 402
   Notes : >
      For the definition of macrocategory "inter_clausal", see the metadata for VInflCat in Synthesis;
      for the definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
@@ -61,7 +61,7 @@ VInflNP_related.Pre.Presence:
   VariantOf : 'VInflNP_related.Pre.Presence'
   N.entries : 9
   N.languages : 9
-  N.missing : 410
+  N.missing : 411
   Notes : >
      For the definition of macrocategory "NP_related", see the metadata for VInflCat in Synthesis; for
      the definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
@@ -78,7 +78,7 @@ VInflNumber.Pre.Presence:
   VariantOf : 'VInflNumber.Pre.Presence'
   N.entries : 106
   N.languages : 96
-  N.missing : 313
+  N.missing : 314
   Notes : >
      For the definition of macrocategory "number", see the metadata for VInflCat in Synthesis; for the
      definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
@@ -93,8 +93,8 @@ VInflOperators.Pre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflOperators.Pre.Presence'
-  N.entries : 172
-  N.languages : 172
+  N.entries : 173
+  N.languages : 173
   N.missing : 247
   Notes : >
      For the definition of macrocategory "operators", see the metadata for VInflCat in Synthesis; for
@@ -112,7 +112,7 @@ VInflPerson.Pre.Presence:
   VariantOf : 'VInflPerson.Pre.Presence'
   N.entries : 4
   N.languages : 4
-  N.missing : 415
+  N.missing : 416
   Notes : >
      For the definition of macrocategory "person", see the metadata for VInflCat in Synthesis; for the
      definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
@@ -129,7 +129,7 @@ VInflPragmatic.Pre.Presence:
   VariantOf : 'VInflPragmatic.Pre.Presence'
   N.entries : 80
   N.languages : 76
-  N.missing : 339
+  N.missing : 340
   Notes : >
      For the definition of macrocategory "pragmatic", see the metadata for VInflCat in Synthesis; for
      the definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
@@ -146,7 +146,7 @@ VInflRole.Pre.Presence:
   VariantOf : 'VInflRole.Pre.Presence'
   N.entries : 7
   N.languages : 7
-  N.missing : 412
+  N.missing : 413
   Notes : >
      For the definition of macrocategory "role", see the metadata for VInflCat in Synthesis; for the
      definition of "before the stem", see the metadata for Position.binned.pre.v1 in Gramm_markers
@@ -161,8 +161,8 @@ VInflTAM.Pre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflTAM.Pre.Presence'
-  N.entries : 385
-  N.languages : 320
+  N.entries : 386
+  N.languages : 321
   N.missing : 34
   Notes : >
      For the definition of macrocategory "TAM", see the metadata for VInflCat in Synthesis; for the definition
@@ -178,8 +178,8 @@ VInflValence.Pre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflValence.Pre.Presence'
-  N.entries : 184
-  N.languages : 162
+  N.entries : 185
+  N.languages : 163
   N.missing : 235
   Notes : >
      For the definition of macrocategory "valence", see the metadata for VInflCat in Synthesis; for the

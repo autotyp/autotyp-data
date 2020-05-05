@@ -11,7 +11,7 @@ VInflAktionsart.Position.binned4:
   N.levels : 4
   N.entries : 39
   N.languages : 38
-  N.missing : 328
+  N.missing : 329
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -63,7 +63,7 @@ VInflApplicative.Position.binned4:
   N.levels : 2
   N.entries : 24
   N.languages : 23
-  N.missing : 343
+  N.missing : 344
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
@@ -89,8 +89,8 @@ VInflAspect.Position.binned4:
   DataType : 'categorical'
   VariantOf : 'VInflAspect.Position.binned4'
   N.levels : 4
-  N.entries : 136
-  N.languages : 130
+  N.entries : 137
+  N.languages : 131
   N.missing : 231
   Levels : 
     'post' : >
@@ -143,7 +143,7 @@ VInflCausative.Position.binned4:
   N.levels : 4
   N.entries : 66
   N.languages : 65
-  N.missing : 301
+  N.missing : 302
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
@@ -195,7 +195,7 @@ VInflClassifier.Position.binned4:
   N.levels : 1
   N.entries : 2
   N.languages : 2
-  N.missing : 365
+  N.missing : 366
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
@@ -218,7 +218,7 @@ VInflConnective.Position.binned4:
   N.levels : 3
   N.entries : 12
   N.languages : 12
-  N.missing : 355
+  N.missing : 356
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -260,7 +260,7 @@ VInflConstruct.Position.binned4:
   N.levels : 3
   N.entries : 4
   N.languages : 4
-  N.missing : 363
+  N.missing : 364
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
@@ -298,7 +298,7 @@ VInflControl.Position.binned4:
   N.levels : 1
   N.entries : 2
   N.languages : 2
-  N.missing : 365
+  N.missing : 366
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -321,7 +321,7 @@ VInflDeixis.Position.binned4:
   N.levels : 2
   N.entries : 47
   N.languages : 47
-  N.missing : 320
+  N.missing : 321
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
@@ -347,9 +347,9 @@ VInflVoice.Position.binned4:
   DataType : 'categorical'
   VariantOf : 'VInflVoice.Position.binned4'
   N.levels : 4
-  N.entries : 79
-  N.languages : 78
-  N.missing : 288
+  N.entries : 81
+  N.languages : 80
+  N.missing : 287
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -401,7 +401,7 @@ VInflFocus.Position.binned4:
   N.levels : 3
   N.entries : 13
   N.languages : 12
-  N.missing : 354
+  N.missing : 355
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -439,7 +439,7 @@ VInflPosterior.Position.binned4:
   N.levels : 2
   N.entries : 5
   N.languages : 5
-  N.missing : 362
+  N.missing : 363
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -467,7 +467,7 @@ VInflGender.Position.binned4:
   N.levels : 1
   N.entries : 2
   N.languages : 2
-  N.missing : 365
+  N.missing : 366
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -490,7 +490,7 @@ VInflIllocution.Position.binned4:
   N.levels : 2
   N.entries : 33
   N.languages : 32
-  N.missing : 334
+  N.missing : 335
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -518,7 +518,7 @@ VInflMA.Position.binned4:
   N.levels : 4
   N.entries : 18
   N.languages : 16
-  N.missing : 349
+  N.missing : 350
   Levels : 
     'in/simul' : >
        [inside the phonological host], [the formative has two exponents at different positions in the
@@ -570,7 +570,7 @@ VInflMN.Position.binned4:
   N.levels : 2
   N.entries : 3
   N.languages : 3
-  N.missing : 364
+  N.missing : 365
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
@@ -598,7 +598,7 @@ VInflModality.Position.binned4:
   N.levels : 2
   N.entries : 13
   N.languages : 13
-  N.missing : 354
+  N.missing : 355
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -624,9 +624,9 @@ VInflMood.Position.binned4:
   DataType : 'categorical'
   VariantOf : 'VInflMood.Position.binned4'
   N.levels : 3
-  N.entries : 77
-  N.languages : 76
-  N.missing : 290
+  N.entries : 79
+  N.languages : 78
+  N.missing : 289
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -668,7 +668,7 @@ VInflMotion.Position.binned4:
   N.levels : 2
   N.entries : 8
   N.languages : 8
-  N.missing : 359
+  N.missing : 360
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -695,7 +695,7 @@ VInflMSE.Position.binned4:
   N.levels : 3
   N.entries : 5
   N.languages : 5
-  N.missing : 362
+  N.missing : 363
   Levels : 
     'split' : >
        [either before or after the phonological host, conditioned by some structural context (category,
@@ -737,7 +737,7 @@ VInflNominalizer.Position.binned4:
   N.levels : 1
   N.entries : 4
   N.languages : 4
-  N.missing : 363
+  N.missing : 364
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -760,7 +760,7 @@ VInflNumber.Position.binned4:
   N.levels : 4
   N.entries : 56
   N.languages : 53
-  N.missing : 311
+  N.missing : 312
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
@@ -812,7 +812,7 @@ VInflPerson.Position.binned4:
   N.levels : 2
   N.entries : 4
   N.languages : 4
-  N.missing : 363
+  N.missing : 364
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -838,8 +838,8 @@ VInflPolarity.Position.binned4:
   DataType : 'categorical'
   VariantOf : 'VInflPolarity.Position.binned4'
   N.levels : 4
-  N.entries : 171
-  N.languages : 171
+  N.entries : 172
+  N.languages : 172
   N.missing : 196
   Levels : 
     'post' : >
@@ -892,7 +892,7 @@ VInflPotentialis.Position.binned4:
   N.levels : 1
   N.entries : 1
   N.languages : 1
-  N.missing : 366
+  N.missing : 367
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
@@ -915,7 +915,7 @@ VInflQuantificational.Position.binned4:
   N.levels : 4
   N.entries : 58
   N.languages : 55
-  N.missing : 309
+  N.missing : 310
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -967,7 +967,7 @@ VInflReflexive_and_Reciprocal.Position.binned4:
   N.levels : 3
   N.entries : 35
   N.languages : 35
-  N.missing : 332
+  N.missing : 333
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
@@ -1009,7 +1009,7 @@ VInflRECIP.Position.binned4:
   N.levels : 3
   N.entries : 14
   N.languages : 14
-  N.missing : 353
+  N.missing : 354
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -1047,7 +1047,7 @@ VInflReferential.Position.binned4:
   N.levels : 2
   N.entries : 9
   N.languages : 9
-  N.missing : 358
+  N.missing : 359
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -1075,7 +1075,7 @@ VInflReflexive.Position.binned4:
   N.levels : 3
   N.entries : 18
   N.languages : 17
-  N.missing : 349
+  N.missing : 350
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
@@ -1113,7 +1113,7 @@ VInflRepetition.Position.binned4:
   N.levels : 3
   N.entries : 4
   N.languages : 4
-  N.missing : 363
+  N.missing : 364
   Levels : 
     'in/simul' : >
        [inside the phonological host], [the formative has two exponents at different positions in the
@@ -1151,7 +1151,7 @@ VInflReversative.Position.binned4:
   N.levels : 1
   N.entries : 1
   N.languages : 1
-  N.missing : 366
+  N.missing : 367
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -1174,7 +1174,7 @@ VInflSemistem.Position.binned4:
   N.levels : 1
   N.entries : 13
   N.languages : 13
-  N.missing : 354
+  N.missing : 355
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
@@ -1197,7 +1197,7 @@ VInflSpatial.Position.binned4:
   N.levels : 2
   N.entries : 5
   N.languages : 5
-  N.missing : 362
+  N.missing : 363
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -1225,7 +1225,7 @@ VInflStatus.Position.binned4:
   N.levels : 3
   N.entries : 28
   N.languages : 27
-  N.missing : 339
+  N.missing : 340
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -1263,7 +1263,7 @@ VInflSwitch_reference.Position.binned4:
   N.levels : 2
   N.entries : 6
   N.languages : 6
-  N.missing : 361
+  N.missing : 362
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -1300,7 +1300,7 @@ VInflTense_and_Evidential.Position.binned4:
   N.levels : 2
   N.entries : 5
   N.languages : 5
-  N.missing : 362
+  N.missing : 363
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -1337,7 +1337,7 @@ VInflTA.Position.binned4:
   N.levels : 4
   N.entries : 42
   N.languages : 38
-  N.missing : 325
+  N.missing : 326
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -1387,8 +1387,8 @@ VInflTAM.Position.binned4:
   DataType : 'categorical'
   VariantOf : 'VInflTAM.Position.binned4'
   N.levels : 4
-  N.entries : 115
-  N.languages : 108
+  N.entries : 116
+  N.languages : 109
   N.missing : 252
   Levels : 
     'post' : >
@@ -1441,7 +1441,7 @@ VInflTense.Position.binned4:
   N.levels : 3
   N.entries : 109
   N.languages : 105
-  N.missing : 258
+  N.missing : 259
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -1483,7 +1483,7 @@ VInflTM.Position.binned4:
   N.levels : 3
   N.entries : 33
   N.languages : 33
-  N.missing : 334
+  N.missing : 335
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -1525,7 +1525,7 @@ VInflValence.Position.binned4:
   N.levels : 3
   N.entries : 13
   N.languages : 13
-  N.missing : 354
+  N.missing : 355
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -1567,7 +1567,7 @@ VInflVersion.Position.binned4:
   N.levels : 1
   N.entries : 5
   N.languages : 5
-  N.missing : 362
+  N.missing : 363
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under

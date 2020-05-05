@@ -11,7 +11,7 @@ VInflClassification.Position:
   N.levels : 2
   N.entries : 4
   N.languages : 4
-  N.missing : 444
+  N.missing : 445
   Levels : 
     'prae' : >
        before the phonological host
@@ -33,7 +33,7 @@ VInflEvidential.Position:
   N.levels : 1
   N.entries : 35
   N.languages : 35
-  N.missing : 413
+  N.missing : 414
   Levels : 
     'post' : >
        after the phonological host
@@ -53,7 +53,7 @@ VInflInter_clausal.Position:
   N.levels : 4
   N.entries : 18
   N.languages : 18
-  N.missing : 430
+  N.missing : 431
   Levels : 
     'post' : >
        after the phonological host
@@ -81,7 +81,7 @@ VInflNP_related.Position:
   N.levels : 3
   N.entries : 9
   N.languages : 9
-  N.missing : 439
+  N.missing : 440
   Levels : 
     'prae' : >
        before the phonological host
@@ -105,7 +105,7 @@ VInflNumber.Position:
   N.levels : 8
   N.entries : 107
   N.languages : 96
-  N.missing : 341
+  N.missing : 342
   Levels : 
     'post' : >
        after the phonological host
@@ -142,8 +142,8 @@ VInflOperators.Position:
   DataType : 'categorical'
   VariantOf : 'VInflOperators.Position'
   N.levels : 12
-  N.entries : 171
-  N.languages : 171
+  N.entries : 172
+  N.languages : 172
   N.missing : 277
   Levels : 
     'post' : >
@@ -195,7 +195,7 @@ VInflPerson.Position:
   N.levels : 2
   N.entries : 4
   N.languages : 4
-  N.missing : 444
+  N.missing : 445
   Levels : 
     'post' : >
        after the phonological host
@@ -217,7 +217,7 @@ VInflPragmatic.Position:
   N.levels : 5
   N.entries : 81
   N.languages : 76
-  N.missing : 367
+  N.missing : 368
   Levels : 
     'prae' : >
        before the phonological host
@@ -246,7 +246,7 @@ VInflRole.Position:
   N.levels : 2
   N.entries : 7
   N.languages : 7
-  N.missing : 441
+  N.missing : 442
   Levels : 
     'post' : >
        after the phonological host
@@ -266,8 +266,8 @@ VInflTAM.Position:
   DataType : 'categorical'
   VariantOf : 'VInflTAM.Position'
   N.levels : 13
-  N.entries : 415
-  N.languages : 320
+  N.entries : 416
+  N.languages : 321
   N.missing : 33
   Levels : 
     'post' : >
@@ -319,8 +319,8 @@ VInflValence.Position:
   DataType : 'categorical'
   VariantOf : 'VInflValence.Position'
   N.levels : 8
-  N.entries : 186
-  N.languages : 162
+  N.entries : 187
+  N.languages : 163
   N.missing : 262
   Levels : 
     'prae' : >

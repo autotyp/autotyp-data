@@ -156,6 +156,20 @@ Polyexponence.Presence:
   N.languages : 782
   N.missing : 548
 
+# ------ Roles ------
+Roles:
+  Description : >
+     Roles covered by the same marker
+  SetUp : 'multiple entries per language'
+  DataEntry : 'derived'
+  VariableType : 'data'
+  DataType : 'categorical'
+  VariantOf : 'Roles'
+  N.levels : 36
+  N.entries : 2859
+  N.languages : 594
+  N.missing : 2188
+
 # ------ Exponence.n ------
 Exponence.n:
   Description : >

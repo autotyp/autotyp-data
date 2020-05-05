@@ -10,7 +10,7 @@ VInflAktionsart.Post.Presence:
   VariantOf : 'VInflAktionsart.Post.Presence'
   N.entries : 36
   N.languages : 35
-  N.missing : 324
+  N.missing : 325
   Notes : >
      For the definition of "Aktionsart", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -27,7 +27,7 @@ VInflApplicative.Post.Presence:
   VariantOf : 'VInflApplicative.Post.Presence'
   N.entries : 24
   N.languages : 23
-  N.missing : 336
+  N.missing : 337
   Notes : >
      For the definition of "Applicative", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -42,8 +42,8 @@ VInflAspect.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflAspect.Post.Presence'
-  N.entries : 125
-  N.languages : 123
+  N.entries : 126
+  N.languages : 124
   N.missing : 235
   Notes : >
      For the definition of "Aspect", see the metadata for VInflCat in Synthesis; for the definition of
@@ -61,7 +61,7 @@ VInflCausative.Post.Presence:
   VariantOf : 'VInflCausative.Post.Presence'
   N.entries : 64
   N.languages : 63
-  N.missing : 296
+  N.missing : 297
   Notes : >
      For the definition of "Causative", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -78,7 +78,7 @@ VInflClassifier.Post.Presence:
   VariantOf : 'VInflClassifier.Post.Presence'
   N.entries : 2
   N.languages : 2
-  N.missing : 358
+  N.missing : 359
   Notes : >
      For the definition of "Classifier", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -95,7 +95,7 @@ VInflConnective.Post.Presence:
   VariantOf : 'VInflConnective.Post.Presence'
   N.entries : 12
   N.languages : 12
-  N.missing : 348
+  N.missing : 349
   Notes : >
      For the definition of "Connective", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -112,7 +112,7 @@ VInflConstruct.Post.Presence:
   VariantOf : 'VInflConstruct.Post.Presence'
   N.entries : 3
   N.languages : 3
-  N.missing : 357
+  N.missing : 358
   Notes : >
      For the definition of "Construct", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -129,7 +129,7 @@ VInflControl.Post.Presence:
   VariantOf : 'VInflControl.Post.Presence'
   N.entries : 2
   N.languages : 2
-  N.missing : 358
+  N.missing : 359
   Notes : >
      For the definition of "Control", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -146,7 +146,7 @@ VInflDeixis.Post.Presence:
   VariantOf : 'VInflDeixis.Post.Presence'
   N.entries : 47
   N.languages : 47
-  N.missing : 313
+  N.missing : 314
   Notes : >
      For the definition of "Deixis", see the metadata for VInflCat in Synthesis; for the definition of
      "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -161,9 +161,9 @@ VInflVoice.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflVoice.Post.Presence'
-  N.entries : 78
-  N.languages : 77
-  N.missing : 282
+  N.entries : 80
+  N.languages : 79
+  N.missing : 281
   Notes : >
      For the definition of "Voice", see the metadata for VInflCat in Synthesis; for the definition of
      "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -180,7 +180,7 @@ VInflFocus.Post.Presence:
   VariantOf : 'VInflFocus.Post.Presence'
   N.entries : 12
   N.languages : 11
-  N.missing : 348
+  N.missing : 349
   Notes : >
      For the definition of "Focus", see the metadata for VInflCat in Synthesis; for the definition of
      "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -197,7 +197,7 @@ VInflPosterior.Post.Presence:
   VariantOf : 'VInflPosterior.Post.Presence'
   N.entries : 5
   N.languages : 5
-  N.missing : 355
+  N.missing : 356
   Notes : >
      For the definition of "Future_Posterior", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -214,7 +214,7 @@ VInflGender.Post.Presence:
   VariantOf : 'VInflGender.Post.Presence'
   N.entries : 2
   N.languages : 2
-  N.missing : 358
+  N.missing : 359
   Notes : >
      For the definition of "Gender", see the metadata for VInflCat in Synthesis; for the definition of
      "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -231,7 +231,7 @@ VInflIllocution.Post.Presence:
   VariantOf : 'VInflIllocution.Post.Presence'
   N.entries : 33
   N.languages : 32
-  N.missing : 327
+  N.missing : 328
   Notes : >
      For the definition of "Illocution", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -248,7 +248,7 @@ VInflMA.Post.Presence:
   VariantOf : 'VInflMA.Post.Presence'
   N.entries : 14
   N.languages : 14
-  N.missing : 346
+  N.missing : 347
   Notes : >
      For the definition of "MA", see the metadata for VInflCat in Synthesis; for the definition of "after
      the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -265,7 +265,7 @@ VInflMN.Post.Presence:
   VariantOf : 'VInflMN.Post.Presence'
   N.entries : 3
   N.languages : 3
-  N.missing : 357
+  N.missing : 358
   Notes : >
      For the definition of "MN", see the metadata for VInflCat in Synthesis; for the definition of "after
      the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -282,7 +282,7 @@ VInflModality.Post.Presence:
   VariantOf : 'VInflModality.Post.Presence'
   N.entries : 13
   N.languages : 13
-  N.missing : 347
+  N.missing : 348
   Notes : >
      For the definition of "Modality", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -297,9 +297,9 @@ VInflMood.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflMood.Post.Presence'
-  N.entries : 77
-  N.languages : 76
-  N.missing : 283
+  N.entries : 79
+  N.languages : 78
+  N.missing : 282
   Notes : >
      For the definition of "Mood", see the metadata for VInflCat in Synthesis; for the definition of
      "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -316,7 +316,7 @@ VInflMotion.Post.Presence:
   VariantOf : 'VInflMotion.Post.Presence'
   N.entries : 8
   N.languages : 8
-  N.missing : 352
+  N.missing : 353
   Notes : >
      For the definition of "Motion", see the metadata for VInflCat in Synthesis; for the definition of
      "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -333,7 +333,7 @@ VInflMSE.Post.Presence:
   VariantOf : 'VInflMSE.Post.Presence'
   N.entries : 5
   N.languages : 5
-  N.missing : 355
+  N.missing : 356
   Notes : >
      For the definition of "MSE", see the metadata for VInflCat in Synthesis; for the definition of "after
      the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -350,7 +350,7 @@ VInflNominalizer.Post.Presence:
   VariantOf : 'VInflNominalizer.Post.Presence'
   N.entries : 4
   N.languages : 4
-  N.missing : 356
+  N.missing : 357
   Notes : >
      For the definition of "Nominalizer", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -367,7 +367,7 @@ VInflNumber.Post.Presence:
   VariantOf : 'VInflNumber.Post.Presence'
   N.entries : 52
   N.languages : 49
-  N.missing : 308
+  N.missing : 309
   Notes : >
      For the definition of "Number", see the metadata for VInflCat in Synthesis; for the definition of
      "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -384,7 +384,7 @@ VInflPerson.Post.Presence:
   VariantOf : 'VInflPerson.Post.Presence'
   N.entries : 4
   N.languages : 4
-  N.missing : 356
+  N.missing : 357
   Notes : >
      For the definition of "Person", see the metadata for VInflCat in Synthesis; for the definition of
      "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -399,8 +399,8 @@ VInflPolarity.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflPolarity.Post.Presence'
-  N.entries : 169
-  N.languages : 169
+  N.entries : 170
+  N.languages : 170
   N.missing : 191
   Notes : >
      For the definition of "Polarity", see the metadata for VInflCat in Synthesis; for the definition
@@ -418,7 +418,7 @@ VInflPotentialis.Post.Presence:
   VariantOf : 'VInflPotentialis.Post.Presence'
   N.entries : 1
   N.languages : 1
-  N.missing : 359
+  N.missing : 360
   Notes : >
      For the definition of "Potentialis", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -435,7 +435,7 @@ VInflQuantificational.Post.Presence:
   VariantOf : 'VInflQuantificational.Post.Presence'
   N.entries : 45
   N.languages : 44
-  N.missing : 315
+  N.missing : 316
   Notes : >
      For the definition of "Quantificational", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -452,7 +452,7 @@ VInflReflexive_and_Reciprocal.Post.Presence:
   VariantOf : 'VInflReflexive_and_Reciprocal.Post.Presence'
   N.entries : 35
   N.languages : 35
-  N.missing : 325
+  N.missing : 326
   Notes : >
      For the definition of "Reflexive_and_Reciprocal", see the metadata for VInflCat in Synthesis; for
      the definition of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -469,7 +469,7 @@ VInflRECIP.Post.Presence:
   VariantOf : 'VInflRECIP.Post.Presence'
   N.entries : 13
   N.languages : 13
-  N.missing : 347
+  N.missing : 348
   Notes : >
      For the definition of "RECIP", see the metadata for VInflCat in Synthesis; for the definition of
      "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -486,7 +486,7 @@ VInflReferential.Post.Presence:
   VariantOf : 'VInflReferential.Post.Presence'
   N.entries : 9
   N.languages : 9
-  N.missing : 351
+  N.missing : 352
   Notes : >
      For the definition of "Referential", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -503,7 +503,7 @@ VInflReflexive.Post.Presence:
   VariantOf : 'VInflReflexive.Post.Presence'
   N.entries : 17
   N.languages : 16
-  N.missing : 343
+  N.missing : 344
   Notes : >
      For the definition of "Reflexive", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -520,7 +520,7 @@ VInflRepetition.Post.Presence:
   VariantOf : 'VInflRepetition.Post.Presence'
   N.entries : 3
   N.languages : 3
-  N.missing : 357
+  N.missing : 358
   Notes : >
      For the definition of "Repetition", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -537,7 +537,7 @@ VInflReversative.Post.Presence:
   VariantOf : 'VInflReversative.Post.Presence'
   N.entries : 1
   N.languages : 1
-  N.missing : 359
+  N.missing : 360
   Notes : >
      For the definition of "Reversative", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -554,7 +554,7 @@ VInflSemistem.Post.Presence:
   VariantOf : 'VInflSemistem.Post.Presence'
   N.entries : 13
   N.languages : 13
-  N.missing : 347
+  N.missing : 348
   Notes : >
      For the definition of "Semistem", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -571,7 +571,7 @@ VInflSpatial.Post.Presence:
   VariantOf : 'VInflSpatial.Post.Presence'
   N.entries : 5
   N.languages : 5
-  N.missing : 355
+  N.missing : 356
   Notes : >
      For the definition of "Spatial", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -588,7 +588,7 @@ VInflStatus.Post.Presence:
   VariantOf : 'VInflStatus.Post.Presence'
   N.entries : 27
   N.languages : 26
-  N.missing : 333
+  N.missing : 334
   Notes : >
      For the definition of "Status", see the metadata for VInflCat in Synthesis; for the definition of
      "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -605,7 +605,7 @@ VInflSwitch_reference.Post.Presence:
   VariantOf : 'VInflSwitch_reference.Post.Presence'
   N.entries : 6
   N.languages : 6
-  N.missing : 354
+  N.missing : 355
   Notes : >
      For the definition of "Switch_reference", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -622,7 +622,7 @@ VInflTense_and_Evidential.Post.Presence:
   VariantOf : 'VInflTense_and_Evidential.Post.Presence'
   N.entries : 5
   N.languages : 5
-  N.missing : 355
+  N.missing : 356
   Notes : >
      For the definition of "Tense_and_Evidential", see the metadata for VInflCat in Synthesis; for the
      definition of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -639,7 +639,7 @@ VInflTA.Post.Presence:
   VariantOf : 'VInflTA.Post.Presence'
   N.entries : 39
   N.languages : 37
-  N.missing : 321
+  N.missing : 322
   Notes : >
      For the definition of "TA", see the metadata for VInflCat in Synthesis; for the definition of "after
      the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -654,8 +654,8 @@ VInflTAM.Post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflTAM.Post.Presence'
-  N.entries : 113
-  N.languages : 107
+  N.entries : 114
+  N.languages : 108
   N.missing : 247
   Notes : >
      For the definition of "TAM", see the metadata for VInflCat in Synthesis; for the definition of "after
@@ -673,7 +673,7 @@ VInflTense.Post.Presence:
   VariantOf : 'VInflTense.Post.Presence'
   N.entries : 109
   N.languages : 105
-  N.missing : 251
+  N.missing : 252
   Notes : >
      For the definition of "Tense", see the metadata for VInflCat in Synthesis; for the definition of
      "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -690,7 +690,7 @@ VInflTM.Post.Presence:
   VariantOf : 'VInflTM.Post.Presence'
   N.entries : 33
   N.languages : 33
-  N.missing : 327
+  N.missing : 328
   Notes : >
      For the definition of "TM", see the metadata for VInflCat in Synthesis; for the definition of "after
      the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -707,7 +707,7 @@ VInflValence.Post.Presence:
   VariantOf : 'VInflValence.Post.Presence'
   N.entries : 13
   N.languages : 13
-  N.missing : 347
+  N.missing : 348
   Notes : >
      For the definition of "Valence", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers
@@ -724,7 +724,7 @@ VInflVersion.Post.Presence:
   VariantOf : 'VInflVersion.Post.Presence'
   N.entries : 5
   N.languages : 5
-  N.missing : 355
+  N.missing : 356
   Notes : >
      For the definition of "Version", see the metadata for VInflCat in Synthesis; for the definition
      of "after the stem", see the metadata for Position.binned.post in Gramm_markers

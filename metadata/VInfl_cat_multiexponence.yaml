@@ -10,7 +10,7 @@ VInflAktionsart.Pre.Presence:
   VariantOf : 'VInflAktionsart.Pre.Presence'
   N.entries : 38
   N.languages : 38
-  N.missing : 293
+  N.missing : 294
   Notes : >
      For the definition of "Aktionsart", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -27,7 +27,7 @@ VInflApplicative.Pre.Presence:
   VariantOf : 'VInflApplicative.Pre.Presence'
   N.entries : 23
   N.languages : 23
-  N.missing : 308
+  N.missing : 309
   Notes : >
      For the definition of "Applicative", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -42,8 +42,8 @@ VInflAspect.Pre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflAspect.Pre.Presence'
-  N.entries : 130
-  N.languages : 130
+  N.entries : 131
+  N.languages : 131
   N.missing : 201
   Notes : >
      For the definition of "Aspect", see the metadata for VInflCat in Synthesis; for the definition of
@@ -61,7 +61,7 @@ VInflCausative.Pre.Presence:
   VariantOf : 'VInflCausative.Pre.Presence'
   N.entries : 65
   N.languages : 65
-  N.missing : 266
+  N.missing : 267
   Notes : >
      For the definition of "Causative", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -78,7 +78,7 @@ VInflClassifier.Pre.Presence:
   VariantOf : 'VInflClassifier.Pre.Presence'
   N.entries : 2
   N.languages : 2
-  N.missing : 329
+  N.missing : 330
   Notes : >
      For the definition of "Classifier", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -95,7 +95,7 @@ VInflConnective.Pre.Presence:
   VariantOf : 'VInflConnective.Pre.Presence'
   N.entries : 12
   N.languages : 12
-  N.missing : 319
+  N.missing : 320
   Notes : >
      For the definition of "Connective", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -112,7 +112,7 @@ VInflConstruct.Pre.Presence:
   VariantOf : 'VInflConstruct.Pre.Presence'
   N.entries : 4
   N.languages : 4
-  N.missing : 327
+  N.missing : 328
   Notes : >
      For the definition of "Construct", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -129,7 +129,7 @@ VInflControl.Pre.Presence:
   VariantOf : 'VInflControl.Pre.Presence'
   N.entries : 2
   N.languages : 2
-  N.missing : 329
+  N.missing : 330
   Notes : >
      For the definition of "Control", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -146,7 +146,7 @@ VInflDeixis.Pre.Presence:
   VariantOf : 'VInflDeixis.Pre.Presence'
   N.entries : 47
   N.languages : 47
-  N.missing : 284
+  N.missing : 285
   Notes : >
      For the definition of "Deixis", see the metadata for VInflCat in Synthesis; for the definition of
      "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -161,9 +161,9 @@ VInflVoice.Pre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflVoice.Pre.Presence'
-  N.entries : 78
-  N.languages : 78
-  N.missing : 253
+  N.entries : 80
+  N.languages : 80
+  N.missing : 252
   Notes : >
      For the definition of "Voice", see the metadata for VInflCat in Synthesis; for the definition of
      "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -180,7 +180,7 @@ VInflFocus.Pre.Presence:
   VariantOf : 'VInflFocus.Pre.Presence'
   N.entries : 12
   N.languages : 12
-  N.missing : 319
+  N.missing : 320
   Notes : >
      For the definition of "Focus", see the metadata for VInflCat in Synthesis; for the definition of
      "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -197,7 +197,7 @@ VInflPosterior.Pre.Presence:
   VariantOf : 'VInflPosterior.Pre.Presence'
   N.entries : 5
   N.languages : 5
-  N.missing : 326
+  N.missing : 327
   Notes : >
      For the definition of "Future_Posterior", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -214,7 +214,7 @@ VInflGender.Pre.Presence:
   VariantOf : 'VInflGender.Pre.Presence'
   N.entries : 2
   N.languages : 2
-  N.missing : 329
+  N.missing : 330
   Notes : >
      For the definition of "Gender", see the metadata for VInflCat in Synthesis; for the definition of
      "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -231,7 +231,7 @@ VInflIllocution.Pre.Presence:
   VariantOf : 'VInflIllocution.Pre.Presence'
   N.entries : 32
   N.languages : 32
-  N.missing : 299
+  N.missing : 300
   Notes : >
      For the definition of "Illocution", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -248,7 +248,7 @@ VInflMA.Pre.Presence:
   VariantOf : 'VInflMA.Pre.Presence'
   N.entries : 16
   N.languages : 16
-  N.missing : 315
+  N.missing : 316
   Notes : >
      For the definition of "MA", see the metadata for VInflCat in Synthesis; for the definition of "multiple
      marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -265,7 +265,7 @@ VInflMN.Pre.Presence:
   VariantOf : 'VInflMN.Pre.Presence'
   N.entries : 3
   N.languages : 3
-  N.missing : 328
+  N.missing : 329
   Notes : >
      For the definition of "MN", see the metadata for VInflCat in Synthesis; for the definition of "multiple
      marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -282,7 +282,7 @@ VInflModality.Pre.Presence:
   VariantOf : 'VInflModality.Pre.Presence'
   N.entries : 13
   N.languages : 13
-  N.missing : 318
+  N.missing : 319
   Notes : >
      For the definition of "Modality", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -297,9 +297,9 @@ VInflMood.Pre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflMood.Pre.Presence'
-  N.entries : 76
-  N.languages : 76
-  N.missing : 255
+  N.entries : 78
+  N.languages : 78
+  N.missing : 254
   Notes : >
      For the definition of "Mood", see the metadata for VInflCat in Synthesis; for the definition of
      "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -316,7 +316,7 @@ VInflMotion.Pre.Presence:
   VariantOf : 'VInflMotion.Pre.Presence'
   N.entries : 7
   N.languages : 7
-  N.missing : 324
+  N.missing : 325
   Notes : >
      For the definition of "Motion", see the metadata for VInflCat in Synthesis; for the definition of
      "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -333,7 +333,7 @@ VInflMSE.Pre.Presence:
   VariantOf : 'VInflMSE.Pre.Presence'
   N.entries : 5
   N.languages : 5
-  N.missing : 326
+  N.missing : 327
   Notes : >
      For the definition of "MSE", see the metadata for VInflCat in Synthesis; for the definition of "multiple
      marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -350,7 +350,7 @@ VInflNominalizer.Pre.Presence:
   VariantOf : 'VInflNominalizer.Pre.Presence'
   N.entries : 4
   N.languages : 4
-  N.missing : 327
+  N.missing : 328
   Notes : >
      For the definition of "Nominalizer", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -367,7 +367,7 @@ VInflNumber.Pre.Presence:
   VariantOf : 'VInflNumber.Pre.Presence'
   N.entries : 53
   N.languages : 53
-  N.missing : 278
+  N.missing : 279
   Notes : >
      For the definition of "Number", see the metadata for VInflCat in Synthesis; for the definition of
      "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -384,7 +384,7 @@ VInflPerson.Pre.Presence:
   VariantOf : 'VInflPerson.Pre.Presence'
   N.entries : 4
   N.languages : 4
-  N.missing : 327
+  N.missing : 328
   Notes : >
      For the definition of "Person", see the metadata for VInflCat in Synthesis; for the definition of
      "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -399,8 +399,8 @@ VInflPolarity.Pre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflPolarity.Pre.Presence'
-  N.entries : 171
-  N.languages : 171
+  N.entries : 172
+  N.languages : 172
   N.missing : 160
   Notes : >
      For the definition of "Polarity", see the metadata for VInflCat in Synthesis; for the definition
@@ -418,7 +418,7 @@ VInflPotentialis.Pre.Presence:
   VariantOf : 'VInflPotentialis.Pre.Presence'
   N.entries : 1
   N.languages : 1
-  N.missing : 330
+  N.missing : 331
   Notes : >
      For the definition of "Potentialis", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -435,7 +435,7 @@ VInflQuantificational.Pre.Presence:
   VariantOf : 'VInflQuantificational.Pre.Presence'
   N.entries : 55
   N.languages : 55
-  N.missing : 276
+  N.missing : 277
   Notes : >
      For the definition of "Quantificational", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -452,7 +452,7 @@ VInflReflexive_and_Reciprocal.Pre.Presence:
   VariantOf : 'VInflReflexive_and_Reciprocal.Pre.Presence'
   N.entries : 35
   N.languages : 35
-  N.missing : 296
+  N.missing : 297
   Notes : >
      For the definition of "Reflexive_and_Reciprocal", see the metadata for VInflCat in Synthesis; for
      the definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in
@@ -470,7 +470,7 @@ VInflRECIP.Pre.Presence:
   VariantOf : 'VInflRECIP.Pre.Presence'
   N.entries : 14
   N.languages : 14
-  N.missing : 317
+  N.missing : 318
   Notes : >
      For the definition of "RECIP", see the metadata for VInflCat in Synthesis; for the definition of
      "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -487,7 +487,7 @@ VInflReferential.Pre.Presence:
   VariantOf : 'VInflReferential.Pre.Presence'
   N.entries : 9
   N.languages : 9
-  N.missing : 322
+  N.missing : 323
   Notes : >
      For the definition of "Referential", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -504,7 +504,7 @@ VInflReflexive.Pre.Presence:
   VariantOf : 'VInflReflexive.Pre.Presence'
   N.entries : 18
   N.languages : 17
-  N.missing : 313
+  N.missing : 314
   Notes : >
      For the definition of "REFL", see the metadata for VInflCat in Synthesis; for the definition of
      "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -521,7 +521,7 @@ VInflRepetition.Pre.Presence:
   VariantOf : 'VInflRepetition.Pre.Presence'
   N.entries : 4
   N.languages : 4
-  N.missing : 327
+  N.missing : 328
   Notes : >
      For the definition of "Repetition", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -538,7 +538,7 @@ VInflReversative.Pre.Presence:
   VariantOf : 'VInflReversative.Pre.Presence'
   N.entries : 1
   N.languages : 1
-  N.missing : 330
+  N.missing : 331
   Notes : >
      For the definition of "Reversative", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -555,7 +555,7 @@ VInflSemistem.Pre.Presence:
   VariantOf : 'VInflSemistem.Pre.Presence'
   N.entries : 13
   N.languages : 13
-  N.missing : 318
+  N.missing : 319
   Notes : >
      For the definition of "Semistem", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -572,7 +572,7 @@ VInflSpatial.Pre.Presence:
   VariantOf : 'VInflSpatial.Pre.Presence'
   N.entries : 5
   N.languages : 5
-  N.missing : 326
+  N.missing : 327
   Notes : >
      For the definition of "Spatial", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -589,7 +589,7 @@ VInflStatus.Pre.Presence:
   VariantOf : 'VInflStatus.Pre.Presence'
   N.entries : 27
   N.languages : 27
-  N.missing : 304
+  N.missing : 305
   Notes : >
      For the definition of "Status", see the metadata for VInflCat in Synthesis; for the definition of
      "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -606,7 +606,7 @@ VInflSwitch_reference.Pre.Presence:
   VariantOf : 'VInflSwitch_reference.Pre.Presence'
   N.entries : 6
   N.languages : 6
-  N.missing : 325
+  N.missing : 326
   Notes : >
      For the definition of "Switch_reference", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -623,7 +623,7 @@ VInflTense_and_Evidential.Pre.Presence:
   VariantOf : 'VInflTense_and_Evidential.Pre.Presence'
   N.entries : 5
   N.languages : 5
-  N.missing : 326
+  N.missing : 327
   Notes : >
      For the definition of "Tense_and_Evidential", see the metadata for VInflCat in Synthesis; for the
      definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -640,7 +640,7 @@ VInflTA.Pre.Presence:
   VariantOf : 'VInflTA.Pre.Presence'
   N.entries : 38
   N.languages : 38
-  N.missing : 293
+  N.missing : 294
   Notes : >
      For the definition of "TA", see the metadata for VInflCat in Synthesis; for the definition of "multiple
      marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -655,8 +655,8 @@ VInflTAM.Pre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflTAM.Pre.Presence'
-  N.entries : 108
-  N.languages : 108
+  N.entries : 109
+  N.languages : 109
   N.missing : 223
   Notes : >
      For the definition of "TAM", see the metadata for VInflCat in Synthesis; for the definition of "multiple
@@ -674,7 +674,7 @@ VInflTense.Pre.Presence:
   VariantOf : 'VInflTense.Pre.Presence'
   N.entries : 105
   N.languages : 105
-  N.missing : 226
+  N.missing : 227
   Notes : >
      For the definition of "Tense", see the metadata for VInflCat in Synthesis; for the definition of
      "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -691,7 +691,7 @@ VInflTM.Pre.Presence:
   VariantOf : 'VInflTM.Pre.Presence'
   N.entries : 33
   N.languages : 33
-  N.missing : 298
+  N.missing : 299
   Notes : >
      For the definition of "TM", see the metadata for VInflCat in Synthesis; for the definition of "multiple
      marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -708,7 +708,7 @@ VInflValence.Pre.Presence:
   VariantOf : 'VInflValence.Pre.Presence'
   N.entries : 13
   N.languages : 13
-  N.missing : 318
+  N.missing : 319
   Notes : >
      For the definition of "Valence", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -725,7 +725,7 @@ VInflVersion.Pre.Presence:
   VariantOf : 'VInflVersion.Pre.Presence'
   N.entries : 5
   N.languages : 5
-  N.missing : 326
+  N.missing : 327
   Notes : >
      For the definition of "Version", see the metadata for VInflCat in Synthesis; for the definition
      of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers

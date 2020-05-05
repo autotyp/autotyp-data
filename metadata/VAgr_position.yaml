@@ -8,8 +8,8 @@ VAgrA.Position:
   DataType : 'categorical'
   VariantOf : 'VAgrA.Position'
   N.levels : 15
-  N.entries : 317
-  N.languages : 315
+  N.entries : 318
+  N.languages : 316
   N.missing : 29
   Levels : 
     'prae' : >
@@ -66,8 +66,8 @@ VAgrP.Position:
   DataType : 'categorical'
   VariantOf : 'VAgrP.Position'
   N.levels : 14
-  N.entries : 237
-  N.languages : 230
+  N.entries : 238
+  N.languages : 231
   N.missing : 109
   Levels : 
     'prae' : >
@@ -123,7 +123,7 @@ VAgrPOSS.Position:
   N.levels : 3
   N.entries : 4
   N.languages : 4
-  N.missing : 342
+  N.missing : 343
   Levels : 
     'prae' : >
        before the phonological host
