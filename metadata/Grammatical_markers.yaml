@@ -159,7 +159,7 @@ Polyexponence.Presence:
 # ------ Roles ------
 Roles:
   Description : >
-     Roles covered by the same marker
+     Argument roles expressed by the same marker
   SetUp : 'multiple entries per language'
   DataEntry : 'derived'
   VariableType : 'data'
