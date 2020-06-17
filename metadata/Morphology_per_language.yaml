@@ -52,9 +52,9 @@ Polyexponence.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'Polyexponence.Presence'
-  N.entries : 783
-  N.languages : 782
-  N.missing : 214
+  N.entries : 790
+  N.languages : 789
+  N.missing : 207
 
 # ------ FlexivityNoun.Presence ------
 FlexivityNoun.Presence:
@@ -66,9 +66,9 @@ FlexivityNoun.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FlexivityNoun.Presence'
-  N.entries : 325
-  N.languages : 324
-  N.missing : 672
+  N.entries : 324
+  N.languages : 323
+  N.missing : 673
   Notes : >
      For the definition of 'nominal', see the metadata for 'Domain' in Gramm_markers; for the definition
      of 'lexical', see the metadata for FlexivityStem and FlexivityFormative in Gramm_markers
@@ -83,9 +83,9 @@ FlexivityVerb.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FlexivityVerb.Presence'
-  N.entries : 372
-  N.languages : 371
-  N.missing : 625
+  N.entries : 373
+  N.languages : 372
+  N.missing : 624
   Notes : >
      For the definition of 'verbal', see the metadata for 'Domain' in Gramm_markers; for the definition
      of 'lexical', see the metadata for FlexivityStem and FlexivityFormative in Gramm_markers
@@ -100,9 +100,9 @@ FlexivityLexicalNoun.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FlexivityLexicalNoun.Presence'
-  N.entries : 413
-  N.languages : 412
-  N.missing : 584
+  N.entries : 412
+  N.languages : 411
+  N.missing : 585
   Notes : >
      For the definition of 'nominal', see the metadata for 'Domain' in Gramm_markers; for the definition
      of 'lexical', see the metadata for FlexivityStem and FlexivityFormative in Gramm_markers
@@ -117,9 +117,9 @@ FlexivityLexicalVerb.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'FlexivityLexicalVerb.Presence'
-  N.entries : 369
-  N.languages : 368
-  N.missing : 628
+  N.entries : 370
+  N.languages : 369
+  N.missing : 627
   Notes : >
      For the definition of 'verbal', see the metadata for 'Domain' in Gramm_markers; for the definition
      of 'lexical', see the metadata for FlexivityStem and FlexivityFormative in Gramm_markers
@@ -134,9 +134,9 @@ PolyexponenceNoun.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PolyexponenceNoun.Presence'
-  N.entries : 439
-  N.languages : 438
-  N.missing : 558
+  N.entries : 447
+  N.languages : 446
+  N.missing : 550
   Notes : >
      For the definition of 'nominal', see the metadata for 'Domain' in Gramm_markers
 
@@ -150,9 +150,9 @@ PolyexponenceVerb.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PolyexponenceVerb.Presence'
-  N.entries : 444
-  N.languages : 443
-  N.missing : 553
+  N.entries : 453
+  N.languages : 452
+  N.missing : 544
   Notes : >
      For the definition of 'verbal', see the metadata for 'Domain' in Gramm_markers
 
@@ -166,9 +166,9 @@ SlotsWithZerosPost.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'SlotsWithZerosPost.n'
-  N.entries : 105
-  N.languages : 105
-  N.missing : 892
+  N.entries : 106
+  N.languages : 106
+  N.missing : 891
   Notes : >
      For the definition of 'post-stem', see the metadata for 'Position.binned5' in 'Gramm_markers'
 
@@ -182,9 +182,9 @@ SlotsWithZerosPrae.n:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'SlotsWithZerosPrae.n'
-  N.entries : 80
-  N.languages : 80
-  N.missing : 917
+  N.entries : 81
+  N.languages : 81
+  N.missing : 916
   Notes : >
      For the definition of 'pre-stem', see the metadata for 'Position.binned5' in 'Gramm_markers'
 

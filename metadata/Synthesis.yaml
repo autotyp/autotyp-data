@@ -1,12 +1,12 @@
-# ------ VInlfCatSurveyComplete ------
-VInlfCatSurveyComplete:
+# ------ VInflCatSurveyComplete ------
+VInflCatSurveyComplete:
   Description : >
      Category survey sufficiently complete for aggregations
   SetUp : 'single aggregated entry per language'
   DataEntry : 'derived'
   VariableType : 'quality'
   DataType : 'logical'
-  VariantOf : 'VInlfCatSurveyComplete'
+  VariantOf : 'VInflCatSurveyComplete'
   N.entries : 284
   N.languages : 284
   N.missing : 166

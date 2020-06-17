@@ -24,3 +24,6 @@
   - New language descriptions added: Amdo, Byangsi, Jugli, Khaling, Khroskyabs, Kulung, Mizo (Lushai), 
     Palula, Rongpo, Saami (Kildin), Saami (Pite), Saami (South), Sheko, Sidaama, Thulung (Mukli),
     Tibetan (Classical), Zaiwa
+
+  - Fixed an unfortunate typo in a variable name (VInlfCatSurveyComplete -> VInflCatSurveyComplete)
+  
