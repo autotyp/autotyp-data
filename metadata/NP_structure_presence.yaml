@@ -9,7 +9,7 @@ NPAgrGender.Presence:
   VariantOf : 'NPAgrGender.Presence'
   N.entries : 138
   N.languages : 92
-  N.missing : 882
+  N.missing : 884
   Notes : >
      For the definition of 'gender', see the metadata for 'NPAgrCat' in NP_structure
 
@@ -24,7 +24,7 @@ NPAgrNumber.Presence:
   VariantOf : 'NPAgrNumber.Presence'
   N.entries : 138
   N.languages : 92
-  N.missing : 882
+  N.missing : 884
   Notes : >
      For the definition of 'number', see the metadata for 'NPAgrCat' in NP_structure
 
@@ -39,7 +39,7 @@ NPAgrPerson.Presence:
   VariantOf : 'NPAgrPerson.Presence'
   N.entries : 138
   N.languages : 92
-  N.missing : 882
+  N.missing : 884
   Notes : >
      For the definition of 'person', see the metadata for 'NPAgrCat' in NP_structure
 
@@ -54,7 +54,7 @@ NPAgrReferential.Presence:
   VariantOf : 'NPAgrReferential.Presence'
   N.entries : 138
   N.languages : 92
-  N.missing : 882
+  N.missing : 884
   Notes : >
      For the definition of 'referential', see the metadata for 'NPAgrCat' in NP_structure
 
@@ -69,7 +69,7 @@ NPAgrRole.Presence:
   VariantOf : 'NPAgrRole.Presence'
   N.entries : 138
   N.languages : 92
-  N.missing : 882
+  N.missing : 884
   Notes : >
      For the definition of 'role', see the metadata for 'NPAgrCat' in NP_structure
 
@@ -82,9 +82,9 @@ NPAlienabilityConstraint.alienable.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAlienabilityConstraint.alienable.Presence'
-  N.entries : 653
-  N.languages : 307
-  N.missing : 367
+  N.entries : 654
+  N.languages : 308
+  N.missing : 368
   Notes : >
      For the definition of 'alienable', see the metadata for 'NPAlienabilityType' in NP_structure
 
@@ -97,9 +97,9 @@ NPAlienabilityConstraint.fluid.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAlienabilityConstraint.fluid.Presence'
-  N.entries : 653
-  N.languages : 307
-  N.missing : 367
+  N.entries : 654
+  N.languages : 308
+  N.missing : 368
   Notes : >
      For the definition of 'fluid', see the metadata for 'NPAlienabilityType' in NP_structure
 
@@ -112,9 +112,9 @@ NPAlienabilityConstraint.inalienable.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAlienabilityConstraint.inalienable.Presence'
-  N.entries : 653
-  N.languages : 307
-  N.missing : 367
+  N.entries : 654
+  N.languages : 308
+  N.missing : 368
   Notes : >
      For the definition of 'inalienable', see the metadata for 'NPAlienabilityType' in NP_structure
 
@@ -127,8 +127,8 @@ NPBroadLocus.D.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPBroadLocus.D.Presence'
-  N.entries : 429
-  N.languages : 225
+  N.entries : 431
+  N.languages : 227
   N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus.binned6 in Gramm_markers
@@ -142,8 +142,8 @@ NPBroadLocus.D_on_H.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPBroadLocus.D_on_H.Presence'
-  N.entries : 429
-  N.languages : 225
+  N.entries : 431
+  N.languages : 227
   N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus.binned6 in Gramm_markers
@@ -157,8 +157,8 @@ NPBroadLocus.F.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPBroadLocus.F.Presence'
-  N.entries : 429
-  N.languages : 225
+  N.entries : 431
+  N.languages : 227
   N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus.binned6 in Gramm_markers
@@ -172,8 +172,8 @@ NPBroadLocus.H.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPBroadLocus.H.Presence'
-  N.entries : 429
-  N.languages : 225
+  N.entries : 431
+  N.languages : 227
   N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus.binned6 in Gramm_markers
@@ -187,9 +187,9 @@ NPDepSemClassConstraint.animate.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepSemClassConstraint.animate.Presence'
-  N.entries : 207
-  N.languages : 113
-  N.missing : 813
+  N.entries : 208
+  N.languages : 114
+  N.missing : 814
   Notes : >
      For the definition of 'animate', see the metadata for 'NPDepSemClass' in NP_structure
 
@@ -202,9 +202,9 @@ NPDepSemClassConstraint.high_indexability.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepSemClassConstraint.high_indexability.Presence'
-  N.entries : 207
-  N.languages : 113
-  N.missing : 813
+  N.entries : 208
+  N.languages : 114
+  N.missing : 814
   Notes : >
      For the definition of 'high indexability', see the metadata for 'NPDepSemClass' in NP_structure
 
@@ -217,9 +217,9 @@ NPDepSemClassConstraint.human.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepSemClassConstraint.human.Presence'
-  N.entries : 207
-  N.languages : 113
-  N.missing : 813
+  N.entries : 208
+  N.languages : 114
+  N.missing : 814
   Notes : >
      For the definition of 'human', see the metadata for 'NPDepSemClass' in NP_structure
 
@@ -232,9 +232,9 @@ NPDepSemClassConstraint.inanimate.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepSemClassConstraint.inanimate.Presence'
-  N.entries : 207
-  N.languages : 113
-  N.missing : 813
+  N.entries : 208
+  N.languages : 114
+  N.missing : 814
   Notes : >
      For the definition of 'inanimate', see the metadata for 'NPDepSemClass' in NP_structure
 
@@ -247,9 +247,9 @@ NPDepSemClassConstraint.low_indexability.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepSemClassConstraint.low_indexability.Presence'
-  N.entries : 207
-  N.languages : 113
-  N.missing : 813
+  N.entries : 208
+  N.languages : 114
+  N.missing : 814
   Notes : >
      For the definition of low indexability', see the metadata for 'NPDepSemClass' in NP_structure
 
@@ -262,9 +262,9 @@ NPDepSemClassConstraint.meronyms.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepSemClassConstraint.meronyms.Presence'
-  N.entries : 207
-  N.languages : 113
-  N.missing : 813
+  N.entries : 208
+  N.languages : 114
+  N.missing : 814
   Notes : >
      For the definition of 'meronyms', see the metadata for 'NPDepSemClass' in NP_structure
 
@@ -277,9 +277,9 @@ NPDepSemClassConstraint.non_specific.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepSemClassConstraint.non_specific.Presence'
-  N.entries : 207
-  N.languages : 113
-  N.missing : 813
+  N.entries : 208
+  N.languages : 114
+  N.missing : 814
   Notes : >
      For the definition of 'non-specific', see the metadata for 'NPDepSemClass' in NP_structure
 
@@ -292,9 +292,9 @@ NPDepSemClassConstraint.specific.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepSemClassConstraint.specific.Presence'
-  N.entries : 207
-  N.languages : 113
-  N.missing : 813
+  N.entries : 208
+  N.languages : 114
+  N.missing : 814
   Notes : >
      For the definition of 'specific', see the metadata for 'NPDepSemClass' in NP_structure
 
@@ -307,9 +307,9 @@ NPDepCatConstraint.1_2Pro_or_N.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.1_2Pro_or_N.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -322,9 +322,9 @@ NPDepCatConstraint.2_or_3Pro.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.2_or_3Pro.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -337,9 +337,9 @@ NPDepCatConstraint.3Pro.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.3Pro.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -352,9 +352,9 @@ NPDepCatConstraint.3sgPro.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.3sgPro.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -367,9 +367,9 @@ NPDepCatConstraint.Adj.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Adj.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -382,9 +382,9 @@ NPDepCatConstraint.Adp.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Adp.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -397,9 +397,9 @@ NPDepCatConstraint.AdvP.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.AdvP.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -412,9 +412,9 @@ NPDepCatConstraint.Art.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Art.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -427,9 +427,9 @@ NPDepCatConstraint.DEM.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.DEM.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -442,9 +442,9 @@ NPDepCatConstraint.N.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.N.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -457,9 +457,9 @@ NPDepCatConstraint.N_or_Pro.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.N_or_Pro.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -472,9 +472,9 @@ NPDepCatConstraint.N_proper.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.N_proper.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -487,9 +487,9 @@ NPDepCatConstraint.nonSAP.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.nonSAP.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -502,9 +502,9 @@ NPDepCatConstraint.NP.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.NP.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -517,9 +517,9 @@ NPDepCatConstraint.Num.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Num.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -532,9 +532,9 @@ NPDepCatConstraint.Num_above_20.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Num_above_20.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -547,9 +547,9 @@ NPDepCatConstraint.Nv.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Nv.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -562,9 +562,9 @@ NPDepCatConstraint.Ord.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Ord.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -577,9 +577,9 @@ NPDepCatConstraint.Ord1.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Ord1.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -592,9 +592,9 @@ NPDepCatConstraint.Pro.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Pro.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -607,9 +607,9 @@ NPDepCatConstraint.PTCP.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.PTCP.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -622,9 +622,9 @@ NPDepCatConstraint.Quant.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.Quant.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -637,9 +637,9 @@ NPDepCatConstraint.S.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.S.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -652,9 +652,9 @@ NPDepCatConstraint.SAP.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.SAP.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -667,9 +667,9 @@ NPDepCatConstraint.V.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDepCatConstraint.V.Presence'
-  N.entries : 879
-  N.languages : 429
-  N.missing : 141
+  N.entries : 901
+  N.languages : 433
+  N.missing : 121
   Notes : >
      For the definition of relevant category, see the metadata for 'NPDepCatConstraints' in NP_structure
 
@@ -682,8 +682,8 @@ NPMarkerFusion.concatenative.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.concatenative.Presence'
-  N.entries : 268
-  N.languages : 144
+  N.entries : 270
+  N.languages : 146
   N.missing : 752
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion.binned6 in Gramm_markers
@@ -697,8 +697,8 @@ NPMarkerFusion.isolating.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.isolating.Presence'
-  N.entries : 268
-  N.languages : 144
+  N.entries : 270
+  N.languages : 146
   N.missing : 752
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion.binned6 in Gramm_markers
@@ -712,8 +712,8 @@ NPMarkerFusion.reduplicative.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.reduplicative.Presence'
-  N.entries : 268
-  N.languages : 144
+  N.entries : 270
+  N.languages : 146
   N.missing : 752
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion.binned6 in Gramm_markers
@@ -727,8 +727,8 @@ NPMarkerFusion.replacive.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.replacive.Presence'
-  N.entries : 268
-  N.languages : 144
+  N.entries : 270
+  N.languages : 146
   N.missing : 752
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion.binned6 in Gramm_markers
@@ -742,8 +742,8 @@ NPMarkerFusion.stem.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.stem.Presence'
-  N.entries : 268
-  N.languages : 144
+  N.entries : 270
+  N.languages : 146
   N.missing : 752
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion.binned6 in Gramm_markers
@@ -757,8 +757,8 @@ NPMarkerFusion.tonal.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.tonal.Presence'
-  N.entries : 268
-  N.languages : 144
+  N.entries : 270
+  N.languages : 146
   N.missing : 752
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion.binned6 in Gramm_markers
@@ -772,8 +772,8 @@ NPMarkerFusion.ablaut.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.ablaut.Presence'
-  N.entries : 270
-  N.languages : 144
+  N.entries : 272
+  N.languages : 146
   N.missing : 750
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
@@ -787,8 +787,8 @@ NPMarkerFusion.ablaut_or_suppletive.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.ablaut_or_suppletive.Presence'
-  N.entries : 270
-  N.languages : 144
+  N.entries : 272
+  N.languages : 146
   N.missing : 750
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
@@ -802,8 +802,8 @@ NPMarkerFusion.ablaut_or_tonal.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.ablaut_or_tonal.Presence'
-  N.entries : 270
-  N.languages : 144
+  N.entries : 272
+  N.languages : 146
   N.missing : 750
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
@@ -817,8 +817,8 @@ NPMarkerFusion.concatenative_then_isolating.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.concatenative_then_isolating.Presence'
-  N.entries : 270
-  N.languages : 144
+  N.entries : 272
+  N.languages : 146
   N.missing : 750
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
@@ -832,8 +832,8 @@ NPMarkerFusion.concat_ablaut.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.concat_ablaut.Presence'
-  N.entries : 270
-  N.languages : 144
+  N.entries : 272
+  N.languages : 146
   N.missing : 750
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
@@ -847,8 +847,8 @@ NPMarkerFusion.concat_redupl.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.concat_redupl.Presence'
-  N.entries : 270
-  N.languages : 144
+  N.entries : 272
+  N.languages : 146
   N.missing : 750
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
@@ -862,8 +862,8 @@ NPMarkerFusion.concatenative_or_suppletive.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.concatenative_or_suppletive.Presence'
-  N.entries : 270
-  N.languages : 144
+  N.entries : 272
+  N.languages : 146
   N.missing : 750
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
@@ -877,8 +877,8 @@ NPMarkerFusion.concatenative_or_tonal.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.concatenative_or_tonal.Presence'
-  N.entries : 270
-  N.languages : 144
+  N.entries : 272
+  N.languages : 146
   N.missing : 750
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
@@ -892,8 +892,8 @@ NPMarkerFusion.distributed.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.distributed.Presence'
-  N.entries : 270
-  N.languages : 144
+  N.entries : 272
+  N.languages : 146
   N.missing : 750
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
@@ -907,8 +907,8 @@ NPMarkerFusion.isolating_then_concatenative.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.isolating_then_concatenative.Presence'
-  N.entries : 270
-  N.languages : 144
+  N.entries : 272
+  N.languages : 146
   N.missing : 750
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
@@ -922,8 +922,8 @@ NPMarkerFusion.lenition.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.lenition.Presence'
-  N.entries : 270
-  N.languages : 144
+  N.entries : 272
+  N.languages : 146
   N.missing : 750
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
@@ -937,8 +937,8 @@ NPMarkerFusion.tonal_or_ablaut_then_isolating.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.tonal_or_ablaut_then_isolating.Presence'
-  N.entries : 270
-  N.languages : 144
+  N.entries : 272
+  N.languages : 146
   N.missing : 750
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
@@ -952,8 +952,8 @@ NPMarkerFusion.prosodic_template.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.prosodic_template.Presence'
-  N.entries : 270
-  N.languages : 144
+  N.entries : 272
+  N.languages : 146
   N.missing : 750
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
@@ -967,8 +967,8 @@ NPMarkerFusion.reduplicative_or_suppletive.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.reduplicative_or_suppletive.Presence'
-  N.entries : 270
-  N.languages : 144
+  N.entries : 272
+  N.languages : 146
   N.missing : 750
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
@@ -982,8 +982,8 @@ NPMarkerFusion.reduplication.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.reduplication.Presence'
-  N.entries : 270
-  N.languages : 144
+  N.entries : 272
+  N.languages : 146
   N.missing : 750
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
@@ -997,8 +997,8 @@ NPMarkerFusion.suppletive.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.suppletive.Presence'
-  N.entries : 270
-  N.languages : 144
+  N.entries : 272
+  N.languages : 146
   N.missing : 750
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
@@ -1012,8 +1012,8 @@ NPMarkerFusion.tonal_or_suppletive.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.tonal_or_suppletive.Presence'
-  N.entries : 270
-  N.languages : 144
+  N.entries : 272
+  N.languages : 146
   N.missing : 750
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion in Gramm_markers
@@ -1027,9 +1027,9 @@ NPHeadSemConstraint.formal.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.formal.Presence'
-  N.entries : 458
-  N.languages : 243
-  N.missing : 562
+  N.entries : 459
+  N.languages : 244
+  N.missing : 563
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1042,9 +1042,9 @@ NPHeadSemConstraint.kin.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.kin.Presence'
-  N.entries : 458
-  N.languages : 243
-  N.missing : 562
+  N.entries : 459
+  N.languages : 244
+  N.missing : 563
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1057,9 +1057,9 @@ NPHeadSemConstraint.kinds.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.kinds.Presence'
-  N.entries : 458
-  N.languages : 243
-  N.missing : 562
+  N.entries : 459
+  N.languages : 244
+  N.missing : 563
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1072,9 +1072,9 @@ NPHeadSemConstraint.names.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.names.Presence'
-  N.entries : 458
-  N.languages : 243
-  N.missing : 562
+  N.entries : 459
+  N.languages : 244
+  N.missing : 563
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1087,9 +1087,9 @@ NPHeadSemConstraint.parts.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.parts.Presence'
-  N.entries : 458
-  N.languages : 243
-  N.missing : 562
+  N.entries : 459
+  N.languages : 244
+  N.missing : 563
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1102,9 +1102,9 @@ NPHeadSemConstraint.pragmatic.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.pragmatic.Presence'
-  N.entries : 458
-  N.languages : 243
-  N.missing : 562
+  N.entries : 459
+  N.languages : 244
+  N.missing : 563
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1117,9 +1117,9 @@ NPHeadSemConstraint.referentiality.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.referentiality.Presence'
-  N.entries : 458
-  N.languages : 243
-  N.missing : 562
+  N.entries : 459
+  N.languages : 244
+  N.missing : 563
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1132,9 +1132,9 @@ NPHeadSemConstraint.alienable.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.alienable.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1147,9 +1147,9 @@ NPHeadSemConstraint.animals.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.animals.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1162,9 +1162,9 @@ NPHeadSemConstraint.body_parts.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.body_parts.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1177,9 +1177,9 @@ NPHeadSemConstraint.classifiers.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.classifiers.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1192,9 +1192,9 @@ NPHeadSemConstraint.clothing_terms.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.clothing_terms.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1207,9 +1207,9 @@ NPHeadSemConstraint.drinkable.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.drinkable.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1222,9 +1222,9 @@ NPHeadSemConstraint.edible.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.edible.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1237,9 +1237,9 @@ NPHeadSemConstraint.high_indexability.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.high_indexability.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1252,9 +1252,9 @@ NPHeadSemConstraint.human.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.human.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1267,9 +1267,9 @@ NPHeadSemConstraint.inalienable.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.inalienable.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1282,9 +1282,9 @@ NPHeadSemConstraint.kin_terms.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.kin_terms.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1297,9 +1297,9 @@ NPHeadSemConstraint.meronyms.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.meronyms.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1312,9 +1312,9 @@ NPHeadSemConstraint.non_human.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.non_human.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1327,9 +1327,9 @@ NPHeadSemConstraint.non_specific.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.non_specific.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1342,9 +1342,9 @@ NPHeadSemConstraint.origin.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.origin.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1357,9 +1357,9 @@ NPHeadSemConstraint.owner.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.owner.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1372,9 +1372,9 @@ NPHeadSemConstraint.parents_siblings.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.parents_siblings.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1387,9 +1387,9 @@ NPHeadSemConstraint.plant_parts.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.plant_parts.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1402,9 +1402,9 @@ NPHeadSemConstraint.plants.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.plants.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1417,9 +1417,9 @@ NPHeadSemConstraint.property.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.property.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1432,9 +1432,9 @@ NPHeadSemConstraint.quantificational.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.quantificational.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1447,9 +1447,9 @@ NPHeadSemConstraint.rocks.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.rocks.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1462,9 +1462,9 @@ NPHeadSemConstraint.semantic.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.semantic.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1477,9 +1477,9 @@ NPHeadSemConstraint.singular.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.singular.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1492,9 +1492,9 @@ NPHeadSemConstraint.specific.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.specific.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1507,9 +1507,9 @@ NPHeadSemConstraint.spouse.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.spouse.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1522,9 +1522,9 @@ NPHeadSemConstraint.subsets.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.subsets.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1537,9 +1537,9 @@ NPHeadSemConstraint.topological.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.topological.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1552,9 +1552,9 @@ NPHeadSemConstraint.tracks.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.tracks.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1567,9 +1567,9 @@ NPHeadSemConstraint.transportation_means.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.transportation_means.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1582,9 +1582,9 @@ NPHeadSemConstraint.unspecified_inanimate.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.unspecified_inanimate.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1597,9 +1597,9 @@ NPHeadSemConstraint.village_group.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.village_group.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1612,9 +1612,9 @@ NPHeadSemConstraint.volitional.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.volitional.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1627,9 +1627,9 @@ NPHeadSemConstraint.weapon.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraint.weapon.Presence'
-  N.entries : 460
-  N.languages : 243
-  N.missing : 560
+  N.entries : 461
+  N.languages : 244
+  N.missing : 561
   Notes : >
      For the definition of relevant constraint, see the metadata for 'NPHeadSemConstraints' in NP_structure
 
@@ -1642,8 +1642,8 @@ NPDetailedLocus.D.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDetailedLocus.D.Presence'
-  N.entries : 429
-  N.languages : 225
+  N.entries : 431
+  N.languages : 227
   N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus in Gramm_markers
@@ -1657,8 +1657,8 @@ NPDetailedLocus.d_on_h.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDetailedLocus.d_on_h.Presence'
-  N.entries : 429
-  N.languages : 225
+  N.entries : 431
+  N.languages : 227
   N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus in Gramm_markers
@@ -1672,8 +1672,8 @@ NPDetailedLocus.D_on_H.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDetailedLocus.D_on_H.Presence'
-  N.entries : 429
-  N.languages : 225
+  N.entries : 431
+  N.languages : 227
   N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus in Gramm_markers
@@ -1687,8 +1687,8 @@ NPDetailedLocus.F.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDetailedLocus.F.Presence'
-  N.entries : 429
-  N.languages : 225
+  N.entries : 431
+  N.languages : 227
   N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus in Gramm_markers
@@ -1702,8 +1702,8 @@ NPDetailedLocus.H.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDetailedLocus.H.Presence'
-  N.entries : 429
-  N.languages : 225
+  N.entries : 431
+  N.languages : 227
   N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus in Gramm_markers
@@ -1717,8 +1717,8 @@ NPDetailedLocus.P.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPDetailedLocus.P.Presence'
-  N.entries : 429
-  N.languages : 225
+  N.entries : 431
+  N.languages : 227
   N.missing : 591
   Notes : >
      For the definition of the relevant locus, see the metadata for Locus in Gramm_markers
@@ -1732,9 +1732,9 @@ NPMarkersSource.agr_target.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkersSource.agr_target'
-  N.entries : 200
-  N.languages : 109
-  N.missing : 820
+  N.entries : 201
+  N.languages : 110
+  N.missing : 821
   Notes : >
      For the definition of the relevant source of marking type, see the metadata for SourceOfMarking
      in Gramm_markers
@@ -1748,9 +1748,9 @@ NPMarkersSource.agree.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkersSource.agree'
-  N.entries : 200
-  N.languages : 109
-  N.missing : 820
+  N.entries : 201
+  N.languages : 110
+  N.missing : 821
   Notes : >
      For the definition of the relevant source of marking type, see the metadata for SourceOfMarking
      in Gramm_markers
@@ -1764,9 +1764,9 @@ NPMarkersSource.assign.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkersSource.assign'
-  N.entries : 200
-  N.languages : 109
-  N.missing : 820
+  N.entries : 201
+  N.languages : 110
+  N.missing : 821
   Notes : >
      For the definition of the relevant source of marking type, see the metadata for SourceOfMarking
      in Gramm_markers
@@ -1780,9 +1780,9 @@ NPMarkersSource.both_assign_and_agree.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkersSource.both_assign_and_agree'
-  N.entries : 200
-  N.languages : 109
-  N.missing : 820
+  N.entries : 201
+  N.languages : 110
+  N.missing : 821
   Notes : >
      For the definition of the relevant source of marking type, see the metadata for SourceOfMarking
      in Gramm_markers
@@ -1796,9 +1796,9 @@ NPMarkersSource.case_assigned_gender_agrees.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkersSource.case_assigned_gender_agrees'
-  N.entries : 200
-  N.languages : 109
-  N.missing : 820
+  N.entries : 201
+  N.languages : 110
+  N.missing : 821
   Notes : >
      For the definition of the relevant source of marking type, see the metadata for SourceOfMarking
      in Gramm_markers
@@ -1812,9 +1812,9 @@ NPMarkersSource.free.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkersSource.free'
-  N.entries : 200
-  N.languages : 109
-  N.missing : 820
+  N.entries : 201
+  N.languages : 110
+  N.missing : 821
   Notes : >
      For the definition of the relevant source of marking type, see the metadata for SourceOfMarking
      in Gramm_markers
@@ -1828,9 +1828,9 @@ NPMarkerType.formative.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerType.Presence.formative'
-  N.entries : 339
-  N.languages : 192
-  N.missing : 681
+  N.entries : 340
+  N.languages : 193
+  N.missing : 682
   Notes : >
      For the definition of the relevant type, see the metadata for MorphemeType in Gramm_markers
 
@@ -1843,9 +1843,9 @@ NPMarkerType.word.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerType.Presence.formative'
-  N.entries : 339
-  N.languages : 192
-  N.missing : 681
+  N.entries : 340
+  N.languages : 193
+  N.missing : 682
   Notes : >
      For the definition of the relevant type, see the metadata for MorphemeType in Gramm_markers
 
@@ -1858,8 +1858,8 @@ NPMarkerFusion.nonlinear.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarkerFusion.nonlinear.Presence'
-  N.entries : 268
-  N.languages : 144
+  N.entries : 270
+  N.languages : 146
   N.missing : 752
   Notes : >
      For the definition of the relevant fusion type, see the metadata for Fusion.binned.nonlinear in

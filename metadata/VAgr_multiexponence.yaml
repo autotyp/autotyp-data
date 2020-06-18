@@ -7,9 +7,9 @@ VAgrA.Pre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VAgrA.Pre.Presence'
-  N.entries : 250
-  N.languages : 250
-  N.missing : 23
+  N.entries : 312
+  N.languages : 312
+  N.missing : 24
   Notes : >
      For the definition of macrorole "A", see the metadata for Relation in LocusMacrorelations; for the
      definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -23,9 +23,9 @@ VAgrP.Pre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VAgrP.Pre.Presence'
-  N.entries : 194
-  N.languages : 194
-  N.missing : 79
+  N.entries : 229
+  N.languages : 229
+  N.missing : 107
   Notes : >
      For the definition of macrorole "P", see the metadata for Relation in LocusMacrorelations; for the
      definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in Gramm_markers
@@ -40,9 +40,9 @@ VAgrPOSS.Pre.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VAgrPOSS.Pre.Presence'
-  N.entries : 3
-  N.languages : 3
-  N.missing : 270
+  N.entries : 4
+  N.languages : 4
+  N.missing : 332
   Notes : >
      For the definition of macrorole "POSS", see the metadata for Relation in LocusMacrorelations; for
      the definition of "multiple marking/exponence", see the metadata for Position.binned.simul.v1 in

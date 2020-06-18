@@ -7,15 +7,16 @@ VAgrA.Position.binned5:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'VAgrA.Position.binned5'
-  N.levels : 4
-  N.entries : 252
-  N.languages : 250
-  N.missing : 30
+  N.levels : 5
+  N.entries : 314
+  N.languages : 312
+  N.missing : 31
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
        exceptional conditions (typically lexical)], [after the phonological host by default, around the
@@ -43,9 +44,12 @@ VAgrA.Position.binned5:
        exceptional conditions (typically lexical)], [around the phonological host by default, after the
        host under exceptional conditions (typically lexical)], [in two or more different positions in
        (but not around) the phonological host by default, before the host under exceptional conditions
-       (typically lexical)], [in two or more different positons in the phonological host by default,
+       (typically lexical)], [in two or more different positions in the phonological host by default,
        after the host under exceptional conditions (typically lexical)], [a special case of “simul” where
        one position is stem change itself]
+    'in' : >
+       [inside the phonological host], [inside the phonological host by default, after the host under
+       exceptional conditions (typically lexical)]
   Notes : >
      For the definition of macrorole "A", see the metadata for Relation in LocusMacrorelations
 
@@ -59,14 +63,15 @@ VAgrP.Position.binned5:
   DataType : 'categorical'
   VariantOf : 'VAgrP.Position.binned5'
   N.levels : 4
-  N.entries : 201
-  N.languages : 194
-  N.missing : 81
+  N.entries : 236
+  N.languages : 229
+  N.missing : 109
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
        exceptional conditions (typically lexical)], [after the phonological host by default, around the
@@ -101,20 +106,35 @@ VAgrPOSS.Position.binned5:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'VAgrPOSS.Position.binned5'
-  N.levels : 2
-  N.entries : 3
-  N.languages : 3
-  N.missing : 279
+  N.levels : 3
+  N.entries : 4
+  N.languages : 4
+  N.missing : 341
   Levels : 
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
        exceptional conditions (typically lexical)], [after the phonological host by default, around the
        host under exceptional conditions (typically lexical)], [after the phonological host by default,
        inside the host under exceptional conditions (typically lexical)]
+    'split' : >
+       [either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either inside or before the phonological host, conditioned by some structural
+       context (category, syntax etc.)], [either inside or after the phonological host, conditioned by
+       some structural context (category, syntax etc.)], [either before or around the phonological host,
+       conditioned by some structural context (category, syntax etc.)], [either before, after or around
+       the phonological host, conditioned by some structural context (category, syntax etc.)], [either
+       before, inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)], [either before, after or in two or more positions in the phonological host, conditioned
+       by some structural context (category, syntax etc.)], [either before, after, inside or around the
+       phonological host, conditioned by some structural context (category, syntax etc.)], [either after
+       or around the phonological host, conditioned by some structural context (category, syntax etc.)],
+       [either before or inside the phonological host, conditioned by some structural context (category,
+       syntax etc.)]
   Notes : >
      For the definition of macrorole "POSS", see the metadata for Relation in LocusMacrorelations
 

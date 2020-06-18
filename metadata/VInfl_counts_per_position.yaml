@@ -8,8 +8,8 @@ VInflCatAndAgrIn.n:
   VariableType : 'data'
   DataType : 'count'
   VariantOf : 'VInflCatAndAgrIn.n'
-  N.entries : 278
-  N.languages : 278
+  N.entries : 342
+  N.languages : 342
   N.missing : 0
   Notes : >
      For the definition of "in", see metadata for Position in Gramm_markers
@@ -24,8 +24,8 @@ VInflCatAndAgrPost.n:
   VariableType : 'data'
   DataType : 'count'
   VariantOf : 'VInflCatAndAgrPost.n'
-  N.entries : 278
-  N.languages : 278
+  N.entries : 342
+  N.languages : 342
   N.missing : 0
   Notes : >
      For the definition of "post", see metadata for Position in Gramm_markers
@@ -40,8 +40,8 @@ VInflCatAndAgrPrae.n:
   VariableType : 'data'
   DataType : 'count'
   VariantOf : 'VInflCatAndAgrPrae.n'
-  N.entries : 278
-  N.languages : 278
+  N.entries : 342
+  N.languages : 342
   N.missing : 0
   Notes : >
      For the definition of "prae", see metadata for Position in Gramm_markers
@@ -56,8 +56,8 @@ VInflCatAndAgrSimul.n:
   VariableType : 'data'
   DataType : 'count'
   VariantOf : 'VInflCatAndAgrSimul.n'
-  N.entries : 278
-  N.languages : 278
+  N.entries : 342
+  N.languages : 342
   N.missing : 0
   Notes : >
      For the definition of "simul", see metadata for Position in Gramm_markers
@@ -72,8 +72,8 @@ VInflCatAndAgrSplit.n:
   VariableType : 'data'
   DataType : 'count'
   VariantOf : 'VInflCatAndAgrSplit.n'
-  N.entries : 278
-  N.languages : 278
+  N.entries : 342
+  N.languages : 342
   N.missing : 0
   Notes : >
      For the definition of "split", see metadata for Position in Gramm_markers

@@ -7,10 +7,10 @@ VAgrA.Position:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'VAgrA.Position'
-  N.levels : 13
-  N.entries : 256
-  N.languages : 254
-  N.missing : 28
+  N.levels : 15
+  N.entries : 318
+  N.languages : 316
+  N.missing : 29
   Levels : 
     'prae' : >
        before the phonological host
@@ -22,14 +22,14 @@ VAgrA.Position:
     'prae/post' : >
        either before or after the phonological host, conditioned by some structural context (category,
        syntax etc.)
-    'prae/in/post' : >
-       either before, inside or after the phonological host, conditioned by some structural context (category,
-       syntax etc.)
     'prae/post/in/circum' : >
        either before, after, inside or around the phonological host, conditioned by some structural context
        (category, syntax etc.)
     'prae/circum' : >
        either before or around the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'prae/in/post' : >
+       either before, inside or after the phonological host, conditioned by some structural context (category,
        syntax etc.)
     'in/prae' : >
        either inside or before the phonological host, conditioned by some structural context (category,
@@ -48,6 +48,11 @@ VAgrA.Position:
     'prae (post)' : >
        before the phonological host by default, after the host under exceptional conditions (typically
        lexical)
+    'prae/post/circum' : >
+       either before, after or around the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'in' : >
+       inside the phonological host
   Notes : >
      For the definition of macrorole "A", see the metadata for Relation in LocusMacrorelations
 
@@ -60,10 +65,10 @@ VAgrP.Position:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'VAgrP.Position'
-  N.levels : 11
-  N.entries : 203
-  N.languages : 196
-  N.missing : 81
+  N.levels : 14
+  N.entries : 238
+  N.languages : 231
+  N.missing : 109
   Levels : 
     'prae' : >
        before the phonological host
@@ -94,6 +99,15 @@ VAgrP.Position:
     'prae (post)' : >
        before the phonological host by default, after the host under exceptional conditions (typically
        lexical)
+    'post/prae (simul)' : >
+       either before, after or in two or more positions in the phonological host, conditioned by some
+       structural context (category, syntax etc.)
+    'post (prae)' : >
+       after the phonological host by default, before the host under exceptional conditions (typically
+       lexical)
+    'prae/post/circum' : >
+       either before, after or around the phonological host, conditioned by some structural context (category,
+       syntax etc.)
   Notes : >
      For the definition of macrorole "P", see the metadata for Relation in LocusMacrorelations
 
@@ -106,15 +120,18 @@ VAgrPOSS.Position:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'VAgrPOSS.Position'
-  N.levels : 2
-  N.entries : 3
-  N.languages : 3
-  N.missing : 281
+  N.levels : 3
+  N.entries : 4
+  N.languages : 4
+  N.missing : 343
   Levels : 
     'prae' : >
        before the phonological host
     'post' : >
        after the phonological host
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
   Notes : >
      For the definition of macrorole "POSS", see the metadata for Relation in LocusMacrorelations
 

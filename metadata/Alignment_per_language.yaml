@@ -8,9 +8,9 @@ AlignmentAgrAccDegree.binned3:
   DataType : 'categorical'
   VariantOf : 'AlignmentSAPTG'
   N.levels : 3 # low,high,NA,medium
-  N.entries : 328
-  N.languages : 328
-  N.missing : 361
+  N.entries : 336
+  N.languages : 336
+  N.missing : 360
 
 # ------ AlignmentAgrAccDegree ------
 AlignmentAgrAccDegree:
@@ -22,9 +22,9 @@ AlignmentAgrAccDegree:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'AlignmentSAPTG'
-  N.entries : 328
-  N.languages : 328
-  N.missing : 361
+  N.entries : 336
+  N.languages : 336
+  N.missing : 360
 
 # ------ AlignmentAgrDominantPTG ------
 AlignmentAgrDominantPTG:
@@ -38,9 +38,9 @@ AlignmentAgrDominantPTG:
   DataType : 'categorical'
   VariantOf : 'AlignmentSAPTG'
   N.levels : 5
-  N.entries : 179
-  N.languages : 179
-  N.missing : 510
+  N.entries : 180
+  N.languages : 180
+  N.missing : 516
 
 # ------ AlignmentAgrDominantSAP ------
 AlignmentAgrDominantSAP:
@@ -54,9 +54,9 @@ AlignmentAgrDominantSAP:
   DataType : 'categorical'
   VariantOf : 'AlignmentSAPTG'
   N.levels : 5
-  N.entries : 328
-  N.languages : 328
-  N.missing : 361
+  N.entries : 336
+  N.languages : 336
+  N.missing : 360
 
 # ------ AlignmentAgrDominantSAPTG ------
 AlignmentAgrDominantSAPTG:
@@ -70,9 +70,9 @@ AlignmentAgrDominantSAPTG:
   DataType : 'categorical'
   VariantOf : 'AlignmentSAPTG'
   N.levels : 13
-  N.entries : 179
-  N.languages : 179
-  N.missing : 510
+  N.entries : 180
+  N.languages : 180
+  N.missing : 516
 
 # ------ AlignmentAgrErgDegree.binned3 ------
 AlignmentAgrErgDegree.binned3:
@@ -84,9 +84,9 @@ AlignmentAgrErgDegree.binned3:
   DataType : 'categorical'
   VariantOf : 'AlignmentSAPTG'
   N.levels : 3 # low,NA,high,medium
-  N.entries : 328
-  N.languages : 328
-  N.missing : 361
+  N.entries : 336
+  N.languages : 336
+  N.missing : 360
 
 # ------ AlignmentAgrErgDegree ------
 AlignmentAgrErgDegree:
@@ -98,9 +98,9 @@ AlignmentAgrErgDegree:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'AlignmentSAPTG'
-  N.entries : 328
-  N.languages : 328
-  N.missing : 361
+  N.entries : 336
+  N.languages : 336
+  N.missing : 360
 
 # ------ AlignmentCaseAccDegree.binned3 ------
 AlignmentCaseAccDegree.binned3:
@@ -114,7 +114,7 @@ AlignmentCaseAccDegree.binned3:
   N.levels : 3 # low,high,medium,NA
   N.entries : 646
   N.languages : 646
-  N.missing : 43
+  N.missing : 50
 
 # ------ AlignmentCaseAccDegree ------
 AlignmentCaseAccDegree:
@@ -127,7 +127,7 @@ AlignmentCaseAccDegree:
   VariantOf : 'AlignmentSAPTG'
   N.entries : 646
   N.languages : 646
-  N.missing : 43
+  N.missing : 50
 
 # ------ AlignmentCaseDominantPTG ------
 AlignmentCaseDominantPTG:
@@ -142,7 +142,7 @@ AlignmentCaseDominantPTG:
   N.levels : 5
   N.entries : 353
   N.languages : 353
-  N.missing : 336
+  N.missing : 343
 
 # ------ AlignmentCaseDominantSAP ------
 AlignmentCaseDominantSAP:
@@ -157,7 +157,7 @@ AlignmentCaseDominantSAP:
   N.levels : 5
   N.entries : 646
   N.languages : 646
-  N.missing : 43
+  N.missing : 50
 
 # ------ AlignmentCaseDominantSAPTG ------
 AlignmentCaseDominantSAPTG:
@@ -172,7 +172,7 @@ AlignmentCaseDominantSAPTG:
   N.levels : 15
   N.entries : 353
   N.languages : 353
-  N.missing : 336
+  N.missing : 343
 
 # ------ AlignmentCaseErgDegree.binned3 ------
 AlignmentCaseErgDegree.binned3:
@@ -186,7 +186,7 @@ AlignmentCaseErgDegree.binned3:
   N.levels : 3 # low,NA,high,medium
   N.entries : 646
   N.languages : 646
-  N.missing : 43
+  N.missing : 50
 
 # ------ AlignmentCaseErgDegree ------
 AlignmentCaseErgDegree:
@@ -199,7 +199,7 @@ AlignmentCaseErgDegree:
   VariantOf : 'AlignmentSAPTG'
   N.entries : 646
   N.languages : 646
-  N.missing : 43
+  N.missing : 50
 
 # ------ AlignmentCaseDominantLexSAP ------
 AlignmentCaseDominantLexSAP:
@@ -215,7 +215,7 @@ AlignmentCaseDominantLexSAP:
   N.levels : 3 # NA,accusative,ergative,tripartite
   N.entries : 308
   N.languages : 308
-  N.missing : 381
+  N.missing : 388
 
 # ------ AlignmentCaseDominantProSAP ------
 AlignmentCaseDominantProSAP:
@@ -231,7 +231,7 @@ AlignmentCaseDominantProSAP:
   N.levels : 3 # NA,accusative,ergative,tripartite
   N.entries : 384
   N.languages : 384
-  N.missing : 305
+  N.missing : 312
 
 # ------ CaseSplitByPolarity.Presence ------
 CaseSplitByPolarity.Presence:
@@ -244,7 +244,7 @@ CaseSplitByPolarity.Presence:
   VariantOf : 'CaseSplitByPolarity.Presence'
   N.entries : 646
   N.languages : 646
-  N.missing : 43
+  N.missing : 50
 
 # ------ AgrSplitByRef.Presence ------
 AgrSplitByRef.Presence:
@@ -257,7 +257,7 @@ AgrSplitByRef.Presence:
   VariantOf : 'AgrSplitByRef.Presence'
   N.entries : 646
   N.languages : 646
-  N.missing : 43
+  N.missing : 50
 
 # ------ CaseSplitByRef.Presence ------
 CaseSplitByRef.Presence:
@@ -270,7 +270,7 @@ CaseSplitByRef.Presence:
   VariantOf : 'CaseSplitByRef.Presence'
   N.entries : 646
   N.languages : 646
-  N.missing : 43
+  N.missing : 50
 
 # ------ AgrSplitByValClass.Presence ------
 AgrSplitByValClass.Presence:
@@ -283,7 +283,7 @@ AgrSplitByValClass.Presence:
   VariantOf : 'AgrSplitByValClass.Presence'
   N.entries : 646
   N.languages : 646
-  N.missing : 43
+  N.missing : 50
 
 # ------ CaseSplitByValClass.Presence ------
 CaseSplitByValClass.Presence:
@@ -296,7 +296,7 @@ CaseSplitByValClass.Presence:
   VariantOf : 'CaseSplitByValClass.Presence'
   N.entries : 646
   N.languages : 646
-  N.missing : 43
+  N.missing : 50
 
 # ------ AgrSplitByRank.Presence ------
 AgrSplitByRank.Presence:
@@ -309,7 +309,7 @@ AgrSplitByRank.Presence:
   VariantOf : 'AgrSplitByRank.Presence'
   N.entries : 646
   N.languages : 646
-  N.missing : 43
+  N.missing : 50
 
 # ------ CaseSplitByRank.Presence ------
 CaseSplitByRank.Presence:
@@ -322,7 +322,7 @@ CaseSplitByRank.Presence:
   VariantOf : 'CaseSplitByRank.Presence'
   N.entries : 646
   N.languages : 646
-  N.missing : 43
+  N.missing : 50
 
 # ------ AgrSplitByCat.Presence ------
 AgrSplitByCat.Presence:
@@ -335,7 +335,7 @@ AgrSplitByCat.Presence:
   VariantOf : 'AgrSplitByCat.Presence'
   N.entries : 646
   N.languages : 646
-  N.missing : 43
+  N.missing : 50
 
 # ------ CaseSplitByCat.Presence ------
 CaseSplitByCat.Presence:
@@ -348,7 +348,7 @@ CaseSplitByCat.Presence:
   VariantOf : 'CaseSplitByCat.Presence'
   N.entries : 646
   N.languages : 646
-  N.missing : 43
+  N.missing : 50
 
 # ------ AlignmentAgrMarkerAccDegree ------
 AlignmentAgrMarkerAccDegree:
@@ -360,9 +360,9 @@ AlignmentAgrMarkerAccDegree:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'AlignmentSAPTG'
-  N.entries : 160
-  N.languages : 160
-  N.missing : 529
+  N.entries : 163
+  N.languages : 163
+  N.missing : 533
 
 # ------ AlignmentAgrMarkerDominantSAP ------
 AlignmentAgrMarkerDominantSAP:
@@ -375,9 +375,9 @@ AlignmentAgrMarkerDominantSAP:
   DataType : 'categorical'
   VariantOf : 'AlignmentSAPTG'
   N.levels : 4
-  N.entries : 160
-  N.languages : 160
-  N.missing : 529
+  N.entries : 163
+  N.languages : 163
+  N.missing : 533
 
 # ------ AlignmentAgrMarkerErgDegree.binned3 ------
 AlignmentAgrMarkerErgDegree.binned3:
@@ -390,9 +390,9 @@ AlignmentAgrMarkerErgDegree.binned3:
   DataType : 'categorical'
   VariantOf : 'AlignmentSAPTG'
   N.levels : 3 # NA,low,medium,high
-  N.entries : 160
-  N.languages : 160
-  N.missing : 529
+  N.entries : 163
+  N.languages : 163
+  N.missing : 533
 
 # ------ AlignmentAgrMarkerErgDegree ------
 AlignmentAgrMarkerErgDegree:
@@ -404,7 +404,7 @@ AlignmentAgrMarkerErgDegree:
   VariableType : 'data'
   DataType : 'ratio'
   VariantOf : 'AlignmentSAPTG'
-  N.entries : 160
-  N.languages : 160
-  N.missing : 529
+  N.entries : 163
+  N.languages : 163
+  N.missing : 533
 

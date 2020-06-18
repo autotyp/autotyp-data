@@ -8,9 +8,9 @@ NPAgrCat:
   DataType : 'categorical'
   VariantOf : 'NPAgrCat'
   N.levels : 14
-  N.entries : 1037
+  N.entries : 1038
   N.languages : 92
-  N.missing : 899
+  N.missing : 900
   Levels : 
     'Gender,Number,Person' : >
        [Agreement category involving noun classification. Usually covert on nouns; overt on agreeing
@@ -41,7 +41,7 @@ NPAgrCat:
        others. Other than in role agreement.], [Values like definite, indefinite, specific, nonspecific,
        generic, obviative, proximative, remote, etc. NB: “Referential” is exponent of CASE only if the
        referential value cannot be separated from the syntactic role that the CASE marker codes. That
-       is, with Tagalog ANG, for example, you cannot have the synactic role that ANG codes without at
+       is, with Tagalog ANG, for example, you cannot have the syntactic role that ANG codes without at
        the same time having specific NP reference. This is different from DOM (and DSM) in Turkish or
        Hindi or Spanish because not marking the object by the ACC does not make it an object any less.
        Unmarked O’s in DOM systems are O’s. But not using ANG because the NP doesn’t have specific reference,
@@ -55,7 +55,7 @@ NPAgrCat:
        word(s). Unless otherwise specified this is lexical gender of nouns.], [Values like definite,
        indefinite, specific, nonspecific, generic, obviative, proximative, remote, etc. NB: “Referential”
        is exponent of CASE only if the referential value cannot be separated from the syntactic role
-       that the CASE marker codes. That is, with Tagalog ANG, for example, you cannot have the synactic
+       that the CASE marker codes. That is, with Tagalog ANG, for example, you cannot have the syntactic
        role that ANG codes without at the same time having specific NP reference. This is different from
        DOM (and DSM) in Turkish or Hindi or Spanish because not marking the object by the ACC does not
        make it an object any less. Unmarked O’s in DOM systems are O’s. But not using ANG because the
@@ -80,8 +80,8 @@ NPAlienability.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPAlienabilityType'
-  N.entries : 652
-  N.languages : 307
+  N.entries : 653
+  N.languages : 308
   N.missing : 385
 
 # ------ NPAlienabilityType ------
@@ -95,8 +95,8 @@ NPAlienabilityType:
   DataType : 'categorical'
   VariantOf : 'NPAlienabilityType'
   N.levels : 9
-  N.entries : 653
-  N.languages : 307
+  N.entries : 654
+  N.languages : 308
   N.missing : 384
   Levels : 
     'alienable' : >
@@ -116,11 +116,11 @@ NPAlienabilityType:
     'fluid' : >
        There is an alienability distinction, but many or most words can be treated either way, with a
        semantic distinction.
+    'semantic' : >
+       Alienability marking has some compositional effect on the lexical input.
     'unmarked inalienable' : >
        The inalienable member of the alienability opposition is formally unmarked. (Default, if one of
        the pair is not formally marked.)
-    'semantic' : >
-       Alienability marking has some compositional effect on the lexical input.
     'marked alienable' : >
        The alienable member of the alienability opposition is overtly marked.
 
@@ -134,8 +134,8 @@ NPHeadSemConstraints:
   DataType : 'categorical'
   VariantOf : 'NPHeadSemConstraints'
   N.levels : 43
-  N.entries : 1037
-  N.languages : 243
+  N.entries : 1038
+  N.languages : 244
   N.missing : 577
   Levels : 
     'neutral' : >
@@ -151,39 +151,52 @@ NPHeadSemConstraints:
        Not having specific reference. (Caution: Probably not always well enough distinguished from Indefinite.)
     'high-indexability' : >
        Approximately the same as high-animacy.
-    'non-human' : >
-       The noun denotes a non-human.
-    'body parts,kin terms' : >
-       [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
-       including (some) body functions, excreta, etc.], [The noun denotes a kin relation.]
-    'inalienable' : >
-       called “inalienable” in a grammar with no further semantic characterization; or the more nearly
-       head-marked or bound of two overt classes even if there is no account of their semantics.
+    'animals,kin terms' : >
+       [Animals, wild or domesticated.], [The noun denotes a kin relation.]
     'body parts' : >
        Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
        including (some) body functions, excreta, etc.
+    'kin terms,owner' : >
+       [The noun denotes a kin relation.], [‘master’, ‘owner’ and the like]
+    'body parts,kin terms' : >
+       [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
+       including (some) body functions, excreta, etc.], [The noun denotes a kin relation.]
     'default' : >
        the default semantics of a construction, used most frequently, the non-default variation (e.g.
        a partitive reading with some less common case frames is coded separately)
-    'body parts,kin terms,property' : >
-       [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
-       including (some) body functions, excreta, etc.], [The noun denotes a kin relation.], [house, furniture]
+    'inalienable' : >
+       called “inalienable” in a grammar with no further semantic characterization; or the more nearly
+       head-marked or bound of two overt classes even if there is no account of their semantics.
     'alienable' : >
        called “alienable” in a grammar with no further semantic specification; or the less nearly head-marked
        of two overt classes even if there is no account of their semantics.
+    'body parts,kin terms,property' : >
+       [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
+       including (some) body functions, excreta, etc.], [The noun denotes a kin relation.], [house, furniture]
+    'body parts,clothing terms,meronyms' : >
+       [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
+       including (some) body functions, excreta, etc.], [Types and parts of clothing, and generics such
+       as ‘clothing’.], [the part in part-whole relations]
+    'kin terms' : >
+       The noun denotes a kin relation.
     'edible,plants,rocks' : >
        [edible things; food], [Whole plants and types of plants. (Plant parts are categorized separately.)],
        [Rocks, stones, gravel, etc.]
     'animals,singular' : >
        [Animals, wild or domesticated.], [Having singular reference, and/or grammatically marked as singular.]
-    'human' : >
-       The noun denotes a human.
     'body parts,kin terms,volitional' : >
        [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
        including (some) body functions, excreta, etc.], [The noun denotes a kin relation.], [Human or
        higher animate; any being having volition.]
-    'kin terms' : >
-       The noun denotes a kin relation.
+    'non-human' : >
+       The noun denotes a non-human.
+    'human' : >
+       The noun denotes a human.
+    'body parts,clothing terms,origin,parents/siblings,property,transportation means' : >
+       [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
+       including (some) body functions, excreta, etc.], [Types and parts of clothing, and generics such
+       as ‘clothing’.], [place names, native land, and the like], [Only parents and siblings (and not
+       other kin types).], [house, furniture], [E.g. cart, car, scooter, boat, airplane, sled, etc.]
     'body parts,kin terms,meronyms,origin,owner,topological' : >
        [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
        including (some) body functions, excreta, etc.], [The noun denotes a kin relation.], [the part
@@ -194,14 +207,21 @@ NPHeadSemConstraints:
        including (some) body functions, excreta, etc.], [Types and parts of clothing, and generics such
        as ‘clothing’.], [The noun denotes a kin relation.], [leaf, bark, root, etc.], [Human or higher
        animate; any being having volition.], [bow, arrow, gun, etc.]
+    'body parts,meronyms,subsets,tracks,volitional' : >
+       [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
+       including (some) body functions, excreta, etc.], [the part in part-whole relations], [‘group’,
+       ‘part’, and other subsets (other than ones listed elsewhere here)], [footprints, etc.], [Human
+       or higher animate; any being having volition.]
     'body parts,kin terms,meronyms,topological' : >
        [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
        including (some) body functions, excreta, etc.], [The noun denotes a kin relation.], [the part
        in part-whole relations], [Spatial relations nouns, locatives etc.]
-    'body parts,kin terms,meronyms,quantificational' : >
+    'body parts,kin terms,meronyms,tracks' : >
        [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
        including (some) body functions, excreta, etc.], [The noun denotes a kin relation.], [the part
-       in part-whole relations], [Quantifiers]
+       in part-whole relations], [footprints, etc.]
+    'kin terms,meronyms' : >
+       [The noun denotes a kin relation.], [the part in part-whole relations]
     'animals,drinkable,edible,property' : >
        [Animals, wild or domesticated.], [drinkable or potable things; beverages], [edible things; food],
        [house, furniture]
@@ -220,47 +240,27 @@ NPHeadSemConstraints:
        [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
        including (some) body functions, excreta, etc.], [The noun denotes a kin relation.], [Spatial
        relations nouns, locatives etc.]
-    'animals,kin terms' : >
-       [Animals, wild or domesticated.], [The noun denotes a kin relation.]
-    'kin terms,owner' : >
-       [The noun denotes a kin relation.], [‘master’, ‘owner’ and the like]
-    'body parts,clothing terms,meronyms' : >
-       [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
-       including (some) body functions, excreta, etc.], [Types and parts of clothing, and generics such
-       as ‘clothing’.], [the part in part-whole relations]
-    'body parts,clothing terms,origin,parents/siblings,property,transportation means' : >
-       [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
-       including (some) body functions, excreta, etc.], [Types and parts of clothing, and generics such
-       as ‘clothing’.], [place names, native land, and the like], [Only parents and siblings (and not
-       other kin types).], [house, furniture], [E.g. cart, car, scooter, boat, airplane, sled, etc.]
-    'body parts,meronyms,subsets,tracks,volitional' : >
-       [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
-       including (some) body functions, excreta, etc.], [the part in part-whole relations], [‘group’,
-       ‘part’, and other subsets (other than ones listed elsewhere here)], [footprints, etc.], [Human
-       or higher animate; any being having volition.]
-    'kin terms,topological' : >
-       [The noun denotes a kin relation.], [Spatial relations nouns, locatives etc.]
-    'body parts,kin terms,meronyms,tracks' : >
-       [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
-       including (some) body functions, excreta, etc.], [The noun denotes a kin relation.], [the part
-       in part-whole relations], [footprints, etc.]
-    'body parts,meronyms' : >
-       [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
-       including (some) body functions, excreta, etc.], [the part in part-whole relations]
-    'kin terms,meronyms' : >
-       [The noun denotes a kin relation.], [the part in part-whole relations]
     'body parts,classifiers,topological' : >
        [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
        including (some) body functions, excreta, etc.], [Nouns used as numeral or other classifiers.],
        [Spatial relations nouns, locatives etc.]
     'kin terms,village group' : >
        [The noun denotes a kin relation.], [Any culturally recognized part of a village’s population.]
-    'animals' : >
-       Animals, wild or domesticated.
+    'body parts,kin terms,meronyms,quantificational' : >
+       [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
+       including (some) body functions, excreta, etc.], [The noun denotes a kin relation.], [the part
+       in part-whole relations], [Quantifiers]
+    'body parts,meronyms' : >
+       [Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly
+       including (some) body functions, excreta, etc.], [the part in part-whole relations]
     'meronyms' : >
        the part in part-whole relations
+    'kin terms,topological' : >
+       [The noun denotes a kin relation.], [Spatial relations nouns, locatives etc.]
     'semantic' : >
        Alienability marking has some compositional effect on the lexical input.
+    'animals' : >
+       Animals, wild or domesticated.
     'owner' : >
        ‘master’, ‘owner’ and the like
     'unmarked inalienable' : >
@@ -280,15 +280,17 @@ NPMarking.binned5:
   N.levels : 5
   N.entries : 450
   N.languages : 336
-  N.missing : 587
+  N.missing : 588
   Levels : 
-    'agreeing construct' : >
-       Affix that indicates adjectival word class of dependent and undergoes agreement. Example: long-form-adjectives
-       in Russian, weak-flectioned adjectives in German)
     'agreement' : >
        [e.g. gender or number agreement, as triggered by the head noun (not by something external to
        the head noun)], [Subtype of Headstand NP; Adjective, numeral or other modifier is head of possessive
        NP (as indicated at least in possessor agreement on the modifier). Examples: Wari, Saliba.]
+    'agreeing construct' : >
+       Affix that indicates adjectival word class of dependent and undergoes agreement. Example: long-form-adjectives
+       in Russian, weak-flectioned adjectives in German)
+    'juxtaposition' : >
+       unmarked sequence of constituents; test: no additional morphemes available in NP
     'construct' : >
        [registers presence of dependent (includes izafet, ezafe, linkers, possessive words, sandhi, construct
        state)], [Registers presence of head. NB: this a very general term it also encompasses nominalizers.
@@ -297,8 +299,6 @@ NPMarking.binned5:
        adjectives: they are all anti-construct markers. The difference is captured by the range of PoS
        listed in np_structure: dependent_pos)], [Construct state + Anti-construct state], [Registers
        presence of head-dependent relation (neither ad-head nor ad-dependent, but truly ad-phrase)]
-    'juxtaposition' : >
-       unmarked sequence of constituents; test: no additional morphemes available in NP
     'nominalization' : >
        [Syntactic word that indicates adjectival word class of dependent and undergoes agreement. Example:
        Adjective article in Albanian or Belhare or Ancient Greek], [Marker that declares the embbeded
@@ -314,173 +314,178 @@ NPDepCatConstraints:
   VariableType : 'details'
   DataType : 'categorical'
   VariantOf : 'NPDepCatConstraints'
-  N.levels : 63
-  N.entries : 1037
-  N.languages : 429
-  N.missing : 158
+  N.levels : 65
+  N.entries : 1038
+  N.languages : 433
+  N.missing : 137
   Levels : 
     'N_or_Pro' : >
        noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
        only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
        all distinct PoS)
+    'Pro' : >
+       Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal indexes.
     'Adp,N_or_Pro' : >
        [Adposition], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
        or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
        (if this is at all distinct PoS)]
-    'Pro' : >
-       Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal indexes.
     'N' : >
        lexical noun, nominalized verb -- whether possessed or non-possessed (all)
     'Adj' : >
        adjective
     'Adj,PTCP' : >
        adjective, participle
-    'Adj,N_or_Pro,Ord' : >
-       [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
-       or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
-       (if this is at all distinct PoS)], [Ordinal numeral]
-    '1_2Pro_or_N' : >
-       1st or 2nd person, or noun.
     'Adj,DEM,Num,Quant' : >
        adjective, demonstrative, numeral, Quantifiers
-    'DEM,Num' : >
-       demonstrative, numeral
     'N_or_Pro,Ord' : >
        [noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
        only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
        all distinct PoS)], [Ordinal numeral]
     'Adj,Quant' : >
        adjective, Quantifiers
+    '1_2Pro_or_N' : >
+       1st or 2nd person, or noun.
+    'DEM,Num' : >
+       demonstrative, numeral
+    'Adj,N_or_Pro,Ord' : >
+       [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
+       or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
+       (if this is at all distinct PoS)], [Ordinal numeral]
     'Adj,Art,N,Num' : >
        [adjective], [Article], [lexical noun, nominalized verb -- whether possessed or non-possessed
        (all)], [numeral]
-    'Adj,DEM,Num' : >
-       adjective, demonstrative, numeral
     'Adj,Ord,PTCP' : >
        [adjective], [Ordinal numeral], [participle]
-    'Adj,Art' : >
-       adjective, Article
+    'Adj,DEM,Num' : >
+       adjective, demonstrative, numeral
+    '<any>' : >
+       no restriction as to what kind of stem or terminal node can host the formative. This is one notion
+       of clitic; do not confuse with phrasal affixes,which are or not restricted to a specific XP
+    'N-proper,Pro' : >
+       [proper noun], [Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal
+       indexes.]
     'Adj,Art,DEM' : >
        adjective, Article, demonstrative
+    'Adj,Ord,Quant' : >
+       [adjective], [Ordinal numeral], [Quantifiers]
     'Adj,DEM,Num,PTCP' : >
        adjective, demonstrative, numeral, participle
     'Num' : >
        numeral
-    'N_or_Pro,S' : >
-       [noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
-       only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
-       all distinct PoS)], [Clause]
+    'Adj,Art' : >
+       adjective, Article
+    'Adj,Adp,Ord1' : >
+       [adjective], [Adposition], [Ordinal numeral greater than 1]
     'Adj,N_or_Pro' : >
        [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
        or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
        (if this is at all distinct PoS)]
-    '2_or_3Pro' : >
-       2nd or 3rd person pronoun
-    'Adj,N,V' : >
-       [adjective], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [lexical
-       verb]
-    'DEM' : >
-       demonstrative
+    'Art,Num' : >
+       Article, numeral
+    'n11.d.' : >
+       no data
     'Adp,AdvP' : >
        [Adposition], [Adverb Phrases, including all sorts of ‘preverbs’ and predicative modifiers.]
     'Adj,DEM' : >
        adjective, demonstrative
-    'Adj,Ord,Quant' : >
-       [adjective], [Ordinal numeral], [Quantifiers]
     'nonSAP' : >
        noun or third person pronoun (i.e. any third person NP).
     'SAP' : >
        Speech act participant, i.e. 1st or 2nd person. (Using SAP allows non-SAP to be used for 3rd person
        pronouns and nouns
-    'Adj,Adp,Ord1' : >
-       [adjective], [Adposition], [Ordinal numeral greater than 1]
-    'N-proper,Pro' : >
-       [proper noun], [Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal
-       indexes.]
+    'Adj,N' : >
+       [adjective], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)]
+    'Adj,N_or_Pro,V' : >
+       [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
+       or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
+       (if this is at all distinct PoS)], [lexical verb]
+    'S' : >
+       Clause
+    'N_or_Pro,S' : >
+       [noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
+       only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
+       all distinct PoS)], [Clause]
+    'DEM' : >
+       demonstrative
+    'N_or_Pro,Num' : >
+       [noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
+       only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
+       all distinct PoS)], [numeral]
+    '2_or_3Pro' : >
+       2nd or 3rd person pronoun
+    'Adj,V' : >
+       [adjective], [lexical verb]
+    'Adj,N,Num' : >
+       [adjective], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [numeral]
+    '3Pro' : >
+       3rd person pronoun
+    'N-proper' : >
+       proper noun
+    'DEM,Num,Nv' : >
+       [demonstrative], [numeral], [nominalized verb]
+    'Adj,DEM,S' : >
+       adjective, demonstrative, Clause
+    'Adj,Num,Quant' : >
+       adjective, numeral, Quantifiers
+    'Adj,Num' : >
+       adjective, numeral
+    '3sgPro' : >
+       3rd person singular pronoun
+    'Adj,N,V' : >
+       [adjective], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [lexical
+       verb]
+    'Num_above_20,Quant' : >
+       [numeral greater than 20], [Quantifiers]
+    'Adj,N_or_Pro,S' : >
+       [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
+       or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
+       (if this is at all distinct PoS)], [Clause]
+    'Adj,N_or_Pro,Ord,PTCP' : >
+       [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
+       or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
+       (if this is at all distinct PoS)], [Ordinal numeral], [participle]
+    'Adj,N_or_Pro,Ord,S' : >
+       [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
+       or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
+       (if this is at all distinct PoS)], [Ordinal numeral], [Clause]
+    'Adj,Ord' : >
+       [adjective], [Ordinal numeral]
+    'N_or_Pro,NP' : >
+       [noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
+       only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
+       all distinct PoS)], [(expandable) NP]
+    'Adj,DEM,Quant' : >
+       adjective, demonstrative, Quantifiers
     'Adj,AdvP,DEM,N_or_Pro' : >
        [adjective], [Adverb Phrases, including all sorts of ‘preverbs’ and predicative modifiers.], [demonstrative],
        [noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
        only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
        all distinct PoS)]
-    'Adj,N,Num' : >
-       [adjective], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [numeral]
-    'Adj,N' : >
-       [adjective], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)]
     'N,Pro' : >
        [lexical noun, nominalized verb -- whether possessed or non-possessed (all)], [Pronouns. This
        refers to free pronouns that head NPs; it does not refer to pronominal indexes.]
-    'Adj,V' : >
-       [adjective], [lexical verb]
-    'DEM,Num,Nv' : >
-       [demonstrative], [numeral], [nominalized verb]
-    'N_or_Pro,Num' : >
-       [noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
-       only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
-       all distinct PoS)], [numeral]
-    'Adj,Num' : >
-       adjective, numeral
-    '3sgPro' : >
-       3rd person singular pronoun
-    'S' : >
-       Clause
-    'NP,N_or_Pro' : >
-       [(expandable) NP], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
-       or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
-       (if this is at all distinct PoS)]
-    '3Pro,N' : >
-       [3rd person pronoun], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)]
-    'Adj,N_or_Pro,Ord,S' : >
-       [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
-       or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
-       (if this is at all distinct PoS)], [Ordinal numeral], [Clause]
-    '3Pro' : >
-       3rd person pronoun
-    'Adj,N_or_Pro,S' : >
-       [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
-       or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
-       (if this is at all distinct PoS)], [Clause]
     'Adj,Pro' : >
        [adjective], [Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal
        indexes.]
-    'Num,Quant' : >
-       numeral, Quantifiers
-    'Adj,N_or_Pro,V' : >
-       [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
-       or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
-       (if this is at all distinct PoS)], [lexical verb]
-    'Adj,DEM,S' : >
-       adjective, demonstrative, Clause
-    'Adj,Num,Quant' : >
-       adjective, numeral, Quantifiers
-    'Art,Num' : >
-       Article, numeral
-    'N-proper' : >
-       proper noun
     'N_or_Pro,Nv' : >
        [noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction
        only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at
        all distinct PoS)], [nominalized verb]
-    'Adj,N_or_Pro,Ord,PTCP' : >
-       [adjective], [noun or pronoun (including nominalized verbs, participles, etc. ). If a language
-       or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives
-       (if this is at all distinct PoS)], [Ordinal numeral], [participle]
+    'Art,DEM,N,Num' : >
+       [Article], [demonstrative], [lexical noun, nominalized verb -- whether possessed or non-possessed
+       (all)], [numeral]
     'Adj,Adp,N_or_Pro' : >
        [adjective], [Adposition], [noun or pronoun (including nominalized verbs, participles, etc. ).
        If a language or construction only includes root nouns, this needs to be mentioned. NOT including
        Adjectives (if this is at all distinct PoS)]
-    'Adj,DEM,Quant' : >
-       adjective, demonstrative, Quantifiers
+    '3Pro,N' : >
+       [3rd person pronoun], [lexical noun, nominalized verb -- whether possessed or non-possessed (all)]
     'V' : >
        lexical verb
-    'Adj,Ord' : >
-       [adjective], [Ordinal numeral]
-    'Art,DEM,N,Num' : >
-       [Article], [demonstrative], [lexical noun, nominalized verb -- whether possessed or non-possessed
-       (all)], [numeral]
-    'Num_above_20,Quant' : >
-       [numeral greater than 20], [Quantifiers]
     'DEM,S' : >
        demonstrative, Clause
+    'Num,Quant' : >
+       numeral, Quantifiers
 
 # ------ NPHeadSemClassSize.n ------
 NPHeadSemClassSize.n:
@@ -492,8 +497,8 @@ NPHeadSemClassSize.n:
   VariableType : 'data'
   DataType : 'count'
   VariantOf : 'NPHeadSemClassSize.n'
-  N.entries : 1037
-  N.languages : 485
+  N.entries : 1038
+  N.languages : 486
   N.missing : 0
 
 # ------ NPMarkersLabel ------
@@ -506,8 +511,8 @@ NPMarkersLabel:
   DataType : 'categorical'
   VariantOf : 'NPMarkersLabel'
   N.levels : 424
-  N.entries : 1037
-  N.languages : 485
+  N.entries : 1038
+  N.languages : 486
   N.missing : 0
 
 # ------ NPMarking.binned4 ------
@@ -520,8 +525,8 @@ NPMarking.binned4:
   DataType : 'categorical'
   VariantOf : 'NPMarking'
   N.levels : 4
-  N.entries : 620
-  N.languages : 351
+  N.entries : 621
+  N.languages : 352
   N.missing : 417
   Levels : 
     'mixed' : >
@@ -569,10 +574,10 @@ NPHeadlessness:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'NPHeadlessness'
-  N.levels : 2 # NA,OK,ungrammatical
+  N.levels : 2 # NA,ungrammatical,OK
   N.entries : 176
   N.languages : 119
-  N.missing : 861
+  N.missing : 862
 
 # ------ NPMarking.overt.Presence ------
 NPMarking.overt.Presence:
@@ -584,8 +589,8 @@ NPMarking.overt.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPMarking'
-  N.entries : 824
-  N.languages : 420
+  N.entries : 825
+  N.languages : 421
   N.missing : 213
 
 # ------ NPMarking ------
@@ -598,27 +603,27 @@ NPMarking:
   DataType : 'categorical'
   VariantOf : 'NPMarking'
   N.levels : 35
-  N.entries : 840
-  N.languages : 428
+  N.entries : 841
+  N.languages : 429
   N.missing : 197
   Levels : 
     'Head-driven agr. + Governed' : >
        Head-driven agr. + Governed
+    'Pronominal agreement' : >
+       Including cliticized pronouns. Includes dependent-marking clitized to head.
     'Dep-driven agr. + Governed' : >
        Dep-driven agr. + Governed
     'Dep-driven agreement' : >
        e.g. possessive agreement affixes; also, isolating formatives in the form of pronoun: tiger [he
        skin] or tiger [his skin].
-    'Pronominal agreement' : >
-       Including cliticized pronouns. Includes dependent-marking clitized to head.
     'Appositive head-driven agreement' : >
        Appositive head-driven agreement
-    'Anti-construct state agreement' : >
-       Affix that indicates adjectival word class of dependent and undergoes agreement. Example: long-form-adjectives
-       in Russian, weak-flectioned adjectives in German)
     'Head-driven agreement' : >
        e.g. gender or number agreement, as triggered by the head noun (not by something external to the
        head noun)
+    'Anti-construct state agreement' : >
+       Affix that indicates adjectival word class of dependent and undergoes agreement. Example: long-form-adjectives
+       in Russian, weak-flectioned adjectives in German)
     'HDAgr+NMLZ' : >
        Head-Driven Agreement + Nominalizer
     'Incorporation' : >
@@ -626,68 +631,68 @@ NPMarking:
     'Modifier-headed possessor agreement' : >
        Subtype of Headstand NP; Adjective, numeral or other modifier is head of possessive NP (as indicated
        at least in possessor agreement on the modifier). Examples: Wari, Saliba.
+    'ACAgr+HDAgr' : >
+       Anti-construct state agreement + Head-Driven Agreement
     'Dep-driven + head-driven agreement' : >
        Dep-driven + head-driven agreement
     'Head-driven agr. + Construct state' : >
        CHECK THIS TYPE (only two instances); this is probably not agreement
-    'ACAgr+HDAgr' : >
-       Anti-construct state agreement + Head-Driven Agreement
+    'Juxtaposition' : >
+       unmarked sequence of constituents; test: no additional morphemes available in NP
     'Construct state' : >
        registers presence of dependent (includes izafet, ezafe, linkers, possessive words, sandhi, construct
        state)
-    'Dep-driven agr. + Construct state' : >
-       Dep-driven agr. + Construct state
     'Governed' : >
        cases, adpositions, case words that are assigned by a head to a dependent
-    'Juxtaposition' : >
-       unmarked sequence of constituents; test: no additional morphemes available in NP
+    'Dep-driven agr. + Construct state' : >
+       Dep-driven agr. + Construct state
+    'External-driven agreement' : >
+       case stacking or spreading. Case spreading is the same as case agreement if it is triggered not
+       by the head noun but by something else, typically the verb that assigns case.
     'Bare noun' : >
        No possessor or other adnominal dependent.
     'Dep-driven agr. + Class/poss. noun' : >
        Agreement is not hosted by head but by a classificatory (more general) noun adjacent to it. This
        is a subtype of Construct state, except that the classif. noun is a Syntactic Word (as testified
        by the fact that it hosts possessor agreement, for example)
-    'External-driven agreement' : >
-       case stacking or spreading. Case spreading is the same as case agreement if it is triggered not
-       by the head noun but by something else, typically the verb that assigns case.
-    'External-driven agr. + Governed' : >
-       External-driven agr. + Governed
+    'Externally Possessed' : >
+       possessor is outside NP, wherever. Example: Kiowa
     'Attributive article' : >
        Syntactic word that indicates adjectival word class of dependent and undergoes agreement. Example:
        Adjective article in Albanian or Belhare or Ancient Greek
-    'Compound' : >
-       Like juxtaposition but morphophonologically bound into a single word
+    'Construct state + Anti-construct state' : >
+       Construct state + Anti-construct state
     'Anti-construct state' : >
        Registers presence of head. NB: this a very general term it also encompasses nominalizers. Traditionally,
        a nominalizer is an anti-construct affix limited to verbal or clausal attributes. (This solves
        the traditional problem of how to call nominalizers that also attach to nouns or adjectives: they
        are all anti-construct markers. The difference is captured by the range of PoS listed in np_structure:
        dependent_pos)
-    'Linker' : >
-       Registers presence of head-dependent relation (neither ad-head nor ad-dependent, but truly ad-phrase)
-    'Construct state + Anti-construct state' : >
-       Construct state + Anti-construct state
     'Pronomin. agr. + Construct state' : >
        Pronomin. agr. + Construct state
-    'Attributive nominalizer' : >
-       Marker that declares the embbeded element as a nominal sub-constituent of an NP. The embedded
-       element may or may not already be nominal
-    'Externally Possessed' : >
-       possessor is outside NP, wherever. Example: Kiowa
+    'External-driven agr. + Governed' : >
+       External-driven agr. + Governed
+    'Compound' : >
+       Like juxtaposition but morphophonologically bound into a single word
     'Class/poss. noun' : >
        Appositive possessive noun or classifier noun. A subtype of construct state but marked by a syntactic
        word. This syntactic word signals the presence of a dependent NP
-    'Modifier-governed case' : >
-       Subtype of Headstand NP; numeral (or other modifier) is head of NP and assigns case to the semantic
-       head. Example Russian or Finnish numerals governing genitive/partitive case
+    'Attributive nominalizer' : >
+       Marker that declares the embbeded element as a nominal sub-constituent of an NP. The embedded
+       element may or may not already be nominal
     'Compound + Governed' : >
        (Compound with a case-marked dependent)
-    'Unpossessible' : >
-       Cannot take morphological possession. (May or may not take derived possessibility or form an alternative
-       construction, e.g. appositive; depends on the language.)
+    'Linker' : >
+       Registers presence of head-dependent relation (neither ad-head nor ad-dependent, but truly ad-phrase)
     'Modifier-governed adposition' : >
        Subtype of Headstand NP; adjective, numeral or other modifier is head of NP and assigns an adposition
        to the semantic head
+    'Modifier-governed case' : >
+       Subtype of Headstand NP; numeral (or other modifier) is head of NP and assigns case to the semantic
+       head. Example Russian or Finnish numerals governing genitive/partitive case
+    'Unpossessible' : >
+       Cannot take morphological possession. (May or may not take derived possessibility or form an alternative
+       construction, e.g. appositive; depends on the language.)
     'ACAgr+NMLZ' : >
        Anti-construct state agreement + Nominalizer
 
@@ -702,8 +707,8 @@ NPLabel:
   VariableType : 'register'
   DataType : 'count'
   VariantOf : 'NPLabel'
-  N.entries : 1037
-  N.languages : 485
+  N.entries : 1038
+  N.languages : 486
   N.missing : 0
 
 # ------ NPDepSemConstraints.binned4 ------
@@ -716,8 +721,8 @@ NPDepSemConstraints.binned4:
   DataType : 'categorical'
   VariantOf : 'NPDepSemConstraints'
   N.levels : 5
-  N.entries : 207
-  N.languages : 113
+  N.entries : 208
+  N.languages : 114
   N.missing : 830
   Levels : 
     'pragmatic' : >
@@ -764,15 +769,15 @@ NPDepSemConstraints:
   DataType : 'categorical'
   VariantOf : 'NPDepSemConstraints'
   N.levels : 10
-  N.entries : 207
-  N.languages : 113
+  N.entries : 208
+  N.languages : 114
   N.missing : 830
   Levels : 
-    'non-specific' : >
-       Not having specific reference. (Caution: Probably not always well enough distinguished from Indefinite.)
     'specific' : >
        having specific reference, or so described in grammar. (Caution: Probably not always well enough
        distinguished from Definite.)
+    'non-specific' : >
+       Not having specific reference. (Caution: Probably not always well enough distinguished from Indefinite.)
     'neutral' : >
        No alienability (alienable/inalienable) distinction.
     'high-indexability' : >
@@ -800,8 +805,8 @@ NPHeadSemConstraints.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'NPHeadSemConstraints.Presence'
-  N.entries : 508
-  N.languages : 263
+  N.entries : 509
+  N.languages : 264
   N.missing : 529
 
 # ------ NPHeadSemSpecial ------
@@ -816,7 +821,7 @@ NPHeadSemSpecial:
   N.levels : 43
   N.entries : 49
   N.languages : 39
-  N.missing : 988
+  N.missing : 989
 
 # ------ NPWordOrder ------
 NPWordOrder:
@@ -828,8 +833,8 @@ NPWordOrder:
   DataType : 'categorical'
   VariantOf : 'NPWordOrder'
   N.levels : 5
-  N.entries : 638
-  N.languages : 315
+  N.entries : 639
+  N.languages : 316
   N.missing : 399
   Levels : 
     'Head-Dependent' : >
@@ -838,6 +843,6 @@ NPWordOrder:
        GenN, OV etc.
     'Free' : >
        Syntactically free. Usually governed by information structure.
-    'Possessor-Head-Poss.word' : >
     'Pronoun-Head; Head-Noun' : >
+    'Possessor-Head-Poss.word' : >
 

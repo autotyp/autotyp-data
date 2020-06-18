@@ -49,7 +49,7 @@ BehaviorNounPlural.binned4:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'BehaviorNounPlural'
-  N.levels : 3 # NA,spreading,initial,final
+  N.levels : 3 # NA,initial,spreading,final
   N.entries : 27
   N.languages : 27
   N.missing : 461
@@ -205,7 +205,7 @@ BehaviorNounPlural:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'BehaviorNounPlural'
-  N.levels : 6 # NA,inert,spreading,initial,stacking,final,flexible
+  N.levels : 6 # NA,inert,initial,spreading,stacking,final,flexible
   N.entries : 81
   N.languages : 81
   N.missing : 407
@@ -262,9 +262,9 @@ PolyexponentialityNegation.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'ExponentialityNegation'
-  N.entries : 202
-  N.languages : 202
-  N.missing : 286
+  N.entries : 211
+  N.languages : 211
+  N.missing : 277
   Notes : >
      The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
      markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
@@ -400,10 +400,10 @@ ExponentialityCase:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'ExponentialityCase'
-  N.levels : 12
-  N.entries : 403
-  N.languages : 403
-  N.missing : 85
+  N.levels : 10
+  N.entries : 331
+  N.languages : 331
+  N.missing : 157
 
 # ------ ExponentialityNegation ------
 ExponentialityNegation:
@@ -417,10 +417,10 @@ ExponentialityNegation:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'ExponentialityNegation'
-  N.levels : 10 # Polarity,PolarityHonorificity,NA,PolarityTA,PolarityTAM,PolarityTense,PolarityPersonTAMNumber,PolarityMood,PolarityIllocution,PolarityFocusTM,PolarityPersonRole
-  N.entries : 202
-  N.languages : 202
-  N.missing : 286
+  N.levels : 10
+  N.entries : 211
+  N.languages : 211
+  N.missing : 277
   Notes : >
      The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
      markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
@@ -440,10 +440,10 @@ ExponentialityNounPlural:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'ExponentialityNounPlural'
-  N.levels : 11
-  N.entries : 189
-  N.languages : 189
-  N.missing : 299
+  N.levels : 9
+  N.entries : 188
+  N.languages : 188
+  N.missing : 300
   Notes : >
      The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
      marking for nouns. If plural is different from dual, use the true plural. If different nouns have
@@ -465,7 +465,7 @@ ExponentialityTense:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'ExponentialityTense'
-  N.levels : 35 # NA,TAM,Tense,TA,TAMNumberPerson,PersonNumber,TAMNumberRolePerson,TAPersonRoleNumber,TensePersonNumber,TARoleVoicePersonNumber,TM,TANumberGender,TenseNumberPersonRole,PersonRoleTAM,TAMGenderNumberRole,Posterior,TAMPolarity,TAMPerson,AspectPolarity,Aspect,PersonTenseRole,TensePersonVoiceNumberRole,TAMNumberPersonRole,TAMPersonVoiceNumberRole,Role,FocusTense,TenseRole,Progressive,TenseEvidential,Present,TensePolarity,PersonTAMNumber,PersonRoleNumberGender,TAPolarity,PersonTense,RoleTAM
+  N.levels : 33
   N.entries : 167
   N.languages : 167
   N.missing : 321
@@ -620,9 +620,6 @@ FusionCase.binned.binned6:
        as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
        Therefore you will need to look at prosodic factors such as word stress.], [Isolating formative
        is default; concatenative allomorph under certain conditions.]
-    'tonal' : >
-       A tone contrast marks a morphological contrast. The tone must be not be the result of a general
-       phonological sandhi rule, but represent true internal tone changes.
     'stem' : >
        [Superimposition of a syllable or foot template onto the stem, resulting in such processes as
        lengthening, gemination etc. Example: Lango alienable possesse marking, Semitic voice marking,
@@ -635,6 +632,9 @@ FusionCase.binned.binned6:
        these seem more basic (so that others could be analyzed as category-triggered allomorphs. Good
        example: Semitic root&pattern morphology, where for TAM+DIATHESIS values it seems abritrary to
        either take the stem ablaut or the affix form as basic. They code TAM+DIATHESIS simultaneously.]
+    'tonal' : >
+       A tone contrast marks a morphological contrast. The tone must be not be the result of a general
+       phonological sandhi rule, but represent true internal tone changes.
 
 # ------ FusionNegation.binned.binned6 ------
 FusionNegation.binned.binned6:
@@ -721,12 +721,6 @@ FusionNounPlural.binned.binned6:
        clearly primary (or both equally primary).], [First part of the formative is isolating, second
        part is concatenative.], [First part of the formative is concatenative, second part is isolating.],
        [Concatenative formative is default; isolating allomorph under certain conditions.]
-    'replacive' : >
-       The formative replaces a stem (or theme or base) segment. This is different from regularly concatenative
-       formatives which alternate with other formatives, and not with stem segments. Examples: Marxist
-       derived from Marxism (-ism replaces -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology,
-       140; Oxford, 1998). In Slavic hypocoristics, after truncation, the stem-final consonant is replaced
-       with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.
     'isolating' : >
        [The formative is a free phonological word. If it is, it is likely to be written as a separate
        word, though this is not always true: non-isolating formatives like clitics are often written
@@ -735,6 +729,12 @@ FusionNounPlural.binned.binned6:
        is default; concatenative allomorph under certain conditions.]
     'reduplicative' : >
        A category is marked by some kind of reduplication effect
+    'replacive' : >
+       The formative replaces a stem (or theme or base) segment. This is different from regularly concatenative
+       formatives which alternate with other formatives, and not with stem segments. Examples: Marxist
+       derived from Marxism (-ism replaces -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology,
+       140; Oxford, 1998). In Slavic hypocoristics, after truncation, the stem-final consonant is replaced
+       with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.
     'stem' : >
        [Superimposition of a syllable or foot template onto the stem, resulting in such processes as
        lengthening, gemination etc. Example: Lango alienable possesse marking, Semitic voice marking,
@@ -804,11 +804,11 @@ FusionTense.binned.binned6:
        these seem more basic (so that others could be analyzed as category-triggered allomorphs. Good
        example: Semitic root&pattern morphology, where for TAM+DIATHESIS values it seems abritrary to
        either take the stem ablaut or the affix form as basic. They code TAM+DIATHESIS simultaneously.]
-    'reduplicative' : >
-       A category is marked by some kind of reduplication effect
     'tonal' : >
        A tone contrast marks a morphological contrast. The tone must be not be the result of a general
        phonological sandhi rule, but represent true internal tone changes.
+    'reduplicative' : >
+       A category is marked by some kind of reduplication effect
 
 # ------ FusionCase ------
 FusionCase:
@@ -836,9 +836,6 @@ FusionCase:
        word, though this is not always true: non-isolating formatives like clitics are often written
        as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
        Therefore you will need to look at prosodic factors such as word stress.
-    'tonal' : >
-       A tone contrast marks a morphological contrast. The tone must be not be the result of a general
-       phonological sandhi rule, but represent true internal tone changes.
     'concatenative_or_suppletive' : >
        Concatenative formative or suppletion, under different conditions.
     'ablaut' : >
@@ -846,10 +843,13 @@ FusionCase:
        alternation.
     'suppletive' : >
        One root or morpheme replaces another in part of a paradigm.
-    'concatenative_and_ablaut' : >
-       Concatenative formative plus ablaut (usually stem ablaut).
+    'tonal' : >
+       A tone contrast marks a morphological contrast. The tone must be not be the result of a general
+       phonological sandhi rule, but represent true internal tone changes.
     'concatenative_or_ablaut' : >
        Concatenative formative or ablaut, neither one clearly primary (or both equally primary).
+    'concatenative_and_ablaut' : >
+       Concatenative formative plus ablaut (usually stem ablaut).
 
 # ------ FusionNegation ------
 FusionNegation:
@@ -880,18 +880,18 @@ FusionNegation:
        Therefore you will need to look at prosodic factors such as word stress.
     'isolating_then_concatenative' : >
        First part of the formative is isolating, second part is concatenative.
-    'concatenative_default_or_isolating' : >
-       Concatenative formative is default; isolating allomorph under certain conditions.
     'concatenative_then_isolating' : >
        First part of the formative is concatenative, second part is isolating.
+    'concatenative_default_or_isolating' : >
+       Concatenative formative is default; isolating allomorph under certain conditions.
     'isolating_default_or_concatenative' : >
        Isolating formative is default; concatenative allomorph under certain conditions.
-    'isolating_or_concatenative' : >
-       Isolating as regards stress, concatenative as regards segmental rules -- or vice versa.
     'tonal_or_ablaut_then_isolating' : >
        First part of the formative is a tonal or ablaut alternation; second part is isolating. Example:
        Kisi negation, where the verb stem undergoes tone changes and a particle is added (Childs, A Grammar
        of Kisi, 220ff.; Mouton de Gruyter 1995.
+    'isolating_or_concatenative' : >
+       Isolating as regards stress, concatenative as regards segmental rules -- or vice versa.
   Notes : >
      The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
      markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
@@ -921,21 +921,15 @@ FusionNounPlural:
        harmony), word-internal kinds of sandhi, prosodic phenomena (such as word stress) or general inability
        to stand alone, identify a formative as concatenative (rather than an independent word). Unless
        there is evidence to the contrary, zeroes are coded as concatenative.
-    'replacive' : >
-       The formative replaces a stem (or theme or base) segment. This is different from regularly concatenative
-       formatives which alternate with other formatives, and not with stem segments. Examples: Marxist
-       derived from Marxism (-ism replaces -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology,
-       140; Oxford, 1998). In Slavic hypocoristics, after truncation, the stem-final consonant is replaced
-       with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.
     'isolating' : >
        The formative is a free phonological word. If it is, it is likely to be written as a separate
        word, though this is not always true: non-isolating formatives like clitics are often written
        as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
        Therefore you will need to look at prosodic factors such as word stress.
-    'reduplicative' : >
-       A category is marked by some kind of reduplication effect
     'concatenative_and_ablaut' : >
        Concatenative formative plus ablaut (usually stem ablaut).
+    'reduplicative' : >
+       A category is marked by some kind of reduplication effect
     'concatenative_and_reduplicative' : >
        Concatenative formative plus reduplication (usually reduplication of stem). If some lexemes take
        just the affix and others take the affix plus the reduplication, choose Concat + redupl and code
@@ -943,6 +937,12 @@ FusionNounPlural:
        reduplication part.)
     'concatenative_or_ablaut' : >
        Concatenative formative or ablaut, neither one clearly primary (or both equally primary).
+    'replacive' : >
+       The formative replaces a stem (or theme or base) segment. This is different from regularly concatenative
+       formatives which alternate with other formatives, and not with stem segments. Examples: Marxist
+       derived from Marxism (-ism replaces -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology,
+       140; Oxford, 1998). In Slavic hypocoristics, after truncation, the stem-final consonant is replaced
+       with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.
     'ablaut' : >
        Alternation of stem segments in some grammatical context. Distinct from phonologically conditioned
        alternation.
@@ -987,15 +987,15 @@ FusionTense:
        alternation.
     'isolating_or_concatenative' : >
        Isolating as regards stress, concatenative as regards segmental rules -- or vice versa.
-    'reduplicative' : >
-       A category is marked by some kind of reduplication effect
     'tonal' : >
        A tone contrast marks a morphological contrast. The tone must be not be the result of a general
        phonological sandhi rule, but represent true internal tone changes.
-    'concatenative_and_ablaut' : >
-       Concatenative formative plus ablaut (usually stem ablaut).
+    'reduplicative' : >
+       A category is marked by some kind of reduplication effect
     'concatenative_or_ablaut' : >
        Concatenative formative or ablaut, neither one clearly primary (or both equally primary).
+    'concatenative_and_ablaut' : >
+       Concatenative formative plus ablaut (usually stem ablaut).
 
 # ------ FusionCase.isolating.Presence ------
 FusionCase.isolating.Presence:
@@ -1386,9 +1386,9 @@ PositionNeg.post.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionNeg'
-  N.entries : 220
-  N.languages : 220
-  N.missing : 268
+  N.entries : 221
+  N.languages : 221
+  N.missing : 267
   Notes : >
      The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
      markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
@@ -1456,7 +1456,8 @@ PositionCase.binned4:
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'in/simul' : >
        [inside the phonological host], [the formative has two exponents at different positions in the
        phonological host (but it is not the case that one is positioned before and the other after the
@@ -1480,9 +1481,9 @@ PositionNeg.binned4:
   DataType : 'categorical'
   VariantOf : 'PositionNeg'
   N.levels : 4
-  N.entries : 220
-  N.languages : 220
-  N.missing : 268
+  N.entries : 221
+  N.languages : 221
+  N.missing : 267
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -1492,7 +1493,8 @@ PositionNeg.binned4:
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'in/simul' : >
        [inside the phonological host], [the formative has two exponents at different positions in the
        phonological host (but it is not the case that one is positioned before and the other after the
@@ -1548,17 +1550,8 @@ PositionNounPlural.binned4:
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
-    'in/simul' : >
-       [inside the phonological host], [the formative has two exponents at different positions in the
-       phonological host (but it is not the case that one is positioned before and the other after the
-       host, which is coded as “circum”)], [the formative has two exponents, one before and one after
-       the phonological host. This is a special case of the “simul” position], [inside the phonological
-       host by default, after the host under exceptional conditions (typically lexical)], [around the
-       phonological host by default, before the host under exceptional conditions (typically lexical)],
-       [around the phonological host by default, after the host under exceptional conditions (typically
-       lexical)], [in two or more different positions in (but not around) the phonological host by default,
-       before the host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'split' : >
        [either before or after the phonological host, conditioned by some structural context (category,
        syntax etc.)], [either inside or before the phonological host, conditioned by some structural
@@ -1573,6 +1566,16 @@ PositionNounPlural.binned4:
        or around the phonological host, conditioned by some structural context (category, syntax etc.)],
        [either before or inside the phonological host, conditioned by some structural context (category,
        syntax etc.)]
+    'in/simul' : >
+       [inside the phonological host], [the formative has two exponents at different positions in the
+       phonological host (but it is not the case that one is positioned before and the other after the
+       host, which is coded as “circum”)], [the formative has two exponents, one before and one after
+       the phonological host. This is a special case of the “simul” position], [inside the phonological
+       host by default, after the host under exceptional conditions (typically lexical)], [around the
+       phonological host by default, before the host under exceptional conditions (typically lexical)],
+       [around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)], [in two or more different positions in (but not around) the phonological host by default,
+       before the host under exceptional conditions (typically lexical)]
   Notes : >
      The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
      marking for nouns. If plural is different from dual, use the true plural. If different nouns have
@@ -1606,7 +1609,8 @@ PositionTense.binned4:
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'in/simul' : >
        [inside the phonological host], [the formative has two exponents at different positions in the
        phonological host (but it is not the case that one is positioned before and the other after the
@@ -1655,7 +1659,8 @@ PositionCase.binned5:
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'in' : >
        [inside the phonological host], [inside the phonological host by default, after the host under
        exceptional conditions (typically lexical)]
@@ -1672,9 +1677,9 @@ PositionNeg.binned5:
   DataType : 'categorical'
   VariantOf : 'PositionNeg'
   N.levels : 4
-  N.entries : 220
-  N.languages : 220
-  N.missing : 268
+  N.entries : 221
+  N.languages : 221
+  N.missing : 267
   Levels : 
     'post' : >
        [after the phonological host], [after the phonological host by default, before the host under
@@ -1684,7 +1689,8 @@ PositionNeg.binned5:
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'simul' : >
        [the formative has two exponents at different positions in the phonological host (but it is not
        the case that one is positioned before and the other after the host, which is coded as “circum”)],
@@ -1693,7 +1699,7 @@ PositionNeg.binned5:
        exceptional conditions (typically lexical)], [around the phonological host by default, after the
        host under exceptional conditions (typically lexical)], [in two or more different positions in
        (but not around) the phonological host by default, before the host under exceptional conditions
-       (typically lexical)], [in two or more different positons in the phonological host by default,
+       (typically lexical)], [in two or more different positions in the phonological host by default,
        after the host under exceptional conditions (typically lexical)], [a special case of “simul” where
        one position is stem change itself]
     'split' : >
@@ -1741,18 +1747,8 @@ PositionNounPlural.binned5:
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
-    'simul' : >
-       [the formative has two exponents at different positions in the phonological host (but it is not
-       the case that one is positioned before and the other after the host, which is coded as “circum”)],
-       [the formative has two exponents, one before and one after the phonological host. This is a special
-       case of the “simul” position], [around the phonological host by default, before the host under
-       exceptional conditions (typically lexical)], [around the phonological host by default, after the
-       host under exceptional conditions (typically lexical)], [in two or more different positions in
-       (but not around) the phonological host by default, before the host under exceptional conditions
-       (typically lexical)], [in two or more different positons in the phonological host by default,
-       after the host under exceptional conditions (typically lexical)], [a special case of “simul” where
-       one position is stem change itself]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'split' : >
        [either before or after the phonological host, conditioned by some structural context (category,
        syntax etc.)], [either inside or before the phonological host, conditioned by some structural
@@ -1767,6 +1763,17 @@ PositionNounPlural.binned5:
        or around the phonological host, conditioned by some structural context (category, syntax etc.)],
        [either before or inside the phonological host, conditioned by some structural context (category,
        syntax etc.)]
+    'simul' : >
+       [the formative has two exponents at different positions in the phonological host (but it is not
+       the case that one is positioned before and the other after the host, which is coded as “circum”)],
+       [the formative has two exponents, one before and one after the phonological host. This is a special
+       case of the “simul” position], [around the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [around the phonological host by default, after the
+       host under exceptional conditions (typically lexical)], [in two or more different positions in
+       (but not around) the phonological host by default, before the host under exceptional conditions
+       (typically lexical)], [in two or more different positions in the phonological host by default,
+       after the host under exceptional conditions (typically lexical)], [a special case of “simul” where
+       one position is stem change itself]
     'in' : >
        [inside the phonological host], [inside the phonological host by default, after the host under
        exceptional conditions (typically lexical)]
@@ -1803,7 +1810,8 @@ PositionTense.binned5:
     'prae' : >
        [before the phonological host], [before the phonological host by default, around the host under
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
-       host under exceptional conditions (typically lexical)]
+       host under exceptional conditions (typically lexical)], [before the phonological host by default,
+       inside the host under exceptional conditions (typically lexical)]
     'in' : >
        [inside the phonological host], [inside the phonological host by default, after the host under
        exceptional conditions (typically lexical)]
@@ -1829,7 +1837,7 @@ PositionTense.binned5:
        exceptional conditions (typically lexical)], [around the phonological host by default, after the
        host under exceptional conditions (typically lexical)], [in two or more different positions in
        (but not around) the phonological host by default, before the host under exceptional conditions
-       (typically lexical)], [in two or more different positons in the phonological host by default,
+       (typically lexical)], [in two or more different positions in the phonological host by default,
        after the host under exceptional conditions (typically lexical)], [a special case of “simul” where
        one position is stem change itself]
 
@@ -1843,17 +1851,15 @@ PositionCase:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'PositionCase'
-  N.levels : 5
-  N.entries : 237
-  N.languages : 237
-  N.missing : 251
+  N.levels : 4
+  N.entries : 205
+  N.languages : 205
+  N.missing : 283
   Levels : 
     'post' : >
        after the phonological host
     'prae' : >
        before the phonological host
-    'not applicable' : >
-       not applicable because an element’s position is defined only with respect to grammatical words
     'in' : >
        inside the phonological host
     'post (in)' : >
@@ -1871,30 +1877,33 @@ PositionNeg:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'PositionNeg'
-  N.levels : 10
-  N.entries : 221
-  N.languages : 221
-  N.missing : 267
+  N.levels : 11
+  N.entries : 222
+  N.languages : 222
+  N.missing : 266
   Levels : 
     'post' : >
        after the phonological host
     'prae' : >
        before the phonological host
+    'circum (post)' : >
+       around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)
     'circum' : >
        the formative has two exponents, one before and one after the phonological host. This is a special
        case of the “simul” position
     'post (circum)' : >
        after the phonological host by default, around the host under exceptional conditions (typically
        lexical)
-    'circum (post)' : >
-       around the phonological host by default, after the host under exceptional conditions (typically
-       lexical)
-    'circum (prae)' : >
-       around the phonological host by default, before the host under exceptional conditions (typically
+    'prae (circum)' : >
+       before the phonological host by default, around the host under exceptional conditions (typically
        lexical)
     'simul (prae)' : >
        in two or more different positions in (but not around) the phonological host by default, before
        the host under exceptional conditions (typically lexical)
+    'circum (prae)' : >
+       around the phonological host by default, before the host under exceptional conditions (typically
+       lexical)
     'prae/post' : >
        either before or after the phonological host, conditioned by some structural context (category,
        syntax etc.)
@@ -1921,28 +1930,26 @@ PositionNounPlural:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'PositionNounPlural'
-  N.levels : 8
-  N.entries : 193
-  N.languages : 193
-  N.missing : 295
+  N.levels : 7
+  N.entries : 192
+  N.languages : 192
+  N.missing : 296
   Levels : 
     'post' : >
        after the phonological host
     'prae' : >
        before the phonological host
-    'simul' : >
-       the formative has two exponents at different positions in the phonological host (but it is not
-       the case that one is positioned before and the other after the host, which is coded as “circum”)
     'in/post' : >
        either inside or after the phonological host, conditioned by some structural context (category,
        syntax etc.)
-    'not applicable' : >
-       not applicable because an element’s position is defined only with respect to grammatical words
+    'simul' : >
+       the formative has two exponents at different positions in the phonological host (but it is not
+       the case that one is positioned before and the other after the host, which is coded as “circum”)
+    'in' : >
+       inside the phonological host
     'prae/circum' : >
        either before or around the phonological host, conditioned by some structural context (category,
        syntax etc.)
-    'in' : >
-       inside the phonological host
     'prae/post/circum' : >
        either before, after or around the phonological host, conditioned by some structural context (category,
        syntax etc.)
@@ -1966,17 +1973,15 @@ PositionTense:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'PositionTense'
-  N.levels : 9
-  N.entries : 142
-  N.languages : 142
-  N.missing : 346
+  N.levels : 8
+  N.entries : 140
+  N.languages : 140
+  N.missing : 348
   Levels : 
     'post' : >
        after the phonological host
     'prae' : >
        before the phonological host
-    'not applicable' : >
-       not applicable because an element’s position is defined only with respect to grammatical words
     'in' : >
        inside the phonological host
     'in/prae' : >
@@ -1985,14 +1990,14 @@ PositionTense:
     'circum' : >
        the formative has two exponents, one before and one after the phonological host. This is a special
        case of the “simul” position
-    'prae/post' : >
-       either before or after the phonological host, conditioned by some structural context (category,
-       syntax etc.)
     'simul' : >
        the formative has two exponents at different positions in the phonological host (but it is not
        the case that one is positioned before and the other after the host, which is coded as “circum”)
     'in/post' : >
        either inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
+    'prae/post' : >
+       either before or after the phonological host, conditioned by some structural context (category,
        syntax etc.)
 
 # ------ PositionCase.pre.Presence.v1 ------
@@ -2019,9 +2024,9 @@ PositionNeg.pre.Presence.v1:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionNeg'
-  N.entries : 220
-  N.languages : 220
-  N.missing : 268
+  N.entries : 221
+  N.languages : 221
+  N.missing : 267
   Notes : >
      The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
      markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
@@ -2092,9 +2097,9 @@ PositionNeg.pre.Presence.v2:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionNeg'
-  N.entries : 220
-  N.languages : 220
-  N.missing : 268
+  N.entries : 221
+  N.languages : 221
+  N.missing : 267
   Notes : >
      The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
      markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
@@ -2165,9 +2170,9 @@ PositionNeg.simul.Presence.v1:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionNeg'
-  N.entries : 220
-  N.languages : 220
-  N.missing : 268
+  N.entries : 221
+  N.languages : 221
+  N.missing : 267
   Notes : >
      The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
      markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
@@ -2238,9 +2243,9 @@ PositionNeg.simul.Presence.v2:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'PositionNeg'
-  N.entries : 220
-  N.languages : 220
-  N.missing : 268
+  N.entries : 221
+  N.languages : 221
+  N.missing : 267
   Notes : >
      The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
      markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
@@ -2300,9 +2305,9 @@ HostRestrictionsCase:
   DataType : 'categorical'
   VariantOf : 'HostRestrictionsCase'
   N.levels : 2
-  N.entries : 311
-  N.languages : 311
-  N.missing : 177
+  N.entries : 313
+  N.languages : 313
+  N.missing : 175
   Levels : 
     'restricted' : >
        Is restricted to a specific type of host. When descriptions are silent about the range of hosts
@@ -2476,10 +2481,10 @@ FlexivityStemNounPlural:
   N.languages : 12
   N.missing : 476
   Levels : 
-    'none' : >
     'lex-based' : >
        Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
        some verbs, but not with others)
+    'none' : >
     'cat-based' : >
        Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
        ablaut in certain tense forms, across the regular lexicon)
@@ -2509,10 +2514,10 @@ FlexivityStemTense:
   N.languages : 50
   N.missing : 438
   Levels : 
-    'none' : >
     'lex-based' : >
        Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
        some verbs, but not with others)
+    'none' : >
     'cat-based' : >
        Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
        ablaut in certain tense forms, across the regular lexicon)

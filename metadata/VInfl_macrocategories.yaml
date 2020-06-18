@@ -8,9 +8,9 @@ VInflClassification.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflClassification.Presence'
-  N.entries : 136
-  N.languages : 136
-  N.missing : 187
+  N.entries : 233
+  N.languages : 233
+  N.missing : 177
   Notes : >
      For the definition of "classification", see the metadata for VInflCat in Synthesis
 
@@ -24,9 +24,9 @@ VInflEvidential.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflEvidential.Presence'
-  N.entries : 161
-  N.languages : 161
-  N.missing : 162
+  N.entries : 254
+  N.languages : 254
+  N.missing : 156
   Notes : >
      For the definition of "evidential", see the metadata for VInflCat in Synthesis
 
@@ -40,9 +40,9 @@ VInflInter_clausal.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflInter_clausal.Presence'
-  N.entries : 150
-  N.languages : 150
-  N.missing : 173
+  N.entries : 247
+  N.languages : 247
+  N.missing : 163
   Notes : >
      For the definition of "inter_clausal", see the metadata for VInflCat in Synthesis
 
@@ -56,9 +56,9 @@ VInflNP_related.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflNP_related.Presence'
-  N.entries : 138
-  N.languages : 138
-  N.missing : 185
+  N.entries : 235
+  N.languages : 235
+  N.missing : 175
   Notes : >
      For the definition of "NP_related", see the metadata for VInflCat in Synthesis
 
@@ -72,9 +72,9 @@ VInflNumber.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflNumber.Presence'
-  N.entries : 199
-  N.languages : 199
-  N.missing : 124
+  N.entries : 295
+  N.languages : 295
+  N.missing : 115
   Notes : >
      For the definition of "number", see the metadata for VInflCat in Synthesis
 
@@ -88,9 +88,9 @@ VInflOperators.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflOperators.Presence'
-  N.entries : 222
-  N.languages : 222
-  N.missing : 101
+  N.entries : 313
+  N.languages : 313
+  N.missing : 97
   Notes : >
      For the definition of "operators", see the metadata for VInflCat in Synthesis
 
@@ -104,9 +104,9 @@ VInflPerson.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflPerson.Presence'
-  N.entries : 135
-  N.languages : 135
-  N.missing : 188
+  N.entries : 232
+  N.languages : 232
+  N.missing : 178
   Notes : >
      For the definition of "person", see the metadata for VInflCat in Synthesis
 
@@ -120,27 +120,11 @@ VInflPragmatic.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflPragmatic.Presence'
-  N.entries : 166
-  N.languages : 166
-  N.missing : 157
+  N.entries : 267
+  N.languages : 267
+  N.missing : 143
   Notes : >
      For the definition of "pragmatic", see the metadata for VInflCat in Synthesis
-
-# ------ VInflPragmatics.Presence ------
-VInflPragmatics.Presence:
-  Description : >
-     Presence of separate markers of inflectional macrocategory "pragmatics" in the verb (cf. Bickel
-     & Nichols 2005 Inflectional Synthesis of the Verb, in WALS)
-  SetUp : 'single aggregated entry per language'
-  DataEntry : 'derived'
-  VariableType : 'data'
-  DataType : 'logical'
-  VariantOf : 'VInflPragmatics.Presence'
-  N.entries : 140
-  N.languages : 140
-  N.missing : 183
-  Notes : >
-     For the definition of "pragmatics", see the metadata for VInflCat in Synthesis
 
 # ------ VInflRole.Presence ------
 VInflRole.Presence:
@@ -152,9 +136,9 @@ VInflRole.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflRole.Presence'
-  N.entries : 133
-  N.languages : 133
-  N.missing : 190
+  N.entries : 230
+  N.languages : 230
+  N.missing : 180
   Notes : >
      For the definition of "role", see the metadata for VInflCat in Synthesis
 
@@ -168,9 +152,9 @@ VInflTAM.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflTAM.Presence'
-  N.entries : 319
-  N.languages : 319
-  N.missing : 4
+  N.entries : 407
+  N.languages : 407
+  N.missing : 3
   Notes : >
      For the definition of "TAM", see the metadata for VInflCat in Synthesis
 
@@ -184,9 +168,9 @@ VInflValence.Presence:
   VariableType : 'data'
   DataType : 'logical'
   VariantOf : 'VInflValence.Presence'
-  N.entries : 224
-  N.languages : 224
-  N.missing : 99
+  N.entries : 320
+  N.languages : 320
+  N.missing : 90
   Notes : >
      For the definition of "valence", see the metadata for VInflCat in Synthesis
 
