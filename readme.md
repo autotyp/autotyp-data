@@ -8,6 +8,8 @@ Balthasar Bickel, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, Kr
 
 **Release version 0.1.1**
 
+[![DOI](https://zenodo.org/badge/92335614.svg)](https://zenodo.org/badge/latestdoi/92335614)
+
 ---
 
 
@@ -259,7 +261,7 @@ Both error reports and feature requests can be submitted online using the [GitHu
 
 # Citation
 
-Bickel, Balthasar, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, Kristine Hildebrandt, Michael Rießler, Lennart Bierkandt, Fernando Zúñiga & John B. Lowe. 2017. *The AUTOTYP typological databases*. Version 0.1.1 [https://github.com/autotyp/autotyp-data/tree/0.1.1](https://github.com/autotyp/autotyp-data/tree/0.1.1)
+Bickel, Balthasar, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, Kristine Hildebrandt, Michael Rießler, Lennart Bierkandt, Fernando Zúñiga & John B. Lowe. 2017. *The AUTOTYP typological databases*. Version 0.1.1 [https://github.com/autotyp/autotyp-data/tree/0.1.1](https://github.com/autotyp/autotyp-data/tree/0.1.1)
 
 Please make sure to always include the version number with your citation. This ensures that results can be always reproduced even after the database has been updated. The GitHub website tracks all versions of the database that were ever published (you can switch between them by clicking on the branch menu on the top of this page and selecting an appropriate tag). AUTOTYP uses [semantic versioning ](https://semver.org/spec/v2.0.0.html). 
 
@@ -299,4 +301,4 @@ Campbell, Lyle & William J. Poser. 2008. *Language classification: History and m
 
 Nichols, Johanna, Alena Witzlack-Makarevich & Balthasar Bickel. 2013. The AUTOTYP genealogy and geography database: 2013 release. Electronic database [[download](http://www.autotyp.uzh.ch/download/release_2013/autotyp-release_2013.pdf)].
 
-Schiering, René, Kristine Hildebrandt & Balthasar Bickel. 2012. Stress-timed = word-based? Testing a hypothesis in Prosodic Typology. *Language Typology and Universals* 65. 157–168.
+Schiering, René, Kristine Hildebrandt & Balthasar Bickel. 2012. Stress-timed = word-based? Testing a hypothesis in Prosodic Typology. *Language Typology and Universals* 65. 157–168.
