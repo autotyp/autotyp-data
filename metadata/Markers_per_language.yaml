@@ -205,7 +205,7 @@ BehaviorNounPlural:
   VariableType : 'data'
   DataType : 'categorical'
   VariantOf : 'BehaviorNounPlural'
-  N.levels : 6 # NA,inert,initial,spreading,stacking,final,flexible
+  N.levels : 6 # NA,inert,initial,spreading,final,stacking,flexible
   N.entries : 81
   N.languages : 81
   N.missing : 407
@@ -487,6 +487,7 @@ FlexivityFormativeCase:
   N.missing : 319
   Levels : 
     'none' : >
+       TODO
     'cat-based' : >
        Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
        ablaut in certain tense forms, across the regular lexicon)
@@ -494,6 +495,7 @@ FlexivityFormativeCase:
        Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
        some verbs, but not with others)
     'both' : >
+       TODO
 
 # ------ FlexivityFormativeNeg ------
 FlexivityFormativeNeg:
@@ -513,6 +515,7 @@ FlexivityFormativeNeg:
   N.missing : 344
   Levels : 
     'none' : >
+       TODO
     'cat-based' : >
        Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
        ablaut in certain tense forms, across the regular lexicon)
@@ -520,6 +523,7 @@ FlexivityFormativeNeg:
        Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
        some verbs, but not with others)
     'both' : >
+       TODO
   Notes : >
      The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
      markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
@@ -551,6 +555,7 @@ FlexivityFormativeNounPlural:
        Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
        ablaut in certain tense forms, across the regular lexicon)
     'none' : >
+       TODO
   Notes : >
      The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
      marking for nouns. If plural is different from dual, use the true plural. If different nouns have
@@ -578,6 +583,7 @@ FlexivityFormativeTense:
   N.missing : 438
   Levels : 
     'none' : >
+       TODO
     'cat-based' : >
        Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
        ablaut in certain tense forms, across the regular lexicon)
@@ -727,14 +733,14 @@ FusionNounPlural.binned.binned6:
        as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
        Therefore you will need to look at prosodic factors such as word stress.], [Isolating formative
        is default; concatenative allomorph under certain conditions.]
-    'reduplicative' : >
-       A category is marked by some kind of reduplication effect
     'replacive' : >
        The formative replaces a stem (or theme or base) segment. This is different from regularly concatenative
        formatives which alternate with other formatives, and not with stem segments. Examples: Marxist
        derived from Marxism (-ism replaces -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology,
        140; Oxford, 1998). In Slavic hypocoristics, after truncation, the stem-final consonant is replaced
        with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.
+    'reduplicative' : >
+       A category is marked by some kind of reduplication effect
     'stem' : >
        [Superimposition of a syllable or foot template onto the stem, resulting in such processes as
        lengthening, gemination etc. Example: Lango alienable possesse marking, Semitic voice marking,
@@ -841,15 +847,15 @@ FusionCase:
     'ablaut' : >
        Alternation of stem segments in some grammatical context. Distinct from phonologically conditioned
        alternation.
-    'suppletive' : >
-       One root or morpheme replaces another in part of a paradigm.
     'tonal' : >
        A tone contrast marks a morphological contrast. The tone must be not be the result of a general
        phonological sandhi rule, but represent true internal tone changes.
-    'concatenative_or_ablaut' : >
-       Concatenative formative or ablaut, neither one clearly primary (or both equally primary).
+    'suppletive' : >
+       One root or morpheme replaces another in part of a paradigm.
     'concatenative_and_ablaut' : >
        Concatenative formative plus ablaut (usually stem ablaut).
+    'concatenative_or_ablaut' : >
+       Concatenative formative or ablaut, neither one clearly primary (or both equally primary).
 
 # ------ FusionNegation ------
 FusionNegation:
@@ -878,20 +884,20 @@ FusionNegation:
        word, though this is not always true: non-isolating formatives like clitics are often written
        as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
        Therefore you will need to look at prosodic factors such as word stress.
+    'concatenative_default_or_isolating' : >
+       Concatenative formative is default; isolating allomorph under certain conditions.
     'isolating_then_concatenative' : >
        First part of the formative is isolating, second part is concatenative.
     'concatenative_then_isolating' : >
        First part of the formative is concatenative, second part is isolating.
-    'concatenative_default_or_isolating' : >
-       Concatenative formative is default; isolating allomorph under certain conditions.
     'isolating_default_or_concatenative' : >
        Isolating formative is default; concatenative allomorph under certain conditions.
+    'isolating_or_concatenative' : >
+       Isolating as regards stress, concatenative as regards segmental rules -- or vice versa.
     'tonal_or_ablaut_then_isolating' : >
        First part of the formative is a tonal or ablaut alternation; second part is isolating. Example:
        Kisi negation, where the verb stem undergoes tone changes and a particle is added (Childs, A Grammar
        of Kisi, 220ff.; Mouton de Gruyter 1995.
-    'isolating_or_concatenative' : >
-       Isolating as regards stress, concatenative as regards segmental rules -- or vice versa.
   Notes : >
      The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
      markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
@@ -921,28 +927,28 @@ FusionNounPlural:
        harmony), word-internal kinds of sandhi, prosodic phenomena (such as word stress) or general inability
        to stand alone, identify a formative as concatenative (rather than an independent word). Unless
        there is evidence to the contrary, zeroes are coded as concatenative.
-    'isolating' : >
-       The formative is a free phonological word. If it is, it is likely to be written as a separate
-       word, though this is not always true: non-isolating formatives like clitics are often written
-       as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
-       Therefore you will need to look at prosodic factors such as word stress.
-    'concatenative_and_ablaut' : >
-       Concatenative formative plus ablaut (usually stem ablaut).
-    'reduplicative' : >
-       A category is marked by some kind of reduplication effect
     'concatenative_and_reduplicative' : >
        Concatenative formative plus reduplication (usually reduplication of stem). If some lexemes take
        just the affix and others take the affix plus the reduplication, choose Concat + redupl and code
        for lexeme-based formative flexivity. (The flexivity lies in whether they do or do not take the
        reduplication part.)
-    'concatenative_or_ablaut' : >
-       Concatenative formative or ablaut, neither one clearly primary (or both equally primary).
+    'isolating' : >
+       The formative is a free phonological word. If it is, it is likely to be written as a separate
+       word, though this is not always true: non-isolating formatives like clitics are often written
+       as separate words, and isolating formatives are written with hyphens or clitic boundary markers.
+       Therefore you will need to look at prosodic factors such as word stress.
     'replacive' : >
        The formative replaces a stem (or theme or base) segment. This is different from regularly concatenative
        formatives which alternate with other formatives, and not with stem segments. Examples: Marxist
        derived from Marxism (-ism replaces -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology,
        140; Oxford, 1998). In Slavic hypocoristics, after truncation, the stem-final consonant is replaced
        with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.
+    'reduplicative' : >
+       A category is marked by some kind of reduplication effect
+    'concatenative_and_ablaut' : >
+       Concatenative formative plus ablaut (usually stem ablaut).
+    'concatenative_or_ablaut' : >
+       Concatenative formative or ablaut, neither one clearly primary (or both equally primary).
     'ablaut' : >
        Alternation of stem segments in some grammatical context. Distinct from phonologically conditioned
        alternation.
@@ -990,12 +996,12 @@ FusionTense:
     'tonal' : >
        A tone contrast marks a morphological contrast. The tone must be not be the result of a general
        phonological sandhi rule, but represent true internal tone changes.
+    'concatenative_and_ablaut' : >
+       Concatenative formative plus ablaut (usually stem ablaut).
     'reduplicative' : >
        A category is marked by some kind of reduplication effect
     'concatenative_or_ablaut' : >
        Concatenative formative or ablaut, neither one clearly primary (or both equally primary).
-    'concatenative_and_ablaut' : >
-       Concatenative formative plus ablaut (usually stem ablaut).
 
 # ------ FusionCase.isolating.Presence ------
 FusionCase.isolating.Presence:
@@ -1552,6 +1558,16 @@ PositionNounPlural.binned4:
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
        host under exceptional conditions (typically lexical)], [before the phonological host by default,
        inside the host under exceptional conditions (typically lexical)]
+    'in/simul' : >
+       [inside the phonological host], [the formative has two exponents at different positions in the
+       phonological host (but it is not the case that one is positioned before and the other after the
+       host, which is coded as “circum”)], [the formative has two exponents, one before and one after
+       the phonological host. This is a special case of the “simul” position], [inside the phonological
+       host by default, after the host under exceptional conditions (typically lexical)], [around the
+       phonological host by default, before the host under exceptional conditions (typically lexical)],
+       [around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)], [in two or more different positions in (but not around) the phonological host by default,
+       before the host under exceptional conditions (typically lexical)]
     'split' : >
        [either before or after the phonological host, conditioned by some structural context (category,
        syntax etc.)], [either inside or before the phonological host, conditioned by some structural
@@ -1566,16 +1582,6 @@ PositionNounPlural.binned4:
        or around the phonological host, conditioned by some structural context (category, syntax etc.)],
        [either before or inside the phonological host, conditioned by some structural context (category,
        syntax etc.)]
-    'in/simul' : >
-       [inside the phonological host], [the formative has two exponents at different positions in the
-       phonological host (but it is not the case that one is positioned before and the other after the
-       host, which is coded as “circum”)], [the formative has two exponents, one before and one after
-       the phonological host. This is a special case of the “simul” position], [inside the phonological
-       host by default, after the host under exceptional conditions (typically lexical)], [around the
-       phonological host by default, before the host under exceptional conditions (typically lexical)],
-       [around the phonological host by default, after the host under exceptional conditions (typically
-       lexical)], [in two or more different positions in (but not around) the phonological host by default,
-       before the host under exceptional conditions (typically lexical)]
   Notes : >
      The noun plural exemplar is determined as follows: Choose the inflectional plural (or nonsingular)
      marking for nouns. If plural is different from dual, use the true plural. If different nouns have
@@ -1611,16 +1617,6 @@ PositionTense.binned4:
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
        host under exceptional conditions (typically lexical)], [before the phonological host by default,
        inside the host under exceptional conditions (typically lexical)]
-    'in/simul' : >
-       [inside the phonological host], [the formative has two exponents at different positions in the
-       phonological host (but it is not the case that one is positioned before and the other after the
-       host, which is coded as “circum”)], [the formative has two exponents, one before and one after
-       the phonological host. This is a special case of the “simul” position], [inside the phonological
-       host by default, after the host under exceptional conditions (typically lexical)], [around the
-       phonological host by default, before the host under exceptional conditions (typically lexical)],
-       [around the phonological host by default, after the host under exceptional conditions (typically
-       lexical)], [in two or more different positions in (but not around) the phonological host by default,
-       before the host under exceptional conditions (typically lexical)]
     'split' : >
        [either before or after the phonological host, conditioned by some structural context (category,
        syntax etc.)], [either inside or before the phonological host, conditioned by some structural
@@ -1635,6 +1631,16 @@ PositionTense.binned4:
        or around the phonological host, conditioned by some structural context (category, syntax etc.)],
        [either before or inside the phonological host, conditioned by some structural context (category,
        syntax etc.)]
+    'in/simul' : >
+       [inside the phonological host], [the formative has two exponents at different positions in the
+       phonological host (but it is not the case that one is positioned before and the other after the
+       host, which is coded as “circum”)], [the formative has two exponents, one before and one after
+       the phonological host. This is a special case of the “simul” position], [inside the phonological
+       host by default, after the host under exceptional conditions (typically lexical)], [around the
+       phonological host by default, before the host under exceptional conditions (typically lexical)],
+       [around the phonological host by default, after the host under exceptional conditions (typically
+       lexical)], [in two or more different positions in (but not around) the phonological host by default,
+       before the host under exceptional conditions (typically lexical)]
 
 # ------ PositionCase.binned5 ------
 PositionCase.binned5:
@@ -1749,6 +1755,17 @@ PositionNounPlural.binned5:
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
        host under exceptional conditions (typically lexical)], [before the phonological host by default,
        inside the host under exceptional conditions (typically lexical)]
+    'simul' : >
+       [the formative has two exponents at different positions in the phonological host (but it is not
+       the case that one is positioned before and the other after the host, which is coded as “circum”)],
+       [the formative has two exponents, one before and one after the phonological host. This is a special
+       case of the “simul” position], [around the phonological host by default, before the host under
+       exceptional conditions (typically lexical)], [around the phonological host by default, after the
+       host under exceptional conditions (typically lexical)], [in two or more different positions in
+       (but not around) the phonological host by default, before the host under exceptional conditions
+       (typically lexical)], [in two or more different positions in the phonological host by default,
+       after the host under exceptional conditions (typically lexical)], [a special case of “simul” where
+       one position is stem change itself]
     'split' : >
        [either before or after the phonological host, conditioned by some structural context (category,
        syntax etc.)], [either inside or before the phonological host, conditioned by some structural
@@ -1763,17 +1780,6 @@ PositionNounPlural.binned5:
        or around the phonological host, conditioned by some structural context (category, syntax etc.)],
        [either before or inside the phonological host, conditioned by some structural context (category,
        syntax etc.)]
-    'simul' : >
-       [the formative has two exponents at different positions in the phonological host (but it is not
-       the case that one is positioned before and the other after the host, which is coded as “circum”)],
-       [the formative has two exponents, one before and one after the phonological host. This is a special
-       case of the “simul” position], [around the phonological host by default, before the host under
-       exceptional conditions (typically lexical)], [around the phonological host by default, after the
-       host under exceptional conditions (typically lexical)], [in two or more different positions in
-       (but not around) the phonological host by default, before the host under exceptional conditions
-       (typically lexical)], [in two or more different positions in the phonological host by default,
-       after the host under exceptional conditions (typically lexical)], [a special case of “simul” where
-       one position is stem change itself]
     'in' : >
        [inside the phonological host], [inside the phonological host by default, after the host under
        exceptional conditions (typically lexical)]
@@ -1812,9 +1818,6 @@ PositionTense.binned5:
        exceptional conditions (typically lexical)], [before the phonological host by default, after the
        host under exceptional conditions (typically lexical)], [before the phonological host by default,
        inside the host under exceptional conditions (typically lexical)]
-    'in' : >
-       [inside the phonological host], [inside the phonological host by default, after the host under
-       exceptional conditions (typically lexical)]
     'split' : >
        [either before or after the phonological host, conditioned by some structural context (category,
        syntax etc.)], [either inside or before the phonological host, conditioned by some structural
@@ -1829,6 +1832,9 @@ PositionTense.binned5:
        or around the phonological host, conditioned by some structural context (category, syntax etc.)],
        [either before or inside the phonological host, conditioned by some structural context (category,
        syntax etc.)]
+    'in' : >
+       [inside the phonological host], [inside the phonological host by default, after the host under
+       exceptional conditions (typically lexical)]
     'simul' : >
        [the formative has two exponents at different positions in the phonological host (but it is not
        the case that one is positioned before and the other after the host, which is coded as “circum”)],
@@ -1886,27 +1892,27 @@ PositionNeg:
        after the phonological host
     'prae' : >
        before the phonological host
-    'circum (post)' : >
-       around the phonological host by default, after the host under exceptional conditions (typically
-       lexical)
     'circum' : >
        the formative has two exponents, one before and one after the phonological host. This is a special
        case of the “simul” position
+    'prae (circum)' : >
+       before the phonological host by default, around the host under exceptional conditions (typically
+       lexical)
     'post (circum)' : >
        after the phonological host by default, around the host under exceptional conditions (typically
        lexical)
-    'prae (circum)' : >
-       before the phonological host by default, around the host under exceptional conditions (typically
+    'circum (post)' : >
+       around the phonological host by default, after the host under exceptional conditions (typically
        lexical)
     'simul (prae)' : >
        in two or more different positions in (but not around) the phonological host by default, before
        the host under exceptional conditions (typically lexical)
-    'circum (prae)' : >
-       around the phonological host by default, before the host under exceptional conditions (typically
-       lexical)
     'prae/post' : >
        either before or after the phonological host, conditioned by some structural context (category,
        syntax etc.)
+    'circum (prae)' : >
+       around the phonological host by default, before the host under exceptional conditions (typically
+       lexical)
     'simul' : >
        the formative has two exponents at different positions in the phonological host (but it is not
        the case that one is positioned before and the other after the host, which is coded as “circum”)
@@ -1939,12 +1945,12 @@ PositionNounPlural:
        after the phonological host
     'prae' : >
        before the phonological host
-    'in/post' : >
-       either inside or after the phonological host, conditioned by some structural context (category,
-       syntax etc.)
     'simul' : >
        the formative has two exponents at different positions in the phonological host (but it is not
        the case that one is positioned before and the other after the host, which is coded as “circum”)
+    'in/post' : >
+       either inside or after the phonological host, conditioned by some structural context (category,
+       syntax etc.)
     'in' : >
        inside the phonological host
     'prae/circum' : >
@@ -1982,11 +1988,11 @@ PositionTense:
        after the phonological host
     'prae' : >
        before the phonological host
-    'in' : >
-       inside the phonological host
     'in/prae' : >
        either inside or before the phonological host, conditioned by some structural context (category,
        syntax etc.)
+    'in' : >
+       inside the phonological host
     'circum' : >
        the formative has two exponents, one before and one after the phonological host. This is a special
        case of the “simul” position
@@ -2337,12 +2343,12 @@ HostRestrictionsNegation:
     'restricted' : >
        Is restricted to a specific type of host. When descriptions are silent about the range of hosts
        that a marker can combine with, but analyze the marker as an “affix”, we assume it is restricted.
-    'unrestricted' : >
-       occurs with anything (e.g. Turkish mi)
     'semi-restricted' : >
        Can occur with some, but not all host elements (so, NOT a ‘phrasal affix’, but rather simply a
        ‘particle’-like formative that has some degree of selectional restrictions). Allows at least two
        distinct hosts (in terms of their parts of speech categories)
+    'unrestricted' : >
+       occurs with anything (e.g. Turkish mi)
   Notes : >
      The negation exemplar is determined as follows: Choose clausal negation. If there are several negation
      markers, pick the one on conditioned by the leftmost value on the following hierarchies: declarative
@@ -2426,6 +2432,7 @@ FlexivityStemCase:
   N.missing : 317
   Levels : 
     'none' : >
+       TODO
     'lex-based' : >
        Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
        some verbs, but not with others)
@@ -2451,6 +2458,7 @@ FlexivityStemNeg:
   N.missing : 344
   Levels : 
     'none' : >
+       TODO
     'lex-based' : >
        Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
        some verbs, but not with others)
@@ -2485,6 +2493,7 @@ FlexivityStemNounPlural:
        Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
        some verbs, but not with others)
     'none' : >
+       TODO
     'cat-based' : >
        Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
        ablaut in certain tense forms, across the regular lexicon)
@@ -2518,8 +2527,10 @@ FlexivityStemTense:
        Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with
        some verbs, but not with others)
     'none' : >
+       TODO
     'cat-based' : >
        Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem
        ablaut in certain tense forms, across the regular lexicon)
     'both' : >
+       TODO
 

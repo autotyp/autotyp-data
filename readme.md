@@ -6,7 +6,7 @@ Balthasar Bickel, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, Kr
 
 ---
 
-**Release version 0.1.1**
+**Release version 0.1.2**
 
 [![DOI](https://zenodo.org/badge/92335614.svg)](https://zenodo.org/badge/latestdoi/92335614)
 
@@ -36,9 +36,9 @@ Balthasar Bickel, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, Kr
 These files are stored as `csv` tables in the directory `data/`.
 
 ## General design
-AUTOTYP differs from traditional typological databases in that in most cases, data is entered in a fairly raw format (comparable to reference grammar descriptions) and need to be aggregated and reshaped for most analytical purposes. For example, we do not enter alignment statements ('S=A≠P' or 'nominative-accusative alignment', etc) but enter individual case markers with the roles they cover and the conditions under which they occur. Alignment statements can then be ***derived*** (i.e. aggregated and/or reshaped) from the data using scripts. The raw data supports a variety of such derivations (apart from alignment statements, one might be interested in whether or not there is a split in case marking, or how many cases can code the same generalized semantic argument role etc.). As a result, AUTOTYP usually contains several alternative derivations from the same raw data. However, the current release (version 0.1.1) includes only tables that we have already derived in earlier research, and the few raw tables that can be used off the shelf. The raw data has a more complex database structure and will be released later, together with scripts for making your own aggregations as well as for exploring and mapping the data. (But of course, it will always be possible to use the data tables without scripts, e.g. for exploring, looking things up in particular languages, copying data to your own spreadsheet, etc.)
+AUTOTYP differs from traditional typological databases in that in most cases, data is entered in a fairly raw format (comparable to reference grammar descriptions) and need to be aggregated and reshaped for most analytical purposes. For example, we do not enter alignment statements ('S=A≠P' or 'nominative-accusative alignment', etc) but enter individual case markers with the roles they cover and the conditions under which they occur. Alignment statements can then be ***derived*** (i.e. aggregated and/or reshaped) from the data using scripts. The raw data supports a variety of such derivations (apart from alignment statements, one might be interested in whether or not there is a split in case marking, or how many cases can code the same generalized semantic argument role etc.). As a result, AUTOTYP usually contains several alternative derivations from the same raw data. However, the current release (version 0.1.2) includes only tables that we have already derived in earlier research, and the few raw tables that can be used off the shelf. The raw data has a more complex database structure and will be released later, together with scripts for making your own aggregations as well as for exploring and mapping the data. (But of course, it will always be possible to use the data tables without scripts, e.g. for exploring, looking things up in particular languages, copying data to your own spreadsheet, etc.)
 
-Another way in which AUTOTYP differs from traditional databases is that most variables were not predefined but were developed in a technique we call ***autotypologizing*** (Bickel & Nichols 2002): the values of the variables (features, categories, types) and their definitions are constantly revised and expanded during data collection until they stabilize. For example, instead of surveying the presence/absence of a predefined category like 'aspect', we develop a list of categories as we encounter them in our survey work and equate them (or not) to cross-linguistically stable types on the basis of an evolving analysis. The result is a list of categories and definitions and this can then be queried later as to which category occurs where. The outputs of such queries are published here, with the definitions stored in the metadata. 
+Another way in which AUTOTYP differs from traditional databases is that most variables were not predefined but were developed in a technique we call ***autotypologizing*** (Bickel & Nichols 2002, Witzlack-Makarevich et al. 2021): the values of the variables (features, categories, types) and their definitions are constantly revised and expanded during data collection until they stabilize. For example, instead of surveying the presence/absence of a predefined category like 'aspect', we develop a list of categories as we encounter them in our survey work and equate them (or not) to cross-linguistically stable types on the basis of an evolving analysis. The result is a list of categories and definitions and this can then be queried later as to which category occurs where. The outputs of such queries are published here, with the definitions stored in the metadata. 
 
 AUTOTYP has been developed for over 20 years, in a series of loosely related projects. Each project resulted in one or more database modules. Because the projects were carried out with specific purposes in mind and at different times, the variables do not necessarily form a tightly integrated and internally consistent system. The variables sometimes assume different basic notions, reflecting different research questions or a different stage in our theoretical research. For example, some modules make reference to an open list of semantic roles (e.g. the *locus* module), while other modules (e.g. the *grammatical relations* module) makes reference to a Dowty-style approach with a fixed roster of generalized roles that we adopted at a later point.
 
@@ -219,7 +219,7 @@ The following fields are provided for each variable:
 
 
 # Bibliographical references
-The sources for all entries can be retrieved from the `.bib` file (see [Formats](#file-formats-and-how-to-download-and-access-the-data) via the language identifier (`LID`) which comes with every entry. There may be gaps, in which case the references listed in [Glottolog](http://glottolog.org) are likely to correspond to what we relied on.
+The sources for all entries can be retrieved from the `.bib` file (see [Formats](#file-formats-and-how-to-download-and-access-the-data)) via the language identifier (`LID`) which comes with every entry. There may be gaps, in which case the references listed in [Glottolog](http://glottolog.org) are likely to correspond to what we relied on.
 
 # Naming conventions
 <!-- (see public.release.paper/autotyp_data_curation_bestpractices_rev.pages) -->
@@ -261,7 +261,7 @@ Both error reports and feature requests can be submitted online using the [GitHu
 
 # Citation
 
-Bickel, Balthasar, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, Kristine Hildebrandt, Michael Rießler, Lennart Bierkandt, Fernando Zúñiga & John B. Lowe. 2017. *The AUTOTYP typological databases*. Version 0.1.1 [https://github.com/autotyp/autotyp-data/tree/0.1.1](https://github.com/autotyp/autotyp-data/tree/0.1.1)
+Bickel, Balthasar, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, Kristine Hildebrandt, Michael Rießler, Lennart Bierkandt, Fernando Zúñiga & John B. Lowe. 2017. *The AUTOTYP typological databases*. Version 0.1.2 [https://github.com/autotyp/autotyp-data/tree/0.1.2](https://github.com/autotyp/autotyp-data/tree/0.1.2)
 
 Please make sure to always include the version number with your citation. This ensures that results can be always reproduced even after the database has been updated. The GitHub website tracks all versions of the database that were ever published (you can switch between them by clicking on the branch menu on the top of this page and selecting an appropriate tag). AUTOTYP uses [semantic versioning ](https://semver.org/spec/v2.0.0.html). 
 
@@ -276,7 +276,7 @@ Please make sure to always include the version number with your citation. This e
 
 **A**: Click on the "Raw" button and then use the URL of this page as the argument of `read.csv(<insert URL here>, na.strings = "")`
 More generally, the following URL fits all content and will give you the most recent version of the file:
-`https://raw.githubusercontent.com/autotyp/autotyp-data/0.1.1/...`
+`https://raw.githubusercontent.com/autotyp/autotyp-data/0.1.2/...`
 
 We recommend downloading the database for offline use (and noting down the version number), in the interest of replicability. You will find the version number in the readme file and also in the `VERSION` file in the database folder. 
 
@@ -293,12 +293,14 @@ We recommend downloading the database for offline use (and noting down the versi
 ---
 # References
 
-Bickel, Balthasar & Johanna Nichols. 2002. Autotypologizing databases and their use in fieldwork. In Peter Austin, Helen Dry & Peter Wittenburg (eds.), *Proceedings of the International LREC Workshop on Resources and Tools in Field Linguistics, Las Palmas,* 26-27 May 2002. Nijmegen: MPI for Psycholinguistics [[download](http://www.autotyp.uzh.ch/download/canary.pdf)].
+Bickel, Balthasar & Johanna Nichols. 2002. Autotypologizing databases and their use in fieldwork. In Austin et al. (eds.), *Proceedings of the International LREC Workshop on Resources and Tools in Field Linguistics, Las Palmas,* 26-27 May 2002. Nijmegen: MPI for Psycholinguistics [[download](http://www.autotyp.uzh.ch/download/canary.pdf)].
 
-Bickel, Balthasar & Johanna Nichols. 2006. Oceania, the pacific rim, and the theory of linguistic areas. *Proc. Berkeley Linguistics Society* 32. 3–15.
+Bickel, Balthasar & Johanna Nichols. 2006. Oceania, the Pacific Tim, and the theory of linguistic areas. *Proc. Berkeley Linguistics Society* 32. 3–15.
 
 Campbell, Lyle & William J. Poser. 2008. *Language classification: History and method*. Cambridge: Cambridge University Press.
 
 Nichols, Johanna, Alena Witzlack-Makarevich & Balthasar Bickel. 2013. The AUTOTYP genealogy and geography database: 2013 release. Electronic database [[download](http://www.autotyp.uzh.ch/download/release_2013/autotyp-release_2013.pdf)].
 
-Schiering, René, Kristine Hildebrandt & Balthasar Bickel. 2012. Stress-timed = word-based? Testing a hypothesis in Prosodic Typology. *Language Typology and Universals* 65. 157–168.
+Schiering, René, Kristine Hildebrandt & Balthasar Bickel. 2012. Stress-timed = word-based? Testing a hypothesis in Prosodic Typology. *Language Typology and Universals* 65. 157–168.
+
+Witzlack-Makarevich, Alena, Johanna Nichols, Kristine Hildebrandt, Taras Zakharko & Balthasar Bickel. 2021+. Managing AUTOTYP Data: design principles and implementation. In Berez-Kroeker et al. (eds.), *Open Handbook of Linguistic Data Management*, Cambridge, MA: MIT Press [[preprint](https://zenodo.org/record/4442706#.YAffMC1Q0UF)].
