@@ -590,7 +590,7 @@ AlignmentRefCondition:
     '3pl-non-hum' : >
        3rd person pl. non-human referent
     '3pl-hum' : >
-       [3rd person plural human argument], [3rd person pl. human referent]
+       3rd person plural human argument
     '1exclPro' : >
        1st person (plural) exclusive pronoun
     '1inclPro' : >

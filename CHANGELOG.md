@@ -1,3 +1,14 @@
+0.1.2
+---------
+
+- General:
+
+  - Multiple data points updated
+
+- Register:
+  
+  - New languages added: Musqueam, Blagar, Kaitetu, Kol  
+
 0.1.1
 ---------
 

@@ -3025,6 +3025,10 @@
 <Placemark><name>Phola</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>101.3,25.23</coordinates></Point></Placemark>
 <Placemark><name>Lolopo</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>101.3,25.23</coordinates></Point></Placemark>
 <Placemark><name>Baima</name><styleUrl>#984EA3</styleUrl><description>Stock: Sino-Tibetan</description><Point><coordinates>78,32.25</coordinates></Point></Placemark>
+<Placemark><name>Musqueam</name><styleUrl>#A65628</styleUrl><description>Stock: Salishan</description><Point><coordinates>-122.44,49.25</coordinates></Point></Placemark>
+<Placemark><name>Blagar</name><styleUrl>#FF7F00</styleUrl><description>Stock: Timor-Alor-Pantar</description><Point><coordinates>124.25,-8.32</coordinates></Point></Placemark>
+<Placemark><name>Kaitetu</name><styleUrl>#FF7F00</styleUrl><description>Stock: Austronesian</description><Point><coordinates>128.07,-3.61</coordinates></Point></Placemark>
+<Placemark><name>Kol</name><styleUrl>#FF7F00</styleUrl><description>Stock: Kol</description><Point><coordinates>151.58,-5.21</coordinates></Point></Placemark>
 </Folder>
 </Document>
 </kml>
