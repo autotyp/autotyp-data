@@ -1,0 +1,416 @@
+description: >-
+  Marker position (from `GrammaticalMarkers::MarkerHasPostposedExponent`), reshaped and aggregated per language and inflection category
+kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+data: table
+counts:
+  n_languages: 228
+  n_variables: 54
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      In this database a language is actually a dialect or variety, in that
+      individual dialects are entered as languages. That is, each language has
+      its own ID number (the 'LID') distinct from that of the pan-dialectal
+      language:e.g. LID 87 German, 1227 Upper Austrian German, 1295 Berlin
+      German, 1310 Zürich German, 2845 Old High German, etc. (The pan-dialectal
+      language is identified as the lowest taxonomic level, the `dialect group',
+      but this information is incomplete in many areas and has not been included
+      in the current release.) The general criterion for a separate language
+      record in the database is that it has a distinct property in at least one
+      of the typological variables that we survey; this may or may not coincide
+      with sociolinguistic criteria.
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  MarkerHasPostposedExponentForTAM:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for TAM
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForTAM
+
+  MarkerHasPostposedExponentForPolarity:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Polarity
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForPolarity
+
+  MarkerHasPostposedExponentForVoice:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Voice
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForVoice
+
+  MarkerHasPostposedExponentForMood:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Mood
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForMood
+
+  MarkerHasPostposedExponentForValence:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Valence
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForValence
+
+  MarkerHasPostposedExponentForAktionsart:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Aktionsart
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForAktionsart
+
+  MarkerHasPostposedExponentForConnective:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Connective
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForConnective
+
+  MarkerHasPostposedExponentForSemistem:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Semistem
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForSemistem
+
+  MarkerHasPostposedExponentForReferential:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Referential
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForReferential
+
+  MarkerHasPostposedExponentForCausative:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Causative
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForCausative
+
+  MarkerHasPostposedExponentForAspect:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Aspect
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForAspect
+
+  MarkerHasPostposedExponentForTM:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for TM
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForTM
+
+  MarkerHasPostposedExponentForDeixis:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Deixis
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForDeixis
+
+  MarkerHasPostposedExponentForMSE:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for MSE
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForMSE
+
+  MarkerHasPostposedExponentForQuantificational:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Quantificational
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForQuantificational
+
+  MarkerHasPostposedExponentForMA:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for MA
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForMA
+
+  MarkerHasPostposedExponentForTense:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Tense
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForTense
+
+  MarkerHasPostposedExponentForTA:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for TA
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForTA
+
+  MarkerHasPostposedExponentForPotentialis:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Potentialis
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForPotentialis
+
+  MarkerHasPostposedExponentForApplicative:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Applicative
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForApplicative
+
+  MarkerHasPostposedExponentForNumber:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Number
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForNumber
+
+  MarkerHasPostposedExponentForReflexiveAndReciprocal:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for ReflexiveAndReciprocal
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForReflexiveAndReciprocal
+
+  MarkerHasPostposedExponentForVersion:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Version
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForVersion
+
+  MarkerHasPostposedExponentForIllocution:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Illocution
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForIllocution
+
+  MarkerHasPostposedExponentForMTN:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for MTN
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForMTN
+
+  MarkerHasPostposedExponentForStatus:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Status
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForStatus
+
+  MarkerHasPostposedExponentForEvidential:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Evidential
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForEvidential
+
+  MarkerHasPostposedExponentForConstruct:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Construct
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForConstruct
+
+  MarkerHasPostposedExponentForNominalizer:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Nominalizer
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForNominalizer
+
+  MarkerHasPostposedExponentForHonorificity:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Honorificity
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForHonorificity
+
+  MarkerHasPostposedExponentForFocus:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Focus
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForFocus
+
+  MarkerHasPostposedExponentForSwitchReference:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for SwitchReference
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForSwitchReference
+
+  MarkerHasPostposedExponentForSymmetricalVoice:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for SymmetricalVoice
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForSymmetricalVoice
+
+  MarkerHasPostposedExponentForRECIP:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for RECIP
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForRECIP
+
+  MarkerHasPostposedExponentForTE:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for TE
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForTE
+
+  MarkerHasPostposedExponentForReflexive:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Reflexive
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForReflexive
+
+  MarkerHasPostposedExponentForClassifier:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Classifier
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForClassifier
+
+  MarkerHasPostposedExponentForME:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for ME
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForME
+
+  MarkerHasPostposedExponentForRepetition:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Repetition
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForRepetition
+
+  MarkerHasPostposedExponentForSpatial:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Spatial
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForSpatial
+
+  MarkerHasPostposedExponentForMotion:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Motion
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForMotion
+
+  MarkerHasPostposedExponentForModality:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Modality
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForModality
+
+  MarkerHasPostposedExponentForDirection:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Direction
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForDirection
+
+  MarkerHasPostposedExponentForPosterior:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Posterior
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForPosterior
+
+  MarkerHasPostposedExponentForControl:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Control
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForControl
+
+  MarkerHasPostposedExponentForQuotative:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Quotative
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForQuotative
+
+  MarkerHasPostposedExponentForReversative:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Reversative
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForReversative
+
+  MarkerHasPostposedExponentForAffect:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Affect
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForAffect
+
+  MarkerHasPostposedExponentForAE:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for AE
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForAE
+
+  MarkerHasPostposedExponentForTAME:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for TAME
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForTAME
+
+  MarkerHasPostposedExponentForConditional:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Conditional
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForConditional
+
+  MarkerHasPostposedExponentForPossessor:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for Possessor
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForPossessor
+
+  MarkerHasPostposedExponentForTAE:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for TAE
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForTAE
+
+  MarkerHasPostposedExponentForTN:
+    description: >-
+      GrammaticalMarkers::MarkerHasPostposedExponent value for TN
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasPostposedExponentForTN

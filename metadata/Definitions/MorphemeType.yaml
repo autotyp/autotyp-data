@@ -1,0 +1,84 @@
+description: >-
+  Morpheme type (as defined in Bickel & Nichols 2007 in Language typology
+  and syntactic description, ed. T. Shopen, Cambridge: Cambridge University
+  Press)
+kind: manual data entry
+data: table
+fields: 
+  MorphemeType:
+    description: >-
+      Morpheme type (as defined in Bickel & Nichols 2007 in Language typology
+      and syntactic description, ed. T. Shopen, Cambridge: Cambridge University
+      Press)
+    kind: manual data entry
+    data: value-list
+    values: 
+      "formative": >-
+        Marker of a category that cannot occur as an independent part of speech unit in
+        the syntax, but instead grammatically requires some host.
+      "PoSWd": >-
+        A syntactic unit that has its own part of speech (PoS) category. Depending on the
+        diversity of grammatical words (g-word) in a language (see “word_type” database),
+        this may or may not coincide with the g-word defined as ‘terminal node’. If g-
+        word domains differ, “PoSWd” as used here refers to the one domain that has
+        a PoS label attached to it. What counts is the syntactic behavior, e.g. if an
+        element behaves like a verb but is defective morphologically, it still has the
+        PoS label ‘verb’ (see for example Quileute negation ‘é’, which behaves like a verb
+        syntactically even thought its inflectional paradigm is defective).
+      "any": >-
+        A unit that can be used both as a formative or as PoSWd, e.g. SEA versatile verbs/
+        coverbs
+      "SemiWd": >-
+        DO NOT USE ANYMORE! Semiwords have some but not all the syntactic properties of
+        ordinary SynWds. Typical examples of semiwords are incorpated nouns and verbs,
+        as well as seperated preverbs and other particles that belong to a verbal lexeme.
+        SemiWds belong to the same grammatical word as their host, and together with their
+        host, they constitute an X-zero category in phrase-structure. But they retain some
+        syntactic properties such as valence or PoS.
+      "unknown": >-
+        type is unknown at this time
+      "Restricted Formative": >-
+        DO NOT USE ANYMORE! Marker of an inflectional category that cannot occur as an
+        independent part of speech unit in the syntax, but instead attaches to one and
+        only specific stem or phrasal host category (e.g. only to noun stems)
+      "Semi-restricted Formative": >-
+        DO NOT USE ANYMORE! Marker of an inflectional category that cannot occur as an
+        independent part of speech unit in the syntax, but instead attaches to a number of
+        specific stem ot phrasal host categories (e.g. only to noun and verb stems).
+      "Unrestricted Formative": >-
+        DO NOT USE ANYMORE! Marker of an inflectional category that cannot occur
+        as an independent part of speech unit in the syntax, but instead attaches
+        indiscriminately to a any non-stem host available (words or phrases). Unrestricted
+        formatives are traditionally called “particles” or “clitics”, but these terms
+        are also used in other senses. Unrestricted formatives differ from PoSWds in that
+        they attach to some host and cannot appear on their own, or establish their own
+        independent part of speech element in the syntax.
+      "Restricted derivative": >-
+        DO NOT USE ANYMORE! Marker of an derivational category that cannot occur as an
+        independent part of speech unit in the syntax, but instead attaches to one and
+        only specific host category (e.g. only to noun stems)
+      "stem": >-
+        A morphological constituent that obligatorily combines with formatives (possibly
+        zero) and derivatives and determines the part of speech of this combination (e.g.
+        a noun stem that combines with case formatives to produce nouns). A stem differs
+        from a PosWd in that a stem determines the PoS of the word to which it belongs,
+        but it does not constitute a PoS on its own. ‘Stem” means entire stems, if only
+        parts are refered to, use MphmType ID 13 ‘Stem Part’
+      "stem part": >-
+        An element of a stem (as defined under ID 12) that is not delimited by general
+        extramorphological (prosodic, syntactic) principles. Typical example: the
+        constituents of bipartite stems
+      "root": >-
+        An element of a stem that behaves differently from a stem. Only use when there is
+        a difference in the language. Most languages do not differentiate stem and root
+      "none": >-
+        DO NOT USE ANYMORE! CODE AS n/aThere is no overt manifestation of the exemplar for
+        which the record is made
+  # -- end of MorphemeType
+
+  Definition:
+    description: >-
+      Morpheme type definition
+    kind: manual data entry
+    data: comment
+  # -- end of Definition

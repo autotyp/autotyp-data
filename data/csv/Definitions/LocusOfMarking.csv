@@ -1,0 +1,35 @@
+LocusOfMarking,LocusOfMarkingBinned6,LocusOfMarkingBinned5,Definition
+H,H,H,On head.
+D,D,D,"On dependent.  For zero formative on dependent, code as Ø."
+H+D,2,2,Simultaneously (or mostly simultaneously) on head and dependent
+F,F,FloatingorClitic,"Free or floating, including particles or similar in phrase-second position (Wackernagel position), e.g. Tagalog ‘linkers’"
+F+D,2,2,Simultaneously (or mostly simultaneously) detached and on dependent (e.g. an argument role is marked by both a Wackernagel agreement clitic and case)
+P,,,The relation is marked by position (word or morpheme order).
+,,,not applicable
+h+D,2,D,Dependent marking is dominant. Additional head marking with some verbs only or under specific morphosyntactic conditions as noted.
+H+d,2,H,Head marking is dominant. Additional dependent marking with some NPs or under specific morphosyntactic conditions as noted.
+d,D,D,Dependent marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+Ø,Ø,Ø,No marking
+DD,D,D,"On dependent, with more than one formative or more than one category. Typical instance: genitive (or possessive form of pronoun) plus head-driven agreement (dependent agreeing with head)."
+Dd,D,D,"Same as DD but with the additional formative or category restricted to some possessors only (e.g. pronouns only: German; contrast Hindi, where all possessors show head-driven agreement)"
+h,H,H,Head marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+HH,H,H,"On head, with more than one formative or more than one category. Typical case: construct state or linker on head plus head-driven agreement ; or Philippine-style voice plus agreement"
+hh,H,H,"On head, with more than one formative or more than one category, but both formatives have restricted distribution."
+h+d,2,2,"Simultaneously on head and dependent, both with restrictions."
+H’,H,H,NP-internal head in a modifier-headed agreement pattern
+D on H,D on H,FloatingorClitic,"Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where nouns and independent pronouns are case-marked.  (The case itself is dependent marking, but the dependent argument can be realized by agreement morphology on the head. If it is, it absorbs the argument position in the clause and therefore does not allow an independent NP to show up in the same clausal core.)"
+d on h,D on H,FloatingorClitic,"Headward-migrated dependent marking, restricted in some way.  Typical cases:  Bagirmi or standard French, where there is no case on independent pronouns and nouns, so only pronominal agreement markers are case-marked.  As a result, arguments  are differentiated only in headward-migrated dependent marking. This marking realizes the dependent argument syntactically and leaves no place for an independent NP to show up in the same clausal core."
+h+d on h,D on H,FloatingorClitic,"Head marking (construct state type, i.e. registers a dependent but does not index its properties) plus headward-migrated dependent-marked pronouns"
+Hh+D,2,2,Two head marks (one restricted) plus one dependent.
+H+d on h,D on H,FloatingorClitic,"Head marking (construct state type, i.e. registers a dependent but does not index its properties) plus headward-migrated dependent-marked pronouns"
+,,,"Uncertain data (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state marker])"
+hh+d,2,2,Two restricted H markers and one restricted D marker.
+,,,No information available.
+H/D/DH,,2,"Split, e.g. inalienables take H or D+H, alienables take only D."
+H/D,,2,"Split, either H or D."
+D + D on H,,FloatingorClitic,"Clitic doubling, where the argument is D-marked and is doubled by a D-marked pronominal on the verb."
+f,F,FloatingorClitic,"Floating, under limited circumstances (e.g. Yagua DOM by floating agreement with definite noun)"
+H+F,H,H,Head plus floating
+F+d,2,FloatingorClitic,Floating plus restricted dependent marking.
+H/F,,2,"Split, head or floating.  E.g. Halkomelem (Galloway 1984:179): possessive 1sg is F, 3sg is H."
+H+,H,H,"Possessor promoted to verb argument (external possession), and indexed or registered on verb.   Example: Registered in Nez Perce (Rude, U. Ore. diss. 1985:199ff.)."

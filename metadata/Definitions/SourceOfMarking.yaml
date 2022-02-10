@@ -1,0 +1,41 @@
+description: >-
+  Source of grammatical marker (agreement vs. assignment or any
+  combination thereof)
+kind: manual data entry
+data: table
+fields: 
+  SourceOfMarking:
+    description: >-
+      Source of grammatical marker (agreement vs. assignment or any
+      combination thereof)
+    kind: manual data entry
+    data: value-list
+    values: 
+      "assign": >-
+        The formative is there because of government, i.e. it is assigned by a head, i.e.
+        it is specified by a head’s valence.
+      "agree": >-
+        The formative is there because of agreement.
+      "no data": >-
+        TODO
+      "case assigned, gender agrees": >-
+        TODO
+      "both assign and agree": >-
+        TODO
+      "free": >-
+        In most contexts, use of the formative is the speaker’s choice. But to the degree
+        that the formative is inflectional, there are some grammatical environments where
+        the use is compulsory (e.g. sequence of tenses.)
+      "free/agree": >-
+        TODO
+      "agr-target": >-
+        the formative agrees, but that is not the reason of its presence, i.e. it is
+        present for some other reason, e.g. derivation (unlike the type we call “agree”).
+  # -- end of SourceOfMarking
+
+  Definition:
+    description: >-
+      Source type definition
+    kind: manual data entry
+    data: comment
+  # -- end of Definition

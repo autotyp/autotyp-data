@@ -1,0 +1,28 @@
+description: >-
+  Placement of a grammatical marker within a phrasal domain
+kind: manual data entry
+data: table
+fields: 
+  Placement:
+    description: >-
+      Placement of a grammatical marker within a phrasal domain
+    kind: manual data entry
+    data: value-list
+    values: 
+      "following": >-
+        following the host in a given phrasal domain
+      "preceding": >-
+        preceding the host in a given phrasal
+      "variable (lexically or syntactically conditioned)": >-
+        attaches to variable hosts in a given phrasal domain, depending on lexical or
+        syntatic conditions
+      "on element": >-
+        The marker occurs on the marked element itself
+  # -- end of Placement
+
+  Definition:
+    description: >-
+      Placement type definition
+    kind: manual data entry
+    data: comment
+  # -- end of Definition

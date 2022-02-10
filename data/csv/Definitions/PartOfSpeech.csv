@@ -1,0 +1,361 @@
+PoS,ProjectionType,SyntacticDomain,SemanticDomain,ClausalDomain,Definition
+V,terminal,verbal,verb-like,predicate,lexical verb
+N,terminal,nominal,noun-like,argument,"lexical noun, nominalized verb -- whether possessed or non-possessed (all)"
+AdvP,phrasal,,other,,"Adverb Phrases, including all sorts of ‘preverbs’ and predicative modifiers."
+Adj,terminal,,other,argument,adjective
+Pro,terminal,nominal,non-SAP,argument,Pronouns. This refers to free pronouns that head NPs; it does not refer to pronominal indexes.
+Adp,terminal,,other,,Adposition
+Art,terminal,,other,argument,Article
+,terminal,any,general,,"no restriction as to what kind of stem or terminal node can host the formative. This is one notion of clitic; do not confuse with phrasal affixes,which are or not restricted to a specific XP"
+2_or_3Pro,terminal,nominal,SAP,argument,2nd or 3rd person pronoun
+3Pro,terminal,nominal,non-SAP,argument,3rd person pronoun
+3sgPro,terminal,nominal,non-SAP,argument,3rd person singular pronoun
+n11.d.,,,,,no data
+N_or_Pro,terminal,nominal,noun-like,argument,"noun or pronoun (including nominalized verbs, participles, etc. ). If a language or construction only includes root nouns, this needs to be mentioned. NOT including Adjectives (if this is at all distinct PoS)"
+1_2Pro_or_N,terminal,nominal,SAP,argument,"1st or 2nd person, or noun."
+,,,,,not applicable
+N-inal,terminal,nominal,noun-like,argument,inalienably possessed noun
+N-alien,terminal,nominal,noun-like,argument,"alienably possessed noun, i.e. one taking alienable possession (see sem_class_def for alienability)"
+N-hum,terminal,nominal,noun-like,argument,human noun
+Nv,terminal,nominal,verb-like,predicate,nominalized verb
+DEM,terminal,,non-SAP,argument,demonstrative
+Num,terminal,,other,argument,numeral
+N-proper,terminal,nominal,noun-like,argument,proper noun
+Possessor,phrasal,nominal,noun-like,argument,any possessor NP
+Possessum,terminal,nominal,noun-like,argument,the head of a possessive NP
+SAP,terminal,nominal,SAP,argument,"Speech act participant, i.e. 1st or 2nd person.  (Using SAP allows non-SAP to be used for 3rd person pronouns and nouns"
+1PERS,terminal,nominal,SAP,argument,1st person only
+N-proper&kin,terminal,nominal,noun-like,argument,proper nouns and kin nouns
+Body_part,terminal,nominal,noun-like,argument,body parts and similar parts
+N-anim,terminal,nominal,noun-like,argument,animate noun
+N-kin,terminal,nominal,noun-like,argument,kin terms
+1sg,terminal,nominal,SAP,argument,1st person singular
+Pro_or_N-hum,terminal,nominal,non-SAP,argument,personal pronoun or human noun
+S,phrasal,,other,,Clause
+Pro-sg,terminal,nominal,non-SAP,argument,singular pronoun
+Pro-pl,terminal,nominal,non-SAP,argument,plural pronoun
+VP,phrasal,verbal,verb-like,predicate,"verb phrase (syntactic domain hosting particles or complementing auxiliaries). Includes all sorts of coconstituents (NPs, adverbs, etc.). For a more specific notion of VP, see #48"
+V-fin,terminal,verbal,verb-like,predicate,finite verb
+V-aux,terminal,verbal,verb-like,predicate,(subset) of auxiliary verbs
+PRED,phrasal,verbal,verb-like,predicate,"any element in predicative use (verb, predicate nominal etc.); predicate phrase"
+VAdvP,phrasal,verbal,verb-like,predicate,"type of verb phrase defined as Verb plus adverbials, particles, perhaps pronouns -- but excluding NPs"
+Quant,terminal,,other,,Quantifiers
+non-V,terminal,nominal,general,,any part of speech except verbs
+nonSAP,terminal,nominal,non-SAP,argument,noun or third person pronoun (i.e. any third person NP).
+PTCP,terminal,nominal,verb-like,predicate,participle
+Ord,terminal,,other,argument,Ordinal numeral
+Num_above_20,terminal,,other,argument,numeral greater than 20
+NP,phrasal,nominal,noun-like,argument,(expandable) NP
+XP,phrasal,any,general,,any phrase: the formative attaches to whatever phrase it refers to (typical of focus particles and clitics)
+VP-nonfin,phrasal,verbal,verb-like,predicate,"The elements of the VP with all and only the nonfinite parts of the verb, as in German ;-)"
+Ord1,terminal,,other,argument,Ordinal numeral greater than 1
+not_1sgPro,terminal,nominal,SAP,argument,any noun or pronoun apart from 1sg pronoun
+deictic_Pro,terminal,nominal,non-SAP,argument,deictic/demonstrative pronouns
+non-PTCP,terminal,nominal,general,predicate,non-participle
+sg,terminal,nominal,noun-like,argument,noun or pronoun in singular
+N-def,terminal,nominal,noun-like,argument,definite noun
+high,terminal,nominal,noun-like,argument,"‘high-indexability’, nouns or pronouns with a higher discourse rank than ‘low-indexability’ (where rank is determined by discourse factors with language-specific weights)"
+low,terminal,nominal,noun-like,argument,"‘low-indexability’, nouns or pronouns with a higher discourse rank than ‘low-indexability’ (where rank is determined by discourse factors with language-specific weights)"
+N-def_or_Pro,terminal,nominal,noun-like,argument,definite nouns or pronouns
+N-indef,terminal,nominal,noun-like,argument,indefinite noun
+N-non-hum,terminal,nominal,noun-like,argument,non-human noun
+Inf,terminal,verbal,verb-like,predicate,infinitive
+CONV,terminal,verbal,verb-like,predicate,converb
+1/2Pro,terminal,nominal,SAP,argument,1st and 2nd person pronouns
+3Pro_or_N,terminal,nominal,non-SAP,argument,3rd person pronoun or noun
+N_or_Pro-pl,terminal,nominal,noun-like,argument,noun or pronoun in plural
+PTCP_based,terminal,verbal,verb-like,predicate,participle-based verb form
+non-PTCP_based,terminal,nominal,general,predicate,any form apart from participle-based forms
+V-non-fin,terminal,verbal,verb-like,predicate,nonfinite: verb form with fewer categories coded than in the main clause
+N-high-anim,terminal,nominal,noun-like,argument,noun denoting a higher animate (humans and some animals)
+N-low-anim,terminal,nominal,noun-like,argument,"noun denoting a lower animate (some animals, e.g. all non-mammals)"
+2sgPro,terminal,nominal,SAP,argument,2nd person singular pronoun
+NOT_2sg_Pro,terminal,nominal,SAP,argument,any noun or pronoun apart from 2sgPro
+hum,terminal,nominal,noun-like,argument,human referent
+non-hum,terminal,nominal,noun-like,argument,non-human referent
+1/2sgPro,terminal,nominal,SAP,argument,1st singular or 2nd singular pronoun
+1/2plPro,terminal,nominal,SAP,argument,1st plural or 2nd plural pronoun
+N-sg,terminal,nominal,noun-like,argument,noun in singular number
+N-pl,terminal,nominal,noun-like,argument,noun in plural number
+3plPro,terminal,nominal,non-SAP,argument,3rd person plural pronoun
+2Pro,terminal,nominal,SAP,argument,2nd person pronoun
+1plPro,terminal,nominal,SAP,argument,1st person plural pronoun
+N-spec,terminal,nominal,noun-like,argument,noun with specific reference
+N-non-spec,terminal,nominal,noun-like,argument,noun with non-specific reference
+N-inanim,terminal,nominal,noun-like,argument,inanimate noun
+N-non-kin,terminal,nominal,noun-like,argument,noun apart from kin terms
+1Pro,terminal,nominal,SAP,argument,1st person pronoun
+1&3,terminal,nominal,SAP,argument,1st and 3rd person referents
+2,terminal,nominal,SAP,argument,2nd person referents
+Pro_NOT_1sgPro,terminal,nominal,SAP,argument,any pronoun apart from 1sg pronoun
+1sgPro,terminal,nominal,SAP,argument,1st person singular pronoun
+NOT_2plPro,terminal,nominal,SAP,argument,any noun or pronoun apart from 2plPro
+Pro_NOT_2plPro,terminal,nominal,SAP,argument,any pronoun apart from 2plPro
+2plPro,terminal,nominal,SAP,argument,2nd person plural pronoun
+N-specif&anim,terminal,nominal,noun-like,argument,animate noun with specific reference
+Pro_NOT_1plPro,terminal,nominal,SAP,argument,any pronoun apart from 1pl pronoun
+N-pers,terminal,nominal,noun-like,argument,"personal name (proper nouns which are personal names, but not toponyms, etc.)"
+N-non-sg,terminal,nominal,noun-like,argument,"noun in non-singular number (i.e. noun in dual, trial, and plural)"
+Pro-kin,terminal,nominal,non-SAP,argument,kinship pronoun
+1duPro,terminal,nominal,SAP,argument,1st person dual pronoun
+2duPro,terminal,nominal,SAP,argument,2nd person dual pronoun
+N-non-hum-sg,terminal,nominal,noun-like,argument,non-human noun in singular
+N-high,terminal,nominal,noun-like,argument,noun with a higher discourse rank than ‘N-low’ (where rank is determined by discourse factors with language-specific weights)
+N-low,terminal,nominal,noun-like,argument,noun with a lower discourse rank than ‘N-high’ (where rank is determined by discourse factors with language-specific weights)
+3duPro,terminal,nominal,non-SAP,argument,3rd person dual pronoun
+3sgPro-hum,terminal,nominal,non-SAP,argument,3rd person singular pronoun referring to a human
+3sgPro-non-hum,terminal,nominal,non-SAP,argument,3rd person singular pronoun referring to a non-human
+N-non-pers,terminal,nominal,noun-like,argument,non-personal noun (common nouns and proper nouns which are not personal names (e.g. toponyms))
+3sgPro-high,terminal,nominal,non-SAP,argument,3rd person singular pronoun with a higher discourse rank than ‘3sgPro-low’ (where rank is determined by discourse factors with language-specific weights)
+3plPro-high,terminal,nominal,non-SAP,argument,3rd person plural pronoun with a higher discourse rank than ‘3plPro-low’ (where rank is determined by discourse factors with language-specific weights)
+3sgPro-low,terminal,nominal,non-SAP,argument,3rd person plural pronoun with a lower discourse rank than ‘3sgPro-high’ (where rank is determined by discourse factors with language-specific weights)
+3plPro-low,terminal,nominal,non-SAP,argument,3rd person plural pronoun with a lower discourse rank than ‘3plPro-high’ (where rank is determined by discourse factors with language-specific weights)
+N-sg-proper,terminal,nominal,noun-like,argument,proper noun in singular
+N-pl-proper,terminal,nominal,noun-like,argument,proper noun in plural
+N-common-sg,terminal,nominal,noun-like,argument,common (non-proper) noun in singular
+N-common-pl,terminal,nominal,noun-like,argument,common (non-proper) noun in plural
+N-common,terminal,nominal,noun-like,argument,common noun
+SUP,terminal,verbal,verb-like,predicate,supine (a nonfinite verb form indicating purpose)
+N-pers-male,terminal,nominal,noun-like,argument,male personal name
+N-pers-female,terminal,nominal,noun-like,argument,female personal name
+N-non-hum-pl,terminal,nominal,noun-like,argument,non-human noun in plural
+N-non-hum-du,terminal,nominal,noun-like,argument,non-human noun in dual
+Pro-dep,terminal,nominal,non-SAP,argument,"dependent pronoun (e.g. procliticized, etc.) if a language has both dependent and independent pronouns"
+N-masc-sg87,terminal,nominal,noun-like,argument,German masculine singular noun (case on determiner)
+N-fem-sg87,terminal,nominal,noun-like,argument,German feminine singular noun
+N-neut-sg87,terminal,nominal,noun-like,argument,German neutral singular noun
+3sgPro-masc87,terminal,nominal,non-SAP,argument,German 3rd person masculine pronoun
+3sgPro-fem87,terminal,nominal,non-SAP,argument,German 3rd person feminine pronoun
+3sgPro-neut87,terminal,nominal,non-SAP,argument,German 3rd person neutral pronoun
+1inclPro,terminal,nominal,SAP,argument,1st person (plural) inclusive pronoun
+1exclPro,terminal,nominal,SAP,argument,1st person (plural) exclusive pronoun
+Pro-high,terminal,nominal,non-SAP,argument,pronoun with a higher discourse rank than ‘Pro-low’ (where rank is determined by discourse factors with language-specific weights)
+Pro-low,terminal,nominal,non-SAP,argument,pronoun with a lower discourse rank than ‘Pro-high’ (where rank is determined by discourse factors with language-specific weights)
+N1-sg-inanim340,terminal,nominal,noun-like,argument,"Russian inanimate noun of declension class 1 (e.g. zavod  `factory’, mesto `place’)"
+N1-sg-anim340,terminal,nominal,noun-like,argument,Russian animate noun of declension class 1 (e.g. student `student’)
+N2-sg340,terminal,nominal,noun-like,argument,"Russian noun of declension class 2 (e.g. komnata `room’, sestra ‘sister’)"
+N3-sg340,terminal,nominal,noun-like,argument,Russian noun of declension class 3 (e.g. doč’  `daughter’)
+N-pl-anim,terminal,nominal,noun-like,argument,animate noun in plural
+N-pl-inanim,terminal,nominal,noun-like,argument,inanimate noun in plural
+AdjP,phrasal,,other,argument,adjective phrase
+Adv,terminal,,other,,Adverb
+PP,phrasal,,other,,Adpositional phrase
+3Pro-anim,terminal,nominal,non-SAP,argument,pronoun referring to an animate entity
+3Pro-inanim,terminal,nominal,non-SAP,argument,pronoun referring to an inanimate entity
+anim,,nominal,general,argument,animate referent
+3Pro-high,terminal,nominal,non-SAP,argument,3rd person pronoun (no number distinction) with a higher discourse rank than ‘3Pro-low’ (where rank is determined by discourse factors with language-specific weights)
+3Pro-low,terminal,nominal,non-SAP,argument,3rd person pronoun (no number distinction) with a lower discourse rank than ‘3Pro-high’ (where rank is determined by discourse factors with language-specific weights)
+N-du,,nominal,noun-like,argument,noun in dual number
+N-sg-anim,terminal,nominal,noun-like,argument,animate noun in singular
+N-du-anim,terminal,nominal,noun-like,argument,animate noun in dual
+3sgPro-anim,terminal,nominal,non-SAP,argument,3rd person singular pronouns with animate reference
+3duPro-anim,terminal,nominal,non-SAP,argument,3rd person dual pronoun with animate reference
+3plPro-anim,terminal,nominal,non-SAP,argument,3rd person plural pronoun with animate reference
+1pl,terminal,nominal,SAP,argument,1st person plural
+2sg,,nominal,SAP,,2nd person singular
+2pl,,nominal,SAP,,2nd person plural
+3sg,,nominal,non-SAP,,3rd person singular
+3pl,,nominal,non-SAP,,3rd person plural
+1du.incl,terminal,nominal,SAP,argument,1st person dual inclusive
+1pl.incl,terminal,nominal,SAP,argument,1st person plural inclusive
+1du.excl,terminal,nominal,SAP,argument,1st person dual exclusive
+1pl.excl,terminal,nominal,SAP,argument,1st person plural exclusive
+2du,,nominal,SAP,,2nd person dual
+3du,,nominal,non-SAP,,3rd person dual
+3,,nominal,non-SAP,,3rd person
+3sg-anim-high,,nominal,non-SAP,,3rd person singular animate argument with a higher discourse rank than ‘3sg-anim-low’ (where rank is determined by discourse factors with language-specific weights)
+3pl-anim-high,,nominal,non-SAP,,3rd person plural animate argument with a higher discourse rank than ‘3pl-anim-low’ (where rank is determined by discourse factors with language-specific weights)
+3sg-anim-low,,nominal,non-SAP,,3rd person singular animate argument with a lower discourse rank than ‘3sg-anim-high’ (where rank is determined by discourse factors with language-specific weights)
+3pl-anim-low,,nominal,non-SAP,,3rd person plural animate argument with a lower discourse rank than ‘3pl-anim-high’ (where rank is determined by discourse factors with language-specific weights)
+indef,,nominal,general,,indefinite referent
+N-anim-high,,nominal,noun-like,argument,animate noun with a higher discourse rank than ‘N-anim-low’ (where rank is determined by discourse factors with language-specific weights)
+N-anim-low,,nominal,noun-like,argument,animate noun with a lower discourse rank than ‘N-anim-high’ (where rank is determined by discourse factors with language-specific weights)
+3anim-high,,nominal,non-SAP,argument,"3rd person high-indexability animate referent, i.e. with a higher discourse rank than ‘low-indexability’ (where rank is determined by discourse factors with language-specific weights)"
+3anim-low,,nominal,non-SAP,argument,"3rd person low-indexability animate referent, i.e. with a lower discourse rank than ‘high-indexability’ (where rank is determined by discourse factors with language-specific weights)"
+3inanim,,nominal,non-SAP,,inanimate referent (of the 3rd person)
+N-anim-sg-high,,nominal,noun-like,argument,animate singular noun with a higher discourse rank than ‘N-anim-low’ (where rank is determined by discourse factors with language-specific weights)
+N-anim-sg-low,,nominal,noun-like,argument,animate singular noun with a lower discourse rank than ‘N-anim-high’ (where rank is determined by discourse factors with language-specific weights)
+3hum-high,,nominal,non-SAP,,3rd person human argument with a higher discourse rank than ‘3hum-low’ (where rank is determined by discourse factors with language-specific weights)
+3hum-low,,nominal,non-SAP,,3rd person human argument with a lower discourse rank than ‘3hum-high’ (where rank is determined by discourse factors with language-specific weights)
+3anim-nhum-high,,nominal,non-SAP,,3rd person animate non-human argument with a higher discourse rank than ‘3anim-nhum-low’ (where rank is determined by discourse factors with language-specific weights)
+3anim-nhum-low,,nominal,non-SAP,,3rd person animate non-human argument with a lower discourse rank than ‘3anim-nhum-high’ (where rank is determined by discourse factors with language-specific weights)
+3inanim-high,,nominal,non-SAP,,3rd person inanimate argument with a higher discourse rank than ‘3inanim-low’ (where rank is determined by discourse factors with language-specific weights)
+3inanim-low,,nominal,non-SAP,,3rd person inanimate argument with a lower discourse rank than ‘3inanim-high’ (where rank is determined by discourse factors with language-specific weights)
+3sg-inanim,,nominal,non-SAP,,inanimate singular referent (of the 3rd person)
+3pl-inanim,,nominal,non-SAP,,inanimate plural referent (of the 3rd person)
+3sg-inanim-high,,nominal,non-SAP,,inanimate singular referent (of the 3rd person) with higher discourse rank than 3sg/pl-inanim-low
+3pl-inanim-high,,nominal,non-SAP,,inanimate plural referent (of the 3rd person) with higher discourse rank than 3sg/pl-inanim-low
+3sg-inanim-low,,nominal,non-SAP,,inanimate singular referent (of the 3rd person) with lower discourse rank than 3sg/pl-inanim-high
+3pl-inanim-low,,nominal,non-SAP,,inanimate plural referent (of the 3rd person) with lower discourse rank than 3sg/pl-inanim-high
+independent,,verbal,verb-like,predicate,independent order forms in Algonquian verbs
+conjunct,,verbal,verb-like,predicate,conjunct order forms in Algonquian verbs
+3sg-anim-fobv,,nominal,non-SAP,,3rd person singular animate further obviative argument (i.e. with a lower dicourse rank than the 3rd person sg. animate low argument)
+3pl-anim-fobv,,nominal,non-SAP,,3rd person plural animate further obviative argument (i.e. with a lower dicourse rank than the 3rd person pl. animate low argument)
+3du-anim-high,,nominal,non-SAP,,3rd person dual animate argument with a higher discourse rank than ‘3sg-anim-low’ (where rank is determined by discourse factors with language-specific weights)
+3du-anim-low,,nominal,non-SAP,,3rd person dual animate argument with a lower discourse rank than ‘3sg-anim-high’ (where rank is determined by discourse factors with language-specific weights)
+3du-inanim,,nominal,non-SAP,,inanimate dual referent (of the 3rd person)
+1du,,nominal,SAP,,1st person dual
+N-loc,,nominal,noun-like,argument,location nouns
+N-nloc,,nominal,noun-like,argument,non-location nouns
+N-topon,,nominal,noun-like,,toponym
+N-nontopon,,nominal,noun-like,,non-toponym noun
+du,,nominal,general,,dual
+pl,,nominal,general,,plural
+def,terminal,nominal,general,argument,definite argument
+pl-anim,terminal,nominal,general,argument,animate plural referent
+3pl-anim,terminal,nominal,non-SAP,argument,3rd person plural animate reference
+3duPro-high,terminal,nominal,non-SAP,argument,3rd person dual pronoun with a higher discourse rank than ‘3plPro-low’ (where rank is determined by discourse factors with language-specific weights)
+3duPro-low,terminal,nominal,non-SAP,argument,3rd person dual pronoun with a lower discourse rank than ‘3plPro-low’ (where rank is determined by discourse factors with language-specific weights)
+3sg-high,,nominal,non-SAP,,3rd person singular argument with a higher discourse rank than ‘3sg-anim-low’ (where rank is determined by discourse factors with language-specific weights)
+3du-high,,nominal,non-SAP,,3rd person dual argument with a higher discourse rank than ‘3sg-anim-low’ (where rank is determined by discourse factors with language-specific weights)
+3pl-high,,nominal,non-SAP,,3rd person plural argument with a higher discourse rank than ‘3sg-anim-low’ (where rank is determined by discourse factors with language-specific weights)
+3sg-low,,nominal,non-SAP,,3rd person singular argument with a lower discourse rank than ‘3sg-anim-high’ (where rank is determined by discourse factors with language-specific weights)
+3du-low,,nominal,non-SAP,,3rd person dual argument with a lower discourse rank than ‘3sg-anim-high’ (where rank is determined by discourse factors with language-specific weights)
+3pl-low,,nominal,non-SAP,,3rd person plural argument with a lower discourse rank than ‘3sg-anim-high’ (where rank is determined by discourse factors with language-specific weights)
+3sg-anim,,nominal,non-SAP,,3rd person singular animate argument
+3du-anim,,nominal,non-SAP,,3rd person dual animate argument
+N-non-kin-sg,terminal,nominal,noun-like,argument,singular noun apart from kin terms
+N-non-kin-pl,terminal,nominal,noun-like,argument,plural noun apart from kin terms
+N-highest,,nominal,noun-like,,noun denoting the referent highest in discourse (e.g. such as PROX in Algonquian languages)
+N-non-highest,,nominal,noun-like,,noun denoting any referent than the highest one in discourse (e.g. such as PROX in Algonquian languages)
+3pl-x,,nominal,non-SAP,,"3rd person plural argument with unknown/unclear referential properties that result in a split, if there is a split triggered by unclear referential properties 3pl-b for the other member of the opposition."
+3pl-y,,nominal,non-SAP,,"3rd person plural argument with unknown/unclear referential properties that result in a split, if there is a split triggered by unclear referential properties 3pl-a for the other member of the opposition."
+Pro-highest,terminal,nominal,non-SAP,,pronoun denoting the 3rd referent highest in discourse (e.g. such as PROX in Algonquian languages)
+Pro-non-highest,terminal,nominal,non-SAP,,pronoun denoting any referent other than the highest one in discourse (e.g. such as PROX in Algonquian languages)
+highest,,nominal,general,,the referent highest in discourse
+2-high,,nominal,SAP,,2nd person argument with a higher discourse rank than ‘2-low’ (where rank is determined by discourse factors with language-specific weights)
+3pl-hum,,nominal,non-SAP,,3rd person plural human argument
+3sgPro-inanim,terminal,nominal,non-SAP,argument,3rd person singular pronouns with inanimate reference
+3duPro-inanim,terminal,nominal,non-SAP,argument,3rd person dual pronoun with inanimate reference
+3plPro-inanim,terminal,nominal,non-SAP,argument,3rd person plural pronouns with inanimate reference
+N-count,,nominal,noun-like,,countable noun
+N-uncount,,nominal,noun-like,,uncountable noun
+3sgPro-count,terminal,nominal,non-SAP,,3rd person singular pronoun referring to a countable entity
+3sgPro-uncount,terminal,nominal,non-SAP,,3rd person singular pronoun referring to an uncountable entity
+1du.INCL.Pro,terminal,nominal,SAP,argument,1st person dual inclusive pronoun
+1du.EXCL.Pro,terminal,nominal,SAP,argument,1st person dual exclusive pronoun
+non-highest,,nominal,general,,the referent non-highest in discourse
+1pl.INCL.Pro,terminal,nominal,SAP,,1st person plural inclusive pronoun
+1pl.EXCL.Pro,terminal,nominal,SAP,,1st person plural exclusive pronoun
+3sg-non-hum,terminal,nominal,non-SAP,argument,3rd person sg. with non-human referent
+3sg-hum,terminal,nominal,non-SAP,argument,3rd person sg. with human referent
+3pl-non-hum,terminal,nominal,non-SAP,argument,3rd person pl. non-human referent
+3pl-hum-ref,terminal,nominal,non-SAP,argument,3rd person pl. human referent
+3sgPro-fem79,terminal,nominal,non-SAP,argument,French 3rd person feminine pronoun
+3plPro-fem79,terminal,nominal,non-SAP,argument,French 3p person plural feminine pronoun
+3sgPro-masc79,terminal,nominal,non-SAP,argument,French 3rd person singular masculine pronoun
+3plPro-masc79,terminal,nominal,non-SAP,argument,French 3rd person plural masculine pronoun
+2sg-high,,nominal,SAP,,2nd person singular high
+2pl-high,,nominal,SAP,,2nd person plural high
+3sg-hum-high,,nominal,non-SAP,,3rd person singular human argument with a higher discourse rank than ‘3sg-anim-low’ (where rank is determined by discourse factors with language-specific weights)
+3pl-hum-high,,nominal,non-SAP,,3rd person plural human argument with a higher discourse rank than ‘3sg-anim-low’ (where rank is determined by discourse factors with language-specific weights)
+3sg-y,,nominal,non-SAP,,"3rd person singular argument with unknown/unclear referential properties that result in a split, if there is a split triggered by unclear referential properties 3pl-a for the other member of the opposition."
+3sg-x,,nominal,non-SAP,,"3rd person singular argument with unknown/unclear referential properties that result in a split, if there is a split triggered by unclear referential properties 3pl-b for the other member of the opposition."
+N1-1517,terminal,nominal,noun-like,argument,Gahuku nouns taking the object suffix
+N2-1517,terminal,nominal,noun-like,argument,Gahuku nouns not taking the object suffix
+2sgMH,,nominal,SAP,,"2nd person singular, mid honorific"
+2plMH,,nominal,SAP,,"2nd person plural, mid honorific"
+2sgHH,,nominal,SAP,,"2nd person singular, high honorific"
+2plHH,,nominal,SAP,,"2nd person plural, high honorific"
+3sgMH,,nominal,non-SAP,,"third person singular, mid honorific"
+3plMH,,nominal,non-SAP,,"third person plural, mid honorific"
+3sgHH,,nominal,non-SAP,,"third person singular, high honorific"
+3plHH,,nominal,non-SAP,,"third person plural, high honorific"
+N1sg-2471,terminal,nominal,noun-like,argument,Serbian-Croatian nouns in SG that distinguish NOM and ACC
+N2pl-2471,terminal,nominal,noun-like,argument,Serbian-Croatian nouns in PL that distinguish NOM and ACC
+N3sg-2471,terminal,nominal,noun-like,argument,Serbian-Croatian nouns in SG that do not distinguish NOM and ACC
+N4pl-2471,terminal,nominal,noun-like,argument,Serbian-Croatian nouns in PL that do not distinguish NOM and ACC
+3sgPro-highest,terminal,nominal,non-SAP,,pronoun denoting the 3rd sg. referent highest in discourse (e.g. such as PROX in Algonquian languages)
+3plPro-highest,terminal,nominal,non-SAP,,pronoun denoting the 3rd pl. referent highest in discourse (e.g. such as PROX in Algonquian languages)
+3sgPro-non-highest,terminal,nominal,non-SAP,,pronoun denoting any 3rd sg. referent other than the highest one in discourse (e.g. such as PROX Algonquian languages)
+3plPro-non-highest,terminal,nominal,non-SAP,,pronoun denoting any 3rd pl. referent other than the highest one in discourse (e.g. such as PROX Algonquian languages)
+N-common-non-kin,terminal,nominal,noun-like,argument,noun apart from kin terms and proper nouns
+N-inanim-high,,nominal,noun-like,argument,inanimate noun with a higher discourse rank than ‘N-anim-low’ (where rank is determined by discourse factors with language-specific weights)
+N-inanim-low,,nominal,noun-like,argument,inanimate noun with a lower discourse rank than ‘N-anim-high’ (where rank is determined by discourse factors with language-specific weights)
+1sg-fem340,,verbal,verb-like,predicate,Russian S/A past feminine agreement
+2sg-fem340,,verbal,verb-like,predicate,Russian S/A past feminine agreement
+3sg-fem340,,verbal,verb-like,predicate,Russian S/A past feminine agreement
+3sg-neu340,,verbal,verb-like,predicate,Russian S/A past neuter agreement
+1sg-masc340,,verbal,verb-like,predicate,Russian S/A past masculine agreement
+1sg-neu340,,verbal,verb-like,predicate,Russian S/A past neuter agreement
+2sg-masc340,,verbal,verb-like,predicate,Russian S/A past masculine agreement
+2sg-neu340,,verbal,verb-like,predicate,Russian S/A past neuter agreement
+3sg-masc340,,verbal,verb-like,predicate,Russian S/A past masc agreement
+,,nominal,,,All referential types
+N1-2831,,nominal,,,Ancient Greek feminine and masculine nouns in singular and plural
+N2-2831,,nominal,,,Ancient Greek feminine and masculine nouns in dual and neuter nouns in all numbers
+3sgPro-neu2831,terminal,nominal,,,Ancient Greek neuter 3sg pronoun
+3sgPro-fem2831,terminal,nominal,,,Ancient Greek feminine 3sg pronoun
+3sgPro-masc2831,terminal,nominal,,,Ancient Greek masculine 3sg pronoun
+3plPro-masc2831,terminal,nominal,,,Ancient Greek masculine 3pl pronoun
+3plPro-fem2831,terminal,nominal,,,Ancient Greek feminine 3pl pronoun
+3plPro-neu2831,terminal,nominal,,,Ancient Greek neuter 3pl pronoun
+N-masc110,terminal,nominal,,argument,"Icelandic masculine nouns of strong and weak declension, no NOM/ACC syncretism"
+N-fem.neu110,terminal,nominal,,argument,"Icelandic feminine nouns of weak declension and a minor masculine strong class, show NOM/ACC syncretism in plural only AND Icelandic neuter and feminine nouns of strong declension, show NOM/ACC syncretism in sg and pl"
+3sgPro-masc110,terminal,nominal,non-SAP,argument,Icelandic 3rd person singular masculine pronoun
+3sgPro-fem110,terminal,nominal,non-SAP,argument,Icelandic 3rd person singular feminine pronoun
+3sgPro-neu110,terminal,nominal,non-SAP,argument,Icelandic 3rd person singular neuter pronoun
+3plPro-masc110,terminal,nominal,non-SAP,argument,Icelandic 3rd person plural masculine pronoun
+3plPro-fem110,terminal,nominal,non-SAP,argument,Icelandic 3rd person plural feminine pronoun
+3plPro-neu110,terminal,nominal,non-SAP,argument,Icelandic 3rd person plural neuter pronoun
+N-syncr2832,terminal,nominal,,argument,Gothic nouns of every gender with syncretic NOM/ACC forms
+N-nsyncr2832,terminal,nominal,,argument,Gothic nouns of every gender with non-syncretic NOM and ACC forms
+3sgPro-masc2832,terminal,nominal,non-SAP,argument,Gothic 3rd person singular masculine pronoun
+3sgPro-fem2832,terminal,nominal,non-SAP,argument,Gothic 3rd person singular feminine pronoun
+3sgPro-neu2832,terminal,nominal,non-SAP,argument,Gothic 3rd person singular neutrum pronoun
+3plPro-masc2832,terminal,nominal,non-SAP,argument,Gothic 3rd person plural masculine pronoun
+3plPro-fem2832,terminal,nominal,non-SAP,argument,Gothic 3rd person plural feminine pronoun
+3plPro-neu2832,terminal,nominal,non-SAP,argument,Gothic 3rd person plural neuter pronoun
+N-fem549,terminal,nominal,,argument,"Latvian nouns in feminine, which are syncretic only in the plural"
+N-masc549,terminal,nominal,,argument,"Latvian nouns in masculine, which have no NOM/ACC syncretism"
+3sgPro-fem549,terminal,nominal,,,Latvian feminine 3sg pronoun
+3plPro-fem549,terminal,nominal,,,Latvian feminine 3pl pronoun (syncretic NOM/ACC)
+3sgPro-masc549,terminal,nominal,,,Latvian masculine 3sg pronoun
+3plPro-masc549,terminal,nominal,,,Latvian masculine 3pl pronoun
+N-syncr2900,terminal,nominal,,argument,Avestan nouns of the inflectional classes with NOM/ACC syncretism (either in du/pl only or also in sg)
+N-nsyncr2900,terminal,nominal,,argument,Avestan nouns of the inflectional classes without NOM/ACC syncretism
+N-nsyncr464,terminal,nominal,,,Greek nouns of the inflectional classes without NOM/ACC syncretism (some masculines and some feminines)
+N-syncr464,terminal,nominal,,,"Greek nouns of the inflectional classes with NOM/ACC syncretism (all neuter, some masculines and some feminines, some of them in pl. only, other both in sg. and pl.)"
+3sgPro-neu464,terminal,nominal,,,Greek neuter 3sg pronoun
+3sgPro-fem464,terminal,nominal,,,Greek feminine 3sg pronoun
+3sgPro-masc464,terminal,nominal,,,Greek masculine 3sg pronoun
+3plPro-neu464,terminal,nominal,,,Greek neuter 3pl pronoun
+3plPro-fem464,terminal,nominal,,,Greek feminine 3pl pronoun
+3plPro-masc464,terminal,nominal,,,Greek masculine 3pl pronoun
+N-syncr2893,terminal,nominal,,,"Latin nouns with NOM = ACC syncretism both in sg. and pl. (all neuter nouns and fem. and masc. nouns of declension 3, 4 and 5)"
+N-nsyncr2893,terminal,nominal,,,Latin nouns without NOM = ACC syncretism neither in sg. not in pl.
+3sgPro-masc2893,terminal,nominal,,,Latin 3rd person singular masculine pronoun
+3sgPro-fem2893,terminal,nominal,,,Latin 3rd person singular feminine pronoun
+3sgPro-neu2893,terminal,nominal,,,Latin 3rd person singular neuter pronoun
+3plPro-masc2893,terminal,nominal,,,Latin 3rd person plural masculine pronoun
+3plPro-fem2893,terminal,nominal,,,Latin 3rd person plural feminine pronoun
+3plPro-neu2893,terminal,nominal,,,Latin 3rd person plural neuter pronoun
+N-syncr2854,terminal,nominal,,,"High German (old) nouns with NOM = ACC syncretism both in sg. and pl. (nouns of all genders in the vocalic/strong declension, nouns in minor consonantal declensions, neuter nouns of the weak -n-declension)"
+N-nsyncr2854,terminal,nominal,,,"High German (old) nouns without NOM/ACC syncretism in sg.(masc. and fem. nouns of the weak declension); pl. is always syncreticvocalic/strong declension, nouns in minor consonantal declensions, neuter nouns of the weak -n-declension)"
+3sgPro-masc2854,terminal,nominal,,,High German (old) 3sgPro without NOM/ACC syncretism
+3sgPro-fem2854,terminal,nominal,,,High German (old) 3sgPro without NOM/ACC syncretism
+3sgPro-neu2854,terminal,nominal,,,High German (old) 3sgPro with NOM = ACC syncretism
+2du_masc2378,terminal,verbal,,,Rotokas 2nd person dual masculine agreement
+2du_fem2378,terminal,verbal,,,Rotokas 2nd person dual feminine agreement
+3sg_masc2378,terminal,verbal,,,Rotokas 3rd person masculine singular agreement
+3sg_fem2378,terminal,verbal,,,Rotokas 3rd person feminine singular agreement
+3sg_neu2378,terminal,verbal,,,Rotokas 3rd person neuter singular agreement
+3du_masc2378,terminal,verbal,,,Rotokas 3rd person masculine dual agreement
+3du_fem2378,terminal,verbal,,,Rotokas 3rd person feminine dual agreement
+3du_neu2378,terminal,verbal,,,Rotokas 3rd person neuter dual agreement
+3pl_masc2378,terminal,verbal,,,Rotokas 3rd person masculine plural agreement
+3pl_fem2378,terminal,verbal,,,Rotokas 3rd person feminine plural agreement
+3pl_neu2378,terminal,verbal,,,Rotokas 3rd person neuter plural agreement
+N_mostclasses2972,terminal,nominal,,,Kambaata majority noun inflection class
+N_M8M9classes2972,terminal,nominal,,,Kambaata M8 and M9 noun inflection class
+3sg_fem2972,terminal,verbal,,,Kambaata 3rd person feminine singular agreement
+3sg_masc2972,terminal,verbal,,,Kambaata 3rd person masculine singular agreement
+3pl_fem2972,terminal,verbal,,,Kambaata 3rd person feminine plural agreement
+3pl_masc2972,terminal,verbal,,,Kambaata 3rd person masculine plural agreement
+2sgHON,,verbal,SAP,,2nd person singular honorific
+2plHON,,verbal,SAP,,2nd person plural honorific
+3sgHON,,verbal,non-SAP,,3nd person singular honorific
+3plHON,,verbal,non-SAP,,3nd person plural honorific
+3sg_masc495,terminal,verbal,,,Krongo 3rd person masculine singular agreement
+3sg_fem495,terminal,verbal,,,Krongo 3rd person feminine singular agreement
+3sg_neu495,terminal,verbal,,,Krongo 3rd person neuter singular agreement

@@ -1,0 +1,108 @@
+description: >-
+  Per-language aggregations of NP properties
+kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+data: table
+counts:
+  n_languages: 430
+  n_variables: 8
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      In this database a language is actually a dialect or variety, in that
+      individual dialects are entered as languages. That is, each language has
+      its own ID number (the 'LID') distinct from that of the pan-dialectal
+      language:e.g. LID 87 German, 1227 Upper Austrian German, 1295 Berlin
+      German, 1310 Zürich German, 2845 Old High German, etc. (The pan-dialectal
+      language is identified as the lowest taxonomic level, the `dialect group',
+      but this information is incomplete in many areas and has not been included
+      in the current release.) The general criterion for a separate language
+      record in the database is that it has a distinct property in at least one
+      of the typological variables that we survey; this may or may not coincide
+      with sociolinguistic criteria.
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  NPHasAgreement:
+    description: >-
+        NPs with some kind of agreement (on the head or dependent or both)
+        (see Riessler 2016, Adjective Attribution, Language Sciences Press)
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHasAgreement
+
+  NPHasConstructMarkers:
+    description: >-
+        NPs with some kind of (anti-)construct marker on the head or dependent,
+        i.e. a marker which signals the dependency of an embedded element and
+        the head but results neither from agreement nor from case assignment
+        (e.g. part of speech markers, attributive particles, linkers, construct
+        markers etc.) (see Riessler 2016, Adjective Attribution, Language Sciences Press)
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHasConstructMarkers
+
+  NPHasGovernment:
+    description: >-
+        NPs with some kind of marker which is governed/assigned by the head
+        (see Riessler 2016, Adjective Attribution, Language Sciences Press)
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: integer
+  # -- end of NPHasGovernment
+
+  NPHasOvertMarking:
+    description: >-
+      NPs with some overt marking
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHasOvertMarking
+
+  NPHasAdjAgreement:
+    description: >-
+        Adjective attribution with some kind of agreement (on the head or
+        dependent or both) (see Riessler 2016, Adjective Attribution,
+        Language Sciences Press)
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHasAdjAgreement
+
+  NPHasAdjConstructMarkers:
+    description: >-
+        Adjective attribution with some kind of (anti-)construct marker on
+        the head or dependent, i.e. a marker which signals the dependency of
+        an embedded element and the head but results neither from agreement
+        nor from case assignment (e.g. part of speech markers, attributive
+        particles, linkers, construct markers etc.) (see Riessler 2016, Adjective
+        Attribution, Language Sciences Press)
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHasAdjConstructMarkers
+
+  NPHasAdjGovernment:
+    description: >-
+        Adjective attribution with some kind of marker which is governed/assigned
+        by the head (see Riessler 2016, Adjective Attribution, Language Sciences Press)
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: integer
+  # -- end of NPHasAdjGovernment
+
+  NPHasAdjOvertMarking:
+    description: >-
+      Adjective attribution with some overt marking
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHasAdjOvertMarking

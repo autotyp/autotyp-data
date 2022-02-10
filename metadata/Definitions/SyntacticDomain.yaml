@@ -1,0 +1,102 @@
+description: >-
+  Syntactic domain
+kind: manual data entry
+data: table
+fields: 
+  SyntacticDomain:
+    description: >-
+      Syntactic domain
+    kind: manual data entry
+    data: value-list
+    values: 
+      "727_P-pronom-clitic": >-
+        this domain conditions the presence of P agreement and is characterized by the
+        presence of a clitic pronoun in the preverbal position (with full Pros or NPs
+        there is no agreement)
+      "558_NTOPICALIZED": >-
+        clause without the topicalized position (AW: deleted for now from synpatterns, but
+        should be integrated)
+      "3006_Non-subject focus": >-
+        Focus is not on the S/A
+      "512_preverbal": >-
+        no agreement with preverbal NPs
+      "512_NONDISL": >-
+        non-dislocation construction
+      "885_non-emphatic_subject": >-
+        AW: briefly deleted from synpatterns, but should be replaced, when agr paper is
+        over; no agreement with {S, A} if they are emphatic (focalised?) or with non-
+        finite verbs
+      "2513_non-focal": >-
+        construction without focalized subject, probably a default one
+      "3040_defaultVSO": >-
+        default domain without anything being focalized or topicalized
+      "3042_defaultVSO": >-
+        default domain without anything being focalized or topicalized (VSO order)
+      "750_defaultVSO": >-
+        default domain without anything being focalized or topicalized (VSO order)
+      "571_defaultVSO": >-
+        default domain without anything being focalized or topicalized (VSO order)
+      "726_NTOP": >-
+        the domain excluding the topicalization position
+      "3024_NTOP": >-
+        the domain excluding the topicalization position
+      "1533_NFOC": >-
+        non-focalized contexts
+      "355_NFOC": >-
+        agreement only with non focalised subjects
+      "165_NTOP": >-
+        domain excluding the topicalized position
+      "740_SVO": >-
+        domain with SVO order, excluding the topicalized position (where a resumptive P
+        pronominal agreement is obligatory) but also orders like SOV
+      "581_IP": >-
+        domain characterized as IP by Buell 2006 within which a P clitic and an overt P NP
+        cannot cooccur
+      "3044_non-emphatic": >-
+        construction without focus on a pronominal argument
+      "1791_defaultSVO": >-
+        default clause structure with the subject in pre-verbal position
+      "1791_OVS": >-
+        OVS word order “to introduce new information in narrative texts“
+      "2098_defaultSVO": >-
+        default clause structure with the subject in pre-verbal position
+      "1413_defaultSVO": >-
+        AW: briefly deleted from synpatterns, but should be replaced, when agr paper is
+        over default clause structure with the subject in pre-verbal position
+      "3038_NONLDISL": >-
+        domain excluding the left-dislocated elements
+      "559_defaultVSO": >-
+        default verb-initial clause structure
+      "3044_emphatic": >-
+        construction with focus on a pronominal argument
+      "186_NFOC": >-
+        non focal subjects
+      "9_VA": >-
+        VA order
+      "9_notVA": >-
+        any other order than VA
+      "1067_NTOP": >-
+        the domain excluding the topicalization position
+      "2726_overt_proS/A": >-
+        the domain has other arguments than the object in the focus, only in this domain
+        there are clitical object pronouns (i.e. agreement)
+      "464_non-focalOBJ": >-
+        the domain has overt pronominal arguments (following the verbs, as Welsh is VSO)
+      "1168_enclitics": >-
+        the domain has poorely described properties but is characterized by the use of
+        clitics instead of lond and short pronouns, partially the domain isphonologically
+        determined
+      "387_register1_3pl": >-
+        the variation affects the presence of 3pl S/A marker, which is said to be
+        "optional and marks a stylistic register"
+      "387_register1_no3pl": >-
+        the variation affects the presence of 3pl S/A marker, which is said to be
+        "optional and marks a stylistic register"
+  # -- end of SyntacticDomain
+
+  Definition:
+    description: >-
+      Syntactic domain value definition
+    kind: manual data entry
+    data: comment
+  # -- end of Definition

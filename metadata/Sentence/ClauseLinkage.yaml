@@ -1,0 +1,184 @@
+description: >-
+  A multivariate typology of clause linkage constructions, as described in Bickel 2010
+kind: manual data entry
+data: table
+counts:
+  n_languages: 37
+  n_variables: 21
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      Language name
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  ConstructionLabel:
+    description: >-
+      Text label that describing the construction
+    kind: manual data entry
+    data: string
+  # -- end of ConstructionLabel
+
+  MarkerID:
+    description: >-
+      Marker ID from GrammaticalMarkers
+    kind: manual data entry
+    data: integer
+  # -- end of MarkerID
+
+  IntuitiveClassification:
+    description: >-
+      Intuitive classification into subordination vs. coordination, as given by reference grammars
+      etc.
+    kind: manual data entry
+    data: value-list
+  # -- end of IntuitiveClassification
+
+  OriginalName:
+    description: >-
+      Original name of the construction as given by reference grammars etc.
+    kind: manual data entry
+    data: string
+  # -- end of OriginalName
+
+  AnticipatoryArgumentMarking:
+    description: >-
+      Anticipatory argument marking in clause linkage (as defined in Bickel 2010)
+    kind: manual data entry
+    data: value-list
+  # -- end of AnticipatoryArgumentMarking
+
+  CataphoraConstraints:
+    description: >-
+      Cataphora (backward control) in clause linkage (as defined in Bickel 2010)
+    kind: manual data entry
+    data: value-list
+  # -- end of CataphoraConstraints
+
+  CategoricalSymmetry:
+    description: >-
+      Paradigm and word class choices in clause linkage (as defined in Bickel 2010)
+    kind: manual data entry
+    data: value-list
+  # -- end of CategoricalSymmetry
+
+  ClauseLayer:
+    description: >-
+      Attachment level in clause linkage (as defined in Bickel 2010)
+    kind: manual data entry
+    data: value-list
+  # -- end of ClauseLayer
+
+  ClausePosition:
+    description: >-
+      Clause order in clause linkage (as defined in Bickel 2010)
+    kind: manual data entry
+    data: value-list
+  # -- end of ClausePosition
+
+  Embedding:
+    description: >-
+      Syntactic relation of dependent clauses (as defined in Bickel 2010)
+    kind: manual data entry
+    data: value-list
+  # -- end of Embedding
+
+  ExtractionConstraints:
+    description: >-
+      Extraction constraints in clause linkage (as defined in Bickel 2010)
+    kind: manual data entry
+    data: value-list
+  # -- end of ExtractionConstraints
+
+  FinitenessRatio:
+    description: >-
+      Verbal categories codable in dependent clause relative to the maximal number of
+      codable categories in a finite clause (as defined in Bickel 2010)
+    kind: manual data entry
+    data: number
+  # -- end of FinitenessRatio
+
+  FinitenessSimplified:
+    description: >-
+      Three-way breakdown of finiteness, adapted from Bickel 2009 (as defined in Bickel 2010)
+    kind: manual data entry
+    data: value-list
+  # -- end of FinitenessSimplified
+
+  FocusMarkinginDependent:
+    description: >-
+      Constituent focus or WH question inside the dependent clause (as defined in Bickel 2010)
+    kind: manual data entry
+    data: value-list
+  # -- end of FocusMarkinginDependent
+
+  FocusMarking:
+    description: >-
+      Focus marking on dependent clauses (as defined in Bickel 2010)
+    kind: manual data entry
+    data: value-list
+  # -- end of FocusMarking
+
+  IllocutionaryMarking:
+    description: >-
+      Illocutionary force marking in dependent clauses (as defined in Bickel 2010)
+    kind: manual data entry
+    data: value-list
+  # -- end of IllocutionaryMarking
+
+  IllocutionaryScope:
+    description: >-
+      Scope of main clause illocutionary force markers (as defined in Bickel 2010)
+    kind: manual data entry
+    data: value-list
+  # -- end of IllocutionaryScope
+
+  InterpropositionalSemanticRelation:
+    description: >-
+      Semantic relationship in clause linkage (as defined in Bickel 2010)
+    kind: manual data entry
+    data: value-list
+  # -- end of InterpropositionalSemanticRelation
+
+  ReferenceTrackingSystem:
+    description: >-
+      Reference tracking system
+    kind: manual data entry
+    data: value-list
+  # -- end of ReferenceTrackingSystem
+
+  TenseMarking:
+    description: >-
+      Tense marking in dependent clause (as defined in Bickel 2010)
+    kind: manual data entry
+    data: value-list
+  # -- end of TenseMarking
+
+  TenseScope:
+    description: >-
+      Scope of main clause tense markers (as defined in Bickel 2010)
+    kind: manual data entry
+    data: value-list
+  # -- end of TenseScope
+
+  Examples:
+    description: >-
+      Construction examples notes
+    kind: manual data entry
+    data: comment
+  # -- end of Examples

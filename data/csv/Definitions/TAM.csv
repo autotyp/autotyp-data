@@ -1,0 +1,190 @@
+TAM,Definition
+<any>,TODO
+future + conditional,TODO
+PST,past
+NPST,non-past
+PST.PRF,past perfect
+PST&FUT,past and future tense
+IPFV,imperfective aspect
+PRF,perfective aspect
+REAL,realis mood
+IRR,irrealis mood
+PRS,present
+AOR,aorist
+CONT,continuous
+NCONT,non-continuous
+DECL,declarative illoqutionar force
+IMP,imperative illoqutionar force
+interrogative,interrogative illoqutionar force
+NIMP,"non-imperative, any illoqutionar force apart from imperative"
+affirmative,DO NOT USE ANY MORE!  (this information is moved to a separate table called Polarity_def )
+negative,DO NOT USE ANY MORE!  (this information is moved to a separate table called Polarity_def )
+INCOMPL,incompletive status (in Mayan languages)
+completive and subjunctive status,introduced for Yucatec Maya
+active,DO NOT USE ANY MORE!  this information is moved to a separate table
+passive,DO NOT USE ANY MORE!  this information is moved to a separate table
+56_NFUT/NEU,"Chukchinon-future, neutral aspect"
+"PST, indicative",DO NOT USE ANY MORE! This combination is now split into PST (#2) and IND (#25)
+IND,indicative
+"NPST, indicative",DO NOT USE ANY MORE! This combination is now split into PST (#3) and IND (#25)
+1528_CONT/POT,CONT and POTential aspect
+1528_COMPL/NEUT,COMPL and NEUT aspect
+2031_PST.PFV,PST PFV
+FUT,future tense
+COMPL,completive status (in Mayan languages)
+2031_PRS,"PRS, PST.IPFV, FUT"
+40_FUT/COND,"FUT, COND"
+49_CONT,CONT (-ush converb)
+49_NCONT,NCONT (not -ush converb)
+59_INDEP,independent order
+99_NPTCP,non-PTCP_based
+99_PTCP,PTCP_based
+169_INF,INF
+169_PTCP,PTCP
+169_CONV,CONV
+206_NPTCP,non-PTCP_based
+206_PTCP,PTCP_based
+563_INDEP.PRS,"independent order, present indicative"
+632_NPST.IND,NPST.IND (non-past indicative)
+632_PST.IND,PST.IND (past indicative)
+637_IND,IND
+648_IND,IND
+669_REAL,realis
+908_IND,IND
+1142_INDEP.PRS.IND,independent PRS IND
+1660_INCOMPL,incompletive status
+1660_COMPL,completive status
+1973_INDEP,independent order
+2001_INDEP.IND,independent order indicative
+2081_PTCP,PTCP based
+2081_NPTCP,non-PTCP based
+2360_IND,indicative
+2416_PTCP,PTCP based
+2416_NPTCP,non-PTCP based
+676_PTCP,PTCP based
+676_NPTCP,non-PTCP based
+2681_PTCP,PTCP based
+2681_NPTCP,non-PTCP based
+2706_FIN,final verb
+2706_NFIN,non-final verb
+2761_PTCP,PTCP based
+2761_NPTCP,non-PTCP based
+2762_PTCP,PTCP based
+2762_NPTCP,non-PTCP based
+2797_FIN,final verb
+2862_PST.IND,past indicative
+2862_NPST.IND,non-past indicative
+2863_PST.IND,past indicative
+2863_NPST.IND,non-past indicative
+2930_FIN,final verb
+2956_PST.IND,past indicative
+2956_NPST.IND,non-past indicative
+2980_PST.IND,past indicative
+2980_NPST.IND,non-past indicative
+2999_PST.IND,past indicative
+2999_NPST.IND,non-past indicative
+3007_PST.IND,past indicative
+3007_NPST.IND,non-past indicative
+3010_PST.IND,past indicative
+3010_NPST.IND,non-past indicative
+2929_PTCP,PTCP based
+2929_NPTCP,non-PTCP based
+2922_PTCP,PTCP based
+2922_NPTCP,non-PTCP based
+2883_PTCP,PTCP based
+2883_NPTCP,non-PTCP based
+2886_PTCP,PTCP based
+2886_NPTCP,non-PTCP based
+2892_PTCP,PTCP based
+2892_NPTCP,non-PTCP based
+2918_PTCP,PTCP based
+2918_NPTCP,non-PTCP based
+2919_PTCP,PTCP based
+2919_NPTCP,non-PTCP based
+2923_PTCP,PTCP based
+2923_NPTCP,non-PTCP based
+2924_PTCP,PTCP based
+2924_NPTCP,non-PTCP based
+2925_PTCP,PTCP based
+2925_NPTCP,non-PTCP based
+2927_PTCP,PTCP based
+2927_NPTCP,non-PTCP based
+674_PST.IND,past indicative
+674_NPST.IND,non-past indicative
+1439_PST.IND,past indicative
+1439_NPST.IND,non-past indicative
+1775_PST.IND,past indicative
+1775_NPST.IND,non-past indicative
+923_INDEP,independent order indicative
+1036_INDEP,independent order indicative
+2244_INDEP.PRS,independent order indicative present
+2551_INDEP.NPST,independent order indicative non-past
+2500_NMLZ,nominalized verb
+1105_COMPL,completive status
+1105_NCOMPL,non-completive status
+682_COMPL,completive status
+682_NCOMPL,non-completive status
+2668_INDEP.NPST,independent order indicative non-past
+2709_PTCP,PTCP based
+2709_NPTCP,non-PTCP based
+74_PRS,present
+456_PRET,"preterite, aorist, imperfect"
+456_PRS,"present, present perfect, past perfect"
+2885_PRS,present
+2885_PST,past
+2148_NOBL,non-obligative mood
+2148_OBL,obligative mood
+1750_NAR,Narrative mood
+686_POS&NEGNPST,ll positive forms and negative non-past
+1961_PST,PST and PST PFV
+57_NPRS,PST and pliperfect
+57_PRS,PRS and FUT
+642_PRF,perfect
+642_IPFV,imperfective
+791_NAR,narrative
+791_NNAR,non-narrative
+2657_NPST/NPRF,non-past and non-perfective forms
+2657_PST/PRF,past and perfective forms
+518_SPST,simple past
+518_NSPST,non-simple past (all other tenses)
+1136_PFV,perfective
+1136_IPFV,imperfective
+1414_IPFV,imperfective aspect
+1414_PFV,perfective aspect
+299_SNPST,simple non-past
+299_NONSNPST,all tenses apart from simple non-past
+2544_PST.PRF,past perfect
+2544_NPST.PRF,non-past perfect
+559_IMPF,imperfect
+559_PRF,perfect
+3044_PFV,perfective
+3044_IPFV,imperfective
+21_IPFV,imperfective
+21_PFV,perfective
+1577_VIS,visual evidentiality
+791_PRS,present
+791_NPRS,nPRS
+3069_INDEP,independent order indicative
+2335_PRET,preterite
+2063_PST,past
+2063_NPST,non past
+2772_IMPFV,imperfective
+2772_PFV,perfective
+159_PFV,perfective
+533_PRS,PRS and FUT
+533_PST,past
+549_PST/FUT,past and future
+549_PRS,present
+2447_PRS,present
+3117_PRS,present
+3117_PST,present
+340_PRS,present
+340_PST,past
+3213_ABS,absolute endings (used with simple verbs in initial position with no preceding particle)
+678_PRS,present
+678_IMPF,past imperfect
+678_AOR,past aorist
+25_AOR,Armenian aorist (synthetic)
+25_NAOR,Armenian non-aorist TA categories (all analytically built)
+1477_NPROG,Esse Ejja any non-prograssive TA (default)
+1477_PROG,Esse Ejja prograssive

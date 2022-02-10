@@ -1,0 +1,1780 @@
+description: >-
+  Various aspects of noun phrases, focusing on their marking and (formal or semantic) constraints
+  on head and dependents. Each entry is an NP construction type with a distinct morphosyntax and/or
+  distinct constraints.
+kind: manual data entry
+data: table
+counts:
+  n_languages: 485
+  n_variables: 12
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      Language name
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  NPStructureID:
+    description: >-
+      (Arbitrary) ID of the NP structure. Structures are distinguished from
+      each other if they differ in their morphological marking and/or any constraints
+      they have on dependents or heads (but not word order)
+    kind: manual data entry
+    data: integer
+  # -- end of NPStructureID
+
+  NPStructureExample:
+    description: >-
+      A free-text comment with glossed examples of the NP structure
+    kind: manual data entry
+    data: comment
+  # -- end of NPStructureExample
+
+  NPStructureType:
+    description: >-
+      NP structure type, as distinguished by the morphology that the NP is
+      characterized by
+    kind: manual data entry
+    data: string
+  # -- end of NPStructureType
+
+  NPStructureMarkingAssignmentType:
+    description: >-
+      NP structure type, binned into 4 basic types
+    kind: manual data entry
+    data: value-list
+    values: 
+      "government": >-
+        Government
+      "construct state": >-
+        Construct state
+      "mixed": >-
+        Mixed type
+      "agreement/class marker": >-
+        Agreement or class
+  # -- end of NPStructureMarkingAssignmentType
+
+  NPStructureMarkingType:
+    description: >-
+      The (combination of) markers that characterize the NP, binned into
+      five types (see Riessler 2016 Adjective Attribution, Language Sciences Press)
+    kind: manual data entry
+    data: value-list
+    values: 
+      "agreeing construct": >-
+        Agreeing construct
+      "juxtaposition": >-
+        Juxtaposition
+      "construct marker": >-
+        Construct markers
+      "agreement": >-
+        Agreement
+      "nominalization": >-
+        Nominalization
+  # -- end of NPStructureMarkingType
+
+  NPStructureIsOvertlyMarked:
+    variant_of: NPStructureType
+    description: >-
+      Presence of overt morphology that indicates the NP structure (see Riessler
+      2016 Adjective Attribution, Language Sciences Press)
+    kind: manual data entry
+    data: logical
+  # -- end of NPStructureIsOvertlyMarked
+
+  NPStructureMarkerID:
+    description: >-
+      NP structure markers (from GrammaticalMarkers)
+    kind: manual data entry
+    data: list-of<integer>
+  # -- end of NPStructureMarkerID
+
+  NPStructureAgreement:
+    description: >-
+      NP structure agreement categories
+    kind: manual data entry
+    data: table
+    fields: 
+      NPStructureAgreementCategory:
+        description: >-
+          NP structure agreement category
+        kind: manual data entry
+        data: value-list
+        values: 
+          "Person": >-
+            1st, 2nd, 3rd person (and sometimes others), i.e. noun or pronoun referents
+            defined as speaker/hearer/neither.
+          "Number": >-
+            Singular, plural, sometimes others. Other than in role agreement.
+          "Role": >-
+            Grammatical role or relation, including pivots
+          "TAM": >-
+            Tense, aspect, and mood
+          "Honorificity": >-
+            Categories used to differentiate status of individuals: the referent of a form
+            marked as honorific is higher in status than the other(s) in the discourse.
+          "Aspect": >-
+            Grammatical aspect, sensitive to lexical Aktionsart and implicated in syntax;
+            categories such as perfective and imperfective.
+          "Polarity": >-
+            Negative vs. Affirmative
+          "Nominalizer": >-
+            Derives a syntactic noun form from a verb; turns a clause into a phrase that
+            can function as argument or possessor.
+          "Tense": >-
+            The traditional category of time reference (absolute or relative) in verbs.
+          "Connective": >-
+            Marker of clause connection, including chaining markers, complementizers,
+            markers of subordination or relative (unless it is a nominalizer, in
+            which case code as Nominalizer). Includes converbs of all types, chaining
+            (narrative, sequencing) and subordinating (adverbial). Forms called
+            “subjunctive” or “conjunctive” are likely to belong here.
+          "Causative": >-
+            Adds an agent to the valence.
+          "Voice": >-
+            Assignment of role to an NP with a certain marker or status (nominative,
+            absolutive, etc.) with a reduction in syntactic transitivity. This includes
+            passives, antipassives, diathetic reflexives, middles etc.
+          "Version": >-
+            Category that registers the presence of an indirect object, goal, or
+            applicative object and responds to its person (typically distinguishing 1st/
+            2nd vs. 3rd person). Term and concept from Kartvelian languages.
+          "Semistem": >-
+            The more wordlike or noun-like element of a bipartite stem that interacts with
+            the inflectional system.
+          "Gender": >-
+            Agreement category involving noun classification. Usually covert on nouns;
+            overt on agreeing word(s). Unless otherwise specified this is lexical gender
+            of nouns.
+          "Quantificational": >-
+            Multiple argument or multiple action, variously or fluidly. Pluractionals,
+            distributive, ‘each’, ‘all’, ‘some’, ‘once’, ‘always’, ‘repeatedly’ etc.
+            Subsumes both argument and event quantification
+          "MAN": >-
+            Mood-Aspect-Negation (term from Heath 1999 [Koyra Chiini]).
+          "TA": >-
+            Tense-aspect
+          "Applicative": >-
+            Adds another object to the valence.
+          "Illocution": >-
+            Interrogative, Declarative, Imperative etc.
+          "MTN": >-
+            Mood, tense, and negation
+          "Direction": >-
+            Direct/inverse marking, indicating conformity vs. non-conformity to a
+            hierarchy (person, referentiality), whether using equipollent direct and
+            inverse markers (e.g. Cree) or only an inverse marker (e.g. Chukchi).
+          "Reflexive": >-
+            Reflexives unless they serve purely diathetic purposes (passives,
+            antipassives)
+          "Focus": >-
+            intensifiers, focus, emphatics etc.
+          "Valence": >-
+            Transitivity markers. Does not include diathetical markers whose primary
+            function is to change valence. Valence markers as defined here are generally
+            used on ALL transitive or ALL intransitive verbs, whether derived or not
+            (Example; Algonquian, Austronesian transitivity markers). But note that
+            obviation is covered under Referential.
+          "Evidential": >-
+            Evidentials, miratives, evaluatives, etc.
+          "PossClass": >-
+            Possessive declension class, i.e. declension class based on possessum=head
+          "Construct": >-
+            The formative does not express any category but rather indicates the use of
+            a certain construction or the presence of a certain syntactic configuration.
+            Examples: Arabic or Slave construct state marking
+          "PossSem": >-
+            Possession semantics (e.g. marking that the head is alienable or drinkable
+            or whatever) -- not to be used if the marking is due to possessive declension
+            class differences!
+          "Sex": >-
+            Natural gender. Sex of referent (e.g. in English pronouns). For gender
+            classification of nouns, code as gender (even if gender is predictable from
+            sex, as it usually is for animates).
+          "Referential": >-
+            Values like definite, indefinite, specific, nonspecific, generic, obviative,
+            proximative, remote, etc. NB: “Referential” is exponent of CASE only if the
+            referential value cannot be separated from the syntactic role that the CASE
+            marker codes. That is, with Tagalog ANG, for example, you cannot have the
+            syntactic role that ANG codes without at the same time having specific NP
+            reference. This is different from DOM (and DSM) in Turkish or Hindi or Spanish
+            because not marking the object by the ACC does not make it an object any less.
+            Unmarked O’s in DOM systems are O’s. But not using ANG because the NP doesn’t
+            have specific reference, changes the syntactic role the NP is in.
+          "Switch_reference": >-
+            Grammatical category tracking successive clauses in a discourse for whether
+            the subject (or other pivot) is referentially identical to vs. different from
+            that of the adjacent clause.
+          "Status": >-
+            Realis vs. irrealis; certainty
+          "TE": >-
+            Tense and evidentiality together
+          "Aktionsart": >-
+            Situation aspect, or lexical aspect.
+          "Potentialis": >-
+            Potential mood category.
+          "Classifier": >-
+            Formative that classifies any argument, regardless of the type of
+            classification (e.g. shape, body part) or whether the classifier itself
+            is incorporated or just its semantics is specified. If numeral classifiers
+            are incorporated into the verb, include that here regardless of whether the
+            classified noun is also incorporated with it.
+          "Mood": >-
+            General term for mood categories such as indicative, conditional, subjunctive,
+            imperative, etc.
+          "Reflexive_and_Reciprocal": >-
+            Reflexive and/or reciprocal, for languages in which these two are non-distinct
+            or in complementary distribution.
+          "RECIP": >-
+            Reciprocal
+          "MSE": >-
+            Mood or Status or Evidential or any combination of these
+          "AN Focus": >-
+            DO NOT USE. Use 72 instead. (Was: Western Austronesian-style focus marking.)
+          "Scope": >-
+            The category serves to indicate or constrain the scope of some other morpheme
+            (e.g negation).
+          "Modality": >-
+            Possibility, probability, etc.; also desiderative, intention.
+          "Deixis": >-
+            Any grammatical category distinguishing direction toward vs. from speaker,
+            or similar; also up (from speaker), down (from speaker). Common terms:
+            cislocative, translocative.
+          "Possessor": >-
+            The adnominal, or dependent, member of adnominal constructions (NP with
+            modifier or adjunct). Includes but is not limited to literal possessors.
+          "Motion": >-
+            Inflectional categories (other than deixis) that have to do with motion, e.g.
+            Yagua unbounded movement suffix, Mparntwe Arrernte associated motion. But see
+            also Purposive.
+          "Repetition": >-
+            Iteration, repetition (‘again’); not the same as an iterative Aktionsart.
+          "Posterior": >-
+            Action follows another. May be future-like in elicitation. This definition
+            based on the Hatam posterior category.
+          "Rich_Construct": >-
+            Construct marker, but with additional semantics indicating something about the
+            role or function of the relevant dependent. See the Hatam instrument prefix
+            for an example.
+          "Present": >-
+            True present or Current Relevance (defined for Jeli [Mande, Ivory Coast] by
+            Tröbs 1998: 141-2): makes a verb present or perfect.
+          "TM": >-
+            Tense and mood
+          "Quotative": >-
+            Reported speech, quotative, and other dedicated markers of direct, indirect,
+            or semidirect speech.
+          "Possessive": >-
+            Possessive morphology (often affix), usually dependent-driven agreement on
+            head.
+          "Sequential": >-
+            Sequenced or sequential actions (anterior or posterior relative tense). Maybe
+            this category should be conflated with future/posterior.
+          "Conditional": >-
+            Mood category marking conditionality in any sense (hypothetical,
+            counterfactual, etc.).
+          "MA": >-
+            Mood and aspect
+          "Case": >-
+            E.g. Kunwinjku inflected verbs can take a case suffix; makes the verb
+            (approximately) an adverbial clause (‘when’, etc.).
+          "Control": >-
+            As in Salishan: deliberate, involuntary, etc. control of A over the action.
+          "Topic": >-
+            Either sentential topic (what is talked about in a sentence, opposed to
+            comment) or discourse topic (central participant of a stretch of discourse).
+          "Taxis": >-
+            Converb, participle, etc. morphology that can expand a fully inflected verb
+            form
+          "Progressive": >-
+            Aktionsart category involving bounded duration.
+          "Clusivity": >-
+            inclusive/exclusive
+          "Spatial": >-
+            Various local, spatial, etc. things (other than Deixis).
+          "Symmetrical_voice": >-
+            Assignment of role to an NP with a certain marker or status (proximate, topic,
+            focus, etc.) without a change in syntactic transitivity. This includes systems
+            such as Western Austronesian focus, Yukagir focus, Algonquian obviation, etc.
+          "Distributive": >-
+            Multiple occurrences of an argument, separate from role marking and distinct
+            from number marking
+          "Reversative": >-
+            ‘undo’, etc.
+          "Unspecified_Argument": >-
+            Unspecified or generic (or similar) A, O, etc.
+          "Middle": >-
+            Middle voice. This is probably lexical or derivational, not inflectional.
+          "Incompletive": >-
+            Incompletive aspect.
+          "Purposive": >-
+            (Term used for Tariana and used as though it were a standard term. Means ‘go
+            and ...’, ‘(in order) for ... to...’. Consider changing to Modality.
+          "TAME": >-
+            TAM and evidential, all in one slot
+          "Affect": >-
+            Indicates that an argument (e.g. A) is affected by, or has an interest in, the
+            event.
+          "AE": >-
+            Aspect and evidentiality
+          "ME": >-
+            Mood and evidentiality
+          "TAE": >-
+            Tense, aspect and evidentiality
+          "TN": >-
+            Tense, and negation
+      # -- end of NPStructureAgreementCategory
+
+      NPStructureAgreementMacrocategory:
+        variant_of: NPStructureAgreementCategory
+        description: >-
+          NP structure agreement macrocategory
+        kind: manual data entry
+        data: value-list
+        values: 
+          "person": >-
+            Person categories
+          "number": >-
+            Number categories
+          "role": >-
+            Role categories
+          "TAM+": >-
+            TAM or related categories
+          "pragmatic": >-
+            Pragmatic categories
+          "operators": >-
+            Operator categories
+          "NP-related": >-
+            NP structure categories
+          "inter-clausal": >-
+            Inter-clausal categories
+          "valence": >-
+            Valence-related categories
+          "classification": >-
+            Classification categories
+          "evidential": >-
+            Evidential categories
+          "event-specs": >-
+            Event specification categories (e.g. motion or repetition)
+          "other": >-
+            Other category type
+      # -- end of NPStructureAgreementMacrocategory
+  # -- end of NPStructureAgreement
+
+  NPStructureWordOrder:
+    description: >-
+      Order of head and dependent in NP
+    kind: manual data entry
+    data: value-list
+    values: 
+      "Dependent-Head": >-
+        Dependent-Head
+      "Head-Dependent": >-
+        Head-Dependent
+      "Free": >-
+        Free
+      "Possessor-Head-Px.word": >-
+        Possessor-Head-Px.word
+      "Pronoun-Head; Head-Noun": >-
+        Pronoun-Head; Head-Noun
+  # -- end of NPStructureWordOrder
+
+  NPStructureHasAlienability:
+    variant_of: NPStructureAlienabilityType
+    description: >-
+      Sensitivity of the NP structure to some kind of alienability distinction
+      (regardless of what other distinction(s) the NP might be sensitive to).
+    kind: manual data entry
+    data: logical
+  # -- end of NPStructureHasAlienability
+
+  NPStructureAlienabilityType:
+    description: >-
+      Type of alienability constraint that the NP is subject to. 'Neutral'
+      means that there is no alienability constraint, although there can be other constraints.
+    kind: manual data entry
+    data: value-list
+    values: 
+      "default": >-
+        the default semantics of a construction, used most frequently, the non-default
+        variation (e.g. a partitive reading with some less common case frames is coded
+        separately)
+      "alienable": >-
+        called “alienable” in a grammar with no further semantic specification; or the
+        less nearly head-marked of two overt classes even if there is no account of their
+        semantics.
+      "inalienable": >-
+        called “inalienable” in a grammar with no further semantic characterization; or
+        the more nearly head-marked or bound of two overt classes even if there is no
+        account of their semantics.
+      "neutral": >-
+        No alienability (alienable/inalienable) distinction.
+      "marked alienable": >-
+        The alienable member of the alienability opposition is overtly marked.
+      "unmarked inalienable": >-
+        The inalienable member of the alienability opposition is formally unmarked.
+        (Default, if one of the pair is not formally marked.)
+      "high-indexability": >-
+        Approximately the same as high-animacy.
+      "low-indexability": >-
+        Approximately the same as low-animacy.
+      "<?a>": >-
+        Unknown or unclear semantics. If there is a split according to certain loose
+        semantic features, use this category for more the common pattern, use <?b> for the
+        other member of the split.
+      "unknown": >-
+        Unknown or unclear semantics.
+      "fluid": >-
+        There is an alienability distinction, but many or most words can be treated either
+        way, with a semantic distinction.
+      "semantic": >-
+        Alienability marking has some compositional effect on the lexical input.
+      "no mention": >-
+        = <?>
+      "n/a": >-
+        N/A
+      "human": >-
+        The noun denotes a human.
+      "non-human": >-
+        The noun denotes a non-human.
+      "animate": >-
+        The noun denotes an animate being.
+      "inanimate": >-
+        The noun denotes an inanimate entity or concept.
+      "kin terms": >-
+        The noun denotes a kin relation.
+      "body parts": >-
+        Body parts in a broad sense, possibly including mental faculties, feelings, etc.,
+        and possibly including (some) body functions, excreta, etc.
+      "topological": >-
+        Spatial relations nouns, locatives etc.
+      "meronyms": >-
+        the part in part-whole relations
+      "property": >-
+        house, furniture
+      "animals": >-
+        Animals, wild or domesticated.
+      "quantificational": >-
+        Quantifiers
+      "clothing terms": >-
+        Types and parts of clothing, and generics such as ‘clothing’.
+      "origin": >-
+        place names, native land, and the like
+      "owner": >-
+        ‘master’, ‘owner’ and the like
+      "specific": >-
+        having specific reference, or so described in grammar. (Caution: Probably not
+        always well enough distinguished from Definite.)
+      "tracks": >-
+        footprints, etc.
+      "subsets": >-
+        ‘group’, ‘part’, and other subsets (other than ones listed elsewhere here)
+      "parents/siblings": >-
+        Only parents and siblings (and not other kin types).
+      "transportation means": >-
+        E.g. cart, car, scooter, boat, airplane, sled, etc.
+      "spouse": >-
+        Only spouse (and not other kin types).
+      "village group": >-
+        Any culturally recognized part of a village’s population.
+      "non-specific": >-
+        Not having specific reference. (Caution: Probably not always well enough
+        distinguished from Indefinite.)
+      "long-established": >-
+        The possessive relationshop has its origin in some past event.
+      "edible": >-
+        edible things; food
+      "drinkable": >-
+        drinkable or potable things; beverages
+      "classifiers": >-
+        Nouns used as numeral or other classifiers.
+      "unpossessible": >-
+        Nouns that grammatically cannot be possessed (typically, cannot take affixal
+        possessive marking). (Their referents may but need not be ownable in the real
+        world.)
+      "rocks": >-
+        Rocks, stones, gravel, etc.
+      "plants": >-
+        Whole plants and types of plants. (Plant parts are categorized separately.)
+      "unspecified inanimate": >-
+        Denotes an inanimate; no further information given
+      "plant parts": >-
+        leaf, bark, root, etc.
+      "weapon": >-
+        bow, arrow, gun, etc.
+      "volitional": >-
+        Human or higher animate; any being having volition.
+      "definite": >-
+        Having definite reference. (Caution: Probably not always well enough distinguished
+        from Specific.)
+      "indefinite": >-
+        Having indefinite reference. (Caution: Probably not always well enough
+        distinguished from Non-Specific.)
+      "non-volitional": >-
+        Not human, not higher animate; any being not having volition.
+      "non-topical": >-
+        non-topical, new, not given
+      "singular": >-
+        Having singular reference, and/or grammatically marked as singular.
+      "indefinite inanimate": >-
+        introduced for Yidiny
+      "definite inanimate": >-
+        introduced for Yidiny
+      "effector": >-
+        Having a semantic role such as agent; initiating or bringing about the verbal
+        action.
+      "<?b>": >-
+        unknown/unclear semantics. In opposition to <?a>
+      "affected": >-
+        Having a semantic role such as patient; affected or changed by the verbal action.
+      "unaffected": >-
+        Having an object-like role but not affected by the verbal action.
+      "bounded": >-
+        Bounded in time and space (as in descriptions of Finnish)
+      "partitive": >-
+        partitive or unbounded in time and space (as in descriptions of Finnish)
+      "permanent state": >-
+        Permanent state of an individual or entity, e.g. ‘tall’, ‘round’.
+      "temporary state": >-
+        Temporary state of an individual or entity, e.g. ‘hungry’ or ‘cold’.
+      "name": >-
+        personal names
+  # -- end of NPStructureAlienabilityType
+
+  NPStructureDependentPoSConstraints:
+    description: >-
+      Formal category constraints on possible dependents
+    kind: manual data entry
+    data: list-of<value-list>
+    values: 
+      "V": >-
+        lexical verb
+      "N": >-
+        lexical noun, nominalized verb -- whether possessed or non-possessed (all)
+      "AdvP": >-
+        Adverb Phrases, including all sorts of ‘preverbs’ and predicative modifiers.
+      "Adj": >-
+        adjective
+      "Pro": >-
+        Pronouns. This refers to free pronouns that head NPs; it does not refer to
+        pronominal indexes.
+      "Adp": >-
+        Adposition
+      "Art": >-
+        Article
+      "<any>": >-
+        no restriction as to what kind of stem or terminal node can host the formative.
+        This is one notion of clitic; do not confuse with phrasal affixes,which are or not
+        restricted to a specific XP
+      "2_or_3Pro": >-
+        2nd or 3rd person pronoun
+      "3Pro": >-
+        3rd person pronoun
+      "3sgPro": >-
+        3rd person singular pronoun
+      "n11.d.": >-
+        no data
+      "N_or_Pro": >-
+        noun or pronoun (including nominalized verbs, participles, etc. ). If a language
+        or construction only includes root nouns, this needs to be mentioned. NOT
+        including Adjectives (if this is at all distinct PoS)
+      "1_2Pro_or_N": >-
+        1st or 2nd person, or noun.
+      "n/a": >-
+        not applicable
+      "N-inal": >-
+        inalienably possessed noun
+      "N-alien": >-
+        alienably possessed noun, i.e. one taking alienable possession (see sem_class_def
+        for alienability)
+      "N-hum": >-
+        human noun
+      "Nv": >-
+        nominalized verb
+      "DEM": >-
+        demonstrative
+      "Num": >-
+        numeral
+      "N-proper": >-
+        proper noun
+      "Possessor": >-
+        any possessor NP
+      "Possessum": >-
+        the head of a possessive NP
+      "SAP": >-
+        Speech act participant, i.e. 1st or 2nd person. (Using SAP allows non-SAP to be
+        used for 3rd person pronouns and nouns
+      "1PERS": >-
+        1st person only
+      "N-proper&kin": >-
+        proper nouns and kin nouns
+      "Body_part": >-
+        body parts and similar parts
+      "N-anim": >-
+        animate noun
+      "N-kin": >-
+        kin terms
+      "1sg": >-
+        1st person singular
+      "Pro_or_N-hum": >-
+        personal pronoun or human noun
+      "S": >-
+        Clause
+      "Pro-sg": >-
+        singular pronoun
+      "Pro-pl": >-
+        plural pronoun
+      "VP": >-
+        verb phrase (syntactic domain hosting particles or complementing auxiliaries).
+        Includes all sorts of coconstituents (NPs, adverbs, etc.). For a more specific
+        notion of VP, see #48
+      "V-fin": >-
+        finite verb
+      "V-aux": >-
+        (subset) of auxiliary verbs
+      "PRED": >-
+        any element in predicative use (verb, predicate nominal etc.); predicate phrase
+      "VAdvP": >-
+        type of verb phrase defined as Verb plus adverbials, particles, perhaps pronouns
+        -- but excluding NPs
+      "Quant": >-
+        Quantifiers
+      "non-V": >-
+        any part of speech except verbs
+      "nonSAP": >-
+        noun or third person pronoun (i.e. any third person NP).
+      "PTCP": >-
+        participle
+      "Ord": >-
+        Ordinal numeral
+      "Num_above_20": >-
+        numeral greater than 20
+      "NP": >-
+        (expandable) NP
+      "XP": >-
+        any phrase: the formative attaches to whatever phrase it refers to (typical of
+        focus particles and clitics)
+      "VP-nonfin": >-
+        The elements of the VP with all and only the nonfinite parts of the verb, as in
+        German ;-)
+      "Ord1": >-
+        Ordinal numeral greater than 1
+      "not_1sgPro": >-
+        any noun or pronoun apart from 1sg pronoun
+      "deictic_Pro": >-
+        deictic/demonstrative pronouns
+      "non-PTCP": >-
+        non-participle
+      "sg": >-
+        noun or pronoun in singular
+      "N-def": >-
+        definite noun
+      "high": >-
+        ‘high-indexability’, nouns or pronouns with a higher discourse rank than ‘low-
+        indexability’ (where rank is determined by discourse factors with language-
+        specific weights)
+      "low": >-
+        ‘low-indexability’, nouns or pronouns with a higher discourse rank than ‘low-
+        indexability’ (where rank is determined by discourse factors with language-
+        specific weights)
+      "N-def_or_Pro": >-
+        definite nouns or pronouns
+      "N-indef": >-
+        indefinite noun
+      "N-non-hum": >-
+        non-human noun
+      "Inf": >-
+        infinitive
+      "CONV": >-
+        converb
+      "1/2Pro": >-
+        1st and 2nd person pronouns
+      "3Pro_or_N": >-
+        3rd person pronoun or noun
+      "N_or_Pro-pl": >-
+        noun or pronoun in plural
+      "PTCP_based": >-
+        participle-based verb form
+      "non-PTCP_based": >-
+        any form apart from participle-based forms
+      "V-non-fin": >-
+        nonfinite: verb form with fewer categories coded than in the main clause
+      "N-high-anim": >-
+        noun denoting a higher animate (humans and some animals)
+      "N-low-anim": >-
+        noun denoting a lower animate (some animals, e.g. all non-mammals)
+      "2sgPro": >-
+        2nd person singular pronoun
+      "NOT_2sg_Pro": >-
+        any noun or pronoun apart from 2sgPro
+      "hum": >-
+        human referent
+      "non-hum": >-
+        non-human referent
+      "1/2sgPro": >-
+        1st singular or 2nd singular pronoun
+      "1/2plPro": >-
+        1st plural or 2nd plural pronoun
+      "N-sg": >-
+        noun in singular number
+      "N-pl": >-
+        noun in plural number
+      "3plPro": >-
+        3rd person plural pronoun
+      "2Pro": >-
+        2nd person pronoun
+      "1plPro": >-
+        1st person plural pronoun
+      "N-spec": >-
+        noun with specific reference
+      "N-non-spec": >-
+        noun with non-specific reference
+      "N-inanim": >-
+        inanimate noun
+      "N-non-kin": >-
+        noun apart from kin terms
+      "1Pro": >-
+        1st person pronoun
+      "1&3": >-
+        1st and 3rd person referents
+      "2": >-
+        2nd person referents
+      "Pro_NOT_1sgPro": >-
+        any pronoun apart from 1sg pronoun
+      "1sgPro": >-
+        1st person singular pronoun
+      "NOT_2plPro": >-
+        any noun or pronoun apart from 2plPro
+      "Pro_NOT_2plPro": >-
+        any pronoun apart from 2plPro
+      "2plPro": >-
+        2nd person plural pronoun
+      "N-specif&anim": >-
+        animate noun with specific reference
+      "Pro_NOT_1plPro": >-
+        any pronoun apart from 1pl pronoun
+      "N-pers": >-
+        personal name (proper nouns which are personal names, but not toponyms, etc.)
+      "N-non-sg": >-
+        noun in non-singular number (i.e. noun in dual, trial, and plural)
+      "Pro-kin": >-
+        kinship pronoun
+      "1duPro": >-
+        1st person dual pronoun
+      "2duPro": >-
+        2nd person dual pronoun
+      "N-non-hum-sg": >-
+        non-human noun in singular
+      "N-high": >-
+        noun with a higher discourse rank than ‘N-low’ (where rank is determined by
+        discourse factors with language-specific weights)
+      "N-low": >-
+        noun with a lower discourse rank than ‘N-high’ (where rank is determined by
+        discourse factors with language-specific weights)
+      "3duPro": >-
+        3rd person dual pronoun
+      "3sgPro-hum": >-
+        3rd person singular pronoun referring to a human
+      "3sgPro-non-hum": >-
+        3rd person singular pronoun referring to a non-human
+      "N-non-pers": >-
+        non-personal noun (common nouns and proper nouns which are not personal names
+        (e.g. toponyms))
+      "3sgPro-high": >-
+        3rd person singular pronoun with a higher discourse rank than ‘3sgPro-low’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3plPro-high": >-
+        3rd person plural pronoun with a higher discourse rank than ‘3plPro-low’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3sgPro-low": >-
+        3rd person plural pronoun with a lower discourse rank than ‘3sgPro-high’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3plPro-low": >-
+        3rd person plural pronoun with a lower discourse rank than ‘3plPro-high’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "N-sg-proper": >-
+        proper noun in singular
+      "N-pl-proper": >-
+        proper noun in plural
+      "N-common-sg": >-
+        common (non-proper) noun in singular
+      "N-common-pl": >-
+        common (non-proper) noun in plural
+      "N-common": >-
+        common noun
+      "SUP": >-
+        supine (a nonfinite verb form indicating purpose)
+      "N-pers-male": >-
+        male personal name
+      "N-pers-female": >-
+        female personal name
+      "N-non-hum-pl": >-
+        non-human noun in plural
+      "N-non-hum-du": >-
+        non-human noun in dual
+      "Pro-dep": >-
+        dependent pronoun (e.g. procliticized, etc.) if a language has both dependent and
+        independent pronouns
+      "N-masc-sg87": >-
+        German masculine singular noun (case on determiner)
+      "N-fem-sg87": >-
+        German feminine singular noun
+      "N-neut-sg87": >-
+        German neutral singular noun
+      "3sgPro-masc87": >-
+        German 3rd person masculine pronoun
+      "3sgPro-fem87": >-
+        German 3rd person feminine pronoun
+      "3sgPro-neut87": >-
+        German 3rd person neutral pronoun
+      "1inclPro": >-
+        1st person (plural) inclusive pronoun
+      "1exclPro": >-
+        1st person (plural) exclusive pronoun
+      "Pro-high": >-
+        pronoun with a higher discourse rank than ‘Pro-low’ (where rank is determined by
+        discourse factors with language-specific weights)
+      "Pro-low": >-
+        pronoun with a lower discourse rank than ‘Pro-high’ (where rank is determined by
+        discourse factors with language-specific weights)
+      "N1-sg-inanim340": >-
+        Russian inanimate noun of declension class 1 (e.g. zavod `factory’, mesto `place’)
+      "N1-sg-anim340": >-
+        Russian animate noun of declension class 1 (e.g. student `student’)
+      "N2-sg340": >-
+        Russian noun of declension class 2 (e.g. komnata `room’, sestra ‘sister’)
+      "N3-sg340": >-
+        Russian noun of declension class 3 (e.g. doč’ `daughter’)
+      "N-pl-anim": >-
+        animate noun in plural
+      "N-pl-inanim": >-
+        inanimate noun in plural
+      "AdjP": >-
+        adjective phrase
+      "Adv": >-
+        Adverb
+      "PP": >-
+        Adpositional phrase
+      "3Pro-anim": >-
+        pronoun referring to an animate entity
+      "3Pro-inanim": >-
+        pronoun referring to an inanimate entity
+      "anim": >-
+        animate referent
+      "3Pro-high": >-
+        3rd person pronoun (no number distinction) with a higher discourse rank than
+        ‘3Pro-low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3Pro-low": >-
+        3rd person pronoun (no number distinction) with a lower discourse rank than ‘3Pro-
+        high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "N-du": >-
+        noun in dual number
+      "N-sg-anim": >-
+        animate noun in singular
+      "N-du-anim": >-
+        animate noun in dual
+      "3sgPro-anim": >-
+        3rd person singular pronouns with animate reference
+      "3duPro-anim": >-
+        3rd person dual pronoun with animate reference
+      "3plPro-anim": >-
+        3rd person plural pronoun with animate reference
+      "1pl": >-
+        1st person plural
+      "2sg": >-
+        2nd person singular
+      "2pl": >-
+        2nd person plural
+      "3sg": >-
+        3rd person singular
+      "3pl": >-
+        3rd person plural
+      "1du.incl": >-
+        1st person dual inclusive
+      "1pl.incl": >-
+        1st person plural inclusive
+      "1du.excl": >-
+        1st person dual exclusive
+      "1pl.excl": >-
+        1st person plural exclusive
+      "2du": >-
+        2nd person dual
+      "3du": >-
+        3rd person dual
+      "3": >-
+        3rd person
+      "3sg-anim-high": >-
+        3rd person singular animate argument with a higher discourse rank than ‘3sg-
+        anim-low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3pl-anim-high": >-
+        3rd person plural animate argument with a higher discourse rank than ‘3pl-
+        anim-low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3sg-anim-low": >-
+        3rd person singular animate argument with a lower discourse rank than ‘3sg-
+        anim-high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3pl-anim-low": >-
+        3rd person plural animate argument with a lower discourse rank than ‘3pl-anim-
+        high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "indef": >-
+        indefinite referent
+      "N-anim-high": >-
+        animate noun with a higher discourse rank than ‘N-anim-low’ (where rank is
+        determined by discourse factors with language-specific weights)
+      "N-anim-low": >-
+        animate noun with a lower discourse rank than ‘N-anim-high’ (where rank is
+        determined by discourse factors with language-specific weights)
+      "3anim-high": >-
+        3rd person high-indexability animate referent, i.e. with a higher discourse
+        rank than ‘low-indexability’ (where rank is determined by discourse factors with
+        language-specific weights)
+      "3anim-low": >-
+        3rd person low-indexability animate referent, i.e. with a lower discourse rank
+        than ‘high-indexability’ (where rank is determined by discourse factors with
+        language-specific weights)
+      "3inanim": >-
+        inanimate referent (of the 3rd person)
+      "N-anim-sg-high": >-
+        animate singular noun with a higher discourse rank than ‘N-anim-low’ (where rank
+        is determined by discourse factors with language-specific weights)
+      "N-anim-sg-low": >-
+        animate singular noun with a lower discourse rank than ‘N-anim-high’ (where rank
+        is determined by discourse factors with language-specific weights)
+      "3hum-high": >-
+        3rd person human argument with a higher discourse rank than ‘3hum-low’ (where rank
+        is determined by discourse factors with language-specific weights)
+      "3hum-low": >-
+        3rd person human argument with a lower discourse rank than ‘3hum-high’ (where rank
+        is determined by discourse factors with language-specific weights)
+      "3anim-nhum-high": >-
+        3rd person animate non-human argument with a higher discourse rank than ‘3anim-
+        nhum-low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3anim-nhum-low": >-
+        3rd person animate non-human argument with a lower discourse rank than ‘3anim-
+        nhum-high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3inanim-high": >-
+        3rd person inanimate argument with a higher discourse rank than ‘3inanim-
+        low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3inanim-low": >-
+        3rd person inanimate argument with a lower discourse rank than ‘3inanim-
+        high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3sg-inanim": >-
+        inanimate singular referent (of the 3rd person)
+      "3pl-inanim": >-
+        inanimate plural referent (of the 3rd person)
+      "3sg-inanim-high": >-
+        inanimate singular referent (of the 3rd person) with higher discourse rank than
+        3sg/pl-inanim-low
+      "3pl-inanim-high": >-
+        inanimate plural referent (of the 3rd person) with higher discourse rank than 3sg/
+        pl-inanim-low
+      "3sg-inanim-low": >-
+        inanimate singular referent (of the 3rd person) with lower discourse rank than
+        3sg/pl-inanim-high
+      "3pl-inanim-low": >-
+        inanimate plural referent (of the 3rd person) with lower discourse rank than 3sg/
+        pl-inanim-high
+      "independent": >-
+        independent order forms in Algonquian verbs
+      "conjunct": >-
+        conjunct order forms in Algonquian verbs
+      "3sg-anim-fobv": >-
+        3rd person singular animate further obviative argument (i.e. with a lower dicourse
+        rank than the 3rd person sg. animate low argument)
+      "3pl-anim-fobv": >-
+        3rd person plural animate further obviative argument (i.e. with a lower dicourse
+        rank than the 3rd person pl. animate low argument)
+      "3du-anim-high": >-
+        3rd person dual animate argument with a higher discourse rank than ‘3sg-anim-
+        low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3du-anim-low": >-
+        3rd person dual animate argument with a lower discourse rank than ‘3sg-anim-
+        high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3du-inanim": >-
+        inanimate dual referent (of the 3rd person)
+      "1du": >-
+        1st person dual
+      "N-loc": >-
+        location nouns
+      "N-nloc": >-
+        non-location nouns
+      "N-topon": >-
+        toponym
+      "N-nontopon": >-
+        non-toponym noun
+      "du": >-
+        dual
+      "pl": >-
+        plural
+      "def": >-
+        definite argument
+      "pl-anim": >-
+        animate plural referent
+      "3pl-anim": >-
+        3rd person plural animate reference
+      "3duPro-high": >-
+        3rd person dual pronoun with a higher discourse rank than ‘3plPro-low’ (where rank
+        is determined by discourse factors with language-specific weights)
+      "3duPro-low": >-
+        3rd person dual pronoun with a lower discourse rank than ‘3plPro-low’ (where rank
+        is determined by discourse factors with language-specific weights)
+      "3sg-high": >-
+        3rd person singular argument with a higher discourse rank than ‘3sg-anim-
+        low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3du-high": >-
+        3rd person dual argument with a higher discourse rank than ‘3sg-anim-low’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3pl-high": >-
+        3rd person plural argument with a higher discourse rank than ‘3sg-anim-low’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3sg-low": >-
+        3rd person singular argument with a lower discourse rank than ‘3sg-anim-
+        high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3du-low": >-
+        3rd person dual argument with a lower discourse rank than ‘3sg-anim-high’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3pl-low": >-
+        3rd person plural argument with a lower discourse rank than ‘3sg-anim-high’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3sg-anim": >-
+        3rd person singular animate argument
+      "3du-anim": >-
+        3rd person dual animate argument
+      "N-non-kin-sg": >-
+        singular noun apart from kin terms
+      "N-non-kin-pl": >-
+        plural noun apart from kin terms
+      "N-highest": >-
+        noun denoting the referent highest in discourse (e.g. such as PROX in Algonquian
+        languages)
+      "N-non-highest": >-
+        noun denoting any referent than the highest one in discourse (e.g. such as PROX in
+        Algonquian languages)
+      "3pl-x": >-
+        3rd person plural argument with unknown/unclear referential properties that result
+        in a split, if there is a split triggered by unclear referential properties 3pl-b
+        for the other member of the opposition.
+      "3pl-y": >-
+        3rd person plural argument with unknown/unclear referential properties that result
+        in a split, if there is a split triggered by unclear referential properties 3pl-a
+        for the other member of the opposition.
+      "Pro-highest": >-
+        pronoun denoting the 3rd referent highest in discourse (e.g. such as PROX in
+        Algonquian languages)
+      "Pro-non-highest": >-
+        pronoun denoting any referent other than the highest one in discourse (e.g. such
+        as PROX in Algonquian languages)
+      "highest": >-
+        the referent highest in discourse
+      "2-high": >-
+        2nd person argument with a higher discourse rank than ‘2-low’ (where rank is
+        determined by discourse factors with language-specific weights)
+      "3pl-hum": >-
+        3rd person plural human argument
+      "3sgPro-inanim": >-
+        3rd person singular pronouns with inanimate reference
+      "3duPro-inanim": >-
+        3rd person dual pronoun with inanimate reference
+      "3plPro-inanim": >-
+        3rd person plural pronouns with inanimate reference
+      "N-count": >-
+        countable noun
+      "N-uncount": >-
+        uncountable noun
+      "3sgPro-count": >-
+        3rd person singular pronoun referring to a countable entity
+      "3sgPro-uncount": >-
+        3rd person singular pronoun referring to an uncountable entity
+      "1du.INCL.Pro": >-
+        1st person dual inclusive pronoun
+      "1du.EXCL.Pro": >-
+        1st person dual exclusive pronoun
+      "non-highest": >-
+        the referent non-highest in discourse
+      "1pl.INCL.Pro": >-
+        1st person plural inclusive pronoun
+      "1pl.EXCL.Pro": >-
+        1st person plural exclusive pronoun
+      "3sg-non-hum": >-
+        3rd person sg. with non-human referent
+      "3sg-hum": >-
+        3rd person sg. with human referent
+      "3pl-non-hum": >-
+        3rd person pl. non-human referent
+      "3pl-hum-ref": >-
+        3rd person pl. human referent
+      "3sgPro-fem79": >-
+        French 3rd person feminine pronoun
+      "3plPro-fem79": >-
+        French 3p person plural feminine pronoun
+      "3sgPro-masc79": >-
+        French 3rd person singular masculine pronoun
+      "3plPro-masc79": >-
+        French 3rd person plural masculine pronoun
+      "2sg-high": >-
+        2nd person singular high
+      "2pl-high": >-
+        2nd person plural high
+      "3sg-hum-high": >-
+        3rd person singular human argument with a higher discourse rank than ‘3sg-
+        anim-low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3pl-hum-high": >-
+        3rd person plural human argument with a higher discourse rank than ‘3sg-anim-
+        low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3sg-y": >-
+        3rd person singular argument with unknown/unclear referential properties that
+        result in a split, if there is a split triggered by unclear referential properties
+        3pl-a for the other member of the opposition.
+      "3sg-x": >-
+        3rd person singular argument with unknown/unclear referential properties that
+        result in a split, if there is a split triggered by unclear referential properties
+        3pl-b for the other member of the opposition.
+      "N1-1517": >-
+        Gahuku nouns taking the object suffix
+      "N2-1517": >-
+        Gahuku nouns not taking the object suffix
+      "2sgMH": >-
+        2nd person singular, mid honorific
+      "2plMH": >-
+        2nd person plural, mid honorific
+      "2sgHH": >-
+        2nd person singular, high honorific
+      "2plHH": >-
+        2nd person plural, high honorific
+      "3sgMH": >-
+        third person singular, mid honorific
+      "3plMH": >-
+        third person plural, mid honorific
+      "3sgHH": >-
+        third person singular, high honorific
+      "3plHH": >-
+        third person plural, high honorific
+      "N1sg-2471": >-
+        Serbian-Croatian nouns in SG that distinguish NOM and ACC
+      "N2pl-2471": >-
+        Serbian-Croatian nouns in PL that distinguish NOM and ACC
+      "N3sg-2471": >-
+        Serbian-Croatian nouns in SG that do not distinguish NOM and ACC
+      "N4pl-2471": >-
+        Serbian-Croatian nouns in PL that do not distinguish NOM and ACC
+      "3sgPro-highest": >-
+        pronoun denoting the 3rd sg. referent highest in discourse (e.g. such as PROX in
+        Algonquian languages)
+      "3plPro-highest": >-
+        pronoun denoting the 3rd pl. referent highest in discourse (e.g. such as PROX in
+        Algonquian languages)
+      "3sgPro-non-highest": >-
+        pronoun denoting any 3rd sg. referent other than the highest one in discourse
+        (e.g. such as PROX Algonquian languages)
+      "3plPro-non-highest": >-
+        pronoun denoting any 3rd pl. referent other than the highest one in discourse
+        (e.g. such as PROX Algonquian languages)
+      "N-common-non-kin": >-
+        noun apart from kin terms and proper nouns
+      "N-inanim-high": >-
+        inanimate noun with a higher discourse rank than ‘N-anim-low’ (where rank is
+        determined by discourse factors with language-specific weights)
+      "N-inanim-low": >-
+        inanimate noun with a lower discourse rank than ‘N-anim-high’ (where rank is
+        determined by discourse factors with language-specific weights)
+      "1sg-fem340": >-
+        Russian S/A past feminine agreement
+      "2sg-fem340": >-
+        Russian S/A past feminine agreement
+      "3sg-fem340": >-
+        Russian S/A past feminine agreement
+      "3sg-neu340": >-
+        Russian S/A past neuter agreement
+      "1sg-masc340": >-
+        Russian S/A past masculine agreement
+      "1sg-neu340": >-
+        Russian S/A past neuter agreement
+      "2sg-masc340": >-
+        Russian S/A past masculine agreement
+      "2sg-neu340": >-
+        Russian S/A past neuter agreement
+      "3sg-masc340": >-
+        Russian S/A past masc agreement
+      "#ANY#": >-
+        All referential types
+      "N1-2831": >-
+        Ancient Greek feminine and masculine nouns in singular and plural
+      "N2-2831": >-
+        Ancient Greek feminine and masculine nouns in dual and neuter nouns in all numbers
+      "3sgPro-neu2831": >-
+        Ancient Greek neuter 3sg pronoun
+      "3sgPro-fem2831": >-
+        Ancient Greek feminine 3sg pronoun
+      "3sgPro-masc2831": >-
+        Ancient Greek masculine 3sg pronoun
+      "3plPro-masc2831": >-
+        Ancient Greek masculine 3pl pronoun
+      "3plPro-fem2831": >-
+        Ancient Greek feminine 3pl pronoun
+      "3plPro-neu2831": >-
+        Ancient Greek neuter 3pl pronoun
+      "N-masc110": >-
+        Icelandic masculine nouns of strong and weak declension, no NOM/ACC syncretism
+      "N-fem.neu110": >-
+        Icelandic feminine nouns of weak declension and a minor masculine strong class,
+        show NOM/ACC syncretism in plural only AND Icelandic neuter and feminine nouns of
+        strong declension, show NOM/ACC syncretism in sg and pl
+      "3sgPro-masc110": >-
+        Icelandic 3rd person singular masculine pronoun
+      "3sgPro-fem110": >-
+        Icelandic 3rd person singular feminine pronoun
+      "3sgPro-neu110": >-
+        Icelandic 3rd person singular neuter pronoun
+      "3plPro-masc110": >-
+        Icelandic 3rd person plural masculine pronoun
+      "3plPro-fem110": >-
+        Icelandic 3rd person plural feminine pronoun
+      "3plPro-neu110": >-
+        Icelandic 3rd person plural neuter pronoun
+      "N-syncr2832": >-
+        Gothic nouns of every gender with syncretic NOM/ACC forms
+      "N-nsyncr2832": >-
+        Gothic nouns of every gender with non-syncretic NOM and ACC forms
+      "3sgPro-masc2832": >-
+        Gothic 3rd person singular masculine pronoun
+      "3sgPro-fem2832": >-
+        Gothic 3rd person singular feminine pronoun
+      "3sgPro-neu2832": >-
+        Gothic 3rd person singular neutrum pronoun
+      "3plPro-masc2832": >-
+        Gothic 3rd person plural masculine pronoun
+      "3plPro-fem2832": >-
+        Gothic 3rd person plural feminine pronoun
+      "3plPro-neu2832": >-
+        Gothic 3rd person plural neuter pronoun
+      "N-fem549": >-
+        Latvian nouns in feminine, which are syncretic only in the plural
+      "N-masc549": >-
+        Latvian nouns in masculine, which have no NOM/ACC syncretism
+      "3sgPro-fem549": >-
+        Latvian feminine 3sg pronoun
+      "3plPro-fem549": >-
+        Latvian feminine 3pl pronoun (syncretic NOM/ACC)
+      "3sgPro-masc549": >-
+        Latvian masculine 3sg pronoun
+      "3plPro-masc549": >-
+        Latvian masculine 3pl pronoun
+      "N-syncr2900": >-
+        Avestan nouns of the inflectional classes with NOM/ACC syncretism (either in du/pl
+        only or also in sg)
+      "N-nsyncr2900": >-
+        Avestan nouns of the inflectional classes without NOM/ACC syncretism
+      "N-nsyncr464": >-
+        Greek nouns of the inflectional classes without NOM/ACC syncretism (some
+        masculines and some feminines)
+      "N-syncr464": >-
+        Greek nouns of the inflectional classes with NOM/ACC syncretism (all neuter, some
+        masculines and some feminines, some of them in pl. only, other both in sg. and
+        pl.)
+      "3sgPro-neu464": >-
+        Greek neuter 3sg pronoun
+      "3sgPro-fem464": >-
+        Greek feminine 3sg pronoun
+      "3sgPro-masc464": >-
+        Greek masculine 3sg pronoun
+      "3plPro-neu464": >-
+        Greek neuter 3pl pronoun
+      "3plPro-fem464": >-
+        Greek feminine 3pl pronoun
+      "3plPro-masc464": >-
+        Greek masculine 3pl pronoun
+      "N-syncr2893": >-
+        Latin nouns with NOM = ACC syncretism both in sg. and pl. (all neuter nouns and
+        fem. and masc. nouns of declension 3, 4 and 5)
+      "N-nsyncr2893": >-
+        Latin nouns without NOM = ACC syncretism neither in sg. not in pl.
+      "3sgPro-masc2893": >-
+        Latin 3rd person singular masculine pronoun
+      "3sgPro-fem2893": >-
+        Latin 3rd person singular feminine pronoun
+      "3sgPro-neu2893": >-
+        Latin 3rd person singular neuter pronoun
+      "3plPro-masc2893": >-
+        Latin 3rd person plural masculine pronoun
+      "3plPro-fem2893": >-
+        Latin 3rd person plural feminine pronoun
+      "3plPro-neu2893": >-
+        Latin 3rd person plural neuter pronoun
+      "N-syncr2854": >-
+        High German (old) nouns with NOM = ACC syncretism both in sg. and pl. (nouns
+        of all genders in the vocalic/strong declension, nouns in minor consonantal
+        declensions, neuter nouns of the weak -n-declension)
+      "N-nsyncr2854": >-
+        High German (old) nouns without NOM/ACC syncretism in sg.(masc. and fem. nouns of
+        the weak declension); pl. is always syncreticvocalic/strong declension, nouns in
+        minor consonantal declensions, neuter nouns of the weak -n-declension)
+      "3sgPro-masc2854": >-
+        High German (old) 3sgPro without NOM/ACC syncretism
+      "3sgPro-fem2854": >-
+        High German (old) 3sgPro without NOM/ACC syncretism
+      "3sgPro-neu2854": >-
+        High German (old) 3sgPro with NOM = ACC syncretism
+      "2du_masc2378": >-
+        Rotokas 2nd person dual masculine agreement
+      "2du_fem2378": >-
+        Rotokas 2nd person dual feminine agreement
+      "3sg_masc2378": >-
+        Rotokas 3rd person masculine singular agreement
+      "3sg_fem2378": >-
+        Rotokas 3rd person feminine singular agreement
+      "3sg_neu2378": >-
+        Rotokas 3rd person neuter singular agreement
+      "3du_masc2378": >-
+        Rotokas 3rd person masculine dual agreement
+      "3du_fem2378": >-
+        Rotokas 3rd person feminine dual agreement
+      "3du_neu2378": >-
+        Rotokas 3rd person neuter dual agreement
+      "3pl_masc2378": >-
+        Rotokas 3rd person masculine plural agreement
+      "3pl_fem2378": >-
+        Rotokas 3rd person feminine plural agreement
+      "3pl_neu2378": >-
+        Rotokas 3rd person neuter plural agreement
+      "N_mostclasses2972": >-
+        Kambaata majority noun inflection class
+      "N_M8M9classes2972": >-
+        Kambaata M8 and M9 noun inflection class
+      "3sg_fem2972": >-
+        Kambaata 3rd person feminine singular agreement
+      "3sg_masc2972": >-
+        Kambaata 3rd person masculine singular agreement
+      "3pl_fem2972": >-
+        Kambaata 3rd person feminine plural agreement
+      "3pl_masc2972": >-
+        Kambaata 3rd person masculine plural agreement
+      "2sgHON": >-
+        2nd person singular honorific
+      "2plHON": >-
+        2nd person plural honorific
+      "3sgHON": >-
+        3nd person singular honorific
+      "3plHON": >-
+        3nd person plural honorific
+      "3sg_masc495": >-
+        Krongo 3rd person masculine singular agreement
+      "3sg_fem495": >-
+        Krongo 3rd person feminine singular agreement
+      "3sg_neu495": >-
+        Krongo 3rd person neuter singular agreement
+  # -- end of NPStructureDependentPoSConstraints
+
+  NPStructureDependentSemConstraints:
+    description: >-
+      Lexical-semantic constraints on possible dependents
+    kind: manual data entry
+    data: value-list
+    values: 
+      "default": >-
+        the default semantics of a construction, used most frequently, the non-default
+        variation (e.g. a partitive reading with some less common case frames is coded
+        separately)
+      "alienable": >-
+        called “alienable” in a grammar with no further semantic specification; or the
+        less nearly head-marked of two overt classes even if there is no account of their
+        semantics.
+      "inalienable": >-
+        called “inalienable” in a grammar with no further semantic characterization; or
+        the more nearly head-marked or bound of two overt classes even if there is no
+        account of their semantics.
+      "neutral": >-
+        No alienability (alienable/inalienable) distinction.
+      "marked alienable": >-
+        The alienable member of the alienability opposition is overtly marked.
+      "unmarked inalienable": >-
+        The inalienable member of the alienability opposition is formally unmarked.
+        (Default, if one of the pair is not formally marked.)
+      "high-indexability": >-
+        Approximately the same as high-animacy.
+      "low-indexability": >-
+        Approximately the same as low-animacy.
+      "<?a>": >-
+        Unknown or unclear semantics. If there is a split according to certain loose
+        semantic features, use this category for more the common pattern, use <?b> for the
+        other member of the split.
+      "unknown": >-
+        Unknown or unclear semantics.
+      "fluid": >-
+        There is an alienability distinction, but many or most words can be treated either
+        way, with a semantic distinction.
+      "semantic": >-
+        Alienability marking has some compositional effect on the lexical input.
+      "no mention": >-
+        = <?>
+      "n/a": >-
+        N/A
+      "human": >-
+        The noun denotes a human.
+      "non-human": >-
+        The noun denotes a non-human.
+      "animate": >-
+        The noun denotes an animate being.
+      "inanimate": >-
+        The noun denotes an inanimate entity or concept.
+      "kin terms": >-
+        The noun denotes a kin relation.
+      "body parts": >-
+        Body parts in a broad sense, possibly including mental faculties, feelings, etc.,
+        and possibly including (some) body functions, excreta, etc.
+      "topological": >-
+        Spatial relations nouns, locatives etc.
+      "meronyms": >-
+        the part in part-whole relations
+      "property": >-
+        house, furniture
+      "animals": >-
+        Animals, wild or domesticated.
+      "quantificational": >-
+        Quantifiers
+      "clothing terms": >-
+        Types and parts of clothing, and generics such as ‘clothing’.
+      "origin": >-
+        place names, native land, and the like
+      "owner": >-
+        ‘master’, ‘owner’ and the like
+      "specific": >-
+        having specific reference, or so described in grammar. (Caution: Probably not
+        always well enough distinguished from Definite.)
+      "tracks": >-
+        footprints, etc.
+      "subsets": >-
+        ‘group’, ‘part’, and other subsets (other than ones listed elsewhere here)
+      "parents/siblings": >-
+        Only parents and siblings (and not other kin types).
+      "transportation means": >-
+        E.g. cart, car, scooter, boat, airplane, sled, etc.
+      "spouse": >-
+        Only spouse (and not other kin types).
+      "village group": >-
+        Any culturally recognized part of a village’s population.
+      "non-specific": >-
+        Not having specific reference. (Caution: Probably not always well enough
+        distinguished from Indefinite.)
+      "long-established": >-
+        The possessive relationshop has its origin in some past event.
+      "edible": >-
+        edible things; food
+      "drinkable": >-
+        drinkable or potable things; beverages
+      "classifiers": >-
+        Nouns used as numeral or other classifiers.
+      "unpossessible": >-
+        Nouns that grammatically cannot be possessed (typically, cannot take affixal
+        possessive marking). (Their referents may but need not be ownable in the real
+        world.)
+      "rocks": >-
+        Rocks, stones, gravel, etc.
+      "plants": >-
+        Whole plants and types of plants. (Plant parts are categorized separately.)
+      "unspecified inanimate": >-
+        Denotes an inanimate; no further information given
+      "plant parts": >-
+        leaf, bark, root, etc.
+      "weapon": >-
+        bow, arrow, gun, etc.
+      "volitional": >-
+        Human or higher animate; any being having volition.
+      "definite": >-
+        Having definite reference. (Caution: Probably not always well enough distinguished
+        from Specific.)
+      "indefinite": >-
+        Having indefinite reference. (Caution: Probably not always well enough
+        distinguished from Non-Specific.)
+      "non-volitional": >-
+        Not human, not higher animate; any being not having volition.
+      "non-topical": >-
+        non-topical, new, not given
+      "singular": >-
+        Having singular reference, and/or grammatically marked as singular.
+      "indefinite inanimate": >-
+        introduced for Yidiny
+      "definite inanimate": >-
+        introduced for Yidiny
+      "effector": >-
+        Having a semantic role such as agent; initiating or bringing about the verbal
+        action.
+      "<?b>": >-
+        unknown/unclear semantics. In opposition to <?a>
+      "affected": >-
+        Having a semantic role such as patient; affected or changed by the verbal action.
+      "unaffected": >-
+        Having an object-like role but not affected by the verbal action.
+      "bounded": >-
+        Bounded in time and space (as in descriptions of Finnish)
+      "partitive": >-
+        partitive or unbounded in time and space (as in descriptions of Finnish)
+      "permanent state": >-
+        Permanent state of an individual or entity, e.g. ‘tall’, ‘round’.
+      "temporary state": >-
+        Temporary state of an individual or entity, e.g. ‘hungry’ or ‘cold’.
+      "name": >-
+        personal names
+  # -- end of NPStructureDependentSemConstraints
+
+  NPStructureDependentSemConstraintsBinned:
+    variant_of: NPStructureDependentSemConstraints
+    description: >-
+      Lexical-semantic constraints on possible dependents, binned into 4 broad types
+    kind: manual data entry
+    data: value-list
+    values: 
+      "formal": >-
+        Formal (arbitrary) class assignment
+      "referentiality": >-
+        Class assignment based on referential properties
+      "kin": >-
+        Kin terms
+      "parts": >-
+        Class assignment based on parthood
+      "kinds": >-
+        Class assignment based on related kind or type (e.g. property, clothes)
+      "names": >-
+        Name
+      "pragmatic": >-
+        Class assignment based on pragmatic properties (e.g. definiteness)
+      "roles": >-
+        Class assignment based on semantic role
+      "properties": >-
+        Class assignment based on specific property (e.g. being in a certain state)
+  # -- end of NPStructureDependentSemConstraintsBinned
+
+  NPStructureHeadlessness:
+    description: >-
+      Possibility of headless realization of NP structure
+    kind: manual data entry
+    data: value-list
+    values: 
+      "OK": >-
+        NP can be headless
+      "ungrammatical": >-
+        NP cannot be headless
+  # -- end of NPStructureHeadlessness
+
+  NPStructureHeadSemConstraints:
+    description: >-
+      Lexical-semantic constraints on possible heads
+    kind: manual data entry
+    data: table
+    fields: 
+      NPStructureHeadSemConstraints:
+        description: >-
+          Lexical-semantic constraints on the possible head
+        kind: manual data entry
+        data: value-list
+        values: 
+          "default": >-
+            the default semantics of a construction, used most frequently, the non-default
+            variation (e.g. a partitive reading with some less common case frames is coded
+            separately)
+          "alienable": >-
+            called “alienable” in a grammar with no further semantic specification; or the
+            less nearly head-marked of two overt classes even if there is no account of
+            their semantics.
+          "inalienable": >-
+            called “inalienable” in a grammar with no further semantic characterization;
+            or the more nearly head-marked or bound of two overt classes even if there is
+            no account of their semantics.
+          "neutral": >-
+            No alienability (alienable/inalienable) distinction.
+          "marked alienable": >-
+            The alienable member of the alienability opposition is overtly marked.
+          "unmarked inalienable": >-
+            The inalienable member of the alienability opposition is formally unmarked.
+            (Default, if one of the pair is not formally marked.)
+          "high-indexability": >-
+            Approximately the same as high-animacy.
+          "low-indexability": >-
+            Approximately the same as low-animacy.
+          "<?a>": >-
+            Unknown or unclear semantics. If there is a split according to certain loose
+            semantic features, use this category for more the common pattern, use <?b> for
+            the other member of the split.
+          "unknown": >-
+            Unknown or unclear semantics.
+          "fluid": >-
+            There is an alienability distinction, but many or most words can be treated
+            either way, with a semantic distinction.
+          "semantic": >-
+            Alienability marking has some compositional effect on the lexical input.
+          "no mention": >-
+            = <?>
+          "n/a": >-
+            N/A
+          "human": >-
+            The noun denotes a human.
+          "non-human": >-
+            The noun denotes a non-human.
+          "animate": >-
+            The noun denotes an animate being.
+          "inanimate": >-
+            The noun denotes an inanimate entity or concept.
+          "kin terms": >-
+            The noun denotes a kin relation.
+          "body parts": >-
+            Body parts in a broad sense, possibly including mental faculties, feelings,
+            etc., and possibly including (some) body functions, excreta, etc.
+          "topological": >-
+            Spatial relations nouns, locatives etc.
+          "meronyms": >-
+            the part in part-whole relations
+          "property": >-
+            house, furniture
+          "animals": >-
+            Animals, wild or domesticated.
+          "quantificational": >-
+            Quantifiers
+          "clothing terms": >-
+            Types and parts of clothing, and generics such as ‘clothing’.
+          "origin": >-
+            place names, native land, and the like
+          "owner": >-
+            ‘master’, ‘owner’ and the like
+          "specific": >-
+            having specific reference, or so described in grammar. (Caution: Probably not
+            always well enough distinguished from Definite.)
+          "tracks": >-
+            footprints, etc.
+          "subsets": >-
+            ‘group’, ‘part’, and other subsets (other than ones listed elsewhere here)
+          "parents/siblings": >-
+            Only parents and siblings (and not other kin types).
+          "transportation means": >-
+            E.g. cart, car, scooter, boat, airplane, sled, etc.
+          "spouse": >-
+            Only spouse (and not other kin types).
+          "village group": >-
+            Any culturally recognized part of a village’s population.
+          "non-specific": >-
+            Not having specific reference. (Caution: Probably not always well enough
+            distinguished from Indefinite.)
+          "long-established": >-
+            The possessive relationshop has its origin in some past event.
+          "edible": >-
+            edible things; food
+          "drinkable": >-
+            drinkable or potable things; beverages
+          "classifiers": >-
+            Nouns used as numeral or other classifiers.
+          "unpossessible": >-
+            Nouns that grammatically cannot be possessed (typically, cannot take affixal
+            possessive marking). (Their referents may but need not be ownable in the real
+            world.)
+          "rocks": >-
+            Rocks, stones, gravel, etc.
+          "plants": >-
+            Whole plants and types of plants. (Plant parts are categorized separately.)
+          "unspecified inanimate": >-
+            Denotes an inanimate; no further information given
+          "plant parts": >-
+            leaf, bark, root, etc.
+          "weapon": >-
+            bow, arrow, gun, etc.
+          "volitional": >-
+            Human or higher animate; any being having volition.
+          "definite": >-
+            Having definite reference. (Caution: Probably not always well enough
+            distinguished from Specific.)
+          "indefinite": >-
+            Having indefinite reference. (Caution: Probably not always well enough
+            distinguished from Non-Specific.)
+          "non-volitional": >-
+            Not human, not higher animate; any being not having volition.
+          "non-topical": >-
+            non-topical, new, not given
+          "singular": >-
+            Having singular reference, and/or grammatically marked as singular.
+          "indefinite inanimate": >-
+            introduced for Yidiny
+          "definite inanimate": >-
+            introduced for Yidiny
+          "effector": >-
+            Having a semantic role such as agent; initiating or bringing about the verbal
+            action.
+          "<?b>": >-
+            unknown/unclear semantics. In opposition to <?a>
+          "affected": >-
+            Having a semantic role such as patient; affected or changed by the verbal
+            action.
+          "unaffected": >-
+            Having an object-like role but not affected by the verbal action.
+          "bounded": >-
+            Bounded in time and space (as in descriptions of Finnish)
+          "partitive": >-
+            partitive or unbounded in time and space (as in descriptions of Finnish)
+          "permanent state": >-
+            Permanent state of an individual or entity, e.g. ‘tall’, ‘round’.
+          "temporary state": >-
+            Temporary state of an individual or entity, e.g. ‘hungry’ or ‘cold’.
+          "name": >-
+            personal names
+      # -- end of NPStructureHeadSemConstraints
+
+      NPStructureHeadSemConstraintsBinned:
+        variant_of: NPStructureHeadSemConstraints
+        description: >-
+          Lexical-semantic constraints on possible heads, binned into 4 broad types
+        kind: manual data entry
+        data: value-list
+        values: 
+          "formal": >-
+            Formal (arbitrary) class assignment
+          "referentiality": >-
+            Class assignment based on referential properties
+          "kin": >-
+            Kin terms
+          "parts": >-
+            Class assignment based on parthood
+          "kinds": >-
+            Class assignment based on related kind or type (e.g. property, clothes)
+          "names": >-
+            Name
+          "pragmatic": >-
+            Class assignment based on pragmatic properties (e.g. definiteness)
+          "roles": >-
+            Class assignment based on semantic role
+          "properties": >-
+            Class assignment based on specific property (e.g. being in a certain state)
+      # -- end of NPStructureHeadSemConstraintsBinned
+  # -- end of NPStructureHeadSemConstraints
+
+  NPStructureHeadAdditionalConstraintsNotes:
+    description: >-
+      Additional specific lexical items as possible heads in NP structure
+    kind: manual data entry
+    data: comment
+  # -- end of NPStructureHeadAdditionalConstraintsNotes

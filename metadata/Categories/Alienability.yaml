@@ -1,0 +1,162 @@
+description: >-
+  Various aspects of possessive classification. Expanded version of Nichols and Bickel's
+  contributions on possession in the *World Atlas of Language Structure*.
+  
+  Note: this module is likely to undergo substantial revision in conjunction with the NP
+  structure module. (Some information is duplicated in the two modules, but was collected
+  independently and cross-checked.)
+kind: manual data entry
+data: table
+counts:
+  n_languages: 305
+  n_variables: 12
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      Language name
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  NPPossessionLocusDistribution:
+    description: >-
+      Distributuion of locus of marking across types of possessive relations
+    kind: manual data entry
+    data: value-list
+    values: 
+      "None": >-
+        No possessive marking
+      "Alienable D, inalienable D": >-
+        Alienable D, inalienable D
+      "Alienable appositive classificatory possessive noun, inalienable H": >-
+        Alienable appositive classificatory possessive noun, inalienable H
+      "Alienable H, inalienable H": >-
+        Alienable H, inalienable H
+      "Alienable D+H, inalienable H": >-
+        Alienable D+H, inalienable H
+      "Alienable D, inalienable H": >-
+        Alienable D, inalienable H
+      "Alienables split, inalienables H": >-
+        Alienables split, inalienables H
+      "Alienable Ø, inalienable H": >-
+        Alienable Ø, inalienable H
+      "Alienable D, inalienable Ø": >-
+        Alienable D, inalienable Ø
+      "Alienable D, inalienable split": >-
+        Alienable D, inalienable split
+      "Alienable split, inalienable Ø": >-
+        Alienable split, inalienable Ø
+      "Alienable D, inalienable D+H": >-
+        Alienable D, inalienable D+H
+      "Alienable split, inalienable split": >-
+        Alienable split, inalienable split
+      "Alienable via verbal linker, inalienable H": >-
+        Alienable via verbal linker, inalienable H
+      "Alienable H, inalienable Ø": >-
+        Alienable H, inalienable Ø
+      "Alienable Ø, inalienable Ø": >-
+        Alienable Ø, inalienable Ø
+      "Alienable D+H, inalienable D+H": >-
+        Alienable D+H, inalienable D+H
+      "Other": >-
+        Other type of marking
+  # -- end of NPPossessionLocusDistribution
+
+  NPHasPossessiveClassification:
+    description: >-
+      Presence of any possessive classification, either in the form overtly
+      marked classes or in the form of bound nouns
+    kind: computed data (aggregation-scripts/enhancements/Alienability.R)
+    data: logical
+  # -- end of NPHasPossessiveClassification
+
+  NPPossessiveClassificationType:
+    description: >-
+      Type of possessive classification
+    kind: manual data entry
+    data: value-list
+    values: 
+      "classificatory": >-
+        Opaque posessive classification
+      "semantic": >-
+        Possesive classification based on semantic opposition
+  # -- end of NPPossessiveClassificationType
+
+  NPHasBoundNouns:
+    description: >-
+      Presence of bound (obligatorily possessed) nouns
+    kind: computed data (aggregation-scripts/enhancements/Alienability.R)
+    data: logical
+  # -- end of NPHasBoundNouns
+
+  NPBoundNounsCount:
+    description: >-
+      Number of bound (obligatorily possessed) nouns
+    kind: manual data entry
+    data: integer
+  # -- end of NPBoundNounsCount
+
+  NPHasAlienableClasses:
+    description: >-
+      Presence of any alienable classes
+    kind: computed data (aggregation-scripts/enhancements/Alienability.R)
+    data: logical
+  # -- end of NPHasAlienableClasses
+
+  NPAlienableClassesCount:
+    description: >-
+      Number of alienable classes
+    kind: manual data entry
+    data: integer
+  # -- end of NPAlienableClassesCount
+
+  NPHasInalienableClasses:
+    description: >-
+      Presence of any inalienable class
+    kind: computed data (aggregation-scripts/enhancements/Alienability.R)
+    data: logical
+  # -- end of NPHasInalienableClasses
+
+  NPInalienableClassesCount:
+    description: >-
+      Number of inalienable classes
+    kind: manual data entry
+    data: integer
+  # -- end of NPInalienableClassesCount
+
+  NPHasPossessiveClasses:
+    description: >-
+      Presence of any possessive class distinction, distinguished by overt
+      markers or differences in the form of the possessor or the possessed or both
+    kind: computed data (aggregation-scripts/enhancements/Alienability.R)
+    data: logical
+  # -- end of NPHasPossessiveClasses
+
+  NPHasMultiplePossessiveClasses:
+    description: >-
+      Presence of multiple (more then one) overt possessive classes
+    kind: computed data (aggregation-scripts/enhancements/Alienability.R)
+    data: logical
+  # -- end of NPHasMultiplePossessiveClasses
+
+  NPPossessiveClassesCount:
+    description: >-
+      Number of possessive classes, distinguished by overt markers or differences in the form of
+      the possessor or the possessed or both
+    kind: manual data entry
+    data: integer
+  # -- end of NPPossessiveClassesCount

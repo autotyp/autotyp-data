@@ -1,0 +1,3173 @@
+[
+  {
+    "MorphemeClassID": 327,
+    "LID": 35,
+    "Glottocode": "belh1239",
+    "Language": "Belhare",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Double marking?"
+  },
+  {
+    "MorphemeClassID": 328,
+    "LID": 35,
+    "Glottocode": "belh1239",
+    "Language": "Belhare",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Double marking?"
+  },
+  {
+    "MorphemeClassID": 329,
+    "LID": 35,
+    "Glottocode": "belh1239",
+    "Language": "Belhare",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "Part circum/simulfix",
+    "Notes": "Double marking?"
+  },
+  {
+    "MorphemeClassID": 330,
+    "LID": 35,
+    "Glottocode": "belh1239",
+    "Language": "Belhare",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Double marking?"
+  },
+  {
+    "MorphemeClassID": 331,
+    "LID": 35,
+    "Glottocode": "belh1239",
+    "Language": "Belhare",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Double marking?"
+  },
+  {
+    "MorphemeClassID": 332,
+    "LID": 35,
+    "Glottocode": "belh1239",
+    "Language": "Belhare",
+    "MorphemeType": "stem part",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Double marking?"
+  },
+  {
+    "MorphemeClassID": 333,
+    "LID": 690,
+    "Glottocode": "mana1288",
+    "Language": "Manange",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 334,
+    "LID": 690,
+    "Glottocode": "mana1288",
+    "Language": "Manange",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 335,
+    "LID": 690,
+    "Glottocode": "mana1288",
+    "Language": "Manange",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 336,
+    "LID": 690,
+    "Glottocode": "mana1288",
+    "Language": "Manange",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 337,
+    "LID": 87,
+    "Glottocode": "stan1295",
+    "Language": "German",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "simulfix is like Häuser ‘houses’ or Wänd-chen ‘wall-DIM’ with both ablaut and suffix\rprae, semirestricted is like ent- + verbs, numerals, ‘neither’, and nouns (ent-stem)\rPossibly also: (?) post-semirestricted -lich (goes with colours, participialized verbs, adjectives) and also simul semirestricted (ablaut + -lich_ goes with nouns, adjectives, verbs"
+  },
+  {
+    "MorphemeClassID": 338,
+    "LID": 87,
+    "Glottocode": "stan1295",
+    "Language": "German",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "simulfix is like Häuser ‘houses’ or Wänd-chen ‘wall-DIM’ with both ablaut and suffix\rprae, semirestricted is like ent- + verbs, numerals, ‘neither’, and nouns (ent-stem)\rPossibly also: (?) post-semirestricted -lich (goes with colours, participialized verbs, adjectives) and also simul semirestricted (ablaut + -lich_ goes with nouns, adjectives, verbs"
+  },
+  {
+    "MorphemeClassID": 339,
+    "LID": 87,
+    "Glottocode": "stan1295",
+    "Language": "German",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "Part circum/simulfix",
+    "Notes": "simulfix is like Häuser ‘houses’ or Wänd-chen ‘wall-DIM’ with both ablaut and suffix\rprae, semirestricted is like ent- + verbs, numerals, ‘neither’, and nouns (ent-stem)\rPossibly also: (?) post-semirestricted -lich (goes with colours, participialized verbs, adjectives) and also simul semirestricted (ablaut + -lich_ goes with nouns, adjectives, verbs"
+  },
+  {
+    "MorphemeClassID": 340,
+    "LID": 87,
+    "Glottocode": "stan1295",
+    "Language": "German",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "simulfix is like Häuser ‘houses’ or Wänd-chen ‘wall-DIM’ with both ablaut and suffix\rprae, semirestricted is like ent- + verbs, numerals, ‘neither’, and nouns (ent-stem)\rPossibly also: (?) post-semirestricted -lich (goes with colours, participialized verbs, adjectives) and also simul semirestricted (ablaut + -lich_ goes with nouns, adjectives, verbs"
+  },
+  {
+    "MorphemeClassID": 341,
+    "LID": 87,
+    "Glottocode": "stan1295",
+    "Language": "German",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "simulfix is like Häuser ‘houses’ or Wänd-chen ‘wall-DIM’ with both ablaut and suffix\rprae, semirestricted is like ent- + verbs, numerals, ‘neither’, and nouns (ent-stem)\rPossibly also: (?) post-semirestricted -lich (goes with colours, participialized verbs, adjectives) and also simul semirestricted (ablaut + -lich_ goes with nouns, adjectives, verbs"
+  },
+  {
+    "MorphemeClassID": 342,
+    "LID": 87,
+    "Glottocode": "stan1295",
+    "Language": "German",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "simulfix is like Häuser ‘houses’ or Wänd-chen ‘wall-DIM’ with both ablaut and suffix\rprae, semirestricted is like ent- + verbs, numerals, ‘neither’, and nouns (ent-stem)\rPossibly also: (?) post-semirestricted -lich (goes with colours, participialized verbs, adjectives) and also simul semirestricted (ablaut + -lich_ goes with nouns, adjectives, verbs"
+  },
+  {
+    "MorphemeClassID": 343,
+    "LID": 87,
+    "Glottocode": "stan1295",
+    "Language": "German",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "simulfix is like Häuser ‘houses’ or Wänd-chen ‘wall-DIM’ with both ablaut and suffix\rprae, semirestricted is like ent- + verbs, numerals, ‘neither’, and nouns (ent-stem)\rPossibly also: (?) post-semirestricted -lich (goes with colours, participialized verbs, adjectives) and also simul semirestricted (ablaut + -lich_ goes with nouns, adjectives, verbs"
+  },
+  {
+    "MorphemeClassID": 344,
+    "LID": 56,
+    "Glottocode": "chuk1273",
+    "Language": "Chukchi",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "maybe also simulfixes: Dunn 1999\r‘Circum’ split into 2 positions because of potential to be divided in domains"
+  },
+  {
+    "MorphemeClassID": 345,
+    "LID": 56,
+    "Glottocode": "chuk1273",
+    "Language": "Chukchi",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "Part circum/simulfix",
+    "Notes": "maybe also simulfixes: Dunn 1999\r‘Circum’ split into 2 positions because of potential to be divided in domains"
+  },
+  {
+    "MorphemeClassID": 346,
+    "LID": 56,
+    "Glottocode": "chuk1273",
+    "Language": "Chukchi",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "maybe also simulfixes: Dunn 1999\r‘Circum’ split into 2 positions because of potential to be divided in domains"
+  },
+  {
+    "MorphemeClassID": 347,
+    "LID": 56,
+    "Glottocode": "chuk1273",
+    "Language": "Chukchi",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "maybe also simulfixes: Dunn 1999\r‘Circum’ split into 2 positions because of potential to be divided in domains"
+  },
+  {
+    "MorphemeClassID": 348,
+    "LID": 56,
+    "Glottocode": "chuk1273",
+    "Language": "Chukchi",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "maybe also simulfixes: Dunn 1999\r‘Circum’ split into 2 positions because of potential to be divided in domains"
+  },
+  {
+    "MorphemeClassID": 349,
+    "LID": 56,
+    "Glottocode": "chuk1273",
+    "Language": "Chukchi",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "Part circum/simulfix",
+    "Notes": "maybe also simulfixes: Dunn 1999\r‘Circum’ split into 2 positions because of potential to be divided in domains"
+  },
+  {
+    "MorphemeClassID": 350,
+    "LID": 1682,
+    "Glottocode": "jeha1242",
+    "Language": "Jahai",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 351,
+    "LID": 1682,
+    "Glottocode": "jeha1242",
+    "Language": "Jahai",
+    "MorphemeType": "formative",
+    "MorphemePosition": "in",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 352,
+    "LID": 1682,
+    "Glottocode": "jeha1242",
+    "Language": "Jahai",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 353,
+    "LID": 1682,
+    "Glottocode": "jeha1242",
+    "Language": "Jahai",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 354,
+    "LID": 1440,
+    "Glottocode": "dutc1256",
+    "Language": "Dutch",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "possibly simul restricted formative? some verbs undergo ablaut with PTCP.PT circumfix ge--d\rzaag ‘tell’ > ge-zeg-d ‘told’"
+  },
+  {
+    "MorphemeClassID": 355,
+    "LID": 1440,
+    "Glottocode": "dutc1256",
+    "Language": "Dutch",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "possibly simul restricted formative? some verbs undergo ablaut with PTCP.PT circumfix ge--d\rzaag ‘tell’ > ge-zeg-d ‘told’"
+  },
+  {
+    "MorphemeClassID": 356,
+    "LID": 1440,
+    "Glottocode": "dutc1256",
+    "Language": "Dutch",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "possibly simul restricted formative? some verbs undergo ablaut with PTCP.PT circumfix ge--d\rzaag ‘tell’ > ge-zeg-d ‘told’"
+  },
+  {
+    "MorphemeClassID": 357,
+    "LID": 1440,
+    "Glottocode": "dutc1256",
+    "Language": "Dutch",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "possibly simul restricted formative? some verbs undergo ablaut with PTCP.PT circumfix ge--d\rzaag ‘tell’ > ge-zeg-d ‘told’"
+  },
+  {
+    "MorphemeClassID": 358,
+    "LID": 1440,
+    "Glottocode": "dutc1256",
+    "Language": "Dutch",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "Part circum/simulfix",
+    "Notes": "possibly simul restricted formative? some verbs undergo ablaut with PTCP.PT circumfix ge--d\rzaag ‘tell’ > ge-zeg-d ‘told’"
+  },
+  {
+    "MorphemeClassID": 359,
+    "LID": 1440,
+    "Glottocode": "dutc1256",
+    "Language": "Dutch",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "Part circum/simulfix",
+    "Notes": "possibly simul restricted formative? some verbs undergo ablaut with PTCP.PT circumfix ge--d\rzaag ‘tell’ > ge-zeg-d ‘told’"
+  },
+  {
+    "MorphemeClassID": 360,
+    "LID": 1440,
+    "Glottocode": "dutc1256",
+    "Language": "Dutch",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "possibly simul restricted formative? some verbs undergo ablaut with PTCP.PT circumfix ge--d\rzaag ‘tell’ > ge-zeg-d ‘told’"
+  },
+  {
+    "MorphemeClassID": 361,
+    "LID": 1207,
+    "Glottocode": "czec1258",
+    "Language": "Czech",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Superlative marking on adjectives is marked via nej-STEM-í, where -i alone is the suffix in comparative marking."
+  },
+  {
+    "MorphemeClassID": 362,
+    "LID": 1207,
+    "Glottocode": "czec1258",
+    "Language": "Czech",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Superlative marking on adjectives is marked via nej-STEM-í, where -i alone is the suffix in comparative marking."
+  },
+  {
+    "MorphemeClassID": 363,
+    "LID": 1207,
+    "Glottocode": "czec1258",
+    "Language": "Czech",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Superlative marking on adjectives is marked via nej-STEM-í, where -i alone is the suffix in comparative marking."
+  },
+  {
+    "MorphemeClassID": 364,
+    "LID": 1207,
+    "Glottocode": "czec1258",
+    "Language": "Czech",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Superlative marking on adjectives is marked via nej-STEM-í, where -i alone is the suffix in comparative marking."
+  },
+  {
+    "MorphemeClassID": 365,
+    "LID": 1207,
+    "Glottocode": "czec1258",
+    "Language": "Czech",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "Part circum/simulfix",
+    "Notes": "Superlative marking on adjectives is marked via nej-STEM-í, where -i alone is the suffix in comparative marking."
+  },
+  {
+    "MorphemeClassID": 366,
+    "LID": 1207,
+    "Glottocode": "czec1258",
+    "Language": "Czech",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Superlative marking on adjectives is marked via nej-STEM-í, where -i alone is the suffix in comparative marking."
+  },
+  {
+    "MorphemeClassID": 367,
+    "LID": 1207,
+    "Glottocode": "czec1258",
+    "Language": "Czech",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "Part circum/simulfix",
+    "Notes": "Superlative marking on adjectives is marked via nej-STEM-í, where -i alone is the suffix in comparative marking."
+  },
+  {
+    "MorphemeClassID": 368,
+    "LID": 468,
+    "Glottocode": "east2773",
+    "Language": "Newar (Dolakha)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "unrestricted formative is -ŋ EMPHATIC; follows nouns, inflected verbs, temporal elements, numerals, etc."
+  },
+  {
+    "MorphemeClassID": 369,
+    "LID": 468,
+    "Glottocode": "east2773",
+    "Language": "Newar (Dolakha)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "unrestricted formative is -ŋ EMPHATIC; follows nouns, inflected verbs, temporal elements, numerals, etc."
+  },
+  {
+    "MorphemeClassID": 370,
+    "LID": 468,
+    "Glottocode": "east2773",
+    "Language": "Newar (Dolakha)",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "unrestricted formative is -ŋ EMPHATIC; follows nouns, inflected verbs, temporal elements, numerals, etc."
+  },
+  {
+    "MorphemeClassID": 371,
+    "LID": 468,
+    "Glottocode": "east2773",
+    "Language": "Newar (Dolakha)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "unrestricted formative is -ŋ EMPHATIC; follows nouns, inflected verbs, temporal elements, numerals, etc."
+  },
+  {
+    "MorphemeClassID": 372,
+    "LID": 225,
+    "Glottocode": "lahu1253",
+    "Language": "Lahu",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Unrestricted posposted is Question marker -la53; shown with inflected verb and with verb (what else can it follow?)"
+  },
+  {
+    "MorphemeClassID": 373,
+    "LID": 225,
+    "Glottocode": "lahu1253",
+    "Language": "Lahu",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Unrestricted posposted is Question marker -la53; shown with inflected verb and with verb (what else can it follow?)"
+  },
+  {
+    "MorphemeClassID": 374,
+    "LID": 225,
+    "Glottocode": "lahu1253",
+    "Language": "Lahu",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Unrestricted posposted is Question marker -la53; shown with inflected verb and with verb (what else can it follow?)"
+  },
+  {
+    "MorphemeClassID": 375,
+    "LID": 225,
+    "Glottocode": "lahu1253",
+    "Language": "Lahu",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Unrestricted posposted is Question marker -la53; shown with inflected verb and with verb (what else can it follow?)"
+  },
+  {
+    "MorphemeClassID": 376,
+    "LID": 171,
+    "Glottocode": "mand1415",
+    "Language": "Mandarin",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "postposed unrestricted formative is -lə FOCUS; follows nouns and verbs (what else?)"
+  },
+  {
+    "MorphemeClassID": 377,
+    "LID": 171,
+    "Glottocode": "mand1415",
+    "Language": "Mandarin",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "postposed unrestricted formative is -lə FOCUS; follows nouns and verbs (what else?)"
+  },
+  {
+    "MorphemeClassID": 378,
+    "LID": 171,
+    "Glottocode": "mand1415",
+    "Language": "Mandarin",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "postposed unrestricted formative is -lə FOCUS; follows nouns and verbs (what else?)"
+  },
+  {
+    "MorphemeClassID": 379,
+    "LID": 171,
+    "Glottocode": "mand1415",
+    "Language": "Mandarin",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "postposed unrestricted formative is -lə FOCUS; follows nouns and verbs (what else?)"
+  },
+  {
+    "MorphemeClassID": 380,
+    "LID": 171,
+    "Glottocode": "mand1415",
+    "Language": "Mandarin",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "postposed unrestricted formative is -lə FOCUS; follows nouns and verbs (what else?)"
+  },
+  {
+    "MorphemeClassID": 381,
+    "LID": 206,
+    "Glottocode": "nepa1254",
+    "Language": "Nepali",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "semirestricted postposed formative: adjectivizer derivational marker -il; follows nouns and verbs"
+  },
+  {
+    "MorphemeClassID": 382,
+    "LID": 206,
+    "Glottocode": "nepa1254",
+    "Language": "Nepali",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "semirestricted postposed formative: adjectivizer derivational marker -il; follows nouns and verbs"
+  },
+  {
+    "MorphemeClassID": 383,
+    "LID": 206,
+    "Glottocode": "nepa1254",
+    "Language": "Nepali",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "semirestricted postposed formative: adjectivizer derivational marker -il; follows nouns and verbs"
+  },
+  {
+    "MorphemeClassID": 384,
+    "LID": 206,
+    "Glottocode": "nepa1254",
+    "Language": "Nepali",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "semirestricted postposed formative: adjectivizer derivational marker -il; follows nouns and verbs"
+  },
+  {
+    "MorphemeClassID": 385,
+    "LID": 501,
+    "Glottocode": "mani1292",
+    "Language": "Meithei",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "unrestricted preposed formative: -ə nominalizer/attributive.  Occurs on nouns, verbs, verbal adjectives, numerals, determiner, adverb, ‘so’ discourse particle\rsemirestricted postposed formative: -ni COP.  Occurs on verbs, nouns and verbal adjectives"
+  },
+  {
+    "MorphemeClassID": 386,
+    "LID": 501,
+    "Glottocode": "mani1292",
+    "Language": "Meithei",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "unrestricted preposed formative: -ə nominalizer/attributive.  Occurs on nouns, verbs, verbal adjectives, numerals, determiner, adverb, ‘so’ discourse particle\rsemirestricted postposed formative: -ni COP.  Occurs on verbs, nouns and verbal adjectives"
+  },
+  {
+    "MorphemeClassID": 387,
+    "LID": 501,
+    "Glottocode": "mani1292",
+    "Language": "Meithei",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "unrestricted preposed formative: -ə nominalizer/attributive.  Occurs on nouns, verbs, verbal adjectives, numerals, determiner, adverb, ‘so’ discourse particle\rsemirestricted postposed formative: -ni COP.  Occurs on verbs, nouns and verbal adjectives"
+  },
+  {
+    "MorphemeClassID": 388,
+    "LID": 501,
+    "Glottocode": "mani1292",
+    "Language": "Meithei",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "unrestricted preposed formative: -ə nominalizer/attributive.  Occurs on nouns, verbs, verbal adjectives, numerals, determiner, adverb, ‘so’ discourse particle\rsemirestricted postposed formative: -ni COP.  Occurs on verbs, nouns and verbal adjectives"
+  },
+  {
+    "MorphemeClassID": 389,
+    "LID": 664,
+    "Glottocode": "west2420",
+    "Language": "Kham",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "no ‘clitics/semi-/unrestricted’ formatives?"
+  },
+  {
+    "MorphemeClassID": 390,
+    "LID": 664,
+    "Glottocode": "west2420",
+    "Language": "Kham",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "no ‘clitics/semi-/unrestricted’ formatives?"
+  },
+  {
+    "MorphemeClassID": 391,
+    "LID": 664,
+    "Glottocode": "west2420",
+    "Language": "Kham",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "no ‘clitics/semi-/unrestricted’ formatives?"
+  },
+  {
+    "MorphemeClassID": 392,
+    "LID": 720,
+    "Glottocode": "kyer1238",
+    "Language": "Tibetan (Kyirong)",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "semi-restricted postposed formative DEF =de (last element of the NP)\ralso emphatic =ko (verbs, nouns)"
+  },
+  {
+    "MorphemeClassID": 393,
+    "LID": 720,
+    "Glottocode": "kyer1238",
+    "Language": "Tibetan (Kyirong)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "semi-restricted postposed formative DEF =de (last element of the NP)\ralso emphatic =ko (verbs, nouns)"
+  },
+  {
+    "MorphemeClassID": 394,
+    "LID": 720,
+    "Glottocode": "kyer1238",
+    "Language": "Tibetan (Kyirong)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "semi-restricted postposed formative DEF =de (last element of the NP)\ralso emphatic =ko (verbs, nouns)"
+  },
+  {
+    "MorphemeClassID": 395,
+    "LID": 720,
+    "Glottocode": "kyer1238",
+    "Language": "Tibetan (Kyirong)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "semi-restricted postposed formative DEF =de (last element of the NP)\ralso emphatic =ko (verbs, nouns)"
+  },
+  {
+    "MorphemeClassID": 396,
+    "LID": 723,
+    "Glottocode": "kham1282",
+    "Language": "Tibetan (Dege)",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Semi-restricted postposed: -ki ERG/GEN/INSTR; occurs on last element of NP (noun, adjective)"
+  },
+  {
+    "MorphemeClassID": 397,
+    "LID": 723,
+    "Glottocode": "kham1282",
+    "Language": "Tibetan (Dege)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Semi-restricted postposed: -ki ERG/GEN/INSTR; occurs on last element of NP (noun, adjective)"
+  },
+  {
+    "MorphemeClassID": 398,
+    "LID": 723,
+    "Glottocode": "kham1282",
+    "Language": "Tibetan (Dege)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Semi-restricted postposed: -ki ERG/GEN/INSTR; occurs on last element of NP (noun, adjective)"
+  },
+  {
+    "MorphemeClassID": 399,
+    "LID": 723,
+    "Glottocode": "kham1282",
+    "Language": "Tibetan (Dege)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "Semi-restricted postposed: -ki ERG/GEN/INSTR; occurs on last element of NP (noun, adjective)"
+  },
+  {
+    "MorphemeClassID": 400,
+    "LID": 691,
+    "Glottocode": "tibe1272",
+    "Language": "Tibetan (Lhasa)",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Not sure if any formatives are unrestricted or semi-restricted.  What about case?  Question markers?"
+  },
+  {
+    "MorphemeClassID": 401,
+    "LID": 691,
+    "Glottocode": "tibe1272",
+    "Language": "Tibetan (Lhasa)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Not sure if any formatives are unrestricted or semi-restricted.  What about case?  Question markers?"
+  },
+  {
+    "MorphemeClassID": 402,
+    "LID": 691,
+    "Glottocode": "tibe1272",
+    "Language": "Tibetan (Lhasa)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Not sure if any formatives are unrestricted or semi-restricted.  What about case?  Question markers?"
+  },
+  {
+    "MorphemeClassID": 403,
+    "LID": 677,
+    "Glottocode": "swed1254",
+    "Language": "Swedish",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Simulfix: (adjective) stem vowel fronting/shortening + -re for COMPARATIVE (2nd inflection class)\rsto:r > stør-re ‘bigger’"
+  },
+  {
+    "MorphemeClassID": 404,
+    "LID": 677,
+    "Glottocode": "swed1254",
+    "Language": "Swedish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Simulfix: (adjective) stem vowel fronting/shortening + -re for COMPARATIVE (2nd inflection class)\rsto:r > stør-re ‘bigger’"
+  },
+  {
+    "MorphemeClassID": 405,
+    "LID": 677,
+    "Glottocode": "swed1254",
+    "Language": "Swedish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Simulfix: (adjective) stem vowel fronting/shortening + -re for COMPARATIVE (2nd inflection class)\rsto:r > stør-re ‘bigger’"
+  },
+  {
+    "MorphemeClassID": 406,
+    "LID": 677,
+    "Glottocode": "swed1254",
+    "Language": "Swedish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "stem change",
+    "MorphemeHostRestriction": "Part circum/simulfix",
+    "Notes": "Simulfix: (adjective) stem vowel fronting/shortening + -re for COMPARATIVE (2nd inflection class)\rsto:r > stør-re ‘bigger’"
+  },
+  {
+    "MorphemeClassID": 407,
+    "LID": 677,
+    "Glottocode": "swed1254",
+    "Language": "Swedish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "Part circum/simulfix",
+    "Notes": "Simulfix: (adjective) stem vowel fronting/shortening + -re for COMPARATIVE (2nd inflection class)\rsto:r > stør-re ‘bigger’"
+  },
+  {
+    "MorphemeClassID": 408,
+    "LID": 626,
+    "Glottocode": "kinn1249",
+    "Language": "Kinnauri",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "The postposed semi-restricted is not totally certain: -č DIM\rOccurs with noun stem, no other data, but looks like it can occur with verbs & adjective stems (see quote Sharma p. 59)"
+  },
+  {
+    "MorphemeClassID": 409,
+    "LID": 626,
+    "Glottocode": "kinn1249",
+    "Language": "Kinnauri",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "The postposed semi-restricted is not totally certain: -č DIM\rOccurs with noun stem, no other data, but looks like it can occur with verbs & adjective stems (see quote Sharma p. 59)"
+  },
+  {
+    "MorphemeClassID": 410,
+    "LID": 626,
+    "Glottocode": "kinn1249",
+    "Language": "Kinnauri",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "The postposed semi-restricted is not totally certain: -č DIM\rOccurs with noun stem, no other data, but looks like it can occur with verbs & adjective stems (see quote Sharma p. 59)"
+  },
+  {
+    "MorphemeClassID": 411,
+    "LID": 626,
+    "Glottocode": "kinn1249",
+    "Language": "Kinnauri",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "The postposed semi-restricted is not totally certain: -č DIM\rOccurs with noun stem, no other data, but looks like it can occur with verbs & adjective stems (see quote Sharma p. 59)"
+  },
+  {
+    "MorphemeClassID": 412,
+    "LID": 2440,
+    "Glottocode": "nucl1634",
+    "Language": "Sko",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "‘suffixes’ only on nominal elements--predicates no suffixation; true unrestricted ‘enclitics’ include =ra ‘also’ and demonstratives; preposed semi-restricted formative: subject agreement (on adjectives & verbs); GEN & DAT marking suffixal on nouns; prefix also subj marking on verbs only"
+  },
+  {
+    "MorphemeClassID": 413,
+    "LID": 2440,
+    "Glottocode": "nucl1634",
+    "Language": "Sko",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "‘suffixes’ only on nominal elements--predicates no suffixation; true unrestricted ‘enclitics’ include =ra ‘also’ and demonstratives; preposed semi-restricted formative: subject agreement (on adjectives & verbs); GEN & DAT marking suffixal on nouns; prefix also subj marking on verbs only"
+  },
+  {
+    "MorphemeClassID": 414,
+    "LID": 2440,
+    "Glottocode": "nucl1634",
+    "Language": "Sko",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "‘suffixes’ only on nominal elements--predicates no suffixation; true unrestricted ‘enclitics’ include =ra ‘also’ and demonstratives; preposed semi-restricted formative: subject agreement (on adjectives & verbs); GEN & DAT marking suffixal on nouns; prefix also subj marking on verbs only"
+  },
+  {
+    "MorphemeClassID": 415,
+    "LID": 2440,
+    "Glottocode": "nucl1634",
+    "Language": "Sko",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "‘suffixes’ only on nominal elements--predicates no suffixation; true unrestricted ‘enclitics’ include =ra ‘also’ and demonstratives; preposed semi-restricted formative: subject agreement (on adjectives & verbs); GEN & DAT marking suffixal on nouns; prefix also subj marking on verbs only"
+  },
+  {
+    "MorphemeClassID": 416,
+    "LID": 2440,
+    "Glottocode": "nucl1634",
+    "Language": "Sko",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "‘suffixes’ only on nominal elements--predicates no suffixation; true unrestricted ‘enclitics’ include =ra ‘also’ and demonstratives; preposed semi-restricted formative: subject agreement (on adjectives & verbs); GEN & DAT marking suffixal on nouns; prefix also subj marking on verbs only"
+  },
+  {
+    "MorphemeClassID": 417,
+    "LID": 642,
+    "Glottocode": "egyp1253",
+    "Language": "Arabic (Egyptian)",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "circum semi-restrcted: ma-X-ʃ (negation).  Circles verbs, personal pronouns\rpotentially a semi/unrestricted post-posed formative: -ak.  It occurs with verbs as object marker.  It occurs with nouns as 2nd person possession (head-marked); it occurs with prepositions as object marker.\rpossibly preposed semirestricted: ʔal- ARTICLE--occurs with nouns, adjectives\rpreposed unrestricted--negation (word-level): occurs with nouns, pronouns, adjectives, adverbs, participles, prepositions (but not verbs?)"
+  },
+  {
+    "MorphemeClassID": 418,
+    "LID": 642,
+    "Glottocode": "egyp1253",
+    "Language": "Arabic (Egyptian)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "circum semi-restrcted: ma-X-ʃ (negation).  Circles verbs, personal pronouns\rpotentially a semi/unrestricted post-posed formative: -ak.  It occurs with verbs as object marker.  It occurs with nouns as 2nd person possession (head-marked); it occurs with prepositions as object marker.\rpossibly preposed semirestricted: ʔal- ARTICLE--occurs with nouns, adjectives\rpreposed unrestricted--negation (word-level): occurs with nouns, pronouns, adjectives, adverbs, participles, prepositions (but not verbs?)"
+  },
+  {
+    "MorphemeClassID": 419,
+    "LID": 642,
+    "Glottocode": "egyp1253",
+    "Language": "Arabic (Egyptian)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "circum semi-restrcted: ma-X-ʃ (negation).  Circles verbs, personal pronouns\rpotentially a semi/unrestricted post-posed formative: -ak.  It occurs with verbs as object marker.  It occurs with nouns as 2nd person possession (head-marked); it occurs with prepositions as object marker.\rpossibly preposed semirestricted: ʔal- ARTICLE--occurs with nouns, adjectives\rpreposed unrestricted--negation (word-level): occurs with nouns, pronouns, adjectives, adverbs, participles, prepositions (but not verbs?)"
+  },
+  {
+    "MorphemeClassID": 420,
+    "LID": 642,
+    "Glottocode": "egyp1253",
+    "Language": "Arabic (Egyptian)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "circum semi-restrcted: ma-X-ʃ (negation).  Circles verbs, personal pronouns\rpotentially a semi/unrestricted post-posed formative: -ak.  It occurs with verbs as object marker.  It occurs with nouns as 2nd person possession (head-marked); it occurs with prepositions as object marker.\rpossibly preposed semirestricted: ʔal- ARTICLE--occurs with nouns, adjectives\rpreposed unrestricted--negation (word-level): occurs with nouns, pronouns, adjectives, adverbs, participles, prepositions (but not verbs?)"
+  },
+  {
+    "MorphemeClassID": 421,
+    "LID": 642,
+    "Glottocode": "egyp1253",
+    "Language": "Arabic (Egyptian)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "Part circum/simulfix",
+    "Notes": "circum semi-restrcted: ma-X-ʃ (negation).  Circles verbs, personal pronouns\rpotentially a semi/unrestricted post-posed formative: -ak.  It occurs with verbs as object marker.  It occurs with nouns as 2nd person possession (head-marked); it occurs with prepositions as object marker.\rpossibly preposed semirestricted: ʔal- ARTICLE--occurs with nouns, adjectives\rpreposed unrestricted--negation (word-level): occurs with nouns, pronouns, adjectives, adverbs, participles, prepositions (but not verbs?)"
+  },
+  {
+    "MorphemeClassID": 422,
+    "LID": 642,
+    "Glottocode": "egyp1253",
+    "Language": "Arabic (Egyptian)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "circum semi-restrcted: ma-X-ʃ (negation).  Circles verbs, personal pronouns\rpotentially a semi/unrestricted post-posed formative: -ak.  It occurs with verbs as object marker.  It occurs with nouns as 2nd person possession (head-marked); it occurs with prepositions as object marker.\rpossibly preposed semirestricted: ʔal- ARTICLE--occurs with nouns, adjectives\rpreposed unrestricted--negation (word-level): occurs with nouns, pronouns, adjectives, adverbs, participles, prepositions (but not verbs?)"
+  },
+  {
+    "MorphemeClassID": 423,
+    "LID": 642,
+    "Glottocode": "egyp1253",
+    "Language": "Arabic (Egyptian)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "Part circum/simulfix",
+    "Notes": "circum semi-restrcted: ma-X-ʃ (negation).  Circles verbs, personal pronouns\rpotentially a semi/unrestricted post-posed formative: -ak.  It occurs with verbs as object marker.  It occurs with nouns as 2nd person possession (head-marked); it occurs with prepositions as object marker.\rpossibly preposed semirestricted: ʔal- ARTICLE--occurs with nouns, adjectives\rpreposed unrestricted--negation (word-level): occurs with nouns, pronouns, adjectives, adverbs, participles, prepositions (but not verbs?)"
+  },
+  {
+    "MorphemeClassID": 424,
+    "LID": 47,
+    "Glottocode": "cayu1262",
+    "Language": "Cayuvava",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "semi-restricted preposed formative: ji- WITH/BY (not exactly comitative): ocurs with noun, adjective, verb\rNot sure about semi-restricted Pre + Postposed formative:\r-pə (but only if it co-occurs wiht ji- prefix) ‘DOWN’ (but no data in grammar)"
+  },
+  {
+    "MorphemeClassID": 425,
+    "LID": 47,
+    "Glottocode": "cayu1262",
+    "Language": "Cayuvava",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "semi-restricted preposed formative: ji- WITH/BY (not exactly comitative): ocurs with noun, adjective, verb\rNot sure about semi-restricted Pre + Postposed formative:\r-pə (but only if it co-occurs wiht ji- prefix) ‘DOWN’ (but no data in grammar)"
+  },
+  {
+    "MorphemeClassID": 426,
+    "LID": 47,
+    "Glottocode": "cayu1262",
+    "Language": "Cayuvava",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "semi-restricted preposed formative: ji- WITH/BY (not exactly comitative): ocurs with noun, adjective, verb\rNot sure about semi-restricted Pre + Postposed formative:\r-pə (but only if it co-occurs wiht ji- prefix) ‘DOWN’ (but no data in grammar)"
+  },
+  {
+    "MorphemeClassID": 427,
+    "LID": 47,
+    "Glottocode": "cayu1262",
+    "Language": "Cayuvava",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "semi-restricted preposed formative: ji- WITH/BY (not exactly comitative): ocurs with noun, adjective, verb\rNot sure about semi-restricted Pre + Postposed formative:\r-pə (but only if it co-occurs wiht ji- prefix) ‘DOWN’ (but no data in grammar)"
+  },
+  {
+    "MorphemeClassID": 428,
+    "LID": 47,
+    "Glottocode": "cayu1262",
+    "Language": "Cayuvava",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "semi-restricted preposed formative: ji- WITH/BY (not exactly comitative): ocurs with noun, adjective, verb\rNot sure about semi-restricted Pre + Postposed formative:\r-pə (but only if it co-occurs wiht ji- prefix) ‘DOWN’ (but no data in grammar)"
+  },
+  {
+    "MorphemeClassID": 429,
+    "LID": 63,
+    "Glottocode": "kumi1248",
+    "Language": "Diegueño",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "restricted simulfix: -c suffix with root vowel length change DISTR.PLT (distributive plurality)\rwa:w-c > [wawc] ‘holler-DISTR.PLT’ (vowel shortening)\rxuy-c [xu:yc] ‘be hard-DISTR.PLT’ (vowel lengthening)"
+  },
+  {
+    "MorphemeClassID": 430,
+    "LID": 63,
+    "Glottocode": "kumi1248",
+    "Language": "Diegueño",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "restricted simulfix: -c suffix with root vowel length change DISTR.PLT (distributive plurality)\rwa:w-c > [wawc] ‘holler-DISTR.PLT’ (vowel shortening)\rxuy-c [xu:yc] ‘be hard-DISTR.PLT’ (vowel lengthening)"
+  },
+  {
+    "MorphemeClassID": 431,
+    "LID": 63,
+    "Glottocode": "kumi1248",
+    "Language": "Diegueño",
+    "MorphemeType": "formative",
+    "MorphemePosition": "stem change",
+    "MorphemeHostRestriction": "Part circum/simulfix",
+    "Notes": "restricted simulfix: -c suffix with root vowel length change DISTR.PLT (distributive plurality)\rwa:w-c > [wawc] ‘holler-DISTR.PLT’ (vowel shortening)\rxuy-c [xu:yc] ‘be hard-DISTR.PLT’ (vowel lengthening)"
+  },
+  {
+    "MorphemeClassID": 432,
+    "LID": 63,
+    "Glottocode": "kumi1248",
+    "Language": "Diegueño",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "Part circum/simulfix",
+    "Notes": "restricted simulfix: -c suffix with root vowel length change DISTR.PLT (distributive plurality)\rwa:w-c > [wawc] ‘holler-DISTR.PLT’ (vowel shortening)\rxuy-c [xu:yc] ‘be hard-DISTR.PLT’ (vowel lengthening)"
+  },
+  {
+    "MorphemeClassID": 433,
+    "LID": 77,
+    "Glottocode": "fiji1243",
+    "Language": "Fijian (Boumaa)",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "unrestricted preposed: loosely bouond funtion words"
+  },
+  {
+    "MorphemeClassID": 434,
+    "LID": 77,
+    "Glottocode": "fiji1243",
+    "Language": "Fijian (Boumaa)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "unrestricted preposed: loosely bouond funtion words"
+  },
+  {
+    "MorphemeClassID": 435,
+    "LID": 77,
+    "Glottocode": "fiji1243",
+    "Language": "Fijian (Boumaa)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "unrestricted preposed: loosely bouond funtion words"
+  },
+  {
+    "MorphemeClassID": 436,
+    "LID": 77,
+    "Glottocode": "fiji1243",
+    "Language": "Fijian (Boumaa)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "unrestricted preposed: loosely bouond funtion words"
+  },
+  {
+    "MorphemeClassID": 437,
+    "LID": 502,
+    "Glottocode": "nucl1301",
+    "Language": "Turkish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Pos1: prefixed reduplicative\rPos3: suffixes\rPos4: -lar PL on nouns and verbs (with verbs only in 3rd person)\rPos5: -mi Q on just about any stem (and other clitics)\r(Revised by René 10-17-2006)"
+  },
+  {
+    "MorphemeClassID": 438,
+    "LID": 502,
+    "Glottocode": "nucl1301",
+    "Language": "Turkish",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Pos1: prefixed reduplicative\rPos3: suffixes\rPos4: -lar PL on nouns and verbs (with verbs only in 3rd person)\rPos5: -mi Q on just about any stem (and other clitics)\r(Revised by René 10-17-2006)"
+  },
+  {
+    "MorphemeClassID": 439,
+    "LID": 502,
+    "Glottocode": "nucl1301",
+    "Language": "Turkish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Pos1: prefixed reduplicative\rPos3: suffixes\rPos4: -lar PL on nouns and verbs (with verbs only in 3rd person)\rPos5: -mi Q on just about any stem (and other clitics)\r(Revised by René 10-17-2006)"
+  },
+  {
+    "MorphemeClassID": 440,
+    "LID": 502,
+    "Glottocode": "nucl1301",
+    "Language": "Turkish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "Pos1: prefixed reduplicative\rPos3: suffixes\rPos4: -lar PL on nouns and verbs (with verbs only in 3rd person)\rPos5: -mi Q on just about any stem (and other clitics)\r(Revised by René 10-17-2006)"
+  },
+  {
+    "MorphemeClassID": 441,
+    "LID": 502,
+    "Glottocode": "nucl1301",
+    "Language": "Turkish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Pos1: prefixed reduplicative\rPos3: suffixes\rPos4: -lar PL on nouns and verbs (with verbs only in 3rd person)\rPos5: -mi Q on just about any stem (and other clitics)\r(Revised by René 10-17-2006)"
+  },
+  {
+    "MorphemeClassID": 442,
+    "LID": 99,
+    "Glottocode": "hind1269",
+    "Language": "Hindi",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "possible postposed semirestricted: -vālā ASSOCIATED.PERSON\rwith nouns and nominalized verbs"
+  },
+  {
+    "MorphemeClassID": 443,
+    "LID": 99,
+    "Glottocode": "hind1269",
+    "Language": "Hindi",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "possible postposed semirestricted: -vālā ASSOCIATED.PERSON\rwith nouns and nominalized verbs"
+  },
+  {
+    "MorphemeClassID": 444,
+    "LID": 99,
+    "Glottocode": "hind1269",
+    "Language": "Hindi",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "possible postposed semirestricted: -vālā ASSOCIATED.PERSON\rwith nouns and nominalized verbs"
+  },
+  {
+    "MorphemeClassID": 445,
+    "LID": 99,
+    "Glottocode": "hind1269",
+    "Language": "Hindi",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "possible postposed semirestricted: -vālā ASSOCIATED.PERSON\rwith nouns and nominalized verbs"
+  },
+  {
+    "MorphemeClassID": 446,
+    "LID": 580,
+    "Glottocode": "yidi1250",
+    "Language": "Yidiny",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "not sure if other morpheme types"
+  },
+  {
+    "MorphemeClassID": 447,
+    "LID": 580,
+    "Glottocode": "yidi1250",
+    "Language": "Yidiny",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "not sure if other morpheme types"
+  },
+  {
+    "MorphemeClassID": 448,
+    "LID": 580,
+    "Glottocode": "yidi1250",
+    "Language": "Yidiny",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "not sure if other morpheme types"
+  },
+  {
+    "MorphemeClassID": 449,
+    "LID": 188,
+    "Glottocode": "halh1238",
+    "Language": "Mongolian (Khalkha)",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "postposed semirestricted: -nee GEN with verbs and nouns"
+  },
+  {
+    "MorphemeClassID": 450,
+    "LID": 188,
+    "Glottocode": "halh1238",
+    "Language": "Mongolian (Khalkha)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "postposed semirestricted: -nee GEN with verbs and nouns"
+  },
+  {
+    "MorphemeClassID": 451,
+    "LID": 188,
+    "Glottocode": "halh1238",
+    "Language": "Mongolian (Khalkha)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "postposed semirestricted: -nee GEN with verbs and nouns"
+  },
+  {
+    "MorphemeClassID": 452,
+    "LID": 64,
+    "Glottocode": "dier1241",
+    "Language": "Diyari",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "postposed semirestricted: -yiʈa HABIT (habitual association)\rwith demonstrative, noun, adjective"
+  },
+  {
+    "MorphemeClassID": 453,
+    "LID": 64,
+    "Glottocode": "dier1241",
+    "Language": "Diyari",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "postposed semirestricted: -yiʈa HABIT (habitual association)\rwith demonstrative, noun, adjective"
+  },
+  {
+    "MorphemeClassID": 454,
+    "LID": 64,
+    "Glottocode": "dier1241",
+    "Language": "Diyari",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "postposed semirestricted: -yiʈa HABIT (habitual association)\rwith demonstrative, noun, adjective"
+  },
+  {
+    "MorphemeClassID": 455,
+    "LID": 78,
+    "Glottocode": "finn1318",
+    "Language": "Finnish",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "postposed unrestricted: -ko Question (but maybe 2nd position within clause?)"
+  },
+  {
+    "MorphemeClassID": 456,
+    "LID": 78,
+    "Glottocode": "finn1318",
+    "Language": "Finnish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "postposed unrestricted: -ko Question (but maybe 2nd position within clause?)"
+  },
+  {
+    "MorphemeClassID": 457,
+    "LID": 78,
+    "Glottocode": "finn1318",
+    "Language": "Finnish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "postposed unrestricted: -ko Question (but maybe 2nd position within clause?)"
+  },
+  {
+    "MorphemeClassID": 458,
+    "LID": 101,
+    "Glottocode": "hixk1239",
+    "Language": "Hixkaryana",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "semirestricted postposed: -rha AGAIN\rattaches to verbs and nouns (?) like ‘other’"
+  },
+  {
+    "MorphemeClassID": 459,
+    "LID": 101,
+    "Glottocode": "hixk1239",
+    "Language": "Hixkaryana",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "semirestricted postposed: -rha AGAIN\rattaches to verbs and nouns (?) like ‘other’"
+  },
+  {
+    "MorphemeClassID": 460,
+    "LID": 101,
+    "Glottocode": "hixk1239",
+    "Language": "Hixkaryana",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "semirestricted postposed: -rha AGAIN\rattaches to verbs and nouns (?) like ‘other’"
+  },
+  {
+    "MorphemeClassID": 461,
+    "LID": 101,
+    "Glottocode": "hixk1239",
+    "Language": "Hixkaryana",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "semirestricted postposed: -rha AGAIN\rattaches to verbs and nouns (?) like ‘other’"
+  },
+  {
+    "MorphemeClassID": 462,
+    "LID": 101,
+    "Glottocode": "hixk1239",
+    "Language": "Hixkaryana",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "semirestricted postposed: -rha AGAIN\rattaches to verbs and nouns (?) like ‘other’"
+  },
+  {
+    "MorphemeClassID": 463,
+    "LID": 130,
+    "Glottocode": "west2599",
+    "Language": "Kewa",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Not sure if ma- CAUS is a semi-restricted preposed formative.  Data in report show it on adjective and verb, but the adjectives look like verb stems (verbal property concepts) from other morphology\rPostposed semirestricted formative: -pe FOR occurs with verb and noun"
+  },
+  {
+    "MorphemeClassID": 464,
+    "LID": 130,
+    "Glottocode": "west2599",
+    "Language": "Kewa",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Not sure if ma- CAUS is a semi-restricted preposed formative.  Data in report show it on adjective and verb, but the adjectives look like verb stems (verbal property concepts) from other morphology\rPostposed semirestricted formative: -pe FOR occurs with verb and noun"
+  },
+  {
+    "MorphemeClassID": 465,
+    "LID": 130,
+    "Glottocode": "west2599",
+    "Language": "Kewa",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Not sure if ma- CAUS is a semi-restricted preposed formative.  Data in report show it on adjective and verb, but the adjectives look like verb stems (verbal property concepts) from other morphology\rPostposed semirestricted formative: -pe FOR occurs with verb and noun"
+  },
+  {
+    "MorphemeClassID": 466,
+    "LID": 130,
+    "Glottocode": "west2599",
+    "Language": "Kewa",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "Not sure if ma- CAUS is a semi-restricted preposed formative.  Data in report show it on adjective and verb, but the adjectives look like verb stems (verbal property concepts) from other morphology\rPostposed semirestricted formative: -pe FOR occurs with verb and noun"
+  },
+  {
+    "MorphemeClassID": 467,
+    "LID": 538,
+    "Glottocode": "east2342",
+    "Language": "Kayah Li (Eastern)",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "restricted preposed: ʔi- TOOL on verbs (a nominalizer with tool semantics, it seems)\rrestricted postposed: -(ph)ú DIM (marginal use on nouns only--perhaps the only suffix in lg.)\rsemirestricted postposed: negative particle to"
+  },
+  {
+    "MorphemeClassID": 468,
+    "LID": 538,
+    "Glottocode": "east2342",
+    "Language": "Kayah Li (Eastern)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "restricted preposed: ʔi- TOOL on verbs (a nominalizer with tool semantics, it seems)\rrestricted postposed: -(ph)ú DIM (marginal use on nouns only--perhaps the only suffix in lg.)\rsemirestricted postposed: negative particle to"
+  },
+  {
+    "MorphemeClassID": 469,
+    "LID": 538,
+    "Glottocode": "east2342",
+    "Language": "Kayah Li (Eastern)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "restricted preposed: ʔi- TOOL on verbs (a nominalizer with tool semantics, it seems)\rrestricted postposed: -(ph)ú DIM (marginal use on nouns only--perhaps the only suffix in lg.)\rsemirestricted postposed: negative particle to"
+  },
+  {
+    "MorphemeClassID": 470,
+    "LID": 538,
+    "Glottocode": "east2342",
+    "Language": "Kayah Li (Eastern)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "restricted preposed: ʔi- TOOL on verbs (a nominalizer with tool semantics, it seems)\rrestricted postposed: -(ph)ú DIM (marginal use on nouns only--perhaps the only suffix in lg.)\rsemirestricted postposed: negative particle to"
+  },
+  {
+    "MorphemeClassID": 471,
+    "LID": 674,
+    "Glottocode": "limb1266",
+    "Language": "Limbu",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "postposed semi/unrestricted -i: QUESTION (verbs, nouns, quantifiers)\rcircum (pref-stem-suffix): mɛ-STEM-n NEGATION & ku-STEM-la COLOR"
+  },
+  {
+    "MorphemeClassID": 472,
+    "LID": 674,
+    "Glottocode": "limb1266",
+    "Language": "Limbu",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "postposed semi/unrestricted -i: QUESTION (verbs, nouns, quantifiers)\rcircum (pref-stem-suffix): mɛ-STEM-n NEGATION & ku-STEM-la COLOR"
+  },
+  {
+    "MorphemeClassID": 473,
+    "LID": 674,
+    "Glottocode": "limb1266",
+    "Language": "Limbu",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "postposed semi/unrestricted -i: QUESTION (verbs, nouns, quantifiers)\rcircum (pref-stem-suffix): mɛ-STEM-n NEGATION & ku-STEM-la COLOR"
+  },
+  {
+    "MorphemeClassID": 474,
+    "LID": 674,
+    "Glottocode": "limb1266",
+    "Language": "Limbu",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "postposed semi/unrestricted -i: QUESTION (verbs, nouns, quantifiers)\rcircum (pref-stem-suffix): mɛ-STEM-n NEGATION & ku-STEM-la COLOR"
+  },
+  {
+    "MorphemeClassID": 475,
+    "LID": 176,
+    "Glottocode": "mapu1245",
+    "Language": "Mapudungun",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "postposed semi-restricted: -pe DUBITATIVE (occurs on nouns, verbs)"
+  },
+  {
+    "MorphemeClassID": 476,
+    "LID": 176,
+    "Glottocode": "mapu1245",
+    "Language": "Mapudungun",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "postposed semi-restricted: -pe DUBITATIVE (occurs on nouns, verbs)"
+  },
+  {
+    "MorphemeClassID": 477,
+    "LID": 176,
+    "Glottocode": "mapu1245",
+    "Language": "Mapudungun",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "postposed semi-restricted: -pe DUBITATIVE (occurs on nouns, verbs)"
+  },
+  {
+    "MorphemeClassID": 478,
+    "LID": 463,
+    "Glottocode": "nucl1310",
+    "Language": "Burmese",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "In main clauses, this looks more like a circumfix:\rmə- pauʔ-p’ù-là\rNEG-grow-NEG-Q\r‘Don’t they grow there?’ (p. 205): Wheatley calls the first piece an enclitic\rmaybe interrogative -là or DOUBT -nɔ; Wheatly calls these sentence level, but I’m not really sure of co-occurrence restrictions. (p. 204)"
+  },
+  {
+    "MorphemeClassID": 479,
+    "LID": 463,
+    "Glottocode": "nucl1310",
+    "Language": "Burmese",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "In main clauses, this looks more like a circumfix:\rmə- pauʔ-p’ù-là\rNEG-grow-NEG-Q\r‘Don’t they grow there?’ (p. 205): Wheatley calls the first piece an enclitic\rmaybe interrogative -là or DOUBT -nɔ; Wheatly calls these sentence level, but I’m not really sure of co-occurrence restrictions. (p. 204)"
+  },
+  {
+    "MorphemeClassID": 480,
+    "LID": 463,
+    "Glottocode": "nucl1310",
+    "Language": "Burmese",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "In main clauses, this looks more like a circumfix:\rmə- pauʔ-p’ù-là\rNEG-grow-NEG-Q\r‘Don’t they grow there?’ (p. 205): Wheatley calls the first piece an enclitic\rmaybe interrogative -là or DOUBT -nɔ; Wheatly calls these sentence level, but I’m not really sure of co-occurrence restrictions. (p. 204)"
+  },
+  {
+    "MorphemeClassID": 481,
+    "LID": 463,
+    "Glottocode": "nucl1310",
+    "Language": "Burmese",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "In main clauses, this looks more like a circumfix:\rmə- pauʔ-p’ù-là\rNEG-grow-NEG-Q\r‘Don’t they grow there?’ (p. 205): Wheatley calls the first piece an enclitic\rmaybe interrogative -là or DOUBT -nɔ; Wheatly calls these sentence level, but I’m not really sure of co-occurrence restrictions. (p. 204)"
+  },
+  {
+    "MorphemeClassID": 482,
+    "LID": 179,
+    "Glottocode": "mart1255",
+    "Language": "Martuthunira",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 483,
+    "LID": 179,
+    "Glottocode": "mart1255",
+    "Language": "Martuthunira",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 484,
+    "LID": 179,
+    "Glottocode": "mart1255",
+    "Language": "Martuthunira",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 485,
+    "LID": 179,
+    "Glottocode": "mart1255",
+    "Language": "Martuthunira",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 486,
+    "LID": 107,
+    "Glottocode": "hung1274",
+    "Language": "Hungarian",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 487,
+    "LID": 107,
+    "Glottocode": "hung1274",
+    "Language": "Hungarian",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 488,
+    "LID": 107,
+    "Glottocode": "hung1274",
+    "Language": "Hungarian",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 489,
+    "LID": 107,
+    "Glottocode": "hung1274",
+    "Language": "Hungarian",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 490,
+    "LID": 79,
+    "Glottocode": "stan1290",
+    "Language": "French (colloquial)",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "the post (super-restricted) is suffix part of circumfix negation, where the ne preposed formative marginally used\rShould this negation then be coded differently? i.e. 1 prae super-restricted in addition to prae restricted?"
+  },
+  {
+    "MorphemeClassID": 491,
+    "LID": 79,
+    "Glottocode": "stan1290",
+    "Language": "French (colloquial)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "the post (super-restricted) is suffix part of circumfix negation, where the ne preposed formative marginally used\rShould this negation then be coded differently? i.e. 1 prae super-restricted in addition to prae restricted?"
+  },
+  {
+    "MorphemeClassID": 492,
+    "LID": 79,
+    "Glottocode": "stan1290",
+    "Language": "French (colloquial)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "the post (super-restricted) is suffix part of circumfix negation, where the ne preposed formative marginally used\rShould this negation then be coded differently? i.e. 1 prae super-restricted in addition to prae restricted?"
+  },
+  {
+    "MorphemeClassID": 493,
+    "LID": 79,
+    "Glottocode": "stan1290",
+    "Language": "French (colloquial)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "Part circum/simulfix",
+    "Notes": "the post (super-restricted) is suffix part of circumfix negation, where the ne preposed formative marginally used\rShould this negation then be coded differently? i.e. 1 prae super-restricted in addition to prae restricted?"
+  },
+  {
+    "MorphemeClassID": 494,
+    "LID": 464,
+    "Glottocode": "mode1248",
+    "Language": "Greek (modern)",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "are ‘weak’ pronouns really ‘clitics’?  Not sure if they should be included in this inventory.  Currently they are, and they are also in P-domain records.  If the ‘proclitic’ formative is removed, then the p-domain records should also be revised."
+  },
+  {
+    "MorphemeClassID": 495,
+    "LID": 464,
+    "Glottocode": "mode1248",
+    "Language": "Greek (modern)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "are ‘weak’ pronouns really ‘clitics’?  Not sure if they should be included in this inventory.  Currently they are, and they are also in P-domain records.  If the ‘proclitic’ formative is removed, then the p-domain records should also be revised."
+  },
+  {
+    "MorphemeClassID": 496,
+    "LID": 464,
+    "Glottocode": "mode1248",
+    "Language": "Greek (modern)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "are ‘weak’ pronouns really ‘clitics’?  Not sure if they should be included in this inventory.  Currently they are, and they are also in P-domain records.  If the ‘proclitic’ formative is removed, then the p-domain records should also be revised."
+  },
+  {
+    "MorphemeClassID": 497,
+    "LID": 464,
+    "Glottocode": "mode1248",
+    "Language": "Greek (modern)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "are ‘weak’ pronouns really ‘clitics’?  Not sure if they should be included in this inventory.  Currently they are, and they are also in P-domain records.  If the ‘proclitic’ formative is removed, then the p-domain records should also be revised."
+  },
+  {
+    "MorphemeClassID": 498,
+    "LID": 682,
+    "Glottocode": "yuca1254",
+    "Language": "Yucatec",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "any unrestricted/semirestricted particles?"
+  },
+  {
+    "MorphemeClassID": 499,
+    "LID": 682,
+    "Glottocode": "yuca1254",
+    "Language": "Yucatec",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "any unrestricted/semirestricted particles?"
+  },
+  {
+    "MorphemeClassID": 500,
+    "LID": 682,
+    "Glottocode": "yuca1254",
+    "Language": "Yucatec",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "any unrestricted/semirestricted particles?"
+  },
+  {
+    "MorphemeClassID": 501,
+    "LID": 1739,
+    "Glottocode": "kusu1250",
+    "Language": "Kusunda",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Watters 2005; do not appear to be semi/unrestricted particles"
+  },
+  {
+    "MorphemeClassID": 502,
+    "LID": 1739,
+    "Glottocode": "kusu1250",
+    "Language": "Kusunda",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Watters 2005; do not appear to be semi/unrestricted particles"
+  },
+  {
+    "MorphemeClassID": 503,
+    "LID": 1739,
+    "Glottocode": "kusu1250",
+    "Language": "Kusunda",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Watters 2005; do not appear to be semi/unrestricted particles"
+  },
+  {
+    "MorphemeClassID": 504,
+    "LID": 199,
+    "Glottocode": "nama1264",
+    "Language": "Nama",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Not sure about status of the postposed unrestricted formative--need more information"
+  },
+  {
+    "MorphemeClassID": 505,
+    "LID": 199,
+    "Glottocode": "nama1264",
+    "Language": "Nama",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Not sure about status of the postposed unrestricted formative--need more information"
+  },
+  {
+    "MorphemeClassID": 506,
+    "LID": 199,
+    "Glottocode": "nama1264",
+    "Language": "Nama",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Not sure about status of the postposed unrestricted formative--need more information"
+  },
+  {
+    "MorphemeClassID": 507,
+    "LID": 199,
+    "Glottocode": "nama1264",
+    "Language": "Nama",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Not sure about status of the postposed unrestricted formative--need more information"
+  },
+  {
+    "MorphemeClassID": 508,
+    "LID": 165,
+    "Glottocode": "gand1255",
+    "Language": "Luganda",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Need to be sure the semi-restricted preposed & postposed formatives are accurate"
+  },
+  {
+    "MorphemeClassID": 509,
+    "LID": 165,
+    "Glottocode": "gand1255",
+    "Language": "Luganda",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Need to be sure the semi-restricted preposed & postposed formatives are accurate"
+  },
+  {
+    "MorphemeClassID": 510,
+    "LID": 165,
+    "Glottocode": "gand1255",
+    "Language": "Luganda",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Need to be sure the semi-restricted preposed & postposed formatives are accurate"
+  },
+  {
+    "MorphemeClassID": 511,
+    "LID": 165,
+    "Glottocode": "gand1255",
+    "Language": "Luganda",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "Need to be sure the semi-restricted preposed & postposed formatives are accurate"
+  },
+  {
+    "MorphemeClassID": 512,
+    "LID": 165,
+    "Glottocode": "gand1255",
+    "Language": "Luganda",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "Need to be sure the semi-restricted preposed & postposed formatives are accurate"
+  },
+  {
+    "MorphemeClassID": 513,
+    "LID": 389,
+    "Glottocode": "udii1243",
+    "Language": "Udi",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Not sure if there are pro-formatives"
+  },
+  {
+    "MorphemeClassID": 514,
+    "LID": 389,
+    "Glottocode": "udii1243",
+    "Language": "Udi",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Not sure if there are pro-formatives"
+  },
+  {
+    "MorphemeClassID": 515,
+    "LID": 389,
+    "Glottocode": "udii1243",
+    "Language": "Udi",
+    "MorphemeType": "formative",
+    "MorphemePosition": "in",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "Not sure if there are pro-formatives"
+  },
+  {
+    "MorphemeClassID": 516,
+    "LID": 74,
+    "Glottocode": "stan1293",
+    "Language": "English",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 517,
+    "LID": 74,
+    "Glottocode": "stan1293",
+    "Language": "English",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 518,
+    "LID": 74,
+    "Glottocode": "stan1293",
+    "Language": "English",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 519,
+    "LID": 74,
+    "Glottocode": "stan1293",
+    "Language": "English",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 520,
+    "LID": 1772,
+    "Glottocode": "gugu1255",
+    "Language": "Guugu Yimidhirr",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "The emphatidc -:gu (which causes stem vowel lengthening) is unrestricted, but data only with nouns, verbs.  Perhaps wider selectional distribution?"
+  },
+  {
+    "MorphemeClassID": 521,
+    "LID": 1772,
+    "Glottocode": "gugu1255",
+    "Language": "Guugu Yimidhirr",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "The emphatidc -:gu (which causes stem vowel lengthening) is unrestricted, but data only with nouns, verbs.  Perhaps wider selectional distribution?"
+  },
+  {
+    "MorphemeClassID": 522,
+    "LID": 1772,
+    "Glottocode": "gugu1255",
+    "Language": "Guugu Yimidhirr",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "The emphatidc -:gu (which causes stem vowel lengthening) is unrestricted, but data only with nouns, verbs.  Perhaps wider selectional distribution?"
+  },
+  {
+    "MorphemeClassID": 523,
+    "LID": 725,
+    "Glottocode": "ital1282",
+    "Language": "Italian",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Preposed restricted formatives are derivational morphemes\rNot sure if Italian has true ‘semi/unrestricted formatives’"
+  },
+  {
+    "MorphemeClassID": 524,
+    "LID": 725,
+    "Glottocode": "ital1282",
+    "Language": "Italian",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Preposed restricted formatives are derivational morphemes\rNot sure if Italian has true ‘semi/unrestricted formatives’"
+  },
+  {
+    "MorphemeClassID": 525,
+    "LID": 725,
+    "Glottocode": "ital1282",
+    "Language": "Italian",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Preposed restricted formatives are derivational morphemes\rNot sure if Italian has true ‘semi/unrestricted formatives’"
+  },
+  {
+    "MorphemeClassID": 526,
+    "LID": 420,
+    "Glottocode": "yima1243",
+    "Language": "Yimas",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Is there a circumfix?"
+  },
+  {
+    "MorphemeClassID": 527,
+    "LID": 420,
+    "Glottocode": "yima1243",
+    "Language": "Yimas",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Is there a circumfix?"
+  },
+  {
+    "MorphemeClassID": 528,
+    "LID": 420,
+    "Glottocode": "yima1243",
+    "Language": "Yimas",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Is there a circumfix?"
+  },
+  {
+    "MorphemeClassID": 529,
+    "LID": 2742,
+    "Glottocode": "wuch1236",
+    "Language": "Wu",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "The semi-restricted formatives: NEG, TOP, Question.\rAre they always preposed?  Perhaps position should be more accurate."
+  },
+  {
+    "MorphemeClassID": 530,
+    "LID": 2742,
+    "Glottocode": "wuch1236",
+    "Language": "Wu",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "The semi-restricted formatives: NEG, TOP, Question.\rAre they always preposed?  Perhaps position should be more accurate."
+  },
+  {
+    "MorphemeClassID": 531,
+    "LID": 2742,
+    "Glottocode": "wuch1236",
+    "Language": "Wu",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "The semi-restricted formatives: NEG, TOP, Question.\rAre they always preposed?  Perhaps position should be more accurate."
+  },
+  {
+    "MorphemeClassID": 532,
+    "LID": 2790,
+    "Glottocode": "yuec1235",
+    "Language": "Cantonese",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Postposed (?) semirestricted formatives: kɛ5 relativizer\rand utterance-final particle wɔ5"
+  },
+  {
+    "MorphemeClassID": 533,
+    "LID": 2790,
+    "Glottocode": "yuec1235",
+    "Language": "Cantonese",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Postposed (?) semirestricted formatives: kɛ5 relativizer\rand utterance-final particle wɔ5"
+  },
+  {
+    "MorphemeClassID": 534,
+    "LID": 2790,
+    "Glottocode": "yuec1235",
+    "Language": "Cantonese",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "Postposed (?) semirestricted formatives: kɛ5 relativizer\rand utterance-final particle wɔ5"
+  },
+  {
+    "MorphemeClassID": 535,
+    "LID": 2330,
+    "Glottocode": "poli1260",
+    "Language": "Polish",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "For P-domains records, prepositions are POSwds\rThey are: semi-restricted preposed POSwds--this means that they are grammatical heads (head of a PPhrase), but they are semi-restricted in occurrence--either before a lexical noun or a pronominal element (referred to as pronominal clitic in literature)"
+  },
+  {
+    "MorphemeClassID": 536,
+    "LID": 2330,
+    "Glottocode": "poli1260",
+    "Language": "Polish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "For P-domains records, prepositions are POSwds\rThey are: semi-restricted preposed POSwds--this means that they are grammatical heads (head of a PPhrase), but they are semi-restricted in occurrence--either before a lexical noun or a pronominal element (referred to as pronominal clitic in literature)"
+  },
+  {
+    "MorphemeClassID": 537,
+    "LID": 2330,
+    "Glottocode": "poli1260",
+    "Language": "Polish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "For P-domains records, prepositions are POSwds\rThey are: semi-restricted preposed POSwds--this means that they are grammatical heads (head of a PPhrase), but they are semi-restricted in occurrence--either before a lexical noun or a pronominal element (referred to as pronominal clitic in literature)"
+  },
+  {
+    "MorphemeClassID": 538,
+    "LID": 2330,
+    "Glottocode": "poli1260",
+    "Language": "Polish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "For P-domains records, prepositions are POSwds\rThey are: semi-restricted preposed POSwds--this means that they are grammatical heads (head of a PPhrase), but they are semi-restricted in occurrence--either before a lexical noun or a pronominal element (referred to as pronominal clitic in literature)"
+  },
+  {
+    "MorphemeClassID": 539,
+    "LID": 2330,
+    "Glottocode": "poli1260",
+    "Language": "Polish",
+    "MorphemeType": "PoSWd",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "For P-domains records, prepositions are POSwds\rThey are: semi-restricted preposed POSwds--this means that they are grammatical heads (head of a PPhrase), but they are semi-restricted in occurrence--either before a lexical noun or a pronominal element (referred to as pronominal clitic in literature)"
+  },
+  {
+    "MorphemeClassID": 540,
+    "LID": 456,
+    "Glottocode": "west2369",
+    "Language": "Persian",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "I have added preposed semi-restricted formative to account for proximal demonstrative.  Is this accurate?  Should it be unrestricted? Restricted?"
+  },
+  {
+    "MorphemeClassID": 541,
+    "LID": 456,
+    "Glottocode": "west2369",
+    "Language": "Persian",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "I have added preposed semi-restricted formative to account for proximal demonstrative.  Is this accurate?  Should it be unrestricted? Restricted?"
+  },
+  {
+    "MorphemeClassID": 542,
+    "LID": 456,
+    "Glottocode": "west2369",
+    "Language": "Persian",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "I have added preposed semi-restricted formative to account for proximal demonstrative.  Is this accurate?  Should it be unrestricted? Restricted?"
+  },
+  {
+    "MorphemeClassID": 543,
+    "LID": 456,
+    "Glottocode": "west2369",
+    "Language": "Persian",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "I have added preposed semi-restricted formative to account for proximal demonstrative.  Is this accurate?  Should it be unrestricted? Restricted?"
+  },
+  {
+    "MorphemeClassID": 544,
+    "LID": 456,
+    "Glottocode": "west2369",
+    "Language": "Persian",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "I have added preposed semi-restricted formative to account for proximal demonstrative.  Is this accurate?  Should it be unrestricted? Restricted?"
+  },
+  {
+    "MorphemeClassID": 545,
+    "LID": 435,
+    "Glottocode": "iris1253",
+    "Language": "Irish",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 546,
+    "LID": 435,
+    "Glottocode": "iris1253",
+    "Language": "Irish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 547,
+    "LID": 435,
+    "Glottocode": "iris1253",
+    "Language": "Irish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 548,
+    "LID": 435,
+    "Glottocode": "iris1253",
+    "Language": "Irish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "Part circum/simulfix",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 549,
+    "LID": 435,
+    "Glottocode": "iris1253",
+    "Language": "Irish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "Part circum/simulfix",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 550,
+    "LID": 435,
+    "Glottocode": "iris1253",
+    "Language": "Irish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 551,
+    "LID": 435,
+    "Glottocode": "iris1253",
+    "Language": "Irish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 552,
+    "LID": 1890,
+    "Glottocode": "lith1251",
+    "Language": "Lithuanian",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "For No. 3:  Reflexive marker is postposed restricted, but may also be preposed when occurring with verbs that also have a derivational prefix. Maybe to be changed later."
+  },
+  {
+    "MorphemeClassID": 553,
+    "LID": 1890,
+    "Glottocode": "lith1251",
+    "Language": "Lithuanian",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "For No. 3:  Reflexive marker is postposed restricted, but may also be preposed when occurring with verbs that also have a derivational prefix. Maybe to be changed later."
+  },
+  {
+    "MorphemeClassID": 554,
+    "LID": 1890,
+    "Glottocode": "lith1251",
+    "Language": "Lithuanian",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "For No. 3:  Reflexive marker is postposed restricted, but may also be preposed when occurring with verbs that also have a derivational prefix. Maybe to be changed later."
+  },
+  {
+    "MorphemeClassID": 555,
+    "LID": 1890,
+    "Glottocode": "lith1251",
+    "Language": "Lithuanian",
+    "MorphemeType": "formative",
+    "MorphemePosition": "in",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "For No. 3:  Reflexive marker is postposed restricted, but may also be preposed when occurring with verbs that also have a derivational prefix. Maybe to be changed later."
+  },
+  {
+    "MorphemeClassID": 556,
+    "LID": 464,
+    "Glottocode": "mode1248",
+    "Language": "Greek (modern)",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "For No. 4:  object agr. clitic that changes position from pro- to en- depending on finiteness of the verb; maybe to be changed later."
+  },
+  {
+    "MorphemeClassID": 557,
+    "LID": 464,
+    "Glottocode": "mode1248",
+    "Language": "Greek (modern)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted: Head",
+    "Notes": "For No. 4:  object agr. clitic that changes position from pro- to en- depending on finiteness of the verb; maybe to be changed later."
+  },
+  {
+    "MorphemeClassID": 558,
+    "LID": 464,
+    "Glottocode": "mode1248",
+    "Language": "Greek (modern)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted: Head",
+    "Notes": "For No. 4:  object agr. clitic that changes position from pro- to en- depending on finiteness of the verb; maybe to be changed later."
+  },
+  {
+    "MorphemeClassID": 559,
+    "LID": 464,
+    "Glottocode": "mode1248",
+    "Language": "Greek (modern)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "For No. 4:  object agr. clitic that changes position from pro- to en- depending on finiteness of the verb; maybe to be changed later."
+  },
+  {
+    "MorphemeClassID": 560,
+    "LID": 569,
+    "Glottocode": "stan1288",
+    "Language": "Spanish",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Preposed phrase-restricted: preposition (also de preposition), NEG ‘no’--preposed before VP.\rThese are things that show up in literature as romance clitics: they are phonologicaly weak (but NEG can take contrastive stress) and they have a small syllable structure: (C)V.  Most lexical items in Spanish I think are minimally VC"
+  },
+  {
+    "MorphemeClassID": 561,
+    "LID": 569,
+    "Glottocode": "stan1288",
+    "Language": "Spanish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Preposed phrase-restricted: preposition (also de preposition), NEG ‘no’--preposed before VP.\rThese are things that show up in literature as romance clitics: they are phonologicaly weak (but NEG can take contrastive stress) and they have a small syllable structure: (C)V.  Most lexical items in Spanish I think are minimally VC"
+  },
+  {
+    "MorphemeClassID": 562,
+    "LID": 569,
+    "Glottocode": "stan1288",
+    "Language": "Spanish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Preposed phrase-restricted: preposition (also de preposition), NEG ‘no’--preposed before VP.\rThese are things that show up in literature as romance clitics: they are phonologicaly weak (but NEG can take contrastive stress) and they have a small syllable structure: (C)V.  Most lexical items in Spanish I think are minimally VC"
+  },
+  {
+    "MorphemeClassID": 563,
+    "LID": 569,
+    "Glottocode": "stan1288",
+    "Language": "Spanish",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted: Phrase",
+    "Notes": "Preposed phrase-restricted: preposition (also de preposition), NEG ‘no’--preposed before VP.\rThese are things that show up in literature as romance clitics: they are phonologicaly weak (but NEG can take contrastive stress) and they have a small syllable structure: (C)V.  Most lexical items in Spanish I think are minimally VC"
+  },
+  {
+    "MorphemeClassID": 564,
+    "LID": 798,
+    "Glottocode": "balk1252",
+    "Language": "Romani (Sepecides)",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Residual issues:\rthe subjunctive/conditional marker ‘ti’ is called a particle, but it behaves like a prefix (restricted preposed).  If it is truly a particle, we might want to add a semi-restricted preposed formative to the inventory\rThe same for the negation particle ma, which behaves like a prefix (restricted)\rData from Chech, P. & M.F. Heinschink.  1999.  Sepečides Romani.  Harrassowitz Verlag (Wiesbaden)"
+  },
+  {
+    "MorphemeClassID": 565,
+    "LID": 798,
+    "Glottocode": "balk1252",
+    "Language": "Romani (Sepecides)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Residual issues:\rthe subjunctive/conditional marker ‘ti’ is called a particle, but it behaves like a prefix (restricted preposed).  If it is truly a particle, we might want to add a semi-restricted preposed formative to the inventory\rThe same for the negation particle ma, which behaves like a prefix (restricted)\rData from Chech, P. & M.F. Heinschink.  1999.  Sepečides Romani.  Harrassowitz Verlag (Wiesbaden)"
+  },
+  {
+    "MorphemeClassID": 566,
+    "LID": 798,
+    "Glottocode": "balk1252",
+    "Language": "Romani (Sepecides)",
+    "MorphemeType": "PoSWd",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "Residual issues:\rthe subjunctive/conditional marker ‘ti’ is called a particle, but it behaves like a prefix (restricted preposed).  If it is truly a particle, we might want to add a semi-restricted preposed formative to the inventory\rThe same for the negation particle ma, which behaves like a prefix (restricted)\rData from Chech, P. & M.F. Heinschink.  1999.  Sepečides Romani.  Harrassowitz Verlag (Wiesbaden)"
+  },
+  {
+    "MorphemeClassID": 567,
+    "LID": 798,
+    "Glottocode": "balk1252",
+    "Language": "Romani (Sepecides)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Residual issues:\rthe subjunctive/conditional marker ‘ti’ is called a particle, but it behaves like a prefix (restricted preposed).  If it is truly a particle, we might want to add a semi-restricted preposed formative to the inventory\rThe same for the negation particle ma, which behaves like a prefix (restricted)\rData from Chech, P. & M.F. Heinschink.  1999.  Sepečides Romani.  Harrassowitz Verlag (Wiesbaden)"
+  },
+  {
+    "MorphemeClassID": 568,
+    "LID": 528,
+    "Glottocode": "garo1247",
+    "Language": "Garo",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Pos3 includes case markers such as -o LOC and clause-final clitics like =ma Yes-No-Question marker"
+  },
+  {
+    "MorphemeClassID": 569,
+    "LID": 528,
+    "Glottocode": "garo1247",
+    "Language": "Garo",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Pos3 includes case markers such as -o LOC and clause-final clitics like =ma Yes-No-Question marker"
+  },
+  {
+    "MorphemeClassID": 570,
+    "LID": 528,
+    "Glottocode": "garo1247",
+    "Language": "Garo",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Pos3 includes case markers such as -o LOC and clause-final clitics like =ma Yes-No-Question marker"
+  },
+  {
+    "MorphemeClassID": 571,
+    "LID": 528,
+    "Glottocode": "garo1247",
+    "Language": "Garo",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Pos3 includes case markers such as -o LOC and clause-final clitics like =ma Yes-No-Question marker"
+  },
+  {
+    "MorphemeClassID": 572,
+    "LID": 722,
+    "Glottocode": "nort2722",
+    "Language": "Qiang (Northern)",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 573,
+    "LID": 722,
+    "Glottocode": "nort2722",
+    "Language": "Qiang (Northern)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 574,
+    "LID": 722,
+    "Glottocode": "nort2722",
+    "Language": "Qiang (Northern)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 575,
+    "LID": 722,
+    "Glottocode": "nort2722",
+    "Language": "Qiang (Northern)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 576,
+    "LID": 44,
+    "Glottocode": "carn1240",
+    "Language": "Car",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 577,
+    "LID": 44,
+    "Glottocode": "carn1240",
+    "Language": "Car",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 578,
+    "LID": 44,
+    "Glottocode": "carn1240",
+    "Language": "Car",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 579,
+    "LID": 44,
+    "Glottocode": "carn1240",
+    "Language": "Car",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 580,
+    "LID": 44,
+    "Glottocode": "carn1240",
+    "Language": "Car",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 581,
+    "LID": 44,
+    "Glottocode": "carn1240",
+    "Language": "Car",
+    "MorphemeType": "formative",
+    "MorphemePosition": "in",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 582,
+    "LID": 40,
+    "Glottocode": "buru1296",
+    "Language": "Burushaski",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 583,
+    "LID": 40,
+    "Glottocode": "buru1296",
+    "Language": "Burushaski",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 584,
+    "LID": 40,
+    "Glottocode": "buru1296",
+    "Language": "Burushaski",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 585,
+    "LID": 40,
+    "Glottocode": "buru1296",
+    "Language": "Burushaski",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 586,
+    "LID": 1750,
+    "Glottocode": "khar1287",
+    "Language": "Kharia",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "ad POS 4: prefix with monosyllabic roots, infix with polysyllabic roots (in some cases both pre- and infixed)\rNote: Presumably no suffixes in the language, only prefixes and enclitics"
+  },
+  {
+    "MorphemeClassID": 587,
+    "LID": 1750,
+    "Glottocode": "khar1287",
+    "Language": "Kharia",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "ad POS 4: prefix with monosyllabic roots, infix with polysyllabic roots (in some cases both pre- and infixed)\rNote: Presumably no suffixes in the language, only prefixes and enclitics"
+  },
+  {
+    "MorphemeClassID": 588,
+    "LID": 1750,
+    "Glottocode": "khar1287",
+    "Language": "Kharia",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "ad POS 4: prefix with monosyllabic roots, infix with polysyllabic roots (in some cases both pre- and infixed)\rNote: Presumably no suffixes in the language, only prefixes and enclitics"
+  },
+  {
+    "MorphemeClassID": 589,
+    "LID": 1750,
+    "Glottocode": "khar1287",
+    "Language": "Kharia",
+    "MorphemeType": "formative",
+    "MorphemePosition": "in",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "ad POS 4: prefix with monosyllabic roots, infix with polysyllabic roots (in some cases both pre- and infixed)\rNote: Presumably no suffixes in the language, only prefixes and enclitics"
+  },
+  {
+    "MorphemeClassID": 590,
+    "LID": 494,
+    "Glottocode": "viet1252",
+    "Language": "Vietnamese",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Based on Available Morpheme Types Information (Thomas Goldammer, 19.05.2005)"
+  },
+  {
+    "MorphemeClassID": 591,
+    "LID": 494,
+    "Glottocode": "viet1252",
+    "Language": "Vietnamese",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Based on Available Morpheme Types Information (Thomas Goldammer, 19.05.2005)"
+  },
+  {
+    "MorphemeClassID": 592,
+    "LID": 494,
+    "Glottocode": "viet1252",
+    "Language": "Vietnamese",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Based on Available Morpheme Types Information (Thomas Goldammer, 19.05.2005)"
+  },
+  {
+    "MorphemeClassID": 593,
+    "LID": 494,
+    "Glottocode": "viet1252",
+    "Language": "Vietnamese",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Based on Available Morpheme Types Information (Thomas Goldammer, 19.05.2005)"
+  },
+  {
+    "MorphemeClassID": 594,
+    "LID": 494,
+    "Glottocode": "viet1252",
+    "Language": "Vietnamese",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Based on Available Morpheme Types Information (Thomas Goldammer, 19.05.2005)"
+  },
+  {
+    "MorphemeClassID": 595,
+    "LID": 635,
+    "Glottocode": "sant1410",
+    "Language": "Santali",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "There are also Infixes in the derivation of nouns, but the process is not productive anymore and rather rare.\rThere are also Particles expressing a certain mode, doubt, exhortative: distribution is not entirely clear (maybe something like second position), however, different from Pos3."
+  },
+  {
+    "MorphemeClassID": 596,
+    "LID": 635,
+    "Glottocode": "sant1410",
+    "Language": "Santali",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "There are also Infixes in the derivation of nouns, but the process is not productive anymore and rather rare.\rThere are also Particles expressing a certain mode, doubt, exhortative: distribution is not entirely clear (maybe something like second position), however, different from Pos3."
+  },
+  {
+    "MorphemeClassID": 597,
+    "LID": 635,
+    "Glottocode": "sant1410",
+    "Language": "Santali",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "There are also Infixes in the derivation of nouns, but the process is not productive anymore and rather rare.\rThere are also Particles expressing a certain mode, doubt, exhortative: distribution is not entirely clear (maybe something like second position), however, different from Pos3."
+  },
+  {
+    "MorphemeClassID": 598,
+    "LID": 25,
+    "Glottocode": "nucl1235",
+    "Language": "Armenian (Eastern)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "The semi-restricted includes what Vaux (1998) calls enclitics (DEFINITE, 2nd/1st possessive pronominals ‘your’, ‘my’)\rMany (but not all, I think) dialects have at least one prefix.  The prefixes attested include:\rk- FUT\rg- PRES\rg- IMPER\rNOTE THAT THERE IS ANOTHER MORPHEME TYPES ENTRY FOR WESTERN ARMENIAN (LID 610).  VAUX’S GRAMMAR ALTERNATES BETWEEN THE EASTERN & WESTERN DIALECTS IN DESCRIPTION & ANALYSIS"
+  },
+  {
+    "MorphemeClassID": 599,
+    "LID": 25,
+    "Glottocode": "nucl1235",
+    "Language": "Armenian (Eastern)",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "The semi-restricted includes what Vaux (1998) calls enclitics (DEFINITE, 2nd/1st possessive pronominals ‘your’, ‘my’)\rMany (but not all, I think) dialects have at least one prefix.  The prefixes attested include:\rk- FUT\rg- PRES\rg- IMPER\rNOTE THAT THERE IS ANOTHER MORPHEME TYPES ENTRY FOR WESTERN ARMENIAN (LID 610).  VAUX’S GRAMMAR ALTERNATES BETWEEN THE EASTERN & WESTERN DIALECTS IN DESCRIPTION & ANALYSIS"
+  },
+  {
+    "MorphemeClassID": 600,
+    "LID": 25,
+    "Glottocode": "nucl1235",
+    "Language": "Armenian (Eastern)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "The semi-restricted includes what Vaux (1998) calls enclitics (DEFINITE, 2nd/1st possessive pronominals ‘your’, ‘my’)\rMany (but not all, I think) dialects have at least one prefix.  The prefixes attested include:\rk- FUT\rg- PRES\rg- IMPER\rNOTE THAT THERE IS ANOTHER MORPHEME TYPES ENTRY FOR WESTERN ARMENIAN (LID 610).  VAUX’S GRAMMAR ALTERNATES BETWEEN THE EASTERN & WESTERN DIALECTS IN DESCRIPTION & ANALYSIS"
+  },
+  {
+    "MorphemeClassID": 601,
+    "LID": 25,
+    "Glottocode": "nucl1235",
+    "Language": "Armenian (Eastern)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "The semi-restricted includes what Vaux (1998) calls enclitics (DEFINITE, 2nd/1st possessive pronominals ‘your’, ‘my’)\rMany (but not all, I think) dialects have at least one prefix.  The prefixes attested include:\rk- FUT\rg- PRES\rg- IMPER\rNOTE THAT THERE IS ANOTHER MORPHEME TYPES ENTRY FOR WESTERN ARMENIAN (LID 610).  VAUX’S GRAMMAR ALTERNATES BETWEEN THE EASTERN & WESTERN DIALECTS IN DESCRIPTION & ANALYSIS"
+  },
+  {
+    "MorphemeClassID": 602,
+    "LID": 610,
+    "Glottocode": "homs1234",
+    "Language": "Armenian (Western)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "The semi-restricted includes what Vaux (1998) calls enclitics (DEFINITE, 2nd/1st possessive pronominals ‘your’, ‘my’)\rMany (but not all, I think) dialects have at least one prefix.  The prefixes attested include:\rk- FUT\rg- PRES\rg- IMPER\rNOTE THAT THERE IS ANOTHER MORPHEME TYPES ENTRY FOR EASTERN ARMENIAN (LID 25).  VAUX’S GRAMMAR ALTERNATES BETWEEN THE EASTERN & WESTERN DIALECTS IN DESCRIPTION & ANALYSIS"
+  },
+  {
+    "MorphemeClassID": 603,
+    "LID": 610,
+    "Glottocode": "homs1234",
+    "Language": "Armenian (Western)",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "The semi-restricted includes what Vaux (1998) calls enclitics (DEFINITE, 2nd/1st possessive pronominals ‘your’, ‘my’)\rMany (but not all, I think) dialects have at least one prefix.  The prefixes attested include:\rk- FUT\rg- PRES\rg- IMPER\rNOTE THAT THERE IS ANOTHER MORPHEME TYPES ENTRY FOR EASTERN ARMENIAN (LID 25).  VAUX’S GRAMMAR ALTERNATES BETWEEN THE EASTERN & WESTERN DIALECTS IN DESCRIPTION & ANALYSIS"
+  },
+  {
+    "MorphemeClassID": 604,
+    "LID": 610,
+    "Glottocode": "homs1234",
+    "Language": "Armenian (Western)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "The semi-restricted includes what Vaux (1998) calls enclitics (DEFINITE, 2nd/1st possessive pronominals ‘your’, ‘my’)\rMany (but not all, I think) dialects have at least one prefix.  The prefixes attested include:\rk- FUT\rg- PRES\rg- IMPER\rNOTE THAT THERE IS ANOTHER MORPHEME TYPES ENTRY FOR EASTERN ARMENIAN (LID 25).  VAUX’S GRAMMAR ALTERNATES BETWEEN THE EASTERN & WESTERN DIALECTS IN DESCRIPTION & ANALYSIS"
+  },
+  {
+    "MorphemeClassID": 605,
+    "LID": 610,
+    "Glottocode": "homs1234",
+    "Language": "Armenian (Western)",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "The semi-restricted includes what Vaux (1998) calls enclitics (DEFINITE, 2nd/1st possessive pronominals ‘your’, ‘my’)\rMany (but not all, I think) dialects have at least one prefix.  The prefixes attested include:\rk- FUT\rg- PRES\rg- IMPER\rNOTE THAT THERE IS ANOTHER MORPHEME TYPES ENTRY FOR EASTERN ARMENIAN (LID 25).  VAUX’S GRAMMAR ALTERNATES BETWEEN THE EASTERN & WESTERN DIALECTS IN DESCRIPTION & ANALYSIS"
+  },
+  {
+    "MorphemeClassID": 606,
+    "LID": 566,
+    "Glottocode": "seme1247",
+    "Language": "Semelai",
+    "MorphemeType": "root",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Pos4: only two, both vowel-initial, cf. -(ʔ)iʔ ‘APPL/ITER’, -an ‘NMZ’.\rPos5: only one, cf. b-...-(ʔ)an ‘collective activity’.\rPos6: proclitics, unstressable; typically CV; some selective, some not, phrasal\rPos7: enclitics, unstressable; unselective; phrasal"
+  },
+  {
+    "MorphemeClassID": 607,
+    "LID": 566,
+    "Glottocode": "seme1247",
+    "Language": "Semelai",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Pos4: only two, both vowel-initial, cf. -(ʔ)iʔ ‘APPL/ITER’, -an ‘NMZ’.\rPos5: only one, cf. b-...-(ʔ)an ‘collective activity’.\rPos6: proclitics, unstressable; typically CV; some selective, some not, phrasal\rPos7: enclitics, unstressable; unselective; phrasal"
+  },
+  {
+    "MorphemeClassID": 608,
+    "LID": 566,
+    "Glottocode": "seme1247",
+    "Language": "Semelai",
+    "MorphemeType": "formative",
+    "MorphemePosition": "in",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Pos4: only two, both vowel-initial, cf. -(ʔ)iʔ ‘APPL/ITER’, -an ‘NMZ’.\rPos5: only one, cf. b-...-(ʔ)an ‘collective activity’.\rPos6: proclitics, unstressable; typically CV; some selective, some not, phrasal\rPos7: enclitics, unstressable; unselective; phrasal"
+  },
+  {
+    "MorphemeClassID": 609,
+    "LID": 566,
+    "Glottocode": "seme1247",
+    "Language": "Semelai",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Pos4: only two, both vowel-initial, cf. -(ʔ)iʔ ‘APPL/ITER’, -an ‘NMZ’.\rPos5: only one, cf. b-...-(ʔ)an ‘collective activity’.\rPos6: proclitics, unstressable; typically CV; some selective, some not, phrasal\rPos7: enclitics, unstressable; unselective; phrasal"
+  },
+  {
+    "MorphemeClassID": 610,
+    "LID": 566,
+    "Glottocode": "seme1247",
+    "Language": "Semelai",
+    "MorphemeType": "formative",
+    "MorphemePosition": "circum",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Pos4: only two, both vowel-initial, cf. -(ʔ)iʔ ‘APPL/ITER’, -an ‘NMZ’.\rPos5: only one, cf. b-...-(ʔ)an ‘collective activity’.\rPos6: proclitics, unstressable; typically CV; some selective, some not, phrasal\rPos7: enclitics, unstressable; unselective; phrasal"
+  },
+  {
+    "MorphemeClassID": 611,
+    "LID": 566,
+    "Glottocode": "seme1247",
+    "Language": "Semelai",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Pos4: only two, both vowel-initial, cf. -(ʔ)iʔ ‘APPL/ITER’, -an ‘NMZ’.\rPos5: only one, cf. b-...-(ʔ)an ‘collective activity’.\rPos6: proclitics, unstressable; typically CV; some selective, some not, phrasal\rPos7: enclitics, unstressable; unselective; phrasal"
+  },
+  {
+    "MorphemeClassID": 612,
+    "LID": 566,
+    "Glottocode": "seme1247",
+    "Language": "Semelai",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Pos4: only two, both vowel-initial, cf. -(ʔ)iʔ ‘APPL/ITER’, -an ‘NMZ’.\rPos5: only one, cf. b-...-(ʔ)an ‘collective activity’.\rPos6: proclitics, unstressable; typically CV; some selective, some not, phrasal\rPos7: enclitics, unstressable; unselective; phrasal"
+  },
+  {
+    "MorphemeClassID": 613,
+    "LID": 2268,
+    "Glottocode": "paco1243",
+    "Language": "Pacoh",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Pos2: e.g. dative and possessive prefixes on pronouns; two allomorphs each: one monosyllabic (with monosyllabic stems), the other disyllabic (with disyllabic stems)."
+  },
+  {
+    "MorphemeClassID": 614,
+    "LID": 2268,
+    "Glottocode": "paco1243",
+    "Language": "Pacoh",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Pos2: e.g. dative and possessive prefixes on pronouns; two allomorphs each: one monosyllabic (with monosyllabic stems), the other disyllabic (with disyllabic stems)."
+  },
+  {
+    "MorphemeClassID": 615,
+    "LID": 540,
+    "Glottocode": "khas1269",
+    "Language": "Khasi",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Pos5: clause-final clitics."
+  },
+  {
+    "MorphemeClassID": 616,
+    "LID": 540,
+    "Glottocode": "khas1269",
+    "Language": "Khasi",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Pos5: clause-final clitics."
+  },
+  {
+    "MorphemeClassID": 617,
+    "LID": 540,
+    "Glottocode": "khas1269",
+    "Language": "Khasi",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "Pos5: clause-final clitics."
+  },
+  {
+    "MorphemeClassID": 618,
+    "LID": 540,
+    "Glottocode": "khas1269",
+    "Language": "Khasi",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Pos5: clause-final clitics."
+  },
+  {
+    "MorphemeClassID": 619,
+    "LID": 540,
+    "Glottocode": "khas1269",
+    "Language": "Khasi",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Pos5: clause-final clitics."
+  },
+  {
+    "MorphemeClassID": 620,
+    "LID": 2047,
+    "Glottocode": "monn1252",
+    "Language": "Mon",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Pos2: causative prefixes on verbs, e.g. p-, pə-, hə-\rPos3: causative infix on verbs: -ə-\rPos4: periphrastic causative marker paʔ (auxiliary verb)\rPos5: phrase/clause-final clitics, e.g. topic/focus markers"
+  },
+  {
+    "MorphemeClassID": 621,
+    "LID": 2047,
+    "Glottocode": "monn1252",
+    "Language": "Mon",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Pos2: causative prefixes on verbs, e.g. p-, pə-, hə-\rPos3: causative infix on verbs: -ə-\rPos4: periphrastic causative marker paʔ (auxiliary verb)\rPos5: phrase/clause-final clitics, e.g. topic/focus markers"
+  },
+  {
+    "MorphemeClassID": 622,
+    "LID": 2047,
+    "Glottocode": "monn1252",
+    "Language": "Mon",
+    "MorphemeType": "formative",
+    "MorphemePosition": "in",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Pos2: causative prefixes on verbs, e.g. p-, pə-, hə-\rPos3: causative infix on verbs: -ə-\rPos4: periphrastic causative marker paʔ (auxiliary verb)\rPos5: phrase/clause-final clitics, e.g. topic/focus markers"
+  },
+  {
+    "MorphemeClassID": 623,
+    "LID": 2047,
+    "Glottocode": "monn1252",
+    "Language": "Mon",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "Pos2: causative prefixes on verbs, e.g. p-, pə-, hə-\rPos3: causative infix on verbs: -ə-\rPos4: periphrastic causative marker paʔ (auxiliary verb)\rPos5: phrase/clause-final clitics, e.g. topic/focus markers"
+  },
+  {
+    "MorphemeClassID": 624,
+    "LID": 2047,
+    "Glottocode": "monn1252",
+    "Language": "Mon",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Pos2: causative prefixes on verbs, e.g. p-, pə-, hə-\rPos3: causative infix on verbs: -ə-\rPos4: periphrastic causative marker paʔ (auxiliary verb)\rPos5: phrase/clause-final clitics, e.g. topic/focus markers"
+  },
+  {
+    "MorphemeClassID": 625,
+    "LID": 614,
+    "Glottocode": "cent1989",
+    "Language": "Cambodian",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Pos2: prefixes like p- have different functions on verbs and nouns, e.g. /dac/ ‘to break (intrans.) > /pdac/ ‘to break (trans.) vs. /ku:/ ‘a pair’ > /pku:/ ‘pair off’\rPos3: includes prefixed reduplicants, which appear with every word class\rPos4: derivational infixes on verbs\rPos5: very few, only derivation\rPos6: very few, only in derivation"
+  },
+  {
+    "MorphemeClassID": 626,
+    "LID": 614,
+    "Glottocode": "cent1989",
+    "Language": "Cambodian",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Pos2: prefixes like p- have different functions on verbs and nouns, e.g. /dac/ ‘to break (intrans.) > /pdac/ ‘to break (trans.) vs. /ku:/ ‘a pair’ > /pku:/ ‘pair off’\rPos3: includes prefixed reduplicants, which appear with every word class\rPos4: derivational infixes on verbs\rPos5: very few, only derivation\rPos6: very few, only in derivation"
+  },
+  {
+    "MorphemeClassID": 627,
+    "LID": 614,
+    "Glottocode": "cent1989",
+    "Language": "Cambodian",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Pos2: prefixes like p- have different functions on verbs and nouns, e.g. /dac/ ‘to break (intrans.) > /pdac/ ‘to break (trans.) vs. /ku:/ ‘a pair’ > /pku:/ ‘pair off’\rPos3: includes prefixed reduplicants, which appear with every word class\rPos4: derivational infixes on verbs\rPos5: very few, only derivation\rPos6: very few, only in derivation"
+  },
+  {
+    "MorphemeClassID": 628,
+    "LID": 614,
+    "Glottocode": "cent1989",
+    "Language": "Cambodian",
+    "MorphemeType": "formative",
+    "MorphemePosition": "in",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Pos2: prefixes like p- have different functions on verbs and nouns, e.g. /dac/ ‘to break (intrans.) > /pdac/ ‘to break (trans.) vs. /ku:/ ‘a pair’ > /pku:/ ‘pair off’\rPos3: includes prefixed reduplicants, which appear with every word class\rPos4: derivational infixes on verbs\rPos5: very few, only derivation\rPos6: very few, only in derivation"
+  },
+  {
+    "MorphemeClassID": 629,
+    "LID": 614,
+    "Glottocode": "cent1989",
+    "Language": "Cambodian",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Pos2: prefixes like p- have different functions on verbs and nouns, e.g. /dac/ ‘to break (intrans.) > /pdac/ ‘to break (trans.) vs. /ku:/ ‘a pair’ > /pku:/ ‘pair off’\rPos3: includes prefixed reduplicants, which appear with every word class\rPos4: derivational infixes on verbs\rPos5: very few, only derivation\rPos6: very few, only in derivation"
+  },
+  {
+    "MorphemeClassID": 630,
+    "LID": 614,
+    "Glottocode": "cent1989",
+    "Language": "Cambodian",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Pos2: prefixes like p- have different functions on verbs and nouns, e.g. /dac/ ‘to break (intrans.) > /pdac/ ‘to break (trans.) vs. /ku:/ ‘a pair’ > /pku:/ ‘pair off’\rPos3: includes prefixed reduplicants, which appear with every word class\rPos4: derivational infixes on verbs\rPos5: very few, only derivation\rPos6: very few, only in derivation"
+  },
+  {
+    "MorphemeClassID": 631,
+    "LID": 1139,
+    "Glottocode": "chra1242",
+    "Language": "Chrau",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 632,
+    "LID": 1139,
+    "Glottocode": "chra1242",
+    "Language": "Chrau",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 633,
+    "LID": 1139,
+    "Glottocode": "chra1242",
+    "Language": "Chrau",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 634,
+    "LID": 1139,
+    "Glottocode": "chra1242",
+    "Language": "Chrau",
+    "MorphemeType": "formative",
+    "MorphemePosition": "in",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 635,
+    "LID": 541,
+    "Glottocode": "khmu1256",
+    "Language": "Khmu",
+    "MorphemeType": "root",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Pos2: nominalization, causative, resultative, reciprocal (often realized as minor syllables)\rPos3: verbalizing prefix kn- which operates on words of different word classes; a number of preposed particles such as the negator pə́\rPos4: nominalization, causative"
+  },
+  {
+    "MorphemeClassID": 636,
+    "LID": 541,
+    "Glottocode": "khmu1256",
+    "Language": "Khmu",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Pos2: nominalization, causative, resultative, reciprocal (often realized as minor syllables)\rPos3: verbalizing prefix kn- which operates on words of different word classes; a number of preposed particles such as the negator pə́\rPos4: nominalization, causative"
+  },
+  {
+    "MorphemeClassID": 637,
+    "LID": 541,
+    "Glottocode": "khmu1256",
+    "Language": "Khmu",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Pos2: nominalization, causative, resultative, reciprocal (often realized as minor syllables)\rPos3: verbalizing prefix kn- which operates on words of different word classes; a number of preposed particles such as the negator pə́\rPos4: nominalization, causative"
+  },
+  {
+    "MorphemeClassID": 638,
+    "LID": 541,
+    "Glottocode": "khmu1256",
+    "Language": "Khmu",
+    "MorphemeType": "formative",
+    "MorphemePosition": "in",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Pos2: nominalization, causative, resultative, reciprocal (often realized as minor syllables)\rPos3: verbalizing prefix kn- which operates on words of different word classes; a number of preposed particles such as the negator pə́\rPos4: nominalization, causative"
+  },
+  {
+    "MorphemeClassID": 639,
+    "LID": 632,
+    "Glottocode": "wayu1241",
+    "Language": "Hayu",
+    "MorphemeType": "root",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 640,
+    "LID": 632,
+    "Glottocode": "wayu1241",
+    "Language": "Hayu",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 641,
+    "LID": 632,
+    "Glottocode": "wayu1241",
+    "Language": "Hayu",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "NA"
+  },
+  {
+    "MorphemeClassID": 642,
+    "LID": 886,
+    "Glottocode": "hame1242",
+    "Language": "Hamer",
+    "MorphemeType": "root",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "Needs rechecking!!!"
+  },
+  {
+    "MorphemeClassID": 643,
+    "LID": 886,
+    "Glottocode": "hame1242",
+    "Language": "Hamer",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "Needs rechecking!!!"
+  },
+  {
+    "MorphemeClassID": 644,
+    "LID": 662,
+    "Glottocode": "apat1240",
+    "Language": "Apatani",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "post-posed semi-restricted include case enclitics, which have phrasal scope"
+  },
+  {
+    "MorphemeClassID": 645,
+    "LID": 662,
+    "Glottocode": "apat1240",
+    "Language": "Apatani",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "post-posed semi-restricted include case enclitics, which have phrasal scope"
+  },
+  {
+    "MorphemeClassID": 646,
+    "LID": 662,
+    "Glottocode": "apat1240",
+    "Language": "Apatani",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "semi-restricted",
+    "Notes": "post-posed semi-restricted include case enclitics, which have phrasal scope"
+  },
+  {
+    "MorphemeClassID": 647,
+    "LID": 662,
+    "Glottocode": "apat1240",
+    "Language": "Apatani",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "post-posed semi-restricted include case enclitics, which have phrasal scope"
+  },
+  {
+    "MorphemeClassID": 648,
+    "LID": 2944,
+    "Glottocode": "rabh1238",
+    "Language": "Rabha",
+    "MorphemeType": "stem",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "There is good (but not fantastic) evidence of interposition and bipartites, hence the fourth morpheme type entry"
+  },
+  {
+    "MorphemeClassID": 649,
+    "LID": 2944,
+    "Glottocode": "rabh1238",
+    "Language": "Rabha",
+    "MorphemeType": "formative",
+    "MorphemePosition": "prae",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "There is good (but not fantastic) evidence of interposition and bipartites, hence the fourth morpheme type entry"
+  },
+  {
+    "MorphemeClassID": 650,
+    "LID": 2944,
+    "Glottocode": "rabh1238",
+    "Language": "Rabha",
+    "MorphemeType": "formative",
+    "MorphemePosition": "post",
+    "MorphemeHostRestriction": "restricted",
+    "Notes": "There is good (but not fantastic) evidence of interposition and bipartites, hence the fourth morpheme type entry"
+  },
+  {
+    "MorphemeClassID": 651,
+    "LID": 2944,
+    "Glottocode": "rabh1238",
+    "Language": "Rabha",
+    "MorphemeType": "stem part",
+    "MorphemeHostRestriction": "unrestricted",
+    "Notes": "There is good (but not fantastic) evidence of interposition and bipartites, hence the fourth morpheme type entry"
+  }
+]

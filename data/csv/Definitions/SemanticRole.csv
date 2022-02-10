@@ -1,0 +1,16 @@
+SemanticRole,Definition
+S,sole argument of a one-place predicate
+Atr,the more agent-like argument a two-place pred.
+P,the more patient-like argument of a two-place pred.
+Aditr,the more agent-like argument of a three-place pred.
+T,the non-agent-like and non-patient-like argument of a three-place pred.
+G,the more patient-like argument of a three-place pred.
+ARG,any argument
+highest,argument higher than the other one
+ADJ,adjunct non-argument
+POSS,adnominal dependent
+CITAT,citation form
+PRED,predicate form (for nominal predicates)
+INSTR,instrument
+?O,maybe O (used to code GRs when the grammars are contradictory or the authors are not sure themselves)
+?T,maybe T (used to code GRs when the grammars are contradictory or the authors are not sure themselves)

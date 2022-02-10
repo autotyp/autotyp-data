@@ -1,0 +1,69 @@
+description: >-
+  Various aspects of how inclusive vs. exclusive distinctions are made (if any).
+kind: manual data entry
+data: table
+counts:
+  n_languages: 466
+  n_variables: 4
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      Language name
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  HasClusivity:
+    description: >-
+      Presence of any kind of Inclusive/exclusive distinction
+    kind: manual data entry
+    data: logical
+  # -- end of HasClusivity
+
+  ClusivityType:
+    description: >-
+      Type of inclusive/exclusive distinction, as defined in Bickel & Nichols
+      2005 in Filimonova ed. Clusivity, Amsterdam: Benjamins, 47-70
+    kind: computed data (aggregation-scripts/enhancements/Clusivity.R)
+    data: value-list
+    values: 
+      "no i/e": >-
+        no clusivity distinction
+      "plain i/e type": >-
+        there is clusivity distinction
+      "excl as person type": >-
+        clusivity is a person category
+      "min/aug type": >-
+        clusivity is present with a minimal/augmented number system
+  # -- end of ClusivityType
+
+  HasClusivityAsPerson:
+    description: >-
+      Inclusive/exclusive as person category ("Belhare type", as defined
+      in Bickel & Nichols 2005 in Filimonova ed. Clusivity, Amsterdam: Benjamins, 47-70)
+    kind: manual data entry
+    data: logical
+  # -- end of HasClusivityAsPerson
+
+  HasClusivityWithMinimalNumberSystem:
+    description: >-
+      Presence of an inclusive/exclusive distinction with a minimal/augmented
+      number system (as defined in Bickel & Nichols 2005 in Filimonova ed. Clusivity,
+      Amsterdam: Benjamins, 47-70)
+    kind: manual data entry
+    data: logical
+  # -- end of HasClusivityWithMinimalNumberSystem

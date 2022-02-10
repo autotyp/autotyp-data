@@ -1,0 +1,43 @@
+description: >-
+  Presence and number of numeral classifiers.
+kind: manual data entry
+data: table
+counts:
+  n_languages: 271
+  n_variables: 2
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      Language name
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  HasNumeralClassifiers:
+    description: >-
+      Numeral classifiers present; used on most or all nouns, and obligatory or default option
+      when an eligible noun is quantified by a numeral that takes classifiers.
+    kind: manual data entry
+    data: logical
+  # -- end of HasNumeralClassifiers
+
+  NumeralClassifiersCount:
+    description: >-
+      Number of numeral classifiers reported
+    kind: manual data entry
+    data: integer
+  # -- end of NumeralClassifiersCount

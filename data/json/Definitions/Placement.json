@@ -1,0 +1,18 @@
+[
+  {
+    "Placement": "following",
+    "Definition": "following the host in a given phrasal domain"
+  },
+  {
+    "Placement": "preceding",
+    "Definition": "preceding the host in a given phrasal"
+  },
+  {
+    "Placement": "variable (lexically or syntactically conditioned)",
+    "Definition": "attaches to variable hosts in a given phrasal domain, depending on lexical or syntatic conditions"
+  },
+  {
+    "Placement": "on element",
+    "Definition": "The marker occurs on the marked element itself"
+  }
+]

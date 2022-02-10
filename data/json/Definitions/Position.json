@@ -1,0 +1,311 @@
+[
+  {
+    "Position": "prae",
+    "PositionBinned4": "prae",
+    "PositionBinned5": "prae",
+    "HasPostposedExponent": false,
+    "HasPreposedExponent": true,
+    "HasPreposedDefaultExponent": true,
+    "HasMultipleExponents": false,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "before the phonological host"
+  },
+  {
+    "Position": "in",
+    "PositionBinned4": "in/simul",
+    "PositionBinned5": "in",
+    "HasPreposedExponent": false,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": false,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "inside the phonological host"
+  },
+  {
+    "Position": "post",
+    "PositionBinned4": "post",
+    "PositionBinned5": "post",
+    "HasPostposedExponent": true,
+    "HasPreposedExponent": false,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": false,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "after the phonological host"
+  },
+  {
+    "Position": "simul",
+    "PositionBinned4": "in/simul",
+    "PositionBinned5": "simul",
+    "HasPostposedExponent": false,
+    "HasPreposedExponent": false,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": true,
+    "HasMultipleDefaultExponents": true,
+    "Definition": "the formative has two exponents at different positions in the phonological host (but it is not the case that one is positioned before and the other after the host, which is coded as “circum”)"
+  },
+  {
+    "Position": "circum",
+    "PositionBinned4": "in/simul",
+    "PositionBinned5": "simul",
+    "HasPostposedExponent": false,
+    "HasPreposedExponent": true,
+    "HasPreposedDefaultExponent": true,
+    "HasMultipleExponents": true,
+    "HasMultipleDefaultExponents": true,
+    "Definition": "the formative has two exponents, one before and  one after the phonological host. This is a special case of the “simul” position"
+  },
+  {
+    "HasPreposedExponent": false,
+    "HasPreposedDefaultExponent": false,
+    "Definition": "not applicable because an element’s position is defined only with respect to  grammatical words"
+  },
+  {
+    "Position": "prae/post",
+    "PositionBinned4": "split",
+    "PositionBinned5": "split",
+    "HasPostposedExponent": true,
+    "HasPreposedExponent": true,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": false,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+  },
+  {
+    "Position": "in/prae",
+    "PositionBinned4": "split",
+    "PositionBinned5": "split",
+    "HasPostposedExponent": false,
+    "HasPreposedExponent": true,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": false,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "either inside or before the phonological host, conditioned by some structural context (category, syntax etc.)"
+  },
+  {
+    "Position": "in/post",
+    "PositionBinned4": "split",
+    "PositionBinned5": "split",
+    "HasPostposedExponent": true,
+    "HasPreposedExponent": false,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": false,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+  },
+  {
+    "Position": "post (prae)",
+    "PositionBinned4": "post",
+    "PositionBinned5": "post",
+    "HasPostposedExponent": true,
+    "HasPreposedExponent": true,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": false,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "after the phonological host by default, before the host under exceptional conditions (typically lexical)"
+  },
+  {
+    "Position": "prae/circum",
+    "PositionBinned4": "split",
+    "PositionBinned5": "split",
+    "HasPostposedExponent": false,
+    "HasPreposedExponent": true,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": true,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "either before or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+  },
+  {
+    "Position": "Wackernagel",
+    "Definition": "DO NOT USE (Wackernagel is defined as Behavior = Initial  and Position = post) -- see log 77"
+  },
+  {
+    "Position": "in (post)",
+    "PositionBinned4": "in/simul",
+    "PositionBinned5": "in",
+    "HasPostposedExponent": true,
+    "HasPreposedExponent": false,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": false,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "inside the phonological host by default, after the host under exceptional conditions (typically lexical)"
+  },
+  {
+    "Position": "prae/post/circum",
+    "PositionBinned4": "split",
+    "PositionBinned5": "split",
+    "HasPostposedExponent": true,
+    "HasPreposedExponent": true,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": true,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "either before, after or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+  },
+  {
+    "Position": "post (circum)",
+    "PositionBinned4": "post",
+    "PositionBinned5": "post",
+    "HasPostposedExponent": true,
+    "HasPreposedExponent": false,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": true,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "after the phonological host by default, around the host under exceptional conditions (typically lexical)"
+  },
+  {
+    "Position": "circum (prae)",
+    "PositionBinned4": "in/simul",
+    "PositionBinned5": "simul",
+    "HasPostposedExponent": false,
+    "HasPreposedExponent": true,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": true,
+    "HasMultipleDefaultExponents": true,
+    "Definition": "around the phonological host by default, before the host under exceptional conditions (typically lexical)"
+  },
+  {
+    "Position": "prae (circum)",
+    "PositionBinned4": "prae",
+    "PositionBinned5": "prae",
+    "HasPostposedExponent": false,
+    "HasPreposedExponent": true,
+    "HasPreposedDefaultExponent": true,
+    "HasMultipleExponents": true,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "before the phonological host by default, around the host under exceptional conditions (typically lexical)"
+  },
+  {
+    "Position": "circum (post)",
+    "PositionBinned4": "in/simul",
+    "PositionBinned5": "simul",
+    "HasPostposedExponent": false,
+    "HasPreposedExponent": false,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": true,
+    "HasMultipleDefaultExponents": true,
+    "Definition": "around the phonological host by default, after the host under exceptional conditions (typically lexical)"
+  },
+  {
+    "Position": "circum (W)",
+    "Definition": "DO NOT USE (Wackernagel is defined as Behavior = Initial  and Position = post) -- see log 77"
+  },
+  {
+    "Position": "simul (prae)",
+    "PositionBinned4": "in/simul",
+    "PositionBinned5": "simul",
+    "HasPostposedExponent": false,
+    "HasPreposedExponent": true,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": true,
+    "HasMultipleDefaultExponents": true,
+    "Definition": "in two or more different positions in (but not around) the phonological host by default, before the host under exceptional conditions (typically lexical)"
+  },
+  {
+    "Position": "prae/in/post",
+    "PositionBinned4": "split",
+    "PositionBinned5": "split",
+    "HasPostposedExponent": true,
+    "HasPreposedExponent": true,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": false,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "either before, inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+  },
+  {
+    "Position": "prae (post)",
+    "PositionBinned4": "prae",
+    "PositionBinned5": "prae",
+    "HasPostposedExponent": false,
+    "HasPreposedExponent": true,
+    "HasPreposedDefaultExponent": true,
+    "HasMultipleExponents": false,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "before the phonological host by default, after the host under exceptional conditions (typically lexical)"
+  },
+  {
+    "Position": "post (in)",
+    "PositionBinned4": "post",
+    "PositionBinned5": "post",
+    "HasPostposedExponent": true,
+    "HasPreposedExponent": false,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": false,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+  },
+  {
+    "Position": "post/prae (simul)",
+    "PositionBinned4": "split",
+    "PositionBinned5": "split",
+    "HasPostposedExponent": true,
+    "HasPreposedExponent": true,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": false,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "either before, after or in two or more positions in the phonological host, conditioned by some structural context (category, syntax etc.)"
+  },
+  {
+    "Position": "prae/post/in/circum",
+    "PositionBinned4": "split",
+    "PositionBinned5": "split",
+    "HasPostposedExponent": true,
+    "HasPreposedExponent": true,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": true,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "either before, after, inside or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+  },
+  {
+    "Position": "unknown",
+    "Definition": "position is unknown"
+  },
+  {
+    "Position": "any",
+    "Definition": "unspecified; can appear anywhere where the language allows it."
+  },
+  {
+    "Position": "simul (post)",
+    "PositionBinned4": "in/simul",
+    "PositionBinned5": "simul",
+    "HasPostposedExponent": true,
+    "Definition": "in two or more different positions in the phonological host by default, after the host under exceptional conditions (typically lexical)"
+  },
+  {
+    "Position": "stem change",
+    "PositionBinned4": "in/simul",
+    "PositionBinned5": "simul",
+    "HasPostposedExponent": false,
+    "Definition": "a special case of “simul” where one position is stem change itself"
+  },
+  {
+    "Position": "post/circum",
+    "PositionBinned4": "split",
+    "PositionBinned5": "split",
+    "HasPostposedExponent": true,
+    "HasPreposedExponent": false,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": true,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "either after or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+  },
+  {
+    "Position": "prae/in",
+    "PositionBinned4": "split",
+    "PositionBinned5": "split",
+    "HasPostposedExponent": false,
+    "HasPreposedExponent": true,
+    "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": false,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "either before or inside the phonological host, conditioned by some structural context (category, syntax etc.)"
+  },
+  {
+    "Position": "prae (in)",
+    "PositionBinned4": "prae",
+    "PositionBinned5": "prae",
+    "HasPostposedExponent": false,
+    "HasPreposedExponent": true,
+    "HasPreposedDefaultExponent": true,
+    "HasMultipleExponents": false,
+    "HasMultipleDefaultExponents": false,
+    "Definition": "before the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+  }
+]

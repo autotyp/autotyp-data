@@ -1,0 +1,22 @@
+[
+  {
+    "Flexivity": "cat-based",
+    "Definition": "Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem ablaut in certain tense forms, across the regular lexicon)"
+  },
+  {
+    "Flexivity": "lex-based",
+    "Definition": "Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with some verbs, but not with others)"
+  },
+  {
+    "Flexivity": "none",
+    "Definition": "No allomorphic variation"
+  },
+  {
+    "Flexivity": "both",
+    "Definition": "Allomorphic variation determined by both the inflectional category and the lexical host"
+  },
+  {
+    "Flexivity": "free",
+    "Definition": "Free allomorphic variation"
+  }
+]

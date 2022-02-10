@@ -1,0 +1,344 @@
+description: >-
+  Per-language summary of morphosyntactic alignments (default predicate class only)
+kind: computed data (aggregation-scripts/Alignment.R)
+data: table
+counts:
+  n_languages: 666
+  n_variables: 33
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      In this database a language is actually a dialect or variety, in that
+      individual dialects are entered as languages. That is, each language has
+      its own ID number (the 'LID') distinct from that of the pan-dialectal
+      language:e.g. LID 87 German, 1227 Upper Austrian German, 1295 Berlin
+      German, 1310 Zürich German, 2845 Old High German, etc. (The pan-dialectal
+      language is identified as the lowest taxonomic level, the `dialect group',
+      but this information is incomplete in many areas and has not been included
+      in the current release.) The general criterion for a separate language
+      record in the database is that it has a distinct property in at least one
+      of the typological variables that we survey; this may or may not coincide
+      with sociolinguistic criteria.
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  AccDegreeForAgreement:
+    description: >-
+        Degree of accusativity for syntactic agreement: proportion of S≠P alignment
+        among all alignments (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: number
+  # -- end of AccDegreeForAgreement
+
+  AccDegreeForCase:
+    description: >-
+        Degree of accusativity for case marking: proportion of S≠P alignment among all
+        alignments (default predicates only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: number
+  # -- end of AccDegreeForCase
+
+  AccDegreeForMarkerAgreement:
+    description: >-
+        Degree of accusativity for per-marker agreement: proportion of S≠P alignment
+        among all alignments (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: number
+  # -- end of AccDegreeForMarkerAgreement
+
+  ErgDegreeForAgreement:
+    description: >-
+        Degree of ergativity for syntactic agreement: proportion of S≠Atr alignment
+        among all alignments (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: number
+  # -- end of ErgDegreeForAgreement
+
+  ErgDegreeForCase:
+    description: >-
+        Degree of ergativity for case marking: proportion of S≠Atr alignment among
+        all alignments (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: number
+  # -- end of ErgDegreeForCase
+
+  ErgDegreeForMarkerAgreement:
+    description: >-
+        Degree of ergativity for per-marker agreement: proportion of S≠Atr alignment
+        among all alignments (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: number
+  # -- end of ErgDegreeForMarkerAgreement
+
+  AccDegreeBinnedForAgreement:
+    description: >-
+        Degree of accusativity for syntactic agreement: proportion of S≠P alignment
+        among all alignments, binned into three categories (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: value-list
+    values: 
+      "low": >-
+        lowest 33% percentile
+      "medium": >-
+        middle 33% percentile
+      "high": >-
+        top 33% percentile
+  # -- end of AccDegreeBinnedForAgreement
+
+  AccDegreeBinnedForCase:
+    description: >-
+        Degree of accusativity for case marking: proportion of S≠P alignment among all
+        alignments, binned into three categories (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: value-list
+    values: 
+      "low": >-
+        lowest 33% percentile
+      "medium": >-
+        middle 33% percentile
+      "high": >-
+        top 33% percentile
+  # -- end of AccDegreeBinnedForCase
+
+  AccDegreeBinnedForMarkerAgreement:
+    description: >-
+        Degree of accusativity for per-marker agreement: proportion of S≠P alignment among
+        all alignments, binned into three categories (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: value-list
+    values: 
+      "low": >-
+        lowest 33% percentile
+      "medium": >-
+        middle 33% percentile
+      "high": >-
+        top 33% percentile
+  # -- end of AccDegreeBinnedForMarkerAgreement
+
+  ErgDegreeBinnedForAgreement:
+    description: >-
+        Degree of ergativity for syntactic agreement: proportion of S≠Atr alignment among
+        all alignments, binned into three categories (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: value-list
+    values: 
+      "low": >-
+        lowest 33% percentile
+      "medium": >-
+        middle 33% percentile
+      "high": >-
+        top 33% percentile
+  # -- end of ErgDegreeBinnedForAgreement
+
+  ErgDegreeBinnedForCase:
+    description: >-
+        Degree of ergativity for case marking: proportion of S≠Atr alignment among all
+        alignments, binned into three categories (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: value-list
+    values: 
+      "low": >-
+        lowest 33% percentile
+      "medium": >-
+        middle 33% percentile
+      "high": >-
+        top 33% percentile
+  # -- end of ErgDegreeBinnedForCase
+
+  ErgDegreeBinnedForMarkerAgreement:
+    description: >-
+        Degree of ergativity for per-marker agreement: proportion of S≠Atr alignment among
+        all alignments, binned into three categories (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: value-list
+    values: 
+      "low": >-
+        lowest 33% percentile
+      "medium": >-
+        middle 33% percentile
+      "high": >-
+        top 33% percentile
+  # -- end of ErgDegreeBinnedForMarkerAgreement
+
+  DominantAlignment2ForAgreement:
+    description: >-
+        Syntactic agreement: dominant (most frequent) alignment of generalized
+        semantic roles S, Atr and P (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: string
+  # -- end of DominantAlignment2ForAgreement
+
+  DominantAlignment2ForCase:
+    description: >-
+        Case marking: dominant (most frequent) alignment of generalized
+        semantic roles S, Atr and P (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: string
+  # -- end of DominantAlignment2ForCase
+
+  DominantAlignment2ForMarkerAgreement:
+    description: >-
+        Per-marker agreement: dominant (most frequent) alignment of generalized
+        semantic roles S, Atr and P (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: string
+  # -- end of DominantAlignment2ForMarkerAgreement
+
+  DominantAlignment3ForAgreement:
+    description: >-
+        Syntactic agreement: dominant (most frequent) full ditransitive alignment of
+        generalized semantic roles S, Atr, Aditr, P, T and G (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: string
+  # -- end of DominantAlignment3ForAgreement
+
+  DominantAlignment3ForCase:
+    description: >-
+        Case marking: dominant (most frequent) full ditransitive alignment of
+        generalized semantic roles S, Atr, Aditr, P, T and G (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: string
+  # -- end of DominantAlignment3ForCase
+
+  DominantAlignment3ForMarkerAgreement:
+    description: >-
+        Per-marker agreement: dominant (most frequent) full ditransitive alignment
+        of generalized semantic roles S, Atr, Aditr, P, T and G (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: string
+  # -- end of DominantAlignment3ForMarkerAgreement
+
+  DominantAlignmentPTGForAgreement:
+    description: >-
+        Syntactic agreement: dominant (most frequent) alignment of generalized patient
+        semantic roles P, T and G (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: string
+  # -- end of DominantAlignmentPTGForAgreement
+
+  DominantAlignmentPTGForCase:
+    description: >-
+        Case marking: dominant (most frequent) alignment of generalized patient
+        semantic roles P, T and G (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: string
+  # -- end of DominantAlignmentPTGForCase
+
+  DominantAlignmentPTGForMarkerAgreement:
+    description: >-
+        Per-marker agreement: dominant (most frequent) alignment of generalized patient
+        semantic roles P, T and G (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: string
+  # -- end of DominantAlignmentPTGForMarkerAgreement
+
+  HasReferenceConditionedSplitsForAgreement:
+    description: >-
+        Syntactic agreement: split alignment conditioned by argument reference
+        (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: logical
+  # -- end of HasReferenceConditionedSplitsForAgreement
+
+  HasReferenceConditionedSplitsForCase:
+    description: >-
+        Case marking: split alignment conditioned by argument reference
+        (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: logical
+  # -- end of HasReferenceConditionedSplitsForCase
+
+  HasReferenceConditionedSplitsForMarkerAgreement:
+    description: >-
+        Per-marker agreement: split alignment conditioned by argument reference
+        (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: logical
+  # -- end of HasReferenceConditionedSplitsForMarkerAgreement
+
+  HasCategoryConditionedSplitsForAgreement:
+    description: >-
+        Syntactic agreement: split alignment conditioned by verbal category such as TAM etc.
+        (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: logical
+  # -- end of HasCategoryConditionedSplitsForAgreement
+
+  HasCategoryConditionedSplitsForCase:
+    description: >-
+        Case marking: split alignment conditioned by verbal category such as TAM etc.
+        (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: logical
+  # -- end of HasCategoryConditionedSplitsForCase
+
+  HasCategoryConditionedSplitsForMarkerAgreement:
+    description: >-
+        Per-marker agreement: split alignment conditioned by verbal category such as TAM etc.
+        (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: logical
+  # -- end of HasCategoryConditionedSplitsForMarkerAgreement
+
+  HasClauseRankConditionedSplitsForAgreement:
+    description: >-
+        Syntactic agreement: split alignment conditioned by clause rank such as main,
+        dependent etc. (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: logical
+  # -- end of HasClauseRankConditionedSplitsForAgreement
+
+  HasClauseRankConditionedSplitsForCase:
+    description: >-
+        Syntactic agreement: split alignment conditioned by clause rank such as main,
+        dependent etc. (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: logical
+  # -- end of HasClauseRankConditionedSplitsForCase
+
+  HasClauseRankConditionedSplitsForMarkerAgreement:
+    description: >-
+        Syntactic agreement: split alignment conditioned by clause rank such as main,
+        dependent etc. (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: logical
+  # -- end of HasClauseRankConditionedSplitsForMarkerAgreement
+
+  HasPolarityConditionedSplitsForAgreement:
+    description: >-
+        Syntactic agreement: split alignment conditioned by clause polarity
+        (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: logical
+  # -- end of HasPolarityConditionedSplitsForAgreement
+
+  HasPolarityConditionedSplitsForCase:
+    description: >-
+        Syntactic agreement: split alignment conditioned by clause polarity
+        (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: logical
+  # -- end of HasPolarityConditionedSplitsForCase
+
+  HasPolarityConditionedSplitsForMarkerAgreement:
+    description: >-
+        Syntactic agreement: split alignment conditioned by clause polarity
+        (default predicate class only)
+    kind: computed data (aggregation-scripts/Alignment.R)
+    data: logical
+  # -- end of HasPolarityConditionedSplitsForMarkerAgreement

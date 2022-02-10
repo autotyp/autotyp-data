@@ -1,0 +1,240 @@
+description: >-
+  A multivariate typology of words, affixes and clitics focusing on the host restrictions and on
+  the phonological and grammatical behavior of morphemes.
+kind: manual data entry
+data: table
+counts:
+  n_languages: 76
+  n_variables: 4
+fields: 
+  MorphemeClassID:
+    description: >-
+      Unique morpheme class identifier
+    kind: manual data entry
+    data: integer
+  # -- end of MorphemeClassID
+
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      Language name
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  MorphemeType:
+    description: >-
+      Morpheme type (formative etc.) associated with this class of morphemes (missing values
+      indicates no type restriction)
+    kind: manual data entry
+    data: value-list
+    values: 
+      "formative": >-
+        Marker of a category that cannot occur as an independent part of speech unit in
+        the syntax, but instead grammatically requires some host.
+      "PoSWd": >-
+        A syntactic unit that has its own part of speech (PoS) category. Depending on the
+        diversity of grammatical words (g-word) in a language (see “word_type” database),
+        this may or may not coincide with the g-word defined as ‘terminal node’. If g-
+        word domains differ, “PoSWd” as used here refers to the one domain that has
+        a PoS label attached to it. What counts is the syntactic behavior, e.g. if an
+        element behaves like a verb but is defective morphologically, it still has the
+        PoS label ‘verb’ (see for example Quileute negation ‘é’, which behaves like a verb
+        syntactically even thought its inflectional paradigm is defective).
+      "any": >-
+        A unit that can be used both as a formative or as PoSWd, e.g. SEA versatile verbs/
+        coverbs
+      "SemiWd": >-
+        DO NOT USE ANYMORE! Semiwords have some but not all the syntactic properties of
+        ordinary SynWds. Typical examples of semiwords are incorpated nouns and verbs,
+        as well as seperated preverbs and other particles that belong to a verbal lexeme.
+        SemiWds belong to the same grammatical word as their host, and together with their
+        host, they constitute an X-zero category in phrase-structure. But they retain some
+        syntactic properties such as valence or PoS.
+      "unknown": >-
+        type is unknown at this time
+      "Restricted Formative": >-
+        DO NOT USE ANYMORE! Marker of an inflectional category that cannot occur as an
+        independent part of speech unit in the syntax, but instead attaches to one and
+        only specific stem or phrasal host category (e.g. only to noun stems)
+      "Semi-restricted Formative": >-
+        DO NOT USE ANYMORE! Marker of an inflectional category that cannot occur as an
+        independent part of speech unit in the syntax, but instead attaches to a number of
+        specific stem ot phrasal host categories (e.g. only to noun and verb stems).
+      "Unrestricted Formative": >-
+        DO NOT USE ANYMORE! Marker of an inflectional category that cannot occur
+        as an independent part of speech unit in the syntax, but instead attaches
+        indiscriminately to a any non-stem host available (words or phrases). Unrestricted
+        formatives are traditionally called “particles” or “clitics”, but these terms
+        are also used in other senses. Unrestricted formatives differ from PoSWds in that
+        they attach to some host and cannot appear on their own, or establish their own
+        independent part of speech element in the syntax.
+      "Restricted derivative": >-
+        DO NOT USE ANYMORE! Marker of an derivational category that cannot occur as an
+        independent part of speech unit in the syntax, but instead attaches to one and
+        only specific host category (e.g. only to noun stems)
+      "stem": >-
+        A morphological constituent that obligatorily combines with formatives (possibly
+        zero) and derivatives and determines the part of speech of this combination (e.g.
+        a noun stem that combines with case formatives to produce nouns). A stem differs
+        from a PosWd in that a stem determines the PoS of the word to which it belongs,
+        but it does not constitute a PoS on its own. ‘Stem” means entire stems, if only
+        parts are refered to, use MphmType ID 13 ‘Stem Part’
+      "stem part": >-
+        An element of a stem (as defined under ID 12) that is not delimited by general
+        extramorphological (prosodic, syntactic) principles. Typical example: the
+        constituents of bipartite stems
+      "root": >-
+        An element of a stem that behaves differently from a stem. Only use when there is
+        a difference in the language. Most languages do not differentiate stem and root
+      "none": >-
+        DO NOT USE ANYMORE! CODE AS n/aThere is no overt manifestation of the exemplar for
+        which the record is made
+  # -- end of MorphemeType
+
+  MorphemePosition:
+    description: >-
+      Position associated with this class of morphemes (missing values indicate no position
+      restriction)
+    kind: manual data entry
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "simul": >-
+        the formative has two exponents at different positions in the phonological host
+        (but it is not the case that one is positioned before and the other after the
+        host, which is coded as “circum”)
+      "circum": >-
+        the formative has two exponents, one before and one after the phonological host.
+        This is a special case of the “simul” position
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/prae": >-
+        either inside or before the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post (prae)": >-
+        after the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae/circum": >-
+        either before or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "Wackernagel": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "in (post)": >-
+        inside the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "prae/post/circum": >-
+        either before, after or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "post (circum)": >-
+        after the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (prae)": >-
+        around the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae (circum)": >-
+        before the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (post)": >-
+        around the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "circum (W)": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "simul (prae)": >-
+        in two or more different positions in (but not around) the phonological host by
+        default, before the host under exceptional conditions (typically lexical)
+      "prae/in/post": >-
+        either before, inside or after the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "prae (post)": >-
+        before the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "post (in)": >-
+        after the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+      "post/prae (simul)": >-
+        either before, after or in two or more positions in the phonological host,
+        conditioned by some structural context (category, syntax etc.)
+      "prae/post/in/circum": >-
+        either before, after, inside or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "unknown": >-
+        position is unknown
+      "any": >-
+        unspecified; can appear anywhere where the language allows it.
+      "simul (post)": >-
+        in two or more different positions in the phonological host by default, after the
+        host under exceptional conditions (typically lexical)
+      "stem change": >-
+        a special case of “simul” where one position is stem change itself
+      "post/circum": >-
+        either after or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae/in": >-
+        either before or inside the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae (in)": >-
+        before the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+  # -- end of MorphemePosition
+
+  MorphemeHostRestriction:
+    description: >-
+      Host restrictions for this class of morphemes
+    kind: manual data entry
+    data: value-list
+    values: 
+      "restricted": >-
+        Is restricted to a specific type of host. When descriptions are silent about
+        the range of hosts that a marker can combine with, but analyze the marker as an
+        “affix”, we assume it is restricted.
+      "semi-restricted": >-
+        Can occur with some, but not all host elements (so, NOT a ‘phrasal affix’, but
+        rather simply a ‘particle’-like formative that has some degree of selectional
+        restrictions). Allows at least two distinct hosts (in terms of their parts of
+        speech categories)
+      "unrestricted": >-
+        occurs with anything (e.g. Turkish mi)
+      "unknown": >-
+        degree of restriction unknown at this time
+      "Part circum/simulfix": >-
+        even more restricted than restricted; used with simulfixation & circumfixation
+      "restricted: Head": >-
+        <don’t use this!> VERY RESTRICTED something like affix only to a head element (in
+        a narrowed sense of RestrID 1)
+      "restricted: Phrase": >-
+        <don’t use this!> can occur with whatever POS element of that phrase it is
+        adjacent to like Manange NP enclitics--they lean on whatever is last in the NP;
+        used to deal with ‘phrasal affix’-like phenomena
+  # -- end of MorphemeHostRestriction
+
+  Notes:
+    description: >-
+      Data input notes
+    kind: manual data entry
+    data: comment
+  # -- end of Notes

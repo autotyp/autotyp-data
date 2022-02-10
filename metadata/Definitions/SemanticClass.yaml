@@ -1,0 +1,189 @@
+description: >-
+  Semantic class
+kind: manual data entry
+data: table
+fields: 
+  SemanticClass:
+    description: >-
+      Semantic class
+    kind: manual data entry
+    data: value-list
+    values: 
+      "default": >-
+        the default semantics of a construction, used most frequently, the non-default
+        variation (e.g. a partitive reading with some less common case frames is coded
+        separately)
+      "alienable": >-
+        called “alienable” in a grammar with no further semantic specification; or the
+        less nearly head-marked of two overt classes even if there is no account of their
+        semantics.
+      "inalienable": >-
+        called “inalienable” in a grammar with no further semantic characterization; or
+        the more nearly head-marked or bound of two overt classes even if there is no
+        account of their semantics.
+      "neutral": >-
+        No alienability (alienable/inalienable) distinction.
+      "marked alienable": >-
+        The alienable member of the alienability opposition is overtly marked.
+      "unmarked inalienable": >-
+        The inalienable member of the alienability opposition is formally unmarked.
+        (Default, if one of the pair is not formally marked.)
+      "high-indexability": >-
+        Approximately the same as high-animacy.
+      "low-indexability": >-
+        Approximately the same as low-animacy.
+      "<?a>": >-
+        Unknown or unclear semantics. If there is a split according to certain loose
+        semantic features, use this category for more the common pattern, use <?b> for the
+        other member of the split.
+      "unknown": >-
+        Unknown or unclear semantics.
+      "fluid": >-
+        There is an alienability distinction, but many or most words can be treated either
+        way, with a semantic distinction.
+      "semantic": >-
+        Alienability marking has some compositional effect on the lexical input.
+      "no mention": >-
+        = <?>
+      "n/a": >-
+        N/A
+      "human": >-
+        The noun denotes a human.
+      "non-human": >-
+        The noun denotes a non-human.
+      "animate": >-
+        The noun denotes an animate being.
+      "inanimate": >-
+        The noun denotes an inanimate entity or concept.
+      "kin terms": >-
+        The noun denotes a kin relation.
+      "body parts": >-
+        Body parts in a broad sense, possibly including mental faculties, feelings, etc.,
+        and possibly including (some) body functions, excreta, etc.
+      "topological": >-
+        Spatial relations nouns, locatives etc.
+      "meronyms": >-
+        the part in part-whole relations
+      "property": >-
+        house, furniture
+      "animals": >-
+        Animals, wild or domesticated.
+      "quantificational": >-
+        Quantifiers
+      "clothing terms": >-
+        Types and parts of clothing, and generics such as ‘clothing’.
+      "origin": >-
+        place names, native land, and the like
+      "owner": >-
+        ‘master’, ‘owner’ and the like
+      "specific": >-
+        having specific reference, or so described in grammar. (Caution: Probably not
+        always well enough distinguished from Definite.)
+      "tracks": >-
+        footprints, etc.
+      "subsets": >-
+        ‘group’, ‘part’, and other subsets (other than ones listed elsewhere here)
+      "parents/siblings": >-
+        Only parents and siblings (and not other kin types).
+      "transportation means": >-
+        E.g. cart, car, scooter, boat, airplane, sled, etc.
+      "spouse": >-
+        Only spouse (and not other kin types).
+      "village group": >-
+        Any culturally recognized part of a village’s population.
+      "non-specific": >-
+        Not having specific reference. (Caution: Probably not always well enough
+        distinguished from Indefinite.)
+      "long-established": >-
+        The possessive relationshop has its origin in some past event.
+      "edible": >-
+        edible things; food
+      "drinkable": >-
+        drinkable or potable things; beverages
+      "classifiers": >-
+        Nouns used as numeral or other classifiers.
+      "unpossessible": >-
+        Nouns that grammatically cannot be possessed (typically, cannot take affixal
+        possessive marking). (Their referents may but need not be ownable in the real
+        world.)
+      "rocks": >-
+        Rocks, stones, gravel, etc.
+      "plants": >-
+        Whole plants and types of plants. (Plant parts are categorized separately.)
+      "unspecified inanimate": >-
+        Denotes an inanimate; no further information given
+      "plant parts": >-
+        leaf, bark, root, etc.
+      "weapon": >-
+        bow, arrow, gun, etc.
+      "volitional": >-
+        Human or higher animate; any being having volition.
+      "definite": >-
+        Having definite reference. (Caution: Probably not always well enough distinguished
+        from Specific.)
+      "indefinite": >-
+        Having indefinite reference. (Caution: Probably not always well enough
+        distinguished from Non-Specific.)
+      "non-volitional": >-
+        Not human, not higher animate; any being not having volition.
+      "non-topical": >-
+        non-topical, new, not given
+      "singular": >-
+        Having singular reference, and/or grammatically marked as singular.
+      "indefinite inanimate": >-
+        introduced for Yidiny
+      "definite inanimate": >-
+        introduced for Yidiny
+      "effector": >-
+        Having a semantic role such as agent; initiating or bringing about the verbal
+        action.
+      "<?b>": >-
+        unknown/unclear semantics. In opposition to <?a>
+      "affected": >-
+        Having a semantic role such as patient; affected or changed by the verbal action.
+      "unaffected": >-
+        Having an object-like role but not affected by the verbal action.
+      "bounded": >-
+        Bounded in time and space (as in descriptions of Finnish)
+      "partitive": >-
+        partitive or unbounded in time and space (as in descriptions of Finnish)
+      "permanent state": >-
+        Permanent state of an individual or entity, e.g. ‘tall’, ‘round’.
+      "temporary state": >-
+        Temporary state of an individual or entity, e.g. ‘hungry’ or ‘cold’.
+      "name": >-
+        personal names
+  # -- end of SemanticClass
+
+  SemanticClassBinned:
+    description: >-
+      Semantic class, binned into broad categories
+    kind: manual data entry
+    data: value-list
+    values: 
+      "formal": >-
+        Formal (arbitrary) class assignment
+      "referentiality": >-
+        Class assignment based on referential properties
+      "kin": >-
+        Kin terms
+      "parts": >-
+        Class assignment based on parthood
+      "kinds": >-
+        Class assignment based on related kind or type (e.g. property, clothes)
+      "names": >-
+        Name
+      "pragmatic": >-
+        Class assignment based on pragmatic properties (e.g. definiteness)
+      "roles": >-
+        Class assignment based on semantic role
+      "properties": >-
+        Class assignment based on specific property (e.g. being in a certain state)
+  # -- end of SemanticClassBinned
+
+  Definition:
+    description: >-
+      Semantic class value definition
+    kind: manual data entry
+    data: comment
+  # -- end of Definition

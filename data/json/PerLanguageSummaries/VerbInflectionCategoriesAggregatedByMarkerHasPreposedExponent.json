@@ -1,0 +1,1977 @@
+[
+  {
+    "LID": 35,
+    "Glottocode": "belh1239",
+    "Language": "Belhare",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForVoice": true,
+    "MarkerHasPreposedExponentForMood": true,
+    "MarkerHasPreposedExponentForValence": false,
+    "MarkerHasPreposedExponentForAktionsart": false,
+    "MarkerHasPreposedExponentForConnective": false,
+    "MarkerHasPreposedExponentForSemistem": true
+  },
+  {
+    "LID": 107,
+    "Glottocode": "hung1274",
+    "Language": "Hungarian",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForReferential": false,
+    "MarkerHasPreposedExponentForCausative": false
+  },
+  {
+    "LID": 74,
+    "Glottocode": "stan1293",
+    "Language": "English",
+    "MarkerHasPreposedExponentForTAM": false
+  },
+  {
+    "LID": 404,
+    "Glottocode": "warl1254",
+    "Language": "Warlpiri"
+  },
+  {
+    "LID": 77,
+    "Glottocode": "fiji1243",
+    "Language": "Fijian (Boumaa)"
+  },
+  {
+    "LID": 374,
+    "Glottocode": "thai1261",
+    "Language": "Thai"
+  },
+  {
+    "LID": 171,
+    "Glottocode": "mand1415",
+    "Language": "Mandarin",
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTM": true
+  },
+  {
+    "LID": 114,
+    "Glottocode": "ingu1240",
+    "Language": "Ingush",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForConnective": true,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForDeixis": true,
+    "MarkerHasPreposedExponentForMSE": false,
+    "MarkerHasPreposedExponentForQuantificational": false
+  },
+  {
+    "LID": 443,
+    "Glottocode": "koyr1240",
+    "Language": "Songhai (Koyra Chiini)"
+  },
+  {
+    "LID": 421,
+    "Glottocode": "yoru1245",
+    "Language": "Yoruba",
+    "MarkerHasPreposedExponentForTAM": true,
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForTA": true,
+    "MarkerHasPreposedExponentForPotentialis": true
+  },
+  {
+    "LID": 456,
+    "Glottocode": "west2369",
+    "Language": "Persian",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForMA": true
+  },
+  {
+    "LID": 12,
+    "Glottocode": "ainu1240",
+    "Language": "Ainu"
+  },
+  {
+    "LID": 454,
+    "Glottocode": "rama1270",
+    "Language": "Rama"
+  },
+  {
+    "LID": 340,
+    "Glottocode": "russ1263",
+    "Language": "Russian",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForAspect": true,
+    "MarkerHasPreposedExponentForTM": false
+  },
+  {
+    "LID": 86,
+    "Glottocode": "nucl1302",
+    "Language": "Georgian",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForNumber": false,
+    "MarkerHasPreposedExponentForVersion": true
+  },
+  {
+    "LID": 226,
+    "Glottocode": "sgaw1245",
+    "Language": "Karen (Sgaw)"
+  },
+  {
+    "LID": 458,
+    "Glottocode": "adyg1241",
+    "Language": "Adyghe (West Circassian)",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMood": true,
+    "MarkerHasPreposedExponentForValence": true,
+    "MarkerHasPreposedExponentForAktionsart": false,
+    "MarkerHasPreposedExponentForDeixis": true,
+    "MarkerHasPreposedExponentForNumber": false,
+    "MarkerHasPreposedExponentForIllocution": true
+  },
+  {
+    "LID": 460,
+    "Glottocode": "popt1235",
+    "Language": "Jacaltec",
+    "MarkerHasPreposedExponentForTAM": true
+  },
+  {
+    "LID": 56,
+    "Glottocode": "chuk1273",
+    "Language": "Chukchi",
+    "MarkerHasPreposedExponentForTAM": true,
+    "MarkerHasPreposedExponentForAspect": false
+  },
+  {
+    "LID": 154,
+    "Glottocode": "haka1240",
+    "Language": "Hakka Lai",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForVersion": true,
+    "MarkerHasPreposedExponentForEvidential": false,
+    "MarkerHasPreposedExponentForConstruct": false
+  },
+  {
+    "LID": 104,
+    "Glottocode": "hual1241",
+    "Language": "Quechua (Huallaga)",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForNumber": false,
+    "MarkerHasPreposedExponentForEvidential": false,
+    "MarkerHasPreposedExponentForNominalizer": false
+  },
+  {
+    "LID": 461,
+    "Glottocode": "onei1249",
+    "Language": "Oneida",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForVoice": true,
+    "MarkerHasPreposedExponentForQuantificational": false,
+    "MarkerHasPreposedExponentForTA": true,
+    "MarkerHasPreposedExponentForNumber": true
+  },
+  {
+    "LID": 159,
+    "Glottocode": "lang1324",
+    "Language": "Lango"
+  },
+  {
+    "LID": 464,
+    "Glottocode": "mode1248",
+    "Language": "Greek (modern)",
+    "MarkerHasPreposedExponentForTAM": true,
+    "MarkerHasPreposedExponentForVoice": false
+  },
+  {
+    "LID": 78,
+    "Glottocode": "finn1318",
+    "Language": "Finnish",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForCausative": false
+  },
+  {
+    "LID": 87,
+    "Glottocode": "stan1295",
+    "Language": "German",
+    "MarkerHasPreposedExponentForTAM": false
+  },
+  {
+    "LID": 99,
+    "Glottocode": "hind1269",
+    "Language": "Hindi"
+  },
+  {
+    "LID": 118,
+    "Glottocode": "nucl1643",
+    "Language": "Japanese"
+  },
+  {
+    "LID": 465,
+    "Glottocode": "mari1440",
+    "Language": "Maricopa"
+  },
+  {
+    "LID": 48,
+    "Glottocode": "cham1312",
+    "Language": "Chamorro"
+  },
+  {
+    "LID": 348,
+    "Glottocode": "sanu1240",
+    "Language": "Sanuma"
+  },
+  {
+    "LID": 354,
+    "Glottocode": "nort2942",
+    "Language": "Slave"
+  },
+  {
+    "LID": 399,
+    "Glottocode": "wara1303",
+    "Language": "Warao",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForNumber": false
+  },
+  {
+    "LID": 571,
+    "Glottocode": "cent2194",
+    "Language": "Tamazight (Ayt Ndhir)",
+    "MarkerHasPreposedExponentForTAM": true,
+    "MarkerHasPreposedExponentForPolarity": true
+  },
+  {
+    "LID": 581,
+    "Glottocode": "zulu1248",
+    "Language": "Zulu",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForVoice": true,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForTense": true,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": false,
+    "MarkerHasPreposedExponentForMTN": true
+  },
+  {
+    "LID": 188,
+    "Glottocode": "halh1238",
+    "Language": "Mongolian (Khalkha)",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForRECIP": false
+  },
+  {
+    "LID": 512,
+    "Glottocode": "apur1254",
+    "Language": "Apurina"
+  },
+  {
+    "LID": 128,
+    "Glottocode": "kaya1319",
+    "Language": "Kayardild"
+  },
+  {
+    "LID": 502,
+    "Glottocode": "nucl1301",
+    "Language": "Turkish"
+  },
+  {
+    "LID": 149,
+    "Glottocode": "goon1238",
+    "Language": "Kuniyanti"
+  },
+  {
+    "LID": 112,
+    "Glottocode": "imon1245",
+    "Language": "Imonda"
+  },
+  {
+    "LID": 515,
+    "Glottocode": "bagi1246",
+    "Language": "Bagirmi",
+    "MarkerHasPreposedExponentForTAM": true,
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForIllocution": false
+  },
+  {
+    "LID": 378,
+    "Glottocode": "tiwi1244",
+    "Language": "Tiwi",
+    "MarkerHasPreposedExponentForTAM": true
+  },
+  {
+    "LID": 179,
+    "Glottocode": "mart1255",
+    "Language": "Martuthunira",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForNumber": false
+  },
+  {
+    "LID": 497,
+    "Glottocode": "supy1237",
+    "Language": "Supyire"
+  },
+  {
+    "LID": 501,
+    "Glottocode": "mani1292",
+    "Language": "Meithei",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForME": false
+  },
+  {
+    "LID": 576,
+    "Glottocode": "wari1268",
+    "Language": "Wari"
+  },
+  {
+    "LID": 463,
+    "Glottocode": "nucl1310",
+    "Language": "Burmese",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForAspect": false
+  },
+  {
+    "LID": 569,
+    "Glottocode": "stan1288",
+    "Language": "Spanish",
+    "MarkerHasPreposedExponentForTAM": false
+  },
+  {
+    "LID": 79,
+    "Glottocode": "stan1290",
+    "Language": "French (colloquial)",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": true
+  },
+  {
+    "LID": 498,
+    "Glottocode": "mezq1235",
+    "Language": "Otomi (Mezquital)",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForVoice": true,
+    "MarkerHasPreposedExponentForAspect": true,
+    "MarkerHasPreposedExponentForTense": true,
+    "MarkerHasPreposedExponentForNumber": false,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": true,
+    "MarkerHasPreposedExponentForFocus": true,
+    "MarkerHasPreposedExponentForRepetition": true
+  },
+  {
+    "LID": 411,
+    "Glottocode": "wasc1239",
+    "Language": "Wishram",
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForDeixis": true,
+    "MarkerHasPreposedExponentForQuantificational": false,
+    "MarkerHasPreposedExponentForTense": true,
+    "MarkerHasPreposedExponentForApplicative": true,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": true
+  },
+  {
+    "LID": 324,
+    "Glottocode": "east2652",
+    "Language": "Oromo"
+  },
+  {
+    "LID": 526,
+    "Glottocode": "epen1239",
+    "Language": "Epena Pedee",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForDeixis": false,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForNumber": false
+  },
+  {
+    "LID": 356,
+    "Glottocode": "sout2985",
+    "Language": "Miwok (Southern Sierra)",
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForAktionsart": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForRECIP": false,
+    "MarkerHasPreposedExponentForReflexive": false
+  },
+  {
+    "LID": 527,
+    "Glottocode": "even1259",
+    "Language": "Evenki",
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTM": false,
+    "MarkerHasPreposedExponentForNumber": false
+  },
+  {
+    "LID": 205,
+    "Glottocode": "nene1249",
+    "Language": "Nenets (Tundra)",
+    "MarkerHasPreposedExponentForReferential": false,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForTM": false
+  },
+  {
+    "LID": 7,
+    "Glottocode": "abkh1244",
+    "Language": "Abkhaz",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForAktionsart": false,
+    "MarkerHasPreposedExponentForSemistem": true,
+    "MarkerHasPreposedExponentForCausative": true,
+    "MarkerHasPreposedExponentForDeixis": true,
+    "MarkerHasPreposedExponentForQuantificational": false,
+    "MarkerHasPreposedExponentForTense": true,
+    "MarkerHasPreposedExponentForApplicative": true,
+    "MarkerHasPreposedExponentForIllocution": false,
+    "MarkerHasPreposedExponentForReflexive": true,
+    "MarkerHasPreposedExponentForSpatial": false
+  },
+  {
+    "LID": 433,
+    "Glottocode": "gily1242",
+    "Language": "Nivkh",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForValence": false,
+    "MarkerHasPreposedExponentForTA": false,
+    "MarkerHasPreposedExponentForNumber": false,
+    "MarkerHasPreposedExponentForIllocution": false,
+    "MarkerHasPreposedExponentForFocus": false
+  },
+  {
+    "LID": 193,
+    "Glottocode": "east2379",
+    "Language": "Mparntwe Arrernte",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTA": false,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": false,
+    "MarkerHasPreposedExponentForSwitchReference": false,
+    "MarkerHasPreposedExponentForRepetition": false,
+    "MarkerHasPreposedExponentForMotion": false,
+    "MarkerHasPreposedExponentForModality": false
+  },
+  {
+    "LID": 25,
+    "Glottocode": "nucl1235",
+    "Language": "Armenian (Eastern)",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForTM": false
+  },
+  {
+    "LID": 221,
+    "Glottocode": "diga1241",
+    "Language": "Mishmi",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForMA": false,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForNumber": false,
+    "MarkerHasPreposedExponentForEvidential": false
+  },
+  {
+    "LID": 528,
+    "Glottocode": "garo1247",
+    "Language": "Garo",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForTM": false,
+    "MarkerHasPreposedExponentForQuantificational": false
+  },
+  {
+    "LID": 145,
+    "Glottocode": "darg1241",
+    "Language": "Dargi (Kubachi)",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForSemistem": true,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForDeixis": true,
+    "MarkerHasPreposedExponentForEvidential": false,
+    "MarkerHasPreposedExponentForDirection": false
+  },
+  {
+    "LID": 355,
+    "Glottocode": "soma1255",
+    "Language": "Somali"
+  },
+  {
+    "LID": 420,
+    "Glottocode": "yima1243",
+    "Language": "Yimas",
+    "MarkerHasPreposedExponentForVoice": true,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForDeixis": true,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForNumber": false,
+    "MarkerHasPreposedExponentForPosterior": false
+  },
+  {
+    "LID": 481,
+    "Glottocode": "svan1243",
+    "Language": "Svan",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForDeixis": true,
+    "MarkerHasPreposedExponentForNumber": false,
+    "MarkerHasPreposedExponentForVersion": true
+  },
+  {
+    "LID": 406,
+    "Glottocode": "wash1253",
+    "Language": "Washo",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForDeixis": false,
+    "MarkerHasPreposedExponentForNumber": true,
+    "MarkerHasPreposedExponentForIllocution": false,
+    "MarkerHasPreposedExponentForEvidential": false
+  },
+  {
+    "LID": 325,
+    "Glottocode": "osse1243",
+    "Language": "Ossetic",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForValence": false,
+    "MarkerHasPreposedExponentForAspect": true,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 152,
+    "Glottocode": "kwak1269",
+    "Language": "Kwakwala",
+    "MarkerHasPreposedExponentForQuantificational": false,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForStatus": false
+  },
+  {
+    "LID": 668,
+    "Glottocode": "yecu1235",
+    "Language": "Totonac (Misantla)",
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTense": true,
+    "MarkerHasPreposedExponentForStatus": true
+  },
+  {
+    "LID": 206,
+    "Glottocode": "nepa1254",
+    "Language": "Nepali",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForHonorificity": false
+  },
+  {
+    "LID": 225,
+    "Glottocode": "lahu1253",
+    "Language": "Lahu",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForDeixis": false,
+    "MarkerHasPreposedExponentForMA": false,
+    "MarkerHasPreposedExponentForRECIP": false
+  },
+  {
+    "LID": 722,
+    "Glottocode": "nort2722",
+    "Language": "Qiang (Northern)",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForMA": true,
+    "MarkerHasPreposedExponentForTA": false
+  },
+  {
+    "LID": 629,
+    "Glottocode": "chan1310",
+    "Language": "Chantyal",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForIllocution": false
+  },
+  {
+    "LID": 663,
+    "Glottocode": "drun1238",
+    "Language": "Drung",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForVoice": true,
+    "MarkerHasPreposedExponentForMood": true,
+    "MarkerHasPreposedExponentForDeixis": false,
+    "MarkerHasPreposedExponentForTA": false,
+    "MarkerHasPreposedExponentForEvidential": false
+  },
+  {
+    "LID": 725,
+    "Glottocode": "ital1282",
+    "Language": "Italian",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": true
+  },
+  {
+    "LID": 81,
+    "Glottocode": "furr1244",
+    "Language": "Fur",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTM": true
+  },
+  {
+    "LID": 17,
+    "Glottocode": "tosk1239",
+    "Language": "Albanian",
+    "MarkerHasPreposedExponentForAspect": true,
+    "MarkerHasPreposedExponentForMSE": true,
+    "MarkerHasPreposedExponentForTense": true
+  },
+  {
+    "LID": 690,
+    "Glottocode": "mana1288",
+    "Language": "Manange",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForRECIP": false
+  },
+  {
+    "LID": 664,
+    "Glottocode": "west2420",
+    "Language": "Kham",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForTM": false,
+    "MarkerHasPreposedExponentForMA": false,
+    "MarkerHasPreposedExponentForIllocution": true
+  },
+  {
+    "LID": 674,
+    "Glottocode": "limb1266",
+    "Language": "Limbu",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 723,
+    "Glottocode": "kham1282",
+    "Language": "Tibetan (Dege)",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMA": false,
+    "MarkerHasPreposedExponentForIllocution": false,
+    "MarkerHasPreposedExponentForHonorificity": false
+  },
+  {
+    "LID": 626,
+    "Glottocode": "kinn1249",
+    "Language": "Kinnauri",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 685,
+    "Glottocode": "klam1254",
+    "Language": "Klamath",
+    "MarkerHasPreposedExponentForSemistem": true,
+    "MarkerHasPreposedExponentForCausative": true,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForQuantificational": true,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": true,
+    "MarkerHasPreposedExponentForSpatial": false,
+    "MarkerHasPreposedExponentForMotion": false
+  },
+  {
+    "LID": 223,
+    "Glottocode": "sout2729",
+    "Language": "Pumi",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForAktionsart": true,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForDeixis": false,
+    "MarkerHasPreposedExponentForIllocution": true
+  },
+  {
+    "LID": 468,
+    "Glottocode": "east2773",
+    "Language": "Newar (Dolakha)",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForValence": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 434,
+    "Glottocode": "west2414",
+    "Language": "Gurung",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": true
+  },
+  {
+    "LID": 169,
+    "Glottocode": "mait1250",
+    "Language": "Maithili",
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForTA": false,
+    "MarkerHasPreposedExponentForHonorificity": false
+  },
+  {
+    "LID": 632,
+    "Glottocode": "wayu1241",
+    "Language": "Hayu",
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 724,
+    "Glottocode": "east2347",
+    "Language": "Tamang (Eastern)",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForModality": false
+  },
+  {
+    "LID": 2826,
+    "Glottocode": "darg1241",
+    "Language": "Dargi (standard)",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForSemistem": true,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForDeixis": true,
+    "MarkerHasPreposedExponentForEvidential": false,
+    "MarkerHasPreposedExponentForDirection": false
+  },
+  {
+    "LID": 677,
+    "Glottocode": "swed1254",
+    "Language": "Swedish",
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForTM": false
+  },
+  {
+    "LID": 580,
+    "Glottocode": "yidi1250",
+    "Language": "Yidiny",
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForAktionsart": true,
+    "MarkerHasPreposedExponentForTM": false,
+    "MarkerHasPreposedExponentForDeixis": false,
+    "MarkerHasPreposedExponentForApplicative": false
+  },
+  {
+    "LID": 2779,
+    "Glottocode": "yele1255",
+    "Language": "Yelî Dnye"
+  },
+  {
+    "LID": 196,
+    "Glottocode": "murr1258",
+    "Language": "Murrinh-patha",
+    "MarkerHasPreposedExponentForTAM": true,
+    "MarkerHasPreposedExponentForTA": false,
+    "MarkerHasPreposedExponentForApplicative": false,
+    "MarkerHasPreposedExponentForNumber": false,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": false
+  },
+  {
+    "LID": 69,
+    "Glottocode": "nubi1251",
+    "Language": "Nubian (Dongolese)",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForQuantificational": false,
+    "MarkerHasPreposedExponentForIllocution": false
+  },
+  {
+    "LID": 387,
+    "Glottocode": "tuvi1240",
+    "Language": "Tuva",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForTM": false,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": false
+  },
+  {
+    "LID": 385,
+    "Glottocode": "shos1248",
+    "Language": "Tümpisa Shoshone",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForDeixis": false,
+    "MarkerHasPreposedExponentForQuantificational": false,
+    "MarkerHasPreposedExponentForStatus": false
+  },
+  {
+    "LID": 2944,
+    "Glottocode": "rabh1238",
+    "Language": "Rabha",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForAspect": false
+  },
+  {
+    "LID": 177,
+    "Glottocode": "marg1265",
+    "Language": "Margi",
+    "MarkerHasPreposedExponentForTAM": true,
+    "MarkerHasPreposedExponentForPolarity": true
+  },
+  {
+    "LID": 1531,
+    "Glottocode": "ghod1238",
+    "Language": "Godoberi",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForConnective": false
+  },
+  {
+    "LID": 2949,
+    "Glottocode": "darg1241",
+    "Language": "Dargi (Icari)",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForSemistem": true,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForDeixis": true,
+    "MarkerHasPreposedExponentForNumber": false,
+    "MarkerHasPreposedExponentForEvidential": false,
+    "MarkerHasPreposedExponentForDirection": false
+  },
+  {
+    "LID": 208,
+    "Glottocode": "nezp1238",
+    "Language": "Nez Perce",
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForCausative": true,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForQuantificational": true,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForNumber": true,
+    "MarkerHasPreposedExponentForRECIP": true,
+    "MarkerHasPreposedExponentForReflexive": true
+  },
+  {
+    "LID": 192,
+    "Glottocode": "movi1243",
+    "Language": "Movima",
+    "MarkerHasPreposedExponentForVoice": true,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForQuantificational": false,
+    "MarkerHasPreposedExponentForApplicative": false,
+    "MarkerHasPreposedExponentForStatus": false,
+    "MarkerHasPreposedExponentForModality": false
+  },
+  {
+    "LID": 392,
+    "Glottocode": "urar1246",
+    "Language": "Urarina",
+    "MarkerHasPreposedExponentForVoice": true,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForQuantificational": false,
+    "MarkerHasPreposedExponentForNumber": false
+  },
+  {
+    "LID": 551,
+    "Glottocode": "leal1235",
+    "Language": "Chinantec (Lealao)",
+    "MarkerHasPreposedExponentForAspect": true,
+    "MarkerHasPreposedExponentForRepetition": false
+  },
+  {
+    "LID": 50,
+    "Glottocode": "chic1272",
+    "Language": "Chichimec"
+  },
+  {
+    "LID": 3101,
+    "Glottocode": "assy1241",
+    "Language": "Neo-Aramaic (Barwar)",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForTA": true
+  },
+  {
+    "LID": 2393,
+    "Glottocode": "selk1253",
+    "Language": "Selkup",
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTM": false
+  },
+  {
+    "LID": 2564,
+    "Glottocode": "thom1243",
+    "Language": "Thompson",
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForAspect": true,
+    "MarkerHasPreposedExponentForApplicative": false,
+    "MarkerHasPreposedExponentForNumber": false,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": false,
+    "MarkerHasPreposedExponentForControl": false
+  },
+  {
+    "LID": 678,
+    "Glottocode": "bulg1262",
+    "Language": "Bulgarian",
+    "MarkerHasPreposedExponentForTAM": true,
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMood": true,
+    "MarkerHasPreposedExponentForAspect": true,
+    "MarkerHasPreposedExponentForTE": true
+  },
+  {
+    "LID": 2330,
+    "Glottocode": "poli1260",
+    "Language": "Polish",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForAspect": true,
+    "MarkerHasPreposedExponentForTM": false
+  },
+  {
+    "LID": 2447,
+    "Glottocode": "slov1268",
+    "Language": "Slovene",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForAspect": true,
+    "MarkerHasPreposedExponentForTM": false
+  },
+  {
+    "LID": 675,
+    "Glottocode": "kaba1278",
+    "Language": "Circassian (East)",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForCausative": true,
+    "MarkerHasPreposedExponentForDeixis": true,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForVersion": true,
+    "MarkerHasPreposedExponentForIllocution": false,
+    "MarkerHasPreposedExponentForEvidential": false,
+    "MarkerHasPreposedExponentForRECIP": true,
+    "MarkerHasPreposedExponentForReflexive": true,
+    "MarkerHasPreposedExponentForModality": true
+  },
+  {
+    "LID": 3229,
+    "Glottocode": "NA",
+    "Language": "Torlak Serbian",
+    "MarkerHasPreposedExponentForTAM": true,
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMood": true,
+    "MarkerHasPreposedExponentForAspect": true,
+    "MarkerHasPreposedExponentForTE": true
+  },
+  {
+    "LID": 1890,
+    "Glottocode": "lith1251",
+    "Language": "Lithuanian",
+    "MarkerHasPreposedExponentForTM": false
+  },
+  {
+    "LID": 549,
+    "Glottocode": "latv1249",
+    "Language": "Latvian",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForAspect": true,
+    "MarkerHasPreposedExponentForTM": false,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": false
+  },
+  {
+    "LID": 683,
+    "Glottocode": "roma1327",
+    "Language": "Romanian",
+    "MarkerHasPreposedExponentForTAM": true,
+    "MarkerHasPreposedExponentForMood": true,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": true
+  },
+  {
+    "LID": 2471,
+    "Glottocode": "croa1245",
+    "Language": "Serbian-Croatian",
+    "MarkerHasPreposedExponentForAspect": true,
+    "MarkerHasPreposedExponentForTM": false
+  },
+  {
+    "LID": 2412,
+    "Glottocode": "seri1257",
+    "Language": "Seri",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForVoice": true,
+    "MarkerHasPreposedExponentForMood": true,
+    "MarkerHasPreposedExponentForCausative": true,
+    "MarkerHasPreposedExponentForDeixis": true,
+    "MarkerHasPreposedExponentForIllocution": true,
+    "MarkerHasPreposedExponentForSwitchReference": false,
+    "MarkerHasPreposedExponentForQuotative": false
+  },
+  {
+    "LID": 2984,
+    "Glottocode": "mian1256",
+    "Language": "Mian",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForIllocution": false,
+    "MarkerHasPreposedExponentForStatus": false
+  },
+  {
+    "LID": 656,
+    "Glottocode": "koro1312",
+    "Language": "Korowai",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForStatus": false,
+    "MarkerHasPreposedExponentForSwitchReference": false
+  },
+  {
+    "LID": 84,
+    "Glottocode": "gara1269",
+    "Language": "Garrwa",
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForQuantificational": false,
+    "MarkerHasPreposedExponentForTA": false,
+    "MarkerHasPreposedExponentForIllocution": false
+  },
+  {
+    "LID": 419,
+    "Glottocode": "yess1239",
+    "Language": "Yessan-Mayo",
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForDeixis": false,
+    "MarkerHasPreposedExponentForQuantificational": true,
+    "MarkerHasPreposedExponentForTA": false,
+    "MarkerHasPreposedExponentForFocus": true
+  },
+  {
+    "LID": 1364,
+    "Glottocode": "ngar1235",
+    "Language": "Bilinara",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForDeixis": false,
+    "MarkerHasPreposedExponentForQuantificational": false,
+    "MarkerHasPreposedExponentForIllocution": false
+  },
+  {
+    "LID": 885,
+    "Glottocode": "yane1238",
+    "Language": "Amuesha",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForCausative": true,
+    "MarkerHasPreposedExponentForDeixis": false,
+    "MarkerHasPreposedExponentForQuantificational": false,
+    "MarkerHasPreposedExponentForTA": false,
+    "MarkerHasPreposedExponentForApplicative": false,
+    "MarkerHasPreposedExponentForMTN": false
+  },
+  {
+    "LID": 658,
+    "Glottocode": "yany1243",
+    "Language": "Yanyuwa",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": true,
+    "MarkerHasPreposedExponentForIllocution": true
+  },
+  {
+    "LID": 66,
+    "Glottocode": "dhuw1249",
+    "Language": "Djapu",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForQuantificational": true,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": false
+  },
+  {
+    "LID": 1772,
+    "Glottocode": "gugu1255",
+    "Language": "Guugu Yimidhirr",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForTM": false,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": false
+  },
+  {
+    "LID": 1363,
+    "Glottocode": "nang1259",
+    "Language": "Ngan'gityemerri",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForQuantificational": true,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForNumber": true
+  },
+  {
+    "LID": 3240,
+    "Glottocode": "ashe1272",
+    "Language": "Ashéninka Perené",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForReferential": false,
+    "MarkerHasPreposedExponentForCausative": true,
+    "MarkerHasPreposedExponentForQuantificational": false,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForApplicative": false,
+    "MarkerHasPreposedExponentForStatus": true,
+    "MarkerHasPreposedExponentForEvidential": false,
+    "MarkerHasPreposedExponentForReversative": false
+  },
+  {
+    "LID": 352,
+    "Glottocode": "shua1257",
+    "Language": "Shuar",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForApplicative": false,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": false,
+    "MarkerHasPreposedExponentForSwitchReference": false
+  },
+  {
+    "LID": 2050,
+    "Glottocode": "moco1246",
+    "Language": "Mocoví",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForVoice": true,
+    "MarkerHasPreposedExponentForAktionsart": true,
+    "MarkerHasPreposedExponentForNumber": false,
+    "MarkerHasPreposedExponentForSpatial": false
+  },
+  {
+    "LID": 426,
+    "Glottocode": "yura1255",
+    "Language": "Yurakare",
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForAspect": true,
+    "MarkerHasPreposedExponentForMSE": false,
+    "MarkerHasPreposedExponentForQuantificational": false,
+    "MarkerHasPreposedExponentForApplicative": true,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": true,
+    "MarkerHasPreposedExponentForEvidential": false,
+    "MarkerHasPreposedExponentForMotion": false
+  },
+  {
+    "LID": 1385,
+    "Glottocode": "sout2991",
+    "Language": "Quechua (Cochabamba)",
+    "MarkerHasPreposedExponentForAktionsart": false,
+    "MarkerHasPreposedExponentForDeixis": false,
+    "MarkerHasPreposedExponentForQuantificational": false,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": false,
+    "MarkerHasPreposedExponentForTE": false
+  },
+  {
+    "LID": 326,
+    "Glottocode": "paez1247",
+    "Language": "Paez",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForStatus": false,
+    "MarkerHasPreposedExponentForAffect": true
+  },
+  {
+    "LID": 2508,
+    "Glottocode": "suab1238",
+    "Language": "Inanwatan",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 2951,
+    "Glottocode": "kara1500",
+    "Language": "Karajá",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForVoice": true,
+    "MarkerHasPreposedExponentForValence": true,
+    "MarkerHasPreposedExponentForDeixis": true,
+    "MarkerHasPreposedExponentForTA": false,
+    "MarkerHasPreposedExponentForNumber": false,
+    "MarkerHasPreposedExponentForReflexive": true
+  },
+  {
+    "LID": 2900,
+    "Glottocode": "aves1237",
+    "Language": "Avestan",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForCausative": false
+  },
+  {
+    "LID": 2726,
+    "Glottocode": "wels1247",
+    "Language": "Welsh"
+  },
+  {
+    "LID": 2456,
+    "Glottocode": "sinh1246",
+    "Language": "Sinhala",
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForConnective": false,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForFocus": false
+  },
+  {
+    "LID": 1067,
+    "Glottocode": "bret1244",
+    "Language": "Breton",
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 2832,
+    "Glottocode": "goth1244",
+    "Language": "Gothic",
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 2856,
+    "Glottocode": "oldn1244",
+    "Language": "Old Norse",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForReflexive": false
+  },
+  {
+    "LID": 2514,
+    "Glottocode": "tapi1253",
+    "Language": "Tapiete",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForMood": true,
+    "MarkerHasPreposedExponentForConnective": false,
+    "MarkerHasPreposedExponentForCausative": true,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForIllocution": false,
+    "MarkerHasPreposedExponentForEvidential": false,
+    "MarkerHasPreposedExponentForRECIP": false,
+    "MarkerHasPreposedExponentForReflexive": true
+  },
+  {
+    "LID": 110,
+    "Glottocode": "icel1247",
+    "Language": "Icelandic",
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 633,
+    "Glottocode": "kash1277",
+    "Language": "Kashmiri",
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForIllocution": false
+  },
+  {
+    "LID": 3243,
+    "Glottocode": "nort2646",
+    "Language": "Pashto (Northern)",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForTense": true
+  },
+  {
+    "LID": 100,
+    "Glottocode": "hitt1242",
+    "Language": "Hittite",
+    "MarkerHasPreposedExponentForTAM": false
+  },
+  {
+    "LID": 2831,
+    "Glottocode": "anci1242",
+    "Language": "Greek (Ancient)",
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForTA": true
+  },
+  {
+    "LID": 2833,
+    "Glottocode": "olde1238",
+    "Language": "English (Old)",
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 641,
+    "Glottocode": "oriy1255",
+    "Language": "Oriya",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTM": false,
+    "MarkerHasPreposedExponentForTA": false
+  },
+  {
+    "LID": 844,
+    "Glottocode": "afri1274",
+    "Language": "Afrikaans",
+    "MarkerHasPreposedExponentForTense": true
+  },
+  {
+    "LID": 2854,
+    "Glottocode": "oldh1241",
+    "Language": "High German (Old)",
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 2855,
+    "Glottocode": "olds1250",
+    "Language": "Old Saxon",
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 699,
+    "Glottocode": "sans1269",
+    "Language": "Sanskrit",
+    "MarkerHasPreposedExponentForTA": true
+  },
+  {
+    "LID": 2360,
+    "Glottocode": "caml1239",
+    "Language": "Camling",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForConnective": false,
+    "MarkerHasPreposedExponentForTA": false
+  },
+  {
+    "LID": 672,
+    "Glottocode": "jing1260",
+    "Language": "Jingpho",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": true
+  },
+  {
+    "LID": 3278,
+    "Glottocode": "tsho1240",
+    "Language": "Tshobdun",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMood": true,
+    "MarkerHasPreposedExponentForMA": true,
+    "MarkerHasPreposedExponentForDirection": true
+  },
+  {
+    "LID": 1694,
+    "Glottocode": "japh1234",
+    "Language": "Jiarong",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForAktionsart": true,
+    "MarkerHasPreposedExponentForAspect": true,
+    "MarkerHasPreposedExponentForTA": true,
+    "MarkerHasPreposedExponentForIllocution": true,
+    "MarkerHasPreposedExponentForHonorificity": false
+  },
+  {
+    "LID": 552,
+    "Glottocode": "lepc1244",
+    "Language": "Lepcha",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForTA": false
+  },
+  {
+    "LID": 691,
+    "Glottocode": "tibe1272",
+    "Language": "Tibetan (Lhasa)",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForIllocution": false,
+    "MarkerHasPreposedExponentForHonorificity": false,
+    "MarkerHasPreposedExponentForAE": false
+  },
+  {
+    "LID": 2617,
+    "Glottocode": "tsha1245",
+    "Language": "Tshangla",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForTAME": false
+  },
+  {
+    "LID": 975,
+    "Glottocode": "bard1255",
+    "Language": "Bardi",
+    "MarkerHasPreposedExponentForValence": true,
+    "MarkerHasPreposedExponentForAktionsart": false,
+    "MarkerHasPreposedExponentForConnective": false,
+    "MarkerHasPreposedExponentForTense": true,
+    "MarkerHasPreposedExponentForTA": false,
+    "MarkerHasPreposedExponentForApplicative": false,
+    "MarkerHasPreposedExponentForNumber": false,
+    "MarkerHasPreposedExponentForReflexive": true
+  },
+  {
+    "LID": 3312,
+    "Glottocode": "west2368",
+    "Language": "Balochi (Western)",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMA": true,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 2716,
+    "Glottocode": "uppe1395",
+    "Language": "Sorbian (Upper)",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForAspect": true,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 2916,
+    "Glottocode": "wakh1245",
+    "Language": "Wakhi",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForTM": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 2893,
+    "Glottocode": "lati1261",
+    "Language": "Latin",
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTM": false
+  },
+  {
+    "LID": 1395,
+    "Glottocode": "vlax1238",
+    "Language": "Romani (Vlax)",
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 3213,
+    "Glottocode": "oldi1245",
+    "Language": "Irish (Old)",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForConnective": false,
+    "MarkerHasPreposedExponentForIllocution": true
+  },
+  {
+    "LID": 1440,
+    "Glottocode": "dutc1256",
+    "Language": "Dutch",
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 710,
+    "Glottocode": "faro1244",
+    "Language": "Faroese",
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 1399,
+    "Glottocode": "dara1250",
+    "Language": "Darai",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForMood": true,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForEvidential": false
+  },
+  {
+    "LID": 2987,
+    "Glottocode": "jams1239",
+    "Language": "Dogon (Jamsay)",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 3239,
+    "Glottocode": "atin1240",
+    "Language": "Laz (Pazar)",
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForDeixis": true,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForNumber": false,
+    "MarkerHasPreposedExponentForVersion": true,
+    "MarkerHasPreposedExponentForStatus": true,
+    "MarkerHasPreposedExponentForConditional": false
+  },
+  {
+    "LID": 1964,
+    "Glottocode": "male1284",
+    "Language": "Maale",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForIllocution": false,
+    "MarkerHasPreposedExponentForEvidential": false
+  },
+  {
+    "LID": 1203,
+    "Glottocode": "cupe1243",
+    "Language": "Cupeño",
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForQuantificational": true,
+    "MarkerHasPreposedExponentForTA": false,
+    "MarkerHasPreposedExponentForNumber": false,
+    "MarkerHasPreposedExponentForStatus": false,
+    "MarkerHasPreposedExponentForEvidential": false
+  },
+  {
+    "LID": 689,
+    "Glottocode": "lowl1265",
+    "Language": "Rarámuri",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForQuantificational": false,
+    "MarkerHasPreposedExponentForTA": false,
+    "MarkerHasPreposedExponentForStatus": false,
+    "MarkerHasPreposedExponentForEvidential": false,
+    "MarkerHasPreposedExponentForMotion": false,
+    "MarkerHasPreposedExponentForModality": false
+  },
+  {
+    "LID": 3313,
+    "Glottocode": "tang1334",
+    "Language": "Tangut",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMood": true,
+    "MarkerHasPreposedExponentForDeixis": true
+  },
+  {
+    "LID": 2020,
+    "Glottocode": "karb1241",
+    "Language": "Mikir",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForCausative": true,
+    "MarkerHasPreposedExponentForAspect": true,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": true,
+    "MarkerHasPreposedExponentForPossessor": true
+  },
+  {
+    "LID": 2180,
+    "Glottocode": "rong1266",
+    "Language": "Rongmei Naga",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForCausative": true,
+    "MarkerHasPreposedExponentForIllocution": false,
+    "MarkerHasPreposedExponentForTAME": false
+  },
+  {
+    "LID": 3315,
+    "Glottocode": "anuu1241",
+    "Language": "Hkongso",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForVoice": true,
+    "MarkerHasPreposedExponentForMood": true
+  },
+  {
+    "LID": 688,
+    "Glottocode": "cora1260",
+    "Language": "Cora",
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForAktionsart": false,
+    "MarkerHasPreposedExponentForQuantificational": true,
+    "MarkerHasPreposedExponentForNumber": false,
+    "MarkerHasPreposedExponentForIllocution": true,
+    "MarkerHasPreposedExponentForReflexive": true,
+    "MarkerHasPreposedExponentForModality": false
+  },
+  {
+    "LID": 368,
+    "Glottocode": "tawa1275",
+    "Language": "Tawala",
+    "MarkerHasPreposedExponentForAspect": true,
+    "MarkerHasPreposedExponentForDeixis": false,
+    "MarkerHasPreposedExponentForTense": true,
+    "MarkerHasPreposedExponentForStatus": true,
+    "MarkerHasPreposedExponentForConstruct": false,
+    "MarkerHasPreposedExponentForFocus": false
+  },
+  {
+    "LID": 68,
+    "Glottocode": "djin1251",
+    "Language": "Djingili",
+    "MarkerHasPreposedExponentForSemistem": true,
+    "MarkerHasPreposedExponentForDeixis": false,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": true
+  },
+  {
+    "LID": 2196,
+    "Glottocode": "narp1239",
+    "Language": "Nar-Phu",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForIllocution": false
+  },
+  {
+    "LID": 2871,
+    "Glottocode": "nort2732",
+    "Language": "Northern Tujia",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForDeixis": false
+  },
+  {
+    "LID": 1765,
+    "Glottocode": "pwoe1235",
+    "Language": "Karen (Pwo)",
+    "MarkerHasPreposedExponentForMood": true
+  },
+  {
+    "LID": 1889,
+    "Glottocode": "lisu1250",
+    "Language": "Lisu",
+    "MarkerHasPreposedExponentForPolarity": true
+  },
+  {
+    "LID": 2873,
+    "Glottocode": "bant1281",
+    "Language": "Bantawa",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 3032,
+    "Glottocode": "aton1241",
+    "Language": "Atong",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": false
+  },
+  {
+    "LID": 1004,
+    "Glottocode": "gahr1239",
+    "Language": "Bunan",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForValence": false,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForEvidential": false
+  },
+  {
+    "LID": 1130,
+    "Glottocode": "chep1245",
+    "Language": "Chepang",
+    "MarkerHasPreposedExponentForTA": false
+  },
+  {
+    "LID": 3326,
+    "Glottocode": "situ1238",
+    "Language": "Jiǎomùzú",
+    "MarkerHasPreposedExponentForReferential": true,
+    "MarkerHasPreposedExponentForTA": true,
+    "MarkerHasPreposedExponentForMTN": true
+  },
+  {
+    "LID": 2217,
+    "Glottocode": "nung1282",
+    "Language": "Anong",
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForDeixis": true,
+    "MarkerHasPreposedExponentForMA": true,
+    "MarkerHasPreposedExponentForDirection": true,
+    "MarkerHasPreposedExponentForTAE": false
+  },
+  {
+    "LID": 767,
+    "Glottocode": "galo1242",
+    "Language": "Gallong",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForEvidential": false,
+    "MarkerHasPreposedExponentForAE": false
+  },
+  {
+    "LID": 2563,
+    "Glottocode": "than1259",
+    "Language": "Thangmi"
+  },
+  {
+    "LID": 3298,
+    "Glottocode": "mong1332",
+    "Language": "Mongsen Khari",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForTN": false
+  },
+  {
+    "LID": 1317,
+    "Glottocode": "dhim1246",
+    "Language": "Dhimal",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 3318,
+    "Glottocode": "kurt1248",
+    "Language": "Kurtokha",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForEvidential": false
+  },
+  {
+    "LID": 735,
+    "Glottocode": "raji1240",
+    "Language": "Raji",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 2186,
+    "Glottocode": "tang1336",
+    "Language": "Naga (Tangkhul)",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 1376,
+    "Glottocode": "tase1235",
+    "Language": "Jugli",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 2662,
+    "Glottocode": "yaku1245",
+    "Language": "Yakut",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForQuantificational": false,
+    "MarkerHasPreposedExponentForReflexiveAndReciprocal": false,
+    "MarkerHasPreposedExponentForFocus": false
+  },
+  {
+    "LID": 18,
+    "Glottocode": "aleu1260",
+    "Language": "Aleut",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForAktionsart": false,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForQuantificational": false,
+    "MarkerHasPreposedExponentForEvidential": false,
+    "MarkerHasPreposedExponentForFocus": false
+  },
+  {
+    "LID": 2657,
+    "Glottocode": "udih1248",
+    "Language": "Udihe",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForRECIP": false
+  },
+  {
+    "LID": 730,
+    "Glottocode": "thak1245",
+    "Language": "Thakali",
+    "MarkerHasPreposedExponentForTAM": false
+  },
+  {
+    "LID": 1480,
+    "Glottocode": "esto1258",
+    "Language": "Estonian",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForTA": false,
+    "MarkerHasPreposedExponentForQuotative": false,
+    "MarkerHasPreposedExponentForConditional": false
+  },
+  {
+    "LID": 3301,
+    "Glottocode": "yong1270",
+    "Language": "Yongning Na",
+    "MarkerHasPreposedExponentForPolarity": true
+  },
+  {
+    "LID": 1388,
+    "Glottocode": "darm1243",
+    "Language": "Darmiya",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForValence": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 709,
+    "Glottocode": "kild1236",
+    "Language": "Saami (Kildin)",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForAktionsart": false,
+    "MarkerHasPreposedExponentForCausative": false
+  },
+  {
+    "LID": 3006,
+    "Glottocode": "shek1245",
+    "Language": "Sheko",
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForAffect": false
+  },
+  {
+    "LID": 3173,
+    "Glottocode": "sida1246",
+    "Language": "Sidaama",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForCausative": false,
+    "MarkerHasPreposedExponentForMA": false,
+    "MarkerHasPreposedExponentForFocus": false
+  },
+  {
+    "LID": 2936,
+    "Glottocode": "phal1254",
+    "Language": "Palula",
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTM": false
+  },
+  {
+    "LID": 701,
+    "Glottocode": "sout2674",
+    "Language": "Saami (South)",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForCausative": false
+  },
+  {
+    "LID": 703,
+    "Glottocode": "pite1240",
+    "Language": "Saami (Pite)",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForVoice": false
+  },
+  {
+    "LID": 628,
+    "Glottocode": "byan1241",
+    "Language": "Byangsi",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForValence": false,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForEvidential": false
+  },
+  {
+    "LID": 838,
+    "Glottocode": "amdo1237",
+    "Language": "Amdo",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMA": false,
+    "MarkerHasPreposedExponentForIllocution": false,
+    "MarkerHasPreposedExponentForHonorificity": false
+  },
+  {
+    "LID": 1775,
+    "Glottocode": "kulu1253",
+    "Language": "Kulung",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 1778,
+    "Glottocode": "khal1275",
+    "Language": "Khaling",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 3272,
+    "Glottocode": "zaiw1241",
+    "Language": "Zaiwa",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForAspect": false
+  },
+  {
+    "LID": 786,
+    "Glottocode": "rong1264",
+    "Language": "Rongpo",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForValence": false,
+    "MarkerHasPreposedExponentForTense": false
+  },
+  {
+    "LID": 1914,
+    "Glottocode": "lush1249",
+    "Language": "Mizo (Lushai)",
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForDeixis": true,
+    "MarkerHasPreposedExponentForMA": false,
+    "MarkerHasPreposedExponentForFocus": false
+  },
+  {
+    "LID": 2824,
+    "Glottocode": "clas1254",
+    "Language": "Tibetan (Classical)",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForMA": false,
+    "MarkerHasPreposedExponentForHonorificity": false
+  },
+  {
+    "LID": 667,
+    "Glottocode": "thul1246",
+    "Language": "Thulung (Mukli)",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForAspect": false,
+    "MarkerHasPreposedExponentForTense": false,
+    "MarkerHasPreposedExponentForNominalizer": false
+  },
+  {
+    "LID": 3331,
+    "Glottocode": "guan1266",
+    "Language": "Khroskyabs",
+    "MarkerHasPreposedExponentForPolarity": true,
+    "MarkerHasPreposedExponentForMood": true,
+    "MarkerHasPreposedExponentForAspect": true,
+    "MarkerHasPreposedExponentForTM": true,
+    "MarkerHasPreposedExponentForTA": true,
+    "MarkerHasPreposedExponentForHonorificity": true
+  },
+  {
+    "LID": 2862,
+    "Glottocode": "chhi1245",
+    "Language": "Chintang",
+    "MarkerHasPreposedExponentForTAM": false,
+    "MarkerHasPreposedExponentForPolarity": false,
+    "MarkerHasPreposedExponentForVoice": false,
+    "MarkerHasPreposedExponentForMood": false,
+    "MarkerHasPreposedExponentForAspect": false
+  }
+]

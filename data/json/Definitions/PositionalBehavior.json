@@ -1,0 +1,69 @@
+[
+  {
+    "PositionalBehavior": "inert",
+    "PositionalBehaviorIsSpreading": false,
+    "Definition": "Not spreading, not stacking.  Default for non-phrasal elements."
+  },
+  {
+    "PositionalBehavior": "spreading",
+    "PositionalBehaviorBinned4": "spreading",
+    "PositionalBehaviorIsSpreading": true,
+    "Definition": "See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology and Syntactic Description (CUP 2007)"
+  },
+  {
+    "PositionalBehavior": "stacking",
+    "PositionalBehaviorBinned4": "spreading",
+    "PositionalBehaviorIsSpreading": true,
+    "Definition": "See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology and Syntactic Description, (CUP 2007)"
+  },
+  {
+    "PositionalBehavior": "final",
+    "PositionalBehaviorBinned4": "final",
+    "PositionalBehaviorIsSpreading": false,
+    "Definition": "Inert and at the end of its domain (e.g. at the end of the clause for TAM markers, or at the end of the NP for case markers)"
+  },
+  {
+    "PositionalBehavior": "initial",
+    "PositionalBehaviorBinned4": "initial",
+    "PositionalBehaviorIsSpreading": false,
+    "Definition": "Inert and at the beginning (first element) of its domain (e.g. at the first element of the clause for TAM markers, or at the beginning of the NP for case markers). Combined with a “post” value in position, a “following” value in Placement, and freedom of hosts, this is a typical Wackernagel clitic."
+  },
+  {
+    "PositionalBehavior": "on head",
+    "PositionalBehaviorBinned4": "on head",
+    "PositionalBehaviorIsSpreading": false,
+    "Definition": "Inert and positioned on the head of its domain: V for TAM, N for case. This is typical for suffixes. Since clitics are typically insensitive to the host category, their placement is regulated by more abstract positions (initial, final, penultimate, pre-initial etc.) rather than the head. “On head” is used only with phrases where the head can vary its position."
+  },
+  {
+    "PositionalBehavior": "on preceding",
+    "Definition": "DO NOT USE ANYMORE. If an element precedes its host, e.g. if a case enclitic attaches to the preceding word, this is coded (following Klavans 1985) as placement = preceding and behavior = on head (or spreading or initial or whatever the case may be)."
+  },
+  {
+    "PositionalBehavior": "flexible",
+    "PositionalBehaviorIsSpreading": false,
+    "Definition": "Inert and freely positioned within its domain (ie. position is not defined with respect to H or D but by something else)."
+  },
+  {
+    "PositionalBehavior": "lex. positioned",
+    "PositionalBehaviorIsSpreading": false,
+    "Definition": "Once per phrase; whether on head or dependent is lexically determined.  Example:  Wemba Wemba dual and plural, which are overt on the noun unless there is a demonstrative pronoun; then it takes the dual or plural form and the noun does not."
+  },
+  {
+    "PositionalBehavior": "on head and final",
+    "PositionalBehaviorBinned4": "final",
+    "PositionalBehaviorIsSpreading": false,
+    "Definition": "Simultaneously on head and final."
+  },
+  {
+    "PositionalBehavior": "on head and initial",
+    "PositionalBehaviorBinned4": "initial",
+    "PositionalBehaviorIsSpreading": false,
+    "Definition": "Simultaneously on head and initial."
+  },
+  {
+    "PositionalBehavior": "on head or final",
+    "PositionalBehaviorBinned4": "final",
+    "PositionalBehaviorIsSpreading": false,
+    "Definition": "Data inconclusive because all heads in the grammar happen to be final."
+  }
+]

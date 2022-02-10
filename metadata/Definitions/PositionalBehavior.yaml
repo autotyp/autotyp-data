@@ -1,0 +1,82 @@
+description: >-
+  Positional behavior of a grammatical marker in its phrase, as defined in
+  Bickel & Nichols 2007 (in Language typology and syntactic description,
+  ed. T. Shopen, Cambridge: Cambridge University Press)
+kind: manual data entry
+data: table
+fields: 
+  PositionalBehavior:
+    description: >-
+      Positional behavior of a grammatical marker in its phrase, as defined in
+      Bickel & Nichols 2007 (in Language typology and syntactic description,
+      ed. T. Shopen, Cambridge: Cambridge University Press)
+    kind: manual data entry
+    data: value-list
+    values: 
+      "inert": >-
+        Not spreading, not stacking. Default for non-phrasal elements.
+      "spreading": >-
+        See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology
+        and Syntactic Description (CUP 2007)
+      "stacking": >-
+        See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology
+        and Syntactic Description, (CUP 2007)
+      "final": >-
+        Inert and at the end of its domain (e.g. at the end of the clause for TAM markers,
+        or at the end of the NP for case markers)
+      "initial": >-
+        Inert and at the beginning (first element) of its domain (e.g. at the first
+        element of the clause for TAM markers, or at the beginning of the NP for case
+        markers). Combined with a “post” value in position, a “following” value in
+        Placement, and freedom of hosts, this is a typical Wackernagel clitic.
+      "on head": >-
+        Inert and positioned on the head of its domain: V for TAM, N for case. This
+        is typical for suffixes. Since clitics are typically insensitive to the host
+        category, their placement is regulated by more abstract positions (initial, final,
+        penultimate, pre-initial etc.) rather than the head. “On head” is used only with
+        phrases where the head can vary its position.
+      "on preceding": >-
+        DO NOT USE ANYMORE. If an element precedes its host, e.g. if a case enclitic
+        attaches to the preceding word, this is coded (following Klavans 1985) as
+        placement = preceding and behavior = on head (or spreading or initial or whatever
+        the case may be).
+      "flexible": >-
+        Inert and freely positioned within its domain (ie. position is not defined with
+        respect to H or D but by something else).
+      "lex. positioned": >-
+        Once per phrase; whether on head or dependent is lexically determined. Example:
+        Wemba Wemba dual and plural, which are overt on the noun unless there is a
+        demonstrative pronoun; then it takes the dual or plural form and the noun does
+        not.
+      "on head and final": >-
+        Simultaneously on head and final.
+      "on head and initial": >-
+        Simultaneously on head and initial.
+      "on head or final": >-
+        Data inconclusive because all heads in the grammar happen to be final.
+  # -- end of PositionalBehavior
+
+  PositionalBehaviorBinned4:
+    description: >-
+      Positional behavior of a grammatical marker in its phrase, as defined in
+      Bickel & Nichols 2007 (in Language typology and syntactic description,
+      ed. T. Shopen, Cambridge: Cambridge University Press), binned into four broad types
+    kind: manual data entry
+    data: value-list
+  # -- end of PositionalBehaviorBinned4
+
+  PositionalBehaviorIsSpreading:
+    description: >-
+      Is the grammatical markers spreading in its phrase
+      (spreading as defined in Bickel & Nichols 2007 (in Language typology and syntactic
+      description, ed. T. Shopen, Cambridge: Cambridge University Press)
+    kind: manual data entry
+    data: logical
+  # -- end of PositionalBehaviorIsSpreading
+
+  Definition:
+    description: >-
+      Behavior type definition
+    kind: manual data entry
+    data: comment
+  # -- end of Definition

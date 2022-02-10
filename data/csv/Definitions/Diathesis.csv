@@ -1,0 +1,15 @@
+Diathesis,Definition
+<any>,any diathesis
+ACT,"basic diathesis. in languages where it is possible to identify one, corresponds to active in case of active-passive/antipassive alternations"
+promP & demA,a (mostly derived) diathesis with A demotion and P promotion (acquiring certain properties of the S argument)
+promA & demP,a (mostly derived) diathesis with the A argument acquiring certain properties of the S argument. and the P argument loosing such properties
+?,unclear. needs revision
+n.a.,not applicable
+sympromA,a symmetrical diathesis with the A argument sharing certain morpho-syntactic properties with the S argument. For Philippine-type languages. the so-called Actor-Focus diathesis (cf. Schachter & Otanes 1972).
+sympromP,a symmetrical diathesis with the P (and T or G) argument sharing certain morpho-syntactic properties with the S argument. For Philippine-type languages. the so-called Object-Focus diathesis (Schachter & Otanes 1972)
+sympromG,a symmetrical diathesis with the G argument sharing certain morpho-syntactic properties with the S argument. For Philippine-type languages. the so-called Directional-Focus diathesis (Schachter & Otanes 1972)
+sympromADJ,a symmetrical diathesis with an adjunct (non-argument) sharing certain morpho-syntactic properties with the S argument.
+DIR,direct
+INV,inverse
+demA,a (mostly derived) diathesis with A demotion
+scenario-bound,scenario-conditioned diathesis. provisionally introduced to account for cases including INV/DIR distribution and symmetrical voice of the Tagalog type i.e. cases where in a particular constellation of argument only one diathesis is possible

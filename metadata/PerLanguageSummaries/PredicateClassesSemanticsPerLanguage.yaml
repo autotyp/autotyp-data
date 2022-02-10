@@ -1,0 +1,521 @@
+description: >-
+  Per-language summaries of predicate classes with distinct morphosyntactic behavior
+kind: computed data (aggregation-scripts/PredicateClass.R)
+data: table
+counts:
+  n_languages: 248
+  n_variables: 69
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      In this database a language is actually a dialect or variety, in that
+      individual dialects are entered as languages. That is, each language has
+      its own ID number (the 'LID') distinct from that of the pan-dialectal
+      language:e.g. LID 87 German, 1227 Upper Austrian German, 1295 Berlin
+      German, 1310 Zürich German, 2845 Old High German, etc. (The pan-dialectal
+      language is identified as the lowest taxonomic level, the `dialect group',
+      but this information is incomplete in many areas and has not been included
+      in the current release.) The general criterion for a separate language
+      record in the database is that it has a distinct property in at least one
+      of the typological variables that we survey; this may or may not coincide
+      with sociolinguistic criteria.
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  PredicateClassesCount:
+    description: >-
+      Number of non-default predicate classes with distinct morphosyntactic behavior
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: integer
+  # -- end of PredicateClassesCount
+
+  HasPredicateClassWithVerbsOfTypeEmotion:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Emotion"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeEmotion
+
+  HasPredicateClassWithVerbsOfTypeDesideration:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Desideration"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeDesideration
+
+  HasPredicateClassWithVerbsOfTypeAttempt:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Attempt"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeAttempt
+
+  HasPredicateClassWithVerbsOfTypeCognition:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Cognition"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeCognition
+
+  HasPredicateClassWithVerbsOfTypeHelp:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Help"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeHelp
+
+  HasPredicateClassWithVerbsOfTypeMotion:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Motion"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeMotion
+
+  HasPredicateClassWithVerbsOfTypeChangeOfState:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "ChangeOfState"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeChangeOfState
+
+  HasPredicateClassWithVerbsOfTypeCommunication:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Communication"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeCommunication
+
+  HasPredicateClassWithVerbsOfTypeFight:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Fight"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeFight
+
+  HasPredicateClassWithVerbsOfTypeQuality:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Quality"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeQuality
+
+  HasPredicateClassWithVerbsOfTypeSocialInteraction:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "SocialInteraction"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeSocialInteraction
+
+  HasPredicateClassWithVerbsOfTypeHit:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Hit"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeHit
+
+  HasPredicateClassWithVerbsOfTypeSpatialPosition:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "SpatialPosition"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeSpatialPosition
+
+  HasPredicateClassWithVerbsOfTypeBodilyEmission:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "BodilyEmission"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeBodilyEmission
+
+  HasPredicateClassWithVerbsOfTypeChangeOfPossession:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "ChangeOfPossession"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeChangeOfPossession
+
+  HasPredicateClassWithVerbsOfTypePutPourSprayLoadFill:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "PutPourSprayLoadFill"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypePutPourSprayLoadFill
+
+  HasPredicateClassWithVerbsOfTypeLaughWink:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "LaughWink"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeLaughWink
+
+  HasPredicateClassWithVerbsOfTypeSoundEmission:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "SoundEmission"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeSoundEmission
+
+  HasPredicateClassWithVerbsOfTypeGrooming:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Grooming"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeGrooming
+
+  HasPredicateClassWithVerbsOfTypeMalchEmotion:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "MalchEmotion"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeMalchEmotion
+
+  HasPredicateClassWithVerbsOfTypeMalchSensation:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "MalchSensation"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeMalchSensation
+
+  HasPredicateClassWithVerbsOfTypeMalchOther:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "MalchOther"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeMalchOther
+
+  HasPredicateClassWithVerbsOfTypeMalchPerceptionCognition:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "MalchPerceptionCognition"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeMalchPerceptionCognition
+
+  HasPredicateClassWithVerbsOfTypeMalchMotion:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "MalchMotion"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeMalchMotion
+
+  HasPredicateClassWithVerbsOfTypeMalchContact:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "MalchContact"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeMalchContact
+
+  HasPredicateClassWithVerbsOfTypeSendCarryBringTake:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "SendCarryBringTake"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeSendCarryBringTake
+
+  HasPredicateClassWithVerbsOfTypeSeem:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Seem"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeSeem
+
+  HasPredicateClassWithVerbsOfTypeHappening:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Happening"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeHappening
+
+  HasPredicateClassWithVerbsOfTypeSensation:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Sensation"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeSensation
+
+  HasPredicateClassWithVerbsOfTypeRemoveWipeClear:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "RemoveWipeClear"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeRemoveWipeClear
+
+  HasPredicateClassWithVerbsOfTypePossession:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Possession"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypePossession
+
+  HasPredicateClassWithVerbsOfTypeJudge:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Judge"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeJudge
+
+  HasPredicateClassWithVerbsOfTypeActivity:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Activity"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeActivity
+
+  HasPredicateClassWithVerbsOfTypeExistence:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Existence"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeExistence
+
+  HasPredicateClassWithVerbsOfTypePerception:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Perception"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypePerception
+
+  HasPredicateClassWithVerbsOfTypeHoldKeep:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "HoldKeep"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeHoldKeep
+
+  HasPredicateClassWithVerbsOfTypePushPull:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "PushPull"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypePushPull
+
+  HasPredicateClassWithVerbsOfTypeModality:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Modality"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeModality
+
+  HasPredicateClassWithVerbsOfTypeObligation:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Obligation"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeObligation
+
+  HasPredicateClassWithVerbsOfTypeDiseasesAndBodilyStates:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "DiseasesAndBodilyStates"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeDiseasesAndBodilyStates
+
+  HasPredicateClassWithVerbsOfTypeMeasure:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Measure"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeMeasure
+
+  HasPredicateClassWithVerbsOfTypePersuit:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Persuit"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypePersuit
+
+  HasPredicateClassWithVerbsOfTypeCombineAttach:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "CombineAttach"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeCombineAttach
+
+  HasPredicateClassWithVerbsOfTypeSpreadApply:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "SpreadApply"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeSpreadApply
+
+  HasPredicateClassWithVerbsOfTypeSeparateDisassemble:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "SeparateDisassemble"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeSeparateDisassemble
+
+  HasPredicateClassWithVerbsOfTypeInfluenceCause:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "InfluenceCause"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeInfluenceCause
+
+  HasPredicateClassWithVerbsOfTypeMalchPursuit:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "MalchPursuit"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeMalchPursuit
+
+  HasPredicateClassWithVerbsOfTypeTouch:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Touch"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeTouch
+
+  HasPredicateClassWithVerbsOfTypeAssumingPosition:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "AssumingPosition"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeAssumingPosition
+
+  HasPredicateClassWithVerbsOfTypeHide:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Hide"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeHide
+
+  HasPredicateClassWithVerbsOfTypeSleep:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Sleep"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeSleep
+
+  HasPredicateClassWithVerbsOfTypeScentEmission:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "ScentEmission"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeScentEmission
+
+  HasPredicateClassWithVerbsOfTypeFail:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Fail"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeFail
+
+  HasPredicateClassWithVerbsOfTypeName:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Name"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeName
+
+  HasPredicateClassWithVerbsOfTypeAspectual:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Aspectual"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeAspectual
+
+  HasPredicateClassWithVerbsOfTypeHurt:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Hurt"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeHurt
+
+  HasPredicateClassWithVerbsOfTypeUse:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Use"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeUse
+
+  HasPredicateClassWithVerbsOfTypeCreationTransformation:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "CreationTransformation"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeCreationTransformation
+
+  HasPredicateClassWithVerbsOfTypeAchieve:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Achieve"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeAchieve
+
+  HasPredicateClassWithVerbsOfTypeAppearanceDisappearance:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "AppearanceDisappearance"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeAppearanceDisappearance
+
+  HasPredicateClassWithVerbsOfTypeNecessity:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Necessity"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeNecessity
+
+  HasPredicateClassWithVerbsOfTypeLose:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Lose"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeLose
+
+  HasPredicateClassWithVerbsOfTypeCausedMotion:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "CausedMotion"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeCausedMotion
+
+  HasPredicateClassWithVerbsOfTypeKill:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Kill"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeKill
+
+  HasPredicateClassWithVerbsOfTypeMalchEffectiveAction:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "MalchEffectiveAction"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeMalchEffectiveAction
+
+  HasPredicateClassWithVerbsOfTypeAbility:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Ability"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeAbility
+
+  HasPredicateClassWithVerbsOfTypeIngestion:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Ingestion"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeIngestion
+
+  HasPredicateClassWithVerbsOfTypeDestroy:
+    description: >-
+      Does at least one non-default predicate class contain verbs of type "Destroy"
+    kind: computed data (aggregation-scripts/PredicateClass.R)
+    data: logical
+  # -- end of HasPredicateClassWithVerbsOfTypeDestroy

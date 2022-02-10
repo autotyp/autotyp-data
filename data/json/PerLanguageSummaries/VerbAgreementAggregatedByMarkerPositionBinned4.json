@@ -1,0 +1,1244 @@
+[
+  {
+    "LID": 35,
+    "Glottocode": "belh1239",
+    "Language": "Belhare",
+    "MarkerPositionBinned4ForADefault": "split",
+    "MarkerPositionBinned4ForUDefault": "split"
+  },
+  {
+    "LID": 107,
+    "Glottocode": "hung1274",
+    "Language": "Hungarian",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 74,
+    "Glottocode": "stan1293",
+    "Language": "English",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 404,
+    "Glottocode": "warl1254",
+    "Language": "Warlpiri"
+  },
+  {
+    "LID": 77,
+    "Glottocode": "fiji1243",
+    "Language": "Fijian (Boumaa)",
+    "MarkerPositionBinned4ForADefault": "prae"
+  },
+  {
+    "LID": 114,
+    "Glottocode": "ingu1240",
+    "Language": "Ingush",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 421,
+    "Glottocode": "yoru1245",
+    "Language": "Yoruba",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 456,
+    "Glottocode": "west2369",
+    "Language": "Persian",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 12,
+    "Glottocode": "ainu1240",
+    "Language": "Ainu",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForSDefault": "post"
+  },
+  {
+    "LID": 454,
+    "Glottocode": "rama1270",
+    "Language": "Rama",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 340,
+    "Glottocode": "russ1263",
+    "Language": "Russian",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 86,
+    "Glottocode": "nucl1302",
+    "Language": "Georgian",
+    "MarkerPositionBinned4ForADefault": "split",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForBDefault": "prae"
+  },
+  {
+    "LID": 458,
+    "Glottocode": "adyg1241",
+    "Language": "Adyghe (West Circassian)",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForBDefault": "prae",
+    "MarkerPositionBinned4ForPOSSDefault": "prae"
+  },
+  {
+    "LID": 460,
+    "Glottocode": "popt1235",
+    "Language": "Jacaltec",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 56,
+    "Glottocode": "chuk1273",
+    "Language": "Chukchi",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 154,
+    "Glottocode": "haka1240",
+    "Language": "Hakka Lai",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "split"
+  },
+  {
+    "LID": 104,
+    "Glottocode": "hual1241",
+    "Language": "Quechua (Huallaga)",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 461,
+    "Glottocode": "onei1249",
+    "Language": "Oneida",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 159,
+    "Glottocode": "lang1324",
+    "Language": "Lango",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 464,
+    "Glottocode": "mode1248",
+    "Language": "Greek (modern)",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForBDefault": "prae"
+  },
+  {
+    "LID": 78,
+    "Glottocode": "finn1318",
+    "Language": "Finnish",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 87,
+    "Glottocode": "stan1295",
+    "Language": "German",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 99,
+    "Glottocode": "hind1269",
+    "Language": "Hindi",
+    "MarkerPositionBinned4ForARGNom": "post"
+  },
+  {
+    "LID": 118,
+    "Glottocode": "nucl1643",
+    "Language": "Japanese",
+    "MarkerPositionBinned4ForADefault": "prae"
+  },
+  {
+    "LID": 465,
+    "Glottocode": "mari1440",
+    "Language": "Maricopa",
+    "MarkerPositionBinned4ForADefault": "in/simul",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 466,
+    "Glottocode": "sang1328",
+    "Language": "Sango"
+  },
+  {
+    "LID": 48,
+    "Glottocode": "cham1312",
+    "Language": "Chamorro",
+    "MarkerPositionBinned4ForADefault": "prae"
+  },
+  {
+    "LID": 348,
+    "Glottocode": "sanu1240",
+    "Language": "Sanuma"
+  },
+  {
+    "LID": 354,
+    "Glottocode": "nort2942",
+    "Language": "Slave",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForOAdp": "prae"
+  },
+  {
+    "LID": 399,
+    "Glottocode": "wara1303",
+    "Language": "Warao"
+  },
+  {
+    "LID": 571,
+    "Glottocode": "cent2194",
+    "Language": "Tamazight (Ayt Ndhir)",
+    "MarkerPositionBinned4ForADefault": "split",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForBDefault": "prae"
+  },
+  {
+    "LID": 581,
+    "Glottocode": "zulu1248",
+    "Language": "Zulu",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 512,
+    "Glottocode": "apur1254",
+    "Language": "Apurina",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 502,
+    "Glottocode": "nucl1301",
+    "Language": "Turkish",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 149,
+    "Glottocode": "goon1238",
+    "Language": "Kuniyanti",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post",
+    "MarkerPositionBinned4ForAFF": "post"
+  },
+  {
+    "LID": 112,
+    "Glottocode": "imon1245",
+    "Language": "Imonda",
+    "MarkerPositionBinned4ForADefault": "split",
+    "MarkerPositionBinned4ForUDefault": "post",
+    "MarkerPositionBinned4ForAFF": "post"
+  },
+  {
+    "LID": 515,
+    "Glottocode": "bagi1246",
+    "Language": "Bagirmi",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 378,
+    "Glottocode": "tiwi1244",
+    "Language": "Tiwi",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 438,
+    "Glottocode": "maib1239",
+    "Language": "Maybrat",
+    "MarkerPositionBinned4ForADefault": "prae"
+  },
+  {
+    "LID": 576,
+    "Glottocode": "wari1268",
+    "Language": "Wari",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 463,
+    "Glottocode": "nucl1310",
+    "Language": "Burmese",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 569,
+    "Glottocode": "stan1288",
+    "Language": "Spanish",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForBDefault": "prae"
+  },
+  {
+    "LID": 79,
+    "Glottocode": "stan1290",
+    "Language": "French (colloquial)",
+    "MarkerPositionBinned4ForADefault": "split",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForBDefault": "prae"
+  },
+  {
+    "LID": 498,
+    "Glottocode": "mezq1235",
+    "Language": "Otomi (Mezquital)",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "post",
+    "MarkerPositionBinned4ForBDefault": "post"
+  },
+  {
+    "LID": 411,
+    "Glottocode": "wasc1239",
+    "Language": "Wishram",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForBDefault": "prae"
+  },
+  {
+    "LID": 324,
+    "Glottocode": "east2652",
+    "Language": "Oromo",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 356,
+    "Glottocode": "sout2985",
+    "Language": "Miwok (Southern Sierra)",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 527,
+    "Glottocode": "even1259",
+    "Language": "Evenki",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 205,
+    "Glottocode": "nene1249",
+    "Language": "Nenets (Tundra)",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 7,
+    "Glottocode": "abkh1244",
+    "Language": "Abkhaz",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForBDefault": "prae",
+    "MarkerPositionBinned4ForTDefault": "prae"
+  },
+  {
+    "LID": 433,
+    "Glottocode": "gily1242",
+    "Language": "Nivkh",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 193,
+    "Glottocode": "east2379",
+    "Language": "Mparntwe Arrernte",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 25,
+    "Glottocode": "nucl1235",
+    "Language": "Armenian (Eastern)",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 221,
+    "Glottocode": "diga1241",
+    "Language": "Mishmi",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 145,
+    "Glottocode": "darg1241",
+    "Language": "Dargi (Kubachi)",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 355,
+    "Glottocode": "soma1255",
+    "Language": "Somali",
+    "MarkerPositionBinned4ForADefault": "split"
+  },
+  {
+    "LID": 420,
+    "Glottocode": "yima1243",
+    "Language": "Yimas",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForBDefault": "prae"
+  },
+  {
+    "LID": 481,
+    "Glottocode": "svan1243",
+    "Language": "Svan",
+    "MarkerPositionBinned4ForADefault": "split",
+    "MarkerPositionBinned4ForUDefault": "split",
+    "MarkerPositionBinned4ForBDefault": "split"
+  },
+  {
+    "LID": 406,
+    "Glottocode": "wash1253",
+    "Language": "Washo",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 325,
+    "Glottocode": "osse1243",
+    "Language": "Ossetic",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 152,
+    "Glottocode": "kwak1269",
+    "Language": "Kwakwala",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post",
+    "MarkerPositionBinned4ForIDefault": "post"
+  },
+  {
+    "LID": 668,
+    "Glottocode": "yecu1235",
+    "Language": "Totonac (Misantla)",
+    "MarkerPositionBinned4ForADefault": "split",
+    "MarkerPositionBinned4ForUDefault": "split"
+  },
+  {
+    "LID": 206,
+    "Glottocode": "nepa1254",
+    "Language": "Nepali",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 722,
+    "Glottocode": "nort2722",
+    "Language": "Qiang (Northern)",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 663,
+    "Glottocode": "drun1238",
+    "Language": "Drung",
+    "MarkerPositionBinned4ForADefault": "split",
+    "MarkerPositionBinned4ForUDefault": "split"
+  },
+  {
+    "LID": 725,
+    "Glottocode": "ital1282",
+    "Language": "Italian",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForBDefault": "prae"
+  },
+  {
+    "LID": 81,
+    "Glottocode": "furr1244",
+    "Language": "Fur",
+    "MarkerPositionBinned4ForADefault": "split"
+  },
+  {
+    "LID": 17,
+    "Glottocode": "tosk1239",
+    "Language": "Albanian",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForBDefault": "prae"
+  },
+  {
+    "LID": 664,
+    "Glottocode": "west2420",
+    "Language": "Kham",
+    "MarkerPositionBinned4ForADefault": "split",
+    "MarkerPositionBinned4ForUDefault": "split",
+    "MarkerPositionBinned4ForBDefault": "split"
+  },
+  {
+    "LID": 674,
+    "Glottocode": "limb1266",
+    "Language": "Limbu",
+    "MarkerPositionBinned4ForADefault": "split",
+    "MarkerPositionBinned4ForUDefault": "split"
+  },
+  {
+    "LID": 723,
+    "Glottocode": "kham1282",
+    "Language": "Tibetan (Dege)",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 626,
+    "Glottocode": "kinn1249",
+    "Language": "Kinnauri",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 223,
+    "Glottocode": "sout2729",
+    "Language": "Pumi",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 468,
+    "Glottocode": "east2773",
+    "Language": "Newar (Dolakha)",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 169,
+    "Glottocode": "mait1250",
+    "Language": "Maithili",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 632,
+    "Glottocode": "wayu1241",
+    "Language": "Hayu",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 2826,
+    "Glottocode": "darg1241",
+    "Language": "Dargi (standard)",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 2779,
+    "Glottocode": "yele1255",
+    "Language": "Yelî Dnye",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 196,
+    "Glottocode": "murr1258",
+    "Language": "Murrinh-patha",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 69,
+    "Glottocode": "nubi1251",
+    "Language": "Nubian (Dongolese)",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 387,
+    "Glottocode": "tuvi1240",
+    "Language": "Tuva",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 177,
+    "Glottocode": "marg1265",
+    "Language": "Margi",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "post",
+    "MarkerPositionBinned4ForSDefault": "prae"
+  },
+  {
+    "LID": 1531,
+    "Glottocode": "ghod1238",
+    "Language": "Godoberi",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForSDefault": "prae"
+  },
+  {
+    "LID": 2949,
+    "Glottocode": "darg1241",
+    "Language": "Dargi (Icari)",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 208,
+    "Glottocode": "nezp1238",
+    "Language": "Nez Perce",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 192,
+    "Glottocode": "movi1243",
+    "Language": "Movima",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 392,
+    "Glottocode": "urar1246",
+    "Language": "Urarina",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 551,
+    "Glottocode": "leal1235",
+    "Language": "Chinantec (Lealao)",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "in/simul"
+  },
+  {
+    "LID": 50,
+    "Glottocode": "chic1272",
+    "Language": "Chichimec",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 3101,
+    "Glottocode": "assy1241",
+    "Language": "Neo-Aramaic (Barwar)",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 2393,
+    "Glottocode": "selk1253",
+    "Language": "Selkup",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 2564,
+    "Glottocode": "thom1243",
+    "Language": "Thompson",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 678,
+    "Glottocode": "bulg1262",
+    "Language": "Bulgarian",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForBDefault": "prae"
+  },
+  {
+    "LID": 2330,
+    "Glottocode": "poli1260",
+    "Language": "Polish",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 2447,
+    "Glottocode": "slov1268",
+    "Language": "Slovene",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 675,
+    "Glottocode": "kaba1278",
+    "Language": "Circassian (East)",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForBDefault": "prae"
+  },
+  {
+    "LID": 3229,
+    "Glottocode": "NA",
+    "Language": "Torlak Serbian",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForBDefault": "prae"
+  },
+  {
+    "LID": 1890,
+    "Glottocode": "lith1251",
+    "Language": "Lithuanian",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 549,
+    "Glottocode": "latv1249",
+    "Language": "Latvian",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 683,
+    "Glottocode": "roma1327",
+    "Language": "Romanian",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForBDefault": "prae"
+  },
+  {
+    "LID": 2471,
+    "Glottocode": "croa1245",
+    "Language": "Serbian-Croatian",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 2412,
+    "Glottocode": "seri1257",
+    "Language": "Seri",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForGDefault": "prae"
+  },
+  {
+    "LID": 2984,
+    "Glottocode": "mian1256",
+    "Language": "Mian",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForBDefault": "post"
+  },
+  {
+    "LID": 656,
+    "Glottocode": "koro1312",
+    "Language": "Korowai",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 1364,
+    "Glottocode": "ngar1235",
+    "Language": "Bilinara"
+  },
+  {
+    "LID": 885,
+    "Glottocode": "yane1238",
+    "Language": "Amuesha",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 658,
+    "Glottocode": "yany1243",
+    "Language": "Yanyuwa",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 1363,
+    "Glottocode": "nang1259",
+    "Language": "Ngan'gityemerri",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "post",
+    "MarkerPositionBinned4ForBDefault": "post"
+  },
+  {
+    "LID": 3240,
+    "Glottocode": "ashe1272",
+    "Language": "Ashéninka Perené",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 352,
+    "Glottocode": "shua1257",
+    "Language": "Shuar",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 2050,
+    "Glottocode": "moco1246",
+    "Language": "Mocoví",
+    "MarkerPositionBinned4ForADefault": "split",
+    "MarkerPositionBinned4ForUDefault": "split"
+  },
+  {
+    "LID": 426,
+    "Glottocode": "yura1255",
+    "Language": "Yurakare",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForBDefault": "prae"
+  },
+  {
+    "LID": 1385,
+    "Glottocode": "sout2991",
+    "Language": "Quechua (Cochabamba)",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 326,
+    "Glottocode": "paez1247",
+    "Language": "Paez",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 2508,
+    "Glottocode": "suab1238",
+    "Language": "Inanwatan",
+    "MarkerPositionBinned4ForADefault": "prae"
+  },
+  {
+    "LID": 2951,
+    "Glottocode": "kara1500",
+    "Language": "Karajá",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 2900,
+    "Glottocode": "aves1237",
+    "Language": "Avestan",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 2726,
+    "Glottocode": "wels1247",
+    "Language": "Welsh"
+  },
+  {
+    "LID": 1067,
+    "Glottocode": "bret1244",
+    "Language": "Breton",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 2832,
+    "Glottocode": "goth1244",
+    "Language": "Gothic",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 2856,
+    "Glottocode": "oldn1244",
+    "Language": "Old Norse",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 2514,
+    "Glottocode": "tapi1253",
+    "Language": "Tapiete",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 110,
+    "Glottocode": "icel1247",
+    "Language": "Icelandic",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 633,
+    "Glottocode": "kash1277",
+    "Language": "Kashmiri",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post",
+    "MarkerPositionBinned4ForBDefault": "post"
+  },
+  {
+    "LID": 3243,
+    "Glottocode": "nort2646",
+    "Language": "Pashto (Northern)",
+    "MarkerPositionBinned4ForCore": "post"
+  },
+  {
+    "LID": 100,
+    "Glottocode": "hitt1242",
+    "Language": "Hittite",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 2831,
+    "Glottocode": "anci1242",
+    "Language": "Greek (Ancient)",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 2833,
+    "Glottocode": "olde1238",
+    "Language": "English (Old)",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 641,
+    "Glottocode": "oriy1255",
+    "Language": "Oriya",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 2854,
+    "Glottocode": "oldh1241",
+    "Language": "High German (Old)",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 2855,
+    "Glottocode": "olds1250",
+    "Language": "Old Saxon",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 699,
+    "Glottocode": "sans1269",
+    "Language": "Sanskrit",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 2360,
+    "Glottocode": "caml1239",
+    "Language": "Camling",
+    "MarkerPositionBinned4ForADefault": "split",
+    "MarkerPositionBinned4ForUDefault": "split"
+  },
+  {
+    "LID": 3278,
+    "Glottocode": "tsho1240",
+    "Language": "Tshobdun",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 1694,
+    "Glottocode": "japh1234",
+    "Language": "Jiarong",
+    "MarkerPositionBinned4ForADefault": "split",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 691,
+    "Glottocode": "tibe1272",
+    "Language": "Tibetan (Lhasa)",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 975,
+    "Glottocode": "bard1255",
+    "Language": "Bardi",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "post",
+    "MarkerPositionBinned4ForBDefault": "post",
+    "MarkerPositionBinned4ForPOSSDefault": "split"
+  },
+  {
+    "LID": 3312,
+    "Glottocode": "west2368",
+    "Language": "Balochi (Western)",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 2716,
+    "Glottocode": "uppe1395",
+    "Language": "Sorbian (Upper)",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 2916,
+    "Glottocode": "wakh1245",
+    "Language": "Wakhi"
+  },
+  {
+    "LID": 2893,
+    "Glottocode": "lati1261",
+    "Language": "Latin",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 1395,
+    "Glottocode": "vlax1238",
+    "Language": "Romani (Vlax)",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 3213,
+    "Glottocode": "oldi1245",
+    "Language": "Irish (Old)",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "split",
+    "MarkerPositionBinned4ForBDefault": "split"
+  },
+  {
+    "LID": 1440,
+    "Glottocode": "dutc1256",
+    "Language": "Dutch",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 710,
+    "Glottocode": "faro1244",
+    "Language": "Faroese",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 1399,
+    "Glottocode": "dara1250",
+    "Language": "Darai",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post",
+    "MarkerPositionBinned4ForBDefault": "post"
+  },
+  {
+    "LID": 2987,
+    "Glottocode": "jams1239",
+    "Language": "Dogon (Jamsay)",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 3239,
+    "Glottocode": "atin1240",
+    "Language": "Laz (Pazar)",
+    "MarkerPositionBinned4ForADefault": "split",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 1203,
+    "Glottocode": "cupe1243",
+    "Language": "Cupeño",
+    "MarkerPositionBinned4ForADefault": "split",
+    "MarkerPositionBinned4ForPat": "split"
+  },
+  {
+    "LID": 689,
+    "Glottocode": "lowl1265",
+    "Language": "Rarámuri",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 3313,
+    "Glottocode": "tang1334",
+    "Language": "Tangut",
+    "MarkerPositionBinned4ForADefault": "in/simul",
+    "MarkerPositionBinned4ForUDefault": "post",
+    "MarkerPositionBinned4ForBDefault": "post"
+  },
+  {
+    "LID": 2020,
+    "Glottocode": "karb1241",
+    "Language": "Mikir",
+    "MarkerPositionBinned4ForUDefault": "prae",
+    "MarkerPositionBinned4ForBDefault": "prae"
+  },
+  {
+    "LID": 688,
+    "Glottocode": "cora1260",
+    "Language": "Cora",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 368,
+    "Glottocode": "tawa1275",
+    "Language": "Tawala",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 68,
+    "Glottocode": "djin1251",
+    "Language": "Djingili",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 2873,
+    "Glottocode": "bant1281",
+    "Language": "Bantawa",
+    "MarkerPositionBinned4ForADefault": "split",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 1004,
+    "Glottocode": "gahr1239",
+    "Language": "Bunan",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 1130,
+    "Glottocode": "chep1245",
+    "Language": "Chepang",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUBDefault": "post"
+  },
+  {
+    "LID": 3326,
+    "Glottocode": "situ1238",
+    "Language": "Jiǎomùzú",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 2217,
+    "Glottocode": "nung1282",
+    "Language": "Anong",
+    "MarkerPositionBinned4ForADefault": "split",
+    "MarkerPositionBinned4ForUDefault": "split"
+  },
+  {
+    "LID": 2563,
+    "Glottocode": "than1259",
+    "Language": "Thangmi",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 1317,
+    "Glottocode": "dhim1246",
+    "Language": "Dhimal",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 735,
+    "Glottocode": "raji1240",
+    "Language": "Raji",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 1376,
+    "Glottocode": "tase1235",
+    "Language": "Jugli",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 2662,
+    "Glottocode": "yaku1245",
+    "Language": "Yakut",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 18,
+    "Glottocode": "aleu1260",
+    "Language": "Aleut",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 2657,
+    "Glottocode": "udih1248",
+    "Language": "Udihe",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 1480,
+    "Glottocode": "esto1258",
+    "Language": "Estonian",
+    "MarkerPositionBinned4ForADefault": "prae"
+  },
+  {
+    "LID": 1388,
+    "Glottocode": "darm1243",
+    "Language": "Darmiya",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 709,
+    "Glottocode": "kild1236",
+    "Language": "Saami (Kildin)",
+    "MarkerPositionBinned4ForADefault": "prae"
+  },
+  {
+    "LID": 3006,
+    "Glottocode": "shek1245",
+    "Language": "Sheko",
+    "MarkerPositionBinned4ForADefault": "split"
+  },
+  {
+    "LID": 3173,
+    "Glottocode": "sida1246",
+    "Language": "Sidaama",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 2936,
+    "Glottocode": "phal1254",
+    "Language": "Palula",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 701,
+    "Glottocode": "sout2674",
+    "Language": "Saami (South)",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 703,
+    "Glottocode": "pite1240",
+    "Language": "Saami (Pite)",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 628,
+    "Glottocode": "byan1241",
+    "Language": "Byangsi",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 838,
+    "Glottocode": "amdo1237",
+    "Language": "Amdo",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 1775,
+    "Glottocode": "kulu1253",
+    "Language": "Kulung",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 1778,
+    "Glottocode": "khal1275",
+    "Language": "Khaling",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 3272,
+    "Glottocode": "zaiw1241",
+    "Language": "Zaiwa",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 786,
+    "Glottocode": "rong1264",
+    "Language": "Rongpo",
+    "MarkerPositionBinned4ForADefault": "post"
+  },
+  {
+    "LID": 1914,
+    "Glottocode": "lush1249",
+    "Language": "Mizo (Lushai)",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 667,
+    "Glottocode": "thul1246",
+    "Language": "Thulung (Mukli)",
+    "MarkerPositionBinned4ForADefault": "post",
+    "MarkerPositionBinned4ForUDefault": "post"
+  },
+  {
+    "LID": 3331,
+    "Glottocode": "guan1266",
+    "Language": "Khroskyabs",
+    "MarkerPositionBinned4ForADefault": "prae",
+    "MarkerPositionBinned4ForUDefault": "prae"
+  },
+  {
+    "LID": 2862,
+    "Glottocode": "chhi1245",
+    "Language": "Chintang",
+    "MarkerPositionBinned4ForADefault": "split",
+    "MarkerPositionBinned4ForUDefault": "split"
+  }
+]

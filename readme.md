@@ -1,306 +1,384 @@
+# The AUTOTYP database v1.0.0
 
-# The AUTOTYP database
-
-Balthasar Bickel, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, Kristine Hildebrandt, Michael Rießler, Lennart Bierkandt, Fernando Zúñiga and John B. Lowe
-
+> Balthasar Bickel, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, 
+> Kristine Hildebrandt, Michael Rießler, Lennart Bierkandt, Fernando Zúñiga and John B. Lowe
 
 ---
-
-**Release version 0.1.2**
 
 [![DOI](https://zenodo.org/badge/92335614.svg)](https://zenodo.org/badge/latestdoi/92335614)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+This work is licensed under a Creative Commons Attribution 4.0 International License
 
 ---
 
+## Quick overview
 
-**Table of Contents**
+AUTOTYP is provided as a series of tabular datasets based on the relational data model. All data
+files are located under `data`. To support different types of users and use cases, the data is
+provided using a variety of formats:
 
-- [Data files](#data-files)
-    - [General design](#general-design)
-    - [Overview of the individual modules](#overview-of-the-individual-modules-in-alphabetical-order)
-- [Coverage](#coverage)
-- [Metadata files](#metadata-files)
-- [Bibliographical references](#bibliographical-references)
-- [Naming conventions](#naming-conventions)
-- [File formats and how to download and access the data](#file-formats-and-how-to-download-and-access-the-data)
-- [Error reports, feature requests, pull requests](#error-reports-feature-requests-pull-requests)
-- [License](#license)
-- [Citation](#citation)
-- [FAQ](#faq)
-- [References](#references)
+- An R workspace file `data/autotyp.RData` for convenient import into R
+- A series of JSON files in `data/json` for use with other processing environments (e.g. Python)
+- A series of CSV files in `data/csv` for quick visual exploration or use with a spreadsheet tool
 
+Human-readable descriptions of the datasets in [`YAML`](https://en.wikipedia.org/wiki/YAML) format 
+are located in `metadata` and are organized according to the module (see 
+[Dataset overview](#dataset-overview)). These description files can be either parsed for automated 
+processing or opened in a text editor/viewer for visual inspection. 
 
-
-# Data files
-
-These files are stored as `csv` tables in the directory `data/`.
-
-## General design
-AUTOTYP differs from traditional typological databases in that in most cases, data is entered in a fairly raw format (comparable to reference grammar descriptions) and need to be aggregated and reshaped for most analytical purposes. For example, we do not enter alignment statements ('S=A≠P' or 'nominative-accusative alignment', etc) but enter individual case markers with the roles they cover and the conditions under which they occur. Alignment statements can then be ***derived*** (i.e. aggregated and/or reshaped) from the data using scripts. The raw data supports a variety of such derivations (apart from alignment statements, one might be interested in whether or not there is a split in case marking, or how many cases can code the same generalized semantic argument role etc.). As a result, AUTOTYP usually contains several alternative derivations from the same raw data. However, the current release (version 0.1.2) includes only tables that we have already derived in earlier research, and the few raw tables that can be used off the shelf. The raw data has a more complex database structure and will be released later, together with scripts for making your own aggregations as well as for exploring and mapping the data. (But of course, it will always be possible to use the data tables without scripts, e.g. for exploring, looking things up in particular languages, copying data to your own spreadsheet, etc.)
-
-Another way in which AUTOTYP differs from traditional databases is that most variables were not predefined but were developed in a technique we call ***autotypologizing*** (Bickel & Nichols 2002, Witzlack-Makarevich et al. 2021): the values of the variables (features, categories, types) and their definitions are constantly revised and expanded during data collection until they stabilize. For example, instead of surveying the presence/absence of a predefined category like 'aspect', we develop a list of categories as we encounter them in our survey work and equate them (or not) to cross-linguistically stable types on the basis of an evolving analysis. The result is a list of categories and definitions and this can then be queried later as to which category occurs where. The outputs of such queries are published here, with the definitions stored in the metadata. 
-
-AUTOTYP has been developed for over 20 years, in a series of loosely related projects. Each project resulted in one or more database modules. Because the projects were carried out with specific purposes in mind and at different times, the variables do not necessarily form a tightly integrated and internally consistent system. The variables sometimes assume different basic notions, reflecting different research questions or a different stage in our theoretical research. For example, some modules make reference to an open list of semantic roles (e.g. the *locus* module), while other modules (e.g. the *grammatical relations* module) makes reference to a Dowty-style approach with a fixed roster of generalized roles that we adopted at a later point.
-
-Another perennial concern of typological databases is empty cells (blanks, or "NA"s in R parlance). In the current release, we do not distinguish between different types of empty values. That is, an empty value can mean 'logically impossible to fill' (e.g. fusion of case marker when there is no case marker), or 'we don't know', or 'nobody knows'. We hope to improve this in future releases.
-
-Finally, a note on the nature and quality of our data. We sometimes deliberately deviate from the analysis provided in reference grammars because we find our analyses are better supported by the data in the grammar or text collections. Because of this and because the analyses evolve slowly together with autotypologizing variables, simple reliability tests were not really feasible during the development of AUTOTYP. However, during the process, all analyses and definitions were extensively discussed in project teams until we reached consensus. Also, in several areas, such as in work on agreement and case morphology or on NP structure, data was collected in independent projects and was then extensively tested for consistency, discussing and resolving any mismatches in the analyses. (Our data publication pipeline also includes a series of formal consistency checks in the form of scripts.)
+Note that AUTOTYP table fields can contain nested tables or repeated data values (see
+[Data architecture](#data-architecture) for details). In the R export, such fields are represented
+as lists of tables/values and can be intuitively manipulated with the `unnest()` functionality in
+the `tidyverse` framework (see example). In the JSON export, such fields are transparently
+represented as objects or lists (you can use functionality like `json_normalize()` to produce
+simple tables out of nested structures). In the CSV export, such data is "unnested" to produce one
+value per cell, with outer rows replicated — see 
+[`PredicateClasses.csv`](data/csv/GrammaticalRelations/PredicateClasses.csv) for an example. 
 
 
-## Overview of the individual modules (in alphabetical order)
+#### Example usage with R
 
-- **`Agreement`**: Various aspects of verb agreement. Entries are based on the *Locus* and *Synthesis* modules, with additional coding by hand.
+```r
+  # load the tibble package for improved data display
+  library(tibble) 
+  # load the dataset
+  load("data/autotyp.RData")
+  # inspect the Register dataset
+  Register
+  # inspect the PredicateClasses dataset 
+  PredicateClasses
+  # unnest the individual predicate meanings to produce one normalized table
+  unnest(PredicateClasses, IndividualPredicates)
+```
 
-- **`Alienability`**: Various aspects of possessive classification. Expanded version of Nichols and Bickel's contributions on possession in the [World Atlas of Language Structure](http://wals.info). Note: this module is likely to undergo substantial revision in conjunction with the *NP structure* module. (Some information is duplicated in the two modules, but was collected independently and cross-checked.)
+#### Example usage with Python
 
-- **`Alignment`**: Alignment of generalized semantic roles. Coded at the level of individual case and agreement (sub)systems. (This represents aggregations of a raw table on grammatical relations, which will be released later.)
+```python
+  import json
 
-- **`Alignment_per_language`:** Alignment of generalized semantic roles. Aggregated at the language level. Based on the information in the *Alignment* module.
-
-- **`Alignment_case_splits`:** Splitting of the case marking of A and/or P by referential or parts of speech category conditions. Based on the information in the *Alignment* module.
-
-- **`Clause_linkage`**: A multivariate typology of clause linkage constructions. Contains only few languages (see the medata for counts), but detailed coding.
-
-- **`Clause_word_order`**: Basic and alternative word orders at the clause level.
-
-- **`Clusivity`**: Various aspects of how inclusive vs. exclusive distinctions are made (if any).
-
-- **`Gender`**: Various aspects of gender distinctions and their reflexes.
-
-- **`Grammatical_markers`**: Various formal and semantic properties of individual grammatical markers. The coding of fusion and exponence is an expanded versions of Bickel & Nichols's contributions to the [World Atlas of Language Structure](http://wals.info).
-
-- **`GR_per_language`**: Aggregated information on grammatical relations (GRs), specifically on the presence and nature of case marking and verb agreement.
-
-- **`Locus_per_language`**: Various per-language aggregations of the locus information in the *Locus per (macro/micro)relation* modules. 
-
-- **`Locus_per_macrorelation`**: Locus of marking (head vs. dependent marking and various special cases) coded at the level of broad macrorelations, such as S, A, P, attributes etc., under default conditions. Aggregated version of the *Locus per microrelation* module.
-
-- **`Locus_per_microrelation`**: Locus of marking (head vs. dependent marking and various special cases) coded at a fine-grained level, tracking language-internal variation in detail. Expanded version of Nichols and Bickel's chapters on Locus in the [World Atlas of Language Structure](http://wals.info).
-
-- **`Markers_per_language`**: Various properties of exemplary markers (a Negation, a Tense, a Case, and a Noun Plural marker) in each language. Aggregated from the *Grammatical markers* module.
-
-- **`Morpheme_types`**: A multivariate typology of words, affixes and clitics focusing on the host restrictions and on the phonological and grammatical behavior of morphemes. Not many languages (see the metadata for counts).
-
-- **`Morphology_per_language`**: Various aggregated properties of morphology, based on the *Grammatical markers*, *Locus*, and *Synthesis* modules.
-
-- **`NP_per_language`**: Various per-language aggregations of the data in the *NP structure* module, with a particular (but non-exclusive) focus on adjectival attribution constructions.
-
-- **`NP_structure`**: Various aspects of noun phrases, focusing on their marking and (formal or semantic) constraints on head and dependents. Each entry is an NP construction type with a distinct morphosyntax and/or distinct constraints. Note: this module is likely to undergo substantial revision in conjunction with the *Alienability* module. (Some information is doubled in the two modules, but collected independently and cross-checked.)
-
-- **`NP_structure_presence`**: Reshaped version of some variables of the *NP structure* module, tracking the presence in each NP type of specific morphosyntactic properties and of constraints on what can be head and dependent.
-
-- **`NP_word_order`**: Basic and alternative word orders at the noun phrase level.
-
-- **`Numeral_classifiers`**: Presence and number of numeral classifiers.
-
-- **`Register`**: This modules tracks information on genealogical, geographical and other information. It was previously released as  Nichols et al. (2013). There are three subparts:
-
-    - *IDs*: apart from our own unique language identifier (`LID`), the database is matched to [Glottolog](http://glottolog.org) and [ISO](http://www-01.sil.org/iso639-3/) codes.
-
-   - *Genealogical information*: The genealogy part is based on the state of the art in each family.  We stay away from geographical groupings, widely mentioned but unproven groupings, or similar hypothetical groupings. (In the few cases where we felt it necessary to include a label for a residual grouping that is not a clade, such as Western Malayo-Polynesian, we have included 'non-clade' in the name of the group.) Thus, our genealogy is similar to the classifications of Campbell & Poser (2008) or [Glottolog](http://glottolog.org), but does not attempt to include languages or families for which there is classificatory information but little or no typological information (e.g. Beothuk, Cayuse) and does not include languages with typological information available that happen not to be in our database. The genealogical database uses two classificatory levels (and corresponding database fields) that are cross-linguistically comparable: `Language` and `Stock`, as defined in the metadata. Between these two levels, the database provides various nested convenience levels that reflect the current state of the art in subgrouping research. They are not comparable across families (e.g. what is called  a major branch can reflect a primary split in one but later splits in another family). Also, they are not necessarily complete. 
-
-   - *Geographical information*: The geography database contains information on the geographical location of languages and a small-scale and a large-scale classification of languages into areas. The area classifications are based on our assumptions about contact events in history, informed by current knowledge of the historical, genetic, anthropological, and archeological record. We try to keep our definition of areas free of linguistic information in order to avoid circularity in areal linguistics research (Bickel & Nichols 2006). The individual definitions are given in the metadata and illustrated in static [area](figures/areas.jpg) and [continent](figures/continents.jpg) pictures. For closer inspection, we recommend loading the files `figures/autotyp.areas.kml` and `figures/autotyp.continents.kml` into [Google Earth](https://www.google.com/earth/).
+  # load the Register dataset
+  with open("data/json/Register.json") as json_file:
+    register_data = json.load(json_file)
   
-   - *Other information*: This contains information on the genesis (creole vs. regular) and modality (spoken vs. signed) of languages, and on the main subsistence of their speakers.
+  # inspect the first record
+  print(register_data[0])
+```
 
-- **`Rhythm_per_language`**: A rough classification of languages into phonological rhythm types, based on Schiering et al. (2012).
+## General design principles
 
-- **`Synthesis`**: Various aspects of how maximally inflected synthetic verb forms are structured in a language, including exhaustive listings of the inflectional categories that can be marked separately (non-cumulatively) and overtly. Expanded version of Bickel and Nichols' chapter on synthesis in the [World Atlas of Language Structure](http://wals.info).
+AUTOTYP differs from traditional topological databases in that in most cases, data is entered 
+in a fairly raw format (comparable to reference grammar descriptions) and needs to be aggregated and
+reshaped for most analytical purposes. For example, we do not enter alignment statements ('S=A≠P' or 
+'nominative-accusative alignment', etc.) but enter individual case markers with the roles they cover 
+and the conditions under which they occur. Alignment statements can then be ***derived*** (i.e. 
+aggregated and/or reshaped) from the data using scripts. The raw data supports a variety of such 
+derivations (apart from alignment statements, one might be interested in whether or not there is a 
+split in case marking, or how many cases can code the same generalized semantic argument role etc.).
+As a result, AUTOTYP usually contains several alternative derivations from the same raw data. 
 
-- **`Valence_classes`**: Valence classes as distinguished by case assignment, agreement and other syntactic patterns
+In the current release, *primary* (hand entered) datasets and fields are declared as such with 
+`kind: manual data entry` in the dataset metadata, while *derived* data is declared as 
+`kind: computed`. The full summary of primary and derived datasets and variables can be found in 
+[`variables_overview.csv`](variables_overview.csv). Primary datasets can also contain derived 
+(computed) variables; these are usually quick summaries such as counts or convenience types/labels
+that enhance the primary raw data. Derived datasets only contain derived variables. 
 
-- **`Valence_classes_per_language`**: Presence (i.e. mentioning) of specific semantic types in the valence classes that the language distinguishes by case assignment, agreement and other syntactic patterns. Aggregated from the *Valence class* module.
+All the code used to create the derived datasets and derived variables as well their metadata is 
+available in `aggregation-scripts` and referenced in the dataset descriptions (metadata). 
+You can use the available aggregations or write your own code to aggregate the data in a way that 
+best suits your research purpose. Of course, it is also possible to explore the data tables without 
+writing any code, e.g. for exploring, looking things up in particular languages, copying data to 
+your own spreadsheet, etc. — we provide every dataset as a convenient CSV file for this purpose. 
 
-- **`VAgreement`**: Presence of macrorole (A, P, POSS) marking, i.e., agreement, in maximally inflected synthetic verb forms, aggregated from the *Synthesis* module (but only when we are relatively confident that our survey is complete).
+Another way in which AUTOTYP differs from traditional databases is that most variables were not 
+predefined but were developed in a technique we call ***autotypologizing*** (Bickel & Nichols 2002, 
+Witzlack-Makarevich et al. 2021): the values of the variables (features, categories, types) and 
+their definitions are constantly revised and expanded during data collection until they stabilize. 
+For example, instead of surveying the presence/absence of a predefined category like 'aspect', we 
+develop a list of categories as we encounter them in our survey work and equate them (or not) to 
+cross-linguistically stable types on the basis of an evolving analysis. The result is a list of 
+categories and definitions which are stored in separate definition tables (see the module 
+`Definitions`). Category values defined in the definition tables are then utilized in various 
+datasets across the database, allowing for quick cross-referencing and queries. 
 
-- **`VInfl_categories`**: Presence (vs. absence) of separatively and overtly marked inflectional categories on maximally inflected synthetic verb forms. The range of categories comes from the *Synthesis* module (and is defined there) but the aggregation is only produced when we are relatively confident that our survey is complete.
-	
-- **`VInfl_counts_per_position`**: Counts of separatively (i.e. non-cumulatively) marked inflectional categories that are realized before, after, inside etc. the maximally inflected synthetic verb form. Aggregated from the *Synthesis* module.
+AUTOTYP has been developed for over 20 years, in a series of loosely related projects. Each project
+is associated with one or more database modules, such as `GrammaticalRelations` or `Morphology`.
+Because the projects were carried out with specific purposes in mind and at different times, 
+the variables do not necessarily form a tightly integrated and internally consistent system. 
+The variables sometimes assume different basic notions, reflecting different research questions or 
+a different stage in our theoretical research. For example, some datasets make reference to an open 
+list of semantic roles (e.g. `LocusOfMarkingPerMicrorelation`) that we used in one project, 
+while other datasets (e.g. `GrammaticalRelations`) makes reference to a Dowty-style approach with a 
+fixed roster of generalized roles that we adopted in another project.
+
+Another perennial concern of typological databases is empty/missing cells ("NA"s in R parlance). 
+In the current release, we do not distinguish between different types of empty values. That is, an 
+empty value can mean 'logically impossible to fill' (e.g. fusion of case marker when there is no 
+case marker), or 'we don't know', or 'nobody knows'. We hope to improve this in future releases.
+
+Finally, a note on the nature and quality of our data. We sometimes deliberately deviate from the 
+analysis provided in reference grammars because we find our analyses are better supported by the 
+data in the grammar or text collections. Because of this and because the analyses evolve slowly 
+together with autotypologizing variables, simple reliability tests were not really feasible during 
+the development of AUTOTYP. However, during the process, all analyses and definitions were 
+extensively discussed in project teams until we reached consensus. Also, in several areas, such as 
+in work on agreement and case morphology or on NP structure, data was collected in independent 
+projects and was then extensively tested for consistency, discussing and resolving any mismatches 
+in the analyses. Some of the datasets contain auxiliary notes with analysis details and examples. 
+
+## Data architecture
+
+AUTOTYP is a relational database organized into separate tabular datasets. Each row in a dataset
+represents an observation of some kind, e.g. information associated with a language for `Register`
+or a single grammatical relation for `GrammaticalRelations`. Columns (fields) in the datasets
+represent the variables that encode information. Most of these variables refer to some fact about
+linguistic structure (variables proper), but some have a bookkeeping function (e.g. language or
+construction identifiers, names or labels) or store relevant comments and notes. Different datasets
+are implicitly connected by referring to a common set of IDs (such as language IDs) or concepts
+(e.g. generalized semantic roles, marker position types). The latter shared concepts are
+accompanied by auxiliary definition datasets (module `Definitions`) that list possible values and
+their definitions. We plan to make the relationships between these variables more explicit in
+future versions of the database, by exposing the links in the metadata. 
+
+One important aspect of the AUTOTYP data architecture is that table cells can contain nested tables
+or repeated values (we follow the terminology established by other databases such as
+[Google BigQuery](https://cloud.google.com/bigquery/docs/nested-repeated)). This allows us to
+represent complex data in a more natural fashion. As an example, consider the dataset
+`PredicateClasses` (module `GrammaticalRelations`). Every entry in `PredicateClasses` describes a
+language-specific predicate (valence) type: a (potentially open) set of predicates identified by
+their valency frame. One type of information we want to provide for each of these predicate classes
+is the semantic field — and we do it by providing a set of simple translation equivalents that
+approximate the meaning of the verbs that make up the predicate class. For instance, the German
+language has a small class of predicates that require accusative subject, these encompass verbs
+experience and existence, with the translation equivalents including 'feel_itchy', 'feel_cold' and 
+'exist'. 
+
+The classical relational (normalized) data model would require three tables to represent
+this information: one listing only the individual predicate classes, one listing the meanings,
+and a third one matching predicate classes to the meanings (with each row listing one meaning per 
+predicate class). However, from the practical standpoint, it makes a lot of sense to treat the sets 
+of meanings directly as a property of the predicate class instead:
+
+| Language | PredicateClass            | Meanings                       |
+|----------|---------------------------|--------------------------------|
+| German   | Sacc verbs                | [feel_itchy, feel_cold, exist] |
+| German   | control and raising verbs | [try, promise, believe, ...]   |
+| ...      |                           |                                |
 
 
-- **`VInfl_macrocategories`**: Presence (vs. absence) of separatively and overtly marked inflectional categories in maximally inflected synthetic verb forms, aggregated into broad macro-categories. The range of macro-categories comes from the *Synthesis* module (and is defined there) but the aggregation is only produced when we are relatively confident that our survey is complete.
+Using a list of values in a table cell allows us to represent such data within a single dataset 
+(rather than three), improve the clarity, as well package the maximal amount of relevant information 
+closely together. Such data arrangement is also convenient to work with: it is easier to make sense 
+out of a single table with nested data than trying to follow three different linked tables. R 
+frameworks such as `tidyverse` (`nest()`, `unnest()`, `dplyr` predicates) make it possible to 
+transform and aggregate data of this kind in a natural and intuitive fashion, and similar tools are 
+available for other data analysis environments (e.g. Python `pandas`) as well. 
 
-- **Position of verb-inflectional categories**:  6 different ways of reporting the morphological positions of all separatively (i.e. non-cumulatively) marked verb-inflectional categories encountered in the *Synthesis* module (which covers maximally inflected synthetic verb forms):
+### Data types in variables (fields)
 
-   - **`VInfl_cat_postposed`**: presence of at least some exponents of the category after the phonological host
-	
-   - **`VInfl_cat_positions4`**: four-way aggregation of the position types into prae, post, simul/in, split
-	
-   - **`VInfl_cat_positions`**: maximally resolved distinctions of positions
-   
-   - **`VInfl_cat_positions5`**: five-way aggregation of the position types (in, post, prae, simul vs. split)
-	
-   - **`VInfl_cat_preposed`**: presence of at least some exponents of the category before the phonological host
-   
-   - **`VInfl_cat_multiexponence`**: presence of at least some multiple/simultaneous realization of the category at issue
+Variables (fields) in AUTOTYP datasets can are one of the following types (as specified by the YAML 
+metadata field `data`):
+
+ - `integer`    - an integer number 
+ - `number`     - a (possibly fractional) number
+ - `string`     - a label-like short text value (single line, no consecutive whitespaces), 
+   open-ended
+ - `value-list` - a categorical value from a finite list (YAML metadata field `values` lists 
+   the possible values)
+ - `comment`    - a free-text comment field
+ - `table`      - a nested table field (YAML metadata field `fields` lists the nested fields)
+ - `list-of<data>` - a repeated field of type `data`
+
+### Definitions
+
+AUTOTYP defines multiple categorical values that encode categories and types. These definitions are
+provided as part of the module `Definitions`. Many datasets rely on these value definitions to
+encode the presence of categories in a way that permits compatible coding and quick
+cross-referencing. For instance, the definition table `Position` establishes a set of values for
+describing the location of a grammatical marker in relation to its phonological host. These values
+are then used across multiple datasets (e.g. `GrammaticalMarkers`, `VerbSynthesis` etc.). Note that
+most of these values are not a-priory defined, but produced through the process of autotypology —
+the set of defined values is extended when new phenomena is discovered that cannot be adequately
+described with the existing set. 
+
+For variables that rely on shared definitions, the dataset metadata will specify their type as 
+`value-list` and `values` will list the values and their explanations. Such variables are presented
+in the R export as factors. A future release of AUTOTYP will make the relationship between the 
+variables more explicit by annotating defined values as a separate data type. 
+
+### Naming guidelines
+
+AUTOTYP uses verbose variable names that aim to be self-explanatory. The name generally includes the 
+topic (subject) of coding and the coded property, assembled together into a phrase-like identifier
+following the CamelCase convention, e.g. `PredicateClassDiscourseFrequency`, 
+`VerbAgreementMarkerPosition`. The name characters are limited to the ASCII letter range, with 
+some variables including an optional numerical suffix (e.g. `VerbAgreementMarkerPositionBinned4`).
+In exceptional cases, an underscore is used to delimit the name components (e.g. `ISO639_3`). 
+
+The names in generally follow one of following patterns:
+
+- Categorical statements or descriptive properties are named using composite nominal phrases (
+  e.g. `PredicateClassDiscourseFrequency`, `VerbAgreementMarkerPosition`)
+
+- Binned variable statements are identified with a name suffix 'BinnedX'  (e.g. 
+  `VerbAgreementMarkerPositionBinned4` is a coarsely coded variant of `VerbAgreementMarkerPosition`)
+
+- Binary (TRUE/FALSE) variables are named using phrases containing words "is" or "has" to denote 
+  the presence of certain properties (e.g. `VerbHasAnyIncorporation`, `MarkerIsFlexive`)
+
+- Count variables have the suffix "Count" (e.g. `MarkerExpressedCategoriesCount`, 
+  `VerbInflectionMaxFormativeCount`)
+ 
+
+## Dataset overview
+
+AUTOTYP is organized into a series of thematic *modules*, each hosting one or more datasets. 
+Currently available modules are:
+
+- `Register` - general language information (identity, genealogy, geography etc.)
+- `Definitions` - value definitions concepts and types used across the database (such as semantic 
+  roles etc.). The tables in this module merely provide value definitions, they are not typological 
+  data. 
+- `Categories` - information about selected grammatical categories  
+- `Sentence` - some aspects of clause/sentence syntax
+- `NP` - some aspects of the NP syntax
+- `Morphology` - selected information on morphology and grammatical markers
+- `GrammaticalRelation` - selected information on grammatical relations and valence frames
+- `Word` - aspects of wordhood 
+- `PerLanguageSummaries` - various aggregated per language data summaries from different modules 
+
+Detailed list of datasets is available in the [overview of available datasets](datasets.md).
+
+## Data coverage
+
+The current release includes over 260 primary 
+(hand-entered) typological variables (not counting auxiliary variables, comments, bookkeeping and
+recodings) that describe 1,319 languages over 
+approximately 260,000 data points. Together with the 
+derived (aggregated) data, we provide over 1,700,000 data points. 
+The following table breaks down the data coverage per AUTOTYP module:
 
 
-- **Position of verb-inflectional macrocategories**: 6 different ways of reporting the morphological positions of all separatively (i.e. non-cumulatively) marked verb-inflectional macrocategories encountered in the *Synthesis* module (which covers maximally inflected synthetic verb forms):
+|Module               | Primary variables| Derived variables| Number of languages covered|Number of primary typological datapoints |
+|:--------------------|-----------------:|-----------------:|---------------------------:|:----------------------------------------|
+|Categories           |                14|                 7|                         622|~4,000                                   |
+|GrammaticalRelations |                51|               111|                         801|~90,000                                  |
+|Morphology           |                51|               248|                         991|~110,000                                 |
+|NP                   |                12|               122|                         485|~9,000                                   |
+|Sentence             |                47|                 0|                         468|~8,000                                   |
+|Word                 |                37|                 3|                          76|~26,000                                  |
+|                     |                  |                  |                            |                                         |
+|Total                |               278|               971|                        1284|~260,000                                 |
 
-   - **`VInfl_macrocat_postposed`**: presence of at least some exponents of the macrocategory after the phonological host
-	
-   - **`VInfl_macrocat_position4`**: four-way aggregation of the position types into prae, post, simul/in, split
-	
-   - **`VInfl_macrocat_position`**: maximally resolved distinctions of positions
-   
-   - **`VInfl_macrocat_position5`**: five-way aggregation of the position types (in, post, prae, simul vs. split)
-	
-   - **`VInfl_macrocat_preposed`**: presence of at least some exponents of the macrocategory before the phonological host
-   
-   - **`VInfl_macrocat_multiexponence`**: presence of at least some multiple/simultaneous realization of the macrocategory at issue
-
-- **Position of verbal macrorole markers**: 6 different ways of reporting the morphological positions of macrorole (A, P, POSS) marking, based on the *Synthesis* module. Note that because the *Synthesis* module targets maximally inflected synthetic verbs, it privileges coding of transitively inflected verbs, and so S is normally not covered.
-
-   - **`VAgr_postposed`**: presence of at least some exponents of the role marker after the phonological host
-	
-   - **`VAgr_position4`**: four-way aggregation of the position types into prae, post, simul/in, split
-	
-   - **`VAgr_position`**: maximally resolved distinctions of positions
-   
-   - **`VAgr_position5`**: five-way aggregation of the position types (in, post, prae, simul vs. split)
-	
-   - **`VAgr_preposed`**: presence of at least some exponents of the macrorole before the phonological host
-   
-   - **`VAgr_multiexponence`**:presence of at least some multiple/simultaneous realization of the macrorole at issue
-
-
-- **`Word_domains`**: Strings of morphs are coded for phonological and grammatical cohesion; cohesion patterns come with explicit descriptions and morphs are categorized in a multivariate typology. Not many languages (see the metadata for counts).
-
-
-# Coverage
-
-The present release includes over 1000 variables distributed over 50 modules (tables) with a total of about 4.5 million typological datapoints. The following histogram shows the data coverage across variables:
-
-![Data coverage across variable](figures/autotyp-data-histogram.png?raw=true)
-
-The following map shows how the data are distributed over the world. Points are sized in proportion to the number of entries for each language:
+The following map shows how the primary data are distributed over the world. Points are sized in 
+proportion to the number of primary typological variables available for each language
 
 ![Data coverage across languages](figures/data-coverage-map.png?raw=true)
 
 
-# Metadata files
-Each data file is associated with a metadata file that explains the coding decisions and definitions of each variable in the data file. The metadata files are stored in [`YAML`](https://en.wikipedia.org/wiki/YAML) format in the directory `metadata/`. A tabular overview is also available in the file [`metadata_overview.csv`](metadata_overview.csv).
+## Metadata files
 
-The following fields are provided for each variable:
+Each dataset is associated with a metadata file that provides detailed descriptions of the dataset
+and its fields. The metadata files are stored in 
+[`YAML`](https://en.wikipedia.org/wiki/YAML) format in the directory `metadata/`. A tabular 
+overview is also available in the file [`variables_overview.csv`](variables_overview.csv).
 
-* **`Variable`**: the name of the variable. For naming conventions, see below.
+The following metadata fields are provided:
 
-* **`Description`**: free-text variable definition
+- **`description`**: free-text description in markdown format
 
-* **`SetUp`**: whether the variable codes data at the level of language or at the level of individual parts (subsystems, constructions, marker etc.). Possible values:
-	- `single entry per language` = for a given language, this variable has at most one value
-	- `single aggregated entry per language` = for a given language, this variable has at most one value, and this value is an aggregated result that was computed from more fine-grained data
-	- `multiple entries per language` = for a given language, this variable can have multiple values
+- **`data`**: data type (see [Data types in variables](#data-types-in-variables-fields))
 
-* **`DataEntry`**: whether the data is inputted `by hand` or `derived` (i.e. aggregated and/or reshaped) by scripts from information in other variables (raw data or other aggregations)
+- **`kind`**: whether the data is entered manually or derived
 
-* **`VariableType`**: This field tracks the type of variable:
-	- `data` = entries are observations that can be meaningfully used for quantitative analysis 
-	- `register` = entries are statements about a language or a construction, i.e. geographical, genealogical information, labels and identifiers
-	- `condition` = entries specify the condition or domain within which an observation is made
-	- `details` = entries specify details about some data points, e.g. listing individual predicates of valence classes or individual nouns in constraints on head classes 
-	- `quality` = entries that specify something about the source or quality of the data
-    
-* **`DataType`**: whether the data are of type `categorical`, `ratio`, `count` or `logical`
+- **`variant_of`** (optional): specifies the name of the base variable if the current variable
+  is a logical recoding of another one (e.g. binning of fine-grained types into broader ones). This 
+  can be used to detect variables that represent the same data at different granularity levels
 
-* **`VariantOf`** (optional): This field tracks some of the logical dependencies between variables: it tracks whether two variables are different aggregations of the same underlying variable, e.g. the order of V and O and the order of A and O are two variant aggregations of the six-way variable that codes the order of A, O, and V. What the current release does not track is more complex relationships, e.g. when a variable aggregates partial data from different other variables or   even different modules. (To some extent, variables with DataEntry `derived` are candidates for such cases, but not all `derived` variables are variants of another variable because they might be the sole aggregation of some raw data and the raw data is not (yet) available for typological analysis or not suitable for it.)
+- **`values`** (optional): list of values and their definitions for value list data. Most of the 
+  time, this is taken from the corresponding definition table (see the `Definitions` module). 
 
-* **`N.levels`**: number of distinct levels (unique values, types) of the variable
+## Bibliographical references
 
-* **`N.entries`**: number of entries in the variable, excluding all blank cells ('NA's) in the database
-
-* **`N.languages`**: number of different languages described by this particular variable, excluding all blank cells ("NA"s) in the database
-
-* **`N.missing`**: number of missing entries for the variable
-
-* **`Levels`** (optional): definitions of individual values for certain categorical variables. Often, levels are aggregated (or binned) versions of more fine grained levels in another variable. In this case, the definition is a comma-separated concatenated list of individual definitions. If the definitions are complex, they are first wrapped in square brackets for the purposes of readability. Example: `prae: '[before the phonological host], [before the phonological host by default, but around the host under exceptional conditions (typically lexical)]'`. This means that the level `prae` is an aggregation of two options, one where a marker is always before the host and one where the marker is before the host only with some stems but is circumfixed with other stems.
-
-* **`Notes`** (optional): Further explanations
+The sources for all entries can be retrieved from the `.bib` file via the language identifier 
+(`LID`) which comes with every entry. There may be gaps, in which case the references listed in 
+[Glottolog](http://glottolog.org) are likely to correspond to what we relied on.
 
 
-# Bibliographical references
-The sources for all entries can be retrieved from the `.bib` file (see [Formats](#file-formats-and-how-to-download-and-access-the-data)) via the language identifier (`LID`) which comes with every entry. There may be gaps, in which case the references listed in [Glottolog](http://glottolog.org) are likely to correspond to what we relied on.
+## License
 
-# Naming conventions
-<!-- (see public.release.paper/autotyp_data_curation_bestpractices_rev.pages) -->
-The names of variables are transparent on their own (we hope), but there are a few conventional suffixes that might help:
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-- `.Presence`: indicates that the variable is binary and codes the presence (`TRUE`) vs. absence (`FALSE`) of a certain feature (value, property, trait, construction, or marker).
-- `.binned` followed by a number *N*: indicates that the variable is a binned or (re-)categorized version of the variable that it is a variant of (see metadata field `Variant_Of`), with the number *N* indicating into how many bins the variable was (re-)categorized. (If *N*=2, this is coded as `.Presence`)
-- `.n`: indicates that the variable represents a count of something
-- `.prop`: indicates that the variable represents a proportion of something
-- `.v1`, `.v2` etc.: separates slightly different versions of aggregating or binning the same underlying variable (as given in `Variant_Of`). Note that the numbering is arbitrary, i.e. it is not the case that version 2 is better than version 1; it just captures a slightly different aspect of a multidimensional pattern.
+This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
 
 
-# File formats and how to download and access the data
-The database can be downloaded by clicking on the "Clone or Download" button in the upper right corner of this page. This retrieves directories with files in `.csv` format for data, `.yaml` format for metadata, and `.bib` format for bibliographical references. In addition, <!-- the genealogical data are also available in `.nex` and --> the geographical is available data in `.kml` format. Finally, we also provide the entire dataset as list in `R`'s `.rds` format. There, each list component represents a single variable, stored as a column in a data frame, together with the corresponding LID. (Note that the list only contains entries of type `data` and does not track any conditions on the data. Use with caution!).
+## How to report errors
 
-Here are suggestions for how to read the files:
-
-- `.csv`: any spreadsheet application; or load into [R](https://www.r-project.org) with `read.csv("table_name.csv", na.strings = "")`
-- `.yaml`: any plain text editor; or load into [R](https://www.r-project.org) with `library(yaml); yaml.load_file("table_name.yaml")`
-- `.bib`: any plain text or `bibtex` editor (e.g. [BibDesk](http://bibdesk.sourceforge.net); or load into a bibliography manager like [Zotero](https://www.zotero.org))
-<!-- - `.nex`: a tree drawing program like [FigTree](http://tree.bio.ed.ac.uk/software/figtree/); or load into [R](https://www.r-project.org) with `library(ape); read.nexus('tree_name.nex')` -->
-- `.kml`: load into [Google Earth](https://www.google.com/earth/)
-- `.rds`: load into [R](https://www.r-project.org) with `readRDS("autotyp_all_data_list.RDS")`
-
-You can switch between different versions of the dababase by clicking on the `branch` menu on the top of the GitHub page and selecting a version from the tags tab. 
+Please use the AUTOTYP database issue tracker at 
+[https://github.com/autotyp/autotyp-data/issues](https://github.com/autotyp/autotyp-data/issues)
 
 
-# Error reports, feature requests, pull requests
+## How to cite
 
-All databases have errors and we welcome **error reports**. However, experience tells us that most error reports are spurious because they do not arise from a genuine empirical issue but from a misunderstanding of how variables are defined. So, before making a report, please first carefully read the definition of the variables and any references mentioned in the definition. In some cases, definitions may be unclear or ambiguous, and in these cases, we are grateful for reports as well. When submitting an error report, please indicate whether it concerns a variable with `DataEntry` as `derived` or `by hand` (see Metadata). This helps us track the source of the error.
+Bickel, Balthasar, Nichols, Johanna, Zakharko, Taras, Witzlack-Makarevich, Alena, Hildebrandt, 
+Kristine, Rießler, Michael, Bierkandt, Lennart, Zúñiga, Fernando & Lowe, John B.
+2022. The AUTOTYP database (v1.0.0). https://doi.org/10.5281/zenodo.5931509
 
-We keep adding alternative derivations (aggregations or reshapings) of the data. If you would like to see such a derivation added, please submit a **feature request**. 
-
-Both error reports and feature requests can be submitted online using the [GitHub issue tracker for the database](https://github.com/autotyp/autotyp-data/issues). Please note that you will require a (free of charge) GitHub account to submit an issue.
-
-# License
-
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-
-# Citation
-
-Bickel, Balthasar, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, Kristine Hildebrandt, Michael Rießler, Lennart Bierkandt, Fernando Zúñiga & John B. Lowe. 2017. *The AUTOTYP typological databases*. Version 0.1.2 [https://github.com/autotyp/autotyp-data/tree/0.1.2](https://github.com/autotyp/autotyp-data/tree/0.1.2)
-
-Please make sure to always include the version number with your citation. This ensures that results can be always reproduced even after the database has been updated. The GitHub website tracks all versions of the database that were ever published (you can switch between them by clicking on the branch menu on the top of this page and selecting an appropriate tag). AUTOTYP uses [semantic versioning ](https://semver.org/spec/v2.0.0.html). 
-
-# FAQ
-
-**Q**: Why isn't the database available via a [CLLD](http://clld.org) web interface? That would be so much more convenient!
-
-**A**: We currently lack the resources to implement this and instead put all our efforts into developing the next release versions. However, since AUTOTYP is released under a [CC-BY](http://creativecommons.org/licenses/by/4.0/) license, everybody is free to implement a pipeline that takes each AUTOTYP release and makes it available through a [CLLD](http://clld.org) interface --- as long as the source is fully credited. 
-
-
-**Q**: What if I want to read the data directly into R from the GitHub website?
-
-**A**: Click on the "Raw" button and then use the URL of this page as the argument of `read.csv(<insert URL here>, na.strings = "")`
-More generally, the following URL fits all content and will give you the most recent version of the file:
-`https://raw.githubusercontent.com/autotyp/autotyp-data/0.1.2/...`
-
-We recommend downloading the database for offline use (and noting down the version number), in the interest of replicability. You will find the version number in the readme file and also in the `VERSION` file in the database folder. 
+```bibtex
+@misc{AUTOTYP,
+  author = {
+    Bickel, Balthasar and 
+    Nichols, Johanna and 
+    Zakharko, Taras and 
+    Witzlack-Makarevich, Alena and 
+    Hildebrandt, Kristine and 
+    Rießler, Michael and 
+    Bierkandt, Lennart and 
+    Zúñiga, Fernando and 
+    Lowe, John B
+  },
+  doi = {10.5281/zenodo.5931509},
+  title = {The AUTOTYP database (v1.0.0)},
+  url = {https://doi.org/10.5281/zenodo.5931509},
+  year = {2022}
+}
+```
 
 
-**Q**: Can I quickly produce maps of specific data?
-
-**A**: We provide a set of `R` tools to work with the data, including a mapping function. These tools are available for now in a simple script (`R/autotyp.utilities.R`), but will at some point be published as a stand-alone `R` package.
-
-
-**Q**: What do the version numbers mean?
-
-**A**: We use [semantic versioning system v2.0.0](https://semver.org/spec/v2.0.0.html). Under this system, the version always consists of three numbers, separated by dots. The first number (major version) describes substantial releases with significant changes. The second number (minor version) signals potentially incompatible changes (such as addition/removal of modules or changes of structure within individual modules). The third number (patch version) tracks small updates and fixes, such as maintenance data or metadata edits.   
+Please make sure to always include the correct database version number and DOI with your citation. 
+We use Zenodo to archive database releases which ensures that results can always be reproduced. 
 
 ---
-# References
 
-Bickel, Balthasar & Johanna Nichols. 2002. Autotypologizing databases and their use in fieldwork. In Austin et al. (eds.), *Proceedings of the International LREC Workshop on Resources and Tools in Field Linguistics, Las Palmas,* 26-27 May 2002. Nijmegen: MPI for Psycholinguistics [[download](http://www.autotyp.uzh.ch/download/canary.pdf)].
+## References
 
-Bickel, Balthasar & Johanna Nichols. 2006. Oceania, the Pacific Tim, and the theory of linguistic areas. *Proc. Berkeley Linguistics Society* 32. 3–15.
+Bickel, Balthasar & Johanna Nichols. 2002. Autotypologizing databases and their use in fieldwork. 
+In Austin et al. (eds.), *Proceedings of the International LREC Workshop on Resources and Tools 
+in Field Linguistics, Las Palmas,* 26-27 May 2002. Nijmegen: MPI for Psycholinguistics 
+[[PDF](http://www.autotyp.uzh.ch/download/canary.pdf)].
 
-Campbell, Lyle & William J. Poser. 2008. *Language classification: History and method*. Cambridge: Cambridge University Press.
+Bickel, Balthasar & Johanna Nichols. 2006. Oceania, the Pacific Rim, and the theory of linguistic 
+areas. *Proc. Berkeley Linguistics Society* 32. 3–15. 
+[[PDF](https://journals.linguisticsociety.org/proceedings/index.php/BLS/article/viewFile/3488/3194)]
 
-Nichols, Johanna, Alena Witzlack-Makarevich & Balthasar Bickel. 2013. The AUTOTYP genealogy and geography database: 2013 release. Electronic database [[download](http://www.autotyp.uzh.ch/download/release_2013/autotyp-release_2013.pdf)].
+Nichols, Johanna, Alena Witzlack-Makarevich & Balthasar Bickel. 2013. The AUTOTYP genealogy and 
+geography database: 2013 release. Electronic database 
+[[PDF](http://www.autotyp.uzh.ch/download/release_2013/autotyp-release_2013.pdf)].
 
-Schiering, René, Kristine Hildebrandt & Balthasar Bickel. 2012. Stress-timed = word-based? Testing a hypothesis in Prosodic Typology. *Language Typology and Universals* 65. 157–168.
+Schiering, René, Kristine Hildebrandt & Balthasar Bickel. 2012. Stress-timed = word-based? 
+Testing a hypothesis in Prosodic Typology. *Language Typology and Universals* 65. 157–168.
 
-Witzlack-Makarevich, Alena, Johanna Nichols, Kristine Hildebrandt, Taras Zakharko & Balthasar Bickel. 2021+. Managing AUTOTYP Data: design principles and implementation. In Berez-Kroeker et al. (eds.), *Open Handbook of Linguistic Data Management*, Cambridge, MA: MIT Press [[preprint](https://zenodo.org/record/4442706#.YAffMC1Q0UF)].
+Witzlack-Makarevich, Alena, Johanna Nichols, Kristine Hildebrandt, Taras Zakharko & Balthasar 
+Bickel. 2022. Managing AUTOTYP Data: design principles and implementation. In Berez-Kroeker et al.
+(eds.), *Open Handbook of Linguistic Data Management*, Cambridge, MA: MIT Press 
+[[PDF](https://direct.mit.edu/books/book/chapter-pdf/1980040/c050500_9780262366076.pdf)].
+
+
+
+
+
+
+
+
+

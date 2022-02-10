@@ -1,0 +1,2803 @@
+description: >-
+  Grammatical marker exemplars properties (based on the data from `GrammaticalMarkers`),
+  aggregated per language
+kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+data: table
+counts:
+  n_languages: 471
+  n_variables: 40
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      In this database a language is actually a dialect or variety, in that
+      individual dialects are entered as languages. That is, each language has
+      its own ID number (the 'LID') distinct from that of the pan-dialectal
+      language:e.g. LID 87 German, 1227 Upper Austrian German, 1295 Berlin
+      German, 1310 Zürich German, 2845 Old High German, etc. (The pan-dialectal
+      language is identified as the lowest taxonomic level, the `dialect group',
+      but this information is incomplete in many areas and has not been included
+      in the current release.) The general criterion for a separate language
+      record in the database is that it has a distinct property in at least one
+      of the typological variables that we survey; this may or may not coincide
+      with sociolinguistic criteria.
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  CaseMarkerMorphemeType:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerMorphemeType` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "formative": >-
+        Marker of a category that cannot occur as an independent part of speech unit in
+        the syntax, but instead grammatically requires some host.
+      "PoSWd": >-
+        A syntactic unit that has its own part of speech (PoS) category. Depending on the
+        diversity of grammatical words (g-word) in a language (see “word_type” database),
+        this may or may not coincide with the g-word defined as ‘terminal node’. If g-
+        word domains differ, “PoSWd” as used here refers to the one domain that has
+        a PoS label attached to it. What counts is the syntactic behavior, e.g. if an
+        element behaves like a verb but is defective morphologically, it still has the
+        PoS label ‘verb’ (see for example Quileute negation ‘é’, which behaves like a verb
+        syntactically even thought its inflectional paradigm is defective).
+      "any": >-
+        A unit that can be used both as a formative or as PoSWd, e.g. SEA versatile verbs/
+        coverbs
+      "SemiWd": >-
+        DO NOT USE ANYMORE! Semiwords have some but not all the syntactic properties of
+        ordinary SynWds. Typical examples of semiwords are incorpated nouns and verbs,
+        as well as seperated preverbs and other particles that belong to a verbal lexeme.
+        SemiWds belong to the same grammatical word as their host, and together with their
+        host, they constitute an X-zero category in phrase-structure. But they retain some
+        syntactic properties such as valence or PoS.
+      "unknown": >-
+        type is unknown at this time
+      "Restricted Formative": >-
+        DO NOT USE ANYMORE! Marker of an inflectional category that cannot occur as an
+        independent part of speech unit in the syntax, but instead attaches to one and
+        only specific stem or phrasal host category (e.g. only to noun stems)
+      "Semi-restricted Formative": >-
+        DO NOT USE ANYMORE! Marker of an inflectional category that cannot occur as an
+        independent part of speech unit in the syntax, but instead attaches to a number of
+        specific stem ot phrasal host categories (e.g. only to noun and verb stems).
+      "Unrestricted Formative": >-
+        DO NOT USE ANYMORE! Marker of an inflectional category that cannot occur
+        as an independent part of speech unit in the syntax, but instead attaches
+        indiscriminately to a any non-stem host available (words or phrases). Unrestricted
+        formatives are traditionally called “particles” or “clitics”, but these terms
+        are also used in other senses. Unrestricted formatives differ from PoSWds in that
+        they attach to some host and cannot appear on their own, or establish their own
+        independent part of speech element in the syntax.
+      "Restricted derivative": >-
+        DO NOT USE ANYMORE! Marker of an derivational category that cannot occur as an
+        independent part of speech unit in the syntax, but instead attaches to one and
+        only specific host category (e.g. only to noun stems)
+      "stem": >-
+        A morphological constituent that obligatorily combines with formatives (possibly
+        zero) and derivatives and determines the part of speech of this combination (e.g.
+        a noun stem that combines with case formatives to produce nouns). A stem differs
+        from a PosWd in that a stem determines the PoS of the word to which it belongs,
+        but it does not constitute a PoS on its own. ‘Stem” means entire stems, if only
+        parts are refered to, use MphmType ID 13 ‘Stem Part’
+      "stem part": >-
+        An element of a stem (as defined under ID 12) that is not delimited by general
+        extramorphological (prosodic, syntactic) principles. Typical example: the
+        constituents of bipartite stems
+      "root": >-
+        An element of a stem that behaves differently from a stem. Only use when there is
+        a difference in the language. Most languages do not differentiate stem and root
+      "none": >-
+        DO NOT USE ANYMORE! CODE AS n/aThere is no overt manifestation of the exemplar for
+        which the record is made
+  # -- end of CaseMarkerMorphemeType
+
+  TenseMarkerMorphemeType:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerMorphemeType` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "formative": >-
+        Marker of a category that cannot occur as an independent part of speech unit in
+        the syntax, but instead grammatically requires some host.
+      "PoSWd": >-
+        A syntactic unit that has its own part of speech (PoS) category. Depending on the
+        diversity of grammatical words (g-word) in a language (see “word_type” database),
+        this may or may not coincide with the g-word defined as ‘terminal node’. If g-
+        word domains differ, “PoSWd” as used here refers to the one domain that has
+        a PoS label attached to it. What counts is the syntactic behavior, e.g. if an
+        element behaves like a verb but is defective morphologically, it still has the
+        PoS label ‘verb’ (see for example Quileute negation ‘é’, which behaves like a verb
+        syntactically even thought its inflectional paradigm is defective).
+      "any": >-
+        A unit that can be used both as a formative or as PoSWd, e.g. SEA versatile verbs/
+        coverbs
+      "SemiWd": >-
+        DO NOT USE ANYMORE! Semiwords have some but not all the syntactic properties of
+        ordinary SynWds. Typical examples of semiwords are incorpated nouns and verbs,
+        as well as seperated preverbs and other particles that belong to a verbal lexeme.
+        SemiWds belong to the same grammatical word as their host, and together with their
+        host, they constitute an X-zero category in phrase-structure. But they retain some
+        syntactic properties such as valence or PoS.
+      "unknown": >-
+        type is unknown at this time
+      "Restricted Formative": >-
+        DO NOT USE ANYMORE! Marker of an inflectional category that cannot occur as an
+        independent part of speech unit in the syntax, but instead attaches to one and
+        only specific stem or phrasal host category (e.g. only to noun stems)
+      "Semi-restricted Formative": >-
+        DO NOT USE ANYMORE! Marker of an inflectional category that cannot occur as an
+        independent part of speech unit in the syntax, but instead attaches to a number of
+        specific stem ot phrasal host categories (e.g. only to noun and verb stems).
+      "Unrestricted Formative": >-
+        DO NOT USE ANYMORE! Marker of an inflectional category that cannot occur
+        as an independent part of speech unit in the syntax, but instead attaches
+        indiscriminately to a any non-stem host available (words or phrases). Unrestricted
+        formatives are traditionally called “particles” or “clitics”, but these terms
+        are also used in other senses. Unrestricted formatives differ from PoSWds in that
+        they attach to some host and cannot appear on their own, or establish their own
+        independent part of speech element in the syntax.
+      "Restricted derivative": >-
+        DO NOT USE ANYMORE! Marker of an derivational category that cannot occur as an
+        independent part of speech unit in the syntax, but instead attaches to one and
+        only specific host category (e.g. only to noun stems)
+      "stem": >-
+        A morphological constituent that obligatorily combines with formatives (possibly
+        zero) and derivatives and determines the part of speech of this combination (e.g.
+        a noun stem that combines with case formatives to produce nouns). A stem differs
+        from a PosWd in that a stem determines the PoS of the word to which it belongs,
+        but it does not constitute a PoS on its own. ‘Stem” means entire stems, if only
+        parts are refered to, use MphmType ID 13 ‘Stem Part’
+      "stem part": >-
+        An element of a stem (as defined under ID 12) that is not delimited by general
+        extramorphological (prosodic, syntactic) principles. Typical example: the
+        constituents of bipartite stems
+      "root": >-
+        An element of a stem that behaves differently from a stem. Only use when there is
+        a difference in the language. Most languages do not differentiate stem and root
+      "none": >-
+        DO NOT USE ANYMORE! CODE AS n/aThere is no overt manifestation of the exemplar for
+        which the record is made
+  # -- end of TenseMarkerMorphemeType
+
+  NegationMarkerMorphemeType:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerMorphemeType` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "formative": >-
+        Marker of a category that cannot occur as an independent part of speech unit in
+        the syntax, but instead grammatically requires some host.
+      "PoSWd": >-
+        A syntactic unit that has its own part of speech (PoS) category. Depending on the
+        diversity of grammatical words (g-word) in a language (see “word_type” database),
+        this may or may not coincide with the g-word defined as ‘terminal node’. If g-
+        word domains differ, “PoSWd” as used here refers to the one domain that has
+        a PoS label attached to it. What counts is the syntactic behavior, e.g. if an
+        element behaves like a verb but is defective morphologically, it still has the
+        PoS label ‘verb’ (see for example Quileute negation ‘é’, which behaves like a verb
+        syntactically even thought its inflectional paradigm is defective).
+      "any": >-
+        A unit that can be used both as a formative or as PoSWd, e.g. SEA versatile verbs/
+        coverbs
+      "SemiWd": >-
+        DO NOT USE ANYMORE! Semiwords have some but not all the syntactic properties of
+        ordinary SynWds. Typical examples of semiwords are incorpated nouns and verbs,
+        as well as seperated preverbs and other particles that belong to a verbal lexeme.
+        SemiWds belong to the same grammatical word as their host, and together with their
+        host, they constitute an X-zero category in phrase-structure. But they retain some
+        syntactic properties such as valence or PoS.
+      "unknown": >-
+        type is unknown at this time
+      "Restricted Formative": >-
+        DO NOT USE ANYMORE! Marker of an inflectional category that cannot occur as an
+        independent part of speech unit in the syntax, but instead attaches to one and
+        only specific stem or phrasal host category (e.g. only to noun stems)
+      "Semi-restricted Formative": >-
+        DO NOT USE ANYMORE! Marker of an inflectional category that cannot occur as an
+        independent part of speech unit in the syntax, but instead attaches to a number of
+        specific stem ot phrasal host categories (e.g. only to noun and verb stems).
+      "Unrestricted Formative": >-
+        DO NOT USE ANYMORE! Marker of an inflectional category that cannot occur
+        as an independent part of speech unit in the syntax, but instead attaches
+        indiscriminately to a any non-stem host available (words or phrases). Unrestricted
+        formatives are traditionally called “particles” or “clitics”, but these terms
+        are also used in other senses. Unrestricted formatives differ from PoSWds in that
+        they attach to some host and cannot appear on their own, or establish their own
+        independent part of speech element in the syntax.
+      "Restricted derivative": >-
+        DO NOT USE ANYMORE! Marker of an derivational category that cannot occur as an
+        independent part of speech unit in the syntax, but instead attaches to one and
+        only specific host category (e.g. only to noun stems)
+      "stem": >-
+        A morphological constituent that obligatorily combines with formatives (possibly
+        zero) and derivatives and determines the part of speech of this combination (e.g.
+        a noun stem that combines with case formatives to produce nouns). A stem differs
+        from a PosWd in that a stem determines the PoS of the word to which it belongs,
+        but it does not constitute a PoS on its own. ‘Stem” means entire stems, if only
+        parts are refered to, use MphmType ID 13 ‘Stem Part’
+      "stem part": >-
+        An element of a stem (as defined under ID 12) that is not delimited by general
+        extramorphological (prosodic, syntactic) principles. Typical example: the
+        constituents of bipartite stems
+      "root": >-
+        An element of a stem that behaves differently from a stem. Only use when there is
+        a difference in the language. Most languages do not differentiate stem and root
+      "none": >-
+        DO NOT USE ANYMORE! CODE AS n/aThere is no overt manifestation of the exemplar for
+        which the record is made
+  # -- end of NegationMarkerMorphemeType
+
+  NounPluralMarkerMorphemeType:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerMorphemeType` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "formative": >-
+        Marker of a category that cannot occur as an independent part of speech unit in
+        the syntax, but instead grammatically requires some host.
+      "PoSWd": >-
+        A syntactic unit that has its own part of speech (PoS) category. Depending on the
+        diversity of grammatical words (g-word) in a language (see “word_type” database),
+        this may or may not coincide with the g-word defined as ‘terminal node’. If g-
+        word domains differ, “PoSWd” as used here refers to the one domain that has
+        a PoS label attached to it. What counts is the syntactic behavior, e.g. if an
+        element behaves like a verb but is defective morphologically, it still has the
+        PoS label ‘verb’ (see for example Quileute negation ‘é’, which behaves like a verb
+        syntactically even thought its inflectional paradigm is defective).
+      "any": >-
+        A unit that can be used both as a formative or as PoSWd, e.g. SEA versatile verbs/
+        coverbs
+      "SemiWd": >-
+        DO NOT USE ANYMORE! Semiwords have some but not all the syntactic properties of
+        ordinary SynWds. Typical examples of semiwords are incorpated nouns and verbs,
+        as well as seperated preverbs and other particles that belong to a verbal lexeme.
+        SemiWds belong to the same grammatical word as their host, and together with their
+        host, they constitute an X-zero category in phrase-structure. But they retain some
+        syntactic properties such as valence or PoS.
+      "unknown": >-
+        type is unknown at this time
+      "Restricted Formative": >-
+        DO NOT USE ANYMORE! Marker of an inflectional category that cannot occur as an
+        independent part of speech unit in the syntax, but instead attaches to one and
+        only specific stem or phrasal host category (e.g. only to noun stems)
+      "Semi-restricted Formative": >-
+        DO NOT USE ANYMORE! Marker of an inflectional category that cannot occur as an
+        independent part of speech unit in the syntax, but instead attaches to a number of
+        specific stem ot phrasal host categories (e.g. only to noun and verb stems).
+      "Unrestricted Formative": >-
+        DO NOT USE ANYMORE! Marker of an inflectional category that cannot occur
+        as an independent part of speech unit in the syntax, but instead attaches
+        indiscriminately to a any non-stem host available (words or phrases). Unrestricted
+        formatives are traditionally called “particles” or “clitics”, but these terms
+        are also used in other senses. Unrestricted formatives differ from PoSWds in that
+        they attach to some host and cannot appear on their own, or establish their own
+        independent part of speech element in the syntax.
+      "Restricted derivative": >-
+        DO NOT USE ANYMORE! Marker of an derivational category that cannot occur as an
+        independent part of speech unit in the syntax, but instead attaches to one and
+        only specific host category (e.g. only to noun stems)
+      "stem": >-
+        A morphological constituent that obligatorily combines with formatives (possibly
+        zero) and derivatives and determines the part of speech of this combination (e.g.
+        a noun stem that combines with case formatives to produce nouns). A stem differs
+        from a PosWd in that a stem determines the PoS of the word to which it belongs,
+        but it does not constitute a PoS on its own. ‘Stem” means entire stems, if only
+        parts are refered to, use MphmType ID 13 ‘Stem Part’
+      "stem part": >-
+        An element of a stem (as defined under ID 12) that is not delimited by general
+        extramorphological (prosodic, syntactic) principles. Typical example: the
+        constituents of bipartite stems
+      "root": >-
+        An element of a stem that behaves differently from a stem. Only use when there is
+        a difference in the language. Most languages do not differentiate stem and root
+      "none": >-
+        DO NOT USE ANYMORE! CODE AS n/aThere is no overt manifestation of the exemplar for
+        which the record is made
+  # -- end of NounPluralMarkerMorphemeType
+
+  CaseMarkerIsPersonPortmanteau:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerIsPersonPortmanteau` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of CaseMarkerIsPersonPortmanteau
+
+  TenseMarkerIsPersonPortmanteau:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerIsPersonPortmanteau` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of TenseMarkerIsPersonPortmanteau
+
+  NegationMarkerIsPersonPortmanteau:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerIsPersonPortmanteau` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NegationMarkerIsPersonPortmanteau
+
+  NounPluralMarkerIsPersonPortmanteau:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerIsPersonPortmanteau` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NounPluralMarkerIsPersonPortmanteau
+
+  CaseMarkerHostRestriction:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHostRestriction` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "restricted": >-
+        Is restricted to a specific type of host. When descriptions are silent about
+        the range of hosts that a marker can combine with, but analyze the marker as an
+        “affix”, we assume it is restricted.
+      "semi-restricted": >-
+        Can occur with some, but not all host elements (so, NOT a ‘phrasal affix’, but
+        rather simply a ‘particle’-like formative that has some degree of selectional
+        restrictions). Allows at least two distinct hosts (in terms of their parts of
+        speech categories)
+      "unrestricted": >-
+        occurs with anything (e.g. Turkish mi)
+      "unknown": >-
+        degree of restriction unknown at this time
+      "Part circum/simulfix": >-
+        even more restricted than restricted; used with simulfixation & circumfixation
+      "restricted: Head": >-
+        <don’t use this!> VERY RESTRICTED something like affix only to a head element (in
+        a narrowed sense of RestrID 1)
+      "restricted: Phrase": >-
+        <don’t use this!> can occur with whatever POS element of that phrase it is
+        adjacent to like Manange NP enclitics--they lean on whatever is last in the NP;
+        used to deal with ‘phrasal affix’-like phenomena
+  # -- end of CaseMarkerHostRestriction
+
+  TenseMarkerHostRestriction:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHostRestriction` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "restricted": >-
+        Is restricted to a specific type of host. When descriptions are silent about
+        the range of hosts that a marker can combine with, but analyze the marker as an
+        “affix”, we assume it is restricted.
+      "semi-restricted": >-
+        Can occur with some, but not all host elements (so, NOT a ‘phrasal affix’, but
+        rather simply a ‘particle’-like formative that has some degree of selectional
+        restrictions). Allows at least two distinct hosts (in terms of their parts of
+        speech categories)
+      "unrestricted": >-
+        occurs with anything (e.g. Turkish mi)
+      "unknown": >-
+        degree of restriction unknown at this time
+      "Part circum/simulfix": >-
+        even more restricted than restricted; used with simulfixation & circumfixation
+      "restricted: Head": >-
+        <don’t use this!> VERY RESTRICTED something like affix only to a head element (in
+        a narrowed sense of RestrID 1)
+      "restricted: Phrase": >-
+        <don’t use this!> can occur with whatever POS element of that phrase it is
+        adjacent to like Manange NP enclitics--they lean on whatever is last in the NP;
+        used to deal with ‘phrasal affix’-like phenomena
+  # -- end of TenseMarkerHostRestriction
+
+  NegationMarkerHostRestriction:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHostRestriction` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "restricted": >-
+        Is restricted to a specific type of host. When descriptions are silent about
+        the range of hosts that a marker can combine with, but analyze the marker as an
+        “affix”, we assume it is restricted.
+      "semi-restricted": >-
+        Can occur with some, but not all host elements (so, NOT a ‘phrasal affix’, but
+        rather simply a ‘particle’-like formative that has some degree of selectional
+        restrictions). Allows at least two distinct hosts (in terms of their parts of
+        speech categories)
+      "unrestricted": >-
+        occurs with anything (e.g. Turkish mi)
+      "unknown": >-
+        degree of restriction unknown at this time
+      "Part circum/simulfix": >-
+        even more restricted than restricted; used with simulfixation & circumfixation
+      "restricted: Head": >-
+        <don’t use this!> VERY RESTRICTED something like affix only to a head element (in
+        a narrowed sense of RestrID 1)
+      "restricted: Phrase": >-
+        <don’t use this!> can occur with whatever POS element of that phrase it is
+        adjacent to like Manange NP enclitics--they lean on whatever is last in the NP;
+        used to deal with ‘phrasal affix’-like phenomena
+  # -- end of NegationMarkerHostRestriction
+
+  NounPluralMarkerHostRestriction:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHostRestriction` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "restricted": >-
+        Is restricted to a specific type of host. When descriptions are silent about
+        the range of hosts that a marker can combine with, but analyze the marker as an
+        “affix”, we assume it is restricted.
+      "semi-restricted": >-
+        Can occur with some, but not all host elements (so, NOT a ‘phrasal affix’, but
+        rather simply a ‘particle’-like formative that has some degree of selectional
+        restrictions). Allows at least two distinct hosts (in terms of their parts of
+        speech categories)
+      "unrestricted": >-
+        occurs with anything (e.g. Turkish mi)
+      "unknown": >-
+        degree of restriction unknown at this time
+      "Part circum/simulfix": >-
+        even more restricted than restricted; used with simulfixation & circumfixation
+      "restricted: Head": >-
+        <don’t use this!> VERY RESTRICTED something like affix only to a head element (in
+        a narrowed sense of RestrID 1)
+      "restricted: Phrase": >-
+        <don’t use this!> can occur with whatever POS element of that phrase it is
+        adjacent to like Manange NP enclitics--they lean on whatever is last in the NP;
+        used to deal with ‘phrasal affix’-like phenomena
+  # -- end of NounPluralMarkerHostRestriction
+
+  CaseMarkerFusion:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusion` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "isolating": >-
+        The formative is a free phonological word. If it is, it is likely to be written
+        as a separate word, though this is not always true: non-isolating formatives like
+        clitics are often written as separate words, and isolating formatives are written
+        with hyphens or clitic boundary markers. Therefore you will need to look at
+        prosodic factors such as word stress.
+      "concatenative": >-
+        The formative is a clitic or segmentable affix. Word-level phonological processes
+        (such as vowel harmony), word-internal kinds of sandhi, prosodic phenomena (such
+        as word stress) or general inability to stand alone, identify a formative as
+        concatenative (rather than an independent word). Unless there is evidence to the
+        contrary, zeroes are coded as concatenative.
+      "Nonconcatenative": >-
+        No longer used. Instead, use the more specific type of nonconcatenative marking
+        (Fusion ID #s 5ff). See log #40
+      "unknown": >-
+        Unknown
+      "isolating_or_concatenative": >-
+        Isolating as regards stress, concatenative as regards segmental rules -- or vice
+        versa.
+      "reduplicative": >-
+        A category is marked by some kind of reduplication effect
+      "tonal": >-
+        A tone contrast marks a morphological contrast. The tone must be not be the result
+        of a general phonological sandhi rule, but represent true internal tone changes.
+      "concatenative_and_reduplicative": >-
+        Concatenative formative plus reduplication (usually reduplication of stem). If
+        some lexemes take just the affix and others take the affix plus the reduplication,
+        choose Concat + redupl and code for lexeme-based formative flexivity. (The
+        flexivity lies in whether they do or do not take the reduplication part.)
+      "concatenative_and_ablaut": >-
+        Concatenative formative plus ablaut (usually stem ablaut).
+      "concatenative_or_ablaut": >-
+        Concatenative formative or ablaut, neither one clearly primary (or both equally
+        primary).
+      "replacive": >-
+        The formative replaces a stem (or theme or base) segment. This is different from
+        regularly concatenative formatives which alternate with other formatives, and
+        not with stem segments. Examples: Marxist derived from Marxism (-ism replaces
+        -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology, 140; Oxford, 1998).
+        In Slavic hypocoristics, after truncation, the stem-final consonant is replaced
+        with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.
+      "prosodic_templatic": >-
+        Superimposition of a syllable or foot template onto the stem, resulting in such
+        processes as lengthening, gemination etc. Example: Lango alienable possesse
+        marking, Semitic voice marking, etc.
+      "isolating_then_concatenative": >-
+        First part of the formative is isolating, second part is concatenative.
+      "concatenative_then_isolating": >-
+        First part of the formative is concatenative, second part is isolating.
+      "tonal_or_ablaut_then_isolating": >-
+        First part of the formative is a tonal or ablaut alternation; second part is
+        isolating. Example: Kisi negation, where the verb stem undergoes tone changes and
+        a particle is added (Childs, A Grammar of Kisi, 220ff.; Mouton de Gruyter 1995.
+      "suppletive": >-
+        One root or morpheme replaces another in part of a paradigm.
+      "lenition": >-
+        Alternation in one or more consonant features
+      "ablaut": >-
+        Alternation of stem segments in some grammatical context. Distinct from
+        phonologically conditioned alternation.
+      "concatenative_default_or_isolating": >-
+        Concatenative formative is default; isolating allomorph under certain conditions.
+      "isolating_default_or_concatenative": >-
+        Isolating formative is default; concatenative allomorph under certain conditions.
+      "mixed": >-
+        This value is used only for survey purposes. Do not use when inputting data. When
+        inputting data, choose a specific value or <?>.
+      "distributed": >-
+        There are realizational traces of the category on several or even all morphemes
+        in a string, and none of these seem more basic (so that others could be analyzed
+        as category-triggered allomorphs. Good example: Semitic root&pattern morphology,
+        where for TAM+DIATHESIS values it seems abritrary to either take the stem ablaut
+        or the affix form as basic. They code TAM+DIATHESIS simultaneously.
+      "concatenative_or_suppletive": >-
+        Concatenative formative or suppletion, under different conditions.
+      "tonal_or_suppletive": >-
+        Tonal formative or suppletion, under different conditions.
+      "ablaut_or_suppletive": >-
+        Ablaut or suppletion, under different conditions.
+      "concatenative_or_tonal": >-
+        Concatenative or tonal formative, under different conditions.
+      "reduplicative_or_suppletive": >-
+        Reduplication or suppletion, under different conditions.
+      "ablaut_or_tonal": >-
+        Ablaut or tone change, under different conditions.
+  # -- end of CaseMarkerFusion
+
+  TenseMarkerFusion:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusion` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "isolating": >-
+        The formative is a free phonological word. If it is, it is likely to be written
+        as a separate word, though this is not always true: non-isolating formatives like
+        clitics are often written as separate words, and isolating formatives are written
+        with hyphens or clitic boundary markers. Therefore you will need to look at
+        prosodic factors such as word stress.
+      "concatenative": >-
+        The formative is a clitic or segmentable affix. Word-level phonological processes
+        (such as vowel harmony), word-internal kinds of sandhi, prosodic phenomena (such
+        as word stress) or general inability to stand alone, identify a formative as
+        concatenative (rather than an independent word). Unless there is evidence to the
+        contrary, zeroes are coded as concatenative.
+      "Nonconcatenative": >-
+        No longer used. Instead, use the more specific type of nonconcatenative marking
+        (Fusion ID #s 5ff). See log #40
+      "unknown": >-
+        Unknown
+      "isolating_or_concatenative": >-
+        Isolating as regards stress, concatenative as regards segmental rules -- or vice
+        versa.
+      "reduplicative": >-
+        A category is marked by some kind of reduplication effect
+      "tonal": >-
+        A tone contrast marks a morphological contrast. The tone must be not be the result
+        of a general phonological sandhi rule, but represent true internal tone changes.
+      "concatenative_and_reduplicative": >-
+        Concatenative formative plus reduplication (usually reduplication of stem). If
+        some lexemes take just the affix and others take the affix plus the reduplication,
+        choose Concat + redupl and code for lexeme-based formative flexivity. (The
+        flexivity lies in whether they do or do not take the reduplication part.)
+      "concatenative_and_ablaut": >-
+        Concatenative formative plus ablaut (usually stem ablaut).
+      "concatenative_or_ablaut": >-
+        Concatenative formative or ablaut, neither one clearly primary (or both equally
+        primary).
+      "replacive": >-
+        The formative replaces a stem (or theme or base) segment. This is different from
+        regularly concatenative formatives which alternate with other formatives, and
+        not with stem segments. Examples: Marxist derived from Marxism (-ism replaces
+        -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology, 140; Oxford, 1998).
+        In Slavic hypocoristics, after truncation, the stem-final consonant is replaced
+        with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.
+      "prosodic_templatic": >-
+        Superimposition of a syllable or foot template onto the stem, resulting in such
+        processes as lengthening, gemination etc. Example: Lango alienable possesse
+        marking, Semitic voice marking, etc.
+      "isolating_then_concatenative": >-
+        First part of the formative is isolating, second part is concatenative.
+      "concatenative_then_isolating": >-
+        First part of the formative is concatenative, second part is isolating.
+      "tonal_or_ablaut_then_isolating": >-
+        First part of the formative is a tonal or ablaut alternation; second part is
+        isolating. Example: Kisi negation, where the verb stem undergoes tone changes and
+        a particle is added (Childs, A Grammar of Kisi, 220ff.; Mouton de Gruyter 1995.
+      "suppletive": >-
+        One root or morpheme replaces another in part of a paradigm.
+      "lenition": >-
+        Alternation in one or more consonant features
+      "ablaut": >-
+        Alternation of stem segments in some grammatical context. Distinct from
+        phonologically conditioned alternation.
+      "concatenative_default_or_isolating": >-
+        Concatenative formative is default; isolating allomorph under certain conditions.
+      "isolating_default_or_concatenative": >-
+        Isolating formative is default; concatenative allomorph under certain conditions.
+      "mixed": >-
+        This value is used only for survey purposes. Do not use when inputting data. When
+        inputting data, choose a specific value or <?>.
+      "distributed": >-
+        There are realizational traces of the category on several or even all morphemes
+        in a string, and none of these seem more basic (so that others could be analyzed
+        as category-triggered allomorphs. Good example: Semitic root&pattern morphology,
+        where for TAM+DIATHESIS values it seems abritrary to either take the stem ablaut
+        or the affix form as basic. They code TAM+DIATHESIS simultaneously.
+      "concatenative_or_suppletive": >-
+        Concatenative formative or suppletion, under different conditions.
+      "tonal_or_suppletive": >-
+        Tonal formative or suppletion, under different conditions.
+      "ablaut_or_suppletive": >-
+        Ablaut or suppletion, under different conditions.
+      "concatenative_or_tonal": >-
+        Concatenative or tonal formative, under different conditions.
+      "reduplicative_or_suppletive": >-
+        Reduplication or suppletion, under different conditions.
+      "ablaut_or_tonal": >-
+        Ablaut or tone change, under different conditions.
+  # -- end of TenseMarkerFusion
+
+  NegationMarkerFusion:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusion` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "isolating": >-
+        The formative is a free phonological word. If it is, it is likely to be written
+        as a separate word, though this is not always true: non-isolating formatives like
+        clitics are often written as separate words, and isolating formatives are written
+        with hyphens or clitic boundary markers. Therefore you will need to look at
+        prosodic factors such as word stress.
+      "concatenative": >-
+        The formative is a clitic or segmentable affix. Word-level phonological processes
+        (such as vowel harmony), word-internal kinds of sandhi, prosodic phenomena (such
+        as word stress) or general inability to stand alone, identify a formative as
+        concatenative (rather than an independent word). Unless there is evidence to the
+        contrary, zeroes are coded as concatenative.
+      "Nonconcatenative": >-
+        No longer used. Instead, use the more specific type of nonconcatenative marking
+        (Fusion ID #s 5ff). See log #40
+      "unknown": >-
+        Unknown
+      "isolating_or_concatenative": >-
+        Isolating as regards stress, concatenative as regards segmental rules -- or vice
+        versa.
+      "reduplicative": >-
+        A category is marked by some kind of reduplication effect
+      "tonal": >-
+        A tone contrast marks a morphological contrast. The tone must be not be the result
+        of a general phonological sandhi rule, but represent true internal tone changes.
+      "concatenative_and_reduplicative": >-
+        Concatenative formative plus reduplication (usually reduplication of stem). If
+        some lexemes take just the affix and others take the affix plus the reduplication,
+        choose Concat + redupl and code for lexeme-based formative flexivity. (The
+        flexivity lies in whether they do or do not take the reduplication part.)
+      "concatenative_and_ablaut": >-
+        Concatenative formative plus ablaut (usually stem ablaut).
+      "concatenative_or_ablaut": >-
+        Concatenative formative or ablaut, neither one clearly primary (or both equally
+        primary).
+      "replacive": >-
+        The formative replaces a stem (or theme or base) segment. This is different from
+        regularly concatenative formatives which alternate with other formatives, and
+        not with stem segments. Examples: Marxist derived from Marxism (-ism replaces
+        -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology, 140; Oxford, 1998).
+        In Slavic hypocoristics, after truncation, the stem-final consonant is replaced
+        with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.
+      "prosodic_templatic": >-
+        Superimposition of a syllable or foot template onto the stem, resulting in such
+        processes as lengthening, gemination etc. Example: Lango alienable possesse
+        marking, Semitic voice marking, etc.
+      "isolating_then_concatenative": >-
+        First part of the formative is isolating, second part is concatenative.
+      "concatenative_then_isolating": >-
+        First part of the formative is concatenative, second part is isolating.
+      "tonal_or_ablaut_then_isolating": >-
+        First part of the formative is a tonal or ablaut alternation; second part is
+        isolating. Example: Kisi negation, where the verb stem undergoes tone changes and
+        a particle is added (Childs, A Grammar of Kisi, 220ff.; Mouton de Gruyter 1995.
+      "suppletive": >-
+        One root or morpheme replaces another in part of a paradigm.
+      "lenition": >-
+        Alternation in one or more consonant features
+      "ablaut": >-
+        Alternation of stem segments in some grammatical context. Distinct from
+        phonologically conditioned alternation.
+      "concatenative_default_or_isolating": >-
+        Concatenative formative is default; isolating allomorph under certain conditions.
+      "isolating_default_or_concatenative": >-
+        Isolating formative is default; concatenative allomorph under certain conditions.
+      "mixed": >-
+        This value is used only for survey purposes. Do not use when inputting data. When
+        inputting data, choose a specific value or <?>.
+      "distributed": >-
+        There are realizational traces of the category on several or even all morphemes
+        in a string, and none of these seem more basic (so that others could be analyzed
+        as category-triggered allomorphs. Good example: Semitic root&pattern morphology,
+        where for TAM+DIATHESIS values it seems abritrary to either take the stem ablaut
+        or the affix form as basic. They code TAM+DIATHESIS simultaneously.
+      "concatenative_or_suppletive": >-
+        Concatenative formative or suppletion, under different conditions.
+      "tonal_or_suppletive": >-
+        Tonal formative or suppletion, under different conditions.
+      "ablaut_or_suppletive": >-
+        Ablaut or suppletion, under different conditions.
+      "concatenative_or_tonal": >-
+        Concatenative or tonal formative, under different conditions.
+      "reduplicative_or_suppletive": >-
+        Reduplication or suppletion, under different conditions.
+      "ablaut_or_tonal": >-
+        Ablaut or tone change, under different conditions.
+  # -- end of NegationMarkerFusion
+
+  NounPluralMarkerFusion:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusion` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "isolating": >-
+        The formative is a free phonological word. If it is, it is likely to be written
+        as a separate word, though this is not always true: non-isolating formatives like
+        clitics are often written as separate words, and isolating formatives are written
+        with hyphens or clitic boundary markers. Therefore you will need to look at
+        prosodic factors such as word stress.
+      "concatenative": >-
+        The formative is a clitic or segmentable affix. Word-level phonological processes
+        (such as vowel harmony), word-internal kinds of sandhi, prosodic phenomena (such
+        as word stress) or general inability to stand alone, identify a formative as
+        concatenative (rather than an independent word). Unless there is evidence to the
+        contrary, zeroes are coded as concatenative.
+      "Nonconcatenative": >-
+        No longer used. Instead, use the more specific type of nonconcatenative marking
+        (Fusion ID #s 5ff). See log #40
+      "unknown": >-
+        Unknown
+      "isolating_or_concatenative": >-
+        Isolating as regards stress, concatenative as regards segmental rules -- or vice
+        versa.
+      "reduplicative": >-
+        A category is marked by some kind of reduplication effect
+      "tonal": >-
+        A tone contrast marks a morphological contrast. The tone must be not be the result
+        of a general phonological sandhi rule, but represent true internal tone changes.
+      "concatenative_and_reduplicative": >-
+        Concatenative formative plus reduplication (usually reduplication of stem). If
+        some lexemes take just the affix and others take the affix plus the reduplication,
+        choose Concat + redupl and code for lexeme-based formative flexivity. (The
+        flexivity lies in whether they do or do not take the reduplication part.)
+      "concatenative_and_ablaut": >-
+        Concatenative formative plus ablaut (usually stem ablaut).
+      "concatenative_or_ablaut": >-
+        Concatenative formative or ablaut, neither one clearly primary (or both equally
+        primary).
+      "replacive": >-
+        The formative replaces a stem (or theme or base) segment. This is different from
+        regularly concatenative formatives which alternate with other formatives, and
+        not with stem segments. Examples: Marxist derived from Marxism (-ism replaces
+        -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology, 140; Oxford, 1998).
+        In Slavic hypocoristics, after truncation, the stem-final consonant is replaced
+        with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.
+      "prosodic_templatic": >-
+        Superimposition of a syllable or foot template onto the stem, resulting in such
+        processes as lengthening, gemination etc. Example: Lango alienable possesse
+        marking, Semitic voice marking, etc.
+      "isolating_then_concatenative": >-
+        First part of the formative is isolating, second part is concatenative.
+      "concatenative_then_isolating": >-
+        First part of the formative is concatenative, second part is isolating.
+      "tonal_or_ablaut_then_isolating": >-
+        First part of the formative is a tonal or ablaut alternation; second part is
+        isolating. Example: Kisi negation, where the verb stem undergoes tone changes and
+        a particle is added (Childs, A Grammar of Kisi, 220ff.; Mouton de Gruyter 1995.
+      "suppletive": >-
+        One root or morpheme replaces another in part of a paradigm.
+      "lenition": >-
+        Alternation in one or more consonant features
+      "ablaut": >-
+        Alternation of stem segments in some grammatical context. Distinct from
+        phonologically conditioned alternation.
+      "concatenative_default_or_isolating": >-
+        Concatenative formative is default; isolating allomorph under certain conditions.
+      "isolating_default_or_concatenative": >-
+        Isolating formative is default; concatenative allomorph under certain conditions.
+      "mixed": >-
+        This value is used only for survey purposes. Do not use when inputting data. When
+        inputting data, choose a specific value or <?>.
+      "distributed": >-
+        There are realizational traces of the category on several or even all morphemes
+        in a string, and none of these seem more basic (so that others could be analyzed
+        as category-triggered allomorphs. Good example: Semitic root&pattern morphology,
+        where for TAM+DIATHESIS values it seems abritrary to either take the stem ablaut
+        or the affix form as basic. They code TAM+DIATHESIS simultaneously.
+      "concatenative_or_suppletive": >-
+        Concatenative formative or suppletion, under different conditions.
+      "tonal_or_suppletive": >-
+        Tonal formative or suppletion, under different conditions.
+      "ablaut_or_suppletive": >-
+        Ablaut or suppletion, under different conditions.
+      "concatenative_or_tonal": >-
+        Concatenative or tonal formative, under different conditions.
+      "reduplicative_or_suppletive": >-
+        Reduplication or suppletion, under different conditions.
+      "ablaut_or_tonal": >-
+        Ablaut or tone change, under different conditions.
+  # -- end of NounPluralMarkerFusion
+
+  CaseMarkerFusionBinned6:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionBinned6` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+  # -- end of CaseMarkerFusionBinned6
+
+  TenseMarkerFusionBinned6:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionBinned6` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+  # -- end of TenseMarkerFusionBinned6
+
+  NegationMarkerFusionBinned6:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionBinned6` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+  # -- end of NegationMarkerFusionBinned6
+
+  NounPluralMarkerFusionBinned6:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionBinned6` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+  # -- end of NounPluralMarkerFusionBinned6
+
+  CaseMarkerFusionIsIsolating:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionIsIsolating` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of CaseMarkerFusionIsIsolating
+
+  TenseMarkerFusionIsIsolating:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionIsIsolating` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of TenseMarkerFusionIsIsolating
+
+  NegationMarkerFusionIsIsolating:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionIsIsolating` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NegationMarkerFusionIsIsolating
+
+  NounPluralMarkerFusionIsIsolating:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionIsIsolating` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NounPluralMarkerFusionIsIsolating
+
+  CaseMarkerFusionIsNonlinear:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionIsNonlinear` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of CaseMarkerFusionIsNonlinear
+
+  TenseMarkerFusionIsNonlinear:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionIsNonlinear` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of TenseMarkerFusionIsNonlinear
+
+  NegationMarkerFusionIsNonlinear:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionIsNonlinear` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NegationMarkerFusionIsNonlinear
+
+  NounPluralMarkerFusionIsNonlinear:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionIsNonlinear` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NounPluralMarkerFusionIsNonlinear
+
+  CaseMarkerFusionIsReduplicative:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionIsReduplicative` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of CaseMarkerFusionIsReduplicative
+
+  TenseMarkerFusionIsReduplicative:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionIsReduplicative` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of TenseMarkerFusionIsReduplicative
+
+  NegationMarkerFusionIsReduplicative:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionIsReduplicative` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NegationMarkerFusionIsReduplicative
+
+  NounPluralMarkerFusionIsReduplicative:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionIsReduplicative` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NounPluralMarkerFusionIsReduplicative
+
+  CaseMarkerFusionIsTonal:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionIsTonal` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of CaseMarkerFusionIsTonal
+
+  TenseMarkerFusionIsTonal:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionIsTonal` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of TenseMarkerFusionIsTonal
+
+  NegationMarkerFusionIsTonal:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionIsTonal` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NegationMarkerFusionIsTonal
+
+  NounPluralMarkerFusionIsTonal:
+    variant_of: MarkerFusion
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFusionIsTonal` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NounPluralMarkerFusionIsTonal
+
+  CaseMarkerStemFlexivity:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerStemFlexivity` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "cat-based": >-
+        Allomorphic variation determined by the choice of inflectional category (e.g., a
+        certain stem ablaut in certain tense forms, across the regular lexicon)
+      "lex-based": >-
+        Allomorphic variation determined by the choice of lexical host (e.g., a certain
+        stem ablaut with some verbs, but not with others)
+      "none": >-
+        No allomorphic variation
+      "both": >-
+        Allomorphic variation determined by both the inflectional category and the lexical
+        host
+      "free": >-
+        Free allomorphic variation
+  # -- end of CaseMarkerStemFlexivity
+
+  TenseMarkerStemFlexivity:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerStemFlexivity` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "cat-based": >-
+        Allomorphic variation determined by the choice of inflectional category (e.g., a
+        certain stem ablaut in certain tense forms, across the regular lexicon)
+      "lex-based": >-
+        Allomorphic variation determined by the choice of lexical host (e.g., a certain
+        stem ablaut with some verbs, but not with others)
+      "none": >-
+        No allomorphic variation
+      "both": >-
+        Allomorphic variation determined by both the inflectional category and the lexical
+        host
+      "free": >-
+        Free allomorphic variation
+  # -- end of TenseMarkerStemFlexivity
+
+  NegationMarkerStemFlexivity:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerStemFlexivity` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "cat-based": >-
+        Allomorphic variation determined by the choice of inflectional category (e.g., a
+        certain stem ablaut in certain tense forms, across the regular lexicon)
+      "lex-based": >-
+        Allomorphic variation determined by the choice of lexical host (e.g., a certain
+        stem ablaut with some verbs, but not with others)
+      "none": >-
+        No allomorphic variation
+      "both": >-
+        Allomorphic variation determined by both the inflectional category and the lexical
+        host
+      "free": >-
+        Free allomorphic variation
+  # -- end of NegationMarkerStemFlexivity
+
+  NounPluralMarkerStemFlexivity:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerStemFlexivity` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "cat-based": >-
+        Allomorphic variation determined by the choice of inflectional category (e.g., a
+        certain stem ablaut in certain tense forms, across the regular lexicon)
+      "lex-based": >-
+        Allomorphic variation determined by the choice of lexical host (e.g., a certain
+        stem ablaut with some verbs, but not with others)
+      "none": >-
+        No allomorphic variation
+      "both": >-
+        Allomorphic variation determined by both the inflectional category and the lexical
+        host
+      "free": >-
+        Free allomorphic variation
+  # -- end of NounPluralMarkerStemFlexivity
+
+  CaseMarkerFormativeFlexivity:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFormativeFlexivity` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "cat-based": >-
+        Allomorphic variation determined by the choice of inflectional category (e.g., a
+        certain stem ablaut in certain tense forms, across the regular lexicon)
+      "lex-based": >-
+        Allomorphic variation determined by the choice of lexical host (e.g., a certain
+        stem ablaut with some verbs, but not with others)
+      "none": >-
+        No allomorphic variation
+      "both": >-
+        Allomorphic variation determined by both the inflectional category and the lexical
+        host
+      "free": >-
+        Free allomorphic variation
+  # -- end of CaseMarkerFormativeFlexivity
+
+  TenseMarkerFormativeFlexivity:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFormativeFlexivity` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "cat-based": >-
+        Allomorphic variation determined by the choice of inflectional category (e.g., a
+        certain stem ablaut in certain tense forms, across the regular lexicon)
+      "lex-based": >-
+        Allomorphic variation determined by the choice of lexical host (e.g., a certain
+        stem ablaut with some verbs, but not with others)
+      "none": >-
+        No allomorphic variation
+      "both": >-
+        Allomorphic variation determined by both the inflectional category and the lexical
+        host
+      "free": >-
+        Free allomorphic variation
+  # -- end of TenseMarkerFormativeFlexivity
+
+  NegationMarkerFormativeFlexivity:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFormativeFlexivity` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "cat-based": >-
+        Allomorphic variation determined by the choice of inflectional category (e.g., a
+        certain stem ablaut in certain tense forms, across the regular lexicon)
+      "lex-based": >-
+        Allomorphic variation determined by the choice of lexical host (e.g., a certain
+        stem ablaut with some verbs, but not with others)
+      "none": >-
+        No allomorphic variation
+      "both": >-
+        Allomorphic variation determined by both the inflectional category and the lexical
+        host
+      "free": >-
+        Free allomorphic variation
+  # -- end of NegationMarkerFormativeFlexivity
+
+  NounPluralMarkerFormativeFlexivity:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerFormativeFlexivity` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "cat-based": >-
+        Allomorphic variation determined by the choice of inflectional category (e.g., a
+        certain stem ablaut in certain tense forms, across the regular lexicon)
+      "lex-based": >-
+        Allomorphic variation determined by the choice of lexical host (e.g., a certain
+        stem ablaut with some verbs, but not with others)
+      "none": >-
+        No allomorphic variation
+      "both": >-
+        Allomorphic variation determined by both the inflectional category and the lexical
+        host
+      "free": >-
+        Free allomorphic variation
+  # -- end of NounPluralMarkerFormativeFlexivity
+
+  CaseMarkerPosition:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerPosition` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "simul": >-
+        the formative has two exponents at different positions in the phonological host
+        (but it is not the case that one is positioned before and the other after the
+        host, which is coded as “circum”)
+      "circum": >-
+        the formative has two exponents, one before and one after the phonological host.
+        This is a special case of the “simul” position
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/prae": >-
+        either inside or before the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post (prae)": >-
+        after the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae/circum": >-
+        either before or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "Wackernagel": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "in (post)": >-
+        inside the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "prae/post/circum": >-
+        either before, after or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "post (circum)": >-
+        after the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (prae)": >-
+        around the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae (circum)": >-
+        before the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (post)": >-
+        around the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "circum (W)": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "simul (prae)": >-
+        in two or more different positions in (but not around) the phonological host by
+        default, before the host under exceptional conditions (typically lexical)
+      "prae/in/post": >-
+        either before, inside or after the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "prae (post)": >-
+        before the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "post (in)": >-
+        after the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+      "post/prae (simul)": >-
+        either before, after or in two or more positions in the phonological host,
+        conditioned by some structural context (category, syntax etc.)
+      "prae/post/in/circum": >-
+        either before, after, inside or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "unknown": >-
+        position is unknown
+      "any": >-
+        unspecified; can appear anywhere where the language allows it.
+      "simul (post)": >-
+        in two or more different positions in the phonological host by default, after the
+        host under exceptional conditions (typically lexical)
+      "stem change": >-
+        a special case of “simul” where one position is stem change itself
+      "post/circum": >-
+        either after or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae/in": >-
+        either before or inside the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae (in)": >-
+        before the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+  # -- end of CaseMarkerPosition
+
+  TenseMarkerPosition:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerPosition` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "simul": >-
+        the formative has two exponents at different positions in the phonological host
+        (but it is not the case that one is positioned before and the other after the
+        host, which is coded as “circum”)
+      "circum": >-
+        the formative has two exponents, one before and one after the phonological host.
+        This is a special case of the “simul” position
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/prae": >-
+        either inside or before the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post (prae)": >-
+        after the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae/circum": >-
+        either before or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "Wackernagel": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "in (post)": >-
+        inside the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "prae/post/circum": >-
+        either before, after or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "post (circum)": >-
+        after the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (prae)": >-
+        around the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae (circum)": >-
+        before the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (post)": >-
+        around the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "circum (W)": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "simul (prae)": >-
+        in two or more different positions in (but not around) the phonological host by
+        default, before the host under exceptional conditions (typically lexical)
+      "prae/in/post": >-
+        either before, inside or after the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "prae (post)": >-
+        before the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "post (in)": >-
+        after the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+      "post/prae (simul)": >-
+        either before, after or in two or more positions in the phonological host,
+        conditioned by some structural context (category, syntax etc.)
+      "prae/post/in/circum": >-
+        either before, after, inside or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "unknown": >-
+        position is unknown
+      "any": >-
+        unspecified; can appear anywhere where the language allows it.
+      "simul (post)": >-
+        in two or more different positions in the phonological host by default, after the
+        host under exceptional conditions (typically lexical)
+      "stem change": >-
+        a special case of “simul” where one position is stem change itself
+      "post/circum": >-
+        either after or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae/in": >-
+        either before or inside the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae (in)": >-
+        before the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+  # -- end of TenseMarkerPosition
+
+  NegationMarkerPosition:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerPosition` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "simul": >-
+        the formative has two exponents at different positions in the phonological host
+        (but it is not the case that one is positioned before and the other after the
+        host, which is coded as “circum”)
+      "circum": >-
+        the formative has two exponents, one before and one after the phonological host.
+        This is a special case of the “simul” position
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/prae": >-
+        either inside or before the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post (prae)": >-
+        after the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae/circum": >-
+        either before or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "Wackernagel": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "in (post)": >-
+        inside the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "prae/post/circum": >-
+        either before, after or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "post (circum)": >-
+        after the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (prae)": >-
+        around the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae (circum)": >-
+        before the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (post)": >-
+        around the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "circum (W)": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "simul (prae)": >-
+        in two or more different positions in (but not around) the phonological host by
+        default, before the host under exceptional conditions (typically lexical)
+      "prae/in/post": >-
+        either before, inside or after the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "prae (post)": >-
+        before the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "post (in)": >-
+        after the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+      "post/prae (simul)": >-
+        either before, after or in two or more positions in the phonological host,
+        conditioned by some structural context (category, syntax etc.)
+      "prae/post/in/circum": >-
+        either before, after, inside or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "unknown": >-
+        position is unknown
+      "any": >-
+        unspecified; can appear anywhere where the language allows it.
+      "simul (post)": >-
+        in two or more different positions in the phonological host by default, after the
+        host under exceptional conditions (typically lexical)
+      "stem change": >-
+        a special case of “simul” where one position is stem change itself
+      "post/circum": >-
+        either after or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae/in": >-
+        either before or inside the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae (in)": >-
+        before the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+  # -- end of NegationMarkerPosition
+
+  NounPluralMarkerPosition:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerPosition` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "simul": >-
+        the formative has two exponents at different positions in the phonological host
+        (but it is not the case that one is positioned before and the other after the
+        host, which is coded as “circum”)
+      "circum": >-
+        the formative has two exponents, one before and one after the phonological host.
+        This is a special case of the “simul” position
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/prae": >-
+        either inside or before the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post (prae)": >-
+        after the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae/circum": >-
+        either before or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "Wackernagel": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "in (post)": >-
+        inside the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "prae/post/circum": >-
+        either before, after or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "post (circum)": >-
+        after the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (prae)": >-
+        around the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae (circum)": >-
+        before the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (post)": >-
+        around the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "circum (W)": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "simul (prae)": >-
+        in two or more different positions in (but not around) the phonological host by
+        default, before the host under exceptional conditions (typically lexical)
+      "prae/in/post": >-
+        either before, inside or after the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "prae (post)": >-
+        before the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "post (in)": >-
+        after the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+      "post/prae (simul)": >-
+        either before, after or in two or more positions in the phonological host,
+        conditioned by some structural context (category, syntax etc.)
+      "prae/post/in/circum": >-
+        either before, after, inside or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "unknown": >-
+        position is unknown
+      "any": >-
+        unspecified; can appear anywhere where the language allows it.
+      "simul (post)": >-
+        in two or more different positions in the phonological host by default, after the
+        host under exceptional conditions (typically lexical)
+      "stem change": >-
+        a special case of “simul” where one position is stem change itself
+      "post/circum": >-
+        either after or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae/in": >-
+        either before or inside the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae (in)": >-
+        before the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+  # -- end of NounPluralMarkerPosition
+
+  CaseMarkerPositionBinned4:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerPositionBinned4` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "simul": >-
+        the formative has two exponents at different positions in the phonological host
+        (but it is not the case that one is positioned before and the other after the
+        host, which is coded as “circum”)
+      "circum": >-
+        the formative has two exponents, one before and one after the phonological host.
+        This is a special case of the “simul” position
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/prae": >-
+        either inside or before the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post (prae)": >-
+        after the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae/circum": >-
+        either before or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "Wackernagel": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "in (post)": >-
+        inside the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "prae/post/circum": >-
+        either before, after or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "post (circum)": >-
+        after the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (prae)": >-
+        around the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae (circum)": >-
+        before the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (post)": >-
+        around the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "circum (W)": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "simul (prae)": >-
+        in two or more different positions in (but not around) the phonological host by
+        default, before the host under exceptional conditions (typically lexical)
+      "prae/in/post": >-
+        either before, inside or after the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "prae (post)": >-
+        before the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "post (in)": >-
+        after the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+      "post/prae (simul)": >-
+        either before, after or in two or more positions in the phonological host,
+        conditioned by some structural context (category, syntax etc.)
+      "prae/post/in/circum": >-
+        either before, after, inside or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "unknown": >-
+        position is unknown
+      "any": >-
+        unspecified; can appear anywhere where the language allows it.
+      "simul (post)": >-
+        in two or more different positions in the phonological host by default, after the
+        host under exceptional conditions (typically lexical)
+      "stem change": >-
+        a special case of “simul” where one position is stem change itself
+      "post/circum": >-
+        either after or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae/in": >-
+        either before or inside the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae (in)": >-
+        before the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+  # -- end of CaseMarkerPositionBinned4
+
+  TenseMarkerPositionBinned4:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerPositionBinned4` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "simul": >-
+        the formative has two exponents at different positions in the phonological host
+        (but it is not the case that one is positioned before and the other after the
+        host, which is coded as “circum”)
+      "circum": >-
+        the formative has two exponents, one before and one after the phonological host.
+        This is a special case of the “simul” position
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/prae": >-
+        either inside or before the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post (prae)": >-
+        after the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae/circum": >-
+        either before or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "Wackernagel": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "in (post)": >-
+        inside the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "prae/post/circum": >-
+        either before, after or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "post (circum)": >-
+        after the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (prae)": >-
+        around the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae (circum)": >-
+        before the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (post)": >-
+        around the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "circum (W)": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "simul (prae)": >-
+        in two or more different positions in (but not around) the phonological host by
+        default, before the host under exceptional conditions (typically lexical)
+      "prae/in/post": >-
+        either before, inside or after the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "prae (post)": >-
+        before the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "post (in)": >-
+        after the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+      "post/prae (simul)": >-
+        either before, after or in two or more positions in the phonological host,
+        conditioned by some structural context (category, syntax etc.)
+      "prae/post/in/circum": >-
+        either before, after, inside or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "unknown": >-
+        position is unknown
+      "any": >-
+        unspecified; can appear anywhere where the language allows it.
+      "simul (post)": >-
+        in two or more different positions in the phonological host by default, after the
+        host under exceptional conditions (typically lexical)
+      "stem change": >-
+        a special case of “simul” where one position is stem change itself
+      "post/circum": >-
+        either after or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae/in": >-
+        either before or inside the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae (in)": >-
+        before the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+  # -- end of TenseMarkerPositionBinned4
+
+  NegationMarkerPositionBinned4:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerPositionBinned4` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "simul": >-
+        the formative has two exponents at different positions in the phonological host
+        (but it is not the case that one is positioned before and the other after the
+        host, which is coded as “circum”)
+      "circum": >-
+        the formative has two exponents, one before and one after the phonological host.
+        This is a special case of the “simul” position
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/prae": >-
+        either inside or before the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post (prae)": >-
+        after the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae/circum": >-
+        either before or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "Wackernagel": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "in (post)": >-
+        inside the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "prae/post/circum": >-
+        either before, after or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "post (circum)": >-
+        after the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (prae)": >-
+        around the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae (circum)": >-
+        before the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (post)": >-
+        around the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "circum (W)": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "simul (prae)": >-
+        in two or more different positions in (but not around) the phonological host by
+        default, before the host under exceptional conditions (typically lexical)
+      "prae/in/post": >-
+        either before, inside or after the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "prae (post)": >-
+        before the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "post (in)": >-
+        after the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+      "post/prae (simul)": >-
+        either before, after or in two or more positions in the phonological host,
+        conditioned by some structural context (category, syntax etc.)
+      "prae/post/in/circum": >-
+        either before, after, inside or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "unknown": >-
+        position is unknown
+      "any": >-
+        unspecified; can appear anywhere where the language allows it.
+      "simul (post)": >-
+        in two or more different positions in the phonological host by default, after the
+        host under exceptional conditions (typically lexical)
+      "stem change": >-
+        a special case of “simul” where one position is stem change itself
+      "post/circum": >-
+        either after or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae/in": >-
+        either before or inside the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae (in)": >-
+        before the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+  # -- end of NegationMarkerPositionBinned4
+
+  NounPluralMarkerPositionBinned4:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerPositionBinned4` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "simul": >-
+        the formative has two exponents at different positions in the phonological host
+        (but it is not the case that one is positioned before and the other after the
+        host, which is coded as “circum”)
+      "circum": >-
+        the formative has two exponents, one before and one after the phonological host.
+        This is a special case of the “simul” position
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/prae": >-
+        either inside or before the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post (prae)": >-
+        after the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae/circum": >-
+        either before or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "Wackernagel": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "in (post)": >-
+        inside the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "prae/post/circum": >-
+        either before, after or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "post (circum)": >-
+        after the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (prae)": >-
+        around the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae (circum)": >-
+        before the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (post)": >-
+        around the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "circum (W)": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "simul (prae)": >-
+        in two or more different positions in (but not around) the phonological host by
+        default, before the host under exceptional conditions (typically lexical)
+      "prae/in/post": >-
+        either before, inside or after the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "prae (post)": >-
+        before the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "post (in)": >-
+        after the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+      "post/prae (simul)": >-
+        either before, after or in two or more positions in the phonological host,
+        conditioned by some structural context (category, syntax etc.)
+      "prae/post/in/circum": >-
+        either before, after, inside or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "unknown": >-
+        position is unknown
+      "any": >-
+        unspecified; can appear anywhere where the language allows it.
+      "simul (post)": >-
+        in two or more different positions in the phonological host by default, after the
+        host under exceptional conditions (typically lexical)
+      "stem change": >-
+        a special case of “simul” where one position is stem change itself
+      "post/circum": >-
+        either after or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae/in": >-
+        either before or inside the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae (in)": >-
+        before the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+  # -- end of NounPluralMarkerPositionBinned4
+
+  CaseMarkerPositionBinned5:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerPositionBinned5` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "simul": >-
+        the formative has two exponents at different positions in the phonological host
+        (but it is not the case that one is positioned before and the other after the
+        host, which is coded as “circum”)
+      "circum": >-
+        the formative has two exponents, one before and one after the phonological host.
+        This is a special case of the “simul” position
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/prae": >-
+        either inside or before the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post (prae)": >-
+        after the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae/circum": >-
+        either before or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "Wackernagel": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "in (post)": >-
+        inside the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "prae/post/circum": >-
+        either before, after or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "post (circum)": >-
+        after the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (prae)": >-
+        around the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae (circum)": >-
+        before the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (post)": >-
+        around the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "circum (W)": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "simul (prae)": >-
+        in two or more different positions in (but not around) the phonological host by
+        default, before the host under exceptional conditions (typically lexical)
+      "prae/in/post": >-
+        either before, inside or after the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "prae (post)": >-
+        before the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "post (in)": >-
+        after the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+      "post/prae (simul)": >-
+        either before, after or in two or more positions in the phonological host,
+        conditioned by some structural context (category, syntax etc.)
+      "prae/post/in/circum": >-
+        either before, after, inside or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "unknown": >-
+        position is unknown
+      "any": >-
+        unspecified; can appear anywhere where the language allows it.
+      "simul (post)": >-
+        in two or more different positions in the phonological host by default, after the
+        host under exceptional conditions (typically lexical)
+      "stem change": >-
+        a special case of “simul” where one position is stem change itself
+      "post/circum": >-
+        either after or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae/in": >-
+        either before or inside the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae (in)": >-
+        before the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+  # -- end of CaseMarkerPositionBinned5
+
+  TenseMarkerPositionBinned5:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerPositionBinned5` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "simul": >-
+        the formative has two exponents at different positions in the phonological host
+        (but it is not the case that one is positioned before and the other after the
+        host, which is coded as “circum”)
+      "circum": >-
+        the formative has two exponents, one before and one after the phonological host.
+        This is a special case of the “simul” position
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/prae": >-
+        either inside or before the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post (prae)": >-
+        after the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae/circum": >-
+        either before or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "Wackernagel": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "in (post)": >-
+        inside the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "prae/post/circum": >-
+        either before, after or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "post (circum)": >-
+        after the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (prae)": >-
+        around the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae (circum)": >-
+        before the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (post)": >-
+        around the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "circum (W)": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "simul (prae)": >-
+        in two or more different positions in (but not around) the phonological host by
+        default, before the host under exceptional conditions (typically lexical)
+      "prae/in/post": >-
+        either before, inside or after the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "prae (post)": >-
+        before the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "post (in)": >-
+        after the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+      "post/prae (simul)": >-
+        either before, after or in two or more positions in the phonological host,
+        conditioned by some structural context (category, syntax etc.)
+      "prae/post/in/circum": >-
+        either before, after, inside or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "unknown": >-
+        position is unknown
+      "any": >-
+        unspecified; can appear anywhere where the language allows it.
+      "simul (post)": >-
+        in two or more different positions in the phonological host by default, after the
+        host under exceptional conditions (typically lexical)
+      "stem change": >-
+        a special case of “simul” where one position is stem change itself
+      "post/circum": >-
+        either after or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae/in": >-
+        either before or inside the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae (in)": >-
+        before the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+  # -- end of TenseMarkerPositionBinned5
+
+  NegationMarkerPositionBinned5:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerPositionBinned5` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "simul": >-
+        the formative has two exponents at different positions in the phonological host
+        (but it is not the case that one is positioned before and the other after the
+        host, which is coded as “circum”)
+      "circum": >-
+        the formative has two exponents, one before and one after the phonological host.
+        This is a special case of the “simul” position
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/prae": >-
+        either inside or before the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post (prae)": >-
+        after the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae/circum": >-
+        either before or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "Wackernagel": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "in (post)": >-
+        inside the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "prae/post/circum": >-
+        either before, after or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "post (circum)": >-
+        after the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (prae)": >-
+        around the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae (circum)": >-
+        before the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (post)": >-
+        around the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "circum (W)": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "simul (prae)": >-
+        in two or more different positions in (but not around) the phonological host by
+        default, before the host under exceptional conditions (typically lexical)
+      "prae/in/post": >-
+        either before, inside or after the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "prae (post)": >-
+        before the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "post (in)": >-
+        after the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+      "post/prae (simul)": >-
+        either before, after or in two or more positions in the phonological host,
+        conditioned by some structural context (category, syntax etc.)
+      "prae/post/in/circum": >-
+        either before, after, inside or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "unknown": >-
+        position is unknown
+      "any": >-
+        unspecified; can appear anywhere where the language allows it.
+      "simul (post)": >-
+        in two or more different positions in the phonological host by default, after the
+        host under exceptional conditions (typically lexical)
+      "stem change": >-
+        a special case of “simul” where one position is stem change itself
+      "post/circum": >-
+        either after or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae/in": >-
+        either before or inside the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae (in)": >-
+        before the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+  # -- end of NegationMarkerPositionBinned5
+
+  NounPluralMarkerPositionBinned5:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerPositionBinned5` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "simul": >-
+        the formative has two exponents at different positions in the phonological host
+        (but it is not the case that one is positioned before and the other after the
+        host, which is coded as “circum”)
+      "circum": >-
+        the formative has two exponents, one before and one after the phonological host.
+        This is a special case of the “simul” position
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/prae": >-
+        either inside or before the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post (prae)": >-
+        after the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae/circum": >-
+        either before or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "Wackernagel": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "in (post)": >-
+        inside the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "prae/post/circum": >-
+        either before, after or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "post (circum)": >-
+        after the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (prae)": >-
+        around the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae (circum)": >-
+        before the phonological host by default, around the host under exceptional
+        conditions (typically lexical)
+      "circum (post)": >-
+        around the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "circum (W)": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "simul (prae)": >-
+        in two or more different positions in (but not around) the phonological host by
+        default, before the host under exceptional conditions (typically lexical)
+      "prae/in/post": >-
+        either before, inside or after the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "prae (post)": >-
+        before the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "post (in)": >-
+        after the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+      "post/prae (simul)": >-
+        either before, after or in two or more positions in the phonological host,
+        conditioned by some structural context (category, syntax etc.)
+      "prae/post/in/circum": >-
+        either before, after, inside or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "unknown": >-
+        position is unknown
+      "any": >-
+        unspecified; can appear anywhere where the language allows it.
+      "simul (post)": >-
+        in two or more different positions in the phonological host by default, after the
+        host under exceptional conditions (typically lexical)
+      "stem change": >-
+        a special case of “simul” where one position is stem change itself
+      "post/circum": >-
+        either after or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae/in": >-
+        either before or inside the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae (in)": >-
+        before the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+  # -- end of NounPluralMarkerPositionBinned5
+
+  CaseMarkerHasPreposedExponent:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasPreposedExponent` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of CaseMarkerHasPreposedExponent
+
+  TenseMarkerHasPreposedExponent:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasPreposedExponent` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of TenseMarkerHasPreposedExponent
+
+  NegationMarkerHasPreposedExponent:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasPreposedExponent` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NegationMarkerHasPreposedExponent
+
+  NounPluralMarkerHasPreposedExponent:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasPreposedExponent` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NounPluralMarkerHasPreposedExponent
+
+  CaseMarkerHasPreposedDefaultExponent:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasPreposedDefaultExponent` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of CaseMarkerHasPreposedDefaultExponent
+
+  TenseMarkerHasPreposedDefaultExponent:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasPreposedDefaultExponent` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of TenseMarkerHasPreposedDefaultExponent
+
+  NegationMarkerHasPreposedDefaultExponent:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasPreposedDefaultExponent` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NegationMarkerHasPreposedDefaultExponent
+
+  NounPluralMarkerHasPreposedDefaultExponent:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasPreposedDefaultExponent` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NounPluralMarkerHasPreposedDefaultExponent
+
+  CaseMarkerHasPostposedExponent:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasPostposedExponent` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of CaseMarkerHasPostposedExponent
+
+  TenseMarkerHasPostposedExponent:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasPostposedExponent` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of TenseMarkerHasPostposedExponent
+
+  NegationMarkerHasPostposedExponent:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasPostposedExponent` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NegationMarkerHasPostposedExponent
+
+  NounPluralMarkerHasPostposedExponent:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasPostposedExponent` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NounPluralMarkerHasPostposedExponent
+
+  CaseMarkerHasMultipleExponents:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasMultipleExponents` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of CaseMarkerHasMultipleExponents
+
+  TenseMarkerHasMultipleExponents:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasMultipleExponents` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of TenseMarkerHasMultipleExponents
+
+  NegationMarkerHasMultipleExponents:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasMultipleExponents` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NegationMarkerHasMultipleExponents
+
+  NounPluralMarkerHasMultipleExponents:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasMultipleExponents` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NounPluralMarkerHasMultipleExponents
+
+  CaseMarkerHasMultipleDefaultExponents:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasMultipleDefaultExponents` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of CaseMarkerHasMultipleDefaultExponents
+
+  TenseMarkerHasMultipleDefaultExponents:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasMultipleDefaultExponents` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of TenseMarkerHasMultipleDefaultExponents
+
+  NegationMarkerHasMultipleDefaultExponents:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasMultipleDefaultExponents` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NegationMarkerHasMultipleDefaultExponents
+
+  NounPluralMarkerHasMultipleDefaultExponents:
+    variant_of: MarkerPosition
+    description: >-
+      Value of `GrammaticalMarkers::MarkerHasMultipleDefaultExponents` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NounPluralMarkerHasMultipleDefaultExponents
+
+  CaseMarkerBehavior:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerBehavior` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "inert": >-
+        Not spreading, not stacking. Default for non-phrasal elements.
+      "spreading": >-
+        See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology
+        and Syntactic Description (CUP 2007)
+      "stacking": >-
+        See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology
+        and Syntactic Description, (CUP 2007)
+      "final": >-
+        Inert and at the end of its domain (e.g. at the end of the clause for TAM markers,
+        or at the end of the NP for case markers)
+      "initial": >-
+        Inert and at the beginning (first element) of its domain (e.g. at the first
+        element of the clause for TAM markers, or at the beginning of the NP for case
+        markers). Combined with a “post” value in position, a “following” value in
+        Placement, and freedom of hosts, this is a typical Wackernagel clitic.
+      "on head": >-
+        Inert and positioned on the head of its domain: V for TAM, N for case. This
+        is typical for suffixes. Since clitics are typically insensitive to the host
+        category, their placement is regulated by more abstract positions (initial, final,
+        penultimate, pre-initial etc.) rather than the head. “On head” is used only with
+        phrases where the head can vary its position.
+      "on preceding": >-
+        DO NOT USE ANYMORE. If an element precedes its host, e.g. if a case enclitic
+        attaches to the preceding word, this is coded (following Klavans 1985) as
+        placement = preceding and behavior = on head (or spreading or initial or whatever
+        the case may be).
+      "flexible": >-
+        Inert and freely positioned within its domain (ie. position is not defined with
+        respect to H or D but by something else).
+      "lex. positioned": >-
+        Once per phrase; whether on head or dependent is lexically determined. Example:
+        Wemba Wemba dual and plural, which are overt on the noun unless there is a
+        demonstrative pronoun; then it takes the dual or plural form and the noun does
+        not.
+      "on head and final": >-
+        Simultaneously on head and final.
+      "on head and initial": >-
+        Simultaneously on head and initial.
+      "on head or final": >-
+        Data inconclusive because all heads in the grammar happen to be final.
+  # -- end of CaseMarkerBehavior
+
+  TenseMarkerBehavior:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerBehavior` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "inert": >-
+        Not spreading, not stacking. Default for non-phrasal elements.
+      "spreading": >-
+        See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology
+        and Syntactic Description (CUP 2007)
+      "stacking": >-
+        See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology
+        and Syntactic Description, (CUP 2007)
+      "final": >-
+        Inert and at the end of its domain (e.g. at the end of the clause for TAM markers,
+        or at the end of the NP for case markers)
+      "initial": >-
+        Inert and at the beginning (first element) of its domain (e.g. at the first
+        element of the clause for TAM markers, or at the beginning of the NP for case
+        markers). Combined with a “post” value in position, a “following” value in
+        Placement, and freedom of hosts, this is a typical Wackernagel clitic.
+      "on head": >-
+        Inert and positioned on the head of its domain: V for TAM, N for case. This
+        is typical for suffixes. Since clitics are typically insensitive to the host
+        category, their placement is regulated by more abstract positions (initial, final,
+        penultimate, pre-initial etc.) rather than the head. “On head” is used only with
+        phrases where the head can vary its position.
+      "on preceding": >-
+        DO NOT USE ANYMORE. If an element precedes its host, e.g. if a case enclitic
+        attaches to the preceding word, this is coded (following Klavans 1985) as
+        placement = preceding and behavior = on head (or spreading or initial or whatever
+        the case may be).
+      "flexible": >-
+        Inert and freely positioned within its domain (ie. position is not defined with
+        respect to H or D but by something else).
+      "lex. positioned": >-
+        Once per phrase; whether on head or dependent is lexically determined. Example:
+        Wemba Wemba dual and plural, which are overt on the noun unless there is a
+        demonstrative pronoun; then it takes the dual or plural form and the noun does
+        not.
+      "on head and final": >-
+        Simultaneously on head and final.
+      "on head and initial": >-
+        Simultaneously on head and initial.
+      "on head or final": >-
+        Data inconclusive because all heads in the grammar happen to be final.
+  # -- end of TenseMarkerBehavior
+
+  NegationMarkerBehavior:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerBehavior` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "inert": >-
+        Not spreading, not stacking. Default for non-phrasal elements.
+      "spreading": >-
+        See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology
+        and Syntactic Description (CUP 2007)
+      "stacking": >-
+        See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology
+        and Syntactic Description, (CUP 2007)
+      "final": >-
+        Inert and at the end of its domain (e.g. at the end of the clause for TAM markers,
+        or at the end of the NP for case markers)
+      "initial": >-
+        Inert and at the beginning (first element) of its domain (e.g. at the first
+        element of the clause for TAM markers, or at the beginning of the NP for case
+        markers). Combined with a “post” value in position, a “following” value in
+        Placement, and freedom of hosts, this is a typical Wackernagel clitic.
+      "on head": >-
+        Inert and positioned on the head of its domain: V for TAM, N for case. This
+        is typical for suffixes. Since clitics are typically insensitive to the host
+        category, their placement is regulated by more abstract positions (initial, final,
+        penultimate, pre-initial etc.) rather than the head. “On head” is used only with
+        phrases where the head can vary its position.
+      "on preceding": >-
+        DO NOT USE ANYMORE. If an element precedes its host, e.g. if a case enclitic
+        attaches to the preceding word, this is coded (following Klavans 1985) as
+        placement = preceding and behavior = on head (or spreading or initial or whatever
+        the case may be).
+      "flexible": >-
+        Inert and freely positioned within its domain (ie. position is not defined with
+        respect to H or D but by something else).
+      "lex. positioned": >-
+        Once per phrase; whether on head or dependent is lexically determined. Example:
+        Wemba Wemba dual and plural, which are overt on the noun unless there is a
+        demonstrative pronoun; then it takes the dual or plural form and the noun does
+        not.
+      "on head and final": >-
+        Simultaneously on head and final.
+      "on head and initial": >-
+        Simultaneously on head and initial.
+      "on head or final": >-
+        Data inconclusive because all heads in the grammar happen to be final.
+  # -- end of NegationMarkerBehavior
+
+  NounPluralMarkerBehavior:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerBehavior` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+    values: 
+      "inert": >-
+        Not spreading, not stacking. Default for non-phrasal elements.
+      "spreading": >-
+        See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology
+        and Syntactic Description (CUP 2007)
+      "stacking": >-
+        See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology
+        and Syntactic Description, (CUP 2007)
+      "final": >-
+        Inert and at the end of its domain (e.g. at the end of the clause for TAM markers,
+        or at the end of the NP for case markers)
+      "initial": >-
+        Inert and at the beginning (first element) of its domain (e.g. at the first
+        element of the clause for TAM markers, or at the beginning of the NP for case
+        markers). Combined with a “post” value in position, a “following” value in
+        Placement, and freedom of hosts, this is a typical Wackernagel clitic.
+      "on head": >-
+        Inert and positioned on the head of its domain: V for TAM, N for case. This
+        is typical for suffixes. Since clitics are typically insensitive to the host
+        category, their placement is regulated by more abstract positions (initial, final,
+        penultimate, pre-initial etc.) rather than the head. “On head” is used only with
+        phrases where the head can vary its position.
+      "on preceding": >-
+        DO NOT USE ANYMORE. If an element precedes its host, e.g. if a case enclitic
+        attaches to the preceding word, this is coded (following Klavans 1985) as
+        placement = preceding and behavior = on head (or spreading or initial or whatever
+        the case may be).
+      "flexible": >-
+        Inert and freely positioned within its domain (ie. position is not defined with
+        respect to H or D but by something else).
+      "lex. positioned": >-
+        Once per phrase; whether on head or dependent is lexically determined. Example:
+        Wemba Wemba dual and plural, which are overt on the noun unless there is a
+        demonstrative pronoun; then it takes the dual or plural form and the noun does
+        not.
+      "on head and final": >-
+        Simultaneously on head and final.
+      "on head and initial": >-
+        Simultaneously on head and initial.
+      "on head or final": >-
+        Data inconclusive because all heads in the grammar happen to be final.
+  # -- end of NounPluralMarkerBehavior
+
+  CaseMarkerBehaviorBinned4:
+    variant_of: MarkerBehavior
+    description: >-
+      Value of `GrammaticalMarkers::MarkerBehaviorBinned4` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+  # -- end of CaseMarkerBehaviorBinned4
+
+  TenseMarkerBehaviorBinned4:
+    variant_of: MarkerBehavior
+    description: >-
+      Value of `GrammaticalMarkers::MarkerBehaviorBinned4` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+  # -- end of TenseMarkerBehaviorBinned4
+
+  NegationMarkerBehaviorBinned4:
+    variant_of: MarkerBehavior
+    description: >-
+      Value of `GrammaticalMarkers::MarkerBehaviorBinned4` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+  # -- end of NegationMarkerBehaviorBinned4
+
+  NounPluralMarkerBehaviorBinned4:
+    variant_of: MarkerBehavior
+    description: >-
+      Value of `GrammaticalMarkers::MarkerBehaviorBinned4` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: value-list
+  # -- end of NounPluralMarkerBehaviorBinned4
+
+  CaseMarkerBehaviorIsSpreading:
+    variant_of: MarkerBehavior
+    description: >-
+      Value of `GrammaticalMarkers::MarkerBehaviorIsSpreading` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of CaseMarkerBehaviorIsSpreading
+
+  TenseMarkerBehaviorIsSpreading:
+    variant_of: MarkerBehavior
+    description: >-
+      Value of `GrammaticalMarkers::MarkerBehaviorIsSpreading` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of TenseMarkerBehaviorIsSpreading
+
+  NegationMarkerBehaviorIsSpreading:
+    variant_of: MarkerBehavior
+    description: >-
+      Value of `GrammaticalMarkers::MarkerBehaviorIsSpreading` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NegationMarkerBehaviorIsSpreading
+
+  NounPluralMarkerBehaviorIsSpreading:
+    variant_of: MarkerBehavior
+    description: >-
+      Value of `GrammaticalMarkers::MarkerBehaviorIsSpreading` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: logical
+  # -- end of NounPluralMarkerBehaviorIsSpreading
+
+  CaseMarkerExpressedCategoriesCount:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerExpressedCategoriesCount` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: integer
+  # -- end of CaseMarkerExpressedCategoriesCount
+
+  TenseMarkerExpressedCategoriesCount:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerExpressedCategoriesCount` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: integer
+  # -- end of TenseMarkerExpressedCategoriesCount
+
+  NegationMarkerExpressedCategoriesCount:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerExpressedCategoriesCount` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: integer
+  # -- end of NegationMarkerExpressedCategoriesCount
+
+  NounPluralMarkerExpressedCategoriesCount:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerExpressedCategoriesCount` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: integer
+  # -- end of NounPluralMarkerExpressedCategoriesCount
+
+  CaseMarkerExpressesMultipleCategories:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerExpressesMultipleCategories` for exemplar "Case"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: integer
+  # -- end of CaseMarkerExpressesMultipleCategories
+
+  TenseMarkerExpressesMultipleCategories:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerExpressesMultipleCategories` for exemplar "Tense"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: integer
+  # -- end of TenseMarkerExpressesMultipleCategories
+
+  NegationMarkerExpressesMultipleCategories:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerExpressesMultipleCategories` for exemplar "Negation"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: integer
+  # -- end of NegationMarkerExpressesMultipleCategories
+
+  NounPluralMarkerExpressesMultipleCategories:
+    description: >-
+      Value of `GrammaticalMarkers::MarkerExpressesMultipleCategories` for exemplar "Noun Plural"
+    kind: computed data (aggregation-scripts/GrammaticalMarkers.R)
+    data: integer
+  # -- end of NounPluralMarkerExpressesMultipleCategories

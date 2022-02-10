@@ -1,0 +1,367 @@
+description: >-
+  Basic and alternative word orders at the clause level.
+kind: manual data entry
+data: table
+counts:
+  n_languages: 669
+  n_variables: 26
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      Language name
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  WordOrderAPLex:
+    description: >-
+      Relative order of A and O, or mixed (allowing both)
+    kind: manual data entry
+    data: value-list
+    values: 
+      "AOV": >-
+        AOV
+      "OAV": >-
+        OAV
+      "AVO": >-
+        AVO
+      "OVA": >-
+        OVA
+      "VAO": >-
+        VAO
+      "VOA": >-
+        VOA
+      "xxV": >-
+        xxV
+      "xVx": >-
+        xVx
+      "Vxx": >-
+        Vxx
+      "free": >-
+        free
+      "V-2": >-
+        V-2
+      "SV": >-
+        SV
+      "VS": >-
+        VS
+      "mixed": >-
+        mixed
+  # -- end of WordOrderAPLex
+
+  WordOrderAPVLexFlexible:
+    description: >-
+      Flexible (structurally conditioned) vs. rigid word order of lexical arguments
+    kind: manual data entry
+    data: string
+  # -- end of WordOrderAPVLexFlexible
+
+  VFinalLex:
+    description: >-
+      Verb-final vs. other word order vs. mixed (allowing both)
+    kind: manual data entry
+    data: string
+  # -- end of VFinalLex
+
+  VFinalOrFreeLex:
+    description: >-
+      Verb-final or free word order vs. other vs. mixed (allowing both)
+    kind: manual data entry
+    data: string
+  # -- end of VFinalOrFreeLex
+
+  VInitialLex:
+    description: >-
+      Verb-initial vs. other word order vs. mixed (allowing both)
+    kind: manual data entry
+    data: string
+  # -- end of VInitialLex
+
+  VMedialLex:
+    description: >-
+      Verb-medial vs. other word order vs. mixed (allowing both)
+    kind: manual data entry
+    data: string
+  # -- end of VMedialLex
+
+  WordOrderAPVBasicLex:
+    description: >-
+      Basic order of lexical A, O and V (labelled S, O, V for backward compatibility)
+    kind: manual data entry
+    data: value-list
+    values: 
+      "AOV": >-
+        AOV
+      "OAV": >-
+        OAV
+      "AVO": >-
+        AVO
+      "OVA": >-
+        OVA
+      "VAO": >-
+        VAO
+      "VOA": >-
+        VOA
+      "xxV": >-
+        xxV
+      "xVx": >-
+        xVx
+      "Vxx": >-
+        Vxx
+      "free": >-
+        free
+      "V-2": >-
+        V-2
+      "SV": >-
+        SV
+      "VS": >-
+        VS
+      "mixed": >-
+        mixed
+  # -- end of WordOrderAPVBasicLex
+
+  WordOrderSVBasicLex:
+    description: >-
+      Basic order of lexical S and V
+    kind: manual data entry
+    data: value-list
+    values: 
+      "dep-head": >-
+        dep-head
+      "head-dep": >-
+        head-dep
+      "variable": >-
+        variable
+  # -- end of WordOrderSVBasicLex
+
+  WordOrderAPBasicLex:
+    description: >-
+      Basic order of lexical A and O
+    kind: manual data entry
+    data: value-list
+    values: 
+      "AO": >-
+        AO
+      "OA": >-
+        OA
+  # -- end of WordOrderAPBasicLex
+
+  WordOrderAVBasicLex:
+    description: >-
+      Basic order of lexical A and V
+    kind: manual data entry
+    data: value-list
+    values: 
+      "dep-head": >-
+        dep-head
+      "head-dep": >-
+        head-dep
+      "variable": >-
+        variable
+  # -- end of WordOrderAVBasicLex
+
+  WordOrderPVBasicLex:
+    description: >-
+      Basic order of lexical O and V
+    kind: manual data entry
+    data: value-list
+    values: 
+      "dep-head": >-
+        dep-head
+      "head-dep": >-
+        head-dep
+      "variable": >-
+        variable
+  # -- end of WordOrderPVBasicLex
+
+  PositionVBasicLex:
+    description: >-
+      Basic position of V in clauses with pronominal A and O
+    kind: manual data entry
+    data: value-list
+    values: 
+      "V=1": >-
+        V=1
+      "V=2": >-
+        V=2
+      "V=3": >-
+        V=3
+      "free": >-
+        free
+  # -- end of PositionVBasicLex
+
+  PositionVBasicLexIsFinal:
+    description: >-
+      Basic position of V in clauses with lexical A and O
+    kind: manual data entry
+    data: logical
+  # -- end of PositionVBasicLexIsFinal
+
+  PositionVBasicLexIsFinalFree:
+    description: >-
+      Basic position of V in clauses with lexical A and O
+    kind: manual data entry
+    data: logical
+  # -- end of PositionVBasicLexIsFinalFree
+
+  PositionVBasicLexIsInitial:
+    description: >-
+      Basic position of V in clauses with lexical A and O
+    kind: manual data entry
+    data: logical
+  # -- end of PositionVBasicLexIsInitial
+
+  PositionVBasicLexIsMedial:
+    description: >-
+      Basic position of V in clauses with lexical A and O
+    kind: manual data entry
+    data: logical
+  # -- end of PositionVBasicLexIsMedial
+
+  WordOrderAPVSecondaryLex:
+    description: >-
+      Secondary order of lexical A, O and V (labelled S, O, V for backward compatibility)
+    kind: manual data entry
+    data: value-list
+    values: 
+      "AOV": >-
+        AOV
+      "OAV": >-
+        OAV
+      "AVO": >-
+        AVO
+      "OVA": >-
+        OVA
+      "VAO": >-
+        VAO
+      "VOA": >-
+        VOA
+      "xxV": >-
+        xxV
+      "xVx": >-
+        xVx
+      "Vxx": >-
+        Vxx
+      "free": >-
+        free
+      "V-2": >-
+        V-2
+      "SV": >-
+        SV
+      "VS": >-
+        VS
+      "mixed": >-
+        mixed
+  # -- end of WordOrderAPVSecondaryLex
+
+  WordOrderSVSecondaryLex:
+    description: >-
+      Secondary order of lexical S and V
+    kind: manual data entry
+    data: value-list
+    values: 
+      "dep-head": >-
+        dep-head
+      "head-dep": >-
+        head-dep
+      "variable": >-
+        variable
+  # -- end of WordOrderSVSecondaryLex
+
+  WordOrderAPSecondaryLex:
+    description: >-
+      Secondary order of lexical A and O
+    kind: manual data entry
+    data: value-list
+    values: 
+      "AO": >-
+        AO
+      "OA": >-
+        OA
+  # -- end of WordOrderAPSecondaryLex
+
+  WordOrderAVSecondaryLex:
+    description: >-
+      Secondary order of lexical A and V
+    kind: manual data entry
+    data: value-list
+    values: 
+      "dep-head": >-
+        dep-head
+      "head-dep": >-
+        head-dep
+      "variable": >-
+        variable
+  # -- end of WordOrderAVSecondaryLex
+
+  WordOrderPVSecondaryLex:
+    description: >-
+      Secondary order of lexical O and V
+    kind: manual data entry
+    data: value-list
+    values: 
+      "dep-head": >-
+        dep-head
+      "head-dep": >-
+        head-dep
+      "variable": >-
+        variable
+  # -- end of WordOrderPVSecondaryLex
+
+  PositionVSecondaryLex:
+    description: >-
+      Secondary position of V in clauses with pronominal A and O
+    kind: manual data entry
+    data: value-list
+    values: 
+      "V=1": >-
+        V=1
+      "V=2": >-
+        V=2
+      "V=3": >-
+        V=3
+      "free": >-
+        free
+  # -- end of PositionVSecondaryLex
+
+  PositionVSecondaryLexIsFinal:
+    description: >-
+      Secondary position of V in clauses with lexical A and O
+    kind: manual data entry
+    data: logical
+  # -- end of PositionVSecondaryLexIsFinal
+
+  PositionVSecondaryLexIsFinalFree:
+    description: >-
+      Secondary position of V in clauses with lexical A and O
+    kind: manual data entry
+    data: logical
+  # -- end of PositionVSecondaryLexIsFinalFree
+
+  PositionVSecondaryLexIsInitial:
+    description: >-
+      Secondary position of V in clauses with lexical A and O
+    kind: manual data entry
+    data: logical
+  # -- end of PositionVSecondaryLexIsInitial
+
+  PositionVSecondaryLexIsMedial:
+    description: >-
+      Secondary position of V in clauses with lexical A and O
+    kind: manual data entry
+    data: logical
+  # -- end of PositionVSecondaryLexIsMedial

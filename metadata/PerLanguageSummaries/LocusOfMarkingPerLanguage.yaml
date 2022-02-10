@@ -1,0 +1,1214 @@
+description: >-
+  Locus of marking, aggregated per language
+kind: computed data (aggregation-scripts/LocusOfMarking.R)
+data: table
+counts:
+  n_languages: 330
+  n_variables: 168
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      In this database a language is actually a dialect or variety, in that
+      individual dialects are entered as languages. That is, each language has
+      its own ID number (the 'LID') distinct from that of the pan-dialectal
+      language:e.g. LID 87 German, 1227 Upper Austrian German, 1295 Berlin
+      German, 1310 Zürich German, 2845 Old High German, etc. (The pan-dialectal
+      language is identified as the lowest taxonomic level, the `dialect group',
+      but this information is incomplete in many areas and has not been included
+      in the current release.) The general criterion for a separate language
+      record in the database is that it has a distinct property in at least one
+      of the typological variables that we survey; this may or may not coincide
+      with sociolinguistic criteria.
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  HasHeadMarkingForA:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: logical
+  # -- end of HasHeadMarkingForA
+
+  HasHeadMarkingForP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: logical
+  # -- end of HasHeadMarkingForP
+
+  HasHeadMarkingForPOSS:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: logical
+  # -- end of HasHeadMarkingForPOSS
+
+  HasHeadMarkingForS:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: logical
+  # -- end of HasHeadMarkingForS
+
+  HasHeadMarkingForATTR:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: logical
+  # -- end of HasHeadMarkingForATTR
+
+  HasDependentMarkingForA:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: logical
+  # -- end of HasDependentMarkingForA
+
+  HasDependentMarkingForP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: logical
+  # -- end of HasDependentMarkingForP
+
+  HasDependentMarkingForPOSS:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: logical
+  # -- end of HasDependentMarkingForPOSS
+
+  HasDependentMarkingForS:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: logical
+  # -- end of HasDependentMarkingForS
+
+  HasDependentMarkingForATTR:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: logical
+  # -- end of HasDependentMarkingForATTR
+
+  HasHeadMarkingForSAndA:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: logical
+  # -- end of HasHeadMarkingForSAndA
+
+  HasHeadMarkingForSOrA:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: logical
+  # -- end of HasHeadMarkingForSOrA
+
+  HasHeadMarkingForAAndP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: logical
+  # -- end of HasHeadMarkingForAAndP
+
+  HasHeadMarkingForAOrP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: logical
+  # -- end of HasHeadMarkingForAOrP
+
+  HasDependentMarkingForSAndA:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: logical
+  # -- end of HasDependentMarkingForSAndA
+
+  HasDependentMarkingForSOrA:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: logical
+  # -- end of HasDependentMarkingForSOrA
+
+  HasDependentMarkingForAAndP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: logical
+  # -- end of HasDependentMarkingForAAndP
+
+  HasDependentMarkingForAOrP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: logical
+  # -- end of HasDependentMarkingForAOrP
+
+  LocusOfMarkingForUStim:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForUStim
+
+  LocusOfMarkingForADefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForADefault
+
+  LocusOfMarkingForSDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForSDefault
+
+  LocusOfMarkingForAct:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForAct
+
+  LocusOfMarkingForUDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForUDefault
+
+  LocusOfMarkingForSDefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForSDefaultIfOther
+
+  LocusOfMarkingForAExp:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForAExp
+
+  LocusOfMarkingForAAnim:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForAAnim
+
+  LocusOfMarkingForTDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForTDefault
+
+  LocusOfMarkingForBDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForBDefault
+
+  LocusOfMarkingForGDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForGDefault
+
+  LocusOfMarkingForPat:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForPat
+
+  LocusOfMarkingForUEmp:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForUEmp
+
+  LocusOfMarkingForUDef:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForUDef
+
+  LocusOfMarkingForTDef:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForTDef
+
+  LocusOfMarkingForTEmp:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForTEmp
+
+  LocusOfMarkingForUDefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForUDefaultIfOther
+
+  LocusOfMarkingForBRec:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForBRec
+
+  LocusOfMarkingForBBen:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForBBen
+
+  LocusOfMarkingForLocative:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForLocative
+
+  LocusOfMarkingForIDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForIDefault
+
+  LocusOfMarkingForAPoss:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForAPoss
+
+  LocusOfMarkingForURef:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForURef
+
+  LocusOfMarkingForPOSSDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForPOSSDefault
+
+  LocusOfMarkingForATTRDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForATTRDefault
+
+  LocusOfMarkingForPOSSDefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForPOSSDefaultIfOther
+
+  LocusOfMarkingForPOSSDefaultIfN:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForPOSSDefaultIfN
+
+  LocusOfMarkingForPOSSDefaultIfNAlien:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForPOSSDefaultIfNAlien
+
+  LocusOfMarkingForPOSSDefaultIfPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForPOSSDefaultIfPro
+
+  LocusOfMarkingForATTRDefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForATTRDefaultIfOther
+
+  LocusOfMarkingForSDefaultIfPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForSDefaultIfPro
+
+  LocusOfMarkingForADefaultIfPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForADefaultIfPro
+
+  LocusOfMarkingForUDefaultIfPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForUDefaultIfPro
+
+  LocusOfMarkingForPOSSDefaultIfNInal:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForPOSSDefaultIfNInal
+
+  LocusOfMarkingForSDefaultIfNOrPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForSDefaultIfNOrPro
+
+  LocusOfMarkingForADefaultIfNOrPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForADefaultIfNOrPro
+
+  LocusOfMarkingForPOSSDefaultIfNOrPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForPOSSDefaultIfNOrPro
+
+  LocusOfMarkingForBDefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForBDefaultIfOther
+
+  LocusOfMarkingForTDefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForTDefaultIfOther
+
+  LocusOfMarkingForADefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForADefaultIfOther
+
+  LocusOfMarkingForBDefaultIfPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForBDefaultIfPro
+
+  LocusOfMarkingForUDefaultIfSAP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForUDefaultIfSAP
+
+  LocusOfMarkingForPOSSDefaultIf1PERS:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForPOSSDefaultIf1PERS
+
+  LocusOfMarkingForSDefaultIfSAP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForSDefaultIfSAP
+
+  LocusOfMarkingForADefaultIfSAP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForADefaultIfSAP
+
+  LocusOfMarkingForUDefaultIf1PERS:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForUDefaultIf1PERS
+
+  LocusOfMarkingForPOSSDefaultIfNKin:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForPOSSDefaultIfNKin
+
+  LocusOfMarkingForUDefaultIfN:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForUDefaultIfN
+
+  LocusOfMarkingForUDefaultIfNAnim:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForUDefaultIfNAnim
+
+  LocusOfMarkingForADefaultIfN:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingForADefaultIfN
+
+  LocusOfMarkingBinned5ForUStim:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForUStim
+
+  LocusOfMarkingBinned5ForADefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForADefault
+
+  LocusOfMarkingBinned5ForSDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForSDefault
+
+  LocusOfMarkingBinned5ForAct:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForAct
+
+  LocusOfMarkingBinned5ForUDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForUDefault
+
+  LocusOfMarkingBinned5ForSDefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForSDefaultIfOther
+
+  LocusOfMarkingBinned5ForAExp:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForAExp
+
+  LocusOfMarkingBinned5ForAAnim:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForAAnim
+
+  LocusOfMarkingBinned5ForTDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForTDefault
+
+  LocusOfMarkingBinned5ForBDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForBDefault
+
+  LocusOfMarkingBinned5ForGDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForGDefault
+
+  LocusOfMarkingBinned5ForPat:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForPat
+
+  LocusOfMarkingBinned5ForUEmp:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForUEmp
+
+  LocusOfMarkingBinned5ForUDef:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForUDef
+
+  LocusOfMarkingBinned5ForTDef:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForTDef
+
+  LocusOfMarkingBinned5ForTEmp:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForTEmp
+
+  LocusOfMarkingBinned5ForUDefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForUDefaultIfOther
+
+  LocusOfMarkingBinned5ForBRec:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForBRec
+
+  LocusOfMarkingBinned5ForBBen:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForBBen
+
+  LocusOfMarkingBinned5ForLocative:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForLocative
+
+  LocusOfMarkingBinned5ForIDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForIDefault
+
+  LocusOfMarkingBinned5ForAPoss:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForAPoss
+
+  LocusOfMarkingBinned5ForURef:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForURef
+
+  LocusOfMarkingBinned5ForPOSSDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForPOSSDefault
+
+  LocusOfMarkingBinned5ForATTRDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForATTRDefault
+
+  LocusOfMarkingBinned5ForPOSSDefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForPOSSDefaultIfOther
+
+  LocusOfMarkingBinned5ForPOSSDefaultIfN:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForPOSSDefaultIfN
+
+  LocusOfMarkingBinned5ForPOSSDefaultIfNAlien:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForPOSSDefaultIfNAlien
+
+  LocusOfMarkingBinned5ForPOSSDefaultIfPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForPOSSDefaultIfPro
+
+  LocusOfMarkingBinned5ForATTRDefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForATTRDefaultIfOther
+
+  LocusOfMarkingBinned5ForSDefaultIfPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForSDefaultIfPro
+
+  LocusOfMarkingBinned5ForADefaultIfPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForADefaultIfPro
+
+  LocusOfMarkingBinned5ForUDefaultIfPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForUDefaultIfPro
+
+  LocusOfMarkingBinned5ForPOSSDefaultIfNInal:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForPOSSDefaultIfNInal
+
+  LocusOfMarkingBinned5ForSDefaultIfNOrPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForSDefaultIfNOrPro
+
+  LocusOfMarkingBinned5ForADefaultIfNOrPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForADefaultIfNOrPro
+
+  LocusOfMarkingBinned5ForPOSSDefaultIfNOrPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForPOSSDefaultIfNOrPro
+
+  LocusOfMarkingBinned5ForBDefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForBDefaultIfOther
+
+  LocusOfMarkingBinned5ForTDefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForTDefaultIfOther
+
+  LocusOfMarkingBinned5ForADefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForADefaultIfOther
+
+  LocusOfMarkingBinned5ForBDefaultIfPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForBDefaultIfPro
+
+  LocusOfMarkingBinned5ForUDefaultIfSAP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForUDefaultIfSAP
+
+  LocusOfMarkingBinned5ForPOSSDefaultIf1PERS:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForPOSSDefaultIf1PERS
+
+  LocusOfMarkingBinned5ForSDefaultIfSAP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForSDefaultIfSAP
+
+  LocusOfMarkingBinned5ForADefaultIfSAP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForADefaultIfSAP
+
+  LocusOfMarkingBinned5ForUDefaultIf1PERS:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForUDefaultIf1PERS
+
+  LocusOfMarkingBinned5ForPOSSDefaultIfNKin:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForPOSSDefaultIfNKin
+
+  LocusOfMarkingBinned5ForUDefaultIfN:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForUDefaultIfN
+
+  LocusOfMarkingBinned5ForUDefaultIfNAnim:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForUDefaultIfNAnim
+
+  LocusOfMarkingBinned5ForADefaultIfN:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned5ForADefaultIfN
+
+  LocusOfMarkingBinned6ForUStim:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForUStim
+
+  LocusOfMarkingBinned6ForADefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForADefault
+
+  LocusOfMarkingBinned6ForSDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForSDefault
+
+  LocusOfMarkingBinned6ForAct:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForAct
+
+  LocusOfMarkingBinned6ForUDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForUDefault
+
+  LocusOfMarkingBinned6ForSDefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForSDefaultIfOther
+
+  LocusOfMarkingBinned6ForAExp:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForAExp
+
+  LocusOfMarkingBinned6ForAAnim:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForAAnim
+
+  LocusOfMarkingBinned6ForTDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForTDefault
+
+  LocusOfMarkingBinned6ForBDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForBDefault
+
+  LocusOfMarkingBinned6ForGDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForGDefault
+
+  LocusOfMarkingBinned6ForPat:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForPat
+
+  LocusOfMarkingBinned6ForUEmp:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForUEmp
+
+  LocusOfMarkingBinned6ForUDef:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForUDef
+
+  LocusOfMarkingBinned6ForTDef:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForTDef
+
+  LocusOfMarkingBinned6ForTEmp:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForTEmp
+
+  LocusOfMarkingBinned6ForUDefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForUDefaultIfOther
+
+  LocusOfMarkingBinned6ForBRec:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForBRec
+
+  LocusOfMarkingBinned6ForBBen:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForBBen
+
+  LocusOfMarkingBinned6ForLocative:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForLocative
+
+  LocusOfMarkingBinned6ForIDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForIDefault
+
+  LocusOfMarkingBinned6ForAPoss:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForAPoss
+
+  LocusOfMarkingBinned6ForURef:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForURef
+
+  LocusOfMarkingBinned6ForPOSSDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForPOSSDefault
+
+  LocusOfMarkingBinned6ForATTRDefault:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForATTRDefault
+
+  LocusOfMarkingBinned6ForPOSSDefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForPOSSDefaultIfOther
+
+  LocusOfMarkingBinned6ForPOSSDefaultIfN:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForPOSSDefaultIfN
+
+  LocusOfMarkingBinned6ForPOSSDefaultIfNAlien:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForPOSSDefaultIfNAlien
+
+  LocusOfMarkingBinned6ForPOSSDefaultIfPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForPOSSDefaultIfPro
+
+  LocusOfMarkingBinned6ForATTRDefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForATTRDefaultIfOther
+
+  LocusOfMarkingBinned6ForSDefaultIfPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForSDefaultIfPro
+
+  LocusOfMarkingBinned6ForADefaultIfPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForADefaultIfPro
+
+  LocusOfMarkingBinned6ForUDefaultIfPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForUDefaultIfPro
+
+  LocusOfMarkingBinned6ForPOSSDefaultIfNInal:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForPOSSDefaultIfNInal
+
+  LocusOfMarkingBinned6ForSDefaultIfNOrPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForSDefaultIfNOrPro
+
+  LocusOfMarkingBinned6ForADefaultIfNOrPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForADefaultIfNOrPro
+
+  LocusOfMarkingBinned6ForPOSSDefaultIfNOrPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForPOSSDefaultIfNOrPro
+
+  LocusOfMarkingBinned6ForBDefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForBDefaultIfOther
+
+  LocusOfMarkingBinned6ForTDefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForTDefaultIfOther
+
+  LocusOfMarkingBinned6ForADefaultIfOther:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForADefaultIfOther
+
+  LocusOfMarkingBinned6ForBDefaultIfPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForBDefaultIfPro
+
+  LocusOfMarkingBinned6ForUDefaultIfSAP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForUDefaultIfSAP
+
+  LocusOfMarkingBinned6ForPOSSDefaultIf1PERS:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForPOSSDefaultIf1PERS
+
+  LocusOfMarkingBinned6ForSDefaultIfSAP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForSDefaultIfSAP
+
+  LocusOfMarkingBinned6ForADefaultIfSAP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForADefaultIfSAP
+
+  LocusOfMarkingBinned6ForUDefaultIf1PERS:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForUDefaultIf1PERS
+
+  LocusOfMarkingBinned6ForPOSSDefaultIfNKin:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForPOSSDefaultIfNKin
+
+  LocusOfMarkingBinned6ForUDefaultIfN:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForUDefaultIfN
+
+  LocusOfMarkingBinned6ForUDefaultIfNAnim:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForUDefaultIfNAnim
+
+  LocusOfMarkingBinned6ForADefaultIfN:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/LocusOfMarking.R)
+    data: value-list
+  # -- end of LocusOfMarkingBinned6ForADefaultIfN

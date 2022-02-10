@@ -1,0 +1,279 @@
+[
+  {
+    "SyntacticRole": "A-default",
+    "SyntacticMacrorole": "A",
+    "Definition": "Most agentive argument of (di)transitive verb. Includes experiencers as long as they are coded in the same way as agents. If they are coded like patients, they are treated as ‘A-exp’ here."
+  },
+  {
+    "SyntacticRole": "U-default",
+    "SyntacticMacrorole": "P",
+    "Definition": "Most patientive argument of monotransitive verb. Includes  ‘contents/stimuli’ as long as they are coded in the same way as patients. If they are coded like agents, they are treated as ‘C’ here"
+  },
+  {
+    "SyntacticRole": "S-default",
+    "SyntacticMacrorole": "S",
+    "Definition": "Single argument of intransitive verb"
+  },
+  {
+    "SyntacticRole": "Pat",
+    "SyntacticMacrorole": "P",
+    "Definition": "Patientive argument irrespective of transitivity. Typical in active/stative systems, but often grammaticalized to a degree where ‘agentivity’ or ‘control’ do no longer predict the distribution of the role."
+  },
+  {
+    "SyntacticRole": "T-default",
+    "SyntacticMacrorole": "P",
+    "Definition": "Theme argument of ditransitives; corresponds to ‘secondary object’ in a language that conflates U and G."
+  },
+  {
+    "SyntacticRole": "B-default",
+    "SyntacticMacrorole": "P",
+    "Definition": "beneficiary, goal, recipient argument of ditransitives; corresponds to ‘indirect object’ in a language that conflates U and T."
+  },
+  {
+    "SyntacticRole": "A-exp",
+    "SyntacticMacrorole": "A",
+    "Definition": "Experiencers that behave like A but not entirely. Since this is a form class concept, it includes arguments that are ‘obliged’ in an obligation construction and possessors in dative possessor constructions (subspecies of A-obl). An experiencer is an A-exp only if it is thematically/topically more prominent than the stimulus; otherwise it is a plain Patient."
+  },
+  {
+    "SyntacticRole": "U-def",
+    "SyntacticMacrorole": "P",
+    "Definition": "Definite U. Good example: accusative marked Turkish direct objects"
+  },
+  {
+    "SyntacticRole": "T-def",
+    "SyntacticMacrorole": "P",
+    "Definition": "Definite T. Good example: accusative marked Turkish direct objects"
+  },
+  {
+    "SyntacticRole": "U-emp",
+    "SyntacticMacrorole": "P",
+    "Definition": "U with high empathy/animacy. Good example: Spanish a, Indo-Iranian datives"
+  },
+  {
+    "SyntacticRole": "T-emp",
+    "SyntacticMacrorole": "P",
+    "Definition": "U with high empathy/animacy. Good example: Spanish a, Indo-Iranian datives"
+  },
+  {
+    "SyntacticRole": "A-anim",
+    "SyntacticMacrorole": "A",
+    "Definition": "Transitive actors that are animate"
+  },
+  {
+    "SyntacticRole": "G-default",
+    "SyntacticMacrorole": "P",
+    "Definition": "Goal of motion verbs"
+  },
+  {
+    "SyntacticRole": "<any>",
+    "Definition": "any role depending on the syntactic environment"
+  },
+  {
+    "SyntacticRole": "S-d",
+    "SyntacticMacrorole": "S",
+    "Definition": "Single argument in intransitives that are derived from transitives through (anti)passives and other detransitivizing morpholexical operations (only if the language makes a distinction between derived and non-derived S)"
+  },
+  {
+    "SyntacticRole": "U-stim",
+    "SyntacticMacrorole": "P",
+    "Definition": "stimuli that mostly but not entirely behave like the most patientive argument of transitive verbs"
+  },
+  {
+    "SyntacticRole": "Act",
+    "SyntacticMacrorole": "A",
+    "Definition": "volitional, agentive actors irrespective of transitivity. Typical in active/stative systems, but often grammaticalized to a degree where ‘agentivity’ or ‘control’ do no longer predict the distribution of the role."
+  },
+  {
+    "SyntacticRole": "core",
+    "Definition": "any of S, A or U arguments"
+  },
+  {
+    "SyntacticRole": "oblique",
+    "Definition": "general oblique"
+  },
+  {
+    "SyntacticRole": "O-adp",
+    "Definition": "object of adposition"
+  },
+  {
+    "SyntacticRole": "A-pro",
+    "SyntacticMacrorole": "A",
+    "Definition": "Pronominal A’s, including demonstratives. If the distinction is between personal pronouns and everything else it is more likely to have to with empathy (‘A-emp’)"
+  },
+  {
+    "SyntacticRole": "U-com",
+    "SyntacticMacrorole": "P",
+    "Definition": "comitative object of applicative"
+  },
+  {
+    "SyntacticRole": "U-loc",
+    "SyntacticMacrorole": "P",
+    "Definition": "locative object of applicative"
+  },
+  {
+    "SyntacticRole": "U-circ",
+    "SyntacticMacrorole": "P",
+    "Definition": "circumstantial object of applicative"
+  },
+  {
+    "SyntacticRole": "U-instr",
+    "SyntacticMacrorole": "P",
+    "Definition": "instrumental object of applicative"
+  },
+  {
+    "SyntacticRole": "U-nom",
+    "SyntacticMacrorole": "P",
+    "Definition": "U in the nominative, unmarked case"
+  },
+  {
+    "SyntacticRole": "A-nom",
+    "SyntacticMacrorole": "A",
+    "Definition": "A in the nominative, unmarked case"
+  },
+  {
+    "SyntacticRole": "T-nom",
+    "SyntacticMacrorole": "P",
+    "Definition": "T in the nominative, unmarked case"
+  },
+  {
+    "SyntacticRole": "B-rec",
+    "SyntacticMacrorole": "P",
+    "Definition": "Recipients of ditransitives if formally distinct from beneficiaries and goals"
+  },
+  {
+    "SyntacticRole": "locative",
+    "Definition": "locative"
+  },
+  {
+    "SyntacticRole": "I-default",
+    "Definition": "Instrument"
+  },
+  {
+    "SyntacticRole": "B-ben",
+    "SyntacticMacrorole": "P",
+    "Definition": "Recipients of ditransitives if formally distinct from recipients and goals"
+  },
+  {
+    "SyntacticRole": "A-poss",
+    "SyntacticMacrorole": "A",
+    "Definition": "Possessor (in clause construction translatable with ‘have’)."
+  },
+  {
+    "SyntacticRole": "A>U",
+    "SyntacticMacrorole": "A",
+    "Definition": "roles marked simultaneously; A acts on U; typical in inverse markers"
+  },
+  {
+    "SyntacticRole": "POSS-default",
+    "SyntacticMacrorole": "POSS",
+    "Definition": "Possessor: all genitival relations in an NP. Note: if a POSS marker  is sused for indicating experience beyond literal possession (e.g. my-thirst/my-love is.there vs. literal my-leg/my-heart hurts) note this as A-exp (if with bivalent predicate) or as S-exp (if with a monovalent predicate)"
+  },
+  {
+    "SyntacticRole": "S-exp",
+    "SyntacticMacrorole": "S",
+    "Definition": "Experiencers that mostly behave like S but not entirely"
+  },
+  {
+    "SyntacticRole": "E-default",
+    "SyntacticMacrorole": "A",
+    "Definition": "Experiencer. Only if covering ALL experiencers as distinct from A’s. If only some experiencers are covered, the others being coded like agentive A’s, then this is coded as ‘A-exp’"
+  },
+  {
+    "SyntacticRole": "U-ref",
+    "SyntacticMacrorole": "P",
+    "Definition": "Referential object,i.e. all arguments except those that refer to generic kinds"
+  },
+  {
+    "SyntacticRole": "U-pro",
+    "SyntacticMacrorole": "P",
+    "Definition": "Incorporated pronoun (can’t co-occur with co-referential overt object NP in the same clause)."
+  },
+  {
+    "SyntacticRole": "U-gener",
+    "SyntacticMacrorole": "P",
+    "Definition": "Nonspecific U"
+  },
+  {
+    "SyntacticRole": "ATTR-default",
+    "SyntacticMacrorole": "ATTR",
+    "Definition": "The relation borne by attributive adjectives."
+  },
+  {
+    "SyntacticRole": "ARG-nom",
+    "Definition": "any argument in the unmarked (nominative) case."
+  },
+  {
+    "SyntacticRole": "S-nom",
+    "SyntacticMacrorole": "S",
+    "Definition": "S in the unmarked (nominative) case"
+  },
+  {
+    "SyntacticRole": "AFF",
+    "Definition": "‘Affected’ non-argumental participant, e.g. ethical datives, ascended possessors etc."
+  },
+  {
+    "SyntacticRole": "U-disamb",
+    "SyntacticMacrorole": "P",
+    "Definition": "U in the presence of an unmarked A; if the A is case-marked, U is not also case-marked. Example: Rapanui Accusative"
+  },
+  {
+    "SyntacticRole": "POSS-def",
+    "SyntacticMacrorole": "POSS",
+    "Definition": "possessor with specific reference"
+  },
+  {
+    "SyntacticRole": "U-spec.anim",
+    "SyntacticMacrorole": "P",
+    "Definition": "U with both specific and animate reference"
+  },
+  {
+    "SyntacticRole": "PRED.N",
+    "Definition": "Predicate nouns"
+  },
+  {
+    "SyntacticRole": "U-spec",
+    "SyntacticMacrorole": "P",
+    "Definition": "U with specific reference"
+  },
+  {
+    "SyntacticRole": "B-spec",
+    "SyntacticMacrorole": "P",
+    "Definition": "B with specific reference"
+  },
+  {
+    "SyntacticRole": "S-oblig",
+    "SyntacticMacrorole": "S",
+    "Definition": "S in obligative constructions (Russ. emu [nado] skazat’; Kewa ‘his says’ = ‘it’s up to him to say’)"
+  },
+  {
+    "SyntacticRole": "B-def",
+    "SyntacticMacrorole": "P",
+    "Definition": "B with definite reference"
+  },
+  {
+    "SyntacticRole": "Temporal",
+    "Definition": "time circumstance"
+  },
+  {
+    "SyntacticRole": "U-ref.human",
+    "SyntacticMacrorole": "P",
+    "Definition": "U with human reference"
+  },
+  {
+    "SyntacticRole": "COMP",
+    "Definition": "Standard of comparison"
+  },
+  {
+    "SyntacticRole": "B-gen",
+    "SyntacticMacrorole": "P",
+    "Definition": "B in a possessor-denoting case (genitive)"
+  },
+  {
+    "SyntacticRole": "COM",
+    "Definition": "comitative (e.g. a verb agreement role in Abkhaz)"
+  },
+  {
+    "SyntacticRole": "U/B-default",
+    "Definition": "the same marker used for both patients/undergoes of transitives and beneficiary, goal, recipient argument of ditransitives;"
+  }
+]

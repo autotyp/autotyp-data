@@ -1,0 +1,64 @@
+SemanticClass,SemanticClassBinned,Definition
+default,formal,"the default semantics of a construction, used most frequently, the non-default variation (e.g. a partitive reading with some less common case frames is coded separately)"
+alienable,formal,called “alienable” in a grammar with no further semantic specification; or the less nearly head-marked of two overt classes even if there is no account of their semantics.
+inalienable,formal,called “inalienable” in a grammar with no further semantic characterization; or the more nearly head-marked or bound of two overt classes even if there is no account of their semantics.
+neutral,neutral,No alienability (alienable/inalienable) distinction.
+marked alienable,formal,The alienable member of the alienability opposition is overtly marked.
+unmarked inalienable,formal,"The inalienable member of the alienability opposition is formally unmarked.  (Default, if one of the pair is not formally marked.)"
+high-indexability,referentiality,Approximately the same as high-animacy.
+low-indexability,referentiality,Approximately the same as low-animacy.
+<?a>,,"Unknown or unclear semantics. If there is a split according to certain loose semantic features, use this category for more the common pattern, use  <?b> for the other member of the split."
+unknown,,Unknown or unclear semantics.
+fluid,formal,"There is an alienability distinction, but many or most words can be treated either way, with a semantic distinction."
+semantic,,Alienability marking has some compositional effect on the lexical input.
+no mention,,= <?>
+n/a,,N/A
+human,referentiality,The noun denotes a human.
+non-human,referentiality,The noun denotes a non-human.
+animate,referentiality,The noun denotes an animate being.
+inanimate,referentiality,The noun denotes an inanimate entity or concept.
+kin terms,kin,The noun denotes a kin relation.
+body parts,parts,"Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly including (some) body functions, excreta, etc."
+topological,parts,"Spatial relations nouns, locatives etc."
+meronyms,parts,the part in part-whole relations
+property,kinds,"house, furniture"
+animals,kinds,"Animals, wild or domesticated."
+quantificational,formal,Quantifiers
+clothing terms,kinds,"Types and parts of clothing, and generics such as ‘clothing’."
+origin,names,"place names, native land, and the like"
+owner,kinds,"‘master’, ‘owner’ and the like"
+specific,pragmatic,"having specific reference, or so described in grammar.  (Caution:  Probably not always well enough distinguished from Definite.)"
+tracks,kinds,"footprints, etc."
+subsets,parts,"‘group’, ‘part’, and other subsets (other than ones listed elsewhere here)"
+parents/siblings,kin,Only parents and siblings (and not other kin types).
+transportation means,kinds,"E.g. cart, car, scooter, boat, airplane, sled, etc."
+spouse,kin,Only spouse (and not other kin types).
+village group,parts,Any culturally recognized part of a village’s population.
+non-specific,pragmatic,Not having specific reference.  (Caution:  Probably not always well enough distinguished from Indefinite.)
+long-established,pragmatic,The possessive relationshop has its origin in some past event.
+edible,kinds,edible things; food
+drinkable,kinds,drinkable or potable things; beverages
+classifiers,formal,Nouns used as numeral or other classifiers.
+unpossessible,formal,"Nouns that grammatically cannot be possessed (typically, cannot take affixal possessive marking).  (Their referents may but need not be ownable in the real world.)"
+rocks,kinds,"Rocks, stones, gravel, etc."
+plants,kinds,Whole plants and types of plants.  (Plant parts are categorized separately.)
+unspecified inanimate,referentiality,Denotes an inanimate; no further information given
+plant parts,parts,"leaf, bark, root, etc."
+weapon,kinds,"bow, arrow, gun, etc."
+volitional,referentiality,Human or higher animate; any being having volition.
+definite,pragmatic,Having definite reference.  (Caution: Probably not always well enough distinguished from Specific.)
+indefinite,pragmatic,Having indefinite reference.   (Caution: Probably not always well enough distinguished from Non-Specific.)
+non-volitional,referentiality,"Not human, not higher animate; any being not having volition."
+non-topical,pragmatic,"non-topical, new, not given"
+singular,referentiality,"Having singular reference, and/or grammatically marked as singular."
+indefinite inanimate,pragmatic,introduced for Yidiny
+definite inanimate,pragmatic,introduced for Yidiny
+effector,roles,Having a semantic role such as agent; initiating or bringing about the verbal action.
+<?b>,,unknown/unclear semantics. In opposition to <?a>
+affected,roles,Having a semantic role such as patient; affected or changed by the verbal action.
+unaffected,roles,Having an object-like role but not affected by the verbal action.
+bounded,properties,Bounded in time and space (as in descriptions of Finnish)
+partitive,properties,partitive or unbounded in time and space (as in descriptions of Finnish)
+permanent state,properties,"Permanent state of an individual or entity, e.g. ‘tall’, ‘round’."
+temporary state,properties,"Temporary state of an individual or entity, e.g. ‘hungry’ or ‘cold’."
+name,names,personal names

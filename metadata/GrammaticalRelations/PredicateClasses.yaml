@@ -1,0 +1,113 @@
+description: >-
+  Predicate classes as distinguished by case assignment, agreement and
+  other syntactic patterns. Classes with IDs #1, #2 and #3 are
+  language-independent default (open) classes for intransitive, monotransitive
+  and ditransitive predicates, respectively.
+kind: manual data entry
+data: table
+counts:
+  n_languages: 249
+  n_variables: 6
+fields: 
+  LID:
+    description: >-
+      Unique language ID for the language where this valence class is
+      attested
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      Language name
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  PredicateClassID:
+    description: >-
+      Unique numerical ID of the prdicate class. Classes with IDs #1, #2 and #3
+      are language-independent default (open) classes for intransitive,
+      monotransitive and ditransitive predicates, respectivelly.
+    kind: manual data entry
+    data: integer
+  # -- end of PredicateClassID
+
+  PredicateClassLabel:
+    description: >-
+      Descriptive short label of the predicate class
+    kind: manual data entry
+    data: string
+  # -- end of PredicateClassLabel
+
+  PredicateClassDiscourseFrequency:
+    description: >-
+      A rough estimate of the token frequency class of the predicates for this
+      class
+    kind: manual data entry
+    data: value-list
+    values: 
+      "very frequent": >-
+        This predicate class occurs very frequenty
+      "frequent": >-
+        This predicate class occurs frequenty
+      "infrequent": >-
+        This predicate class occurs rarely
+      "very infrequent": >-
+        This predicate class occurs very rarely
+  # -- end of PredicateClassDiscourseFrequency
+
+  IndividualPredicates:
+    description: >-
+      Description of individual predicates (translation equivalents) that
+      belong to the given predicate class
+    kind: manual data entry
+    data: table
+    fields: 
+      IndividualPredicateID:
+        description: >-
+          Numerical ID of a specific predicate (translation equivalent) in a
+          given predicate class
+        kind: manual data entry
+        data: integer
+      # -- end of IndividualPredicateID
+
+      IndividualPredicateMeaning:
+        description: >-
+          Rough translation of a specific predicate in a given predicate class
+        kind: manual data entry
+        data: comment
+      # -- end of IndividualPredicateMeaning
+
+      IndividualPredicateSemanticClass:
+        description: >-
+          Semantic category of the specific predicate in a given predicate class
+        kind: manual data entry
+        data: string
+      # -- end of IndividualPredicateSemanticClass
+
+      IndividualPredicateMalchukovSemanticClass:
+        description: >-
+          Semantic category of the predicate in a given prediate class, based on
+          Malchukov's taxonomy of semantic classes (Malchukov, A., 2005,
+          Case pattern splits, verb types and construction competition
+          In: Amberber, M. & H. de Hoop [eds], Competition and variation in
+          natural languages: the case for case. Amsterdam: Elsevier)
+        kind: manual data entry
+        data: string
+      # -- end of IndividualPredicateMalchukovSemanticClass
+  # -- end of IndividualPredicates
+
+  PredicateClassDescription:
+    description: >-
+      Description of the predicate class
+    kind: manual data entry
+    data: comment
+  # -- end of PredicateClassDescription

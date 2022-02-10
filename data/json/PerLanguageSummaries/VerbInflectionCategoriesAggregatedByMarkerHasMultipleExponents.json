@@ -1,0 +1,1977 @@
+[
+  {
+    "LID": 35,
+    "Glottocode": "belh1239",
+    "Language": "Belhare",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": true,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForValence": false,
+    "MarkerHasMultipleExponentsForAktionsart": false,
+    "MarkerHasMultipleExponentsForConnective": false,
+    "MarkerHasMultipleExponentsForSemistem": false
+  },
+  {
+    "LID": 107,
+    "Glottocode": "hung1274",
+    "Language": "Hungarian",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForReferential": false,
+    "MarkerHasMultipleExponentsForCausative": false
+  },
+  {
+    "LID": 74,
+    "Glottocode": "stan1293",
+    "Language": "English",
+    "MarkerHasMultipleExponentsForTAM": false
+  },
+  {
+    "LID": 404,
+    "Glottocode": "warl1254",
+    "Language": "Warlpiri"
+  },
+  {
+    "LID": 77,
+    "Glottocode": "fiji1243",
+    "Language": "Fijian (Boumaa)"
+  },
+  {
+    "LID": 374,
+    "Glottocode": "thai1261",
+    "Language": "Thai"
+  },
+  {
+    "LID": 171,
+    "Glottocode": "mand1415",
+    "Language": "Mandarin",
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTM": false
+  },
+  {
+    "LID": 114,
+    "Glottocode": "ingu1240",
+    "Language": "Ingush",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForConnective": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForMSE": false,
+    "MarkerHasMultipleExponentsForQuantificational": false
+  },
+  {
+    "LID": 443,
+    "Glottocode": "koyr1240",
+    "Language": "Songhai (Koyra Chiini)"
+  },
+  {
+    "LID": 421,
+    "Glottocode": "yoru1245",
+    "Language": "Yoruba",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForTA": false,
+    "MarkerHasMultipleExponentsForPotentialis": false
+  },
+  {
+    "LID": 456,
+    "Glottocode": "west2369",
+    "Language": "Persian",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForMA": false
+  },
+  {
+    "LID": 12,
+    "Glottocode": "ainu1240",
+    "Language": "Ainu"
+  },
+  {
+    "LID": 454,
+    "Glottocode": "rama1270",
+    "Language": "Rama"
+  },
+  {
+    "LID": 340,
+    "Glottocode": "russ1263",
+    "Language": "Russian",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTM": false
+  },
+  {
+    "LID": 86,
+    "Glottocode": "nucl1302",
+    "Language": "Georgian",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForVersion": false
+  },
+  {
+    "LID": 226,
+    "Glottocode": "sgaw1245",
+    "Language": "Karen (Sgaw)"
+  },
+  {
+    "LID": 458,
+    "Glottocode": "adyg1241",
+    "Language": "Adyghe (West Circassian)",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForValence": false,
+    "MarkerHasMultipleExponentsForAktionsart": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForIllocution": false
+  },
+  {
+    "LID": 460,
+    "Glottocode": "popt1235",
+    "Language": "Jacaltec",
+    "MarkerHasMultipleExponentsForTAM": false
+  },
+  {
+    "LID": 56,
+    "Glottocode": "chuk1273",
+    "Language": "Chukchi",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForAspect": false
+  },
+  {
+    "LID": 154,
+    "Glottocode": "haka1240",
+    "Language": "Hakka Lai",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForVersion": false,
+    "MarkerHasMultipleExponentsForEvidential": false,
+    "MarkerHasMultipleExponentsForConstruct": false
+  },
+  {
+    "LID": 104,
+    "Glottocode": "hual1241",
+    "Language": "Quechua (Huallaga)",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForEvidential": false,
+    "MarkerHasMultipleExponentsForNominalizer": false
+  },
+  {
+    "LID": 461,
+    "Glottocode": "onei1249",
+    "Language": "Oneida",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForTA": false,
+    "MarkerHasMultipleExponentsForNumber": false
+  },
+  {
+    "LID": 159,
+    "Glottocode": "lang1324",
+    "Language": "Lango"
+  },
+  {
+    "LID": 464,
+    "Glottocode": "mode1248",
+    "Language": "Greek (modern)",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForVoice": false
+  },
+  {
+    "LID": 78,
+    "Glottocode": "finn1318",
+    "Language": "Finnish",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForCausative": false
+  },
+  {
+    "LID": 87,
+    "Glottocode": "stan1295",
+    "Language": "German",
+    "MarkerHasMultipleExponentsForTAM": false
+  },
+  {
+    "LID": 99,
+    "Glottocode": "hind1269",
+    "Language": "Hindi"
+  },
+  {
+    "LID": 118,
+    "Glottocode": "nucl1643",
+    "Language": "Japanese"
+  },
+  {
+    "LID": 465,
+    "Glottocode": "mari1440",
+    "Language": "Maricopa"
+  },
+  {
+    "LID": 48,
+    "Glottocode": "cham1312",
+    "Language": "Chamorro"
+  },
+  {
+    "LID": 348,
+    "Glottocode": "sanu1240",
+    "Language": "Sanuma"
+  },
+  {
+    "LID": 354,
+    "Glottocode": "nort2942",
+    "Language": "Slave"
+  },
+  {
+    "LID": 399,
+    "Glottocode": "wara1303",
+    "Language": "Warao",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForNumber": false
+  },
+  {
+    "LID": 571,
+    "Glottocode": "cent2194",
+    "Language": "Tamazight (Ayt Ndhir)",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false
+  },
+  {
+    "LID": 581,
+    "Glottocode": "zulu1248",
+    "Language": "Zulu",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false,
+    "MarkerHasMultipleExponentsForMTN": false
+  },
+  {
+    "LID": 188,
+    "Glottocode": "halh1238",
+    "Language": "Mongolian (Khalkha)",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForRECIP": false
+  },
+  {
+    "LID": 512,
+    "Glottocode": "apur1254",
+    "Language": "Apurina"
+  },
+  {
+    "LID": 128,
+    "Glottocode": "kaya1319",
+    "Language": "Kayardild"
+  },
+  {
+    "LID": 502,
+    "Glottocode": "nucl1301",
+    "Language": "Turkish"
+  },
+  {
+    "LID": 149,
+    "Glottocode": "goon1238",
+    "Language": "Kuniyanti"
+  },
+  {
+    "LID": 112,
+    "Glottocode": "imon1245",
+    "Language": "Imonda"
+  },
+  {
+    "LID": 515,
+    "Glottocode": "bagi1246",
+    "Language": "Bagirmi",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForIllocution": false
+  },
+  {
+    "LID": 378,
+    "Glottocode": "tiwi1244",
+    "Language": "Tiwi",
+    "MarkerHasMultipleExponentsForTAM": false
+  },
+  {
+    "LID": 179,
+    "Glottocode": "mart1255",
+    "Language": "Martuthunira",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForNumber": false
+  },
+  {
+    "LID": 497,
+    "Glottocode": "supy1237",
+    "Language": "Supyire"
+  },
+  {
+    "LID": 501,
+    "Glottocode": "mani1292",
+    "Language": "Meithei",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForME": false
+  },
+  {
+    "LID": 576,
+    "Glottocode": "wari1268",
+    "Language": "Wari"
+  },
+  {
+    "LID": 463,
+    "Glottocode": "nucl1310",
+    "Language": "Burmese",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForAspect": false
+  },
+  {
+    "LID": 569,
+    "Glottocode": "stan1288",
+    "Language": "Spanish",
+    "MarkerHasMultipleExponentsForTAM": false
+  },
+  {
+    "LID": 79,
+    "Glottocode": "stan1290",
+    "Language": "French (colloquial)",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false
+  },
+  {
+    "LID": 498,
+    "Glottocode": "mezq1235",
+    "Language": "Otomi (Mezquital)",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false,
+    "MarkerHasMultipleExponentsForFocus": false,
+    "MarkerHasMultipleExponentsForRepetition": false
+  },
+  {
+    "LID": 411,
+    "Glottocode": "wasc1239",
+    "Language": "Wishram",
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForApplicative": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false
+  },
+  {
+    "LID": 324,
+    "Glottocode": "east2652",
+    "Language": "Oromo"
+  },
+  {
+    "LID": 526,
+    "Glottocode": "epen1239",
+    "Language": "Epena Pedee",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForNumber": false
+  },
+  {
+    "LID": 356,
+    "Glottocode": "sout2985",
+    "Language": "Miwok (Southern Sierra)",
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForAktionsart": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForRECIP": false,
+    "MarkerHasMultipleExponentsForReflexive": false
+  },
+  {
+    "LID": 527,
+    "Glottocode": "even1259",
+    "Language": "Evenki",
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTM": false,
+    "MarkerHasMultipleExponentsForNumber": false
+  },
+  {
+    "LID": 205,
+    "Glottocode": "nene1249",
+    "Language": "Nenets (Tundra)",
+    "MarkerHasMultipleExponentsForReferential": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForTM": false
+  },
+  {
+    "LID": 7,
+    "Glottocode": "abkh1244",
+    "Language": "Abkhaz",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForAktionsart": false,
+    "MarkerHasMultipleExponentsForSemistem": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForApplicative": false,
+    "MarkerHasMultipleExponentsForIllocution": false,
+    "MarkerHasMultipleExponentsForReflexive": false,
+    "MarkerHasMultipleExponentsForSpatial": false
+  },
+  {
+    "LID": 433,
+    "Glottocode": "gily1242",
+    "Language": "Nivkh",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForValence": false,
+    "MarkerHasMultipleExponentsForTA": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForIllocution": false,
+    "MarkerHasMultipleExponentsForFocus": false
+  },
+  {
+    "LID": 193,
+    "Glottocode": "east2379",
+    "Language": "Mparntwe Arrernte",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTA": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false,
+    "MarkerHasMultipleExponentsForSwitchReference": false,
+    "MarkerHasMultipleExponentsForRepetition": false,
+    "MarkerHasMultipleExponentsForMotion": false,
+    "MarkerHasMultipleExponentsForModality": false
+  },
+  {
+    "LID": 25,
+    "Glottocode": "nucl1235",
+    "Language": "Armenian (Eastern)",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForTM": false
+  },
+  {
+    "LID": 221,
+    "Glottocode": "diga1241",
+    "Language": "Mishmi",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMA": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForEvidential": false
+  },
+  {
+    "LID": 528,
+    "Glottocode": "garo1247",
+    "Language": "Garo",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForTM": false,
+    "MarkerHasMultipleExponentsForQuantificational": false
+  },
+  {
+    "LID": 145,
+    "Glottocode": "darg1241",
+    "Language": "Dargi (Kubachi)",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForSemistem": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForEvidential": false,
+    "MarkerHasMultipleExponentsForDirection": false
+  },
+  {
+    "LID": 355,
+    "Glottocode": "soma1255",
+    "Language": "Somali"
+  },
+  {
+    "LID": 420,
+    "Glottocode": "yima1243",
+    "Language": "Yimas",
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForPosterior": false
+  },
+  {
+    "LID": 481,
+    "Glottocode": "svan1243",
+    "Language": "Svan",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForVersion": false
+  },
+  {
+    "LID": 406,
+    "Glottocode": "wash1253",
+    "Language": "Washo",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForIllocution": false,
+    "MarkerHasMultipleExponentsForEvidential": false
+  },
+  {
+    "LID": 325,
+    "Glottocode": "osse1243",
+    "Language": "Ossetic",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForValence": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 152,
+    "Glottocode": "kwak1269",
+    "Language": "Kwakwala",
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForStatus": false
+  },
+  {
+    "LID": 668,
+    "Glottocode": "yecu1235",
+    "Language": "Totonac (Misantla)",
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForStatus": false
+  },
+  {
+    "LID": 206,
+    "Glottocode": "nepa1254",
+    "Language": "Nepali",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForHonorificity": false
+  },
+  {
+    "LID": 225,
+    "Glottocode": "lahu1253",
+    "Language": "Lahu",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForMA": false,
+    "MarkerHasMultipleExponentsForRECIP": false
+  },
+  {
+    "LID": 722,
+    "Glottocode": "nort2722",
+    "Language": "Qiang (Northern)",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForMA": false,
+    "MarkerHasMultipleExponentsForTA": false
+  },
+  {
+    "LID": 629,
+    "Glottocode": "chan1310",
+    "Language": "Chantyal",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForIllocution": false
+  },
+  {
+    "LID": 663,
+    "Glottocode": "drun1238",
+    "Language": "Drung",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForTA": false,
+    "MarkerHasMultipleExponentsForEvidential": false
+  },
+  {
+    "LID": 725,
+    "Glottocode": "ital1282",
+    "Language": "Italian",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false
+  },
+  {
+    "LID": 81,
+    "Glottocode": "furr1244",
+    "Language": "Fur",
+    "MarkerHasMultipleExponentsForPolarity": true,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTM": false
+  },
+  {
+    "LID": 17,
+    "Glottocode": "tosk1239",
+    "Language": "Albanian",
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForMSE": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 690,
+    "Glottocode": "mana1288",
+    "Language": "Manange",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForRECIP": false
+  },
+  {
+    "LID": 664,
+    "Glottocode": "west2420",
+    "Language": "Kham",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForTM": false,
+    "MarkerHasMultipleExponentsForMA": false,
+    "MarkerHasMultipleExponentsForIllocution": false
+  },
+  {
+    "LID": 674,
+    "Glottocode": "limb1266",
+    "Language": "Limbu",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 723,
+    "Glottocode": "kham1282",
+    "Language": "Tibetan (Dege)",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMA": false,
+    "MarkerHasMultipleExponentsForIllocution": false,
+    "MarkerHasMultipleExponentsForHonorificity": false
+  },
+  {
+    "LID": 626,
+    "Glottocode": "kinn1249",
+    "Language": "Kinnauri",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 685,
+    "Glottocode": "klam1254",
+    "Language": "Klamath",
+    "MarkerHasMultipleExponentsForSemistem": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false,
+    "MarkerHasMultipleExponentsForSpatial": false,
+    "MarkerHasMultipleExponentsForMotion": false
+  },
+  {
+    "LID": 223,
+    "Glottocode": "sout2729",
+    "Language": "Pumi",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForAktionsart": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForIllocution": false
+  },
+  {
+    "LID": 468,
+    "Glottocode": "east2773",
+    "Language": "Newar (Dolakha)",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForValence": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 434,
+    "Glottocode": "west2414",
+    "Language": "Gurung",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false
+  },
+  {
+    "LID": 169,
+    "Glottocode": "mait1250",
+    "Language": "Maithili",
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForTA": false,
+    "MarkerHasMultipleExponentsForHonorificity": false
+  },
+  {
+    "LID": 632,
+    "Glottocode": "wayu1241",
+    "Language": "Hayu",
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 724,
+    "Glottocode": "east2347",
+    "Language": "Tamang (Eastern)",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForModality": false
+  },
+  {
+    "LID": 2826,
+    "Glottocode": "darg1241",
+    "Language": "Dargi (standard)",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForSemistem": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForEvidential": false,
+    "MarkerHasMultipleExponentsForDirection": false
+  },
+  {
+    "LID": 677,
+    "Glottocode": "swed1254",
+    "Language": "Swedish",
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForTM": false
+  },
+  {
+    "LID": 580,
+    "Glottocode": "yidi1250",
+    "Language": "Yidiny",
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForAktionsart": false,
+    "MarkerHasMultipleExponentsForTM": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForApplicative": false
+  },
+  {
+    "LID": 2779,
+    "Glottocode": "yele1255",
+    "Language": "Yelî Dnye"
+  },
+  {
+    "LID": 196,
+    "Glottocode": "murr1258",
+    "Language": "Murrinh-patha",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForTA": false,
+    "MarkerHasMultipleExponentsForApplicative": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false
+  },
+  {
+    "LID": 69,
+    "Glottocode": "nubi1251",
+    "Language": "Nubian (Dongolese)",
+    "MarkerHasMultipleExponentsForTAM": true,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForIllocution": false
+  },
+  {
+    "LID": 387,
+    "Glottocode": "tuvi1240",
+    "Language": "Tuva",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForTM": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false
+  },
+  {
+    "LID": 385,
+    "Glottocode": "shos1248",
+    "Language": "Tümpisa Shoshone",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForStatus": false
+  },
+  {
+    "LID": 2944,
+    "Glottocode": "rabh1238",
+    "Language": "Rabha",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForAspect": false
+  },
+  {
+    "LID": 177,
+    "Glottocode": "marg1265",
+    "Language": "Margi",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false
+  },
+  {
+    "LID": 1531,
+    "Glottocode": "ghod1238",
+    "Language": "Godoberi",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForConnective": false
+  },
+  {
+    "LID": 2949,
+    "Glottocode": "darg1241",
+    "Language": "Dargi (Icari)",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForSemistem": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForEvidential": false,
+    "MarkerHasMultipleExponentsForDirection": false
+  },
+  {
+    "LID": 208,
+    "Glottocode": "nezp1238",
+    "Language": "Nez Perce",
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForRECIP": false,
+    "MarkerHasMultipleExponentsForReflexive": false
+  },
+  {
+    "LID": 192,
+    "Glottocode": "movi1243",
+    "Language": "Movima",
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForApplicative": false,
+    "MarkerHasMultipleExponentsForStatus": false,
+    "MarkerHasMultipleExponentsForModality": false
+  },
+  {
+    "LID": 392,
+    "Glottocode": "urar1246",
+    "Language": "Urarina",
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForNumber": false
+  },
+  {
+    "LID": 551,
+    "Glottocode": "leal1235",
+    "Language": "Chinantec (Lealao)",
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForRepetition": false
+  },
+  {
+    "LID": 50,
+    "Glottocode": "chic1272",
+    "Language": "Chichimec"
+  },
+  {
+    "LID": 3101,
+    "Glottocode": "assy1241",
+    "Language": "Neo-Aramaic (Barwar)",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForTA": false
+  },
+  {
+    "LID": 2393,
+    "Glottocode": "selk1253",
+    "Language": "Selkup",
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForAspect": true,
+    "MarkerHasMultipleExponentsForTM": false
+  },
+  {
+    "LID": 2564,
+    "Glottocode": "thom1243",
+    "Language": "Thompson",
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForApplicative": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false,
+    "MarkerHasMultipleExponentsForControl": false
+  },
+  {
+    "LID": 678,
+    "Glottocode": "bulg1262",
+    "Language": "Bulgarian",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTE": false
+  },
+  {
+    "LID": 2330,
+    "Glottocode": "poli1260",
+    "Language": "Polish",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTM": false
+  },
+  {
+    "LID": 2447,
+    "Glottocode": "slov1268",
+    "Language": "Slovene",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTM": false
+  },
+  {
+    "LID": 675,
+    "Glottocode": "kaba1278",
+    "Language": "Circassian (East)",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForVersion": false,
+    "MarkerHasMultipleExponentsForIllocution": false,
+    "MarkerHasMultipleExponentsForEvidential": false,
+    "MarkerHasMultipleExponentsForRECIP": false,
+    "MarkerHasMultipleExponentsForReflexive": false,
+    "MarkerHasMultipleExponentsForModality": false
+  },
+  {
+    "LID": 3229,
+    "Glottocode": "NA",
+    "Language": "Torlak Serbian",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTE": false
+  },
+  {
+    "LID": 1890,
+    "Glottocode": "lith1251",
+    "Language": "Lithuanian",
+    "MarkerHasMultipleExponentsForTM": false
+  },
+  {
+    "LID": 549,
+    "Glottocode": "latv1249",
+    "Language": "Latvian",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTM": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false
+  },
+  {
+    "LID": 683,
+    "Glottocode": "roma1327",
+    "Language": "Romanian",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false
+  },
+  {
+    "LID": 2471,
+    "Glottocode": "croa1245",
+    "Language": "Serbian-Croatian",
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTM": false
+  },
+  {
+    "LID": 2412,
+    "Glottocode": "seri1257",
+    "Language": "Seri",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForIllocution": false,
+    "MarkerHasMultipleExponentsForSwitchReference": false,
+    "MarkerHasMultipleExponentsForQuotative": false
+  },
+  {
+    "LID": 2984,
+    "Glottocode": "mian1256",
+    "Language": "Mian",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForIllocution": false,
+    "MarkerHasMultipleExponentsForStatus": false
+  },
+  {
+    "LID": 656,
+    "Glottocode": "koro1312",
+    "Language": "Korowai",
+    "MarkerHasMultipleExponentsForPolarity": true,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForStatus": false,
+    "MarkerHasMultipleExponentsForSwitchReference": false
+  },
+  {
+    "LID": 84,
+    "Glottocode": "gara1269",
+    "Language": "Garrwa",
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForTA": false,
+    "MarkerHasMultipleExponentsForIllocution": false
+  },
+  {
+    "LID": 419,
+    "Glottocode": "yess1239",
+    "Language": "Yessan-Mayo",
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForTA": false,
+    "MarkerHasMultipleExponentsForFocus": false
+  },
+  {
+    "LID": 1364,
+    "Glottocode": "ngar1235",
+    "Language": "Bilinara",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForIllocution": false
+  },
+  {
+    "LID": 885,
+    "Glottocode": "yane1238",
+    "Language": "Amuesha",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForTA": false,
+    "MarkerHasMultipleExponentsForApplicative": false,
+    "MarkerHasMultipleExponentsForMTN": false
+  },
+  {
+    "LID": 658,
+    "Glottocode": "yany1243",
+    "Language": "Yanyuwa",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false,
+    "MarkerHasMultipleExponentsForIllocution": false
+  },
+  {
+    "LID": 66,
+    "Glottocode": "dhuw1249",
+    "Language": "Djapu",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false
+  },
+  {
+    "LID": 1772,
+    "Glottocode": "gugu1255",
+    "Language": "Guugu Yimidhirr",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForTM": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false
+  },
+  {
+    "LID": 1363,
+    "Glottocode": "nang1259",
+    "Language": "Ngan'gityemerri",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForNumber": false
+  },
+  {
+    "LID": 3240,
+    "Glottocode": "ashe1272",
+    "Language": "Ashéninka Perené",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForReferential": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForApplicative": false,
+    "MarkerHasMultipleExponentsForStatus": false,
+    "MarkerHasMultipleExponentsForEvidential": false,
+    "MarkerHasMultipleExponentsForReversative": false
+  },
+  {
+    "LID": 352,
+    "Glottocode": "shua1257",
+    "Language": "Shuar",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForApplicative": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false,
+    "MarkerHasMultipleExponentsForSwitchReference": false
+  },
+  {
+    "LID": 2050,
+    "Glottocode": "moco1246",
+    "Language": "Mocoví",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForAktionsart": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForSpatial": false
+  },
+  {
+    "LID": 426,
+    "Glottocode": "yura1255",
+    "Language": "Yurakare",
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForMSE": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForApplicative": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false,
+    "MarkerHasMultipleExponentsForEvidential": false,
+    "MarkerHasMultipleExponentsForMotion": false
+  },
+  {
+    "LID": 1385,
+    "Glottocode": "sout2991",
+    "Language": "Quechua (Cochabamba)",
+    "MarkerHasMultipleExponentsForAktionsart": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false,
+    "MarkerHasMultipleExponentsForTE": false
+  },
+  {
+    "LID": 326,
+    "Glottocode": "paez1247",
+    "Language": "Paez",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForStatus": false,
+    "MarkerHasMultipleExponentsForAffect": false
+  },
+  {
+    "LID": 2508,
+    "Glottocode": "suab1238",
+    "Language": "Inanwatan",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 2951,
+    "Glottocode": "kara1500",
+    "Language": "Karajá",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForValence": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForTA": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForReflexive": false
+  },
+  {
+    "LID": 2900,
+    "Glottocode": "aves1237",
+    "Language": "Avestan",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForCausative": false
+  },
+  {
+    "LID": 2726,
+    "Glottocode": "wels1247",
+    "Language": "Welsh"
+  },
+  {
+    "LID": 2456,
+    "Glottocode": "sinh1246",
+    "Language": "Sinhala",
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForConnective": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForFocus": false
+  },
+  {
+    "LID": 1067,
+    "Glottocode": "bret1244",
+    "Language": "Breton",
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 2832,
+    "Glottocode": "goth1244",
+    "Language": "Gothic",
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 2856,
+    "Glottocode": "oldn1244",
+    "Language": "Old Norse",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForReflexive": false
+  },
+  {
+    "LID": 2514,
+    "Glottocode": "tapi1253",
+    "Language": "Tapiete",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForConnective": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForIllocution": false,
+    "MarkerHasMultipleExponentsForEvidential": false,
+    "MarkerHasMultipleExponentsForRECIP": false,
+    "MarkerHasMultipleExponentsForReflexive": false
+  },
+  {
+    "LID": 110,
+    "Glottocode": "icel1247",
+    "Language": "Icelandic",
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 633,
+    "Glottocode": "kash1277",
+    "Language": "Kashmiri",
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForIllocution": false
+  },
+  {
+    "LID": 3243,
+    "Glottocode": "nort2646",
+    "Language": "Pashto (Northern)",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 100,
+    "Glottocode": "hitt1242",
+    "Language": "Hittite",
+    "MarkerHasMultipleExponentsForTAM": false
+  },
+  {
+    "LID": 2831,
+    "Glottocode": "anci1242",
+    "Language": "Greek (Ancient)",
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForTA": false
+  },
+  {
+    "LID": 2833,
+    "Glottocode": "olde1238",
+    "Language": "English (Old)",
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 641,
+    "Glottocode": "oriy1255",
+    "Language": "Oriya",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTM": false,
+    "MarkerHasMultipleExponentsForTA": false
+  },
+  {
+    "LID": 844,
+    "Glottocode": "afri1274",
+    "Language": "Afrikaans",
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 2854,
+    "Glottocode": "oldh1241",
+    "Language": "High German (Old)",
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 2855,
+    "Glottocode": "olds1250",
+    "Language": "Old Saxon",
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 699,
+    "Glottocode": "sans1269",
+    "Language": "Sanskrit",
+    "MarkerHasMultipleExponentsForTA": false
+  },
+  {
+    "LID": 2360,
+    "Glottocode": "caml1239",
+    "Language": "Camling",
+    "MarkerHasMultipleExponentsForPolarity": true,
+    "MarkerHasMultipleExponentsForConnective": false,
+    "MarkerHasMultipleExponentsForTA": false
+  },
+  {
+    "LID": 672,
+    "Glottocode": "jing1260",
+    "Language": "Jingpho",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false
+  },
+  {
+    "LID": 3278,
+    "Glottocode": "tsho1240",
+    "Language": "Tshobdun",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForMA": false,
+    "MarkerHasMultipleExponentsForDirection": false
+  },
+  {
+    "LID": 1694,
+    "Glottocode": "japh1234",
+    "Language": "Jiarong",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForAktionsart": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTA": false,
+    "MarkerHasMultipleExponentsForIllocution": false,
+    "MarkerHasMultipleExponentsForHonorificity": false
+  },
+  {
+    "LID": 552,
+    "Glottocode": "lepc1244",
+    "Language": "Lepcha",
+    "MarkerHasMultipleExponentsForPolarity": true,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForTA": false
+  },
+  {
+    "LID": 691,
+    "Glottocode": "tibe1272",
+    "Language": "Tibetan (Lhasa)",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForIllocution": false,
+    "MarkerHasMultipleExponentsForHonorificity": false,
+    "MarkerHasMultipleExponentsForAE": false
+  },
+  {
+    "LID": 2617,
+    "Glottocode": "tsha1245",
+    "Language": "Tshangla",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForTAME": false
+  },
+  {
+    "LID": 975,
+    "Glottocode": "bard1255",
+    "Language": "Bardi",
+    "MarkerHasMultipleExponentsForValence": false,
+    "MarkerHasMultipleExponentsForAktionsart": false,
+    "MarkerHasMultipleExponentsForConnective": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForTA": false,
+    "MarkerHasMultipleExponentsForApplicative": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForReflexive": true
+  },
+  {
+    "LID": 3312,
+    "Glottocode": "west2368",
+    "Language": "Balochi (Western)",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMA": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 2716,
+    "Glottocode": "uppe1395",
+    "Language": "Sorbian (Upper)",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 2916,
+    "Glottocode": "wakh1245",
+    "Language": "Wakhi",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForTM": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 2893,
+    "Glottocode": "lati1261",
+    "Language": "Latin",
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTM": false
+  },
+  {
+    "LID": 1395,
+    "Glottocode": "vlax1238",
+    "Language": "Romani (Vlax)",
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 3213,
+    "Glottocode": "oldi1245",
+    "Language": "Irish (Old)",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForConnective": false,
+    "MarkerHasMultipleExponentsForIllocution": false
+  },
+  {
+    "LID": 1440,
+    "Glottocode": "dutc1256",
+    "Language": "Dutch",
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 710,
+    "Glottocode": "faro1244",
+    "Language": "Faroese",
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 1399,
+    "Glottocode": "dara1250",
+    "Language": "Darai",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForEvidential": false
+  },
+  {
+    "LID": 2987,
+    "Glottocode": "jams1239",
+    "Language": "Dogon (Jamsay)",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 3239,
+    "Glottocode": "atin1240",
+    "Language": "Laz (Pazar)",
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForVersion": false,
+    "MarkerHasMultipleExponentsForStatus": false,
+    "MarkerHasMultipleExponentsForConditional": false
+  },
+  {
+    "LID": 1964,
+    "Glottocode": "male1284",
+    "Language": "Maale",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForIllocution": false,
+    "MarkerHasMultipleExponentsForEvidential": false
+  },
+  {
+    "LID": 1203,
+    "Glottocode": "cupe1243",
+    "Language": "Cupeño",
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForTA": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForStatus": false,
+    "MarkerHasMultipleExponentsForEvidential": false
+  },
+  {
+    "LID": 689,
+    "Glottocode": "lowl1265",
+    "Language": "Rarámuri",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForTA": false,
+    "MarkerHasMultipleExponentsForStatus": false,
+    "MarkerHasMultipleExponentsForEvidential": false,
+    "MarkerHasMultipleExponentsForMotion": false,
+    "MarkerHasMultipleExponentsForModality": false
+  },
+  {
+    "LID": 3313,
+    "Glottocode": "tang1334",
+    "Language": "Tangut",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForDeixis": false
+  },
+  {
+    "LID": 2020,
+    "Glottocode": "karb1241",
+    "Language": "Mikir",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false,
+    "MarkerHasMultipleExponentsForPossessor": false
+  },
+  {
+    "LID": 2180,
+    "Glottocode": "rong1266",
+    "Language": "Rongmei Naga",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForIllocution": false,
+    "MarkerHasMultipleExponentsForTAME": false
+  },
+  {
+    "LID": 3315,
+    "Glottocode": "anuu1241",
+    "Language": "Hkongso",
+    "MarkerHasMultipleExponentsForPolarity": true,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForMood": false
+  },
+  {
+    "LID": 688,
+    "Glottocode": "cora1260",
+    "Language": "Cora",
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForAktionsart": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForNumber": false,
+    "MarkerHasMultipleExponentsForIllocution": false,
+    "MarkerHasMultipleExponentsForReflexive": false,
+    "MarkerHasMultipleExponentsForModality": false
+  },
+  {
+    "LID": 368,
+    "Glottocode": "tawa1275",
+    "Language": "Tawala",
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForStatus": false,
+    "MarkerHasMultipleExponentsForConstruct": false,
+    "MarkerHasMultipleExponentsForFocus": false
+  },
+  {
+    "LID": 68,
+    "Glottocode": "djin1251",
+    "Language": "Djingili",
+    "MarkerHasMultipleExponentsForSemistem": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false
+  },
+  {
+    "LID": 2196,
+    "Glottocode": "narp1239",
+    "Language": "Nar-Phu",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForIllocution": false
+  },
+  {
+    "LID": 2871,
+    "Glottocode": "nort2732",
+    "Language": "Northern Tujia",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForDeixis": false
+  },
+  {
+    "LID": 1765,
+    "Glottocode": "pwoe1235",
+    "Language": "Karen (Pwo)",
+    "MarkerHasMultipleExponentsForMood": false
+  },
+  {
+    "LID": 1889,
+    "Glottocode": "lisu1250",
+    "Language": "Lisu",
+    "MarkerHasMultipleExponentsForPolarity": false
+  },
+  {
+    "LID": 2873,
+    "Glottocode": "bant1281",
+    "Language": "Bantawa",
+    "MarkerHasMultipleExponentsForPolarity": true,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 3032,
+    "Glottocode": "aton1241",
+    "Language": "Atong",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false
+  },
+  {
+    "LID": 1004,
+    "Glottocode": "gahr1239",
+    "Language": "Bunan",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForValence": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForEvidential": false
+  },
+  {
+    "LID": 1130,
+    "Glottocode": "chep1245",
+    "Language": "Chepang",
+    "MarkerHasMultipleExponentsForTA": false
+  },
+  {
+    "LID": 3326,
+    "Glottocode": "situ1238",
+    "Language": "Jiǎomùzú",
+    "MarkerHasMultipleExponentsForReferential": false,
+    "MarkerHasMultipleExponentsForTA": false,
+    "MarkerHasMultipleExponentsForMTN": false
+  },
+  {
+    "LID": 2217,
+    "Glottocode": "nung1282",
+    "Language": "Anong",
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForMA": false,
+    "MarkerHasMultipleExponentsForDirection": false,
+    "MarkerHasMultipleExponentsForTAE": false
+  },
+  {
+    "LID": 767,
+    "Glottocode": "galo1242",
+    "Language": "Gallong",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForEvidential": false,
+    "MarkerHasMultipleExponentsForAE": false
+  },
+  {
+    "LID": 2563,
+    "Glottocode": "than1259",
+    "Language": "Thangmi"
+  },
+  {
+    "LID": 3298,
+    "Glottocode": "mong1332",
+    "Language": "Mongsen Khari",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForTN": false
+  },
+  {
+    "LID": 1317,
+    "Glottocode": "dhim1246",
+    "Language": "Dhimal",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 3318,
+    "Glottocode": "kurt1248",
+    "Language": "Kurtokha",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForEvidential": false
+  },
+  {
+    "LID": 735,
+    "Glottocode": "raji1240",
+    "Language": "Raji",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 2186,
+    "Glottocode": "tang1336",
+    "Language": "Naga (Tangkhul)",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 1376,
+    "Glottocode": "tase1235",
+    "Language": "Jugli",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 2662,
+    "Glottocode": "yaku1245",
+    "Language": "Yakut",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForReflexiveAndReciprocal": false,
+    "MarkerHasMultipleExponentsForFocus": false
+  },
+  {
+    "LID": 18,
+    "Glottocode": "aleu1260",
+    "Language": "Aleut",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForAktionsart": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForQuantificational": false,
+    "MarkerHasMultipleExponentsForEvidential": false,
+    "MarkerHasMultipleExponentsForFocus": false
+  },
+  {
+    "LID": 2657,
+    "Glottocode": "udih1248",
+    "Language": "Udihe",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForRECIP": false
+  },
+  {
+    "LID": 730,
+    "Glottocode": "thak1245",
+    "Language": "Thakali",
+    "MarkerHasMultipleExponentsForTAM": false
+  },
+  {
+    "LID": 1480,
+    "Glottocode": "esto1258",
+    "Language": "Estonian",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForTA": false,
+    "MarkerHasMultipleExponentsForQuotative": false,
+    "MarkerHasMultipleExponentsForConditional": false
+  },
+  {
+    "LID": 3301,
+    "Glottocode": "yong1270",
+    "Language": "Yongning Na",
+    "MarkerHasMultipleExponentsForPolarity": false
+  },
+  {
+    "LID": 1388,
+    "Glottocode": "darm1243",
+    "Language": "Darmiya",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForValence": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 709,
+    "Glottocode": "kild1236",
+    "Language": "Saami (Kildin)",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForAktionsart": false,
+    "MarkerHasMultipleExponentsForCausative": false
+  },
+  {
+    "LID": 3006,
+    "Glottocode": "shek1245",
+    "Language": "Sheko",
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForAffect": false
+  },
+  {
+    "LID": 3173,
+    "Glottocode": "sida1246",
+    "Language": "Sidaama",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForCausative": false,
+    "MarkerHasMultipleExponentsForMA": false,
+    "MarkerHasMultipleExponentsForFocus": false
+  },
+  {
+    "LID": 2936,
+    "Glottocode": "phal1254",
+    "Language": "Palula",
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTM": false
+  },
+  {
+    "LID": 701,
+    "Glottocode": "sout2674",
+    "Language": "Saami (South)",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForCausative": false
+  },
+  {
+    "LID": 703,
+    "Glottocode": "pite1240",
+    "Language": "Saami (Pite)",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false
+  },
+  {
+    "LID": 628,
+    "Glottocode": "byan1241",
+    "Language": "Byangsi",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForValence": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForEvidential": false
+  },
+  {
+    "LID": 838,
+    "Glottocode": "amdo1237",
+    "Language": "Amdo",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMA": false,
+    "MarkerHasMultipleExponentsForIllocution": false,
+    "MarkerHasMultipleExponentsForHonorificity": false
+  },
+  {
+    "LID": 1775,
+    "Glottocode": "kulu1253",
+    "Language": "Kulung",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 1778,
+    "Glottocode": "khal1275",
+    "Language": "Khaling",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 3272,
+    "Glottocode": "zaiw1241",
+    "Language": "Zaiwa",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForAspect": false
+  },
+  {
+    "LID": 786,
+    "Glottocode": "rong1264",
+    "Language": "Rongpo",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForValence": false,
+    "MarkerHasMultipleExponentsForTense": false
+  },
+  {
+    "LID": 1914,
+    "Glottocode": "lush1249",
+    "Language": "Mizo (Lushai)",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForDeixis": false,
+    "MarkerHasMultipleExponentsForMA": false,
+    "MarkerHasMultipleExponentsForFocus": false
+  },
+  {
+    "LID": 2824,
+    "Glottocode": "clas1254",
+    "Language": "Tibetan (Classical)",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForMA": false,
+    "MarkerHasMultipleExponentsForHonorificity": false
+  },
+  {
+    "LID": 667,
+    "Glottocode": "thul1246",
+    "Language": "Thulung (Mukli)",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTense": false,
+    "MarkerHasMultipleExponentsForNominalizer": false
+  },
+  {
+    "LID": 3331,
+    "Glottocode": "guan1266",
+    "Language": "Khroskyabs",
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForAspect": false,
+    "MarkerHasMultipleExponentsForTM": false,
+    "MarkerHasMultipleExponentsForTA": false,
+    "MarkerHasMultipleExponentsForHonorificity": false
+  },
+  {
+    "LID": 2862,
+    "Glottocode": "chhi1245",
+    "Language": "Chintang",
+    "MarkerHasMultipleExponentsForTAM": false,
+    "MarkerHasMultipleExponentsForPolarity": false,
+    "MarkerHasMultipleExponentsForVoice": false,
+    "MarkerHasMultipleExponentsForMood": false,
+    "MarkerHasMultipleExponentsForAspect": false
+  }
+]

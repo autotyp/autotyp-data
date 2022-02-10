@@ -1,0 +1,311 @@
+[
+  {
+    "SemanticClass": "default",
+    "SemanticClassBinned": "formal",
+    "Definition": "the default semantics of a construction, used most frequently, the non-default variation (e.g. a partitive reading with some less common case frames is coded separately)"
+  },
+  {
+    "SemanticClass": "alienable",
+    "SemanticClassBinned": "formal",
+    "Definition": "called “alienable” in a grammar with no further semantic specification; or the less nearly head-marked of two overt classes even if there is no account of their semantics."
+  },
+  {
+    "SemanticClass": "inalienable",
+    "SemanticClassBinned": "formal",
+    "Definition": "called “inalienable” in a grammar with no further semantic characterization; or the more nearly head-marked or bound of two overt classes even if there is no account of their semantics."
+  },
+  {
+    "SemanticClass": "neutral",
+    "SemanticClassBinned": "neutral",
+    "Definition": "No alienability (alienable/inalienable) distinction."
+  },
+  {
+    "SemanticClass": "marked alienable",
+    "SemanticClassBinned": "formal",
+    "Definition": "The alienable member of the alienability opposition is overtly marked."
+  },
+  {
+    "SemanticClass": "unmarked inalienable",
+    "SemanticClassBinned": "formal",
+    "Definition": "The inalienable member of the alienability opposition is formally unmarked.  (Default, if one of the pair is not formally marked.)"
+  },
+  {
+    "SemanticClass": "high-indexability",
+    "SemanticClassBinned": "referentiality",
+    "Definition": "Approximately the same as high-animacy."
+  },
+  {
+    "SemanticClass": "low-indexability",
+    "SemanticClassBinned": "referentiality",
+    "Definition": "Approximately the same as low-animacy."
+  },
+  {
+    "SemanticClass": "<?a>",
+    "Definition": "Unknown or unclear semantics. If there is a split according to certain loose semantic features, use this category for more the common pattern, use  <?b> for the other member of the split."
+  },
+  {
+    "SemanticClass": "unknown",
+    "Definition": "Unknown or unclear semantics."
+  },
+  {
+    "SemanticClass": "fluid",
+    "SemanticClassBinned": "formal",
+    "Definition": "There is an alienability distinction, but many or most words can be treated either way, with a semantic distinction."
+  },
+  {
+    "SemanticClass": "semantic",
+    "Definition": "Alienability marking has some compositional effect on the lexical input."
+  },
+  {
+    "SemanticClass": "no mention",
+    "Definition": "= <?>"
+  },
+  {
+    "SemanticClass": "n/a",
+    "Definition": "N/A"
+  },
+  {
+    "SemanticClass": "human",
+    "SemanticClassBinned": "referentiality",
+    "Definition": "The noun denotes a human."
+  },
+  {
+    "SemanticClass": "non-human",
+    "SemanticClassBinned": "referentiality",
+    "Definition": "The noun denotes a non-human."
+  },
+  {
+    "SemanticClass": "animate",
+    "SemanticClassBinned": "referentiality",
+    "Definition": "The noun denotes an animate being."
+  },
+  {
+    "SemanticClass": "inanimate",
+    "SemanticClassBinned": "referentiality",
+    "Definition": "The noun denotes an inanimate entity or concept."
+  },
+  {
+    "SemanticClass": "kin terms",
+    "SemanticClassBinned": "kin",
+    "Definition": "The noun denotes a kin relation."
+  },
+  {
+    "SemanticClass": "body parts",
+    "SemanticClassBinned": "parts",
+    "Definition": "Body parts in a broad sense, possibly including mental faculties, feelings, etc., and possibly including (some) body functions, excreta, etc."
+  },
+  {
+    "SemanticClass": "topological",
+    "SemanticClassBinned": "parts",
+    "Definition": "Spatial relations nouns, locatives etc."
+  },
+  {
+    "SemanticClass": "meronyms",
+    "SemanticClassBinned": "parts",
+    "Definition": "the part in part-whole relations"
+  },
+  {
+    "SemanticClass": "property",
+    "SemanticClassBinned": "kinds",
+    "Definition": "house, furniture"
+  },
+  {
+    "SemanticClass": "animals",
+    "SemanticClassBinned": "kinds",
+    "Definition": "Animals, wild or domesticated."
+  },
+  {
+    "SemanticClass": "quantificational",
+    "SemanticClassBinned": "formal",
+    "Definition": "Quantifiers"
+  },
+  {
+    "SemanticClass": "clothing terms",
+    "SemanticClassBinned": "kinds",
+    "Definition": "Types and parts of clothing, and generics such as ‘clothing’."
+  },
+  {
+    "SemanticClass": "origin",
+    "SemanticClassBinned": "names",
+    "Definition": "place names, native land, and the like"
+  },
+  {
+    "SemanticClass": "owner",
+    "SemanticClassBinned": "kinds",
+    "Definition": "‘master’, ‘owner’ and the like"
+  },
+  {
+    "SemanticClass": "specific",
+    "SemanticClassBinned": "pragmatic",
+    "Definition": "having specific reference, or so described in grammar.  (Caution:  Probably not always well enough distinguished from Definite.)"
+  },
+  {
+    "SemanticClass": "tracks",
+    "SemanticClassBinned": "kinds",
+    "Definition": "footprints, etc."
+  },
+  {
+    "SemanticClass": "subsets",
+    "SemanticClassBinned": "parts",
+    "Definition": "‘group’, ‘part’, and other subsets (other than ones listed elsewhere here)"
+  },
+  {
+    "SemanticClass": "parents/siblings",
+    "SemanticClassBinned": "kin",
+    "Definition": "Only parents and siblings (and not other kin types)."
+  },
+  {
+    "SemanticClass": "transportation means",
+    "SemanticClassBinned": "kinds",
+    "Definition": "E.g. cart, car, scooter, boat, airplane, sled, etc."
+  },
+  {
+    "SemanticClass": "spouse",
+    "SemanticClassBinned": "kin",
+    "Definition": "Only spouse (and not other kin types)."
+  },
+  {
+    "SemanticClass": "village group",
+    "SemanticClassBinned": "parts",
+    "Definition": "Any culturally recognized part of a village’s population."
+  },
+  {
+    "SemanticClass": "non-specific",
+    "SemanticClassBinned": "pragmatic",
+    "Definition": "Not having specific reference.  (Caution:  Probably not always well enough distinguished from Indefinite.)"
+  },
+  {
+    "SemanticClass": "long-established",
+    "SemanticClassBinned": "pragmatic",
+    "Definition": "The possessive relationshop has its origin in some past event."
+  },
+  {
+    "SemanticClass": "edible",
+    "SemanticClassBinned": "kinds",
+    "Definition": "edible things; food"
+  },
+  {
+    "SemanticClass": "drinkable",
+    "SemanticClassBinned": "kinds",
+    "Definition": "drinkable or potable things; beverages"
+  },
+  {
+    "SemanticClass": "classifiers",
+    "SemanticClassBinned": "formal",
+    "Definition": "Nouns used as numeral or other classifiers."
+  },
+  {
+    "SemanticClass": "unpossessible",
+    "SemanticClassBinned": "formal",
+    "Definition": "Nouns that grammatically cannot be possessed (typically, cannot take affixal possessive marking).  (Their referents may but need not be ownable in the real world.)"
+  },
+  {
+    "SemanticClass": "rocks",
+    "SemanticClassBinned": "kinds",
+    "Definition": "Rocks, stones, gravel, etc."
+  },
+  {
+    "SemanticClass": "plants",
+    "SemanticClassBinned": "kinds",
+    "Definition": "Whole plants and types of plants.  (Plant parts are categorized separately.)"
+  },
+  {
+    "SemanticClass": "unspecified inanimate",
+    "SemanticClassBinned": "referentiality",
+    "Definition": "Denotes an inanimate; no further information given"
+  },
+  {
+    "SemanticClass": "plant parts",
+    "SemanticClassBinned": "parts",
+    "Definition": "leaf, bark, root, etc."
+  },
+  {
+    "SemanticClass": "weapon",
+    "SemanticClassBinned": "kinds",
+    "Definition": "bow, arrow, gun, etc."
+  },
+  {
+    "SemanticClass": "volitional",
+    "SemanticClassBinned": "referentiality",
+    "Definition": "Human or higher animate; any being having volition."
+  },
+  {
+    "SemanticClass": "definite",
+    "SemanticClassBinned": "pragmatic",
+    "Definition": "Having definite reference.  (Caution: Probably not always well enough distinguished from Specific.)"
+  },
+  {
+    "SemanticClass": "indefinite",
+    "SemanticClassBinned": "pragmatic",
+    "Definition": "Having indefinite reference.   (Caution: Probably not always well enough distinguished from Non-Specific.)"
+  },
+  {
+    "SemanticClass": "non-volitional",
+    "SemanticClassBinned": "referentiality",
+    "Definition": "Not human, not higher animate; any being not having volition."
+  },
+  {
+    "SemanticClass": "non-topical",
+    "SemanticClassBinned": "pragmatic",
+    "Definition": "non-topical, new, not given"
+  },
+  {
+    "SemanticClass": "singular",
+    "SemanticClassBinned": "referentiality",
+    "Definition": "Having singular reference, and/or grammatically marked as singular."
+  },
+  {
+    "SemanticClass": "indefinite inanimate",
+    "SemanticClassBinned": "pragmatic",
+    "Definition": "introduced for Yidiny"
+  },
+  {
+    "SemanticClass": "definite inanimate",
+    "SemanticClassBinned": "pragmatic",
+    "Definition": "introduced for Yidiny"
+  },
+  {
+    "SemanticClass": "effector",
+    "SemanticClassBinned": "roles",
+    "Definition": "Having a semantic role such as agent; initiating or bringing about the verbal action."
+  },
+  {
+    "SemanticClass": "<?b>",
+    "Definition": "unknown/unclear semantics. In opposition to <?a>"
+  },
+  {
+    "SemanticClass": "affected",
+    "SemanticClassBinned": "roles",
+    "Definition": "Having a semantic role such as patient; affected or changed by the verbal action."
+  },
+  {
+    "SemanticClass": "unaffected",
+    "SemanticClassBinned": "roles",
+    "Definition": "Having an object-like role but not affected by the verbal action."
+  },
+  {
+    "SemanticClass": "bounded",
+    "SemanticClassBinned": "properties",
+    "Definition": "Bounded in time and space (as in descriptions of Finnish)"
+  },
+  {
+    "SemanticClass": "partitive",
+    "SemanticClassBinned": "properties",
+    "Definition": "partitive or unbounded in time and space (as in descriptions of Finnish)"
+  },
+  {
+    "SemanticClass": "permanent state",
+    "SemanticClassBinned": "properties",
+    "Definition": "Permanent state of an individual or entity, e.g. ‘tall’, ‘round’."
+  },
+  {
+    "SemanticClass": "temporary state",
+    "SemanticClassBinned": "properties",
+    "Definition": "Temporary state of an individual or entity, e.g. ‘hungry’ or ‘cold’."
+  },
+  {
+    "SemanticClass": "name",
+    "SemanticClassBinned": "names",
+    "Definition": "personal names"
+  }
+]

@@ -1,0 +1,387 @@
+[
+  {
+    "Category": "Person",
+    "Macrocategory": "person",
+    "Definition": "1st, 2nd, 3rd person (and sometimes others), i.e. noun or pronoun referents defined as speaker/hearer/neither."
+  },
+  {
+    "Category": "Number",
+    "Macrocategory": "number",
+    "Definition": "Singular, plural, sometimes others.  Other than in role agreement."
+  },
+  {
+    "Category": "Role",
+    "Macrocategory": "role",
+    "Definition": "Grammatical role or relation, including pivots"
+  },
+  {
+    "Category": "TAM",
+    "Macrocategory": "TAM+",
+    "Definition": "Tense, aspect, and mood"
+  },
+  {
+    "Category": "Honorificity",
+    "Macrocategory": "pragmatic",
+    "Definition": "Categories used to differentiate status of individuals:  the referent of a form marked as honorific is higher in status than the other(s) in the discourse."
+  },
+  {
+    "Category": "Aspect",
+    "Macrocategory": "TAM+",
+    "Definition": "Grammatical aspect, sensitive to lexical Aktionsart and implicated in syntax; categories such as perfective and imperfective."
+  },
+  {
+    "Category": "Polarity",
+    "Macrocategory": "operators",
+    "Definition": "Negative vs. Affirmative"
+  },
+  {
+    "Category": "Nominalizer",
+    "Macrocategory": "NP-related",
+    "Definition": "Derives a syntactic noun form from a verb; turns a clause into a phrase that can function as argument or possessor."
+  },
+  {
+    "Category": "Tense",
+    "Macrocategory": "TAM+",
+    "Definition": "The traditional category of time reference (absolute or relative) in verbs."
+  },
+  {
+    "Category": "Connective",
+    "Macrocategory": "inter-clausal",
+    "Definition": "Marker of clause connection, including chaining markers, complementizers, markers of subordination or relative (unless it is a nominalizer, in which case code as Nominalizer). Includes converbs of all types, chaining (narrative, sequencing) and subordinating (adverbial).  Forms called “subjunctive” or “conjunctive” are likely to belong here."
+  },
+  {
+    "Category": "Causative",
+    "Macrocategory": "valence",
+    "Definition": "Adds an agent to the valence."
+  },
+  {
+    "Category": "Voice",
+    "Macrocategory": "valence",
+    "Definition": "Assignment of role to an NP with a certain marker or status (nominative, absolutive, etc.) with a reduction in syntactic transitivity. This includes passives, antipassives, diathetic reflexives, middles etc."
+  },
+  {
+    "Category": "Version",
+    "Macrocategory": "valence",
+    "Definition": "Category that registers the presence of an indirect object, goal, or applicative object and responds to its person (typically distinguishing 1st/2nd vs. 3rd person).  Term and concept from Kartvelian languages."
+  },
+  {
+    "Category": "Semistem",
+    "Macrocategory": "other",
+    "Definition": "The more wordlike or noun-like element of a bipartite stem that interacts with the inflectional system."
+  },
+  {
+    "Category": "Gender",
+    "Macrocategory": "classification",
+    "Definition": "Agreement category involving noun classification.  Usually covert on nouns; overt on agreeing word(s).  Unless otherwise specified this is lexical gender of nouns."
+  },
+  {
+    "Category": "Quantificational",
+    "Macrocategory": "number",
+    "Definition": "Multiple argument or multiple action, variously or fluidly. Pluractionals, distributive, ‘each’, ‘all’, ‘some’, ‘once’, ‘always’, ‘repeatedly’ etc. Subsumes both argument and event quantification"
+  },
+  {
+    "Category": "MAN",
+    "Macrocategory": "TAM+",
+    "Definition": "Mood-Aspect-Negation (term from Heath 1999 [Koyra Chiini])."
+  },
+  {
+    "Category": "TA",
+    "Macrocategory": "TAM+",
+    "Definition": "Tense-aspect"
+  },
+  {
+    "Category": "Applicative",
+    "Macrocategory": "valence",
+    "Definition": "Adds another object to the valence."
+  },
+  {
+    "Category": "Illocution",
+    "Macrocategory": "TAM+",
+    "Definition": "Interrogative, Declarative, Imperative etc."
+  },
+  {
+    "Category": "MTN",
+    "Macrocategory": "TAM+",
+    "Definition": "Mood, tense, and negation"
+  },
+  {
+    "Category": "Direction",
+    "Macrocategory": "role",
+    "Definition": "Direct/inverse marking, indicating conformity vs. non-conformity to a hierarchy (person, referentiality), whether using equipollent direct and inverse markers (e.g. Cree) or only an inverse marker (e.g. Chukchi)."
+  },
+  {
+    "Category": "Reflexive",
+    "Macrocategory": "valence",
+    "Definition": "Reflexives unless they serve purely diathetic purposes (passives, antipassives)"
+  },
+  {
+    "Category": "Focus",
+    "Macrocategory": "pragmatic",
+    "Definition": "intensifiers, focus, emphatics etc."
+  },
+  {
+    "Category": "Valence",
+    "Macrocategory": "valence",
+    "Definition": "Transitivity markers. Does not include diathetical markers whose primary function is to change valence. Valence markers as defined here are generally used on ALL transitive or ALL intransitive verbs, whether derived or not (Example; Algonquian, Austronesian transitivity markers).  But note that obviation is covered under Referential."
+  },
+  {
+    "Category": "Evidential",
+    "Macrocategory": "evidential",
+    "Definition": "Evidentials, miratives, evaluatives, etc."
+  },
+  {
+    "Category": "PossClass",
+    "Macrocategory": "NP-related",
+    "Definition": "Possessive declension class, i.e. declension class based on possessum=head"
+  },
+  {
+    "Category": "Construct",
+    "Macrocategory": "NP-related",
+    "Definition": "The formative does not express any category but rather indicates the use of a certain construction or the presence of a certain syntactic configuration. Examples: Arabic or Slave construct state marking"
+  },
+  {
+    "Category": "PossSem",
+    "Macrocategory": "NP-related",
+    "Definition": "Possession semantics (e.g. marking that the head is alienable or drinkable or whatever) -- not to be used if the marking is due to possessive declension class differences!"
+  },
+  {
+    "Category": "Sex",
+    "Macrocategory": "classification",
+    "Definition": "Natural gender.  Sex of referent (e.g. in English pronouns).  For gender classification of nouns, code as gender (even if gender is predictable from sex, as it usually is for animates)."
+  },
+  {
+    "Category": "Referential",
+    "Macrocategory": "pragmatic",
+    "Definition": "Values like definite, indefinite, specific, nonspecific, generic, obviative, proximative, remote, etc.\rNB: “Referential” is exponent of CASE only if the referential value cannot be separated from the syntactic role that the CASE marker codes. That is, with Tagalog ANG, for example, you cannot have the syntactic role that ANG codes without at the same time having specific NP reference. This is different from DOM (and DSM) in Turkish or Hindi or Spanish because not marking the object by the ACC does not make it an object any less. Unmarked O’s in DOM systems are O’s. But not using ANG because the NP doesn’t have specific reference, changes the syntactic role the NP is in."
+  },
+  {
+    "Category": "Switch_reference",
+    "Macrocategory": "inter-clausal",
+    "Definition": "Grammatical category tracking successive clauses in a discourse for whether the subject (or other pivot) is referentially identical to vs. different from that of the adjacent clause."
+  },
+  {
+    "Category": "Status",
+    "Macrocategory": "TAM+",
+    "Definition": "Realis vs. irrealis; certainty"
+  },
+  {
+    "Category": "TE",
+    "Macrocategory": "TAM+",
+    "Definition": "Tense and evidentiality together"
+  },
+  {
+    "Category": "Aktionsart",
+    "Macrocategory": "TAM+",
+    "Definition": "Situation aspect, or lexical aspect."
+  },
+  {
+    "Category": "Potentialis",
+    "Macrocategory": "TAM+",
+    "Definition": "Potential mood category."
+  },
+  {
+    "Category": "Classifier",
+    "Macrocategory": "classification",
+    "Definition": "Formative that classifies any argument, regardless of the type of classification (e.g. shape, body part) or whether the classifier itself is incorporated or just its semantics is specified.  If numeral classifiers are incorporated into the verb, include that here regardless of whether the classified noun is also incorporated with it."
+  },
+  {
+    "Category": "Mood",
+    "Macrocategory": "TAM+",
+    "Definition": "General term for mood categories such as indicative, conditional, subjunctive, imperative, etc."
+  },
+  {
+    "Category": "Reflexive_and_Reciprocal",
+    "Macrocategory": "valence",
+    "Definition": "Reflexive and/or reciprocal, for languages in which these two are non-distinct or in complementary distribution."
+  },
+  {
+    "Category": "RECIP",
+    "Macrocategory": "valence",
+    "Definition": "Reciprocal"
+  },
+  {
+    "Category": "MSE",
+    "Macrocategory": "TAM+",
+    "Definition": "Mood or Status or Evidential or any combination of these"
+  },
+  {
+    "Category": "AN Focus",
+    "Macrocategory": "valence",
+    "Definition": "DO NOT USE.  Use 72 instead.  (Was:  Western Austronesian-style focus marking.)"
+  },
+  {
+    "Category": "Scope",
+    "Macrocategory": "operators",
+    "Definition": "The category serves to indicate or constrain the scope of some other morpheme (e.g negation)."
+  },
+  {
+    "Category": "Modality",
+    "Macrocategory": "TAM+",
+    "Definition": "Possibility, probability, etc.; also desiderative, intention."
+  },
+  {
+    "Category": "Deixis",
+    "Macrocategory": "pragmatic",
+    "Definition": "Any grammatical category distinguishing direction toward vs. from speaker, or similar; also up (from speaker), down (from speaker). Common terms: cislocative, translocative."
+  },
+  {
+    "Category": "Possessor",
+    "Macrocategory": "NP-related",
+    "Definition": "The adnominal, or dependent, member of adnominal constructions (NP with modifier or adjunct). Includes but is not limited to literal possessors."
+  },
+  {
+    "Category": "Motion",
+    "Macrocategory": "event-specs",
+    "Definition": "Inflectional categories (other than deixis) that have to do with motion, e.g. Yagua unbounded movement suffix, Mparntwe Arrernte associated motion.  But see also Purposive."
+  },
+  {
+    "Category": "Repetition",
+    "Macrocategory": "event-specs",
+    "Definition": "Iteration, repetition (‘again’); not the same as an iterative Aktionsart."
+  },
+  {
+    "Category": "Posterior",
+    "Macrocategory": "TAM+",
+    "Definition": "Action follows another.  May be future-like in elicitation.  This definition based on the Hatam posterior category."
+  },
+  {
+    "Category": "Rich_Construct",
+    "Macrocategory": "NP-related",
+    "Definition": "Construct marker, but with additional semantics indicating something about the role or function of the relevant dependent.  See the Hatam instrument prefix for an example."
+  },
+  {
+    "Category": "Present",
+    "Macrocategory": "TAM+",
+    "Definition": "True present or Current Relevance (defined for Jeli [Mande, Ivory Coast] by Tröbs 1998: 141-2): makes a verb present or perfect."
+  },
+  {
+    "Category": "TM",
+    "Macrocategory": "TAM+",
+    "Definition": "Tense and mood"
+  },
+  {
+    "Category": "Quotative",
+    "Macrocategory": "evidential",
+    "Definition": "Reported speech, quotative, and other dedicated markers of direct, indirect, or semidirect speech."
+  },
+  {
+    "Category": "Possessive",
+    "Macrocategory": "NP-related",
+    "Definition": "Possessive morphology (often affix), usually dependent-driven agreement on head."
+  },
+  {
+    "Category": "Sequential",
+    "Macrocategory": "TAM+",
+    "Definition": "Sequenced or sequential actions (anterior or posterior relative tense).  Maybe this category should be conflated with future/posterior."
+  },
+  {
+    "Category": "Conditional",
+    "Macrocategory": "TAM+",
+    "Definition": "Mood category marking conditionality in any sense (hypothetical, counterfactual, etc.)."
+  },
+  {
+    "Category": "MA",
+    "Macrocategory": "TAM+",
+    "Definition": "Mood and aspect"
+  },
+  {
+    "Category": "Case",
+    "Macrocategory": "role",
+    "Definition": "E.g. Kunwinjku inflected verbs can take a case suffix; makes the verb (approximately) an adverbial clause (‘when’, etc.)."
+  },
+  {
+    "Category": "Control",
+    "Macrocategory": "role",
+    "Definition": "As in Salishan: deliberate, involuntary, etc. control of A over the action."
+  },
+  {
+    "Category": "Topic",
+    "Macrocategory": "pragmatic",
+    "Definition": "Either sentential topic (what is talked about in a sentence, opposed to comment) or discourse topic (central participant of a stretch of discourse)."
+  },
+  {
+    "Category": "Taxis",
+    "Macrocategory": "inter-clausal",
+    "Definition": "Converb, participle, etc. morphology that can expand a fully inflected verb form"
+  },
+  {
+    "Category": "Progressive",
+    "Macrocategory": "TAM+",
+    "Definition": "Aktionsart category involving bounded duration."
+  },
+  {
+    "Category": "Clusivity",
+    "Macrocategory": "person",
+    "Definition": "inclusive/exclusive"
+  },
+  {
+    "Category": "Spatial",
+    "Macrocategory": "event-specs",
+    "Definition": "Various local, spatial, etc. things (other than Deixis)."
+  },
+  {
+    "Category": "Symmetrical_voice",
+    "Macrocategory": "pragmatic",
+    "Definition": "Assignment of role to an NP with a certain marker or status (proximate, topic, focus, etc.) without a change in syntactic transitivity. This includes systems such as Western Austronesian focus, Yukagir focus, Algonquian obviation, etc."
+  },
+  {
+    "Category": "Distributive",
+    "Macrocategory": "number",
+    "Definition": "Multiple occurrences of an argument, separate from role marking and distinct from number marking"
+  },
+  {
+    "Category": "Reversative",
+    "Macrocategory": "event-specs",
+    "Definition": "‘undo’, etc."
+  },
+  {
+    "Category": "Unspecified_Argument",
+    "Macrocategory": "valence",
+    "Definition": "Unspecified or generic (or similar) A, O, etc."
+  },
+  {
+    "Category": "Middle",
+    "Macrocategory": "valence",
+    "Definition": "Middle voice.  This is probably lexical or derivational, not inflectional."
+  },
+  {
+    "Category": "Incompletive",
+    "Macrocategory": "TAM+",
+    "Definition": "Incompletive aspect."
+  },
+  {
+    "Category": "Purposive",
+    "Macrocategory": "TAM+",
+    "Definition": "(Term used for Tariana and used as though it were a standard term.  Means ‘go and ...’, ‘(in order) for ... to...’.  Consider changing to Modality."
+  },
+  {
+    "Category": "TAME",
+    "Macrocategory": "TAM+",
+    "Definition": "TAM and evidential, all in one slot"
+  },
+  {
+    "Category": "Affect",
+    "Macrocategory": "pragmatic",
+    "Definition": "Indicates that an argument (e.g. A) is affected by, or has an interest in, the event."
+  },
+  {
+    "Category": "AE",
+    "Macrocategory": "TAM+",
+    "Definition": "Aspect and evidentiality"
+  },
+  {
+    "Category": "ME",
+    "Macrocategory": "TAM+",
+    "Definition": "Mood and evidentiality"
+  },
+  {
+    "Category": "TAE",
+    "Macrocategory": "TAM+",
+    "Definition": "Tense, aspect and evidentiality"
+  },
+  {
+    "Category": "TN",
+    "Macrocategory": "TAM+",
+    "Definition": "Tense, and negation"
+  }
+]

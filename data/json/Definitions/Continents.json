@@ -1,0 +1,62 @@
+[
+  {
+    "Continent": "Africa",
+    "Macrocontinent": "Africa",
+    "Hemisphere": "OW",
+    "Description": "All of Africa."
+  },
+  {
+    "Continent": "W and SW Eurasia",
+    "Macrocontinent": "Eurasia",
+    "Hemisphere": "OW",
+    "Description": "Western and Southwestern Eurasia. Including the Caucasus and following the northern shore of the Black Sea and the Carpathians to the Baltic sea. Also includes the languages of Ancient Anatolia and Mesopotamia east to the Hindu Kush (including the Iranian plateau)."
+  },
+  {
+    "Continent": "N-C Asia",
+    "Macrocontinent": "Eurasia",
+    "Hemisphere": "OW",
+    "Description": "Northern and Central Asia. Siberia, the Tibetan plateau, Mongolia, Korea, and Japan."
+  },
+  {
+    "Continent": "S/SE Asia",
+    "Macrocontinent": "Eurasia",
+    "Hemisphere": "OW",
+    "Description": "South and Southeast Asia. The Indic subcontinent (including the Himalayas, but not the Tibetan plateau), mainland Southeast Asia, and insular Southeast Asia up to the Wallace Line (between Sumbawa and Flores)."
+  },
+  {
+    "Continent": "Australia",
+    "Macrocontinent": "Pacific",
+    "Hemisphere": "OW",
+    "Description": "All of Australia."
+  },
+  {
+    "Continent": "NG and Oceania",
+    "Macrocontinent": "Pacific",
+    "Hemisphere": "OW",
+    "Description": "New Guinea and Oceania (all islands east of the Wallace Line)."
+  },
+  {
+    "Continent": "W N America",
+    "Macrocontinent": "Americas",
+    "Hemisphere": "NW",
+    "Description": "Western North America. From the Pacific coast (excluding the Aleutian islands, including only mainland Alaska) to the lower eastern slope of the major coastal range (Cascades, Rocky Mountains), thus comprising the coastal and intermontane regions. The southern boundary of North America runs along the US/Mexican border."
+  },
+  {
+    "Continent": "E N America",
+    "Macrocontinent": "Americas",
+    "Hemisphere": "NW",
+    "Description": "Eastern North America. From the lower eastern slope of the Cascades and Rocky Mountains to the Atlantic coast (thus comprising the Great Plains and eastern US and Canada). The southern boundary runs along the US/Mexican border; perhaps this boundary should eventually be placed at the northern limit of the Mesoamerican cultural area."
+  },
+  {
+    "Continent": "C America",
+    "Macrocontinent": "Americas",
+    "Hemisphere": "NW",
+    "Description": "Central America. The southern boundary is the Panama Canal; the northern boundary is the U.S.-Mexico border. Perhaps this boundary should eventually be placed at the northern limit of the Mesoamerican cultural area."
+  },
+  {
+    "Continent": "S America",
+    "Macrocontinent": "Americas",
+    "Hemisphere": "NW",
+    "Description": "All of South America."
+  }
+]

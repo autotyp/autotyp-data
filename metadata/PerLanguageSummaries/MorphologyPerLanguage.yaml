@@ -1,0 +1,235 @@
+description: >-
+  Per-language summary of morphological properties
+kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+data: table
+counts:
+  n_languages: 998
+  n_variables: 25
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      In this database a language is actually a dialect or variety, in that
+      individual dialects are entered as languages. That is, each language has
+      its own ID number (the 'LID') distinct from that of the pan-dialectal
+      language:e.g. LID 87 German, 1227 Upper Austrian German, 1295 Berlin
+      German, 1310 Zürich German, 2845 Old High German, etc. (The pan-dialectal
+      language is identified as the lowest taxonomic level, the `dialect group',
+      but this information is incomplete in many areas and has not been included
+      in the current release.) The general criterion for a separate language
+      record in the database is that it has a distinct property in at least one
+      of the typological variables that we survey; this may or may not coincide
+      with sociolinguistic criteria.
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  HasAnyVerbAgreement:
+    description: >-
+      Does the language have some kind of verb agreement (including pronominal/anaphoric
+      agreement), based on our records in the Synthesis, Locus and Grammatical Relations
+      modules
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: logical
+  # -- end of HasAnyVerbAgreement
+
+  MorphemeClassesCount:
+    description: >-
+        Total number of distinct morpheme classes in the language, i.e. morphological elements
+        that are distinct in position, host restrictions or formative vs. word status
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: integer
+  # -- end of MorphemeClassesCount
+
+  PreposedMorphemeClassesCount:
+    description: >-
+        Number of morpheme classes that appear before their phonological host
+        (with distinct host restrictions or word vs formative status)
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: integer
+  # -- end of PreposedMorphemeClassesCount
+
+  PostposedMorphemeClassesCount:
+    description: >-
+        Number of morpheme classes that appear after their phonological host
+        (with distinct host restrictions or word vs formative status)
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: integer
+  # -- end of PostposedMorphemeClassesCount
+
+  HasAnyPrefixes:
+    description: >-
+      Are prefixes (restricted preposed formatives) present in the language
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: integer
+  # -- end of HasAnyPrefixes
+
+  HasAnySuffixes:
+    description: >-
+      Are suffixes (restricted postposed formatives) present in the language
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: integer
+  # -- end of HasAnySuffixes
+
+  HasAnyInfixes:
+    description: >-
+      Are infixes (restricted interposed formatives) present in the language
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: integer
+  # -- end of HasAnyInfixes
+
+  HasAnyProclitics:
+    description: >-
+        Are proclitics (unrestricted or semirestricted preposed formatives) present
+        in the language
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: integer
+  # -- end of HasAnyProclitics
+
+  HasAnyEnclitics:
+    description: >-
+        Are enclitics (unrestricted or semirestricted postposed formatives) present
+        in the language
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: integer
+  # -- end of HasAnyEnclitics
+
+  HasAnyEndoclitics:
+    description: >-
+        Are endoclitics (unrestricted or semirestricted interposed formatives) present
+        in the language
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: integer
+  # -- end of HasAnyEndoclitics
+
+  HasAnyPreposedFormatives:
+    description: >-
+      Are any preposed formatives present in the language
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: integer
+  # -- end of HasAnyPreposedFormatives
+
+  HasAnyPostposedFormatives:
+    description: >-
+      Are any postposed formatives present in the language
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: integer
+  # -- end of HasAnyPostposedFormatives
+
+  HasAnyInterposedFormatives:
+    description: >-
+      Are any interposed formatives present in the language
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: integer
+  # -- end of HasAnyInterposedFormatives
+
+  HasAnyFlexivity:
+    description: >-
+        Some kind of flexivity in any part of morphology, i.e. some kind of allomorphy in stems
+         and/or affixes, lexically or grammatically conditioned
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: logical
+  # -- end of HasAnyFlexivity
+
+  HasAnyFlexivityForNouns:
+    description: >-
+        Some kind of flexivity in nominal morphology (case, possession, number etc.), i.e.
+        some kind of allomorphy in stems and/or affixes, lexically or grammatically conditioned
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: logical
+  # -- end of HasAnyFlexivityForNouns
+
+  HasAnyFlexivityForVerbs:
+    description: >-
+        Some kind of flexivity in verbal morphology (tense, agreement etc.), i.e. some kind of
+        allomorphy in stems and/or affixes, lexically or grammatically conditioned
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: logical
+  # -- end of HasAnyFlexivityForVerbs
+
+  HasAnyLexicalFlexivity:
+    description: >-
+        Some kind of lexical flexivity in any morphology, i.e. some kind of lexically conditioned
+        allomorphy in stems and/or affixes anywhere nominal or verbal morphology
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: logical
+  # -- end of HasAnyLexicalFlexivity
+
+  HasAnyLexicalFlexivityForNouns:
+    description: >-
+        Some kind of lexical flexivity in nominal morphology (case, possession, number etc.), i.e.
+        some kind of lexically conditioned allomorphy in stems and/or affixes anywhere nominal
+        morphology
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: logical
+  # -- end of HasAnyLexicalFlexivityForNouns
+
+  HasAnyLexicalFlexivityForVerbs:
+    description: >-
+        Some kind of lexical flexivity in verbal morphology (tense, agreement etc.), i.e.
+        some kind of lexically conditioned allomorphy in stems and/or affixes anywhere in
+        verbal morphology
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: logical
+  # -- end of HasAnyLexicalFlexivityForVerbs
+
+  HasAnyPolyexponence:
+    description: >-
+        Some kind of polyexponence somewhere in any morphology: whether or not markers express
+        more than one category
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: logical
+  # -- end of HasAnyPolyexponence
+
+  HasAnyPolyexponenceForNouns:
+    description: >-
+        Some kind of polyexponence somewhere in nominal morphology (case, possession, number etc.):
+        whether or not markers express more than one category
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: logical
+  # -- end of HasAnyPolyexponenceForNouns
+
+  HasAnyPolyexponenceForVerbs:
+    description: >-
+        Some kind of polyexponence somewhere verbal morphology (tense, agreement etc.):
+        whether or not markers express more than one category
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: logical
+  # -- end of HasAnyPolyexponenceForVerbs
+
+  VerbSlotsInOppositionToZeroCount:
+    description: >-
+      Number of slots in verbal morphology where one or more overt markers are in
+      opposition to markers with zero exponence (data from VerbSynthesis)
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: integer
+  # -- end of VerbSlotsInOppositionToZeroCount
+
+  PreposedVerbSlotsInOppositionToZeroCount:
+    description: >-
+      Number of slots in pre-stem morphology where one or more overt markers are in
+      opposition to markers with zero exponence (data from VerbSynthesis)
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: integer
+  # -- end of PreposedVerbSlotsInOppositionToZeroCount
+
+  PostposedVerbSlotsInOppositionToZeroCount:
+    description: >-
+        Number of slots in post-stem morphology where one or more overt markers are in
+        opposition to markers with zero exponence (data from VerbSynthesis)
+    kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
+    data: integer
+  # -- end of PostposedVerbSlotsInOppositionToZeroCount

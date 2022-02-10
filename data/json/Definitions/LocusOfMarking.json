@@ -1,0 +1,191 @@
+[
+  {
+    "LocusOfMarking": "H",
+    "LocusOfMarkingBinned6": "H",
+    "LocusOfMarkingBinned5": "H",
+    "Definition": "On head."
+  },
+  {
+    "LocusOfMarking": "D",
+    "LocusOfMarkingBinned6": "D",
+    "LocusOfMarkingBinned5": "D",
+    "Definition": "On dependent.  For zero formative on dependent, code as Ø."
+  },
+  {
+    "LocusOfMarking": "H+D",
+    "LocusOfMarkingBinned6": "2",
+    "LocusOfMarkingBinned5": "2",
+    "Definition": "Simultaneously (or mostly simultaneously) on head and dependent"
+  },
+  {
+    "LocusOfMarking": "F",
+    "LocusOfMarkingBinned6": "F",
+    "LocusOfMarkingBinned5": "FloatingorClitic",
+    "Definition": "Free or floating, including particles or similar in phrase-second position (Wackernagel position), e.g. Tagalog ‘linkers’"
+  },
+  {
+    "LocusOfMarking": "F+D",
+    "LocusOfMarkingBinned6": "2",
+    "LocusOfMarkingBinned5": "2",
+    "Definition": "Simultaneously (or mostly simultaneously) detached and on dependent (e.g. an argument role is marked by both a Wackernagel agreement clitic and case)"
+  },
+  {
+    "LocusOfMarking": "P",
+    "Definition": "The relation is marked by position (word or morpheme order)."
+  },
+  {
+    "Definition": "not applicable"
+  },
+  {
+    "LocusOfMarking": "h+D",
+    "LocusOfMarkingBinned6": "2",
+    "LocusOfMarkingBinned5": "D",
+    "Definition": "Dependent marking is dominant. Additional head marking with some verbs only or under specific morphosyntactic conditions as noted."
+  },
+  {
+    "LocusOfMarking": "H+d",
+    "LocusOfMarkingBinned6": "2",
+    "LocusOfMarkingBinned5": "H",
+    "Definition": "Head marking is dominant. Additional dependent marking with some NPs or under specific morphosyntactic conditions as noted."
+  },
+  {
+    "LocusOfMarking": "d",
+    "LocusOfMarkingBinned6": "D",
+    "LocusOfMarkingBinned5": "D",
+    "Definition": "Dependent marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted."
+  },
+  {
+    "LocusOfMarking": "Ø",
+    "LocusOfMarkingBinned6": "Ø",
+    "LocusOfMarkingBinned5": "Ø",
+    "Definition": "No marking"
+  },
+  {
+    "LocusOfMarking": "DD",
+    "LocusOfMarkingBinned6": "D",
+    "LocusOfMarkingBinned5": "D",
+    "Definition": "On dependent, with more than one formative or more than one category. Typical instance: genitive (or possessive form of pronoun) plus head-driven agreement (dependent agreeing with head)."
+  },
+  {
+    "LocusOfMarking": "Dd",
+    "LocusOfMarkingBinned6": "D",
+    "LocusOfMarkingBinned5": "D",
+    "Definition": "Same as DD but with the additional formative or category restricted to some possessors only (e.g. pronouns only: German; contrast Hindi, where all possessors show head-driven agreement)"
+  },
+  {
+    "LocusOfMarking": "h",
+    "LocusOfMarkingBinned6": "H",
+    "LocusOfMarkingBinned5": "H",
+    "Definition": "Head marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted."
+  },
+  {
+    "LocusOfMarking": "HH",
+    "LocusOfMarkingBinned6": "H",
+    "LocusOfMarkingBinned5": "H",
+    "Definition": "On head, with more than one formative or more than one category. Typical case: construct state or linker on head plus head-driven agreement ; or Philippine-style voice plus agreement"
+  },
+  {
+    "LocusOfMarking": "hh",
+    "LocusOfMarkingBinned6": "H",
+    "LocusOfMarkingBinned5": "H",
+    "Definition": "On head, with more than one formative or more than one category, but both formatives have restricted distribution."
+  },
+  {
+    "LocusOfMarking": "h+d",
+    "LocusOfMarkingBinned6": "2",
+    "LocusOfMarkingBinned5": "2",
+    "Definition": "Simultaneously on head and dependent, both with restrictions."
+  },
+  {
+    "LocusOfMarking": "H’",
+    "LocusOfMarkingBinned6": "H",
+    "LocusOfMarkingBinned5": "H",
+    "Definition": "NP-internal head in a modifier-headed agreement pattern"
+  },
+  {
+    "LocusOfMarking": "D on H",
+    "LocusOfMarkingBinned6": "D on H",
+    "LocusOfMarkingBinned5": "FloatingorClitic",
+    "Definition": "Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where nouns and independent pronouns are case-marked.  (The case itself is dependent marking, but the dependent argument can be realized by agreement morphology on the head. If it is, it absorbs the argument position in the clause and therefore does not allow an independent NP to show up in the same clausal core.)"
+  },
+  {
+    "LocusOfMarking": "d on h",
+    "LocusOfMarkingBinned6": "D on H",
+    "LocusOfMarkingBinned5": "FloatingorClitic",
+    "Definition": "Headward-migrated dependent marking, restricted in some way.  Typical cases:  Bagirmi or standard French, where there is no case on independent pronouns and nouns, so only pronominal agreement markers are case-marked.  As a result, arguments  are differentiated only in headward-migrated dependent marking. This marking realizes the dependent argument syntactically and leaves no place for an independent NP to show up in the same clausal core."
+  },
+  {
+    "LocusOfMarking": "h+d on h",
+    "LocusOfMarkingBinned6": "D on H",
+    "LocusOfMarkingBinned5": "FloatingorClitic",
+    "Definition": "Head marking (construct state type, i.e. registers a dependent but does not index its properties) plus headward-migrated dependent-marked pronouns"
+  },
+  {
+    "LocusOfMarking": "Hh+D",
+    "LocusOfMarkingBinned6": "2",
+    "LocusOfMarkingBinned5": "2",
+    "Definition": "Two head marks (one restricted) plus one dependent."
+  },
+  {
+    "LocusOfMarking": "H+d on h",
+    "LocusOfMarkingBinned6": "D on H",
+    "LocusOfMarkingBinned5": "FloatingorClitic",
+    "Definition": "Head marking (construct state type, i.e. registers a dependent but does not index its properties) plus headward-migrated dependent-marked pronouns"
+  },
+  {
+    "Definition": "Uncertain data (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state marker])"
+  },
+  {
+    "LocusOfMarking": "hh+d",
+    "LocusOfMarkingBinned6": "2",
+    "LocusOfMarkingBinned5": "2",
+    "Definition": "Two restricted H markers and one restricted D marker."
+  },
+  {
+    "Definition": "No information available."
+  },
+  {
+    "LocusOfMarking": "H/D/DH",
+    "LocusOfMarkingBinned5": "2",
+    "Definition": "Split, e.g. inalienables take H or D+H, alienables take only D."
+  },
+  {
+    "LocusOfMarking": "H/D",
+    "LocusOfMarkingBinned5": "2",
+    "Definition": "Split, either H or D."
+  },
+  {
+    "LocusOfMarking": "D + D on H",
+    "LocusOfMarkingBinned5": "FloatingorClitic",
+    "Definition": "Clitic doubling, where the argument is D-marked and is doubled by a D-marked pronominal on the verb."
+  },
+  {
+    "LocusOfMarking": "f",
+    "LocusOfMarkingBinned6": "F",
+    "LocusOfMarkingBinned5": "FloatingorClitic",
+    "Definition": "Floating, under limited circumstances (e.g. Yagua DOM by floating agreement with definite noun)"
+  },
+  {
+    "LocusOfMarking": "H+F",
+    "LocusOfMarkingBinned6": "H",
+    "LocusOfMarkingBinned5": "H",
+    "Definition": "Head plus floating"
+  },
+  {
+    "LocusOfMarking": "F+d",
+    "LocusOfMarkingBinned6": "2",
+    "LocusOfMarkingBinned5": "FloatingorClitic",
+    "Definition": "Floating plus restricted dependent marking."
+  },
+  {
+    "LocusOfMarking": "H/F",
+    "LocusOfMarkingBinned5": "2",
+    "Definition": "Split, head or floating.  E.g. Halkomelem (Galloway 1984:179): possessive 1sg is F, 3sg is H."
+  },
+  {
+    "LocusOfMarking": "H+",
+    "LocusOfMarkingBinned6": "H",
+    "LocusOfMarkingBinned5": "H",
+    "Definition": "Possessor promoted to verb argument (external possession), and indexed or registered on verb.   Example: Registered in Nez Perce (Rude, U. Ore. diss. 1985:199ff.)."
+  }
+]

@@ -1,0 +1,59 @@
+SyntacticRole,SyntacticMacrorole,Definition
+A-default,A,"Most agentive argument of (di)transitive verb. Includes experiencers as long as they are coded in the same way as agents. If they are coded like patients, they are treated as ‘A-exp’ here."
+U-default,P,"Most patientive argument of monotransitive verb. Includes  ‘contents/stimuli’ as long as they are coded in the same way as patients. If they are coded like agents, they are treated as ‘C’ here"
+S-default,S,Single argument of intransitive verb
+Pat,P,"Patientive argument irrespective of transitivity. Typical in active/stative systems, but often grammaticalized to a degree where ‘agentivity’ or ‘control’ do no longer predict the distribution of the role."
+T-default,P,Theme argument of ditransitives; corresponds to ‘secondary object’ in a language that conflates U and G.
+B-default,P,"beneficiary, goal, recipient argument of ditransitives; corresponds to ‘indirect object’ in a language that conflates U and T."
+A-exp,A,"Experiencers that behave like A but not entirely. Since this is a form class concept, it includes arguments that are ‘obliged’ in an obligation construction and possessors in dative possessor constructions (subspecies of A-obl). An experiencer is an A-exp only if it is thematically/topically more prominent than the stimulus; otherwise it is a plain Patient."
+U-def,P,Definite U. Good example: accusative marked Turkish direct objects
+T-def,P,Definite T. Good example: accusative marked Turkish direct objects
+U-emp,P,"U with high empathy/animacy. Good example: Spanish a, Indo-Iranian datives"
+T-emp,P,"U with high empathy/animacy. Good example: Spanish a, Indo-Iranian datives"
+A-anim,A,Transitive actors that are animate
+G-default,P,Goal of motion verbs
+<any>,,any role depending on the syntactic environment
+S-d,S,Single argument in intransitives that are derived from transitives through (anti)passives and other detransitivizing morpholexical operations (only if the language makes a distinction between derived and non-derived S)
+U-stim,P,stimuli that mostly but not entirely behave like the most patientive argument of transitive verbs
+Act,A,"volitional, agentive actors irrespective of transitivity. Typical in active/stative systems, but often grammaticalized to a degree where ‘agentivity’ or ‘control’ do no longer predict the distribution of the role."
+core,,"any of S, A or U arguments"
+oblique,,general oblique
+O-adp,,object of adposition
+A-pro,A,"Pronominal A’s, including demonstratives. If the distinction is between personal pronouns and everything else it is more likely to have to with empathy (‘A-emp’)"
+U-com,P,comitative object of applicative
+U-loc,P,locative object of applicative
+U-circ,P,circumstantial object of applicative
+U-instr,P,instrumental object of applicative
+U-nom,P,"U in the nominative, unmarked case"
+A-nom,A,"A in the nominative, unmarked case"
+T-nom,P,"T in the nominative, unmarked case"
+B-rec,P,Recipients of ditransitives if formally distinct from beneficiaries and goals
+locative,,locative
+I-default,,Instrument
+B-ben,P,Recipients of ditransitives if formally distinct from recipients and goals
+A-poss,A,Possessor (in clause construction translatable with ‘have’).
+A>U,A,roles marked simultaneously; A acts on U; typical in inverse markers
+POSS-default,POSS,Possessor: all genitival relations in an NP. Note: if a POSS marker  is sused for indicating experience beyond literal possession (e.g. my-thirst/my-love is.there vs. literal my-leg/my-heart hurts) note this as A-exp (if with bivalent predicate) or as S-exp (if with a monovalent predicate)
+S-exp,S,Experiencers that mostly behave like S but not entirely
+E-default,A,"Experiencer. Only if covering ALL experiencers as distinct from A’s. If only some experiencers are covered, the others being coded like agentive A’s, then this is coded as ‘A-exp’"
+U-ref,P,"Referential object,i.e. all arguments except those that refer to generic kinds"
+U-pro,P,Incorporated pronoun (can’t co-occur with co-referential overt object NP in the same clause).
+U-gener,P,Nonspecific U
+ATTR-default,ATTR,The relation borne by attributive adjectives.
+ARG-nom,,any argument in the unmarked (nominative) case.
+S-nom,S,S in the unmarked (nominative) case
+AFF,,"‘Affected’ non-argumental participant, e.g. ethical datives, ascended possessors etc."
+U-disamb,P,"U in the presence of an unmarked A; if the A is case-marked, U is not also case-marked. Example: Rapanui Accusative"
+POSS-def,POSS,possessor with specific reference
+U-spec.anim,P,U with both specific and animate reference
+PRED.N,,Predicate nouns
+U-spec,P,U with specific reference
+B-spec,P,B with specific reference
+S-oblig,S,S in obligative constructions (Russ. emu [nado] skazat’; Kewa ‘his says’ = ‘it’s up to him to say’)
+B-def,P,B with definite reference
+Temporal,,time circumstance
+U-ref.human,P,U with human reference
+COMP,,Standard of comparison
+B-gen,P,B in a possessor-denoting case (genitive)
+COM,,comitative (e.g. a verb agreement role in Abkhaz)
+U/B-default,,"the same marker used for both patients/undergoes of transitives and beneficiary, goal, recipient argument of ditransitives;"

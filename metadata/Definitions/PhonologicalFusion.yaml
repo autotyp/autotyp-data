@@ -1,0 +1,152 @@
+description: >-
+  Phonological fusion of grammatical marker, as defined in Bickel & Nichols
+  2007 (in Language typology and syntactic description, ed. T. Shopen,
+  Cambridge: Cambridge University Press)
+kind: manual data entry
+data: table
+fields: 
+  Fusion:
+    description: >-
+      Phonological fusion of grammatical marker, as defined in Bickel & Nichols
+      2007 (in Language typology and syntactic description, ed. T. Shopen,
+      Cambridge: Cambridge University Press)
+    kind: manual data entry
+    data: value-list
+    values: 
+      "isolating": >-
+        The formative is a free phonological word. If it is, it is likely to be written
+        as a separate word, though this is not always true: non-isolating formatives like
+        clitics are often written as separate words, and isolating formatives are written
+        with hyphens or clitic boundary markers. Therefore you will need to look at
+        prosodic factors such as word stress.
+      "concatenative": >-
+        The formative is a clitic or segmentable affix. Word-level phonological processes
+        (such as vowel harmony), word-internal kinds of sandhi, prosodic phenomena (such
+        as word stress) or general inability to stand alone, identify a formative as
+        concatenative (rather than an independent word). Unless there is evidence to the
+        contrary, zeroes are coded as concatenative.
+      "Nonconcatenative": >-
+        No longer used. Instead, use the more specific type of nonconcatenative marking
+        (Fusion ID #s 5ff). See log #40
+      "unknown": >-
+        Unknown
+      "isolating_or_concatenative": >-
+        Isolating as regards stress, concatenative as regards segmental rules -- or vice
+        versa.
+      "reduplicative": >-
+        A category is marked by some kind of reduplication effect
+      "tonal": >-
+        A tone contrast marks a morphological contrast. The tone must be not be the result
+        of a general phonological sandhi rule, but represent true internal tone changes.
+      "concatenative_and_reduplicative": >-
+        Concatenative formative plus reduplication (usually reduplication of stem). If
+        some lexemes take just the affix and others take the affix plus the reduplication,
+        choose Concat + redupl and code for lexeme-based formative flexivity. (The
+        flexivity lies in whether they do or do not take the reduplication part.)
+      "concatenative_and_ablaut": >-
+        Concatenative formative plus ablaut (usually stem ablaut).
+      "concatenative_or_ablaut": >-
+        Concatenative formative or ablaut, neither one clearly primary (or both equally
+        primary).
+      "replacive": >-
+        The formative replaces a stem (or theme or base) segment. This is different from
+        regularly concatenative formatives which alternate with other formatives, and
+        not with stem segments. Examples: Marxist derived from Marxism (-ism replaces
+        -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology, 140; Oxford, 1998).
+        In Slavic hypocoristics, after truncation, the stem-final consonant is replaced
+        with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’.
+      "prosodic_templatic": >-
+        Superimposition of a syllable or foot template onto the stem, resulting in such
+        processes as lengthening, gemination etc. Example: Lango alienable possesse
+        marking, Semitic voice marking, etc.
+      "isolating_then_concatenative": >-
+        First part of the formative is isolating, second part is concatenative.
+      "concatenative_then_isolating": >-
+        First part of the formative is concatenative, second part is isolating.
+      "tonal_or_ablaut_then_isolating": >-
+        First part of the formative is a tonal or ablaut alternation; second part is
+        isolating. Example: Kisi negation, where the verb stem undergoes tone changes and
+        a particle is added (Childs, A Grammar of Kisi, 220ff.; Mouton de Gruyter 1995.
+      "suppletive": >-
+        One root or morpheme replaces another in part of a paradigm.
+      "lenition": >-
+        Alternation in one or more consonant features
+      "ablaut": >-
+        Alternation of stem segments in some grammatical context. Distinct from
+        phonologically conditioned alternation.
+      "concatenative_default_or_isolating": >-
+        Concatenative formative is default; isolating allomorph under certain conditions.
+      "isolating_default_or_concatenative": >-
+        Isolating formative is default; concatenative allomorph under certain conditions.
+      "mixed": >-
+        This value is used only for survey purposes. Do not use when inputting data. When
+        inputting data, choose a specific value or <?>.
+      "distributed": >-
+        There are realizational traces of the category on several or even all morphemes
+        in a string, and none of these seem more basic (so that others could be analyzed
+        as category-triggered allomorphs. Good example: Semitic root&pattern morphology,
+        where for TAM+DIATHESIS values it seems abritrary to either take the stem ablaut
+        or the affix form as basic. They code TAM+DIATHESIS simultaneously.
+      "concatenative_or_suppletive": >-
+        Concatenative formative or suppletion, under different conditions.
+      "tonal_or_suppletive": >-
+        Tonal formative or suppletion, under different conditions.
+      "ablaut_or_suppletive": >-
+        Ablaut or suppletion, under different conditions.
+      "concatenative_or_tonal": >-
+        Concatenative or tonal formative, under different conditions.
+      "reduplicative_or_suppletive": >-
+        Reduplication or suppletion, under different conditions.
+      "ablaut_or_tonal": >-
+        Ablaut or tone change, under different conditions.
+  # -- end of Fusion
+
+  FusionBinned6:
+    description: >-
+      Phonological fusion of grammatical marker, as defined in Bickel & Nichols
+      2007 (in Language typology and syntactic description, ed. T. Shopen,
+      Cambridge: Cambridge University Press), binned into six types
+    kind: manual data entry
+    data: value-list
+  # -- end of FusionBinned6
+
+  FusionIsIsolating:
+    description: >-
+      Is the marker phonologically isolated, i.e. the marker does not phonologically interact
+      with any host
+    kind: manual data entry
+    data: logical
+  # -- end of FusionIsIsolating
+
+  FusionIsNonlinear:
+    description: >-
+      Does a grammatical marker have nonlinear realization, as defined in Bickel & Nichols
+      2007 (in Language typology and syntactic description, ed. T. Shopen, Cambridge: Cambridge
+      University Press)
+    kind: manual data entry
+    data: logical
+  # -- end of FusionIsNonlinear
+
+  FusionIsReduplicative:
+    description: >-
+      Does a grammatical marker have reduplicative realization, as defined in Bickel & Nichols
+      2007 (in Language typology and syntactic description, ed. T. Shopen, Cambridge: Cambridge
+      University Press)
+    kind: manual data entry
+    data: logical
+  # -- end of FusionIsReduplicative
+
+  FusionIsTonal:
+    description: >-
+      Does a grammatical marker have tonal realisation, i.e. the marker is realized by phonemic
+      tone only
+    kind: manual data entry
+    data: logical
+  # -- end of FusionIsTonal
+
+  Definition:
+    description: >-
+      Fusion type definition
+    kind: manual data entry
+    data: comment
+  # -- end of Definition

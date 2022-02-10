@@ -1,0 +1,320 @@
+LID,Glottocode,Language,HasGender,GenderCount,GenderCountBinned4
+71,dyir1250,Dyirbal,TRUE,4,more
+692,nucl1327,Limilngan,TRUE,4,more
+668,yecu1235,Totonac (Misantla),FALSE,,
+580,yidi1250,Yidiny,FALSE,,
+64,dier1241,Diyari,FALSE,,
+355,soma1255,Somali,TRUE,2,2
+571,cent2194,Tamazight (Ayt Ndhir),TRUE,2,2
+1519,bora1271,Oromo (Boraana),TRUE,2,2
+167,masa1300,Maa,TRUE,2,2
+98,haus1257,Hausa,TRUE,2,2
+40,buru1296,Burushaski,TRUE,4,more
+386,tuni1252,Tunica,TRUE,2,2
+411,wasc1239,Wishram,TRUE,5,more
+132,kiow1266,Kiowa,FALSE,,
+87,stan1295,German,TRUE,3,3
+114,ingu1240,Ingush,TRUE,5,more
+343,sahu1245,Sahu,,3,3
+340,russ1263,Russian,TRUE,3,3
+608,mari1278,Mari,FALSE,,
+188,halh1238,Mongolian (Khalkha),FALSE,,
+78,finn1318,Finnish,FALSE,,
+423,nort2745,Yukagir (Tundra),FALSE,,
+191,siwa1245,Motuna,TRUE,5,more
+22,anem1249,Anêm,TRUE,2,2
+438,maib1239,Maybrat,,2,2
+325,osse1243,Ossetic,FALSE,,
+348,sanu1240,Sanuma,FALSE,,
+388,tzut1248,Tzutujil,FALSE,,
+318,nung1290,Nunggubuyu,TRUE,6,more
+7,abkh1244,Abkhaz,FALSE,,
+32,basq1248,Basque,FALSE,,
+14,alam1246,Alamblak,TRUE,,
+149,goon1238,Kuniyanti,FALSE,,
+2536,tami1289,Tamil,TRUE,4,more
+69,nubi1251,Nubian (Dongolese),FALSE,,
+378,tiwi1244,Tiwi,TRUE,2,2
+173,mang1381,Mangarayi,TRUE,3,3
+80,adam1253,Fula,TRUE,20,more
+199,nama1264,Nama,TRUE,3,3
+402,ware1253,Warembori,FALSE,,
+686,daha1245,Dahalo,FALSE,,
+2779,yele1255,Yelî Dnye,FALSE,,
+21,amha1245,Amharic,TRUE,2,2
+499,buki1249,Bukiyip,TRUE,18,more
+395,vani1248,Vanimo,TRUE,2,2
+332,pipi1250,Pipil,FALSE,,
+200,sout2994,Nambikwara,FALSE,,
+409,wint1259,Wintu,FALSE,,
+365,pure1242,Tarascan,FALSE,,
+10,west2632,Acoma,FALSE,,
+642,egyp1253,Arabic (Egyptian),TRUE,2,2
+390,ngar1284,Ungarinjin,TRUE,5,more
+148,kung1261,!Kung,TRUE,5,more
+420,yima1243,Yimas,TRUE,11,more
+461,onei1249,Oneida,TRUE,4,more
+129,kett1243,Ket,TRUE,3,3
+2960,avar1256,Avar (Chadakolob),TRUE,3,3
+895,andi1255,Andi,TRUE,5,more
+2962,akhv1239,Akhvakh (Northern),TRUE,3,3
+1149,cham1309,Chamalal,TRUE,5,more
+2572,tind1238,Tindi,TRUE,3,3
+1531,ghod1238,Godoberi,TRUE,3,3
+1807,kara1474,Karata,TRUE,3,3
+1840,bagv1239,Bagwalal,TRUE,3,3
+1263,dido1241,Tsez,TRUE,4,more
+530,hunz1247,Hunzib,TRUE,5,more
+1700,bezh1248,Bezhta,TRUE,5,more
+155,lakk1252,Lak,TRUE,4,more
+2947,darg1241,Dargi (Chirag),TRUE,3,3
+2826,darg1241,Dargi (standard),TRUE,2,2
+145,darg1241,Dargi (Kubachi),TRUE,3,3
+2948,darg1241,Dargi (Mehweb),TRUE,4,more
+2949,darg1241,Dargi (Icari),TRUE,3,3
+2967,darg1241,Dargi (Kaitag),TRUE,3,3
+162,lezg1247,Lezgi,FALSE,,
+2511,taba1259,Tabasaran,TRUE,2,2
+2828,aghu1253,Agul,FALSE,,
+2388,rutu1240,Rutul,TRUE,4,more
+2577,tsak1249,Tsakhur,TRUE,4,more
+1816,kryt1240,Kryz,TRUE,,
+987,budu1248,Budukh,TRUE,4,more
+917,arch1244,Archi,TRUE,4,more
+389,udii1243,Udi,FALSE,,
+413,khin1240,Xinalug,TRUE,4,more
+86,nucl1302,Georgian,FALSE,,
+481,svan1243,Svan,FALSE,,
+34,beja1238,Beja,TRUE,2,2
+65,dizi1235,Dizi,TRUE,2,2
+75,ewee1241,Ewe,FALSE,,
+81,furr1244,Fur,FALSE,,
+91,gumu1244,Gumuz,FALSE,,
+111,ikkk1242,Ik,FALSE,,
+123,kanu1279,Kanuri,FALSE,,
+643,sout2778,Kisi,TRUE,7,more
+147,kuna1268,Kunama,FALSE,,
+163,lugb1240,Logbara,FALSE,,
+165,gand1255,Luganda,TRUE,12,more
+323,tega1236,Orig,TRUE,6,more
+347,sand1273,Sandawe,TRUE,,
+443,koyr1240,Songhai (Koyra Chiini),FALSE,,
+373,tera1251,Tera,FALSE,,
+421,yoru1245,Yoruba,FALSE,,
+68,djin1251,Djingili,TRUE,4,more
+84,gara1269,Garrwa,FALSE,,
+128,kaya1319,Kayardild,FALSE,,
+170,mull1237,Malak-Malak,TRUE,4,more
+178,mari1424,Marrithiyel,TRUE,6,more
+179,mart1255,Martuthunira,FALSE,,
+181,maun1240,Mawng,TRUE,5,more
+93,gunw1252,Gunwinggu,TRUE,4,more
+196,murr1258,Murrinh-patha,FALSE,,
+198,naka1260,Nakkara,TRUE,2,2
+210,wang1291,Ngiyambaa,FALSE,,
+319,nyig1240,Nyigina,FALSE,,
+405,wand1263,Warndarang,TRUE,6,more
+408,west2443,Wemba Wemba,FALSE,,
+416,yank1247,Yankunytjara,FALSE,,
+50,chic1272,Chichimec,FALSE,,
+55,high1242,Chontal (Highland),FALSE,,
+184,misk1235,Miskito,FALSE,,
+186,sanm1295,Mixtec (Chalcatongo),FALSE,,
+27,atak1252,Atakapa,FALSE,,
+53,chit1248,Chitimacha,FALSE,,
+59,plai1258,Cree (Plains),TRUE,2,2
+135,koas1236,Koasati,FALSE,,
+150,kute1249,Kutenai,FALSE,,
+156,lako1247,Lakhota,FALSE,,
+202,natc1249,Natchez,FALSE,,
+208,nezp1238,Nez Perce,FALSE,,
+354,nort2942,Slave,FALSE,,
+377,timu1245,Timucua,FALSE,,
+382,tonk1249,Tonkawa,FALSE,,
+577,wich1260,Wichita,FALSE,,
+422,yuch1247,Yuchi,TRUE,5,more
+25,nucl1235,Armenian (Eastern),FALSE,,
+458,adyg1241,Adyghe (West Circassian),FALSE,,
+73,elam1244,Elamite,TRUE,2,2
+464,mode1248,Greek (modern),TRUE,3,3
+100,hitt1242,Hittite,TRUE,2,2
+107,hung1274,Hungarian,FALSE,,
+435,iris1253,Irish,TRUE,2,2
+456,west2369,Persian,FALSE,,
+569,stan1288,Spanish,TRUE,2,2
+360,sume1241,Sumerian,TRUE,2,2
+12,ainu1240,Ainu,FALSE,,
+18,aleu1260,Aleut,FALSE,,
+56,chuk1273,Chukchi,FALSE,,
+527,even1259,Evenki,FALSE,,
+116,itel1242,Itelmen,FALSE,,
+118,nucl1643,Japanese,FALSE,,
+141,kore1280,Korean,FALSE,,
+201,nana1257,Nanai,FALSE,,
+205,nene1249,Nenets (Tundra),FALSE,,
+433,gily1242,Nivkh,FALSE,,
+387,tuvi1240,Tuva,FALSE,,
+612,cent2128,Yup’ik (Siberian),FALSE,,
+6,ambu1247,Ambulas,TRUE,2,2
+20,amel1241,Amele,FALSE,,
+28,awtu1239,Awtuw,FALSE,,
+33,bauz1241,Bauzi,FALSE,,
+38,kuni1265,Boazi,TRUE,3,3
+103,yaga1260,Hua,FALSE,,
+109,iauu1242,Iau,FALSE,,
+126,kate1253,Kâte,FALSE,,
+130,west2599,Kewa,FALSE,,
+131,kima1246,Kimaama,FALSE,,
+133,kiri1256,Kirikiri,FALSE,,
+134,nort2930,Kiwai,FALSE,,
+136,kobo1249,Kobon,FALSE,,
+138,komb1274,Kombai,FALSE,,
+140,rapo1238,Konua,TRUE,2,2
+550,lavu1241,Lavukaleve,TRUE,3,3
+211,ngka1235,Ngkalmpw Knwme,FALSE,,
+345,salt1242,Salt-Yui,FALSE,,
+350,nucl1632,Sentani,FALSE,,
+358,suen1241,Suena,FALSE,,
+359,sulk1246,Sulka,FALSE,,
+367,tauy1241,Tauya,FALSE,,
+369,tehi1237,Tehit,TRUE,2,2
+370,tele1256,Telefol,TRUE,2,2
+393,usan1239,Usan,FALSE,,
+407,wask1241,Waskia,FALSE,,
+415,nini1235,retire_Yali,FALSE,,
+419,yess1239,Yessan-Mayo,FALSE,,
+620,arao1248,Araona,FALSE,,
+469,awac1239,Awa Pit,FALSE,,
+514,cent2142,Aymara,FALSE,,
+43,cane1242,Canela-Krahô,FALSE,,
+47,cayu1262,Cayuvava,FALSE,,
+599,chay1248,Chayahuita,FALSE,,
+89,para1311,Guaraní (Paraguayan),FALSE,,
+92,puel1244,Gününa-Küne,FALSE,,
+101,hixk1239,Hixkaryana,FALSE,,
+104,hual1241,Quechua (Huallaga),FALSE,,
+176,mapu1245,Mapudungun,FALSE,,
+180,wich1263,Mataco,FALSE,,
+329,paum1247,Paumarí,TRUE,2,2
+333,pira1253,Pirahã,FALSE,,
+567,ship1254,Shipibo-Konibo,FALSE,,
+352,shua1257,Shuar,FALSE,,
+399,wara1303,Warao,FALSE,,
+576,wari1268,Wari,TRUE,3,3
+9,achi1257,Acehnese,FALSE,,
+35,belh1239,Belhare,FALSE,,
+463,nucl1310,Burmese,FALSE,,
+44,carn1240,Car,,3,3
+154,haka1240,Hakka Lai,FALSE,,
+99,hind1269,Hindi,TRUE,2,2
+500,hmon1264,Hmong Njua,FALSE,,
+225,lahu1253,Lahu,FALSE,,
+171,mand1415,Mandarin,FALSE,,
+197,naha1261,Nahali,FALSE,,
+327,paiw1248,Paiwan,FALSE,,
+362,taga1270,Tagalog,,,
+374,thai1261,Thai,FALSE,,
+375,tibe1272,Tibetan (Standard Spoken),FALSE,,
+494,viet1252,Vietnamese,FALSE,,
+51,chim1301,Chimariko,FALSE,,
+63,kumi1248,Diegueño,FALSE,,
+95,sout2956,Haida,FALSE,,
+432,coos1249,Hanis (Coos),FALSE,,
+113,ines1240,Ineseño,FALSE,,
+125,karo1304,Karok,FALSE,,
+168,nort2952,Maidu (Northeast),FALSE,,
+317,nuuc1236,Nuuchahnulth,,,
+72,east2545,Pomo (Eastern),FALSE,,
+338,quil1240,Quileute,TRUE,2,2
+344,sali1253,Salinan,FALSE,,
+351,shas1239,Shasta,FALSE,,
+442,sius1254,Siuslaw (Lower Umpqua),FALSE,,
+356,sout2985,Miwok (Southern Sierra),FALSE,,
+357,squa1248,Squamish,FALSE,,
+363,take1257,Takelma,FALSE,,
+379,tlin1245,Tlingit,FALSE,,
+398,wapp1239,Wappo,FALSE,,
+406,wash1253,Washo,FALSE,,
+418,yoku1256,Yokuts (Yawelmani),FALSE,,
+428,yuro1248,Yurok,FALSE,,
+429,zuni1245,Zuni,FALSE,,
+1739,kusu1250,Kusunda,FALSE,,
+1397,ruka1240,Rukai,FALSE,,
+1036,siks1238,Blackfoot,TRUE,2,2
+534,iraq1241,Iraqw,TRUE,3,3
+2974,mina1276,Mina,FALSE,,
+15,akka1240,Akkadian,TRUE,2,2
+606,naro1249,Nharo,TRUE,3,3
+651,anii1246,//Ani,TRUE,3,3
+385,shos1248,Tümpisa Shoshone,FALSE,,
+412,wiyo1248,Wiyot,FALSE,,
+1896,lele1276,Lele,TRUE,2,2
+177,marg1265,Margi,FALSE,,
+649,jeri1242,Jeli,FALSE,,
+305,izon1238,Ijo,TRUE,3,3
+553,luva1239,Luvale,TRUE,10,more
+466,sang1328,Sango,TRUE,,
+497,supy1237,Supyire,TRUE,8,more
+226,sgaw1245,Karen (Sgaw),FALSE,,
+459,isth1244,Zapotec (Isthmus),FALSE,,
+551,leal1235,Chinantec (Lealao),TRUE,2,2
+669,gras1249,Koiari,FALSE,,
+61,lowe1415,Dani (Lower Grand Valley),FALSE,,
+505,daga1275,Daga,FALSE,,
+404,warl1254,Warlpiri,FALSE,,
+159,lang1324,Lango,FALSE,,
+1828,kuot1243,Kuot,TRUE,2,2
+512,apur1254,Apurina,TRUE,2,2
+400,wara1290,Waray,TRUE,3,3
+2469,soqo1240,Soqotri,TRUE,2,2
+564,rapa1244,Rapanui,FALSE,,
+558,mund1320,Mundari,TRUE,2,2
+535,nucl1305,Kannada,TRUE,3,3
+566,seme1247,Semelai,FALSE,,
+656,koro1312,Korowai,FALSE,,
+77,fiji1243,Fijian (Boumaa),FALSE,,
+645,hata1243,Hatam,FALSE,,
+112,imon1245,Imonda,FALSE,,
+454,rama1270,Rama,FALSE,,
+498,mezq1235,Otomi (Mezquital),FALSE,,
+391,urad1238,Uradhi,FALSE,,
+515,bagi1246,Bagirmi,FALSE,,
+654,nisg1240,Nisgha,FALSE,,
+326,paez1247,Paez,FALSE,,
+492,copa1236,Zoque (Copainalá),FALSE,,
+2987,jams1239,Dogon (Jamsay),FALSE,,
+502,nucl1301,Turkish,FALSE,,
+666,coah1252,Coahuiltec,FALSE,,
+518,brah1256,Brahui,FALSE,,
+538,east2342,Kayah Li (Eastern),FALSE,,
+646,xokl1240,Xokleng,FALSE,,
+454,rama1270,Rama,FALSE,,
+383,trum1247,Trumaí,FALSE,,
+1625,sanm1287,Huave (San Mateo del Mar),FALSE,,
+582,abip1241,Abipon,FALSE,,
+26,casu1237,Asmat,FALSE,,
+414,yagu1244,Yagua,FALSE,,
+655,gunw1252,Mayali,TRUE,4,more
+66,dhuw1249,Djapu,FALSE,,
+82,gaga1251,Gaagudju,TRUE,4,more
+207,nara1262,Nera,FALSE,,
+397,waor1240,Waorani,FALSE,,
+526,epen1239,Epena Pedee,FALSE,,
+493,bara1380,Barasano,TRUE,2,2
+656,koro1312,Korowai,FALSE,,
+528,garo1247,Garo,FALSE,,
+501,mani1292,Meithei,FALSE,,
+223,sout2729,Pumi,FALSE,,
+664,west2420,Kham,FALSE,,
+663,drun1238,Drung,FALSE,,
+540,khas1269,Khasi,TRUE,2,2
+503,yaqu1251,Yaqui,FALSE,,
+660,band1339,Bandjalang,TRUE,4,more
+565,onaa1245,Selknam,TRUE,3,3
+192,movi1243,Movima,TRUE,3,3
+212,nucl1633,Nimboran,,2,2
+106,sand1278,Huave,FALSE,,
+2260,ixte1237,Otomí (Ixtenco),FALSE,,
+578,muru1274,Witoto,FALSE,,
+2797,sout2750,Yukagir (Kolyma),FALSE,,
+3101,assy1241,Neo-Aramaic (Barwar),TRUE,2,2

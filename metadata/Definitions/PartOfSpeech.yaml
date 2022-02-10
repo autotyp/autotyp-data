@@ -1,0 +1,907 @@
+description: >-
+  Part of speech (detailed referential type)
+kind: manual data entry
+data: table
+fields: 
+  PoS:
+    description: >-
+      Part of speech
+    kind: manual data entry
+    data: value-list
+    values: 
+      "V": >-
+        lexical verb
+      "N": >-
+        lexical noun, nominalized verb -- whether possessed or non-possessed (all)
+      "AdvP": >-
+        Adverb Phrases, including all sorts of ‘preverbs’ and predicative modifiers.
+      "Adj": >-
+        adjective
+      "Pro": >-
+        Pronouns. This refers to free pronouns that head NPs; it does not refer to
+        pronominal indexes.
+      "Adp": >-
+        Adposition
+      "Art": >-
+        Article
+      "<any>": >-
+        no restriction as to what kind of stem or terminal node can host the formative.
+        This is one notion of clitic; do not confuse with phrasal affixes,which are or not
+        restricted to a specific XP
+      "2_or_3Pro": >-
+        2nd or 3rd person pronoun
+      "3Pro": >-
+        3rd person pronoun
+      "3sgPro": >-
+        3rd person singular pronoun
+      "n11.d.": >-
+        no data
+      "N_or_Pro": >-
+        noun or pronoun (including nominalized verbs, participles, etc. ). If a language
+        or construction only includes root nouns, this needs to be mentioned. NOT
+        including Adjectives (if this is at all distinct PoS)
+      "1_2Pro_or_N": >-
+        1st or 2nd person, or noun.
+      "n/a": >-
+        not applicable
+      "N-inal": >-
+        inalienably possessed noun
+      "N-alien": >-
+        alienably possessed noun, i.e. one taking alienable possession (see sem_class_def
+        for alienability)
+      "N-hum": >-
+        human noun
+      "Nv": >-
+        nominalized verb
+      "DEM": >-
+        demonstrative
+      "Num": >-
+        numeral
+      "N-proper": >-
+        proper noun
+      "Possessor": >-
+        any possessor NP
+      "Possessum": >-
+        the head of a possessive NP
+      "SAP": >-
+        Speech act participant, i.e. 1st or 2nd person. (Using SAP allows non-SAP to be
+        used for 3rd person pronouns and nouns
+      "1PERS": >-
+        1st person only
+      "N-proper&kin": >-
+        proper nouns and kin nouns
+      "Body_part": >-
+        body parts and similar parts
+      "N-anim": >-
+        animate noun
+      "N-kin": >-
+        kin terms
+      "1sg": >-
+        1st person singular
+      "Pro_or_N-hum": >-
+        personal pronoun or human noun
+      "S": >-
+        Clause
+      "Pro-sg": >-
+        singular pronoun
+      "Pro-pl": >-
+        plural pronoun
+      "VP": >-
+        verb phrase (syntactic domain hosting particles or complementing auxiliaries).
+        Includes all sorts of coconstituents (NPs, adverbs, etc.). For a more specific
+        notion of VP, see #48
+      "V-fin": >-
+        finite verb
+      "V-aux": >-
+        (subset) of auxiliary verbs
+      "PRED": >-
+        any element in predicative use (verb, predicate nominal etc.); predicate phrase
+      "VAdvP": >-
+        type of verb phrase defined as Verb plus adverbials, particles, perhaps pronouns
+        -- but excluding NPs
+      "Quant": >-
+        Quantifiers
+      "non-V": >-
+        any part of speech except verbs
+      "nonSAP": >-
+        noun or third person pronoun (i.e. any third person NP).
+      "PTCP": >-
+        participle
+      "Ord": >-
+        Ordinal numeral
+      "Num_above_20": >-
+        numeral greater than 20
+      "NP": >-
+        (expandable) NP
+      "XP": >-
+        any phrase: the formative attaches to whatever phrase it refers to (typical of
+        focus particles and clitics)
+      "VP-nonfin": >-
+        The elements of the VP with all and only the nonfinite parts of the verb, as in
+        German ;-)
+      "Ord1": >-
+        Ordinal numeral greater than 1
+      "not_1sgPro": >-
+        any noun or pronoun apart from 1sg pronoun
+      "deictic_Pro": >-
+        deictic/demonstrative pronouns
+      "non-PTCP": >-
+        non-participle
+      "sg": >-
+        noun or pronoun in singular
+      "N-def": >-
+        definite noun
+      "high": >-
+        ‘high-indexability’, nouns or pronouns with a higher discourse rank than ‘low-
+        indexability’ (where rank is determined by discourse factors with language-
+        specific weights)
+      "low": >-
+        ‘low-indexability’, nouns or pronouns with a higher discourse rank than ‘low-
+        indexability’ (where rank is determined by discourse factors with language-
+        specific weights)
+      "N-def_or_Pro": >-
+        definite nouns or pronouns
+      "N-indef": >-
+        indefinite noun
+      "N-non-hum": >-
+        non-human noun
+      "Inf": >-
+        infinitive
+      "CONV": >-
+        converb
+      "1/2Pro": >-
+        1st and 2nd person pronouns
+      "3Pro_or_N": >-
+        3rd person pronoun or noun
+      "N_or_Pro-pl": >-
+        noun or pronoun in plural
+      "PTCP_based": >-
+        participle-based verb form
+      "non-PTCP_based": >-
+        any form apart from participle-based forms
+      "V-non-fin": >-
+        nonfinite: verb form with fewer categories coded than in the main clause
+      "N-high-anim": >-
+        noun denoting a higher animate (humans and some animals)
+      "N-low-anim": >-
+        noun denoting a lower animate (some animals, e.g. all non-mammals)
+      "2sgPro": >-
+        2nd person singular pronoun
+      "NOT_2sg_Pro": >-
+        any noun or pronoun apart from 2sgPro
+      "hum": >-
+        human referent
+      "non-hum": >-
+        non-human referent
+      "1/2sgPro": >-
+        1st singular or 2nd singular pronoun
+      "1/2plPro": >-
+        1st plural or 2nd plural pronoun
+      "N-sg": >-
+        noun in singular number
+      "N-pl": >-
+        noun in plural number
+      "3plPro": >-
+        3rd person plural pronoun
+      "2Pro": >-
+        2nd person pronoun
+      "1plPro": >-
+        1st person plural pronoun
+      "N-spec": >-
+        noun with specific reference
+      "N-non-spec": >-
+        noun with non-specific reference
+      "N-inanim": >-
+        inanimate noun
+      "N-non-kin": >-
+        noun apart from kin terms
+      "1Pro": >-
+        1st person pronoun
+      "1&3": >-
+        1st and 3rd person referents
+      "2": >-
+        2nd person referents
+      "Pro_NOT_1sgPro": >-
+        any pronoun apart from 1sg pronoun
+      "1sgPro": >-
+        1st person singular pronoun
+      "NOT_2plPro": >-
+        any noun or pronoun apart from 2plPro
+      "Pro_NOT_2plPro": >-
+        any pronoun apart from 2plPro
+      "2plPro": >-
+        2nd person plural pronoun
+      "N-specif&anim": >-
+        animate noun with specific reference
+      "Pro_NOT_1plPro": >-
+        any pronoun apart from 1pl pronoun
+      "N-pers": >-
+        personal name (proper nouns which are personal names, but not toponyms, etc.)
+      "N-non-sg": >-
+        noun in non-singular number (i.e. noun in dual, trial, and plural)
+      "Pro-kin": >-
+        kinship pronoun
+      "1duPro": >-
+        1st person dual pronoun
+      "2duPro": >-
+        2nd person dual pronoun
+      "N-non-hum-sg": >-
+        non-human noun in singular
+      "N-high": >-
+        noun with a higher discourse rank than ‘N-low’ (where rank is determined by
+        discourse factors with language-specific weights)
+      "N-low": >-
+        noun with a lower discourse rank than ‘N-high’ (where rank is determined by
+        discourse factors with language-specific weights)
+      "3duPro": >-
+        3rd person dual pronoun
+      "3sgPro-hum": >-
+        3rd person singular pronoun referring to a human
+      "3sgPro-non-hum": >-
+        3rd person singular pronoun referring to a non-human
+      "N-non-pers": >-
+        non-personal noun (common nouns and proper nouns which are not personal names
+        (e.g. toponyms))
+      "3sgPro-high": >-
+        3rd person singular pronoun with a higher discourse rank than ‘3sgPro-low’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3plPro-high": >-
+        3rd person plural pronoun with a higher discourse rank than ‘3plPro-low’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3sgPro-low": >-
+        3rd person plural pronoun with a lower discourse rank than ‘3sgPro-high’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3plPro-low": >-
+        3rd person plural pronoun with a lower discourse rank than ‘3plPro-high’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "N-sg-proper": >-
+        proper noun in singular
+      "N-pl-proper": >-
+        proper noun in plural
+      "N-common-sg": >-
+        common (non-proper) noun in singular
+      "N-common-pl": >-
+        common (non-proper) noun in plural
+      "N-common": >-
+        common noun
+      "SUP": >-
+        supine (a nonfinite verb form indicating purpose)
+      "N-pers-male": >-
+        male personal name
+      "N-pers-female": >-
+        female personal name
+      "N-non-hum-pl": >-
+        non-human noun in plural
+      "N-non-hum-du": >-
+        non-human noun in dual
+      "Pro-dep": >-
+        dependent pronoun (e.g. procliticized, etc.) if a language has both dependent and
+        independent pronouns
+      "N-masc-sg87": >-
+        German masculine singular noun (case on determiner)
+      "N-fem-sg87": >-
+        German feminine singular noun
+      "N-neut-sg87": >-
+        German neutral singular noun
+      "3sgPro-masc87": >-
+        German 3rd person masculine pronoun
+      "3sgPro-fem87": >-
+        German 3rd person feminine pronoun
+      "3sgPro-neut87": >-
+        German 3rd person neutral pronoun
+      "1inclPro": >-
+        1st person (plural) inclusive pronoun
+      "1exclPro": >-
+        1st person (plural) exclusive pronoun
+      "Pro-high": >-
+        pronoun with a higher discourse rank than ‘Pro-low’ (where rank is determined by
+        discourse factors with language-specific weights)
+      "Pro-low": >-
+        pronoun with a lower discourse rank than ‘Pro-high’ (where rank is determined by
+        discourse factors with language-specific weights)
+      "N1-sg-inanim340": >-
+        Russian inanimate noun of declension class 1 (e.g. zavod `factory’, mesto `place’)
+      "N1-sg-anim340": >-
+        Russian animate noun of declension class 1 (e.g. student `student’)
+      "N2-sg340": >-
+        Russian noun of declension class 2 (e.g. komnata `room’, sestra ‘sister’)
+      "N3-sg340": >-
+        Russian noun of declension class 3 (e.g. doč’ `daughter’)
+      "N-pl-anim": >-
+        animate noun in plural
+      "N-pl-inanim": >-
+        inanimate noun in plural
+      "AdjP": >-
+        adjective phrase
+      "Adv": >-
+        Adverb
+      "PP": >-
+        Adpositional phrase
+      "3Pro-anim": >-
+        pronoun referring to an animate entity
+      "3Pro-inanim": >-
+        pronoun referring to an inanimate entity
+      "anim": >-
+        animate referent
+      "3Pro-high": >-
+        3rd person pronoun (no number distinction) with a higher discourse rank than
+        ‘3Pro-low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3Pro-low": >-
+        3rd person pronoun (no number distinction) with a lower discourse rank than ‘3Pro-
+        high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "N-du": >-
+        noun in dual number
+      "N-sg-anim": >-
+        animate noun in singular
+      "N-du-anim": >-
+        animate noun in dual
+      "3sgPro-anim": >-
+        3rd person singular pronouns with animate reference
+      "3duPro-anim": >-
+        3rd person dual pronoun with animate reference
+      "3plPro-anim": >-
+        3rd person plural pronoun with animate reference
+      "1pl": >-
+        1st person plural
+      "2sg": >-
+        2nd person singular
+      "2pl": >-
+        2nd person plural
+      "3sg": >-
+        3rd person singular
+      "3pl": >-
+        3rd person plural
+      "1du.incl": >-
+        1st person dual inclusive
+      "1pl.incl": >-
+        1st person plural inclusive
+      "1du.excl": >-
+        1st person dual exclusive
+      "1pl.excl": >-
+        1st person plural exclusive
+      "2du": >-
+        2nd person dual
+      "3du": >-
+        3rd person dual
+      "3": >-
+        3rd person
+      "3sg-anim-high": >-
+        3rd person singular animate argument with a higher discourse rank than ‘3sg-
+        anim-low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3pl-anim-high": >-
+        3rd person plural animate argument with a higher discourse rank than ‘3pl-
+        anim-low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3sg-anim-low": >-
+        3rd person singular animate argument with a lower discourse rank than ‘3sg-
+        anim-high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3pl-anim-low": >-
+        3rd person plural animate argument with a lower discourse rank than ‘3pl-anim-
+        high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "indef": >-
+        indefinite referent
+      "N-anim-high": >-
+        animate noun with a higher discourse rank than ‘N-anim-low’ (where rank is
+        determined by discourse factors with language-specific weights)
+      "N-anim-low": >-
+        animate noun with a lower discourse rank than ‘N-anim-high’ (where rank is
+        determined by discourse factors with language-specific weights)
+      "3anim-high": >-
+        3rd person high-indexability animate referent, i.e. with a higher discourse
+        rank than ‘low-indexability’ (where rank is determined by discourse factors with
+        language-specific weights)
+      "3anim-low": >-
+        3rd person low-indexability animate referent, i.e. with a lower discourse rank
+        than ‘high-indexability’ (where rank is determined by discourse factors with
+        language-specific weights)
+      "3inanim": >-
+        inanimate referent (of the 3rd person)
+      "N-anim-sg-high": >-
+        animate singular noun with a higher discourse rank than ‘N-anim-low’ (where rank
+        is determined by discourse factors with language-specific weights)
+      "N-anim-sg-low": >-
+        animate singular noun with a lower discourse rank than ‘N-anim-high’ (where rank
+        is determined by discourse factors with language-specific weights)
+      "3hum-high": >-
+        3rd person human argument with a higher discourse rank than ‘3hum-low’ (where rank
+        is determined by discourse factors with language-specific weights)
+      "3hum-low": >-
+        3rd person human argument with a lower discourse rank than ‘3hum-high’ (where rank
+        is determined by discourse factors with language-specific weights)
+      "3anim-nhum-high": >-
+        3rd person animate non-human argument with a higher discourse rank than ‘3anim-
+        nhum-low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3anim-nhum-low": >-
+        3rd person animate non-human argument with a lower discourse rank than ‘3anim-
+        nhum-high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3inanim-high": >-
+        3rd person inanimate argument with a higher discourse rank than ‘3inanim-
+        low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3inanim-low": >-
+        3rd person inanimate argument with a lower discourse rank than ‘3inanim-
+        high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3sg-inanim": >-
+        inanimate singular referent (of the 3rd person)
+      "3pl-inanim": >-
+        inanimate plural referent (of the 3rd person)
+      "3sg-inanim-high": >-
+        inanimate singular referent (of the 3rd person) with higher discourse rank than
+        3sg/pl-inanim-low
+      "3pl-inanim-high": >-
+        inanimate plural referent (of the 3rd person) with higher discourse rank than 3sg/
+        pl-inanim-low
+      "3sg-inanim-low": >-
+        inanimate singular referent (of the 3rd person) with lower discourse rank than
+        3sg/pl-inanim-high
+      "3pl-inanim-low": >-
+        inanimate plural referent (of the 3rd person) with lower discourse rank than 3sg/
+        pl-inanim-high
+      "independent": >-
+        independent order forms in Algonquian verbs
+      "conjunct": >-
+        conjunct order forms in Algonquian verbs
+      "3sg-anim-fobv": >-
+        3rd person singular animate further obviative argument (i.e. with a lower dicourse
+        rank than the 3rd person sg. animate low argument)
+      "3pl-anim-fobv": >-
+        3rd person plural animate further obviative argument (i.e. with a lower dicourse
+        rank than the 3rd person pl. animate low argument)
+      "3du-anim-high": >-
+        3rd person dual animate argument with a higher discourse rank than ‘3sg-anim-
+        low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3du-anim-low": >-
+        3rd person dual animate argument with a lower discourse rank than ‘3sg-anim-
+        high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3du-inanim": >-
+        inanimate dual referent (of the 3rd person)
+      "1du": >-
+        1st person dual
+      "N-loc": >-
+        location nouns
+      "N-nloc": >-
+        non-location nouns
+      "N-topon": >-
+        toponym
+      "N-nontopon": >-
+        non-toponym noun
+      "du": >-
+        dual
+      "pl": >-
+        plural
+      "def": >-
+        definite argument
+      "pl-anim": >-
+        animate plural referent
+      "3pl-anim": >-
+        3rd person plural animate reference
+      "3duPro-high": >-
+        3rd person dual pronoun with a higher discourse rank than ‘3plPro-low’ (where rank
+        is determined by discourse factors with language-specific weights)
+      "3duPro-low": >-
+        3rd person dual pronoun with a lower discourse rank than ‘3plPro-low’ (where rank
+        is determined by discourse factors with language-specific weights)
+      "3sg-high": >-
+        3rd person singular argument with a higher discourse rank than ‘3sg-anim-
+        low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3du-high": >-
+        3rd person dual argument with a higher discourse rank than ‘3sg-anim-low’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3pl-high": >-
+        3rd person plural argument with a higher discourse rank than ‘3sg-anim-low’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3sg-low": >-
+        3rd person singular argument with a lower discourse rank than ‘3sg-anim-
+        high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3du-low": >-
+        3rd person dual argument with a lower discourse rank than ‘3sg-anim-high’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3pl-low": >-
+        3rd person plural argument with a lower discourse rank than ‘3sg-anim-high’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3sg-anim": >-
+        3rd person singular animate argument
+      "3du-anim": >-
+        3rd person dual animate argument
+      "N-non-kin-sg": >-
+        singular noun apart from kin terms
+      "N-non-kin-pl": >-
+        plural noun apart from kin terms
+      "N-highest": >-
+        noun denoting the referent highest in discourse (e.g. such as PROX in Algonquian
+        languages)
+      "N-non-highest": >-
+        noun denoting any referent than the highest one in discourse (e.g. such as PROX in
+        Algonquian languages)
+      "3pl-x": >-
+        3rd person plural argument with unknown/unclear referential properties that result
+        in a split, if there is a split triggered by unclear referential properties 3pl-b
+        for the other member of the opposition.
+      "3pl-y": >-
+        3rd person plural argument with unknown/unclear referential properties that result
+        in a split, if there is a split triggered by unclear referential properties 3pl-a
+        for the other member of the opposition.
+      "Pro-highest": >-
+        pronoun denoting the 3rd referent highest in discourse (e.g. such as PROX in
+        Algonquian languages)
+      "Pro-non-highest": >-
+        pronoun denoting any referent other than the highest one in discourse (e.g. such
+        as PROX in Algonquian languages)
+      "highest": >-
+        the referent highest in discourse
+      "2-high": >-
+        2nd person argument with a higher discourse rank than ‘2-low’ (where rank is
+        determined by discourse factors with language-specific weights)
+      "3pl-hum": >-
+        3rd person plural human argument
+      "3sgPro-inanim": >-
+        3rd person singular pronouns with inanimate reference
+      "3duPro-inanim": >-
+        3rd person dual pronoun with inanimate reference
+      "3plPro-inanim": >-
+        3rd person plural pronouns with inanimate reference
+      "N-count": >-
+        countable noun
+      "N-uncount": >-
+        uncountable noun
+      "3sgPro-count": >-
+        3rd person singular pronoun referring to a countable entity
+      "3sgPro-uncount": >-
+        3rd person singular pronoun referring to an uncountable entity
+      "1du.INCL.Pro": >-
+        1st person dual inclusive pronoun
+      "1du.EXCL.Pro": >-
+        1st person dual exclusive pronoun
+      "non-highest": >-
+        the referent non-highest in discourse
+      "1pl.INCL.Pro": >-
+        1st person plural inclusive pronoun
+      "1pl.EXCL.Pro": >-
+        1st person plural exclusive pronoun
+      "3sg-non-hum": >-
+        3rd person sg. with non-human referent
+      "3sg-hum": >-
+        3rd person sg. with human referent
+      "3pl-non-hum": >-
+        3rd person pl. non-human referent
+      "3pl-hum-ref": >-
+        3rd person pl. human referent
+      "3sgPro-fem79": >-
+        French 3rd person feminine pronoun
+      "3plPro-fem79": >-
+        French 3p person plural feminine pronoun
+      "3sgPro-masc79": >-
+        French 3rd person singular masculine pronoun
+      "3plPro-masc79": >-
+        French 3rd person plural masculine pronoun
+      "2sg-high": >-
+        2nd person singular high
+      "2pl-high": >-
+        2nd person plural high
+      "3sg-hum-high": >-
+        3rd person singular human argument with a higher discourse rank than ‘3sg-
+        anim-low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3pl-hum-high": >-
+        3rd person plural human argument with a higher discourse rank than ‘3sg-anim-
+        low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3sg-y": >-
+        3rd person singular argument with unknown/unclear referential properties that
+        result in a split, if there is a split triggered by unclear referential properties
+        3pl-a for the other member of the opposition.
+      "3sg-x": >-
+        3rd person singular argument with unknown/unclear referential properties that
+        result in a split, if there is a split triggered by unclear referential properties
+        3pl-b for the other member of the opposition.
+      "N1-1517": >-
+        Gahuku nouns taking the object suffix
+      "N2-1517": >-
+        Gahuku nouns not taking the object suffix
+      "2sgMH": >-
+        2nd person singular, mid honorific
+      "2plMH": >-
+        2nd person plural, mid honorific
+      "2sgHH": >-
+        2nd person singular, high honorific
+      "2plHH": >-
+        2nd person plural, high honorific
+      "3sgMH": >-
+        third person singular, mid honorific
+      "3plMH": >-
+        third person plural, mid honorific
+      "3sgHH": >-
+        third person singular, high honorific
+      "3plHH": >-
+        third person plural, high honorific
+      "N1sg-2471": >-
+        Serbian-Croatian nouns in SG that distinguish NOM and ACC
+      "N2pl-2471": >-
+        Serbian-Croatian nouns in PL that distinguish NOM and ACC
+      "N3sg-2471": >-
+        Serbian-Croatian nouns in SG that do not distinguish NOM and ACC
+      "N4pl-2471": >-
+        Serbian-Croatian nouns in PL that do not distinguish NOM and ACC
+      "3sgPro-highest": >-
+        pronoun denoting the 3rd sg. referent highest in discourse (e.g. such as PROX in
+        Algonquian languages)
+      "3plPro-highest": >-
+        pronoun denoting the 3rd pl. referent highest in discourse (e.g. such as PROX in
+        Algonquian languages)
+      "3sgPro-non-highest": >-
+        pronoun denoting any 3rd sg. referent other than the highest one in discourse
+        (e.g. such as PROX Algonquian languages)
+      "3plPro-non-highest": >-
+        pronoun denoting any 3rd pl. referent other than the highest one in discourse
+        (e.g. such as PROX Algonquian languages)
+      "N-common-non-kin": >-
+        noun apart from kin terms and proper nouns
+      "N-inanim-high": >-
+        inanimate noun with a higher discourse rank than ‘N-anim-low’ (where rank is
+        determined by discourse factors with language-specific weights)
+      "N-inanim-low": >-
+        inanimate noun with a lower discourse rank than ‘N-anim-high’ (where rank is
+        determined by discourse factors with language-specific weights)
+      "1sg-fem340": >-
+        Russian S/A past feminine agreement
+      "2sg-fem340": >-
+        Russian S/A past feminine agreement
+      "3sg-fem340": >-
+        Russian S/A past feminine agreement
+      "3sg-neu340": >-
+        Russian S/A past neuter agreement
+      "1sg-masc340": >-
+        Russian S/A past masculine agreement
+      "1sg-neu340": >-
+        Russian S/A past neuter agreement
+      "2sg-masc340": >-
+        Russian S/A past masculine agreement
+      "2sg-neu340": >-
+        Russian S/A past neuter agreement
+      "3sg-masc340": >-
+        Russian S/A past masc agreement
+      "#ANY#": >-
+        All referential types
+      "N1-2831": >-
+        Ancient Greek feminine and masculine nouns in singular and plural
+      "N2-2831": >-
+        Ancient Greek feminine and masculine nouns in dual and neuter nouns in all numbers
+      "3sgPro-neu2831": >-
+        Ancient Greek neuter 3sg pronoun
+      "3sgPro-fem2831": >-
+        Ancient Greek feminine 3sg pronoun
+      "3sgPro-masc2831": >-
+        Ancient Greek masculine 3sg pronoun
+      "3plPro-masc2831": >-
+        Ancient Greek masculine 3pl pronoun
+      "3plPro-fem2831": >-
+        Ancient Greek feminine 3pl pronoun
+      "3plPro-neu2831": >-
+        Ancient Greek neuter 3pl pronoun
+      "N-masc110": >-
+        Icelandic masculine nouns of strong and weak declension, no NOM/ACC syncretism
+      "N-fem.neu110": >-
+        Icelandic feminine nouns of weak declension and a minor masculine strong class,
+        show NOM/ACC syncretism in plural only AND Icelandic neuter and feminine nouns of
+        strong declension, show NOM/ACC syncretism in sg and pl
+      "3sgPro-masc110": >-
+        Icelandic 3rd person singular masculine pronoun
+      "3sgPro-fem110": >-
+        Icelandic 3rd person singular feminine pronoun
+      "3sgPro-neu110": >-
+        Icelandic 3rd person singular neuter pronoun
+      "3plPro-masc110": >-
+        Icelandic 3rd person plural masculine pronoun
+      "3plPro-fem110": >-
+        Icelandic 3rd person plural feminine pronoun
+      "3plPro-neu110": >-
+        Icelandic 3rd person plural neuter pronoun
+      "N-syncr2832": >-
+        Gothic nouns of every gender with syncretic NOM/ACC forms
+      "N-nsyncr2832": >-
+        Gothic nouns of every gender with non-syncretic NOM and ACC forms
+      "3sgPro-masc2832": >-
+        Gothic 3rd person singular masculine pronoun
+      "3sgPro-fem2832": >-
+        Gothic 3rd person singular feminine pronoun
+      "3sgPro-neu2832": >-
+        Gothic 3rd person singular neutrum pronoun
+      "3plPro-masc2832": >-
+        Gothic 3rd person plural masculine pronoun
+      "3plPro-fem2832": >-
+        Gothic 3rd person plural feminine pronoun
+      "3plPro-neu2832": >-
+        Gothic 3rd person plural neuter pronoun
+      "N-fem549": >-
+        Latvian nouns in feminine, which are syncretic only in the plural
+      "N-masc549": >-
+        Latvian nouns in masculine, which have no NOM/ACC syncretism
+      "3sgPro-fem549": >-
+        Latvian feminine 3sg pronoun
+      "3plPro-fem549": >-
+        Latvian feminine 3pl pronoun (syncretic NOM/ACC)
+      "3sgPro-masc549": >-
+        Latvian masculine 3sg pronoun
+      "3plPro-masc549": >-
+        Latvian masculine 3pl pronoun
+      "N-syncr2900": >-
+        Avestan nouns of the inflectional classes with NOM/ACC syncretism (either in du/pl
+        only or also in sg)
+      "N-nsyncr2900": >-
+        Avestan nouns of the inflectional classes without NOM/ACC syncretism
+      "N-nsyncr464": >-
+        Greek nouns of the inflectional classes without NOM/ACC syncretism (some
+        masculines and some feminines)
+      "N-syncr464": >-
+        Greek nouns of the inflectional classes with NOM/ACC syncretism (all neuter, some
+        masculines and some feminines, some of them in pl. only, other both in sg. and
+        pl.)
+      "3sgPro-neu464": >-
+        Greek neuter 3sg pronoun
+      "3sgPro-fem464": >-
+        Greek feminine 3sg pronoun
+      "3sgPro-masc464": >-
+        Greek masculine 3sg pronoun
+      "3plPro-neu464": >-
+        Greek neuter 3pl pronoun
+      "3plPro-fem464": >-
+        Greek feminine 3pl pronoun
+      "3plPro-masc464": >-
+        Greek masculine 3pl pronoun
+      "N-syncr2893": >-
+        Latin nouns with NOM = ACC syncretism both in sg. and pl. (all neuter nouns and
+        fem. and masc. nouns of declension 3, 4 and 5)
+      "N-nsyncr2893": >-
+        Latin nouns without NOM = ACC syncretism neither in sg. not in pl.
+      "3sgPro-masc2893": >-
+        Latin 3rd person singular masculine pronoun
+      "3sgPro-fem2893": >-
+        Latin 3rd person singular feminine pronoun
+      "3sgPro-neu2893": >-
+        Latin 3rd person singular neuter pronoun
+      "3plPro-masc2893": >-
+        Latin 3rd person plural masculine pronoun
+      "3plPro-fem2893": >-
+        Latin 3rd person plural feminine pronoun
+      "3plPro-neu2893": >-
+        Latin 3rd person plural neuter pronoun
+      "N-syncr2854": >-
+        High German (old) nouns with NOM = ACC syncretism both in sg. and pl. (nouns
+        of all genders in the vocalic/strong declension, nouns in minor consonantal
+        declensions, neuter nouns of the weak -n-declension)
+      "N-nsyncr2854": >-
+        High German (old) nouns without NOM/ACC syncretism in sg.(masc. and fem. nouns of
+        the weak declension); pl. is always syncreticvocalic/strong declension, nouns in
+        minor consonantal declensions, neuter nouns of the weak -n-declension)
+      "3sgPro-masc2854": >-
+        High German (old) 3sgPro without NOM/ACC syncretism
+      "3sgPro-fem2854": >-
+        High German (old) 3sgPro without NOM/ACC syncretism
+      "3sgPro-neu2854": >-
+        High German (old) 3sgPro with NOM = ACC syncretism
+      "2du_masc2378": >-
+        Rotokas 2nd person dual masculine agreement
+      "2du_fem2378": >-
+        Rotokas 2nd person dual feminine agreement
+      "3sg_masc2378": >-
+        Rotokas 3rd person masculine singular agreement
+      "3sg_fem2378": >-
+        Rotokas 3rd person feminine singular agreement
+      "3sg_neu2378": >-
+        Rotokas 3rd person neuter singular agreement
+      "3du_masc2378": >-
+        Rotokas 3rd person masculine dual agreement
+      "3du_fem2378": >-
+        Rotokas 3rd person feminine dual agreement
+      "3du_neu2378": >-
+        Rotokas 3rd person neuter dual agreement
+      "3pl_masc2378": >-
+        Rotokas 3rd person masculine plural agreement
+      "3pl_fem2378": >-
+        Rotokas 3rd person feminine plural agreement
+      "3pl_neu2378": >-
+        Rotokas 3rd person neuter plural agreement
+      "N_mostclasses2972": >-
+        Kambaata majority noun inflection class
+      "N_M8M9classes2972": >-
+        Kambaata M8 and M9 noun inflection class
+      "3sg_fem2972": >-
+        Kambaata 3rd person feminine singular agreement
+      "3sg_masc2972": >-
+        Kambaata 3rd person masculine singular agreement
+      "3pl_fem2972": >-
+        Kambaata 3rd person feminine plural agreement
+      "3pl_masc2972": >-
+        Kambaata 3rd person masculine plural agreement
+      "2sgHON": >-
+        2nd person singular honorific
+      "2plHON": >-
+        2nd person plural honorific
+      "3sgHON": >-
+        3nd person singular honorific
+      "3plHON": >-
+        3nd person plural honorific
+      "3sg_masc495": >-
+        Krongo 3rd person masculine singular agreement
+      "3sg_fem495": >-
+        Krongo 3rd person feminine singular agreement
+      "3sg_neu495": >-
+        Krongo 3rd person neuter singular agreement
+  # -- end of PoS
+
+  ProjectionType:
+    description: >-
+      Part of speech projection type
+    kind: manual data entry
+    data: value-list
+    values: 
+      "terminal": >-
+        part of speech projection is a terminal element
+      "phrasal": >-
+        part of speech projection is a phrasal element
+  # -- end of ProjectionType
+
+  SyntacticDomain:
+    description: >-
+      Part of speech syntactic domain
+    kind: manual data entry
+    data: value-list
+    values: 
+      "any": >-
+        any syntactic domain
+      "nominal": >-
+        nominal syntactic domain
+      "verbal": >-
+        verbal syntactic domain
+  # -- end of SyntacticDomain
+
+  SemanticDomain:
+    description: >-
+      Part of speech semantic domain
+    kind: manual data entry
+    data: value-list
+    values: 
+      "SAP": >-
+        SAP
+      "non-SAP": >-
+        non-SAP
+      "verb-like": >-
+        verb-like
+      "noun-like": >-
+        noun-like
+      "general": >-
+        general
+      "other": >-
+        other
+  # -- end of SemanticDomain
+
+  ClausalDomain:
+    description: >-
+      Part of speech clausal domain
+    kind: manual data entry
+    data: value-list
+    values: 
+      "argument": >-
+        argument
+      "predicate": >-
+        predicate
+  # -- end of ClausalDomain
+
+  Definition:
+    description: >-
+      Part of speech definition
+    kind: manual data entry
+    data: comment
+  # -- end of Definition

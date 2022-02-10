@@ -1,0 +1,14 @@
+[
+  {
+    "Polarity": "<any>",
+    "Definition": "any"
+  },
+  {
+    "Polarity": "AFF",
+    "Definition": "affirmative"
+  },
+  {
+    "Polarity": "NEG",
+    "Definition": "negative"
+  }
+]

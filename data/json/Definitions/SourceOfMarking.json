@@ -1,0 +1,35 @@
+[
+  {
+    "SourceOfMarking": "assign",
+    "Definition": "The formative is there because of government, i.e. it is assigned by a head, i.e. it is specified by a head’s valence."
+  },
+  {
+    "SourceOfMarking": "agree",
+    "Definition": "The formative is there because of agreement."
+  },
+  {},
+  {
+    "SourceOfMarking": "no data",
+    "Definition": "TODO"
+  },
+  {
+    "SourceOfMarking": "case assigned, gender agrees",
+    "Definition": "TODO"
+  },
+  {
+    "SourceOfMarking": "both assign and agree",
+    "Definition": "TODO"
+  },
+  {
+    "SourceOfMarking": "free",
+    "Definition": "In most contexts, use of the formative is the speaker’s choice. But to the degree that the formative is inflectional, there are some grammatical environments where the use is compulsory (e.g. sequence of tenses.)"
+  },
+  {
+    "SourceOfMarking": "free/agree",
+    "Definition": "TODO"
+  },
+  {
+    "SourceOfMarking": "agr-target",
+    "Definition": "the formative agrees, but that is not the reason of its presence, i.e. it is present for some other reason, e.g. derivation (unlike the type we call “agree”)."
+  }
+]

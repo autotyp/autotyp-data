@@ -1,0 +1,145 @@
+[
+  {
+    "SyntacticDomain": "727_P-pronom-clitic",
+    "Definition": "this domain conditions the presence of P agreement and is characterized by the presence of a clitic pronoun in the preverbal position (with full Pros or NPs there is no agreement)"
+  },
+  {
+    "SyntacticDomain": "558_NTOPICALIZED",
+    "Definition": "clause without the topicalized position (AW: deleted for now from synpatterns, but should be integrated)"
+  },
+  {
+    "SyntacticDomain": "3006_Non-subject focus",
+    "Definition": "Focus is not on the S/A"
+  },
+  {
+    "SyntacticDomain": "512_preverbal",
+    "Definition": "no agreement with preverbal NPs"
+  },
+  {
+    "SyntacticDomain": "512_NONDISL",
+    "Definition": "non-dislocation construction"
+  },
+  {
+    "Definition": "no domain restrictions"
+  },
+  {
+    "SyntacticDomain": "885_non-emphatic_subject",
+    "Definition": "AW: briefly deleted from synpatterns, but should be replaced, when agr paper is over; no agreement with {S, A} if they are emphatic (focalised?) or with non-finite verbs"
+  },
+  {
+    "SyntacticDomain": "2513_non-focal",
+    "Definition": "construction without focalized subject, probably a default one"
+  },
+  {
+    "SyntacticDomain": "3040_defaultVSO",
+    "Definition": "default domain without anything being focalized or topicalized"
+  },
+  {
+    "SyntacticDomain": "3042_defaultVSO",
+    "Definition": "default domain without anything being focalized or topicalized (VSO order)"
+  },
+  {
+    "SyntacticDomain": "750_defaultVSO",
+    "Definition": "default domain without anything being focalized or topicalized (VSO order)"
+  },
+  {
+    "SyntacticDomain": "571_defaultVSO",
+    "Definition": "default domain without anything being focalized or topicalized (VSO order)"
+  },
+  {
+    "SyntacticDomain": "726_NTOP",
+    "Definition": "the domain excluding the topicalization position"
+  },
+  {
+    "SyntacticDomain": "3024_NTOP",
+    "Definition": "the domain excluding the topicalization position"
+  },
+  {
+    "SyntacticDomain": "1533_NFOC",
+    "Definition": "non-focalized contexts"
+  },
+  {
+    "SyntacticDomain": "355_NFOC",
+    "Definition": "agreement only with non focalised subjects"
+  },
+  {
+    "SyntacticDomain": "165_NTOP",
+    "Definition": "domain excluding the topicalized position"
+  },
+  {
+    "SyntacticDomain": "740_SVO",
+    "Definition": "domain with SVO order, excluding the topicalized position (where a resumptive P pronominal agreement is obligatory) but also orders like SOV"
+  },
+  {
+    "SyntacticDomain": "581_IP",
+    "Definition": "domain characterized as IP by Buell 2006 within which a P clitic and an overt P NP cannot cooccur"
+  },
+  {
+    "SyntacticDomain": "3044_non-emphatic",
+    "Definition": "construction without focus on a pronominal argument"
+  },
+  {
+    "SyntacticDomain": "1791_defaultSVO",
+    "Definition": "default clause structure with the subject in pre-verbal position"
+  },
+  {
+    "SyntacticDomain": "1791_OVS",
+    "Definition": "OVS word order “to introduce new information in narrative texts“"
+  },
+  {
+    "SyntacticDomain": "2098_defaultSVO",
+    "Definition": "default clause structure with the subject in pre-verbal position"
+  },
+  {
+    "SyntacticDomain": "1413_defaultSVO",
+    "Definition": "AW: briefly deleted from synpatterns, but should be replaced, when agr paper is over default clause structure with the subject in pre-verbal position"
+  },
+  {
+    "SyntacticDomain": "3038_NONLDISL",
+    "Definition": "domain excluding the left-dislocated elements"
+  },
+  {
+    "SyntacticDomain": "559_defaultVSO",
+    "Definition": "default verb-initial clause structure"
+  },
+  {
+    "SyntacticDomain": "3044_emphatic",
+    "Definition": "construction with focus on a pronominal argument"
+  },
+  {
+    "SyntacticDomain": "186_NFOC",
+    "Definition": "non focal subjects"
+  },
+  {
+    "SyntacticDomain": "9_VA",
+    "Definition": "VA order"
+  },
+  {
+    "SyntacticDomain": "9_notVA",
+    "Definition": "any other order than VA"
+  },
+  {
+    "SyntacticDomain": "1067_NTOP",
+    "Definition": "the domain excluding the topicalization position"
+  },
+  {
+    "SyntacticDomain": "2726_overt_proS/A",
+    "Definition": "the domain has other arguments than the object in the focus, only in this domain there are clitical object pronouns (i.e. agreement)"
+  },
+  {
+    "SyntacticDomain": "464_non-focalOBJ",
+    "Definition": "the domain has overt pronominal arguments (following the verbs, as Welsh is VSO)"
+  },
+  {
+    "SyntacticDomain": "1168_enclitics",
+    "Definition": "the domain has poorely described properties but is characterized by the use of clitics instead of lond and short pronouns, partially the domain isphonologically determined"
+  },
+  {
+    "SyntacticDomain": "387_register1_3pl",
+    "Definition": "the variation affects the presence of 3pl S/A marker, which is said to be \"optional and marks a stylistic register\""
+  },
+  {
+    "SyntacticDomain": "387_register1_no3pl",
+    "Definition": "the variation affects the presence of 3pl S/A marker, which is said to be \"optional and marks a stylistic register\""
+  }
+]

@@ -1,0 +1,667 @@
+LID,Glottocode,Language,AccDegreeForAgreement,AccDegreeForCase,AccDegreeForMarkerAgreement,ErgDegreeForAgreement,ErgDegreeForCase,ErgDegreeForMarkerAgreement,AccDegreeBinnedForAgreement,AccDegreeBinnedForCase,AccDegreeBinnedForMarkerAgreement,ErgDegreeBinnedForAgreement,ErgDegreeBinnedForCase,ErgDegreeBinnedForMarkerAgreement,DominantAlignment2ForAgreement,DominantAlignment2ForCase,DominantAlignment2ForMarkerAgreement,DominantAlignment3ForAgreement,DominantAlignment3ForCase,DominantAlignment3ForMarkerAgreement,DominantAlignmentPTGForAgreement,DominantAlignmentPTGForCase,DominantAlignmentPTGForMarkerAgreement,HasReferenceConditionedSplitsForAgreement,HasReferenceConditionedSplitsForCase,HasReferenceConditionedSplitsForMarkerAgreement,HasCategoryConditionedSplitsForAgreement,HasCategoryConditionedSplitsForCase,HasCategoryConditionedSplitsForMarkerAgreement,HasClauseRankConditionedSplitsForAgreement,HasClauseRankConditionedSplitsForCase,HasClauseRankConditionedSplitsForMarkerAgreement,HasPolarityConditionedSplitsForAgreement,HasPolarityConditionedSplitsForCase,HasPolarityConditionedSplitsForMarkerAgreement
+7,abkh1244,Abkhaz,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,S=Atr=Aditr=P=T≠G,S=Atr=Aditr=P=T=G,,P=T≠G,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+10,west2632,Acoma,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+12,ainu1240,Ainu,0,0,0.375,0,0,0.20833333333333334,low,low,medium,low,low,low,S=Atr=P,S=Atr=P,S=Atr=P,S=Atr=Aditr=P=G≠T,S=Atr=Aditr=P=T=G,,P=G≠T,P=T=G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+14,alam1246,Alamblak,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,S=Atr=Aditr=P=G≠T,S=Atr=Aditr=P=T=G,,P=G≠T,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+15,akka1240,Akkadian,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+17,tosk1239,Albanian,1,0.5,,0,0,,high,medium,,low,low,,S=Atr≠P,mixed,,S=Atr=Aditr≠P=T=G,mixed,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+20,amel1241,Amele,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+21,amha1245,Amharic,0,0.6666666666666666,0.8,0,0,0,low,medium,high,low,low,low,S=Atr=P,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+22,anem1249,Anêm,0,0,1,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,S=Atr=Aditr=P=G≠T,,,P=G≠T,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+23,stan1318,Arabic,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+25,nucl1235,Armenian (Eastern),1,0.8,0.9166666666666666,0,0,0,high,high,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T=G,,P=T=G,P=T=G,,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+26,casu1237,Asmat,0,0,0.9,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+27,atak1252,Atakapa,0,0,0.8333333333333334,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+28,awtu1239,Awtuw,1,,0.5,0,,0,high,,medium,low,,low,S=Atr≠P,,mixed,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+29,asha1243,Axininca Campa,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+31,nucl1630,Barai,0,0,,0,0,,low,low,,low,low,,Atr≠P,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+32,basq1248,Basque,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T≠Atr=Aditr≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+34,beja1238,Beja,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+35,belh1239,Belhare,0,0,0.24247921390778535,0,0.8888888888888888,0.09236583522297807,low,low,low,low,high,low,S=Atr=P,S=P≠Atr,S=Atr=P,S=Atr=Aditr=P=G≠T,S=P=T=G≠Atr=Aditr,,P=G≠T,P=T=G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+36,beri1254,Berik,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+38,kuni1265,Boazi,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+45,cash1254,Cashinahua,1,0.5,1,0,0.5,0,high,medium,high,low,medium,low,S=Atr≠P,mixed,S=Atr≠P,S=Atr=Aditr≠P=T=G,mixed,,P=T=G,P=T=G,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+47,cayu1262,Cayuvava,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+48,cham1312,Chamorro,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,TRUE,,,FALSE,,,FALSE,,
+49,chec1245,Chechen,0,0,,1,0.5,,low,low,,high,medium,,S=P≠Atr,mixed,,S=P=T≠Atr=Aditr=G,mixed,,P=T≠G,P=T≠G,,FALSE,FALSE,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,
+50,chic1272,Chichimec,0,0,1,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,S=Atr=Aditr=P=G≠T,,,P=G≠T,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+51,chim1301,Chimariko,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+53,chit1248,Chitimacha,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+54,choc1276,Choctaw,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+56,chuk1273,Chukchi,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T≠Atr=Aditr≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+57,chuv1255,Chuvash,1,0.6666666666666666,0.6111111111111112,0,0,0,high,medium,medium,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,,,,,,,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+59,plai1258,Cree (Plains),0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,,,,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+61,lowe1415,Dani (Lower Grand Valley),,0,,,1,,,low,,,high,,,S=P≠Atr,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+63,kumi1248,Diegueño,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+65,dizi1235,Dizi,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+68,djin1251,Djingili,,0.5,,,1,,,medium,,,high,,,mixed,,,mixed,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+71,dyir1250,Dyirbal,,0.6,,,0.4,,,medium,,,medium,,,S=Atr≠P,,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+73,elam1244,Elamite,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+74,stan1293,English,1,,1,0,,0,high,,high,low,,low,S=Atr≠P,,S=Atr≠P,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+75,ewee1241,Ewe,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+78,finn1318,Finnish,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+79,stan1290,French (colloquial),1,0.4444444444444444,1,0,0,0,high,medium,high,low,low,low,S=Atr≠P,S=Atr=P,S=Atr≠P,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+81,furr1244,Fur,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+84,gara1269,Garrwa,,0.5,,,0.5,,,medium,,,medium,,,mixed,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+85,gbay1287,Gbeya,,0.5,,,0,,,medium,,,low,,,mixed,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+87,stan1295,German,,0.5,,,0,,,medium,,,low,,,mixed,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+88,gitx1241,Gitksan,,0,,,0.6666666666666666,,,low,,,medium,,,S=P≠Atr,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+89,para1311,Guaraní (Paraguayan),1,0,1,0,0,0.7105263157894737,high,low,high,low,low,high,S=Atr≠P,S=Atr=P,mixed,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+90,ngab1239,Guaymí,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+91,gumu1244,Gumuz,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+93,gunw1252,Gunwinggu,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+98,haus1257,Hausa,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+99,hind1269,Hindi,0.5,0.8333333333333334,0.875,0.5,0.25,0.5,medium,high,high,medium,low,medium,mixed,S=Atr≠P,S=Atr≠P,mixed,S=Atr=Aditr≠P=G≠T,,mixed,mixed,,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+100,hitt1242,Hittite,1,0.6666666666666666,,0,0.3333333333333333,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+101,hixk1239,Hixkaryana,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+103,yaga1260,Hua,0,0,0.8333333333333334,0,1,0,low,low,high,low,high,low,S=Atr=P,S=P≠Atr,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=P=T=G≠Atr=Aditr,,P=G≠T,P=T=G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+104,hual1241,Quechua (Huallaga),0,1,,0,0,,low,high,,low,low,,S=Atr=P,S=Atr≠P,,S=Atr=Aditr=P=G≠T,S=Atr=Aditr≠P=T=G,,P=G≠T,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+107,hung1274,Hungarian,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+108,hurr1240,Hurrian,0,0,,0,1,,low,low,,low,high,,Atr≠P,S=P≠Atr,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+109,iauu1242,Iau,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+110,icel1247,Icelandic,1,0.5833333333333334,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+111,ikkk1242,Ik,1,,1,0,,0,high,,high,low,,low,S=Atr≠P,,S=Atr≠P,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+112,imon1245,Imonda,,0.7,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+113,ines1240,Ineseño,0,0,0.6388888888888888,0,0,0,low,low,medium,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=Atr=Aditr=P=T=G,,P=G≠T,P=T=G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+116,itel1242,Itelmen,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+118,nucl1643,Japanese,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+123,kanu1279,Kanuri,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+124,kara1465,Karachay-Balkar,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+125,karo1304,Karok,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+126,kate1253,Kâte,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+129,kett1243,Ket,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+130,west2599,Kewa,1,0,,0,1,,high,low,,low,high,,S=Atr≠P,S=P≠Atr,,S=Atr=Aditr≠P=T=G,S=P=T=G≠Atr=Aditr,,P=T=G,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+134,nort2930,Kiwai,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+135,koas1236,Koasati,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+136,kobo1249,Kobon,1,0.5,,0,0,,high,medium,,low,low,,S=Atr≠P,mixed,,S=Atr=Aditr≠P=T=G,mixed,,P=T=G,P=T=G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+138,komb1274,Kombai,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+139,komi1268,Komi (Zyrian),1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=T≠P≠G,,P=T=G,T≠P≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+140,rapo1238,Konua,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+141,kore1280,Korean,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+142,kota1263,Kota,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+144,koyr1242,Koroboro Senni,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+147,kuna1268,Kunama,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+148,kung1261,!Kung,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+149,goon1238,Kuniyanti,,0,,,1,,,low,,,high,,,S=P≠Atr,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+150,kute1249,Kutenai,,0.4,,,0,,,medium,,,low,,,S=Atr=P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+154,haka1240,Hakka Lai,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T=G≠Atr=Aditr,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+155,lakk1252,Lak,0,0,,0,0.42857142857142855,,low,low,,low,medium,,S=Atr=P,S=Atr=P,,,,,,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+156,lako1247,Lakhota,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+157,lama1277,Lamaholot,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+159,lang1324,Lango,1,0.5,,0,0,,high,medium,,low,low,,S=Atr≠P,mixed,,S=Atr=Aditr≠P=T=G,mixed,,P=T=G,mixed,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+162,lezg1247,Lezgi,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T≠Atr=Aditr≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+165,gand1255,Luganda,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+166,luis1253,Luiseño,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+167,masa1300,Maa,0,1,,0,0,,low,high,,low,low,,S=Atr=P,S=Atr≠P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+170,mull1237,Malak-Malak,0,0,1,0,1,0,low,low,high,low,high,low,S=Atr=P,S=P≠Atr,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=P=T≠Atr=Aditr≠G,,P=G≠T,P=T≠G,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+171,mand1415,Mandarin,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+172,mand1436,Mandinka,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+173,mang1381,Mangarayi,,0.5,,,0.5,,,medium,,,medium,,,mixed,,,mixed,,,mixed,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+175,maor1246,Maori,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+176,mapu1245,Mapudungun,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+178,mari1424,Marrithiyel,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+179,mart1255,Martuthunira,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+181,maun1240,Mawng,,0,,,0,,,low,,,low,,,S=Atr=P,,,mixed,,,mixed,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+188,halh1238,Mongolian (Khalkha),,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+191,siwa1245,Motuna,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+193,east2379,Mparntwe Arrernte,1,0.8,1,0,0.2,0,high,high,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+197,naha1261,Nahali,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+198,naka1260,Nakkara,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+199,nama1264,Nama,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T=G,,P=T=G,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+201,nana1257,Nanai,1,,1,0,,0,high,,high,low,,low,S=Atr≠P,,S=Atr≠P,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+206,nepa1254,Nepali,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+209,ngal1293,Ngalakan,,0,,,1,,,low,,,high,,,S=P≠Atr,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+210,wang1291,Ngiyambaa,,0.6,,,0.4,,,medium,,,medium,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+211,ngka1235,Ngkalmpw Knwme,,0,,,1,,,low,,,high,,,S=P≠Atr,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+223,sout2729,Pumi,,0,,,0.25,,,low,,,low,,,S=Atr=P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+225,lahu1253,Lahu,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr=T≠P=G,,,T≠P=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+228,pare1266,Gorum,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr=G≠P=T,,,G≠P=T,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+299,nand1266,Nandi,0,1,0.75,0,0,0,low,high,high,low,low,low,S=Atr=P,S=Atr≠P,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+317,nuuc1236,Nuuchahnulth,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+318,nung1290,Nunggubuyu,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,S=Atr=Aditr=P=G≠T,S=Atr=Aditr=P=T≠G,,P=G≠T,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+319,nyig1240,Nyigina,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T=G≠Atr=Aditr,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+322,oksa1245,Oksapmin,0,0.6666666666666666,0.875,0,0,0,low,medium,high,low,low,low,S=Atr=P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T=G,P=G≠T,P=T=G,P=T=G,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+323,tega1236,Orig,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+324,east2652,Oromo,1,0.5714285714285714,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+325,osse1243,Ossetic,1,0.375,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr=P,,,,,,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+328,toho1245,O’odham,0,0,1,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+331,pawn1254,Pawnee,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+332,pipi1250,Pipil,0,0,0.7222222222222222,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+333,pira1253,Pirahã,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+337,kich1262,Quiche,0,0,0,0,0,0.9166666666666666,low,low,low,low,low,high,S=Atr=P,S=Atr=P,S=P≠Atr,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+339,resi1247,Resígaro,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+340,russ1263,Russian,1,0.5714285714285714,0.875,0,0,0,high,medium,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+343,sahu1245,Sahu,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+344,sali1253,Salinan,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+345,salt1242,Salt-Yui,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T=G,,P=T=G,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+347,sand1273,Sandawe,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+348,sanu1240,Sanuma,,0,,,1,,,low,,,high,,,S=P≠Atr,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+349,sene1264,Seneca,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+351,shas1239,Shasta,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+352,shua1257,Shuar,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+354,nort2942,Slave,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+355,soma1255,Somali,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+356,sout2985,Miwok (Southern Sierra),,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=G≠T,,,P=G≠T,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+357,squa1248,Squamish,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+358,suen1241,Suena,1,0,,0,1,,high,low,,low,high,,S=Atr≠P,S=P≠Atr,,S=Atr=Aditr≠P=T=G,S=P=T≠Atr=Aditr≠G,,P=T=G,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+359,sulk1246,Sulka,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+361,swah1253,Swahili,0,0,0.875,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,S=Atr=Aditr=P=G≠T,,,P=G≠T,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+363,take1257,Takelma,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+364,kula1280,Tanglapui,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+365,pure1242,Tarascan,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+367,tauy1241,Tauya,1,0,,0,1,,high,low,,low,high,,S=Atr≠P,S=P≠Atr,,S=Atr=Aditr≠P=T=G,S=P=T=G≠Atr=Aditr,,P=T=G,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+369,tehi1237,Tehit,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+372,hueh1236,Tepehua (Huehuetla),,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+373,tera1251,Tera,1,0.5714285714285714,1,0,0,0,high,medium,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,S=Atr=Aditr≠P=T=G,P=T=G,P=T≠G,P=T=G,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+374,thai1261,Thai,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+377,timu1245,Timucua,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+378,tiwi1244,Tiwi,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+379,tlin1245,Tlingit,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+383,trum1247,Trumaí,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T≠Atr=Aditr≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+384,tuka1249,Tukang Besi,0,0.5,1,0,0.5,0,low,medium,high,low,medium,low,S=Atr=P,mixed,S=Atr≠P,,,,,,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+385,shos1248,Tümpisa Shoshone,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+386,tuni1252,Tunica,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+387,tuvi1240,Tuva,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+388,tzut1248,Tzutujil,0,0,0,0,0,0.9166666666666666,low,low,low,low,low,high,S=Atr=P,S=Atr=P,S=P≠Atr,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+390,ngar1284,Ungarinjin,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+393,usan1239,Usan,0,0,0.8125,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,S=Atr=Aditr=P=G≠T,,,P=G≠T,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+398,wapp1239,Wappo,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+399,wara1303,Warao,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+401,ward1246,Wardaman,,0,,,1,,,low,,,high,,,S=P≠Atr,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+402,ware1253,Warembori,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+403,wari1266,Waris,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr=T≠P=G,,,T≠P=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+404,warl1254,Warlpiri,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T≠Atr=Aditr≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+407,wask1241,Waskia,0,0.5714285714285714,0.75,0,0,0,low,medium,high,low,low,low,S=Atr=P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr=P=T≠G,S=Atr=Aditr=P=T=G,,P=T≠G,P=T=G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+408,west2443,Wemba Wemba,1,0.5,,0,0.5,,high,medium,,low,medium,,S=Atr≠P,mixed,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+409,wint1259,Wintu,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+414,yagu1244,Yagua,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+416,yank1247,Yankunytjara,,0.5,,,0.5,,,medium,,,medium,,,mixed,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+417,nucl1454,Yawa,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+419,yess1239,Yessan-Mayo,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr=T≠P=G,,,T≠P=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+421,yoru1245,Yoruba,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,P=G≠T,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+422,yuch1247,Yuchi,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+424,gang1267,Yukulta,0,0,,0,0.5,,low,low,,low,medium,,S=Atr=P,mixed,,,mixed,,,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+426,yura1255,Yurakare,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+429,zuni1245,Zuni,0,0.6666666666666666,0,0,0,1,low,medium,low,low,low,high,S=Atr=P,S=Atr≠P,S=P≠Atr,S=Atr=Aditr=P=T=G,S=Atr=Aditr≠P=T=G,S=P=T=G≠Atr=Aditr,P=T=G,P=T=G,P=T=G,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+433,gily1242,Nivkh,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+434,west2414,Gurung,,0.6666666666666666,,,1,,,medium,,,high,,,S≠Atr≠P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+437,nort2921,Ku Waru,1,0,,0,1,,high,low,,low,high,,S=Atr≠P,S=P≠Atr,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+438,maib1239,Maybrat,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+443,koyr1240,Songhai (Koyra Chiini),,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+444,west2515,Futuna (West),,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+454,rama1270,Rama,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+456,west2369,Persian,1,0.6666666666666666,0.9166666666666666,0,0,0,high,medium,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+460,popt1235,Jacaltec,0,0,0,0,0,0.8333333333333334,low,low,low,low,low,high,S=Atr=P,S=Atr=P,S=P≠Atr,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+463,nucl1310,Burmese,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+464,mode1248,Greek (modern),1,0.5,,0,0,,high,medium,,low,low,,S=Atr≠P,mixed,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+465,mari1440,Maricopa,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+466,sang1328,Sango,1,0,1,0,0,0,high,low,high,low,low,low,S=Atr≠P,S=Atr=P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+468,east2773,Newar (Dolakha),1,0.6666666666666666,,0,1,,high,medium,,low,high,,S=Atr≠P,S≠Atr≠P,,S=Atr=Aditr≠P=T=G,S≠Atr=Aditr≠P=T=G,,P=T=G,P=T=G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+469,awac1239,Awa Pit,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr=T≠P=G,,,T≠P=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+471,colo1256,Tsafiki,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+475,trio1238,Trió,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+480,aman1265,Amanab,1,0,1,0,0,0,high,low,high,low,low,low,S=Atr≠P,S=Atr=P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+486,moun1252,Koiali (Mountain),,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+488,veng1238,Babungo,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+492,copa1236,Zoque (Copainalá),,0,,,1,,,low,,,high,,,S=P≠Atr,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+493,bara1380,Barasano,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T=G,,P=T=G,P=T=G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+494,viet1252,Vietnamese,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+495,kron1241,Krongo,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+497,supy1237,Supyire,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+499,buki1249,Bukiyip,0,0,1,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,S=Atr=Aditr=P=T=G,S=Atr=Aditr=P=T=G,,P=T=G,P=T=G,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+500,hmon1264,Hmong Njua,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+502,nucl1301,Turkish,1,0.6666666666666666,1,0,0,0,high,medium,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,S=Atr=Aditr≠P=T=G,P=T=G,P=T≠G,P=T=G,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+504,greb1256,Grebo,,0.5,,,0,,,medium,,,low,,,mixed,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+505,daga1275,Daga,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+514,cent2142,Aymara,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+515,bagi1246,Bagirmi,,0.5,,,0,,,medium,,,low,,,mixed,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+516,bamb1269,Bambara,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+518,brah1256,Brahui,1,0.6666666666666666,0.9166666666666666,0,0,0,high,medium,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T=G,,P=T=G,P=T=G,,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+523,coma1245,Comanche,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+526,epen1239,Epena Pedee,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T≠Atr=Aditr≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+527,even1259,Evenki,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+530,hunz1247,Hunzib,,0,,,0.42857142857142855,,,low,,,medium,,,S=Atr=P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+531,nucl1417,Igbo,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+533,imba1240,Quechua (Imbabura),,1,0.5416666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,,FALSE,TRUE,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE
+534,iraq1241,Iraqw,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+535,nucl1305,Kannada,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+536,hamt1247,Kapau,0,0.2727272727272727,1,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=Atr=Aditr=P=T=G,,P=G≠T,P=T=G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+540,khas1269,Khasi,1,1,1,0,0,0,high,high,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+546,koro1298,Koromfe,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+549,latv1249,Latvian,1,0.7,0.75,0,0,0,high,high,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+550,lavu1241,Lavukaleve,0,0,1,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+555,maka1318,Makah,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+558,mund1320,Mundari,0,0.5,1,0,0,0,low,medium,high,low,low,low,S=Atr=P,mixed,S=Atr≠P,S=Atr=Aditr=P=T=G,mixed,,P=T=G,P=T=G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+559,murl1244,Murle,0,,0.6428571428571429,0,,0,low,,medium,low,,low,S=Atr=P,,S=Atr≠P,,,,,,,FALSE,,TRUE,TRUE,,TRUE,FALSE,,FALSE,FALSE,,FALSE
+563,male1292,Passamaquoddy,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+567,ship1254,Shipibo-Konibo,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T=G≠Atr=Aditr,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+568,sout2982,Pomo (Southeastern),,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+569,stan1288,Spanish,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+571,cent2194,Tamazight (Ayt Ndhir),1,,0.6666666666666666,0,,0,high,,medium,low,,low,S=Atr≠P,,S=Atr≠P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+572,tete1251,Nahuatl (Tetelcingo),0,0,0.7222222222222222,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+574,urub1250,Urubú-Kaapor,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+576,wari1268,Wari,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+583,hebr1245,Hebrew (Modern),1,0.6666666666666666,1,0,0,0,high,medium,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+608,mari1278,Mari,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+614,cent1989,Cambodian,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+616,coco1261,Cocopa,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+618,alab1237,Alabama,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+629,chan1310,Chantyal,,0.6666666666666666,,,1,,,medium,,,high,,,S≠Atr≠P,,,S=T≠Atr=Aditr≠P=G,,,T≠P=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+632,wayu1241,Hayu,0,0,,0,1,,low,low,,low,high,,S=Atr=P,S=P≠Atr,,,,,,,,FALSE,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+634,saur1249,Malto,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+635,sant1410,Santali,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+637,sout2734,Yamphu,0,,0.2172983479105928,0,,0.10204081632653061,low,,low,low,,low,S=Atr=P,,S=Atr=P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+640,newa1246,Newar (Kathmandu),,0.6666666666666666,,,1,,,medium,,,high,,,S≠Atr≠P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+642,egyp1253,Arabic (Egyptian),1,0.5,0.7777777777777778,0,0,0,high,medium,high,low,low,low,S=Atr≠P,mixed,S=Atr≠P,,,,,,,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+643,sout2778,Kisi,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+645,hata1243,Hatam,1,0,1,0,0,0,high,low,high,low,low,low,S=Atr≠P,S=Atr=P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+648,boro1282,Bororo,0,0,0,1,0,1,low,low,low,high,low,high,S=P≠Atr,S=Atr=P,S=P≠Atr,S=P=T≠Atr=Aditr=G,S=Atr=Aditr=P=T≠G,S=P=T≠Atr=Aditr=G,P=T≠G,P=T≠G,P=T≠G,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+649,jeri1242,Jeli,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+655,gunw1252,Mayali,,0,,,0.25,,,low,,,low,,,S=Atr=P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+656,koro1312,Korowai,1,0.5,,0,0,,high,medium,,low,low,,S=Atr≠P,mixed,,S=Atr=Aditr≠P=T=G,mixed,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+658,yany1243,Yanyuwa,,0,,,0.5,,,low,,,medium,,,mixed,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+659,kala1377,Kala Lagaw La,0,0.3333333333333333,,1,0.3333333333333333,,low,low,,high,low,,S=P≠Atr,S=Atr=P,,S=P=T≠Atr=Aditr=G,,,P=T≠G,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+662,apat1240,Apatani,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+663,drun1238,Drung,,0.6666666666666666,,,1,,,medium,,,high,,,S≠Atr≠P,,,S=T≠Atr=Aditr≠P=G,,,T≠P=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+667,thul1246,Thulung (Mukli),0,,0.1280045351473923,0,,0.06848072562358276,low,,low,low,,low,S=Atr=P,,S=Atr=P,,,,,,,FALSE,,TRUE,TRUE,,TRUE,FALSE,,FALSE,FALSE,,FALSE
+669,gras1249,Koiari,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+673,enap1235,Panare,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T≠Atr=Aditr≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+674,limb1266,Limbu,0,0,0.19508692365835223,0,0.5,0.10143613000755858,low,low,low,low,medium,low,S=Atr=P,mixed,S=Atr=P,,,,,,,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+676,khor1267,Kurmanjî,,0.5,,,0.5,,,medium,,,medium,,,mixed,,,mixed,,,mixed,,,FALSE,,,TRUE,,,FALSE,,,FALSE,
+678,bulg1262,Bulgarian,0,0.5,0.8611111111111112,0,0,0,low,medium,high,low,low,low,S=Atr=P,mixed,S=Atr≠P,S=Atr=Aditr=P=T=G,mixed,,P=T=G,P=T≠G,,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+679,udmu1245,Udmurt,1,0.6666666666666666,0.9166666666666666,0,0,0,high,medium,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,,,,,,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
+681,khan1273,Khanty,0,,0.8,0,,0,low,,high,low,,low,S=Atr=P,,S=Atr≠P,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+682,yuca1254,Yucatec,0,0,0.40476190476190477,0,0,0.40476190476190477,low,low,medium,low,low,medium,S=Atr=P,S=Atr=P,mixed,S=Atr=Aditr=P=T=G,S=Atr=Aditr=P=T=G,,P=T=G,P=T=G,,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+686,daha1245,Dahalo,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T=G,,P=T=G,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+687,hopi1249,Hopi,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+688,cora1260,Cora,0,0,0.9166666666666666,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,S=Atr=P=G≠Aditr=T,S=Atr=Aditr=P=T=G,,P=G≠T,P=T=G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+689,lowl1265,Rarámuri,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+692,nucl1327,Limilngan,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+717,komi1269,Komi (Permyak),1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,,,,,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+718,nort2954,Paiute (Northern),,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+722,nort2722,Qiang (Northern),0,0,,0,0.2,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+726,stan1289,Catalan (Standard),1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+727,camp1261,Sardinian,1,0.75,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T=G,,P=T=G,P=T=G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+738,even1260,Even,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+748,azer1255,Azerbaijani,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+750,cent2194,Berber (Figuig),1,,0.6666666666666666,0,,0,high,,medium,low,,low,S=Atr≠P,,S=Atr≠P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+752,boka1249,Bokar,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+763,nort2735,Dong,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+785,yuhu1238,Máko,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,mixed,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+791,mong1331,Khamnigan,1,0.6666666666666666,0.9,0,0,0,high,medium,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+808,wath1238,Wathawurrung,,0.5,,,0.5,,,medium,,,medium,,,mixed,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+815,yort1237,Yorta Yorta,,0.5,,,1,,,medium,,,high,,,mixed,,,mixed,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+820,abau1245,Abau,1,1,1,0,0,0,high,high,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr≠P=T=G,mixed,,P=T=G,mixed,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+824,abaz1241,Abaza,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+827,akab1249,Aka-Biada,,0.5,,,0,,,medium,,,low,,,mixed,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+842,gulf1241,Arabic (Gulf),1,0.5,,0,0,,high,medium,,low,low,,S=Atr≠P,mixed,,S=Atr=Aditr≠P=T=G,mixed,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+848,agar1252,Agarabi,,0.5,,,0,,,medium,,,low,,,mixed,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+851,anga1290,Angaatiha,0,0.6666666666666666,1,0,0,0,low,medium,high,low,low,low,S=Atr=P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr=P=G≠T,,,P=G≠T,,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+853,agua1253,Aguaruna,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+865,aari1239,Aari,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+871,arak1252,Araki,0,0.625,0.6111111111111112,0,0,0,low,medium,medium,low,low,low,S=Atr=P,S=Atr≠P,S=Atr≠P,,,,,,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+872,akhv1239,Akhvakh,0,0,,1,1,,low,low,,high,high,,S=P≠Atr,S=P≠Atr,,S=P=T≠Atr=Aditr=G,S=P=T≠Atr=Aditr≠G,,P=T≠G,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+879,alut1245,Alutor,,0,,,1,,,low,,,high,,,S=P≠Atr,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+885,yane1238,Amuesha,0,0,0.6111111111111112,0,0,0,low,low,medium,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=Atr=Aditr=P=T=G,,P=G≠T,P=T=G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+894,nend1239,Nend,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+904,omie1241,Ömie,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T=G≠Atr=Aditr,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+908,athp1241,Athpare,0,0,0.1873015873015873,0,0.7,0.08858654572940287,low,low,low,low,high,low,S=Atr=P,S=P≠Atr,S=Atr=P,,S=P=T=G≠Atr=Aditr,,,P=T=G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+915,safe1240,Ampeeli,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+923,arap1274,Arapaho,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,,,,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+932,toca1235,Tocantins Asurini,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+938,molm1235,One,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+943,auuu1241,Au,1,0.5,,0,0,,high,medium,,low,low,,S=Atr≠P,mixed,,S=Atr=Aditr≠P=T=G,mixed,,P=T=G,mixed,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+945,awap1236,Awa,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+956,high1278,Nahuatl (Sierra de Zacapoaxtla),0,0,0.7222222222222222,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+957,basa1284,Basaa,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+968,bata1289,Batak (Toba),,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+970,bats1242,Tsova-Tush,,0.5714285714285714,,,0.42857142857142855,,,medium,,,medium,,,S=Atr≠P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+995,bell1243,Bella Coola,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=G≠T,,,P=G≠T,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1007,bagr1243,Bagri,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+1010,bina1277,Binandere,1,0,1,0,1,0,high,low,high,low,high,low,S=Atr≠P,S=P≠Atr,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=P=T≠Atr=Aditr≠G,S=Atr=Aditr≠P=T=G,P=T=G,P=T≠G,P=T=G,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1011,bhoj1244,Bhojpuri,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+1014,biak1248,Biak,1,0.5,1,0,0,0,high,medium,high,low,low,low,S=Atr≠P,mixed,S=Atr≠P,S=Atr=Aditr≠P=T=G,mixed,,P=T=G,P=T≠G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1018,biaf1240,Biafada,,0.5,,,0,,,medium,,,low,,,mixed,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1036,siks1238,Blackfoot,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+1042,bemb1257,Bemba,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1053,bong1285,Bongo,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1054,tiey1235,Bozo (Tigemaxo),,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1056,bugi1244,Bugis,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1058,boko1266,Boko,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1059,busa1253,Busa,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1063,baur1253,Baure,0,0.5,0.6666666666666666,0,0,0,low,medium,medium,low,low,low,S=Atr=P,mixed,S=Atr≠P,,mixed,,,P=T=G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1094,bash1264,Bashkir,1,0.6666666666666666,1,0,0,0,high,medium,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,,,,,,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1095,buri1258,Buriat,1,0.6666666666666666,1,0,0,0,high,medium,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,,,,,,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1099,bali1278,Balinese,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1103,biri1256,Biri,,0.5,,,0.5,,,medium,,,medium,,,mixed,,,mixed,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1105,chor1273,Chortí,0,0,0.3333333333333333,0,0,0.4444444444444444,low,low,low,low,low,medium,S=Atr=P,S=Atr=P,mixed,,,,,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1108,cadd1256,Caddo,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1116,cavi1250,Cavineña,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T=G≠Atr=Aditr,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1128,coma1246,Chinantec (Comaltepec),1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T=G,,P=T=G,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1129,nort3189,Zhuang (Northern),,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1130,chep1245,Chepang,,0.6666666666666666,,,1,,,medium,,,high,,,S≠Atr≠P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1134,cher1273,Cherokee,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1136,taba1266,Chontal Maya,0,0,0.20833333333333334,0,0,0.20833333333333334,low,low,low,low,low,low,S=Atr=P,S=Atr=P,S=Atr=P,,S=Atr=Aditr=P=T=G,,,P=T=G,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1142,chey1247,Cheyenne,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,,,,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1143,chic1270,Chickasaw,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1144,tiri1258,Tinrin,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1146,west2650,Cham (Western),,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1155,cakc1235,Cakchiquel,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1163,lowl1260,Chontal (Huamelultec Oaxaca),,0.7142857142857143,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr=T≠P=G,,,T≠P=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1168,coca1259,Cocama,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1169,kore1283,Koreguaje,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1172,copt1239,Coptic,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1176,chip1261,Chipewyan,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1177,lonw1238,Lonwolwol,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1183,corn1251,Cornish,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1234,idaa1241,Begak-Ida'an,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1255,cree1270,Creek (Seminole),,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1257,sout2986,Mutsun,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1261,kumi1248,Tiipay (Jamul),,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1262,jaru1254,Djaru,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T≠Atr=Aditr≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1263,dido1241,Tsez,0,0,,1,0.5714285714285714,,low,low,,high,medium,,S=P≠Atr,S=P≠Atr,,S=P=T≠Atr=Aditr=G,S=P=T≠Atr=Aditr≠G,,P=T≠G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1264,kami1255,Northern Dong,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1272,dege1246,Degema,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1276,desa1247,Desano,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T=G,,P=T=G,P=T=G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1293,sout2789,Dagaare,,0.16666666666666666,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1302,gamo1243,Gamo,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1323,dime1235,Dime,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1333,djin1253,Djinang,,1,,,0.3333333333333333,,,high,,,low,,,S=Atr≠P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1343,oira1263,Oirat,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1348,kenu1243,Nubian (Kunuz),0,1,0.75,0,0,0,low,high,high,low,low,low,S=Atr=P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=Atr=Aditr≠P=T=G,,P=G≠T,P=T=G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1364,ngar1235,Bilinara,0,,1,0,,0,low,,high,low,,low,S=Atr=P,,S=Atr≠P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+1388,darm1243,Darmiya,1,0,,0,1,,high,low,,low,high,,S=Atr≠P,S=P≠Atr,,S=Atr=Aditr≠P=T=G,S=P=T=G≠Atr=Aditr,,P=T=G,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1413,suri1267,Chai,0,0,0.7,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1414,suri1267,Tirmaga,0,0,0.5416666666666666,0,0,0,low,low,medium,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1416,daur1238,Dagur,1,0.6666666666666666,1,0,0,0,high,medium,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,,,,,,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1439,dumi1241,Dumi,0,0,0.30975056689342406,0,1,0.27709750566893426,low,low,low,low,high,low,S=Atr=P,S=P≠Atr,S=Atr=P,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1467,tuva1244,Tuvaluan,0,,,0,,,low,,,low,,,S,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+1468,emai1241,Ora (Nigeria),,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1473,enge1239,Engenni,,0.5,,,0,,,medium,,,low,,,mixed,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1477,esee1248,Ese Ejja,,0,,,0.5,,,low,,,medium,,,mixed,,,,,,,,,FALSE,,,TRUE,,,FALSE,,,FALSE,
+1487,palo1243,Palor,,0.5714285714285714,,,0,,,medium,,,low,,,S=Atr≠P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1492,fonn1241,Fongbe,,0.42857142857142855,,,0,,,medium,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1508,maas1239,Fulfulde (Maasina),,0.25,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1511,nige1253,Fula (Nigerian),,0.5,,,0,,,medium,,,low,,,mixed,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1518,gads1258,Gadsup,0,0,1,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=Atr=Aditr=P=T=G,,P=G≠T,P=T=G,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1523,gale1259,Galela,1,0.5,,0,0,,high,medium,,low,low,,S=Atr≠P,mixed,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1528,gude1246,Gude,,0.8333333333333334,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,,TRUE,,,TRUE,,,FALSE,,,FALSE,
+1531,ghod1238,Godoberi,0,0,,1,0.42857142857142855,,low,low,,high,medium,,S=P≠Atr,S=Atr=P,,,,,,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1536,gura1252,Gurr-goni,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1538,kenu1236,Nubian (Hill),1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1542,hinu1240,Hinuq,,0,,,0.42857142857142855,,,low,,,medium,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1556,godi1239,Godié,,0.5714285714285714,,,0,,,medium,,,low,,,S=Atr≠P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1569,east2555,Eastern Bolivian Guaraní,0,,1,0,,0.5789473684210527,low,,high,low,,medium,S=Atr=P,,S=Atr≠P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+1573,fare1241,Gurenne,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1577,guan1269,Guanano,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T=G,,P=T=G,P=T=G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1578,goli1247,Golin,1,0,1,0,0,0,high,low,high,low,low,low,S=Atr≠P,S=Atr=P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T=G,,P=T=G,P=T=G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1592,nort2938,Haida (Northern),,0.42857142857142855,,,0,,,medium,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1597,hait1244,Haitian Creole,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1600,huic1243,Huichol,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1606,hida1246,Hidatsa,,0,,,1,,,low,,,high,,,S=P≠Atr,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1621,hupa1239,Hupa,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1628,hawa1245,Hawaiian,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1644,ilok1237,Ilocano,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1645,anam1248,Anamuxra,0,0.6666666666666666,0.875,0,0,0,low,medium,high,low,low,low,S=Atr=P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=Atr=Aditr=T≠P=G,,P=G≠T,T≠P=G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1650,iqui1243,Iquito,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1660,itza1241,Itzaj,0,0,0.40476190476190477,0,0,0.40476190476190477,low,low,medium,low,low,medium,S=Atr=P,S=Atr=P,mixed,,S=Atr=Aditr=P=T=G,,,P=T=G,,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1671,java1254,Javanese,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1682,jeha1242,Jahai,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1691,juan1238,Juang,0,0.6666666666666666,,0,0,,low,medium,,low,low,,S=Atr=P,S=Atr≠P,,,,,,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1692,hupd1244,Hup,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,mixed,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1693,juru1256,Jurúna,0,,,0,,,low,,,low,,,Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+1702,kase1253,Kasem,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1703,kawa1283,Kawaiisu,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1704,kama1373,Kamayurá,0,,0.9473684210526315,0,,0.5526315789473685,low,,high,low,,medium,S=Atr=P,,S=Atr≠P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+1709,kama1370,Kamano-Kafe,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,S=Atr=Aditr=P=G≠T,S=Atr=Aditr=P=T=G,,P=G≠T,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1739,kusu1250,Kusunda,1,0.6666666666666666,1,0,0,1,high,medium,high,low,low,high,S=Atr≠P,S=Atr≠P,S≠Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=T≠P=G,,P=T=G,T≠P=G,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1740,kaiw1246,Kaiwá,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+1743,abun1252,Abun,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1750,khar1287,Kharia,1,0.75,1,0,0,0,high,high,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T=G,,P=T=G,P=T=G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1751,khva1239,Khwarshi,0,0,,1,1,,low,low,,high,high,,S=P≠Atr,S=P≠Atr,,S=P=T≠Atr=Aditr=G,S=P=T≠Atr=Aditr≠G,,P=T≠G,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1763,khak1248,Khakas,1,0.6666666666666666,1,0,0,0,high,medium,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1772,gugu1255,Guugu Yimidhirr,,0.5,,,0.5,,,medium,,,medium,,,mixed,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1775,kulu1253,Kulung,0,0,0.14217687074829932,0,1,0.09442176870748299,low,low,low,low,high,low,S=Atr=P,S=P≠Atr,S=Atr=P,,S=P=T=G≠Atr=Aditr,,,P=T=G,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1778,khal1275,Khaling,,0,,,1,,,low,,,high,,,S=P≠Atr,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1784,kwom1262,Kwoma,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1806,kora1294,Korafe,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1810,koit1244,Koita,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1816,kryt1240,Kryz,0,0,,1,0.5,,low,low,,high,medium,,S=P≠Atr,mixed,,,,,,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1826,kalk1246,Kalkatungu,,0,,,1,,,low,,,high,,,S=P≠Atr,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1827,kari1311,Karitiâna,0,0,,1,0,,low,low,,high,low,,S=P≠Atr,S=Atr=P,,S=P=T≠Atr=Aditr=G,S=Atr=Aditr=P=T≠G,,P=T≠G,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1833,bord1248,Kuna,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1835,kuma1280,Kuman,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1887,lill1248,Lillooet,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1896,lele1276,Lele,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1902,lake1258,Miwok (Lake),,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1914,lush1249,Mizo (Lushai),,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T=G≠Atr=Aditr,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1940,mala1522,Damana,,0,,,1,,,low,,,high,,,S=P≠Atr,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1944,mari1435,Maring,,0.7,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1947,mats1244,Matsés,,0,,,0.875,,,low,,,high,,,S=P≠Atr,,,S=P=T=G≠Atr=Aditr,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1949,maqu1238,Carib (De'kwana),,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1952,coat1238,Mixe (Coatlán),,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1954,meny1245,Menya,0,0.3333333333333333,0.8333333333333334,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=Atr=Aditr=P=T=G,,P=G≠T,P=T=G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1961,sout2785,Mbodomo,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1964,male1284,Maale,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1973,meno1252,Menomini,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+1988,madi1260,Ma'di,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+1989,madu1247,Madurese,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1991,moss1236,Moré,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+1999,miam1252,Illinois,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,,,,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2001,mikm1235,Micmac,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+2007,mika1239,Mikasuki,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2016,tuuu1240,Mangghuer,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2023,miya1266,Miya,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2028,mana1298,Manambu,0,0.6666666666666666,0,0,0,1,low,medium,low,low,low,high,S=Atr=P,S=Atr≠P,S=P≠Atr,S=Atr=Aditr=P=T=G,S=Atr=Aditr≠P=T≠G,S=P=T=G≠Atr=Aditr,P=T=G,P=T≠G,P=T=G,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2029,mogh1245,Moghol,1,1,0.9444444444444444,0,0,0,high,high,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2031,barg1252,Mugil,0,0,0.75,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,S=Atr=Aditr=P=T≠G,S=Atr=Aditr=P=T=G,,P=T≠G,P=T=G,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2035,motl1237,Mwotlap,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2047,monn1252,Mon,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2054,moha1258,Mohawk,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2060,moha1256,Mojave,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2063,maja1242,Majang,1,0,0.9166666666666666,0,0,0,high,low,high,low,low,low,S=Atr≠P,S=Atr=P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2072,west2600,Makian (West),1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2093,mund1325,Mundang,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2096,nucl1240,Mumuye,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2098,murs1242,Mursi,0,,0.7777777777777778,0,,0,low,,high,low,,low,S=Atr=P,,S=Atr≠P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+2101,mamm1241,Mam,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+2102,peri1253,Ordos,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2124,wich1264,Wichí,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2132,nali1244,Nalik,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2144,nort2957,Nahuatl (North Puebla),,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2148,samb1305,Samba Leko,,0.6875,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,TRUE,,,TRUE,,,FALSE,,,FALSE,
+2150,ndut1239,Ndut,1,0.375,1,0,0,0,high,medium,high,low,low,low,S=Atr≠P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2153,negi1245,Negidal,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2169,ngan1295,Ngandi,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T≠Atr=Aditr≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2172,ngan1291,Nganasan,0,0.3333333333333333,0.75,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2173,nias1242,Nias,0.5,,,0.5,,,medium,,,medium,,,mixed,,,mixed,,,P=T=G,,,FALSE,,,TRUE,,,FALSE,,,FALSE,,
+2189,nank1250,Nankina,0,0,1,0,1,0,low,low,high,low,high,low,S=Atr=P,S=P≠Atr,S=Atr≠P,S=Atr=Aditr=P=T≠G,S=P=T≠Atr=Aditr≠G,,P=T≠G,P=T≠G,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2190,nami1256,Namia,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2194,laoo1244,Lao,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2209,nort2968,Miwok (Northern Sierra),,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2210,nise1244,Nisenan,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2218,nupe1254,Nupe,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2225,ngaw1240,Ngawun,,0.5,,,0.5,,,medium,,,medium,,,mixed,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2227,chew1246,Chichewa,1,0.5,,0,0,,high,medium,,low,low,,S=Atr≠P,mixed,,,,,,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2244,east2542,Ojibwa (Eastern),0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+2250,omag1248,Omagua,0,,1,0,,0,low,,high,low,,low,S=Atr=P,,S=Atr≠P,,,,,,,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+2251,oloo1241,Olo,0,0,0.75,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=Atr=Aditr=P=T=G,,P=G≠T,P=T=G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2255,orok1269,Orokaiva,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2259,osag1243,Osage,,0.42857142857142855,,,0,,,medium,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2265,waya1270,Wayampi,1,,0.926605504587156,0,,0.3302752293577982,high,,high,low,,low,S=Atr≠P,,S=Atr≠P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+2268,paco1243,Pacoh,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2271,pana1305,Shoshoni,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2272,pech1241,Pech,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2285,bona1250,Baonan,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2289,taji1245,Tajik,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2290,pagu1249,Pagu,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2291,pima1248,Pima Bajo,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,mixed,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2306,pila1245,Pilagá,1,0.2857142857142857,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T=G,,P=T=G,P=T=G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2308,olut1240,Olutec,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2313,plai1259,Miwok (Plains),,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2322,cent2138,Pomo (Central),,0.7,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2335,fran1260,Provencal,1,0,1,0,0,0,high,low,high,low,low,low,S=Atr≠P,S=Atr=P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2359,ayac1239,Quechua (Ayacucho),,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2360,caml1239,Camling,,,0.17913832199546487,,,0.17687074829931973,,,low,,,low,,,S=Atr=P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE
+2378,roto1249,Rotokas,1,0,1,0,0,0.4666666666666667,high,low,high,low,low,medium,S=Atr≠P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2391,rawa1267,Rawa,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2402,sher1255,Sherpa,,0,,,0.5,,,low,,,medium,,,mixed,,,mixed,,,P=T≠G,,,FALSE,,,TRUE,,,FALSE,,,FALSE,
+2416,shug1248,Rushan,,0.5714285714285714,,,0.2857142857142857,,,medium,,,low,,,S=Atr=P,,,,,,,,,TRUE,,,TRUE,,,FALSE,,,FALSE,
+2417,ishk1246,Ishkashimi,1,0.5,,0,0,,high,medium,,low,low,,S=Atr≠P,mixed,,,mixed,,,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2434,siar1238,Siar,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+2447,slov1268,Slovene,1,,1,0,,0,high,,high,low,,low,S=Atr≠P,,S=Atr≠P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+2453,sina1266,Sinaugoro,0,0,1,0,1,0,low,low,high,low,high,low,S=Atr=P,S=P≠Atr,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=P=T=G≠Atr=Aditr,,P=G≠T,P=T=G,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2455,noon1242,Noon,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2459,sian1257,Siane,,0,,,1,,,low,,,high,,,S=P≠Atr,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2471,croa1245,Serbian-Croatian,,0.4,,,0,,,medium,,,low,,,S=Atr=P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2476,siri1273,Sirionó,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+2498,mwag1236,Mupun,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2513,tari1256,Tariana,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+2514,tapi1253,Tapiete,0,0.8571428571428571,0.4482758620689655,0,0,0.22413793103448276,low,high,medium,low,low,low,S=Atr=P,S=Atr≠P,S=Atr=P,,S=Atr=Aditr=G≠P=T,,,G≠P=T,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2536,tami1289,Tamil,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2537,telu1262,Telugu,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,,,,,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2539,tulu1258,Tulu,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2544,sout2976,Tepehuan (Southeastern),0,,0.55,0,,0,low,,medium,low,,low,S=Atr=P,,S=Atr≠P,S=Atr=Aditr=P=G≠T,,,P=G≠T,,,FALSE,,TRUE,TRUE,,TRUE,FALSE,,FALSE,FALSE,,FALSE
+2548,teso1249,Teso,0,1,0.5,0,0,0.17647058823529413,low,high,medium,low,low,low,S=Atr=P,S=Atr≠P,S=Atr=P,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2551,atik1240,Atikamekw,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+2554,tenn1246,Tennet,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2556,teri1250,Teribe,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2557,tern1247,Ternate,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T=G,,P=T=G,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2562,thay1249,Thaayorre,0,0.5,1,0,0.5,0,low,medium,high,low,medium,low,S=Atr=P,mixed,S=Atr≠P,S=Atr=Aditr=P=T≠G,mixed,,P=T≠G,P=T≠G,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2564,thom1243,Thompson,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=G≠T,,,P=G≠T,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2580,tobe1252,Tobelo,0,0,1,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2586,haru1245,Haruai,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T=G,,P=T=G,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2591,tani1257,Retuarã,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T=G,,P=T=G,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2607,copa1237,Trique (Copala),,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr=T≠P=G,,,T≠P=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2617,tsha1245,Tshangla,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T≠Atr=Aditr≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2628,toba1266,Tobati,0,0,0.7857142857142857,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2638,hdii1240,Hdi,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2641,turk1308,Turkana,0,1,,0,0,,low,high,,low,low,,S=Atr=P,S=Atr≠P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2645,akan1250,Akan,,0.7142857142857143,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2657,udih1248,Udihe,1,0.6666666666666666,0.9285714285714286,0,0,0,high,medium,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2662,yaku1245,Yakut,1,0.6666666666666666,1,0,0,0,high,medium,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2667,umbu1258,Kaugel,1,0,,0,1,,high,low,,low,high,,S=Atr≠P,S=P≠Atr,,S=Atr=Aditr≠P=T=G,S=P=T=G≠Atr=Aditr,,P=T=G,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2668,muns1251,Munsee,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+2690,idun1242,Iduna,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2695,makh1264,Makua,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2706,waya1269,Wayana,,0,,,0.5,,,low,,,medium,,,mixed,,,mixed,,,P=T≠G,,,TRUE,,,TRUE,,,FALSE,,,FALSE,
+2707,wola1242,Wolaytta,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2722,wikm1247,Wik Munkan,,0.5,,,0.5,,,medium,,,medium,,,mixed,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2723,wira1265,Wirangu,,0,,,0.5,,,low,,,medium,,,mixed,,,mixed,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2726,wels1247,Welsh,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2727,wamb1259,Wambon,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2729,want1252,Wantoat,,0,,,1,,,low,,,high,,,S=P≠Atr,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2736,hang1263,Hanga Hundi,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=T≠P=G,,P=T=G,T≠P=G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2772,kweg1241,Koegu,1,0,0.75,0,0,0,high,low,high,low,low,low,S=Atr≠P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2790,yuec1235,Cantonese,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2797,sout2750,Yukagir (Kolyma),1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+2801,sanj1284,Zapotec (San Lucas Quiaviní),,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2814,chim1300,Zoque (Chimalapa),,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2828,aghu1253,Agul,,0,,,1,,,low,,,high,,,S=P≠Atr,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2831,anci1242,Greek (Ancient),1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+2832,goth1244,Gothic,1,0.7142857142857143,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2848,sawe1240,Saweru,0,0,1,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2854,oldh1241,High German (Old),1,0.7,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2862,chhi1245,Chintang,0,0,0.2649659863945578,0,0.6666666666666666,0.12431972789115646,low,low,low,low,medium,low,S=Atr=P,S=P≠Atr,S=Atr=P,,S=P=T≠Atr=Aditr≠G,,,P=T≠G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2863,puma1239,Puma,0,0.6666666666666666,0.2303206997084548,0,1,0.12633624878522837,low,medium,low,low,high,low,S=Atr=P,S≠Atr≠P,S=Atr=P,,S=T≠Atr=Aditr≠P=G,,,T≠P=G,,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2864,tour1242,Toura,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2865,wamb1257,Wambule,0,0,0.38639455782312926,0,1,0.29297052154195014,low,low,medium,low,high,low,S=Atr=P,S=P≠Atr,S=Atr=P,,S=P=T=G≠Atr=Aditr,,,P=T=G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2869,yaga1260,Yagaria,0,0,0.9444444444444444,0,1,0,low,low,high,low,high,low,S=Atr=P,S=P≠Atr,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2871,nort2732,Northern Tujia,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2873,bant1281,Bantawa,0,0,0.24606413994169096,0,1,0.15393586005830903,low,low,low,low,high,low,S=Atr=P,S=P≠Atr,S=Atr=P,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2878,adan1251,Adang,,0.5,,,0,,,medium,,,low,,,mixed,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2882,kaby1243,Berber (Kabyle),0,0,0.7777777777777778,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,S=Atr=Aditr=P=T=G,S=Atr=Aditr=P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2883,shug1248,Khufi,,0.5714285714285714,,,0.2857142857142857,,,medium,,,low,,,S=Atr=P,,,,,,,,,TRUE,,,TRUE,,,FALSE,,,FALSE,
+2885,shug1248,Shughni,1,0.42857142857142855,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr=P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2893,lati1261,Latin,1,0.5833333333333334,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2897,assi1247,Assiniboine,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2900,aves1237,Avestan,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2903,dewo1238,Dewoin,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2904,dumb1241,Dumbea,,0.6,,,0,,,medium,,,low,,,S=Atr≠P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2922,uppe1235,Tarom,,0.1875,,,0.0625,,,low,,,low,,,S=Atr=P,,,,,,,,,TRUE,,,TRUE,,,FALSE,,,FALSE,
+2930,bett1235,Betta Kurumba,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2934,nuuu1241,Nǀuu,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2935,waim1253,Waimiri Atroari,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T=G≠Atr=Aditr,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2939,huar1255,River Warihío,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2943,molo1266,Moloko,1,0.2857142857142857,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,,,,,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2951,kara1500,Karajá,1,0.5,1,0,0,0,high,medium,high,low,low,low,S=Atr≠P,mixed,S=Atr≠P,,,,,,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2954,eton1253,Eton,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T=G,,P=T=G,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2956,sunw1242,Kõic,0,,0.3431372549019608,0,,0.05664488017429194,low,,medium,low,,low,S=Atr=P,,S=Atr=P,,,,,,,FALSE,,TRUE,TRUE,,TRUE,FALSE,,FALSE,FALSE,,FALSE
+2958,east1472,Keresan (Laguna),0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,S=Atr=Aditr=P=G≠T,S=Atr=Aditr=P=T=G,,P=G≠T,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2969,tach1250,Shilha,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2971,lazz1240,Laz (Ardeşen),,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2972,kamb1316,Kambaata,1,,0.6,0,,0,high,,medium,low,,low,S=Atr≠P,,S=Atr≠P,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+2973,logb1245,Logba,1,0.5,1,0,0,0,high,medium,high,low,low,low,S=Atr≠P,mixed,S=Atr≠P,S=Atr=Aditr≠P=T=G,mixed,S=Atr=Aditr≠P=T=G,P=T=G,P=T=G,P=T=G,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2974,mina1276,Mina,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2975,kelo1247,Klon,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,mixed,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2980,koii1238,Koyi,0,0,0.1751412429378531,0,1,0.11138014527845036,low,low,low,low,high,low,S=Atr=P,S=P≠Atr,S=Atr=P,,,,,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2982,bari1286,Bariai,1,0,1,0,0,0,high,low,high,low,low,low,S=Atr≠P,S=Atr=P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2984,mian1256,Mian,1,0,1,0,0,0,high,low,high,low,low,low,S=Atr≠P,S=Atr=P,S=Atr≠P,,S=Atr=Aditr=P=T=G,,,P=T=G,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2987,jams1239,Dogon (Jamsay),1,0.5,1,0,0,0,high,medium,high,low,low,low,S=Atr≠P,mixed,S=Atr≠P,S=Atr=Aditr≠P=T=G,mixed,,P=T=G,P=T≠G,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2989,mual1241,Mualang,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2990,seim1238,Seimat,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+2992,teiw1235,Teiwa,0,,0,0,,0,low,,low,low,,low,Atr≠P,,Atr≠P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+2993,babi1235,Witsuwit'en,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2994,sanf1258,Huave (San Francisco del Mar),0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2996,yakk1236,Yakkha,0,,0.19591836734693877,0,,0.09156462585034014,low,,low,low,,low,S=Atr=P,,S=Atr=P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+2997,reye1240,Reyesano,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2998,jeru1240,Jero,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+2999,thul1246,Old Thulung (Mukli),0,,0.10850340136054422,0,,0.08696145124716553,low,,low,low,,low,S=Atr=P,,S=Atr=P,,,,,,,FALSE,,TRUE,TRUE,,TRUE,FALSE,,FALSE,FALSE,,FALSE
+3006,shek1245,Sheko,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+3007,bahi1252,Bahing,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,TRUE,,,FALSE,,,FALSE,,
+3009,tsam1247,Tsamai,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+3010,nort2727,Lohorung,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,TRUE,,,FALSE,,,FALSE,,
+3012,malo1243,Tamambo,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+3015,kach1284,Kachama-Ganjule,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+3018,alab1254,Alaba-K’abeena,0,1,0.875,0,0,0,low,high,high,low,low,low,S=Atr=P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=Atr=Aditr≠P=T≠G,,P=G≠T,P=T≠G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3022,zenz1235,Chatino (Zenzontepec),,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+3024,stan1289,Catalan (Balearic),1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+3028,tila1239,Otomi (Tilapa),1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+3032,aton1241,Atong,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+3037,east2370,Miao (Eastern Qiandong),,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+3039,ghom1257,Ghomara,1,0.5,0.6666666666666666,0,0,0,high,medium,medium,low,low,low,S=Atr≠P,mixed,S=Atr≠P,,,,,,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3040,tama1365,Tamashek (Mali),1,,0.6666666666666666,0,,0,high,,medium,low,,low,S=Atr≠P,,S=Atr≠P,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+3042,tama1365,Tamashek (Burkin Faso),1,,0.6666666666666666,0,,0,high,,medium,low,,low,S=Atr≠P,,S=Atr≠P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+3045,ajab1235,Aja (Benin),,0.2857142857142857,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+3046,adan1247,Dangme,,0.5714285714285714,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+3047,hlai1239,Hlai,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+3049,sanb1241,Zapotec (San Baltazar Loxicha),,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+3051,kilm1241,Kilmeri,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+3052,akoy1238,Akoye,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+3053,tain1253,Tainae,0,0.5,1,0,0,0,low,medium,high,low,low,low,S=Atr=P,mixed,S=Atr≠P,S=Atr=Aditr=P=G≠T,mixed,,P=G≠T,P=T=G,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3054,ziaa1250,Zia,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+3058,esee1247,Ese,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+3059,melp1238,Melpa,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+3060,niii1240,Nii,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+3062,iyoo1238,Iyo,0,0,1,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=Atr=Aditr=P=T=G,,P=G≠T,P=T=G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3063,awar1248,Awara,1,0,,0,1,,high,low,,low,high,,S=Atr≠P,S=P≠Atr,,S=Atr=Aditr≠P=T=G,S=P=T≠Atr=Aditr≠G,,P=T=G,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+3064,numa1254,Numanggang,0,0,,0,0.5,,low,low,,low,medium,,S=Atr=P,mixed,,S=Atr=Aditr=P=G≠T,mixed,,P=G≠T,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+3068,emer1243,Emerillon,0,,0.5263157894736842,0,,0.21052631578947367,low,,medium,low,,low,S=Atr=P,,S=Atr=P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+3070,mufi1238,Mufian,0,0,1,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,,S=Atr=Aditr=P=T=G,,,P=T=G,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3072,komb1272,Kombio,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+3075,kama1367,Kamasau,0,0,1,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=Atr=Aditr=P=T=G,,P=G≠T,P=T=G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3081,awiy1238,Kosena,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T=G,,P=T=G,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+3085,mend1268,Seim,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+3092,bent1238,Dogon (Ben Tey),1,0,1,0,0,0,high,low,high,low,low,low,S=Atr≠P,S=Atr=P,S=Atr≠P,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3093,bond1248,Dogon (Najamba),1,0,1,0,0,0,high,low,high,low,low,low,S=Atr≠P,S=Atr=P,S=Atr≠P,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3095,tene1248,Dogon (Togo Kan),1,0.16666666666666666,1,0,0,0,high,low,high,low,low,low,S=Atr≠P,S=Atr=P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3096,nang1261,Dogon (Nanga),1,0,1,0,0,0,high,low,high,low,low,low,S=Atr≠P,S=Atr=P,S=Atr≠P,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+3099,esta1236,Otomi (Estado de México),1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+3117,nepa1254,Nepali (Eastern),,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,TRUE,,,TRUE,,,FALSE,,,FALSE
+3131,mbya1239,Mbyá Guaraní,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+3156,kaya1329,Kayabí,0,,0.9545454545454546,0,,0.2727272727272727,low,,high,low,,low,S=Atr=P,,S=Atr≠P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+3206,mart1256,Wangkajunga,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T≠Atr=Aditr≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+3213,oldi1245,Irish (Old),1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+3249,awet1244,Awetí,,,0,,,0.6470588235294118,,,low,,,medium,,,S≠Atr,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE
+3250,xing1248,Xingú Asuriní,,,1,,,0.5789473684210527,,,high,,,medium,,,S=Atr≠P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE
+3251,avac1239,Avá-Canoeiro,0,,0.7727272727272727,0,,0.18181818181818182,low,,high,low,,low,S=Atr=P,,S=Atr≠P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+3252,guaj1256,Guajá,0,,1,0,,0.5,low,,high,low,,medium,S=Atr=P,,S=Atr≠P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+3261,tapi1254,Tapirapé,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+3262,para1312,Parakanã,0,,1,0,,0.4482758620689655,low,,high,low,,medium,S=Atr=P,,S=Atr≠P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+3263,anam1249,Anambé,0,,1,0,,0.5789473684210527,low,,high,low,,medium,S=Atr=P,,S=Atr≠P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+3264,araw1273,Araweté,1,,0,0,,0,high,,low,low,,low,S=Atr≠P,,S=Atr,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+3269,temb1276,Tenetehara,0,,1,0,,0.6326530612244898,low,,high,low,,medium,S=Atr=P,,S=Atr≠P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+3305,nhen1239,Nhengatu,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
+3306,pait1247,Pai Tavytera,0,,1,0,,0.6326530612244898,low,,high,low,,medium,S=Atr=P,,S≠Atr=P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+3359,nant1250,Nanti,0,,1,0,,0,low,,high,low,,low,S=Atr=P,,S=Atr≠P,,,,,,,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
+3364,ikpe1245,Ikpeng,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,

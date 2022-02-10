@@ -1,0 +1,271 @@
+description: >-
+  Morphological category
+kind: manual data entry
+data: table
+fields: 
+  Category:
+    description: >-
+      Morphological category
+    kind: manual data entry
+    data: value-list
+    values: 
+      "Person": >-
+        1st, 2nd, 3rd person (and sometimes others), i.e. noun or pronoun referents
+        defined as speaker/hearer/neither.
+      "Number": >-
+        Singular, plural, sometimes others. Other than in role agreement.
+      "Role": >-
+        Grammatical role or relation, including pivots
+      "TAM": >-
+        Tense, aspect, and mood
+      "Honorificity": >-
+        Categories used to differentiate status of individuals: the referent of a form
+        marked as honorific is higher in status than the other(s) in the discourse.
+      "Aspect": >-
+        Grammatical aspect, sensitive to lexical Aktionsart and implicated in syntax;
+        categories such as perfective and imperfective.
+      "Polarity": >-
+        Negative vs. Affirmative
+      "Nominalizer": >-
+        Derives a syntactic noun form from a verb; turns a clause into a phrase that can
+        function as argument or possessor.
+      "Tense": >-
+        The traditional category of time reference (absolute or relative) in verbs.
+      "Connective": >-
+        Marker of clause connection, including chaining markers, complementizers, markers
+        of subordination or relative (unless it is a nominalizer, in which case code as
+        Nominalizer). Includes converbs of all types, chaining (narrative, sequencing) and
+        subordinating (adverbial). Forms called “subjunctive” or “conjunctive” are likely
+        to belong here.
+      "Causative": >-
+        Adds an agent to the valence.
+      "Voice": >-
+        Assignment of role to an NP with a certain marker or status (nominative,
+        absolutive, etc.) with a reduction in syntactic transitivity. This includes
+        passives, antipassives, diathetic reflexives, middles etc.
+      "Version": >-
+        Category that registers the presence of an indirect object, goal, or applicative
+        object and responds to its person (typically distinguishing 1st/2nd vs. 3rd
+        person). Term and concept from Kartvelian languages.
+      "Semistem": >-
+        The more wordlike or noun-like element of a bipartite stem that interacts with the
+        inflectional system.
+      "Gender": >-
+        Agreement category involving noun classification. Usually covert on nouns; overt
+        on agreeing word(s). Unless otherwise specified this is lexical gender of nouns.
+      "Quantificational": >-
+        Multiple argument or multiple action, variously or fluidly. Pluractionals,
+        distributive, ‘each’, ‘all’, ‘some’, ‘once’, ‘always’, ‘repeatedly’ etc. Subsumes
+        both argument and event quantification
+      "MAN": >-
+        Mood-Aspect-Negation (term from Heath 1999 [Koyra Chiini]).
+      "TA": >-
+        Tense-aspect
+      "Applicative": >-
+        Adds another object to the valence.
+      "Illocution": >-
+        Interrogative, Declarative, Imperative etc.
+      "MTN": >-
+        Mood, tense, and negation
+      "Direction": >-
+        Direct/inverse marking, indicating conformity vs. non-conformity to a hierarchy
+        (person, referentiality), whether using equipollent direct and inverse markers
+        (e.g. Cree) or only an inverse marker (e.g. Chukchi).
+      "Reflexive": >-
+        Reflexives unless they serve purely diathetic purposes (passives, antipassives)
+      "Focus": >-
+        intensifiers, focus, emphatics etc.
+      "Valence": >-
+        Transitivity markers. Does not include diathetical markers whose primary function
+        is to change valence. Valence markers as defined here are generally used on ALL
+        transitive or ALL intransitive verbs, whether derived or not (Example; Algonquian,
+        Austronesian transitivity markers). But note that obviation is covered under
+        Referential.
+      "Evidential": >-
+        Evidentials, miratives, evaluatives, etc.
+      "PossClass": >-
+        Possessive declension class, i.e. declension class based on possessum=head
+      "Construct": >-
+        The formative does not express any category but rather indicates the use of
+        a certain construction or the presence of a certain syntactic configuration.
+        Examples: Arabic or Slave construct state marking
+      "PossSem": >-
+        Possession semantics (e.g. marking that the head is alienable or drinkable or
+        whatever) -- not to be used if the marking is due to possessive declension class
+        differences!
+      "Sex": >-
+        Natural gender. Sex of referent (e.g. in English pronouns). For gender
+        classification of nouns, code as gender (even if gender is predictable from sex,
+        as it usually is for animates).
+      "Referential": >-
+        Values like definite, indefinite, specific, nonspecific, generic, obviative,
+        proximative, remote, etc. NB: “Referential” is exponent of CASE only if the
+        referential value cannot be separated from the syntactic role that the CASE marker
+        codes. That is, with Tagalog ANG, for example, you cannot have the syntactic role
+        that ANG codes without at the same time having specific NP reference. This is
+        different from DOM (and DSM) in Turkish or Hindi or Spanish because not marking
+        the object by the ACC does not make it an object any less. Unmarked O’s in DOM
+        systems are O’s. But not using ANG because the NP doesn’t have specific reference,
+        changes the syntactic role the NP is in.
+      "Switch_reference": >-
+        Grammatical category tracking successive clauses in a discourse for whether the
+        subject (or other pivot) is referentially identical to vs. different from that of
+        the adjacent clause.
+      "Status": >-
+        Realis vs. irrealis; certainty
+      "TE": >-
+        Tense and evidentiality together
+      "Aktionsart": >-
+        Situation aspect, or lexical aspect.
+      "Potentialis": >-
+        Potential mood category.
+      "Classifier": >-
+        Formative that classifies any argument, regardless of the type of classification
+        (e.g. shape, body part) or whether the classifier itself is incorporated or just
+        its semantics is specified. If numeral classifiers are incorporated into the verb,
+        include that here regardless of whether the classified noun is also incorporated
+        with it.
+      "Mood": >-
+        General term for mood categories such as indicative, conditional, subjunctive,
+        imperative, etc.
+      "Reflexive_and_Reciprocal": >-
+        Reflexive and/or reciprocal, for languages in which these two are non-distinct or
+        in complementary distribution.
+      "RECIP": >-
+        Reciprocal
+      "MSE": >-
+        Mood or Status or Evidential or any combination of these
+      "AN Focus": >-
+        DO NOT USE. Use 72 instead. (Was: Western Austronesian-style focus marking.)
+      "Scope": >-
+        The category serves to indicate or constrain the scope of some other morpheme (e.g
+        negation).
+      "Modality": >-
+        Possibility, probability, etc.; also desiderative, intention.
+      "Deixis": >-
+        Any grammatical category distinguishing direction toward vs. from speaker, or
+        similar; also up (from speaker), down (from speaker). Common terms: cislocative,
+        translocative.
+      "Possessor": >-
+        The adnominal, or dependent, member of adnominal constructions (NP with modifier
+        or adjunct). Includes but is not limited to literal possessors.
+      "Motion": >-
+        Inflectional categories (other than deixis) that have to do with motion, e.g.
+        Yagua unbounded movement suffix, Mparntwe Arrernte associated motion. But see also
+        Purposive.
+      "Repetition": >-
+        Iteration, repetition (‘again’); not the same as an iterative Aktionsart.
+      "Posterior": >-
+        Action follows another. May be future-like in elicitation. This definition based
+        on the Hatam posterior category.
+      "Rich_Construct": >-
+        Construct marker, but with additional semantics indicating something about the
+        role or function of the relevant dependent. See the Hatam instrument prefix for an
+        example.
+      "Present": >-
+        True present or Current Relevance (defined for Jeli [Mande, Ivory Coast] by Tröbs
+        1998: 141-2): makes a verb present or perfect.
+      "TM": >-
+        Tense and mood
+      "Quotative": >-
+        Reported speech, quotative, and other dedicated markers of direct, indirect, or
+        semidirect speech.
+      "Possessive": >-
+        Possessive morphology (often affix), usually dependent-driven agreement on head.
+      "Sequential": >-
+        Sequenced or sequential actions (anterior or posterior relative tense). Maybe this
+        category should be conflated with future/posterior.
+      "Conditional": >-
+        Mood category marking conditionality in any sense (hypothetical, counterfactual,
+        etc.).
+      "MA": >-
+        Mood and aspect
+      "Case": >-
+        E.g. Kunwinjku inflected verbs can take a case suffix; makes the verb
+        (approximately) an adverbial clause (‘when’, etc.).
+      "Control": >-
+        As in Salishan: deliberate, involuntary, etc. control of A over the action.
+      "Topic": >-
+        Either sentential topic (what is talked about in a sentence, opposed to comment)
+        or discourse topic (central participant of a stretch of discourse).
+      "Taxis": >-
+        Converb, participle, etc. morphology that can expand a fully inflected verb form
+      "Progressive": >-
+        Aktionsart category involving bounded duration.
+      "Clusivity": >-
+        inclusive/exclusive
+      "Spatial": >-
+        Various local, spatial, etc. things (other than Deixis).
+      "Symmetrical_voice": >-
+        Assignment of role to an NP with a certain marker or status (proximate, topic,
+        focus, etc.) without a change in syntactic transitivity. This includes systems
+        such as Western Austronesian focus, Yukagir focus, Algonquian obviation, etc.
+      "Distributive": >-
+        Multiple occurrences of an argument, separate from role marking and distinct from
+        number marking
+      "Reversative": >-
+        ‘undo’, etc.
+      "Unspecified_Argument": >-
+        Unspecified or generic (or similar) A, O, etc.
+      "Middle": >-
+        Middle voice. This is probably lexical or derivational, not inflectional.
+      "Incompletive": >-
+        Incompletive aspect.
+      "Purposive": >-
+        (Term used for Tariana and used as though it were a standard term. Means ‘go
+        and ...’, ‘(in order) for ... to...’. Consider changing to Modality.
+      "TAME": >-
+        TAM and evidential, all in one slot
+      "Affect": >-
+        Indicates that an argument (e.g. A) is affected by, or has an interest in, the
+        event.
+      "AE": >-
+        Aspect and evidentiality
+      "ME": >-
+        Mood and evidentiality
+      "TAE": >-
+        Tense, aspect and evidentiality
+      "TN": >-
+        Tense, and negation
+  # -- end of Category
+
+  Macrocategory:
+    description: >-
+      Morphological macrocategory
+    kind: manual data entry
+    data: value-list
+    values: 
+      "person": >-
+        Person categories
+      "number": >-
+        Number categories
+      "role": >-
+        Role categories
+      "TAM+": >-
+        TAM or related categories
+      "pragmatic": >-
+        Pragmatic categories
+      "operators": >-
+        Operator categories
+      "NP-related": >-
+        NP structure categories
+      "inter-clausal": >-
+        Inter-clausal categories
+      "valence": >-
+        Valence-related categories
+      "classification": >-
+        Classification categories
+      "evidential": >-
+        Evidential categories
+      "event-specs": >-
+        Event specification categories (e.g. motion or repetition)
+      "other": >-
+        Other category type
+  # -- end of Macrocategory
+
+  Definition:
+    description: >-
+      Category type definition
+    kind: manual data entry
+    data: comment
+  # -- end of Definition

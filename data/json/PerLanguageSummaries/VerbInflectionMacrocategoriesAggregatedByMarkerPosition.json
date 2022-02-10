@@ -1,0 +1,1710 @@
+[
+  {
+    "LID": 35,
+    "Glottocode": "belh1239",
+    "Language": "Belhare",
+    "MarkerPositionForTAMPlus": "post/post/prae/post",
+    "MarkerPositionForOperators": "circum",
+    "MarkerPositionForValence": "post/prae",
+    "MarkerPositionForInterClausal": "post",
+    "MarkerPositionForOther": "prae"
+  },
+  {
+    "LID": 107,
+    "Glottocode": "hung1274",
+    "Language": "Hungarian",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForValence": "post/post",
+    "MarkerPositionForPragmatic": "post"
+  },
+  {
+    "LID": 74,
+    "Glottocode": "stan1293",
+    "Language": "English",
+    "MarkerPositionForTAMPlus": "post (in)"
+  },
+  {
+    "LID": 404,
+    "Glottocode": "warl1254",
+    "Language": "Warlpiri"
+  },
+  {
+    "LID": 77,
+    "Glottocode": "fiji1243",
+    "Language": "Fijian (Boumaa)"
+  },
+  {
+    "LID": 374,
+    "Glottocode": "thai1261",
+    "Language": "Thai"
+  },
+  {
+    "LID": 171,
+    "Glottocode": "mand1415",
+    "Language": "Mandarin",
+    "MarkerPositionForTAMPlus": "post/prae"
+  },
+  {
+    "LID": 114,
+    "Glottocode": "ingu1240",
+    "Language": "Ingush",
+    "MarkerPositionForTAMPlus": "in/post/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "post/post",
+    "MarkerPositionForInterClausal": "prae",
+    "MarkerPositionForPragmatic": "prae",
+    "MarkerPositionForNumber": "in/in"
+  },
+  {
+    "LID": 443,
+    "Glottocode": "koyr1240",
+    "Language": "Songhai (Koyra Chiini)"
+  },
+  {
+    "LID": 421,
+    "Glottocode": "yoru1245",
+    "Language": "Yoruba",
+    "MarkerPositionForTAMPlus": "prae/prae/prae",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 456,
+    "Glottocode": "west2369",
+    "Language": "Persian",
+    "MarkerPositionForTAMPlus": "post/prae",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 12,
+    "Glottocode": "ainu1240",
+    "Language": "Ainu"
+  },
+  {
+    "LID": 454,
+    "Glottocode": "rama1270",
+    "Language": "Rama"
+  },
+  {
+    "LID": 340,
+    "Glottocode": "russ1263",
+    "Language": "Russian",
+    "MarkerPositionForTAMPlus": "post/prae/post",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 86,
+    "Glottocode": "nucl1302",
+    "Language": "Georgian",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForValence": "post/prae",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 226,
+    "Glottocode": "sgaw1245",
+    "Language": "Karen (Sgaw)"
+  },
+  {
+    "LID": 458,
+    "Glottocode": "adyg1241",
+    "Language": "Adyghe (West Circassian)",
+    "MarkerPositionForTAMPlus": "post/post/prae/prae",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "prae",
+    "MarkerPositionForPragmatic": "prae",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 460,
+    "Glottocode": "popt1235",
+    "Language": "Jacaltec",
+    "MarkerPositionForTAMPlus": "post/prae"
+  },
+  {
+    "LID": 56,
+    "Glottocode": "chuk1273",
+    "Language": "Chukchi",
+    "MarkerPositionForTAMPlus": "post/prae/post"
+  },
+  {
+    "LID": 154,
+    "Glottocode": "haka1240",
+    "Language": "Hakka Lai",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "post/prae",
+    "MarkerPositionForEvidential": "post",
+    "MarkerPositionForNPRelated": "in"
+  },
+  {
+    "LID": 104,
+    "Glottocode": "hual1241",
+    "Language": "Quechua (Huallaga)",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForValence": "post",
+    "MarkerPositionForNumber": "post",
+    "MarkerPositionForEvidential": "post",
+    "MarkerPositionForNPRelated": "post"
+  },
+  {
+    "LID": 461,
+    "Glottocode": "onei1249",
+    "Language": "Oneida",
+    "MarkerPositionForTAMPlus": "post/prae",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "prae",
+    "MarkerPositionForNumber": "post/prae"
+  },
+  {
+    "LID": 159,
+    "Glottocode": "lang1324",
+    "Language": "Lango"
+  },
+  {
+    "LID": 464,
+    "Glottocode": "mode1248",
+    "Language": "Greek (modern)",
+    "MarkerPositionForTAMPlus": "post (prae)",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 78,
+    "Glottocode": "finn1318",
+    "Language": "Finnish",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForValence": "post/post"
+  },
+  {
+    "LID": 87,
+    "Glottocode": "stan1295",
+    "Language": "German",
+    "MarkerPositionForTAMPlus": "post (in)"
+  },
+  {
+    "LID": 99,
+    "Glottocode": "hind1269",
+    "Language": "Hindi"
+  },
+  {
+    "LID": 118,
+    "Glottocode": "nucl1643",
+    "Language": "Japanese"
+  },
+  {
+    "LID": 465,
+    "Glottocode": "mari1440",
+    "Language": "Maricopa"
+  },
+  {
+    "LID": 48,
+    "Glottocode": "cham1312",
+    "Language": "Chamorro"
+  },
+  {
+    "LID": 348,
+    "Glottocode": "sanu1240",
+    "Language": "Sanuma"
+  },
+  {
+    "LID": 354,
+    "Glottocode": "nort2942",
+    "Language": "Slave"
+  },
+  {
+    "LID": 399,
+    "Glottocode": "wara1303",
+    "Language": "Warao",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "post",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 571,
+    "Glottocode": "cent2194",
+    "Language": "Tamazight (Ayt Ndhir)",
+    "MarkerPositionForTAMPlus": "prae/prae",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 581,
+    "Glottocode": "zulu1248",
+    "Language": "Zulu",
+    "MarkerPositionForTAMPlus": "post/prae/prae",
+    "MarkerPositionForValence": "post/post/prae"
+  },
+  {
+    "LID": 188,
+    "Glottocode": "halh1238",
+    "Language": "Mongolian (Khalkha)",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForValence": "post/post/post"
+  },
+  {
+    "LID": 512,
+    "Glottocode": "apur1254",
+    "Language": "Apurina"
+  },
+  {
+    "LID": 128,
+    "Glottocode": "kaya1319",
+    "Language": "Kayardild"
+  },
+  {
+    "LID": 502,
+    "Glottocode": "nucl1301",
+    "Language": "Turkish"
+  },
+  {
+    "LID": 149,
+    "Glottocode": "goon1238",
+    "Language": "Kuniyanti"
+  },
+  {
+    "LID": 112,
+    "Glottocode": "imon1245",
+    "Language": "Imonda"
+  },
+  {
+    "LID": 515,
+    "Glottocode": "bagi1246",
+    "Language": "Bagirmi",
+    "MarkerPositionForTAMPlus": "post/post/post/prae",
+    "MarkerPositionForOperators": "post"
+  },
+  {
+    "LID": 378,
+    "Glottocode": "tiwi1244",
+    "Language": "Tiwi",
+    "MarkerPositionForTAMPlus": "prae"
+  },
+  {
+    "LID": 179,
+    "Glottocode": "mart1255",
+    "Language": "Martuthunira",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 497,
+    "Glottocode": "supy1237",
+    "Language": "Supyire"
+  },
+  {
+    "LID": 501,
+    "Glottocode": "mani1292",
+    "Language": "Meithei",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForOperators": "post"
+  },
+  {
+    "LID": 576,
+    "Glottocode": "wari1268",
+    "Language": "Wari"
+  },
+  {
+    "LID": 463,
+    "Glottocode": "nucl1310",
+    "Language": "Burmese",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 569,
+    "Glottocode": "stan1288",
+    "Language": "Spanish",
+    "MarkerPositionForTAMPlus": "post"
+  },
+  {
+    "LID": 79,
+    "Glottocode": "stan1290",
+    "Language": "French (colloquial)",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 498,
+    "Glottocode": "mezq1235",
+    "Language": "Otomi (Mezquital)",
+    "MarkerPositionForTAMPlus": "prae/prae",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "prae/prae",
+    "MarkerPositionForPragmatic": "post/prae",
+    "MarkerPositionForNumber": "post",
+    "MarkerPositionForEventSpecs": "prae"
+  },
+  {
+    "LID": 411,
+    "Glottocode": "wasc1239",
+    "Language": "Wishram",
+    "MarkerPositionForTAMPlus": "post/post/post/post/prae",
+    "MarkerPositionForValence": "post/prae/prae",
+    "MarkerPositionForPragmatic": "prae",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 324,
+    "Glottocode": "east2652",
+    "Language": "Oromo"
+  },
+  {
+    "LID": 526,
+    "Glottocode": "epen1239",
+    "Language": "Epena Pedee",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForPragmatic": "post",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 356,
+    "Glottocode": "sout2985",
+    "Language": "Miwok (Southern Sierra)",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForValence": "post/post/post"
+  },
+  {
+    "LID": 527,
+    "Glottocode": "even1259",
+    "Language": "Evenki",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForValence": "post/post",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 205,
+    "Glottocode": "nene1249",
+    "Language": "Nenets (Tundra)",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForValence": "post",
+    "MarkerPositionForPragmatic": "post"
+  },
+  {
+    "LID": 7,
+    "Glottocode": "abkh1244",
+    "Language": "Abkhaz",
+    "MarkerPositionForTAMPlus": "post/post/post/prae/post",
+    "MarkerPositionForValence": "prae/prae/prae",
+    "MarkerPositionForOther": "prae",
+    "MarkerPositionForPragmatic": "prae",
+    "MarkerPositionForNumber": "post",
+    "MarkerPositionForEventSpecs": "post"
+  },
+  {
+    "LID": 433,
+    "Glottocode": "gily1242",
+    "Language": "Nivkh",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "post",
+    "MarkerPositionForPragmatic": "post",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 193,
+    "Glottocode": "east2379",
+    "Language": "Mparntwe Arrernte",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "post",
+    "MarkerPositionForInterClausal": "post",
+    "MarkerPositionForEventSpecs": "post/post"
+  },
+  {
+    "LID": 25,
+    "Glottocode": "nucl1235",
+    "Language": "Armenian (Eastern)",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 221,
+    "Glottocode": "diga1241",
+    "Language": "Mishmi",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForNumber": "post",
+    "MarkerPositionForEvidential": "post"
+  },
+  {
+    "LID": 528,
+    "Glottocode": "garo1247",
+    "Language": "Garo",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 145,
+    "Glottocode": "darg1241",
+    "Language": "Dargi (Kubachi)",
+    "MarkerPositionForTAMPlus": "in/post",
+    "MarkerPositionForOperators": "in",
+    "MarkerPositionForValence": "post",
+    "MarkerPositionForOther": "prae",
+    "MarkerPositionForPragmatic": "prae",
+    "MarkerPositionForEvidential": "post",
+    "MarkerPositionForRole": "post"
+  },
+  {
+    "LID": 355,
+    "Glottocode": "soma1255",
+    "Language": "Somali"
+  },
+  {
+    "LID": 420,
+    "Glottocode": "yima1243",
+    "Language": "Yimas",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForValence": "prae",
+    "MarkerPositionForPragmatic": "prae",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 481,
+    "Glottocode": "svan1243",
+    "Language": "Svan",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForValence": "post/prae",
+    "MarkerPositionForPragmatic": "prae",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 406,
+    "Glottocode": "wash1253",
+    "Language": "Washo",
+    "MarkerPositionForTAMPlus": "post/post/post/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "post",
+    "MarkerPositionForPragmatic": "post",
+    "MarkerPositionForNumber": "prae",
+    "MarkerPositionForEvidential": "post"
+  },
+  {
+    "LID": 325,
+    "Glottocode": "osse1243",
+    "Language": "Ossetic",
+    "MarkerPositionForTAMPlus": "post/post/prae",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "in/post"
+  },
+  {
+    "LID": 152,
+    "Glottocode": "kwak1269",
+    "Language": "Kwakwala",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForNumber": "in"
+  },
+  {
+    "LID": 668,
+    "Glottocode": "yecu1235",
+    "Language": "Totonac (Misantla)",
+    "MarkerPositionForTAMPlus": "post/prae/prae/post"
+  },
+  {
+    "LID": 206,
+    "Glottocode": "nepa1254",
+    "Language": "Nepali",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForOperators": "prae/post",
+    "MarkerPositionForValence": "post",
+    "MarkerPositionForPragmatic": "post"
+  },
+  {
+    "LID": 225,
+    "Glottocode": "lahu1253",
+    "Language": "Lahu",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "post",
+    "MarkerPositionForPragmatic": "post"
+  },
+  {
+    "LID": 722,
+    "Glottocode": "nort2722",
+    "Language": "Qiang (Northern)",
+    "MarkerPositionForTAMPlus": "post/post/prae",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 629,
+    "Glottocode": "chan1310",
+    "Language": "Chantyal",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 663,
+    "Glottocode": "drun1238",
+    "Language": "Drung",
+    "MarkerPositionForTAMPlus": "post/post/prae",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "prae",
+    "MarkerPositionForPragmatic": "post",
+    "MarkerPositionForEvidential": "post"
+  },
+  {
+    "LID": 725,
+    "Glottocode": "ital1282",
+    "Language": "Italian",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForValence": "prae (post)"
+  },
+  {
+    "LID": 81,
+    "Glottocode": "furr1244",
+    "Language": "Fur",
+    "MarkerPositionForTAMPlus": "post/prae/in/post",
+    "MarkerPositionForOperators": "circum"
+  },
+  {
+    "LID": 17,
+    "Glottocode": "tosk1239",
+    "Language": "Albanian",
+    "MarkerPositionForTAMPlus": "prae/prae/post/prae/post"
+  },
+  {
+    "LID": 690,
+    "Glottocode": "mana1288",
+    "Language": "Manange",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 664,
+    "Glottocode": "west2420",
+    "Language": "Kham",
+    "MarkerPositionForTAMPlus": "post/post/post/prae",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 674,
+    "Glottocode": "limb1266",
+    "Language": "Limbu",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForOperators": "post/prae (simul)"
+  },
+  {
+    "LID": 723,
+    "Glottocode": "kham1282",
+    "Language": "Tibetan (Dege)",
+    "MarkerPositionForTAMPlus": "in/post/post/post",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForPragmatic": "in"
+  },
+  {
+    "LID": 626,
+    "Glottocode": "kinn1249",
+    "Language": "Kinnauri",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "post"
+  },
+  {
+    "LID": 685,
+    "Glottocode": "klam1254",
+    "Language": "Klamath",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForValence": "prae/prae",
+    "MarkerPositionForOther": "prae",
+    "MarkerPositionForNumber": "post/prae/prae",
+    "MarkerPositionForEventSpecs": "post/post"
+  },
+  {
+    "LID": 223,
+    "Glottocode": "sout2729",
+    "Language": "Pumi",
+    "MarkerPositionForTAMPlus": "post/post/prae/prae",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForPragmatic": "post"
+  },
+  {
+    "LID": 468,
+    "Glottocode": "east2773",
+    "Language": "Newar (Dolakha)",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForOperators": "prae (in)",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 434,
+    "Glottocode": "west2414",
+    "Language": "Gurung",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 169,
+    "Glottocode": "mait1250",
+    "Language": "Maithili",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForPragmatic": "post"
+  },
+  {
+    "LID": 632,
+    "Glottocode": "wayu1241",
+    "Language": "Hayu",
+    "MarkerPositionForTAMPlus": "post"
+  },
+  {
+    "LID": 724,
+    "Glottocode": "east2347",
+    "Language": "Tamang (Eastern)",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 2826,
+    "Glottocode": "darg1241",
+    "Language": "Dargi (standard)",
+    "MarkerPositionForTAMPlus": "in/post",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "post",
+    "MarkerPositionForOther": "prae",
+    "MarkerPositionForPragmatic": "prae",
+    "MarkerPositionForEvidential": "post",
+    "MarkerPositionForRole": "post"
+  },
+  {
+    "LID": 677,
+    "Glottocode": "swed1254",
+    "Language": "Swedish",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 580,
+    "Glottocode": "yidi1250",
+    "Language": "Yidiny",
+    "MarkerPositionForTAMPlus": "post/prae",
+    "MarkerPositionForValence": "post/post",
+    "MarkerPositionForPragmatic": "post"
+  },
+  {
+    "LID": 2779,
+    "Glottocode": "yele1255",
+    "Language": "Yelî Dnye"
+  },
+  {
+    "LID": 196,
+    "Glottocode": "murr1258",
+    "Language": "Murrinh-patha",
+    "MarkerPositionForTAMPlus": "post/prae",
+    "MarkerPositionForValence": "post/post",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 69,
+    "Glottocode": "nubi1251",
+    "Language": "Nubian (Dongolese)",
+    "MarkerPositionForTAMPlus": "post/post/circum",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 387,
+    "Glottocode": "tuvi1240",
+    "Language": "Tuva",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "post/post"
+  },
+  {
+    "LID": 385,
+    "Glottocode": "shos1248",
+    "Language": "Tümpisa Shoshone",
+    "MarkerPositionForTAMPlus": "in/post/post/post/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForPragmatic": "post",
+    "MarkerPositionForNumber": "in/post"
+  },
+  {
+    "LID": 2944,
+    "Glottocode": "rabh1238",
+    "Language": "Rabha",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForOperators": "post"
+  },
+  {
+    "LID": 177,
+    "Glottocode": "marg1265",
+    "Language": "Margi",
+    "MarkerPositionForTAMPlus": "prae",
+    "MarkerPositionForOperators": "post (prae)"
+  },
+  {
+    "LID": 1531,
+    "Glottocode": "ghod1238",
+    "Language": "Godoberi",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "post",
+    "MarkerPositionForInterClausal": "post"
+  },
+  {
+    "LID": 2949,
+    "Glottocode": "darg1241",
+    "Language": "Dargi (Icari)",
+    "MarkerPositionForTAMPlus": "in/post",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "post",
+    "MarkerPositionForOther": "prae",
+    "MarkerPositionForPragmatic": "prae",
+    "MarkerPositionForNumber": "post",
+    "MarkerPositionForEvidential": "post",
+    "MarkerPositionForRole": "post"
+  },
+  {
+    "LID": 208,
+    "Glottocode": "nezp1238",
+    "Language": "Nez Perce",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForValence": "prae/prae/prae",
+    "MarkerPositionForNumber": "post/prae/prae/prae"
+  },
+  {
+    "LID": 192,
+    "Glottocode": "movi1243",
+    "Language": "Movima",
+    "MarkerPositionForTAMPlus": "in/post/post",
+    "MarkerPositionForValence": "post/post/prae/post/prae/post",
+    "MarkerPositionForNumber": "in/post"
+  },
+  {
+    "LID": 392,
+    "Glottocode": "urar1246",
+    "Language": "Urarina",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForValence": "post/post/post/prae",
+    "MarkerPositionForNumber": "post/post"
+  },
+  {
+    "LID": 551,
+    "Glottocode": "leal1235",
+    "Language": "Chinantec (Lealao)",
+    "MarkerPositionForTAMPlus": "prae",
+    "MarkerPositionForEventSpecs": "post"
+  },
+  {
+    "LID": 50,
+    "Glottocode": "chic1272",
+    "Language": "Chichimec"
+  },
+  {
+    "LID": 3101,
+    "Glottocode": "assy1241",
+    "Language": "Neo-Aramaic (Barwar)",
+    "MarkerPositionForTAMPlus": "in/post/prae",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "in/post"
+  },
+  {
+    "LID": 2393,
+    "Glottocode": "selk1253",
+    "Language": "Selkup",
+    "MarkerPositionForTAMPlus": "circum (post)/post",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 2564,
+    "Glottocode": "thom1243",
+    "Language": "Thompson",
+    "MarkerPositionForTAMPlus": "post/post/prae",
+    "MarkerPositionForValence": "post/post/post/post/post",
+    "MarkerPositionForNumber": "post/post",
+    "MarkerPositionForRole": "post"
+  },
+  {
+    "LID": 678,
+    "Glottocode": "bulg1262",
+    "Language": "Bulgarian",
+    "MarkerPositionForTAMPlus": "prae/post/prae/post/prae/post/prae/post",
+    "MarkerPositionForOperators": "prae/post"
+  },
+  {
+    "LID": 2330,
+    "Glottocode": "poli1260",
+    "Language": "Polish",
+    "MarkerPositionForTAMPlus": "post/prae/post",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 2447,
+    "Glottocode": "slov1268",
+    "Language": "Slovene",
+    "MarkerPositionForTAMPlus": "post/prae/post",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 675,
+    "Glottocode": "kaba1278",
+    "Language": "Circassian (East)",
+    "MarkerPositionForTAMPlus": "post/post/prae",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "prae/prae/prae/prae",
+    "MarkerPositionForPragmatic": "prae",
+    "MarkerPositionForEvidential": "post"
+  },
+  {
+    "LID": 3229,
+    "Glottocode": "NA",
+    "Language": "Torlak Serbian",
+    "MarkerPositionForTAMPlus": "prae/post/prae/post/prae/post/prae/post",
+    "MarkerPositionForOperators": "prae/post"
+  },
+  {
+    "LID": 1890,
+    "Glottocode": "lith1251",
+    "Language": "Lithuanian",
+    "MarkerPositionForTAMPlus": "post"
+  },
+  {
+    "LID": 549,
+    "Glottocode": "latv1249",
+    "Language": "Latvian",
+    "MarkerPositionForTAMPlus": "post/prae",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 683,
+    "Glottocode": "roma1327",
+    "Language": "Romanian",
+    "MarkerPositionForTAMPlus": "prae/post/prae/post",
+    "MarkerPositionForValence": "prae/post"
+  },
+  {
+    "LID": 2471,
+    "Glottocode": "croa1245",
+    "Language": "Serbian-Croatian",
+    "MarkerPositionForTAMPlus": "post/prae/post"
+  },
+  {
+    "LID": 2412,
+    "Glottocode": "seri1257",
+    "Language": "Seri",
+    "MarkerPositionForTAMPlus": "prae/prae",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "prae/prae/prae/prae",
+    "MarkerPositionForInterClausal": "post",
+    "MarkerPositionForPragmatic": "prae",
+    "MarkerPositionForEvidential": "post"
+  },
+  {
+    "LID": 2984,
+    "Glottocode": "mian1256",
+    "Language": "Mian",
+    "MarkerPositionForTAMPlus": "post/post/post/post/post/post",
+    "MarkerPositionForOperators": "post"
+  },
+  {
+    "LID": 656,
+    "Glottocode": "koro1312",
+    "Language": "Korowai",
+    "MarkerPositionForTAMPlus": "in/post/post",
+    "MarkerPositionForOperators": "simul",
+    "MarkerPositionForInterClausal": "post"
+  },
+  {
+    "LID": 84,
+    "Glottocode": "gara1269",
+    "Language": "Garrwa",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForValence": "post",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 419,
+    "Glottocode": "yess1239",
+    "Language": "Yessan-Mayo",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForPragmatic": "post/prae",
+    "MarkerPositionForNumber": "in/prae"
+  },
+  {
+    "LID": 1364,
+    "Glottocode": "ngar1235",
+    "Language": "Bilinara",
+    "MarkerPositionForTAMPlus": "post/post/post/post",
+    "MarkerPositionForPragmatic": "post",
+    "MarkerPositionForNumber": "in"
+  },
+  {
+    "LID": 885,
+    "Glottocode": "yane1238",
+    "Language": "Amuesha",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "post/post/prae",
+    "MarkerPositionForPragmatic": "post",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 658,
+    "Glottocode": "yany1243",
+    "Language": "Yanyuwa",
+    "MarkerPositionForTAMPlus": "post/prae",
+    "MarkerPositionForValence": "prae"
+  },
+  {
+    "LID": 66,
+    "Glottocode": "dhuw1249",
+    "Language": "Djapu",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForValence": "post/post",
+    "MarkerPositionForNumber": "prae"
+  },
+  {
+    "LID": 1772,
+    "Glottocode": "gugu1255",
+    "Language": "Guugu Yimidhirr",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 1363,
+    "Glottocode": "nang1259",
+    "Language": "Ngan'gityemerri",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForNumber": "post/post/prae/prae"
+  },
+  {
+    "LID": 3240,
+    "Glottocode": "ashe1272",
+    "Language": "Ashéninka Perené",
+    "MarkerPositionForTAMPlus": "post/post/prae",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "post/prae",
+    "MarkerPositionForPragmatic": "post",
+    "MarkerPositionForNumber": "post",
+    "MarkerPositionForEvidential": "post",
+    "MarkerPositionForEventSpecs": "post"
+  },
+  {
+    "LID": 352,
+    "Glottocode": "shua1257",
+    "Language": "Shuar",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "post/post",
+    "MarkerPositionForInterClausal": "post"
+  },
+  {
+    "LID": 2050,
+    "Glottocode": "moco1246",
+    "Language": "Mocoví",
+    "MarkerPositionForTAMPlus": "prae",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "prae",
+    "MarkerPositionForNumber": "post",
+    "MarkerPositionForEventSpecs": "post"
+  },
+  {
+    "LID": 426,
+    "Glottocode": "yura1255",
+    "Language": "Yurakare",
+    "MarkerPositionForTAMPlus": "post/post/post/prae/post",
+    "MarkerPositionForValence": "post/prae/prae",
+    "MarkerPositionForNumber": "post",
+    "MarkerPositionForEvidential": "post/post",
+    "MarkerPositionForEventSpecs": "post"
+  },
+  {
+    "LID": 1385,
+    "Glottocode": "sout2991",
+    "Language": "Quechua (Cochabamba)",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForValence": "post",
+    "MarkerPositionForPragmatic": "post",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 326,
+    "Glottocode": "paez1247",
+    "Language": "Paez",
+    "MarkerPositionForTAMPlus": "post/post/post/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForPragmatic": "prae"
+  },
+  {
+    "LID": 2508,
+    "Glottocode": "suab1238",
+    "Language": "Inanwatan",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForOperators": "post"
+  },
+  {
+    "LID": 2951,
+    "Glottocode": "kara1500",
+    "Language": "Karajá",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "prae/prae/prae/prae",
+    "MarkerPositionForPragmatic": "prae",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 2900,
+    "Glottocode": "aves1237",
+    "Language": "Avestan",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 2726,
+    "Glottocode": "wels1247",
+    "Language": "Welsh"
+  },
+  {
+    "LID": 2456,
+    "Glottocode": "sinh1246",
+    "Language": "Sinhala",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForValence": "in",
+    "MarkerPositionForInterClausal": "post",
+    "MarkerPositionForPragmatic": "post"
+  },
+  {
+    "LID": 1067,
+    "Glottocode": "bret1244",
+    "Language": "Breton",
+    "MarkerPositionForTAMPlus": "post/post"
+  },
+  {
+    "LID": 2832,
+    "Glottocode": "goth1244",
+    "Language": "Gothic",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForValence": "in"
+  },
+  {
+    "LID": 2856,
+    "Glottocode": "oldn1244",
+    "Language": "Old Norse",
+    "MarkerPositionForTAMPlus": "in/post/post",
+    "MarkerPositionForOperators": "prae/post",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 2514,
+    "Glottocode": "tapi1253",
+    "Language": "Tapiete",
+    "MarkerPositionForTAMPlus": "post/post/post/prae",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "in/prae/prae/post",
+    "MarkerPositionForInterClausal": "post",
+    "MarkerPositionForEvidential": "post"
+  },
+  {
+    "LID": 110,
+    "Glottocode": "icel1247",
+    "Language": "Icelandic",
+    "MarkerPositionForTAMPlus": "post (in)/post (in)"
+  },
+  {
+    "LID": 633,
+    "Glottocode": "kash1277",
+    "Language": "Kashmiri",
+    "MarkerPositionForTAMPlus": "post/post/post/post",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 3243,
+    "Glottocode": "nort2646",
+    "Language": "Pashto (Northern)",
+    "MarkerPositionForTAMPlus": "post/prae",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 100,
+    "Glottocode": "hitt1242",
+    "Language": "Hittite",
+    "MarkerPositionForTAMPlus": "post"
+  },
+  {
+    "LID": 2831,
+    "Glottocode": "anci1242",
+    "Language": "Greek (Ancient)",
+    "MarkerPositionForTAMPlus": "post/post/prae/prae/in/post"
+  },
+  {
+    "LID": 2833,
+    "Glottocode": "olde1238",
+    "Language": "English (Old)",
+    "MarkerPositionForTAMPlus": "in/post"
+  },
+  {
+    "LID": 641,
+    "Glottocode": "oriy1255",
+    "Language": "Oriya",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 844,
+    "Glottocode": "afri1274",
+    "Language": "Afrikaans",
+    "MarkerPositionForTAMPlus": "prae"
+  },
+  {
+    "LID": 2854,
+    "Glottocode": "oldh1241",
+    "Language": "High German (Old)",
+    "MarkerPositionForTAMPlus": "post/post (in)"
+  },
+  {
+    "LID": 2855,
+    "Glottocode": "olds1250",
+    "Language": "Old Saxon",
+    "MarkerPositionForTAMPlus": "post/post (in)"
+  },
+  {
+    "LID": 699,
+    "Glottocode": "sans1269",
+    "Language": "Sanskrit",
+    "MarkerPositionForTAMPlus": "prae/post"
+  },
+  {
+    "LID": 2360,
+    "Glottocode": "caml1239",
+    "Language": "Camling",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "prae/circum",
+    "MarkerPositionForInterClausal": "post"
+  },
+  {
+    "LID": 672,
+    "Glottocode": "jing1260",
+    "Language": "Jingpho",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 3278,
+    "Glottocode": "tsho1240",
+    "Language": "Tshobdun",
+    "MarkerPositionForTAMPlus": "prae/prae",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForRole": "prae"
+  },
+  {
+    "LID": 1694,
+    "Glottocode": "japh1234",
+    "Language": "Jiarong",
+    "MarkerPositionForTAMPlus": "in/prae/prae/prae/prae",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForPragmatic": "post"
+  },
+  {
+    "LID": 552,
+    "Glottocode": "lepc1244",
+    "Language": "Lepcha",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForOperators": "circum"
+  },
+  {
+    "LID": 691,
+    "Glottocode": "tibe1272",
+    "Language": "Tibetan (Lhasa)",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForPragmatic": "in (post)"
+  },
+  {
+    "LID": 2617,
+    "Glottocode": "tsha1245",
+    "Language": "Tshangla",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 975,
+    "Glottocode": "bard1255",
+    "Language": "Bardi",
+    "MarkerPositionForTAMPlus": "post/post/prae",
+    "MarkerPositionForValence": "circum/post/post/post/prae",
+    "MarkerPositionForInterClausal": "post",
+    "MarkerPositionForNumber": "in"
+  },
+  {
+    "LID": 3312,
+    "Glottocode": "west2368",
+    "Language": "Balochi (Western)",
+    "MarkerPositionForTAMPlus": "post/prae",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 2716,
+    "Glottocode": "uppe1395",
+    "Language": "Sorbian (Upper)",
+    "MarkerPositionForTAMPlus": "post/prae/post",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 2916,
+    "Glottocode": "wakh1245",
+    "Language": "Wakhi",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 2893,
+    "Glottocode": "lati1261",
+    "Language": "Latin",
+    "MarkerPositionForTAMPlus": "post/post"
+  },
+  {
+    "LID": 1395,
+    "Glottocode": "vlax1238",
+    "Language": "Romani (Vlax)",
+    "MarkerPositionForTAMPlus": "post/post"
+  },
+  {
+    "LID": 3213,
+    "Glottocode": "oldi1245",
+    "Language": "Irish (Old)",
+    "MarkerPositionForTAMPlus": "post/prae",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForInterClausal": "in/post"
+  },
+  {
+    "LID": 1440,
+    "Glottocode": "dutc1256",
+    "Language": "Dutch",
+    "MarkerPositionForTAMPlus": "post (in)"
+  },
+  {
+    "LID": 710,
+    "Glottocode": "faro1244",
+    "Language": "Faroese",
+    "MarkerPositionForTAMPlus": "post (in)"
+  },
+  {
+    "LID": 1399,
+    "Glottocode": "dara1250",
+    "Language": "Darai",
+    "MarkerPositionForTAMPlus": "post (in)/prae",
+    "MarkerPositionForValence": "post",
+    "MarkerPositionForEvidential": "post"
+  },
+  {
+    "LID": 2987,
+    "Glottocode": "jams1239",
+    "Language": "Dogon (Jamsay)",
+    "MarkerPositionForTAMPlus": "in/post",
+    "MarkerPositionForOperators": "post"
+  },
+  {
+    "LID": 3239,
+    "Glottocode": "atin1240",
+    "Language": "Laz (Pazar)",
+    "MarkerPositionForTAMPlus": "post/post/post/prae",
+    "MarkerPositionForValence": "post/prae",
+    "MarkerPositionForPragmatic": "prae",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 1964,
+    "Glottocode": "male1284",
+    "Language": "Maale",
+    "MarkerPositionForTAMPlus": "post/post/post/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "post",
+    "MarkerPositionForEvidential": "post"
+  },
+  {
+    "LID": 1203,
+    "Glottocode": "cupe1243",
+    "Language": "Cupeño",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForNumber": "post/prae",
+    "MarkerPositionForEvidential": "post"
+  },
+  {
+    "LID": 689,
+    "Glottocode": "lowl1265",
+    "Language": "Rarámuri",
+    "MarkerPositionForTAMPlus": "post/post/post/post",
+    "MarkerPositionForValence": "post",
+    "MarkerPositionForNumber": "in/post",
+    "MarkerPositionForEvidential": "post",
+    "MarkerPositionForEventSpecs": "post"
+  },
+  {
+    "LID": 3313,
+    "Glottocode": "tang1334",
+    "Language": "Tangut",
+    "MarkerPositionForTAMPlus": "prae",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForPragmatic": "prae"
+  },
+  {
+    "LID": 2020,
+    "Glottocode": "karb1241",
+    "Language": "Mikir",
+    "MarkerPositionForTAMPlus": "post/prae/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "prae/prae",
+    "MarkerPositionForNPRelated": "prae"
+  },
+  {
+    "LID": 2180,
+    "Glottocode": "rong1266",
+    "Language": "Rongmei Naga",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "prae"
+  },
+  {
+    "LID": 3315,
+    "Glottocode": "anuu1241",
+    "Language": "Hkongso",
+    "MarkerPositionForTAMPlus": "prae",
+    "MarkerPositionForOperators": "prae/circum",
+    "MarkerPositionForValence": "prae"
+  },
+  {
+    "LID": 688,
+    "Glottocode": "cora1260",
+    "Language": "Cora",
+    "MarkerPositionForTAMPlus": "in/post/post/prae",
+    "MarkerPositionForValence": "post/prae",
+    "MarkerPositionForNumber": "in/in/prae",
+    "MarkerPositionForEventSpecs": "simul (post)"
+  },
+  {
+    "LID": 368,
+    "Glottocode": "tawa1275",
+    "Language": "Tawala",
+    "MarkerPositionForTAMPlus": "prae/prae/prae",
+    "MarkerPositionForPragmatic": "post/post/post/post",
+    "MarkerPositionForNPRelated": "post"
+  },
+  {
+    "LID": 68,
+    "Glottocode": "djin1251",
+    "Language": "Djingili",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForValence": "prae",
+    "MarkerPositionForOther": "prae",
+    "MarkerPositionForPragmatic": "post"
+  },
+  {
+    "LID": 2196,
+    "Glottocode": "narp1239",
+    "Language": "Nar-Phu",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 2871,
+    "Glottocode": "nort2732",
+    "Language": "Northern Tujia",
+    "MarkerPositionForOperators": "prae/post",
+    "MarkerPositionForPragmatic": "post"
+  },
+  {
+    "LID": 1765,
+    "Glottocode": "pwoe1235",
+    "Language": "Karen (Pwo)",
+    "MarkerPositionForTAMPlus": "prae"
+  },
+  {
+    "LID": 1889,
+    "Glottocode": "lisu1250",
+    "Language": "Lisu",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 2873,
+    "Glottocode": "bant1281",
+    "Language": "Bantawa",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForOperators": "circum"
+  },
+  {
+    "LID": 3032,
+    "Glottocode": "aton1241",
+    "Language": "Atong",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForOperators": "post"
+  },
+  {
+    "LID": 1004,
+    "Glottocode": "gahr1239",
+    "Language": "Bunan",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "post/post",
+    "MarkerPositionForEvidential": "post"
+  },
+  {
+    "LID": 1130,
+    "Glottocode": "chep1245",
+    "Language": "Chepang",
+    "MarkerPositionForTAMPlus": "post/post"
+  },
+  {
+    "LID": 3326,
+    "Glottocode": "situ1238",
+    "Language": "Jiǎomùzú",
+    "MarkerPositionForTAMPlus": "prae/prae",
+    "MarkerPositionForPragmatic": "prae"
+  },
+  {
+    "LID": 2217,
+    "Glottocode": "nung1282",
+    "Language": "Anong",
+    "MarkerPositionForTAMPlus": "post/post/prae/in/post",
+    "MarkerPositionForPragmatic": "prae",
+    "MarkerPositionForRole": "prae"
+  },
+  {
+    "LID": 767,
+    "Glottocode": "galo1242",
+    "Language": "Gallong",
+    "MarkerPositionForTAMPlus": "post/post/post/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForEvidential": "post"
+  },
+  {
+    "LID": 2563,
+    "Glottocode": "than1259",
+    "Language": "Thangmi"
+  },
+  {
+    "LID": 3298,
+    "Glottocode": "mong1332",
+    "Language": "Mongsen Khari",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 1317,
+    "Glottocode": "dhim1246",
+    "Language": "Dhimal",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 3318,
+    "Glottocode": "kurt1248",
+    "Language": "Kurtokha",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForEvidential": "post"
+  },
+  {
+    "LID": 735,
+    "Glottocode": "raji1240",
+    "Language": "Raji",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForOperators": "post"
+  },
+  {
+    "LID": 2186,
+    "Glottocode": "tang1336",
+    "Language": "Naga (Tangkhul)",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "post"
+  },
+  {
+    "LID": 1376,
+    "Glottocode": "tase1235",
+    "Language": "Jugli",
+    "MarkerPositionForTAMPlus": "in/post",
+    "MarkerPositionForOperators": "post"
+  },
+  {
+    "LID": 2662,
+    "Glottocode": "yaku1245",
+    "Language": "Yakut",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "post/post",
+    "MarkerPositionForPragmatic": "post",
+    "MarkerPositionForNumber": "post"
+  },
+  {
+    "LID": 18,
+    "Glottocode": "aleu1260",
+    "Language": "Aleut",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForValence": "post/post",
+    "MarkerPositionForPragmatic": "post/post",
+    "MarkerPositionForNumber": "post/post",
+    "MarkerPositionForEvidential": "post"
+  },
+  {
+    "LID": 2657,
+    "Glottocode": "udih1248",
+    "Language": "Udihe",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForValence": "post/post"
+  },
+  {
+    "LID": 730,
+    "Glottocode": "thak1245",
+    "Language": "Thakali",
+    "MarkerPositionForTAMPlus": "post"
+  },
+  {
+    "LID": 1480,
+    "Glottocode": "esto1258",
+    "Language": "Estonian",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "post/post",
+    "MarkerPositionForEvidential": "post"
+  },
+  {
+    "LID": 3301,
+    "Glottocode": "yong1270",
+    "Language": "Yongning Na",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 1388,
+    "Glottocode": "darm1243",
+    "Language": "Darmiya",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 709,
+    "Glottocode": "kild1236",
+    "Language": "Saami (Kildin)",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 3006,
+    "Glottocode": "shek1245",
+    "Language": "Sheko",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForValence": "post/post",
+    "MarkerPositionForPragmatic": "post"
+  },
+  {
+    "LID": 3173,
+    "Glottocode": "sida1246",
+    "Language": "Sidaama",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "post/post",
+    "MarkerPositionForPragmatic": "post"
+  },
+  {
+    "LID": 2936,
+    "Glottocode": "phal1254",
+    "Language": "Palula",
+    "MarkerPositionForTAMPlus": "post/post"
+  },
+  {
+    "LID": 701,
+    "Glottocode": "sout2674",
+    "Language": "Saami (South)",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 703,
+    "Glottocode": "pite1240",
+    "Language": "Saami (Pite)",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "post"
+  },
+  {
+    "LID": 628,
+    "Glottocode": "byan1241",
+    "Language": "Byangsi",
+    "MarkerPositionForTAMPlus": "post/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "post/post",
+    "MarkerPositionForEvidential": "post"
+  },
+  {
+    "LID": 838,
+    "Glottocode": "amdo1237",
+    "Language": "Amdo",
+    "MarkerPositionForTAMPlus": "in/post/post/post",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForPragmatic": "in"
+  },
+  {
+    "LID": 1775,
+    "Glottocode": "kulu1253",
+    "Language": "Kulung",
+    "MarkerPositionForTAMPlus": "post/post/post/post",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 1778,
+    "Glottocode": "khal1275",
+    "Language": "Khaling",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 3272,
+    "Glottocode": "zaiw1241",
+    "Language": "Zaiwa",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "prae"
+  },
+  {
+    "LID": 786,
+    "Glottocode": "rong1264",
+    "Language": "Rongpo",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForValence": "post/post"
+  },
+  {
+    "LID": 1914,
+    "Glottocode": "lush1249",
+    "Language": "Mizo (Lushai)",
+    "MarkerPositionForTAMPlus": "post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForPragmatic": "in/prae"
+  },
+  {
+    "LID": 2824,
+    "Glottocode": "clas1254",
+    "Language": "Tibetan (Classical)",
+    "MarkerPositionForTAMPlus": "in/post/post",
+    "MarkerPositionForOperators": "prae/post",
+    "MarkerPositionForPragmatic": "in"
+  },
+  {
+    "LID": 667,
+    "Glottocode": "thul1246",
+    "Language": "Thulung (Mukli)",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForNPRelated": "post"
+  },
+  {
+    "LID": 3331,
+    "Glottocode": "guan1266",
+    "Language": "Khroskyabs",
+    "MarkerPositionForTAMPlus": "prae/prae/prae/prae",
+    "MarkerPositionForOperators": "prae",
+    "MarkerPositionForPragmatic": "prae"
+  },
+  {
+    "LID": 2862,
+    "Glottocode": "chhi1245",
+    "Language": "Chintang",
+    "MarkerPositionForTAMPlus": "post/post/post",
+    "MarkerPositionForOperators": "post",
+    "MarkerPositionForValence": "post"
+  }
+]

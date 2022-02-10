@@ -1,0 +1,43 @@
+description: >-
+  Type of categorical restriction on possible hosts in terms of parts
+  of speech
+kind: manual data entry
+data: table
+fields: 
+  HostRestriction:
+    description: >-
+      Type of categorical restriction on possible hosts in terms of parts
+      of speech
+    kind: manual data entry
+    data: value-list
+    values: 
+      "restricted": >-
+        Is restricted to a specific type of host. When descriptions are silent about
+        the range of hosts that a marker can combine with, but analyze the marker as an
+        “affix”, we assume it is restricted.
+      "semi-restricted": >-
+        Can occur with some, but not all host elements (so, NOT a ‘phrasal affix’, but
+        rather simply a ‘particle’-like formative that has some degree of selectional
+        restrictions). Allows at least two distinct hosts (in terms of their parts of
+        speech categories)
+      "unrestricted": >-
+        occurs with anything (e.g. Turkish mi)
+      "unknown": >-
+        degree of restriction unknown at this time
+      "Part circum/simulfix": >-
+        even more restricted than restricted; used with simulfixation & circumfixation
+      "restricted: Head": >-
+        <don’t use this!> VERY RESTRICTED something like affix only to a head element (in
+        a narrowed sense of RestrID 1)
+      "restricted: Phrase": >-
+        <don’t use this!> can occur with whatever POS element of that phrase it is
+        adjacent to like Manange NP enclitics--they lean on whatever is last in the NP;
+        used to deal with ‘phrasal affix’-like phenomena
+  # -- end of HostRestriction
+
+  Definition:
+    description: >-
+      Host restriction type definition
+    kind: manual data entry
+    data: comment
+  # -- end of Definition

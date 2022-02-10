@@ -1,0 +1,58 @@
+description: >-
+  Various aspects of gender distinctions and their reflexes.
+kind: manual data entry
+data: table
+counts:
+  n_languages: 317
+  n_variables: 3
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      Language name
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  HasGender:
+    description: >-
+      Genders are vs. are not present in the language.
+    kind: manual data entry
+    data: logical
+  # -- end of HasGender
+
+  GenderCount:
+    description: >-
+      How many gender classes the language has.
+    kind: manual data entry
+    data: integer
+  # -- end of GenderCount
+
+  GenderCountBinned4:
+    description: >-
+      How many gender classes the language has, binned into four levels:  2, 3, 4, more.
+    kind: manual data entry
+    data: value-list
+    values: 
+      "2": >-
+        two distinct genders
+      "3": >-
+        three distinct genders
+      "4": >-
+        four distinct genders
+      "more": >-
+        more than four distinct genders
+  # -- end of GenderCountBinned4

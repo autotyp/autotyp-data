@@ -1,0 +1,136 @@
+description: >-
+  Marker position (from `GrammaticalMarkers::MarkerHasMultipleExponents`), reshaped and aggregated per language and agreement microrelation
+kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+data: table
+counts:
+  n_languages: 185
+  n_variables: 14
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      In this database a language is actually a dialect or variety, in that
+      individual dialects are entered as languages. That is, each language has
+      its own ID number (the 'LID') distinct from that of the pan-dialectal
+      language:e.g. LID 87 German, 1227 Upper Austrian German, 1295 Berlin
+      German, 1310 Zürich German, 2845 Old High German, etc. (The pan-dialectal
+      language is identified as the lowest taxonomic level, the `dialect group',
+      but this information is incomplete in many areas and has not been included
+      in the current release.) The general criterion for a separate language
+      record in the database is that it has a distinct property in at least one
+      of the typological variables that we survey; this may or may not coincide
+      with sociolinguistic criteria.
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  MarkerHasMultipleExponentsForADefault:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for ADefault
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForADefault
+
+  MarkerHasMultipleExponentsForUDefault:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for UDefault
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForUDefault
+
+  MarkerHasMultipleExponentsForSDefault:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for SDefault
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForSDefault
+
+  MarkerHasMultipleExponentsForBDefault:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for BDefault
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForBDefault
+
+  MarkerHasMultipleExponentsForPOSSDefault:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for POSSDefault
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForPOSSDefault
+
+  MarkerHasMultipleExponentsForARGNom:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for ARGNom
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForARGNom
+
+  MarkerHasMultipleExponentsForOAdp:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for OAdp
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForOAdp
+
+  MarkerHasMultipleExponentsForAFF:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for AFF
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForAFF
+
+  MarkerHasMultipleExponentsForTDefault:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for TDefault
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForTDefault
+
+  MarkerHasMultipleExponentsForIDefault:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for IDefault
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForIDefault
+
+  MarkerHasMultipleExponentsForGDefault:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for GDefault
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForGDefault
+
+  MarkerHasMultipleExponentsForCore:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for Core
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForCore
+
+  MarkerHasMultipleExponentsForPat:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for Pat
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForPat
+
+  MarkerHasMultipleExponentsForUBDefault:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for UBDefault
+    kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForUBDefault

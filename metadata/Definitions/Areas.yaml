@@ -1,0 +1,117 @@
+description: >-
+  Linguistic areas
+kind: manual data entry
+data: table
+fields: 
+  Area:
+    description: >-
+      Linguistic area
+    kind: manual data entry
+    data: value-list
+    values: 
+      "Alaska-Oregon": >-
+        Western North America from the coast up to the crest of the major coastal range
+        and from mainland Alaska (not including the Aleutian Islands in the Bering Sea)
+        through the Pacific Northwest down to southern Coos Bay (43° N).
+      "Basin and Plains": >-
+        The southwestern desert and semidesert and the prairie, extending into interior
+        northern Canada. The southern extent needs to be defined; Coahuiltec (which
+        straddles the Texas-Mexico border) has for now been put in this area. Approximate
+        eastern boundary: line from Matamoros/Brownsville or Houston to the Mississippi
+        delta and up the Mississippi to its headwaters, then to the eastern Rocky
+        Mountains foothills at about 58° N. The western boundary runs along the crest of
+        the major coast range (Sierra Nevada, Cascades), so the area includes the old east
+        slope riverine and lacustrine environment and its immediate periphery.
+      "California": >-
+        Defined culturally as the area where acorns were the main basis of the economy.
+        Eastern boundary: the crest of the Sierras. Northern boundary: Coos Bay (latitude
+        43° N). Otherwise congruent with the state of California.
+      "Greater Mesopotamia": >-
+        Anatolia, Caucasus, Near East, Mesopotamia, and Iran. From the northern limits
+        of the Black and Caspian seas south to ancient Anatolia (modern Turkey) and
+        Mesopotamia and the Iranian Plateau. Includes the Arabian peninsula.
+      "E North America": >-
+        Southeast and Eastern North America. The Gulf Coast and eastern woodlands. East of
+        a line from Brownsville/Matamoros at the Mexico/US border to the Mississippi delta
+        and up the Mississippi to its headwaters; from there to about Fort Nelson (58° N,
+        122° W).
+      "NE South America": >-
+        The northeast of South America. From the eastern slope of the Andes to the
+        Caribbean and Atlantic coasts (between Caracas and Port of Spain), south to 18° S
+        (this is an arbitrary demarcation of the Amazon and La Plata drainages).
+      "Europe": >-
+        Europe up to the Eurasian steppe. Starting from the Black Sea, the eastern border
+        of Europe follows the eastern slopes of the Carpathian mountains up to about
+        the 22° E and then follows the Wisla up to the Baltic See; and from there we
+        draw a straight line north. (This puts Poland inside Europe, based on its tight
+        historical interaction with the rest of Europe; but one could as well draw the
+        limit following the Oder-Elbe line.)
+      "Inner Asia": >-
+        Inner Siberia and Central Asia: western Turkestan and Afghanistan but not the
+        Iranian plateau, and also the Eastern Eurasian steppe up to the Carpathians; the
+        Tibetan Plateau; Mongolia (inner and outer); most of Siberia.
+      "Indic": >-
+        The Indic subcontinent. Extends to the eastern border of the Iranian Plateau in
+        the west, to the south-oriented valleys of the Himalayas, the Karakorum, and the
+        Pamirs and also those of the high-altitude Hindu Kush (but excluding Afghanistan
+        and the Tibetan plateau) in the north, and to the Brahmaputra in the east.
+      "Mesoamerica": >-
+        The southern boundary is the Panama Canal; the northern boundary is the US/Mexico
+        border. Perhaps this boundary should eventually be placed at the northern limit of
+        the Mesoamerican cultural area.
+      "N Africa": >-
+        Northern Africa. North of about 14° N (the latitude of the northern end of
+        Lake Chad and north of the Niger, just north of Khartoum, without Eritrea), but
+        excluding the Ethiopian Plateau (i.e. no farther east than about 35°).
+      "N Coast Asia": >-
+        Coastal Northern Asia. Manchuria, Korea, Japan, and Siberia up to about 100 miles
+        or 160 km inland from the coast. Also including the Aleutian Islands.
+      "Interior New Guinea": >-
+        The highlands and most of their north slope.
+      "N Coast New Guinea": >-
+        Northern coastal New Guinea (up to within about 20 miles of the coast) including
+        the Bird’s Head peninsula; small offshore islands (e.g. Karkar) and the Bismarcks
+        (New Britain, New Ireland) but not the Solomons.
+      "N Australia": >-
+        Northern Australia. North of 18° S. (This is an artificial boundary and could
+        probably be improved.)
+      "Oceania": >-
+        Pacific islands, including the Solomons. Western boundary is the Wallace Line
+        (about 120° E), so the Philippines, Sulawesi, Flores, Sumba, Timor, etc. are in
+        Oceania.
+      "S Africa": >-
+        Southern Africa. South of about 4.5° N and east of about 10° E. Includes the
+        rain forest and everything to the south of it. (The northwest corner is just
+        southeast of Cameroon Mountain, or at about Douala, Cameroon. The northeast border
+        is from Mogadishu to the Ethiopian border.)
+      "S New Guinea": >-
+        Southern New Guinea. The southern slope and coast.
+      "Southeast Asia": >-
+        From the Brahmaputra to near insular Southeast Asia (up to the Wallace Line,
+        between Sumbawa and Flores, thus including Sumatra, Java, and Borneo) and most of
+        China (but not Qinghai, Tibet, Xinjiang or Inner Mongolia).
+      "S Australia": >-
+        Southern Australia. South of 18° S. (This is an artificial boundary and could
+        probably be improved.)
+      "Andean": >-
+        Andean South America. The western coast, the Andes, and their eastern slope, south
+        of the border of Panama (about 5° N). Southern boundary: about 50° S.
+      "African Savannah": >-
+        The savannah north of the African rain forest. Between about 15° N and about 5°
+        N, and east to about 35° E.
+      "Greater Abyssinia": >-
+        Between about 5° N and about 17° N, and east of about 35° E (this line slants
+        up to about 38° E at 17° N). Includes the Ethiopian plateau and northern Somalia
+        (and could possibly be redrawn to include the Yemen tip of the Arabian peninsula).
+      "SE South America": >-
+        The southeast of South America. From the eastern slopes of the Andes to the
+        Atlantic coast, south of 18° S. Includes all of Patagonia and the Gran Chaco, and
+        all of Tierra del Fuego.
+  # -- end of Area
+
+  Definition:
+    description: >-
+      Definition of the linguistic area
+    kind: manual data entry
+    data: comment
+  # -- end of Definition

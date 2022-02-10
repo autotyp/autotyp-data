@@ -1,0 +1,33 @@
+Position,PositionBinned4,PositionBinned5,HasPostposedExponent,HasPreposedExponent,HasPreposedDefaultExponent,HasMultipleExponents,HasMultipleDefaultExponents,Definition
+prae,prae,prae,FALSE,TRUE,TRUE,FALSE,FALSE,before the phonological host
+in,in/simul,in,,FALSE,FALSE,FALSE,FALSE,inside the phonological host
+post,post,post,TRUE,FALSE,FALSE,FALSE,FALSE,after the phonological host
+simul,in/simul,simul,FALSE,FALSE,FALSE,TRUE,TRUE,"the formative has two exponents at different positions in the phonological host (but it is not the case that one is positioned before and the other after the host, which is coded as “circum”)"
+circum,in/simul,simul,FALSE,TRUE,TRUE,TRUE,TRUE,"the formative has two exponents, one before and  one after the phonological host. This is a special case of the “simul” position"
+,,,,FALSE,FALSE,,,not applicable because an element’s position is defined only with respect to  grammatical words
+prae/post,split,split,TRUE,TRUE,FALSE,FALSE,FALSE,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+in/prae,split,split,FALSE,TRUE,FALSE,FALSE,FALSE,"either inside or before the phonological host, conditioned by some structural context (category, syntax etc.)"
+in/post,split,split,TRUE,FALSE,FALSE,FALSE,FALSE,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+post (prae),post,post,TRUE,TRUE,FALSE,FALSE,FALSE,"after the phonological host by default, before the host under exceptional conditions (typically lexical)"
+prae/circum,split,split,FALSE,TRUE,FALSE,TRUE,FALSE,"either before or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+Wackernagel,,,,,,,,DO NOT USE (Wackernagel is defined as Behavior = Initial  and Position = post) -- see log 77
+in (post),in/simul,in,TRUE,FALSE,FALSE,FALSE,FALSE,"inside the phonological host by default, after the host under exceptional conditions (typically lexical)"
+prae/post/circum,split,split,TRUE,TRUE,FALSE,TRUE,FALSE,"either before, after or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+post (circum),post,post,TRUE,FALSE,FALSE,TRUE,FALSE,"after the phonological host by default, around the host under exceptional conditions (typically lexical)"
+circum (prae),in/simul,simul,FALSE,TRUE,FALSE,TRUE,TRUE,"around the phonological host by default, before the host under exceptional conditions (typically lexical)"
+prae (circum),prae,prae,FALSE,TRUE,TRUE,TRUE,FALSE,"before the phonological host by default, around the host under exceptional conditions (typically lexical)"
+circum (post),in/simul,simul,FALSE,FALSE,FALSE,TRUE,TRUE,"around the phonological host by default, after the host under exceptional conditions (typically lexical)"
+circum (W),,,,,,,,DO NOT USE (Wackernagel is defined as Behavior = Initial  and Position = post) -- see log 77
+simul (prae),in/simul,simul,FALSE,TRUE,FALSE,TRUE,TRUE,"in two or more different positions in (but not around) the phonological host by default, before the host under exceptional conditions (typically lexical)"
+prae/in/post,split,split,TRUE,TRUE,FALSE,FALSE,FALSE,"either before, inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+prae (post),prae,prae,FALSE,TRUE,TRUE,FALSE,FALSE,"before the phonological host by default, after the host under exceptional conditions (typically lexical)"
+post (in),post,post,TRUE,FALSE,FALSE,FALSE,FALSE,"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+post/prae (simul),split,split,TRUE,TRUE,FALSE,FALSE,FALSE,"either before, after or in two or more positions in the phonological host, conditioned by some structural context (category, syntax etc.)"
+prae/post/in/circum,split,split,TRUE,TRUE,FALSE,TRUE,FALSE,"either before, after, inside or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+unknown,,,,,,,,position is unknown
+any,,,,,,,,unspecified; can appear anywhere where the language allows it.
+simul (post),in/simul,simul,TRUE,,,,,"in two or more different positions in the phonological host by default, after the host under exceptional conditions (typically lexical)"
+stem change,in/simul,simul,FALSE,,,,,a special case of “simul” where one position is stem change itself
+post/circum,split,split,TRUE,FALSE,FALSE,TRUE,FALSE,"either after or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+prae/in,split,split,FALSE,TRUE,FALSE,FALSE,FALSE,"either before or inside the phonological host, conditioned by some structural context (category, syntax etc.)"
+prae (in),prae,prae,FALSE,TRUE,TRUE,FALSE,FALSE,"before the phonological host by default, inside the host under exceptional conditions (typically lexical)"

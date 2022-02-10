@@ -1,0 +1,352 @@
+# VerbSynthesis enhancements
+#
+# This file is an AUTOTYP aggregation
+#
+# For questions, open an issue
+#
+# Copyright 2022 Taras Zakharko (CC BY 4.0).
+
+
+#  ███████╗███████╗████████╗██╗   ██╗██████╗
+#  ██╔════╝██╔════╝╚══██╔══╝██║   ██║██╔══██╗
+#  ███████╗█████╗     ██║   ██║   ██║██████╔╝
+#  ╚════██║██╔══╝     ██║   ██║   ██║██╔═══╝
+#  ███████║███████╗   ██║   ╚██████╔╝██║
+#  ╚══════╝╚══════╝   ╚═╝    ╚═════╝ ╚═╝
+#
+
+source("R/plugin-support.R")
+
+# convert snake case to camel case
+to_camel_case <- function(x) {
+  str_replace(x, fixed("+"),  "Plus") %>%
+  str_split("[- _,/]+") %>%
+  map_chr(~ {
+    # capitalize each word
+    . <- map_chr(., ~ { substr(., 1L, 1L) <- toupper(substr(., 1L, 1L)); . })
+    # collapse them together
+    str_flatten(., "")
+  })
+}
+
+
+# ██████╗ ██████╗ ███████╗███████╗███████╗███╗   ██╗ ██████╗███████╗
+# ██╔══██╗██╔══██╗██╔════╝██╔════╝██╔════╝████╗  ██║██╔════╝██╔════╝
+# ██████╔╝██████╔╝█████╗  ███████╗█████╗  ██╔██╗ ██║██║     █████╗
+# ██╔═══╝ ██╔══██╗██╔══╝  ╚════██║██╔══╝  ██║╚██╗██║██║     ██╔══╝
+# ██║     ██║  ██║███████╗███████║███████╗██║ ╚████║╚██████╗███████╗
+# ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═══╝ ╚═════╝╚══════╝
+
+# Wide aggregation of inflected categoy presence
+VerbInflectionCategoriesAggregatedPresence <- VerbSynthesis %>%
+  filter(IsVerbInflectionSurveyComplete) %>%
+  unnest(VerbInflectionCategories) %>%
+  # collect all category and metacategoryin a single value column
+  # while pivoting ot to camel case so that we can have nice looking
+  # variable names
+  group_by(LID, Language) %>%
+  summarize(value = unique(c(
+    str_c("Category", to_camel_case(VerbInflectionCategory)),
+    str_c("Macrocategory", to_camel_case(VerbInflectionMacrocategory))
+  )), .groups = "drop") %>%
+  filter(!is.na(value)) %>%
+  pivot_wider(
+    names_from = value,
+    names_glue = "IsInflectedFor{value}",
+    values_from = value,
+    values_fn = function(.) TRUE,
+    values_fill = FALSE
+  ) %>%
+  # add glottocodes
+  left_join(select(Register, LID, Glottocode), by = "LID") %>%
+  select(LID, Glottocode, Language, everything()) %>%
+  arrange(LID)
+
+
+#  ██████╗ ██████╗ ██╗   ██╗███╗   ██╗████████╗███████╗
+# ██╔════╝██╔═══██╗██║   ██║████╗  ██║╚══██╔══╝██╔════╝
+# ██║     ██║   ██║██║   ██║██╔██╗ ██║   ██║   ███████╗
+# ██║     ██║   ██║██║   ██║██║╚██╗██║   ██║   ╚════██║
+# ╚██████╗╚██████╔╝╚██████╔╝██║ ╚████║   ██║   ███████║
+#  ╚═════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚══════╝
+
+
+# Count the marked categories and roles for each position
+VerbInflectionAndAgreementCountsByPosition <- bind_rows(
+    # inflectional categories
+    filter(VerbSynthesis, IsVerbInflectionSurveyComplete) %>%
+    unnest(VerbInflectionCategories) %>%
+    mutate(InflectionType = "Category") %>%
+    select(
+      LID,
+      Language,
+      InflectionType,
+      PositionBinned5 = VerbInflectionMarkerPositionBinned5
+    ),
+    # agreement
+    filter(VerbSynthesis, IsVerbAgreementSurveyComplete) %>%
+    unnest(VerbAgreement) %>%
+    mutate(InflectionType = "Agreement") %>%
+    select(
+      LID,
+      Language,
+      InflectionType,
+      PositionBinned5 = VerbAgreementMarkerPositionBinned5
+    )
+  ) %>%
+  drop_na() %>%
+  count(LID, Language, PositionBinned5) %>%
+  mutate(PositionBinned5= to_camel_case(PositionBinned5)) %>%
+  pivot_wider(
+    names_from = PositionBinned5,
+    names_glue = "InflectionMarkersAt{PositionBinned5}Count",
+    values_from = n,
+    values_fill = 0L
+  ) %>%
+  # add glottocodes
+  left_join(select(Register, LID, Glottocode), by = "LID") %>%
+  select(LID, Glottocode, Language, everything()) %>%
+  arrange(LID)
+
+
+
+# ██████╗  ██████╗ ███████╗██╗████████╗██╗ ██████╗ ███╗   ██╗
+# ██╔══██╗██╔═══██╗██╔════╝██║╚══██╔══╝██║██╔═══██╗████╗  ██║
+# ██████╔╝██║   ██║███████╗██║   ██║   ██║██║   ██║██╔██╗ ██║
+# ██╔═══╝ ██║   ██║╚════██║██║   ██║   ██║██║   ██║██║╚██╗██║
+# ██║     ╚██████╔╝███████║██║   ██║   ██║╚██████╔╝██║ ╚████║
+# ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+
+aggregate_by_position <- function(data, out_names_prefix) {
+  value_fields <- c(
+    "MarkerPosition",
+    "MarkerPositionBinned4",
+    "MarkerPositionBinned5",
+    "MarkerHasPreposedExponent",
+    "MarkerHasPostposedExponent",
+    "MarkerHasMultipleExponents"
+  )
+
+  # pivot by every variable
+  map(value_fields, function(value_field) {
+    select(data, LID, Glottocode, Language, Category, all_of(value_field)) %>%
+    mutate(Category= to_camel_case(Category)) %>%
+    pivot_wider(
+      names_from = Category,
+      names_glue = str_c(value_field, "For", "{Category}"),
+      values_from = all_of(value_field),
+      values_fn = function(.) {
+        . <- na.omit(.)
+        if(length(.) == 0L) return(NA)
+
+        if(is_character(.) || is.factor(.)) {
+          str_flatten(sort(.), "/")
+        } else
+        if(is_logical(.)) {
+          any(.)
+        } else {
+          abort(format_inline("cannot aggregate position value {as_label(.)}"))
+        }
+      }
+    )
+  }) %>%
+  set_names(str_c(out_names_prefix, value_fields))
+}
+
+# combine all aggregates
+aggregates_by_position <- c(
+  # aggregate inflection category by position
+  VerbSynthesis %>%
+  filter(IsVerbInflectionSurveyComplete) %>%
+  select(-IsVerbInflectionSurveyComplete) %>%
+  unnest(VerbInflectionCategories) %>%
+  filter(!is.na(VerbInflectionCategory)) %>%
+  select(
+    LID,
+    Glottocode,
+    Language,
+    Category = VerbInflectionCategory,
+    MarkerPosition = VerbInflectionMarkerPosition,
+    MarkerPositionBinned4 = VerbInflectionMarkerPositionBinned4,
+    MarkerPositionBinned5 = VerbInflectionMarkerPositionBinned5,
+    MarkerHasPreposedExponent = VerbInflectionMarkerHasPreposedExponent,
+    MarkerHasPostposedExponent  = VerbInflectionMarkerHasPostposedExponent,
+    MarkerHasMultipleExponents = VerbInflectionMarkerHasMultipleExponents
+  ) %>%
+  aggregate_by_position("VerbInflectionCategoriesAggregatedBy"),
+  # aggregate macrocategory by position
+  VerbSynthesis %>%
+  filter(IsVerbInflectionSurveyComplete) %>%
+  select(-IsVerbInflectionSurveyComplete) %>%
+  unnest(VerbInflectionCategories) %>%
+  filter(!is.na(VerbInflectionMacrocategory)) %>%
+  select(
+    LID,
+    Glottocode,
+    Language,
+    Category = VerbInflectionMacrocategory,
+    MarkerPosition = VerbInflectionMarkerPosition,
+    MarkerPositionBinned4 = VerbInflectionMarkerPositionBinned4,
+    MarkerPositionBinned5 = VerbInflectionMarkerPositionBinned5,
+    MarkerHasPreposedExponent = VerbInflectionMarkerHasPreposedExponent,
+    MarkerHasPostposedExponent  = VerbInflectionMarkerHasPostposedExponent,
+    MarkerHasMultipleExponents = VerbInflectionMarkerHasMultipleExponents
+  ) %>%
+  filter(!is.na(Category)) %>%
+  aggregate_by_position("VerbInflectionMacrocategoriesAggregatedBy"),
+  # aggregate aggreement by position
+  VerbSynthesis %>%
+  filter(IsVerbAgreementSurveyComplete) %>%
+  select(-IsVerbAgreementSurveyComplete) %>%
+  unnest(VerbAgreement) %>%
+  filter(!is.na(VerbAgreementMicrorelation), VerbAgreementMicrorelation != "<any>") %>%
+  select(
+    LID,
+    Glottocode,
+    Language,
+    Category = VerbAgreementMicrorelation,
+    MarkerPosition = VerbAgreementMarkerPosition,
+    MarkerPositionBinned4 = VerbAgreementMarkerPositionBinned4,
+    MarkerPositionBinned5 = VerbAgreementMarkerPositionBinned5,
+    MarkerHasPreposedExponent = VerbAgreementMarkerHasPreposedExponent,
+    MarkerHasPostposedExponent  = VerbAgreementMarkerHasPostposedExponent,
+    MarkerHasMultipleExponents = VerbAgreementMarkerHasMultipleExponents
+  ) %>%
+  filter(!is.na(Category)) %>%
+  aggregate_by_position("VerbAgreementAggregatedBy")
+)
+
+
+#  ██████╗ ██╗   ██╗████████╗██████╗ ██╗   ██╗████████╗
+# ██╔═══██╗██║   ██║╚══██╔══╝██╔══██╗██║   ██║╚══██╔══╝
+# ██║   ██║██║   ██║   ██║   ██████╔╝██║   ██║   ██║
+# ██║   ██║██║   ██║   ██║   ██╔═══╝ ██║   ██║   ██║
+# ╚██████╔╝╚██████╔╝   ██║   ██║     ╚██████╔╝   ██║
+#  ╚═════╝  ╚═════╝    ╚═╝   ╚═╝      ╚═════╝    ╚═╝
+
+descriptor <- describe_data(
+  ptype = tibble(),
+  description = "Per-language summaries of presence of inflectional categories",
+  fields = c(
+    .metadata$Register$fields[c("LID", "Glottocode", "Language")],
+    {
+      nms <- str_subset(names(VerbInflectionCategoriesAggregatedPresence), "^IsInflectedFor.+ategory")
+      map(nms, ~ {
+        cat <- str_remove(., "^IsInflectedFor.+ategory")
+
+        describe_data(
+          ptype = logical(),
+          description = format_inline(
+            "Can the verb be inflected for {.q {cat}}?"
+          )
+        )
+      }) %>% set_names(nms)
+    }
+  )
+)
+
+export_dataset(
+  "VerbInflectionCategoriesAggregatedPresence",
+  VerbInflectionCategoriesAggregatedPresence,
+  descriptor,
+  c("PerLanguageSummaries", "VerbInflection")
+)
+
+
+
+descriptor <- describe_data(
+  ptype = tibble(),
+  description = "Per-language number of inflection and agreement markers on the verb",
+  computed = "VerbInflectionPerLanguage.R",
+  fields = list(
+    LID = .metadata$Register$fields$LID,
+    Glottocode = .metadata$Register$fields$Glottocode,
+    Language = .metadata$Register$fields$Language,
+    InflectionMarkersAtPostCount = describe_data(
+      ptype = integer(),
+      computed = "VerbInflectionPerLanguage.R",
+      description = "
+        Number of verbal inflection and agreement markers with a formative
+        that follows the host
+      "
+    ),
+    InflectionMarkersAtPraeCount = describe_data(
+      ptype = integer(),
+      computed = "VerbInflectionPerLanguage.R",
+      description = "
+        Number of verbal inflection and agreement markers with a formative
+        that precedes the host
+      "
+    ),
+    InflectionMarkersAtSplitCount = describe_data(
+      ptype = integer(),
+      computed = "VerbInflectionPerLanguage.R",
+      description = "
+        Number of verbal inflection and agreement markers with a formative
+        that can occur at different positions
+      "
+    ),
+    InflectionMarkersAtSimulCount = describe_data(
+      ptype = integer(),
+      computed = "VerbInflectionPerLanguage.R",
+      description = "Number of verbal inflection and agreement markers with multiple exponence"
+    ),
+    InflectionMarkersAtInCount = describe_data(
+      ptype = integer(),
+      description = "
+        Number of verbal inflection and agreement markers with formatives
+        inside the phological host
+      "
+    )
+  )
+)
+
+export_dataset(
+  "VerbInflectionAndAgreementCountsByPosition",
+  VerbInflectionAndAgreementCountsByPosition,
+  descriptor,
+  c("PerLanguageSummaries", "Morphology")
+)
+
+for(i in seq_along(aggregates_by_position)) {
+  name <- names(aggregates_by_position)[[i]]
+  type <- switch(str_match(name, "^Verb(.*)Aggregated.*$")[, 2L],
+    "InflectionCategories" = "inflection category",
+    "InflectionMacrocategories" = "inflection category (binned into broad types)",
+    "Agreement" = "agreement microrelation"
+  )
+  variable <- str_match(name, "^Verb.*AggregatedBy(.*)$")[, 2L]
+  description = format_inline(
+    "Marker position (from `GrammaticalMarkers::{variable}`),\nreshaped and aggregated per language and {type}"
+  )
+
+  descriptor <- describe_data(
+    ptype = tibble(),
+    description = description,
+    computed = "VerbInflectionPerLanguage.R",
+    fields = c(
+      .metadata$Register$fields[c("LID", "Glottocode", "Language")],
+      {
+        nms <- str_subset(names(aggregates_by_position[[i]]), "^Marker")
+        map(nms, ~ {
+          cat <- str_remove(., "^Marker.*For")
+
+          describe_data(
+            ptype = logical(),
+            computed = "VerbInflectionPerLanguage.R",
+            description = format_inline(
+              "GrammaticalMarkers::{variable} value for {cat}"
+            )
+          )
+        }) %>% set_names(nms)
+      }
+    )
+  )
+
+  export_dataset(
+    names(aggregates_by_position)[[i]],
+    aggregates_by_position[[i]],
+    descriptor,
+    c("PerLanguageSummaries", "VerbInflection")
+  )
+}

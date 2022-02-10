@@ -1,0 +1,350 @@
+LID,Glottocode,Language,NPPossessionLocusDistribution,NPHasPossessiveClassification,NPPossessiveClassificationType,NPHasBoundNouns,NPBoundNounsCount,NPHasAlienableClasses,NPAlienableClassesCount,NPHasInalienableClasses,NPInalienableClassesCount,NPHasPossessiveClasses,NPHasMultiplePossessiveClasses,NPPossessiveClassesCount
+48,cham1312,Chamorro,None,FALSE,semantic,FALSE,0,TRUE,4,FALSE,0,FALSE,FALSE,0
+346,samo1305,Samoan,"Alienable D, inalienable D",FALSE,semantic,FALSE,0,TRUE,1,TRUE,1,FALSE,FALSE,0
+56,chuk1273,Chukchi,"Alienable D, inalienable D",FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+205,nene1249,Nenets (Tundra),,TRUE,,,,,,,,TRUE,FALSE,1
+467,paam1238,Paamese,"Alienable appositive classificatory possessive noun, inalienable H",TRUE,semantic,TRUE,1,TRUE,4,TRUE,1,,,
+399,wara1303,Warao,,FALSE,semantic,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+128,kaya1319,Kayardild,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+564,rapa1244,Rapanui,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+77,fiji1243,Fijian (Boumaa),"Alienable appositive classificatory possessive noun, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+388,tzut1248,Tzutujil,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,2,TRUE,2,TRUE,TRUE,4
+175,maor1246,Maori,,FALSE,semantic,FALSE,0,,,,,FALSE,FALSE,0
+50,chic1272,Chichimec,"Alienable appositive classificatory possessive noun, inalienable H",TRUE,classificatory,TRUE,1,TRUE,4,TRUE,12,TRUE,TRUE,12
+332,pipi1250,Pipil,,TRUE,,TRUE,1,,,,,,,
+511,kala1399,Greenlandic Eskimo (West),None,FALSE,semantic,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+644,kari1255,Kiriri (Kipea),"Alienable D+H, inalienable H",TRUE,classificatory,FALSE,0,TRUE,2,TRUE,1,TRUE,TRUE,3
+193,east2379,Mparntwe Arrernte,"Alienable D, inalienable H",TRUE,classificatory,FALSE,0,,,TRUE,1,TRUE,TRUE,3
+669,gras1249,Koiari,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+540,khas1269,Khasi,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+634,saur1249,Malto,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+221,diga1241,Mishmi,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+44,carn1240,Car,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+197,naha1261,Nahali,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+48,cham1312,Chamorro,None,FALSE,semantic,FALSE,0,TRUE,4,FALSE,0,FALSE,FALSE,0
+346,samo1305,Samoan,"Alienable D, inalienable D",FALSE,semantic,FALSE,0,TRUE,1,TRUE,1,FALSE,FALSE,0
+56,chuk1273,Chukchi,"Alienable D, inalienable D",FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+205,nene1249,Nenets (Tundra),,TRUE,,,,,,,,TRUE,FALSE,1
+467,paam1238,Paamese,"Alienable appositive classificatory possessive noun, inalienable H",TRUE,semantic,TRUE,1,TRUE,4,TRUE,1,,,
+399,wara1303,Warao,,FALSE,semantic,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+128,kaya1319,Kayardild,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+564,rapa1244,Rapanui,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+77,fiji1243,Fijian (Boumaa),"Alienable appositive classificatory possessive noun, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+388,tzut1248,Tzutujil,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,2,TRUE,2,TRUE,TRUE,4
+175,maor1246,Maori,,FALSE,semantic,FALSE,0,,,,,FALSE,FALSE,0
+50,chic1272,Chichimec,"Alienable appositive classificatory possessive noun, inalienable H",TRUE,classificatory,TRUE,1,TRUE,4,TRUE,12,TRUE,TRUE,12
+332,pipi1250,Pipil,,TRUE,,TRUE,1,,,,,,,
+511,kala1399,Greenlandic Eskimo (West),None,FALSE,semantic,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+644,kari1255,Kiriri (Kipea),"Alienable D+H, inalienable H",TRUE,classificatory,FALSE,0,TRUE,2,TRUE,1,TRUE,TRUE,3
+193,east2379,Mparntwe Arrernte,"Alienable D, inalienable H",TRUE,classificatory,FALSE,0,,,TRUE,1,TRUE,TRUE,3
+669,gras1249,Koiari,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+540,khas1269,Khasi,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+634,saur1249,Malto,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+221,diga1241,Mishmi,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+44,carn1240,Car,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+197,naha1261,Nahali,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+114,ingu1240,Ingush,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+74,stan1293,English,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+340,russ1263,Russian,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+40,buru1296,Burushaski,"Alienable D, inalienable H",TRUE,classificatory,TRUE,4,TRUE,1,TRUE,4,TRUE,TRUE,4
+75,ewee1241,Ewe,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,2,TRUE,TRUE,2
+80,adam1253,Fula,"Alienables split, inalienables H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+85,gbay1287,Gbeya,"Alienable D, inalienable H",TRUE,classificatory,,,TRUE,1,TRUE,1,TRUE,TRUE,2
+7,abkh1244,Abkhaz,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+25,nucl1235,Armenian (Eastern),None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+86,nucl1302,Georgian,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+79,stan1290,French (colloquial),None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+107,hung1274,Hungarian,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+6,ambu1247,Ambulas,,,,,,,,,,,,
+14,alam1246,Alamblak,,TRUE,,FALSE,0,,,,,TRUE,FALSE,1
+20,amel1241,Amele,"Alienable D, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,31,TRUE,TRUE,32
+22,anem1249,Anêm,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,20,TRUE,TRUE,20
+24,bumb1241,Arapesh,,,,,,,,,,,,
+26,casu1237,Asmat,"Alienable Ø, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+28,awtu1239,Awtuw,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+31,nucl1630,Barai,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+33,bauz1241,Bauzi,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+36,beri1254,Berik,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+38,kuni1265,Boazi,"Alienable D, inalienable H",TRUE,,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+103,yaga1260,Hua,"Alienable D, inalienable H",TRUE,,FALSE,0,TRUE,1,TRUE,2,TRUE,TRUE,3
+109,iauu1242,Iau,"Alienable Ø, inalienable H",TRUE,,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+112,imon1245,Imonda,"Alienable D, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+211,ngka1235,Ngkalmpw Knwme,None,TRUE,,FALSE,0,FALSE,0,FALSE,0,TRUE,FALSE,1
+126,kate1253,Kâte,"Alienables split, inalienables H",TRUE,,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+130,west2599,Kewa,,TRUE,,FALSE,0,FALSE,0,FALSE,0,TRUE,FALSE,1
+131,kima1246,Kimaama,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+133,kiri1256,Kirikiri,,TRUE,,,,TRUE,1,TRUE,1,TRUE,TRUE,2
+134,nort2930,Kiwai,,,,,,,,,,,,
+136,kobo1249,Kobon,"Alienable Ø, inalienable H",TRUE,,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+138,komb1274,Kombai,,,,FALSE,0,,,,,,,
+191,siwa1245,Motuna,"Alienables split, inalienables H",TRUE,,TRUE,2,TRUE,3,TRUE,2,TRUE,TRUE,5
+212,nucl1633,Nimboran,"Alienables split, inalienables H",TRUE,,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+343,sahu1245,Sahu,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+345,salt1242,Salt-Yui,"Alienable Ø, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,2,TRUE,TRUE,3
+350,nucl1632,Sentani,,TRUE,,FALSE,0,TRUE,1,TRUE,2,TRUE,TRUE,4
+358,suen1241,Suena,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+367,tauy1241,Tauya,"Alienable D, inalienable H",TRUE,,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+368,tawa1275,Tawala,"Alienable H, inalienable H",TRUE,,,,TRUE,1,TRUE,1,TRUE,TRUE,2
+369,tehi1237,Tehit,"Alienable D, inalienable H",TRUE,,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+370,tele1256,Telefol,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+381,kuan1248,Tolai,,TRUE,classificatory,,,TRUE,1,TRUE,1,TRUE,TRUE,2
+393,usan1239,Usan,,,,,,,,,,,,
+395,vani1248,Vanimo,"Alienables split, inalienables H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+403,wari1266,Waris,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+407,wask1241,Waskia,"Alienables split, inalienables H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+415,nini1235,retire_Yali,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+419,yess1239,Yessan-Mayo,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+420,yima1243,Yimas,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+16,alaw1244,Alawa,"Alienable D, inalienable H",TRUE,,,,TRUE,1,TRUE,1,TRUE,TRUE,2
+66,dhuw1249,Djapu,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+68,djin1251,Djingili,,,,,,,,,,,,
+71,dyir1250,Dyirbal,"Alienable D, inalienable Ø",TRUE,,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+84,gara1269,Garrwa,,TRUE,,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+149,goon1238,Kuniyanti,"Alienable D, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+170,mull1237,Malak-Malak,"Alienable D, inalienable split",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+173,mang1381,Mangarayi,"Alienable D+H, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+178,mari1424,Marrithiyel,"Alienable split, inalienable Ø",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+179,mart1255,Martuthunira,"Alienable D, inalienable D+H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,3
+181,maun1240,Mawng,"Alienable D, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+196,murr1258,Murrinh-patha,None,TRUE,,TRUE,1,FALSE,0,TRUE,1,FALSE,FALSE,0
+198,naka1260,Nakkara,"Alienable D, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,2,TRUE,TRUE,3
+210,wang1291,Ngiyambaa,"Alienable D, inalienable split",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+318,nung1290,Nunggubuyu,"Alienable D, inalienable split",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,2,TRUE,TRUE,2
+319,nyig1240,Nyigina,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,2,TRUE,TRUE,2
+378,tiwi1244,Tiwi,"Alienables split, inalienables H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+390,ngar1284,Ungarinjin,"Alienable D, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,2,TRUE,TRUE,3
+391,urad1238,Uradhi,"Alienable D, inalienable split",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+400,wara1290,Waray,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+405,wand1263,Warndarang,"Alienables split, inalienables H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+408,west2443,Wemba Wemba,"Alienable split, inalienable split",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+424,gang1267,Yukulta,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+404,warl1254,Warlpiri,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+48,cham1312,Chamorro,None,FALSE,semantic,FALSE,0,TRUE,4,FALSE,0,FALSE,FALSE,0
+70,dehu1237,Drehu,"Alienable D, inalienable H",TRUE,,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+140,rapo1238,Konua,"Alienable H, inalienable H",TRUE,,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+334,pohn1238,Ponapean,"Alienable D, inalienable H",TRUE,classificatory,,,TRUE,1,TRUE,1,TRUE,TRUE,2
+346,samo1305,Samoan,"Alienable D, inalienable D",FALSE,semantic,FALSE,0,TRUE,1,TRUE,1,FALSE,FALSE,0
+359,sulk1246,Sulka,"Alienable H, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+21,amha1245,Amharic,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+23,stan1318,Arabic,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+34,beja1238,Beja,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+120,kaby1243,Kabyle,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+65,dizi1235,Dizi,Other,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+81,furr1244,Fur,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+91,gumu1244,Gumuz,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+98,haus1257,Hausa,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+111,ikkk1242,Ik,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+121,dera1248,Kanakuru,"Alienable D, inalienable split",TRUE,,,,,,TRUE,1,TRUE,TRUE,2
+123,kanu1279,Kanuri,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+147,kuna1268,Kunama,"Alienables split, inalienables H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+148,kung1261,!Kung,"Alienable Ø, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,2,TRUE,TRUE,3
+159,lang1324,Lango,"Alienable split, inalienable split",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+163,lugb1240,Logbara,"Alienable D, inalienable Ø",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+165,gand1255,Luganda,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+167,masa1300,Maa,"Alienable D, inalienable split",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,2,TRUE,TRUE,2
+172,mand1436,Mandinka,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+177,marg1265,Margi,"Alienable D, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,3
+199,nama1264,Nama,,TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+207,nara1262,Nera,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+69,nubi1251,Nubian (Dongolese),"Alienable D, inalienable split",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,2,TRUE,TRUE,3
+323,tega1236,Orig,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+324,east2652,Oromo,"Alienable D, inalienable D",TRUE,classificatory,,,TRUE,1,TRUE,1,TRUE,TRUE,2
+347,sand1273,Sandawe,,,,,,,,,,,,
+355,soma1255,Somali,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+443,koyr1240,Songhai (Koyra Chiini),"Alienable D, inalienable Ø",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,2,TRUE,TRUE,2
+373,tera1251,Tera,"Alienable D, inalienable split",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+421,yoru1245,Yoruba,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+325,osse1243,Ossetic,"Alienables split, inalienables H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+100,hitt1242,Hittite,"Alienable D, inalienable D+H",TRUE,classificatory,,,TRUE,1,TRUE,1,TRUE,TRUE,2
+108,hurr1240,Hurrian,,,,,,,,,,,,
+360,sume1241,Sumerian,,,,,,,,,,,,
+454,rama1270,Rama,"Alienable D, inalienable D+H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+32,basq1248,Basque,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+139,komi1268,Komi (Zyrian),None,FALSE,,FALSE,0,,,,,FALSE,FALSE,0
+12,ainu1240,Ainu,"Alienable via verbal linker, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,2,TRUE,TRUE,4
+56,chuk1273,Chukchi,"Alienable D, inalienable D",FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+118,nucl1643,Japanese,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+129,kett1243,Ket,,FALSE,,FALSE,0,,,,,FALSE,FALSE,0
+188,halh1238,Mongolian (Khalkha),None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+201,nana1257,Nanai,"Alienable H, inalienable H",TRUE,,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+387,tuvi1240,Tuva,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+423,nort2745,Yukagir (Tundra),"Alienable D, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+205,nene1249,Nenets (Tundra),,TRUE,,,,,,,,TRUE,FALSE,1
+9,achi1257,Acehnese,,FALSE,,FALSE,0,,,,,FALSE,FALSE,0
+39,buru1303,Buru,"Alienable D, inalienable H",TRUE,,FALSE,0,,,,,TRUE,TRUE,2
+137,wers1238,Kolana,None,FALSE,,FALSE,0,,,,,FALSE,FALSE,0
+464,mode1248,Greek (modern),None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+35,belh1239,Belhare,,TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,3
+78,finn1318,Finnish,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+87,stan1295,German,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+99,hind1269,Hindi,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+171,mand1415,Mandarin,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+361,swah1253,Swahili,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+362,taga1270,Tagalog,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+465,mari1440,Maricopa,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,3
+89,para1311,Guaraní (Paraguayan),"Alienable appositive classificatory possessive noun, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+354,nort2942,Slave,,TRUE,classificatory,TRUE,1,TRUE,1,TRUE,3,TRUE,TRUE,3
+59,plai1258,Cree (Plains),,TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,FALSE,1
+467,paam1238,Paamese,"Alienable appositive classificatory possessive noun, inalienable H",TRUE,semantic,TRUE,1,TRUE,4,TRUE,1,,,
+399,wara1303,Warao,,FALSE,semantic,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+460,popt1235,Jacaltec,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+176,mapu1245,Mapudungun,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+461,onei1249,Oneida,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+571,cent2194,Tamazight (Ayt Ndhir),"Alienable D, inalienable D+H",TRUE,classificatory,FALSE,0,,,TRUE,1,TRUE,TRUE,2
+581,zulu1248,Zulu,None,,,,,FALSE,0,FALSE,0,FALSE,FALSE,0
+10,west2632,Acoma,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,FALSE,FALSE,0
+456,west2369,Persian,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+512,apur1254,Apurina,"Alienable H, inalienable Ø",TRUE,classificatory,TRUE,2,TRUE,1,TRUE,2,TRUE,TRUE,3
+128,kaya1319,Kayardild,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+502,nucl1301,Turkish,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+515,bagi1246,Bagirmi,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+438,maib1239,Maybrat,"Alienable D, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+497,supy1237,Supyire,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+501,mani1292,Meithei,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+564,rapa1244,Rapanui,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+576,wari1268,Wari,"Alienable H, inalienable H",TRUE,classificatory,TRUE,2,TRUE,1,TRUE,2,TRUE,TRUE,3
+384,tuka1249,Tukang Besi,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+333,pira1253,Pirahã,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+77,fiji1243,Fijian (Boumaa),"Alienable appositive classificatory possessive noun, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+500,hmon1264,Hmong Njua,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+569,stan1288,Spanish,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+504,greb1256,Grebo,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+503,yaqu1251,Yaqui,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+186,sanm1295,Mixtec (Chalcatongo),None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+150,kute1249,Kutenai,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,FALSE,FALSE,0
+496,indo1316,Indonesian,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+327,paiw1248,Paiwan,,TRUE,,FALSE,0,,,,,TRUE,FALSE,1
+493,bara1380,Barasano,"Alienable H, inalienable Ø",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,2,TRUE,TRUE,2
+494,viet1252,Vietnamese,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+505,daga1275,Daga,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+498,mezq1235,Otomi (Mezquital),,TRUE,,FALSE,0,,,,,TRUE,FALSE,1
+463,nucl1310,Burmese,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+553,luva1239,Luvale,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+374,thai1261,Thai,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+132,kiow1266,Kiowa,,TRUE,,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+135,koas1236,Koasati,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,2,TRUE,TRUE,2
+141,kore1280,Korean,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+156,lako1247,Lakhota,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,2,TRUE,TRUE,2
+492,copa1236,Zoque (Copainalá),None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+180,wich1263,Mataco,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,3,TRUE,TRUE,3
+550,lavu1241,Lavukaleve,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+466,sang1328,Sango,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+577,wich1260,Wichita,,,,,,,,,,,,
+411,wasc1239,Wishram,,,,,,,,,,,,
+61,lowe1415,Dani (Lower Grand Valley),"Alienable D+H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+526,epen1239,Epena Pedee,"Alienable Ø, inalienable Ø",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,FALSE,FALSE,0
+356,sout2985,Miwok (Southern Sierra),,,,,,,,,,,,
+568,sout2982,Pomo (Southeastern),"Alienable D, inalienable D",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,2,TRUE,TRUE,3
+47,cayu1262,Cayuvava,,TRUE,classificatory,FALSE,0,,,,,TRUE,TRUE,10
+527,even1259,Evenki,"Alienable D+H, inalienable D+H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,FALSE,FALSE,0
+357,squa1248,Squamish,,TRUE,,FALSE,0,,,,,TRUE,FALSE,1
+428,yuro1248,Yurok,"Alienable H, inalienable H",TRUE,classificatory,TRUE,2,TRUE,1,TRUE,2,TRUE,TRUE,2
+469,awac1239,Awa Pit,None,FALSE,,FALSE,0,,,,,FALSE,FALSE,0
+518,brah1256,Brahui,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+375,tibe1272,Tibetan (Standard Spoken),None,TRUE,,FALSE,0,FALSE,0,FALSE,0,TRUE,FALSE,1
+388,tzut1248,Tzutujil,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,2,TRUE,2,TRUE,TRUE,4
+175,maor1246,Maori,,FALSE,semantic,FALSE,0,,,,,FALSE,FALSE,0
+414,yagu1244,Yagua,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+535,nucl1305,Kannada,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+525,ekar1243,Ekari,"Alienable Ø, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+348,sanu1240,Sanuma,"Alienable Ø, inalienable Ø",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+43,cane1242,Canela-Krahô,"Alienable D, inalienable split",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+125,karo1304,Karok,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,FALSE,FALSE,0
+101,hixk1239,Hixkaryana,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,2,TRUE,1,TRUE,FALSE,1
+51,chim1301,Chimariko,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+63,kumi1248,Diegueño,,TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+113,ines1240,Ineseño,,TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,FALSE,1
+168,nort2952,Maidu (Northeast),,TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+338,quil1240,Quileute,,TRUE,classificatory,TRUE,1,TRUE,1,TRUE,2,TRUE,TRUE,2
+208,nezp1238,Nez Perce,,TRUE,classificatory,TRUE,2,TRUE,1,TRUE,2,TRUE,TRUE,3
+344,sali1253,Salinan,,TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+442,sius1254,Siuslaw (Lower Umpqua),,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,3
+363,take1257,Takelma,"Alienable H, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+379,tlin1245,Tlingit,"Alienable H, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+398,wapp1239,Wappo,Other,TRUE,classificatory,TRUE,1,TRUE,1,TRUE,2,TRUE,TRUE,3
+406,wash1253,Washo,,TRUE,classificatory,TRUE,2,TRUE,2,TRUE,2,TRUE,TRUE,2
+409,wint1259,Wintu,,TRUE,classificatory,TRUE,1,TRUE,2,TRUE,1,TRUE,TRUE,2
+418,yoku1256,Yokuts (Yawelmani),None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+429,zuni1245,Zuni,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+27,atak1252,Atakapa,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+53,chit1248,Chitimacha,,TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,,,
+202,natc1249,Natchez,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+331,pawn1254,Pawnee,,TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+377,timu1245,Timucua,,,,,,,,,,,,
+382,tonk1249,Tonkawa,"Alienable D, inalienable Ø",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+386,tuni1252,Tunica,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+422,yuch1247,Yuchi,,TRUE,classificatory,FALSE,0,,,,,TRUE,TRUE,4
+349,sene1264,Seneca,,TRUE,classificatory,,,TRUE,1,TRUE,1,TRUE,TRUE,2
+50,chic1272,Chichimec,"Alienable appositive classificatory possessive noun, inalienable H",TRUE,classificatory,TRUE,1,TRUE,4,TRUE,12,TRUE,TRUE,12
+55,high1242,Chontal (Highland),,TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,FALSE,FALSE,0
+106,sand1278,Huave,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,4,TRUE,4,TRUE,TRUE,4
+184,misk1235,Miskito,,,,,,,,,,,,
+332,pipi1250,Pipil,,TRUE,,TRUE,1,,,,,,,
+365,pure1242,Tarascan,"Alienable D, inalienable H",TRUE,classificatory,TRUE,1,,,TRUE,2,TRUE,TRUE,2
+372,hueh1236,Tepehua (Huehuetla),None,,,,,,,,,,,
+29,asha1243,Axininca Campa,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,,,
+599,chay1248,Chayahuita,"Alienable H, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+329,paum1247,Paumarí,"Alienable H, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+339,resi1247,Resígaro,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,,,
+162,lezg1247,Lezgi,None,TRUE,,FALSE,0,FALSE,0,FALSE,0,TRUE,FALSE,1
+499,buki1249,Bukiyip,None,TRUE,,FALSE,0,FALSE,0,FALSE,0,TRUE,FALSE,1
+511,kala1399,Greenlandic Eskimo (West),None,FALSE,semantic,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+642,egyp1253,Arabic (Egyptian),None,TRUE,,FALSE,0,FALSE,0,FALSE,0,TRUE,TRUE,2
+491,mala1537,Malagasy,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+495,kron1241,Krongo,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+583,hebr1245,Hebrew (Modern),,,,,,FALSE,0,FALSE,0,,,
+533,imba1240,Quechua (Imbabura),None,,,,,FALSE,0,FALSE,0,,,
+644,kari1255,Kiriri (Kipea),"Alienable D+H, inalienable H",TRUE,classificatory,FALSE,0,TRUE,2,TRUE,1,TRUE,TRUE,3
+645,hata1243,Hatam,Other,TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+383,trum1247,Trumaí,,TRUE,classificatory,FALSE,0,TRUE,2,TRUE,2,TRUE,TRUE,4
+646,xokl1240,Xokleng,,,,,,,,,,,,
+514,cent2142,Aymara,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+200,sout2994,Nambikwara,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,FALSE,FALSE,0
+648,boro1282,Bororo,"Alienables split, inalienables H",TRUE,classificatory,FALSE,0,TRUE,2,TRUE,2,TRUE,TRUE,4
+432,coos1249,Hanis (Coos),,,,,,,,,,,,
+193,east2379,Mparntwe Arrernte,"Alienable D, inalienable H",TRUE,classificatory,FALSE,0,,,TRUE,1,TRUE,TRUE,3
+649,jeri1242,Jeli,"Alienable D, inalienable Ø",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+654,nisg1240,Nisgha,,,,,,,,,,,,
+305,izon1238,Ijo,"Alienable D, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+146,kuii1253,Kui (Indonesia),"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+157,lama1277,Lamaholot,None,,,,,FALSE,0,FALSE,0,FALSE,FALSE,0
+364,kula1280,Tanglapui,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,,,
+64,dier1241,Diyari,"Alienable D, inalienable split",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
+95,sout2956,Haida,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+72,east2545,Pomo (Eastern),"Alienable D, inalienable H",TRUE,classificatory,,,TRUE,1,TRUE,2,TRUE,TRUE,3
+299,nand1266,Nandi,,TRUE,,FALSE,0,FALSE,0,FALSE,0,TRUE,FALSE,1
+608,mari1278,Mari,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+232,usar1243,Usarufa,"Alienable D, inalienable H",,classificatory,,,TRUE,1,TRUE,1,,,
+669,gras1249,Koiari,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+540,khas1269,Khasi,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+668,yecu1235,Totonac (Misantla),,TRUE,,TRUE,1,,,,,TRUE,FALSE,1
+634,saur1249,Malto,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+221,diga1241,Mishmi,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+44,carn1240,Car,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+197,naha1261,Nahali,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
+455,cent2127,Yup’ik (Central),"Alienable D+H, inalienable D+H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,,,
+682,yuca1254,Yucatec,,TRUE,classificatory,,,TRUE,1,TRUE,1,TRUE,TRUE,2
+683,roma1327,Romanian,,,,,,FALSE,0,FALSE,0,,,
+1,grea1241,Great Andamanese,"Alienable D, inalienable H",TRUE,classificatory,,,TRUE,1,TRUE,3,TRUE,TRUE,4
+651,anii1246,//Ani,,TRUE,,FALSE,0,,,,,TRUE,TRUE,2
+662,apat1240,Apatani,,TRUE,,FALSE,0,,,,,TRUE,FALSE,1
+660,band1339,Bandjalang,,TRUE,,FALSE,0,,,,,TRUE,FALSE,1
+629,chan1310,Chantyal,,TRUE,,FALSE,0,,,,,TRUE,FALSE,1
+650,dogo1299,Dogon,,TRUE,,FALSE,0,,,,,TRUE,TRUE,2
+663,drun1238,Drung,,,,,,,,,,,,
+534,iraq1241,Iraqw,,TRUE,,FALSE,0,,,,,TRUE,FALSE,1
+435,iris1253,Irish,,TRUE,,FALSE,0,,,,,TRUE,FALSE,1
+206,nepa1254,Nepali,,TRUE,,FALSE,0,,,,,TRUE,FALSE,1
+722,nort2722,Qiang (Northern),,TRUE,,TRUE,1,,,,,TRUE,FALSE,1
+566,seme1247,Semelai,,TRUE,,FALSE,0,,,,,TRUE,FALSE,1
+481,svan1243,Svan,,TRUE,,FALSE,0,,,,,TRUE,FALSE,1
+402,ware1253,Warembori,,TRUE,,TRUE,1,,,,,TRUE,TRUE,3
+413,khin1240,Xinalug,,TRUE,,FALSE,0,,,,,TRUE,TRUE,2
+580,yidi1250,Yidiny,"Alienable D, inalienable Ø",TRUE,classificatory,,,TRUE,1,TRUE,1,TRUE,TRUE,2
+666,coah1252,Coahuiltec,"Alienable D, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
+635,sant1410,Santali,,TRUE,classificatory,,,TRUE,1,TRUE,2,TRUE,TRUE,3
+558,mund1320,Mundari,,TRUE,classificatory,,,TRUE,1,TRUE,1,TRUE,TRUE,2
+1750,khar1287,Kharia,,TRUE,classificatory,,,TRUE,1,TRUE,1,TRUE,FALSE,1
+2994,sanf1258,Huave (San Francisco del Mar),"Alienable H, inalienable H",TRUE,classificatory,TRUE,2,TRUE,1,TRUE,2,TRUE,TRUE,3
+2050,moco1246,Mocoví,,TRUE,,TRUE,1,TRUE,1,TRUE,1,,,
+685,klam1254,Klamath,None,,,,,FALSE,0,FALSE,0,,,

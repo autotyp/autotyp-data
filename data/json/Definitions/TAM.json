@@ -1,0 +1,758 @@
+[
+  {
+    "TAM": "<any>",
+    "Definition": "TODO"
+  },
+  {
+    "TAM": "future + conditional",
+    "Definition": "TODO"
+  },
+  {
+    "TAM": "PST",
+    "Definition": "past"
+  },
+  {
+    "TAM": "NPST",
+    "Definition": "non-past"
+  },
+  {
+    "TAM": "PST.PRF",
+    "Definition": "past perfect"
+  },
+  {
+    "TAM": "PST&FUT",
+    "Definition": "past and future tense"
+  },
+  {
+    "TAM": "IPFV",
+    "Definition": "imperfective aspect"
+  },
+  {
+    "TAM": "PRF",
+    "Definition": "perfective aspect"
+  },
+  {
+    "TAM": "REAL",
+    "Definition": "realis mood"
+  },
+  {
+    "TAM": "IRR",
+    "Definition": "irrealis mood"
+  },
+  {
+    "TAM": "PRS",
+    "Definition": "present"
+  },
+  {
+    "TAM": "AOR",
+    "Definition": "aorist"
+  },
+  {
+    "TAM": "CONT",
+    "Definition": "continuous"
+  },
+  {
+    "TAM": "NCONT",
+    "Definition": "non-continuous"
+  },
+  {
+    "TAM": "DECL",
+    "Definition": "declarative illoqutionar force"
+  },
+  {
+    "TAM": "IMP",
+    "Definition": "imperative illoqutionar force"
+  },
+  {
+    "TAM": "interrogative",
+    "Definition": "interrogative illoqutionar force"
+  },
+  {
+    "TAM": "NIMP",
+    "Definition": "non-imperative, any illoqutionar force apart from imperative"
+  },
+  {
+    "TAM": "affirmative",
+    "Definition": "DO NOT USE ANY MORE!  (this information is moved to a separate table called Polarity_def )"
+  },
+  {
+    "TAM": "negative",
+    "Definition": "DO NOT USE ANY MORE!  (this information is moved to a separate table called Polarity_def )"
+  },
+  {
+    "TAM": "INCOMPL",
+    "Definition": "incompletive status (in Mayan languages)"
+  },
+  {
+    "TAM": "completive and subjunctive status",
+    "Definition": "introduced for Yucatec Maya"
+  },
+  {
+    "TAM": "active",
+    "Definition": "DO NOT USE ANY MORE!  this information is moved to a separate table"
+  },
+  {
+    "TAM": "passive",
+    "Definition": "DO NOT USE ANY MORE!  this information is moved to a separate table"
+  },
+  {
+    "TAM": "56_NFUT/NEU",
+    "Definition": "Chukchinon-future, neutral aspect"
+  },
+  {
+    "TAM": "PST, indicative",
+    "Definition": "DO NOT USE ANY MORE! This combination is now split into PST (#2) and IND (#25)"
+  },
+  {
+    "TAM": "IND",
+    "Definition": "indicative"
+  },
+  {
+    "TAM": "NPST, indicative",
+    "Definition": "DO NOT USE ANY MORE! This combination is now split into PST (#3) and IND (#25)"
+  },
+  {
+    "TAM": "1528_CONT/POT",
+    "Definition": "CONT and POTential aspect"
+  },
+  {
+    "TAM": "1528_COMPL/NEUT",
+    "Definition": "COMPL and NEUT aspect"
+  },
+  {
+    "TAM": "2031_PST.PFV",
+    "Definition": "PST PFV"
+  },
+  {
+    "TAM": "FUT",
+    "Definition": "future tense"
+  },
+  {
+    "TAM": "COMPL",
+    "Definition": "completive status (in Mayan languages)"
+  },
+  {
+    "TAM": "2031_PRS",
+    "Definition": "PRS, PST.IPFV, FUT"
+  },
+  {
+    "TAM": "40_FUT/COND",
+    "Definition": "FUT, COND"
+  },
+  {
+    "TAM": "49_CONT",
+    "Definition": "CONT (-ush converb)"
+  },
+  {
+    "TAM": "49_NCONT",
+    "Definition": "NCONT (not -ush converb)"
+  },
+  {
+    "TAM": "59_INDEP",
+    "Definition": "independent order"
+  },
+  {
+    "TAM": "99_NPTCP",
+    "Definition": "non-PTCP_based"
+  },
+  {
+    "TAM": "99_PTCP",
+    "Definition": "PTCP_based"
+  },
+  {
+    "TAM": "169_INF",
+    "Definition": "INF"
+  },
+  {
+    "TAM": "169_PTCP",
+    "Definition": "PTCP"
+  },
+  {
+    "TAM": "169_CONV",
+    "Definition": "CONV"
+  },
+  {
+    "TAM": "206_NPTCP",
+    "Definition": "non-PTCP_based"
+  },
+  {
+    "TAM": "206_PTCP",
+    "Definition": "PTCP_based"
+  },
+  {
+    "TAM": "563_INDEP.PRS",
+    "Definition": "independent order, present indicative"
+  },
+  {
+    "TAM": "632_NPST.IND",
+    "Definition": "NPST.IND (non-past indicative)"
+  },
+  {
+    "TAM": "632_PST.IND",
+    "Definition": "PST.IND (past indicative)"
+  },
+  {
+    "TAM": "637_IND",
+    "Definition": "IND"
+  },
+  {
+    "TAM": "648_IND",
+    "Definition": "IND"
+  },
+  {
+    "TAM": "669_REAL",
+    "Definition": "realis"
+  },
+  {
+    "TAM": "908_IND",
+    "Definition": "IND"
+  },
+  {
+    "TAM": "1142_INDEP.PRS.IND",
+    "Definition": "independent PRS IND"
+  },
+  {
+    "TAM": "1660_INCOMPL",
+    "Definition": "incompletive status"
+  },
+  {
+    "TAM": "1660_COMPL",
+    "Definition": "completive status"
+  },
+  {
+    "TAM": "1973_INDEP",
+    "Definition": "independent order"
+  },
+  {
+    "TAM": "2001_INDEP.IND",
+    "Definition": "independent order indicative"
+  },
+  {
+    "TAM": "2081_PTCP",
+    "Definition": "PTCP based"
+  },
+  {
+    "TAM": "2081_NPTCP",
+    "Definition": "non-PTCP based"
+  },
+  {
+    "TAM": "2360_IND",
+    "Definition": "indicative"
+  },
+  {
+    "TAM": "2416_PTCP",
+    "Definition": "PTCP based"
+  },
+  {
+    "TAM": "2416_NPTCP",
+    "Definition": "non-PTCP based"
+  },
+  {
+    "TAM": "676_PTCP",
+    "Definition": "PTCP based"
+  },
+  {
+    "TAM": "676_NPTCP",
+    "Definition": "non-PTCP based"
+  },
+  {
+    "TAM": "2681_PTCP",
+    "Definition": "PTCP based"
+  },
+  {
+    "TAM": "2681_NPTCP",
+    "Definition": "non-PTCP based"
+  },
+  {
+    "TAM": "2706_FIN",
+    "Definition": "final verb"
+  },
+  {
+    "TAM": "2706_NFIN",
+    "Definition": "non-final verb"
+  },
+  {
+    "TAM": "2761_PTCP",
+    "Definition": "PTCP based"
+  },
+  {
+    "TAM": "2761_NPTCP",
+    "Definition": "non-PTCP based"
+  },
+  {
+    "TAM": "2762_PTCP",
+    "Definition": "PTCP based"
+  },
+  {
+    "TAM": "2762_NPTCP",
+    "Definition": "non-PTCP based"
+  },
+  {
+    "TAM": "2797_FIN",
+    "Definition": "final verb"
+  },
+  {
+    "TAM": "2862_PST.IND",
+    "Definition": "past indicative"
+  },
+  {
+    "TAM": "2862_NPST.IND",
+    "Definition": "non-past indicative"
+  },
+  {
+    "TAM": "2863_PST.IND",
+    "Definition": "past indicative"
+  },
+  {
+    "TAM": "2863_NPST.IND",
+    "Definition": "non-past indicative"
+  },
+  {
+    "TAM": "2930_FIN",
+    "Definition": "final verb"
+  },
+  {
+    "TAM": "2956_PST.IND",
+    "Definition": "past indicative"
+  },
+  {
+    "TAM": "2956_NPST.IND",
+    "Definition": "non-past indicative"
+  },
+  {
+    "TAM": "2980_PST.IND",
+    "Definition": "past indicative"
+  },
+  {
+    "TAM": "2980_NPST.IND",
+    "Definition": "non-past indicative"
+  },
+  {
+    "TAM": "2999_PST.IND",
+    "Definition": "past indicative"
+  },
+  {
+    "TAM": "2999_NPST.IND",
+    "Definition": "non-past indicative"
+  },
+  {
+    "TAM": "3007_PST.IND",
+    "Definition": "past indicative"
+  },
+  {
+    "TAM": "3007_NPST.IND",
+    "Definition": "non-past indicative"
+  },
+  {
+    "TAM": "3010_PST.IND",
+    "Definition": "past indicative"
+  },
+  {
+    "TAM": "3010_NPST.IND",
+    "Definition": "non-past indicative"
+  },
+  {
+    "TAM": "2929_PTCP",
+    "Definition": "PTCP based"
+  },
+  {
+    "TAM": "2929_NPTCP",
+    "Definition": "non-PTCP based"
+  },
+  {
+    "TAM": "2922_PTCP",
+    "Definition": "PTCP based"
+  },
+  {
+    "TAM": "2922_NPTCP",
+    "Definition": "non-PTCP based"
+  },
+  {
+    "TAM": "2883_PTCP",
+    "Definition": "PTCP based"
+  },
+  {
+    "TAM": "2883_NPTCP",
+    "Definition": "non-PTCP based"
+  },
+  {
+    "TAM": "2886_PTCP",
+    "Definition": "PTCP based"
+  },
+  {
+    "TAM": "2886_NPTCP",
+    "Definition": "non-PTCP based"
+  },
+  {
+    "TAM": "2892_PTCP",
+    "Definition": "PTCP based"
+  },
+  {
+    "TAM": "2892_NPTCP",
+    "Definition": "non-PTCP based"
+  },
+  {
+    "TAM": "2918_PTCP",
+    "Definition": "PTCP based"
+  },
+  {
+    "TAM": "2918_NPTCP",
+    "Definition": "non-PTCP based"
+  },
+  {
+    "TAM": "2919_PTCP",
+    "Definition": "PTCP based"
+  },
+  {
+    "TAM": "2919_NPTCP",
+    "Definition": "non-PTCP based"
+  },
+  {
+    "TAM": "2923_PTCP",
+    "Definition": "PTCP based"
+  },
+  {
+    "TAM": "2923_NPTCP",
+    "Definition": "non-PTCP based"
+  },
+  {
+    "TAM": "2924_PTCP",
+    "Definition": "PTCP based"
+  },
+  {
+    "TAM": "2924_NPTCP",
+    "Definition": "non-PTCP based"
+  },
+  {
+    "TAM": "2925_PTCP",
+    "Definition": "PTCP based"
+  },
+  {
+    "TAM": "2925_NPTCP",
+    "Definition": "non-PTCP based"
+  },
+  {
+    "TAM": "2927_PTCP",
+    "Definition": "PTCP based"
+  },
+  {
+    "TAM": "2927_NPTCP",
+    "Definition": "non-PTCP based"
+  },
+  {
+    "TAM": "674_PST.IND",
+    "Definition": "past indicative"
+  },
+  {
+    "TAM": "674_NPST.IND",
+    "Definition": "non-past indicative"
+  },
+  {
+    "TAM": "1439_PST.IND",
+    "Definition": "past indicative"
+  },
+  {
+    "TAM": "1439_NPST.IND",
+    "Definition": "non-past indicative"
+  },
+  {
+    "TAM": "1775_PST.IND",
+    "Definition": "past indicative"
+  },
+  {
+    "TAM": "1775_NPST.IND",
+    "Definition": "non-past indicative"
+  },
+  {
+    "TAM": "923_INDEP",
+    "Definition": "independent order indicative"
+  },
+  {
+    "TAM": "1036_INDEP",
+    "Definition": "independent order indicative"
+  },
+  {
+    "TAM": "2244_INDEP.PRS",
+    "Definition": "independent order indicative present"
+  },
+  {
+    "TAM": "2551_INDEP.NPST",
+    "Definition": "independent order indicative non-past"
+  },
+  {
+    "TAM": "2500_NMLZ",
+    "Definition": "nominalized verb"
+  },
+  {
+    "TAM": "1105_COMPL",
+    "Definition": "completive status"
+  },
+  {
+    "TAM": "1105_NCOMPL",
+    "Definition": "non-completive status"
+  },
+  {
+    "TAM": "682_COMPL",
+    "Definition": "completive status"
+  },
+  {
+    "TAM": "682_NCOMPL",
+    "Definition": "non-completive status"
+  },
+  {
+    "TAM": "2668_INDEP.NPST",
+    "Definition": "independent order indicative non-past"
+  },
+  {
+    "TAM": "2709_PTCP",
+    "Definition": "PTCP based"
+  },
+  {
+    "TAM": "2709_NPTCP",
+    "Definition": "non-PTCP based"
+  },
+  {
+    "TAM": "74_PRS",
+    "Definition": "present"
+  },
+  {
+    "TAM": "456_PRET",
+    "Definition": "preterite, aorist, imperfect"
+  },
+  {
+    "TAM": "456_PRS",
+    "Definition": "present, present perfect, past perfect"
+  },
+  {
+    "TAM": "2885_PRS",
+    "Definition": "present"
+  },
+  {
+    "TAM": "2885_PST",
+    "Definition": "past"
+  },
+  {
+    "TAM": "2148_NOBL",
+    "Definition": "non-obligative mood"
+  },
+  {
+    "TAM": "2148_OBL",
+    "Definition": "obligative mood"
+  },
+  {
+    "TAM": "1750_NAR",
+    "Definition": "Narrative mood"
+  },
+  {
+    "TAM": "686_POS&NEGNPST",
+    "Definition": "ll positive forms and negative non-past"
+  },
+  {
+    "TAM": "1961_PST",
+    "Definition": "PST and PST PFV"
+  },
+  {
+    "TAM": "57_NPRS",
+    "Definition": "PST and pliperfect"
+  },
+  {
+    "TAM": "57_PRS",
+    "Definition": "PRS and FUT"
+  },
+  {
+    "TAM": "642_PRF",
+    "Definition": "perfect"
+  },
+  {
+    "TAM": "642_IPFV",
+    "Definition": "imperfective"
+  },
+  {
+    "TAM": "791_NAR",
+    "Definition": "narrative"
+  },
+  {
+    "TAM": "791_NNAR",
+    "Definition": "non-narrative"
+  },
+  {
+    "TAM": "2657_NPST/NPRF",
+    "Definition": "non-past and non-perfective forms"
+  },
+  {
+    "TAM": "2657_PST/PRF",
+    "Definition": "past and perfective forms"
+  },
+  {
+    "TAM": "518_SPST",
+    "Definition": "simple past"
+  },
+  {
+    "TAM": "518_NSPST",
+    "Definition": "non-simple past (all other tenses)"
+  },
+  {
+    "TAM": "1136_PFV",
+    "Definition": "perfective"
+  },
+  {
+    "TAM": "1136_IPFV",
+    "Definition": "imperfective"
+  },
+  {
+    "TAM": "1414_IPFV",
+    "Definition": "imperfective aspect"
+  },
+  {
+    "TAM": "1414_PFV",
+    "Definition": "perfective aspect"
+  },
+  {
+    "TAM": "299_SNPST",
+    "Definition": "simple non-past"
+  },
+  {
+    "TAM": "299_NONSNPST",
+    "Definition": "all tenses apart from simple non-past"
+  },
+  {
+    "TAM": "2544_PST.PRF",
+    "Definition": "past perfect"
+  },
+  {
+    "TAM": "2544_NPST.PRF",
+    "Definition": "non-past perfect"
+  },
+  {
+    "TAM": "559_IMPF",
+    "Definition": "imperfect"
+  },
+  {
+    "TAM": "559_PRF",
+    "Definition": "perfect"
+  },
+  {
+    "TAM": "3044_PFV",
+    "Definition": "perfective"
+  },
+  {
+    "TAM": "3044_IPFV",
+    "Definition": "imperfective"
+  },
+  {
+    "TAM": "21_IPFV",
+    "Definition": "imperfective"
+  },
+  {
+    "TAM": "21_PFV",
+    "Definition": "perfective"
+  },
+  {
+    "TAM": "1577_VIS",
+    "Definition": "visual evidentiality"
+  },
+  {
+    "TAM": "791_PRS",
+    "Definition": "present"
+  },
+  {
+    "TAM": "791_NPRS",
+    "Definition": "nPRS"
+  },
+  {
+    "TAM": "3069_INDEP",
+    "Definition": "independent order indicative"
+  },
+  {
+    "TAM": "2335_PRET",
+    "Definition": "preterite"
+  },
+  {
+    "TAM": "2063_PST",
+    "Definition": "past"
+  },
+  {
+    "TAM": "2063_NPST",
+    "Definition": "non past"
+  },
+  {
+    "TAM": "2772_IMPFV",
+    "Definition": "imperfective"
+  },
+  {
+    "TAM": "2772_PFV",
+    "Definition": "perfective"
+  },
+  {
+    "TAM": "159_PFV",
+    "Definition": "perfective"
+  },
+  {
+    "TAM": "533_PRS",
+    "Definition": "PRS and FUT"
+  },
+  {
+    "TAM": "533_PST",
+    "Definition": "past"
+  },
+  {
+    "TAM": "549_PST/FUT",
+    "Definition": "past and future"
+  },
+  {
+    "TAM": "549_PRS",
+    "Definition": "present"
+  },
+  {
+    "TAM": "2447_PRS",
+    "Definition": "present"
+  },
+  {
+    "TAM": "3117_PRS",
+    "Definition": "present"
+  },
+  {
+    "TAM": "3117_PST",
+    "Definition": "present"
+  },
+  {
+    "TAM": "340_PRS",
+    "Definition": "present"
+  },
+  {
+    "TAM": "340_PST",
+    "Definition": "past"
+  },
+  {
+    "TAM": "3213_ABS",
+    "Definition": "absolute endings (used with simple verbs in initial position with no preceding particle)"
+  },
+  {
+    "TAM": "678_PRS",
+    "Definition": "present"
+  },
+  {
+    "TAM": "678_IMPF",
+    "Definition": "past imperfect"
+  },
+  {
+    "TAM": "678_AOR",
+    "Definition": "past aorist"
+  },
+  {
+    "TAM": "25_AOR",
+    "Definition": "Armenian aorist (synthetic)"
+  },
+  {
+    "TAM": "25_NAOR",
+    "Definition": "Armenian non-aorist TA categories (all analytically built)"
+  },
+  {
+    "TAM": "1477_NPROG",
+    "Definition": "Esse Ejja any non-prograssive TA (default)"
+  },
+  {
+    "TAM": "1477_PROG",
+    "Definition": "Esse Ejja prograssive"
+  }
+]

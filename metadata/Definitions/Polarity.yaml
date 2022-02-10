@@ -1,0 +1,25 @@
+description: >-
+  Polarity
+kind: manual data entry
+data: table
+fields: 
+  Polarity:
+    description: >-
+      Polarity
+    kind: manual data entry
+    data: value-list
+    values: 
+      "<any>": >-
+        any
+      "AFF": >-
+        affirmative
+      "NEG": >-
+        negative
+  # -- end of Polarity
+
+  Definition:
+    description: >-
+      Polarity value definition
+    kind: manual data entry
+    data: comment
+  # -- end of Definition

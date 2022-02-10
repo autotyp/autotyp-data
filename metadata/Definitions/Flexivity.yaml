@@ -1,0 +1,38 @@
+description: >-
+  Formative flexivity types: allomorphy of affixes depending on grammatical
+  categories or lexical choice (see Bickel & Nichols 2007 in Language
+  typology and syntactic description, ed. T. Shopen, Cambridge:
+  Cambridge University Press)
+kind: manual data entry
+data: table
+fields: 
+  Flexivity:
+    description: >-
+      Formative flexivity: allomorphy of affixes depending on grammatical
+      categories or lexical choice (see Bickel & Nichols 2007 in Language
+      typology and syntactic description, ed. T. Shopen, Cambridge:
+      Cambridge University Press)
+    kind: manual data entry
+    data: value-list
+    values: 
+      "cat-based": >-
+        Allomorphic variation determined by the choice of inflectional category (e.g., a
+        certain stem ablaut in certain tense forms, across the regular lexicon)
+      "lex-based": >-
+        Allomorphic variation determined by the choice of lexical host (e.g., a certain
+        stem ablaut with some verbs, but not with others)
+      "none": >-
+        No allomorphic variation
+      "both": >-
+        Allomorphic variation determined by both the inflectional category and the lexical
+        host
+      "free": >-
+        Free allomorphic variation
+  # -- end of Flexivity
+
+  Definition:
+    description: >-
+      Flexivity type definition
+    kind: manual data entry
+    data: comment
+  # -- end of Definition

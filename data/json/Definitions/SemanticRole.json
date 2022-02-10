@@ -1,0 +1,62 @@
+[
+  {
+    "SemanticRole": "S",
+    "Definition": "sole argument of a one-place predicate"
+  },
+  {
+    "SemanticRole": "Atr",
+    "Definition": "the more agent-like argument a two-place pred."
+  },
+  {
+    "SemanticRole": "P",
+    "Definition": "the more patient-like argument of a two-place pred."
+  },
+  {
+    "SemanticRole": "Aditr",
+    "Definition": "the more agent-like argument of a three-place pred."
+  },
+  {
+    "SemanticRole": "T",
+    "Definition": "the non-agent-like and non-patient-like argument of a three-place pred."
+  },
+  {
+    "SemanticRole": "G",
+    "Definition": "the more patient-like argument of a three-place pred."
+  },
+  {
+    "SemanticRole": "ARG",
+    "Definition": "any argument"
+  },
+  {
+    "SemanticRole": "highest",
+    "Definition": "argument higher than the other one"
+  },
+  {
+    "SemanticRole": "ADJ",
+    "Definition": "adjunct non-argument"
+  },
+  {
+    "SemanticRole": "POSS",
+    "Definition": "adnominal dependent"
+  },
+  {
+    "SemanticRole": "CITAT",
+    "Definition": "citation form"
+  },
+  {
+    "SemanticRole": "PRED",
+    "Definition": "predicate form (for nominal predicates)"
+  },
+  {
+    "SemanticRole": "INSTR",
+    "Definition": "instrument"
+  },
+  {
+    "SemanticRole": "?O",
+    "Definition": "maybe O (used to code GRs when the grammars are contradictory or the authors are not sure themselves)"
+  },
+  {
+    "SemanticRole": "?T",
+    "Definition": "maybe T (used to code GRs when the grammars are contradictory or the authors are not sure themselves)"
+  }
+]

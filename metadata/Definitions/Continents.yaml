@@ -1,0 +1,86 @@
+description: >-
+  Language continents
+kind: manual data entry
+data: table
+fields: 
+  Continent:
+    description: >-
+      Continent-sized macroarea, based on our assumptions about contact events
+      in history, informed by current knowledge of the historical, genetic,
+      anthropological, and archeological record. All macro-areas are visualized
+      in the files continents.jpg and continents.kml available on this
+      repository.
+    kind: manual data entry
+    data: value-list
+    values: 
+      "Africa": >-
+        All of Africa.
+      "W and SW Eurasia": >-
+        Western and Southwestern Eurasia. Including the Caucasus and following the
+        northern shore of the Black Sea and the Carpathians to the Baltic sea. Also
+        includes the languages of Ancient Anatolia and Mesopotamia east to the Hindu Kush
+        (including the Iranian plateau).
+      "N-C Asia": >-
+        Northern and Central Asia. Siberia, the Tibetan plateau, Mongolia, Korea, and
+        Japan.
+      "S/SE Asia": >-
+        South and Southeast Asia. The Indic subcontinent (including the Himalayas, but not
+        the Tibetan plateau), mainland Southeast Asia, and insular Southeast Asia up to
+        the Wallace Line (between Sumbawa and Flores).
+      "Australia": >-
+        All of Australia.
+      "NG and Oceania": >-
+        New Guinea and Oceania (all islands east of the Wallace Line).
+      "W N America": >-
+        Western North America. From the Pacific coast (excluding the Aleutian islands,
+        including only mainland Alaska) to the lower eastern slope of the major coastal
+        range (Cascades, Rocky Mountains), thus comprising the coastal and intermontane
+        regions. The southern boundary of North America runs along the US/Mexican border.
+      "E N America": >-
+        Eastern North America. From the lower eastern slope of the Cascades and Rocky
+        Mountains to the Atlantic coast (thus comprising the Great Plains and eastern US
+        and Canada). The southern boundary runs along the US/Mexican border; perhaps this
+        boundary should eventually be placed at the northern limit of the Mesoamerican
+        cultural area.
+      "C America": >-
+        Central America. The southern boundary is the Panama Canal; the northern boundary
+        is the U.S.-Mexico border. Perhaps this boundary should eventually be placed at
+        the northern limit of the Mesoamerican cultural area.
+      "S America": >-
+        All of South America.
+  # -- end of Continent
+
+  Macrocontinent:
+    description: >-
+      Macrocontinent name
+    kind: manual data entry
+    data: value-list
+    values: 
+      "Africa": >-
+        Afrika
+      "Eurasia": >-
+        Eurasia
+      "Pacific": >-
+        Pacific
+      "Americas": >-
+        Americas
+  # -- end of Macrocontinent
+
+  Hemisphere:
+    description: >-
+      Hemisphere
+    kind: manual data entry
+    data: value-list
+    values: 
+      "OW": >-
+        OW
+      "NW": >-
+        NW
+  # -- end of Hemisphere
+
+  Description:
+    description: >-
+      A four-way geographical breakdown: Africa, Eurasia, Pacific, Americas
+    kind: manual data entry
+    data: comment
+  # -- end of Description

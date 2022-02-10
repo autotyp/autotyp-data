@@ -1,0 +1,1461 @@
+LID,Glottocode,Language,Macrorelation,LocusOfMarking,LocusOfMarkingBinned5,LocusOfMarkingBinned6
+1,grea1241,Great Andamanese,A,Ø,Ø,Ø
+1,grea1241,Great Andamanese,P,D,D,D
+1,grea1241,Great Andamanese,POSS,D,D,D
+1,grea1241,Great Andamanese,S,D,D,D
+6,ambu1247,Ambulas,A,H+D,2,2
+6,ambu1247,Ambulas,ATTR,Ø,Ø,Ø
+6,ambu1247,Ambulas,P,D,D,D
+6,ambu1247,Ambulas,POSS,D,D,D
+6,ambu1247,Ambulas,S,H+D,2,2
+7,abkh1244,Abkhaz,A,H,H,H
+7,abkh1244,Abkhaz,ATTR,F,FloatingorClitic,F
+7,abkh1244,Abkhaz,P,H,H,H
+7,abkh1244,Abkhaz,POSS,H,H,H
+7,abkh1244,Abkhaz,S,H,H,H
+9,achi1257,Acehnese,A,H,H,H
+9,achi1257,Acehnese,P,H,H,H
+9,achi1257,Acehnese,POSS,H,H,H
+10,west2632,Acoma,A,H,H,H
+10,west2632,Acoma,P,H,H,H
+10,west2632,Acoma,POSS,H,H,H
+10,west2632,Acoma,S,H,H,H
+12,ainu1240,Ainu,A,H,H,H
+12,ainu1240,Ainu,P,H,H,H
+12,ainu1240,Ainu,POSS,HH,H,H
+12,ainu1240,Ainu,S,h,H,H
+14,alam1246,Alamblak,A,H,H,H
+14,alam1246,Alamblak,ATTR,Ø,Ø,Ø
+14,alam1246,Alamblak,P,H,H,H
+14,alam1246,Alamblak,POSS,D,D,D
+14,alam1246,Alamblak,S,H,H,H
+18,aleu1260,Aleut,A,H+D,2,2
+18,aleu1260,Aleut,P,H+D,2,2
+18,aleu1260,Aleut,POSS,H+D,2,2
+18,aleu1260,Aleut,S,H+D,2,2
+20,amel1241,Amele,A,H,H,H
+20,amel1241,Amele,ATTR,Ø,Ø,Ø
+20,amel1241,Amele,P,h,H,H
+20,amel1241,Amele,POSS,D,D,D
+20,amel1241,Amele,S,H,H,H
+22,anem1249,Anêm,A,H,H,H
+22,anem1249,Anêm,P,H,H,H
+22,anem1249,Anêm,POSS,H,H,H
+22,anem1249,Anêm,S,H,H,H
+25,nucl1235,Armenian (Eastern),A,H+D,2,2
+25,nucl1235,Armenian (Eastern),ATTR,Ø,Ø,Ø
+25,nucl1235,Armenian (Eastern),P,D,D,D
+25,nucl1235,Armenian (Eastern),POSS,D,D,D
+25,nucl1235,Armenian (Eastern),S,H+D,2,2
+26,casu1237,Asmat,A,H,H,H
+26,casu1237,Asmat,ATTR,Ø,Ø,Ø
+26,casu1237,Asmat,P,H,H,H
+26,casu1237,Asmat,POSS,Ø,Ø,Ø
+26,casu1237,Asmat,S,H,H,H
+27,atak1252,Atakapa,A,H,H,H
+27,atak1252,Atakapa,P,H,H,H
+27,atak1252,Atakapa,POSS,Ø,Ø,Ø
+27,atak1252,Atakapa,S,H,H,H
+28,awtu1239,Awtuw,A,D,D,D
+28,awtu1239,Awtuw,P,D,D,D
+28,awtu1239,Awtuw,POSS,D,D,D
+28,awtu1239,Awtuw,S,D,D,D
+32,basq1248,Basque,A,H+D,2,2
+32,basq1248,Basque,ATTR,Ø,Ø,Ø
+32,basq1248,Basque,P,H+D,2,2
+32,basq1248,Basque,POSS,D,D,D
+32,basq1248,Basque,S,H+D,2,2
+33,bauz1241,Bauzi,A,Ø,Ø,Ø
+33,bauz1241,Bauzi,ATTR,Ø,Ø,Ø
+33,bauz1241,Bauzi,P,Ø,Ø,Ø
+33,bauz1241,Bauzi,POSS,D,D,D
+33,bauz1241,Bauzi,S,Ø,Ø,Ø
+34,beja1238,Beja,A,H+D,2,2
+34,beja1238,Beja,ATTR,D,D,D
+34,beja1238,Beja,P,D,D,D
+34,beja1238,Beja,POSS,DD,D,D
+34,beja1238,Beja,S,H+D,2,2
+35,belh1239,Belhare,A,H+D,2,2
+35,belh1239,Belhare,P,H+D,2,2
+35,belh1239,Belhare,POSS,h+D,D,2
+35,belh1239,Belhare,S,H+D,2,2
+39,buru1303,Buru,A,Ø,Ø,Ø
+39,buru1303,Buru,P,Ø,Ø,Ø
+39,buru1303,Buru,POSS,H,H,H
+39,buru1303,Buru,S,Ø,Ø,Ø
+40,buru1296,Burushaski,A,Hh+D,2,2
+40,buru1296,Burushaski,ATTR,D,D,D
+40,buru1296,Burushaski,P,Hh+D,2,2
+40,buru1296,Burushaski,POSS,h+D,D,2
+40,buru1296,Burushaski,S,Hh+D,2,2
+43,cane1242,Canela-Krahô,A,Ø,Ø,Ø
+43,cane1242,Canela-Krahô,ATTR,Ø,Ø,Ø
+43,cane1242,Canela-Krahô,P,H,H,H
+43,cane1242,Canela-Krahô,POSS,D,D,D
+43,cane1242,Canela-Krahô,S,H,H,H
+44,carn1240,Car,A,F,FloatingorClitic,F
+44,carn1240,Car,P,Ø,Ø,Ø
+44,carn1240,Car,POSS,Ø,Ø,Ø
+44,carn1240,Car,S,F,FloatingorClitic,F
+47,cayu1262,Cayuvava,A,H,H,H
+47,cayu1262,Cayuvava,ATTR,Ø,Ø,Ø
+47,cayu1262,Cayuvava,P,Ø,Ø,Ø
+47,cayu1262,Cayuvava,POSS,H,H,H
+47,cayu1262,Cayuvava,S,H,H,H
+48,cham1312,Chamorro,A,H,H,H
+48,cham1312,Chamorro,P,,,
+48,cham1312,Chamorro,POSS,H,H,H
+48,cham1312,Chamorro,S,hh+d,2,2
+50,chic1272,Chichimec,A,H,H,H
+50,chic1272,Chichimec,P,H,H,H
+50,chic1272,Chichimec,POSS,H,H,H
+50,chic1272,Chichimec,S,H,H,H
+53,chit1248,Chitimacha,A,H,H,H
+53,chit1248,Chitimacha,P,H,H,H
+53,chit1248,Chitimacha,POSS,Ø,Ø,Ø
+53,chit1248,Chitimacha,S,H,H,H
+55,high1242,Chontal (Highland),A,H,H,H
+55,high1242,Chontal (Highland),P,H,H,H
+55,high1242,Chontal (Highland),POSS,H,H,H
+55,high1242,Chontal (Highland),S,H,H,H
+56,chuk1273,Chukchi,A,H+D,2,2
+56,chuk1273,Chukchi,ATTR,D,D,D
+56,chuk1273,Chukchi,P,H+D,2,2
+56,chuk1273,Chukchi,POSS,Ø,Ø,Ø
+56,chuk1273,Chukchi,S,H+D,2,2
+59,plai1258,Cree (Plains),A,H,H,H
+59,plai1258,Cree (Plains),P,H,H,H
+59,plai1258,Cree (Plains),POSS,H,H,H
+59,plai1258,Cree (Plains),S,H,H,H
+61,lowe1415,Dani (Lower Grand Valley),A,H,H,H
+61,lowe1415,Dani (Lower Grand Valley),ATTR,,,
+61,lowe1415,Dani (Lower Grand Valley),P,H,H,H
+61,lowe1415,Dani (Lower Grand Valley),POSS,H,H,H
+61,lowe1415,Dani (Lower Grand Valley),S,H,H,H
+63,kumi1248,Diegueño,A,H+D,2,2
+63,kumi1248,Diegueño,ATTR,Ø,Ø,Ø
+63,kumi1248,Diegueño,P,H+D,2,2
+63,kumi1248,Diegueño,POSS,H,H,H
+63,kumi1248,Diegueño,S,H+D,2,2
+64,dier1241,Diyari,A,D,D,D
+64,dier1241,Diyari,ATTR,Ø,Ø,Ø
+64,dier1241,Diyari,P,D,D,D
+64,dier1241,Diyari,POSS,D,D,D
+64,dier1241,Diyari,S,D,D,D
+65,dizi1235,Dizi,A,H+D,2,2
+65,dizi1235,Dizi,P,D,D,D
+65,dizi1235,Dizi,POSS,H+D,2,2
+65,dizi1235,Dizi,S,H+D,2,2
+66,dhuw1249,Djapu,A,D,D,D
+66,dhuw1249,Djapu,ATTR,D,D,D
+66,dhuw1249,Djapu,P,D,D,D
+66,dhuw1249,Djapu,POSS,D,D,D
+66,dhuw1249,Djapu,S,D,D,D
+68,djin1251,Djingili,A,H+D,2,2
+68,djin1251,Djingili,ATTR,D,D,D
+68,djin1251,Djingili,P,H+D,2,2
+68,djin1251,Djingili,POSS,H+D,2,2
+68,djin1251,Djingili,S,H+D,2,2
+69,nubi1251,Nubian (Dongolese),A,H+D,2,2
+69,nubi1251,Nubian (Dongolese),P,D,D,D
+69,nubi1251,Nubian (Dongolese),POSS,D,D,D
+69,nubi1251,Nubian (Dongolese),S,H+D,2,2
+71,dyir1250,Dyirbal,A,D,D,D
+71,dyir1250,Dyirbal,P,D,D,D
+71,dyir1250,Dyirbal,POSS,D,D,D
+71,dyir1250,Dyirbal,S,D,D,D
+72,east2545,Pomo (Eastern),A,D,D,D
+72,east2545,Pomo (Eastern),ATTR,Ø,Ø,Ø
+72,east2545,Pomo (Eastern),P,D,D,D
+72,east2545,Pomo (Eastern),POSS,D,D,D
+72,east2545,Pomo (Eastern),S,h+D,D,2
+74,stan1293,English,A,H+d,H,2
+74,stan1293,English,P,d,D,D
+74,stan1293,English,POSS,D,D,D
+74,stan1293,English,S,H+d,H,2
+75,ewee1241,Ewe,A,Ø,Ø,Ø
+75,ewee1241,Ewe,ATTR,Ø,Ø,Ø
+75,ewee1241,Ewe,P,Ø,Ø,Ø
+75,ewee1241,Ewe,POSS,D,D,D
+75,ewee1241,Ewe,S,Ø,Ø,Ø
+77,fiji1243,Fijian (Boumaa),A,H,H,H
+77,fiji1243,Fijian (Boumaa),ATTR,Ø,Ø,Ø
+77,fiji1243,Fijian (Boumaa),P,H,H,H
+77,fiji1243,Fijian (Boumaa),POSS,H,H,H
+77,fiji1243,Fijian (Boumaa),S,H,H,H
+78,finn1318,Finnish,A,H+D,2,2
+78,finn1318,Finnish,ATTR,D,D,D
+78,finn1318,Finnish,P,D,D,D
+78,finn1318,Finnish,POSS,h+D,D,2
+78,finn1318,Finnish,S,H+D,2,2
+79,stan1290,French (colloquial),A,H,H,H
+79,stan1290,French (colloquial),ATTR,d,D,D
+79,stan1290,French (colloquial),P,d on h,FloatingorClitic,D on H
+79,stan1290,French (colloquial),POSS,D,D,D
+79,stan1290,French (colloquial),S,H,H,H
+80,adam1253,Fula,A,Ø,Ø,Ø
+80,adam1253,Fula,P,Ø,Ø,Ø
+80,adam1253,Fula,POSS,Ø,Ø,Ø
+80,adam1253,Fula,S,Ø,Ø,Ø
+81,furr1244,Fur,A,H+D,2,2
+81,furr1244,Fur,P,D,D,D
+81,furr1244,Fur,POSS,D,D,D
+81,furr1244,Fur,S,H+D,2,2
+84,gara1269,Garrwa,A,D,D,D
+84,gara1269,Garrwa,ATTR,D,D,D
+84,gara1269,Garrwa,P,D,D,D
+84,gara1269,Garrwa,POSS,D,D,D
+84,gara1269,Garrwa,S,D,D,D
+86,nucl1302,Georgian,A,H+D,2,2
+86,nucl1302,Georgian,ATTR,D,D,D
+86,nucl1302,Georgian,P,H+D,2,2
+86,nucl1302,Georgian,POSS,D,D,D
+86,nucl1302,Georgian,S,H+D,2,2
+87,stan1295,German,A,H+D,2,2
+87,stan1295,German,ATTR,D,D,D
+87,stan1295,German,P,D,D,D
+87,stan1295,German,POSS,Dd,D,D
+87,stan1295,German,S,H+D,2,2
+89,para1311,Guaraní (Paraguayan),A,H,H,H
+89,para1311,Guaraní (Paraguayan),ATTR,Ø,Ø,Ø
+89,para1311,Guaraní (Paraguayan),P,H,H,H
+89,para1311,Guaraní (Paraguayan),POSS,h,H,H
+89,para1311,Guaraní (Paraguayan),S,H,H,H
+91,gumu1244,Gumuz,A,H,H,H
+91,gumu1244,Gumuz,P,D,D,D
+91,gumu1244,Gumuz,POSS,Ø,Ø,Ø
+91,gumu1244,Gumuz,S,H,H,H
+92,puel1244,Gününa-Küne,A,H,H,H
+92,puel1244,Gününa-Küne,P,Ø,Ø,Ø
+92,puel1244,Gününa-Küne,POSS,H,H,H
+92,puel1244,Gününa-Küne,S,H,H,H
+93,gunw1252,Gunwinggu,A,H,H,H
+93,gunw1252,Gunwinggu,ATTR,D,D,D
+93,gunw1252,Gunwinggu,P,H,H,H
+93,gunw1252,Gunwinggu,POSS,D,D,D
+93,gunw1252,Gunwinggu,S,H,H,H
+95,sout2956,Haida,A,Ø,Ø,Ø
+95,sout2956,Haida,P,Ø,Ø,Ø
+95,sout2956,Haida,POSS,H,H,H
+95,sout2956,Haida,S,Ø,Ø,Ø
+98,haus1257,Hausa,A,H,H,H
+98,haus1257,Hausa,ATTR,DD,D,D
+98,haus1257,Hausa,P,H+d,H,2
+98,haus1257,Hausa,POSS,DD,D,D
+98,haus1257,Hausa,S,H,H,H
+99,hind1269,Hindi,A,h+D,D,2
+99,hind1269,Hindi,ATTR,d,D,D
+99,hind1269,Hindi,P,h+D,D,2
+99,hind1269,Hindi,POSS,DD,D,D
+99,hind1269,Hindi,S,H+D,2,2
+101,hixk1239,Hixkaryana,A,H,H,H
+101,hixk1239,Hixkaryana,ATTR,Ø,Ø,Ø
+101,hixk1239,Hixkaryana,P,H,H,H
+101,hixk1239,Hixkaryana,POSS,H,H,H
+101,hixk1239,Hixkaryana,S,H,H,H
+103,yaga1260,Hua,A,H+D,2,2
+103,yaga1260,Hua,P,H+D,2,2
+103,yaga1260,Hua,POSS,H+D,2,2
+103,yaga1260,Hua,S,H+D,2,2
+104,hual1241,Quechua (Huallaga),A,H+D,2,2
+104,hual1241,Quechua (Huallaga),P,H+D,2,2
+104,hual1241,Quechua (Huallaga),POSS,H+D,2,2
+104,hual1241,Quechua (Huallaga),S,H+D,2,2
+106,sand1278,Huave,A,H,H,H
+106,sand1278,Huave,ATTR,Ø,Ø,Ø
+106,sand1278,Huave,P,h,H,H
+106,sand1278,Huave,POSS,H,H,H
+106,sand1278,Huave,S,H,H,H
+107,hung1274,Hungarian,A,H+D,2,2
+107,hung1274,Hungarian,P,h+D,D,2
+107,hung1274,Hungarian,POSS,H,H,H
+107,hung1274,Hungarian,S,H+D,2,2
+109,iauu1242,Iau,A,Ø,Ø,Ø
+109,iauu1242,Iau,P,Ø,Ø,Ø
+109,iauu1242,Iau,POSS,H,H,H
+109,iauu1242,Iau,S,Ø,Ø,Ø
+110,icel1247,Icelandic,A,H+D,2,2
+110,icel1247,Icelandic,P,D,D,D
+110,icel1247,Icelandic,POSS,D,D,D
+110,icel1247,Icelandic,S,H+D,2,2
+111,ikkk1242,Ik,A,H+D,2,2
+111,ikkk1242,Ik,P,D,D,D
+111,ikkk1242,Ik,POSS,D,D,D
+111,ikkk1242,Ik,S,H+D,2,2
+112,imon1245,Imonda,A,H,H,H
+112,imon1245,Imonda,ATTR,d,D,D
+112,imon1245,Imonda,P,H+d,H,2
+112,imon1245,Imonda,POSS,h+D,D,2
+112,imon1245,Imonda,S,H,H,H
+113,ines1240,Ineseño,A,H,H,H
+113,ines1240,Ineseño,P,H,H,H
+113,ines1240,Ineseño,POSS,H,H,H
+113,ines1240,Ineseño,S,H,H,H
+114,ingu1240,Ingush,A,D,D,D
+114,ingu1240,Ingush,P,h+D,D,2
+114,ingu1240,Ingush,S,h+D,D,2
+116,itel1242,Itelmen,A,H+D,2,2
+116,itel1242,Itelmen,P,H+D,2,2
+118,nucl1643,Japanese,A,D,D,D
+118,nucl1643,Japanese,ATTR,Ø,Ø,Ø
+118,nucl1643,Japanese,P,D,D,D
+118,nucl1643,Japanese,POSS,D,D,D
+118,nucl1643,Japanese,S,D,D,D
+119,jaqa1244,Jaqaru,A,H+D,2,2
+119,jaqa1244,Jaqaru,P,H+D,2,2
+119,jaqa1244,Jaqaru,POSS,H+D,2,2
+119,jaqa1244,Jaqaru,S,H+D,2,2
+123,kanu1279,Kanuri,A,H+D,2,2
+123,kanu1279,Kanuri,P,H+d,H,2
+123,kanu1279,Kanuri,POSS,D,D,D
+123,kanu1279,Kanuri,S,H+D,2,2
+125,karo1304,Karok,A,H,H,H
+125,karo1304,Karok,ATTR,,,
+125,karo1304,Karok,P,H,H,H
+125,karo1304,Karok,POSS,H,H,H
+125,karo1304,Karok,S,H,H,H
+126,kate1253,Kâte,A,H+D,2,2
+126,kate1253,Kâte,P,H+D,2,2
+126,kate1253,Kâte,POSS,H,H,H
+126,kate1253,Kâte,S,H+D,2,2
+128,kaya1319,Kayardild,A,D,D,D
+128,kaya1319,Kayardild,ATTR,D,D,D
+128,kaya1319,Kayardild,P,D,D,D
+128,kaya1319,Kayardild,POSS,Dd,D,D
+128,kaya1319,Kayardild,S,D,D,D
+129,kett1243,Ket,A,H,H,H
+129,kett1243,Ket,ATTR,Ø,Ø,Ø
+129,kett1243,Ket,P,H,H,H
+129,kett1243,Ket,POSS,H,H,H
+129,kett1243,Ket,S,H,H,H
+130,west2599,Kewa,A,H+D,2,2
+130,west2599,Kewa,ATTR,Ø,Ø,Ø
+130,west2599,Kewa,P,D,D,D
+130,west2599,Kewa,POSS,D,D,D
+130,west2599,Kewa,S,H+D,2,2
+131,kima1246,Kimaama,A,Ø,Ø,Ø
+131,kima1246,Kimaama,ATTR,Ø,Ø,Ø
+131,kima1246,Kimaama,P,H,H,H
+131,kima1246,Kimaama,POSS,D,D,D
+131,kima1246,Kimaama,S,Ø,Ø,Ø
+132,kiow1266,Kiowa,A,H,H,H
+132,kiow1266,Kiowa,ATTR,Ø,Ø,Ø
+132,kiow1266,Kiowa,P,H,H,H
+132,kiow1266,Kiowa,POSS,d on h,FloatingorClitic,D on H
+132,kiow1266,Kiowa,S,H,H,H
+133,kiri1256,Kirikiri,A,D,D,D
+133,kiri1256,Kirikiri,ATTR,Ø,Ø,Ø
+133,kiri1256,Kirikiri,P,D,D,D
+133,kiri1256,Kirikiri,POSS,Ø,Ø,Ø
+133,kiri1256,Kirikiri,S,Ø,Ø,Ø
+134,nort2930,Kiwai,A,H,H,H
+134,nort2930,Kiwai,ATTR,Ø,Ø,Ø
+134,nort2930,Kiwai,P,H,H,H
+134,nort2930,Kiwai,POSS,Ø,Ø,Ø
+134,nort2930,Kiwai,S,H,H,H
+135,koas1236,Koasati,A,H+D,2,2
+135,koas1236,Koasati,ATTR,Ø,Ø,Ø
+135,koas1236,Koasati,P,H+D,2,2
+135,koas1236,Koasati,POSS,H,H,H
+135,koas1236,Koasati,S,H+D,2,2
+136,kobo1249,Kobon,A,H,H,H
+136,kobo1249,Kobon,ATTR,Ø,Ø,Ø
+136,kobo1249,Kobon,P,Ø,Ø,Ø
+136,kobo1249,Kobon,POSS,Ø,Ø,Ø
+136,kobo1249,Kobon,S,H,H,H
+138,komb1274,Kombai,A,H,H,H
+138,komb1274,Kombai,ATTR,Ø,Ø,Ø
+138,komb1274,Kombai,P,Ø,Ø,Ø
+138,komb1274,Kombai,POSS,D,D,D
+138,komb1274,Kombai,S,H,H,H
+141,kore1280,Korean,A,D,D,D
+141,kore1280,Korean,ATTR,Ø,Ø,Ø
+141,kore1280,Korean,P,D,D,D
+141,kore1280,Korean,POSS,D,D,D
+141,kore1280,Korean,S,D,D,D
+146,kuii1253,Kui (Indonesia),A,Ø,Ø,Ø
+146,kuii1253,Kui (Indonesia),ATTR,Ø,Ø,Ø
+146,kuii1253,Kui (Indonesia),P,H,H,H
+146,kuii1253,Kui (Indonesia),POSS,H,H,H
+146,kuii1253,Kui (Indonesia),S,Ø,Ø,Ø
+147,kuna1268,Kunama,A,H+D,2,2
+147,kuna1268,Kunama,P,D,D,D
+147,kuna1268,Kunama,POSS,DD,D,D
+147,kuna1268,Kunama,S,H+D,2,2
+148,kung1261,!Kung,A,Ø,Ø,Ø
+148,kung1261,!Kung,P,Ø,Ø,Ø
+148,kung1261,!Kung,POSS,Ø,Ø,Ø
+148,kung1261,!Kung,S,Ø,Ø,Ø
+149,goon1238,Kuniyanti,A,H+D,2,2
+149,goon1238,Kuniyanti,ATTR,Ø,Ø,Ø
+149,goon1238,Kuniyanti,P,H+D,2,2
+149,goon1238,Kuniyanti,POSS,D,D,D
+149,goon1238,Kuniyanti,S,H+D,2,2
+150,kute1249,Kutenai,A,H,H,H
+150,kute1249,Kutenai,ATTR,D,D,D
+150,kute1249,Kutenai,P,H+d,H,2
+150,kute1249,Kutenai,POSS,H,H,H
+150,kute1249,Kutenai,S,H,H,H
+154,haka1240,Hakka Lai,A,H+D,2,2
+154,haka1240,Hakka Lai,P,H+D,2,2
+154,haka1240,Hakka Lai,POSS,Ø,Ø,Ø
+154,haka1240,Hakka Lai,S,H+D,2,2
+156,lako1247,Lakhota,A,H,H,H
+156,lako1247,Lakhota,ATTR,Ø,Ø,Ø
+156,lako1247,Lakhota,P,H,H,H
+156,lako1247,Lakhota,POSS,H,H,H
+156,lako1247,Lakhota,S,H,H,H
+157,lama1277,Lamaholot,A,Ø,Ø,Ø
+157,lama1277,Lamaholot,ATTR,Ø,Ø,Ø
+157,lama1277,Lamaholot,P,Ø,Ø,Ø
+157,lama1277,Lamaholot,POSS,Ø,Ø,Ø
+157,lama1277,Lamaholot,S,Ø,Ø,Ø
+159,lang1324,Lango,A,H,H,H
+159,lang1324,Lango,ATTR,H+D,2,2
+159,lang1324,Lango,P,h,H,H
+159,lang1324,Lango,POSS,H,H,H
+159,lang1324,Lango,S,H,H,H
+162,lezg1247,Lezgi,A,D,D,D
+162,lezg1247,Lezgi,P,D,D,D
+162,lezg1247,Lezgi,POSS,D,D,D
+162,lezg1247,Lezgi,S,D,D,D
+163,lugb1240,Logbara,A,D,D,D
+163,lugb1240,Logbara,ATTR,DD,D,D
+163,lugb1240,Logbara,P,Ø,Ø,Ø
+163,lugb1240,Logbara,POSS,D,D,D
+163,lugb1240,Logbara,S,D,D,D
+165,gand1255,Luganda,A,H,H,H
+165,gand1255,Luganda,ATTR,D,D,D
+165,gand1255,Luganda,P,H,H,H
+165,gand1255,Luganda,POSS,DD,D,D
+165,gand1255,Luganda,S,H,H,H
+167,masa1300,Maa,A,H+D,2,2
+167,masa1300,Maa,ATTR,D,D,D
+167,masa1300,Maa,P,h+D,D,2
+167,masa1300,Maa,POSS,H+D,2,2
+167,masa1300,Maa,S,H+D,2,2
+168,nort2952,Maidu (Northeast),A,H+D,2,2
+168,nort2952,Maidu (Northeast),P,D,D,D
+168,nort2952,Maidu (Northeast),POSS,D,D,D
+168,nort2952,Maidu (Northeast),S,H+D,2,2
+169,mait1250,Maithili,A,H+D,2,2
+169,mait1250,Maithili,P,D,D,D
+169,mait1250,Maithili,S,H+D,2,2
+170,mull1237,Malak-Malak,A,F+d,FloatingorClitic,2
+170,mull1237,Malak-Malak,P,F,FloatingorClitic,F
+170,mull1237,Malak-Malak,POSS,D,D,D
+170,mull1237,Malak-Malak,S,F+d,FloatingorClitic,2
+171,mand1415,Mandarin,A,Ø,Ø,Ø
+171,mand1415,Mandarin,ATTR,Ø,Ø,Ø
+171,mand1415,Mandarin,P,d,D,D
+171,mand1415,Mandarin,POSS,d,D,D
+171,mand1415,Mandarin,S,Ø,Ø,Ø
+173,mang1381,Mangarayi,A,H+D,2,2
+173,mang1381,Mangarayi,ATTR,D,D,D
+173,mang1381,Mangarayi,P,H+D,2,2
+173,mang1381,Mangarayi,POSS,H+D,2,2
+173,mang1381,Mangarayi,S,H+D,2,2
+175,maor1246,Maori,A,Ø,Ø,Ø
+175,maor1246,Maori,P,D,D,D
+175,maor1246,Maori,POSS,DD,D,D
+175,maor1246,Maori,S,Ø,Ø,Ø
+176,mapu1245,Mapudungun,A,H,H,H
+176,mapu1245,Mapudungun,ATTR,Ø,Ø,Ø
+176,mapu1245,Mapudungun,P,,,
+176,mapu1245,Mapudungun,POSS,H,H,H
+176,mapu1245,Mapudungun,S,H,H,H
+177,marg1265,Margi,A,Ø,Ø,Ø
+177,marg1265,Margi,ATTR,Ø,Ø,Ø
+177,marg1265,Margi,P,Ø,Ø,Ø
+177,marg1265,Margi,POSS,D,D,D
+177,marg1265,Margi,S,Ø,Ø,Ø
+178,mari1424,Marrithiyel,A,H+d,H,2
+178,mari1424,Marrithiyel,P,H,H,H
+178,mari1424,Marrithiyel,POSS,H,H,H
+178,mari1424,Marrithiyel,S,H+d,H,2
+179,mart1255,Martuthunira,A,D,D,D
+179,mart1255,Martuthunira,P,D,D,D
+179,mart1255,Martuthunira,POSS,D,D,D
+179,mart1255,Martuthunira,S,D,D,D
+180,wich1263,Mataco,A,H,H,H
+180,wich1263,Mataco,ATTR,F,FloatingorClitic,F
+180,wich1263,Mataco,P,H,H,H
+180,wich1263,Mataco,POSS,H,H,H
+180,wich1263,Mataco,S,H,H,H
+181,maun1240,Mawng,A,H,H,H
+181,maun1240,Mawng,P,H,H,H
+181,maun1240,Mawng,POSS,Ø,Ø,Ø
+181,maun1240,Mawng,S,H,H,H
+184,misk1235,Miskito,A,H,H,H
+184,misk1235,Miskito,P,Ø,Ø,Ø
+184,misk1235,Miskito,POSS,H,H,H
+184,misk1235,Miskito,S,H,H,H
+186,sanm1295,Mixtec (Chalcatongo),A,H,H,H
+186,sanm1295,Mixtec (Chalcatongo),ATTR,Ø,Ø,Ø
+186,sanm1295,Mixtec (Chalcatongo),P,Ø,Ø,Ø
+186,sanm1295,Mixtec (Chalcatongo),POSS,Ø,Ø,Ø
+186,sanm1295,Mixtec (Chalcatongo),S,H,H,H
+188,halh1238,Mongolian (Khalkha),A,D,D,D
+188,halh1238,Mongolian (Khalkha),ATTR,D,D,D
+188,halh1238,Mongolian (Khalkha),P,D,D,D
+188,halh1238,Mongolian (Khalkha),POSS,D,D,D
+188,halh1238,Mongolian (Khalkha),S,D,D,D
+191,siwa1245,Motuna,A,H+D,2,2
+191,siwa1245,Motuna,P,H+D,2,2
+191,siwa1245,Motuna,POSS,D,D,D
+191,siwa1245,Motuna,S,H+D,2,2
+192,movi1243,Movima,A,H,H,H
+192,movi1243,Movima,P,H,H,H
+192,movi1243,Movima,S,H,H,H
+193,east2379,Mparntwe Arrernte,A,H+D,2,2
+193,east2379,Mparntwe Arrernte,P,D,D,D
+193,east2379,Mparntwe Arrernte,POSS,D,D,D
+193,east2379,Mparntwe Arrernte,S,H+D,2,2
+196,murr1258,Murrinh-patha,A,H+d,H,2
+196,murr1258,Murrinh-patha,P,H+d,H,2
+196,murr1258,Murrinh-patha,POSS,Ø,Ø,Ø
+196,murr1258,Murrinh-patha,S,H+d,H,2
+197,naha1261,Nahali,A,H+D,2,2
+197,naha1261,Nahali,P,D,D,D
+197,naha1261,Nahali,POSS,D,D,D
+197,naha1261,Nahali,S,H+D,2,2
+198,naka1260,Nakkara,A,H,H,H
+198,naka1260,Nakkara,P,H,H,H
+198,naka1260,Nakkara,POSS,H/D,2,
+198,naka1260,Nakkara,S,H,H,H
+199,nama1264,Nama,A,Ø,Ø,Ø
+199,nama1264,Nama,ATTR,Ø,Ø,Ø
+199,nama1264,Nama,P,D,D,D
+199,nama1264,Nama,POSS,d,D,D
+199,nama1264,Nama,S,Ø,Ø,Ø
+200,sout2994,Nambikwara,A,H,H,H
+200,sout2994,Nambikwara,ATTR,F,FloatingorClitic,F
+200,sout2994,Nambikwara,P,H,H,H
+200,sout2994,Nambikwara,POSS,H,H,H
+200,sout2994,Nambikwara,S,H,H,H
+201,nana1257,Nanai,A,H+D,2,2
+201,nana1257,Nanai,ATTR,Ø,Ø,Ø
+201,nana1257,Nanai,P,D,D,D
+201,nana1257,Nanai,POSS,H,H,H
+201,nana1257,Nanai,S,H+D,2,2
+202,natc1249,Natchez,A,H,H,H
+202,natc1249,Natchez,P,H,H,H
+202,natc1249,Natchez,POSS,H,H,H
+202,natc1249,Natchez,S,H,H,H
+205,nene1249,Nenets (Tundra),A,H+D,2,2
+205,nene1249,Nenets (Tundra),ATTR,D,D,D
+205,nene1249,Nenets (Tundra),P,h+D,D,2
+205,nene1249,Nenets (Tundra),POSS,D,D,D
+205,nene1249,Nenets (Tundra),S,H+D,2,2
+206,nepa1254,Nepali,A,H+D,2,2
+206,nepa1254,Nepali,P,D,D,D
+206,nepa1254,Nepali,POSS,D,D,D
+206,nepa1254,Nepali,S,H+D,2,2
+207,nara1262,Nera,A,H+D,2,2
+207,nara1262,Nera,P,D,D,D
+207,nara1262,Nera,POSS,Ø,Ø,Ø
+207,nara1262,Nera,S,H+D,2,2
+208,nezp1238,Nez Perce,A,H+D,2,2
+208,nezp1238,Nez Perce,P,H+D,2,2
+208,nezp1238,Nez Perce,POSS,D,D,D
+208,nezp1238,Nez Perce,S,H+D,2,2
+210,wang1291,Ngiyambaa,A,D on H,FloatingorClitic,D on H
+210,wang1291,Ngiyambaa,ATTR,D,D,D
+210,wang1291,Ngiyambaa,P,D on H,FloatingorClitic,D on H
+210,wang1291,Ngiyambaa,POSS,D,D,D
+210,wang1291,Ngiyambaa,S,D,D,D
+211,ngka1235,Ngkalmpw Knwme,A,H+D,2,2
+211,ngka1235,Ngkalmpw Knwme,ATTR,Ø,Ø,Ø
+211,ngka1235,Ngkalmpw Knwme,P,H+D,2,2
+211,ngka1235,Ngkalmpw Knwme,POSS,D,D,D
+211,ngka1235,Ngkalmpw Knwme,S,H+D,2,2
+221,diga1241,Mishmi,A,H,H,H
+221,diga1241,Mishmi,ATTR,Ø,Ø,Ø
+221,diga1241,Mishmi,P,Ø,Ø,Ø
+221,diga1241,Mishmi,POSS,Ø,Ø,Ø
+221,diga1241,Mishmi,S,H,H,H
+225,lahu1253,Lahu,A,D,D,D
+225,lahu1253,Lahu,ATTR,D,D,D
+225,lahu1253,Lahu,P,D,D,D
+225,lahu1253,Lahu,POSS,D,D,D
+225,lahu1253,Lahu,S,D,D,D
+232,usar1243,Usarufa,A,H,H,H
+232,usar1243,Usarufa,ATTR,Ø,Ø,Ø
+232,usar1243,Usarufa,P,Ø,Ø,Ø
+232,usar1243,Usarufa,POSS,D,D,D
+232,usar1243,Usarufa,S,H,H,H
+299,nand1266,Nandi,A,H+D,2,2
+299,nand1266,Nandi,ATTR,D,D,D
+299,nand1266,Nandi,P,H+D,2,2
+299,nand1266,Nandi,POSS,D on H,FloatingorClitic,D on H
+299,nand1266,Nandi,S,H+D,2,2
+305,izon1238,Ijo,A,Ø,Ø,Ø
+305,izon1238,Ijo,P,Ø,Ø,Ø
+305,izon1238,Ijo,POSS,Ø,Ø,Ø
+305,izon1238,Ijo,S,Ø,Ø,Ø
+317,nuuc1236,Nuuchahnulth,A,H,H,H
+317,nuuc1236,Nuuchahnulth,P,Ø,Ø,Ø
+317,nuuc1236,Nuuchahnulth,POSS,H,H,H
+317,nuuc1236,Nuuchahnulth,S,H,H,H
+318,nung1290,Nunggubuyu,A,H+D,2,2
+318,nung1290,Nunggubuyu,ATTR,D,D,D
+318,nung1290,Nunggubuyu,P,H+D,2,2
+318,nung1290,Nunggubuyu,POSS,D,D,D
+318,nung1290,Nunggubuyu,S,H+D,2,2
+319,nyig1240,Nyigina,A,H+D,2,2
+319,nyig1240,Nyigina,P,H+D,2,2
+319,nyig1240,Nyigina,POSS,D,D,D
+319,nyig1240,Nyigina,S,H+D,2,2
+323,tega1236,Orig,A,H,H,H
+323,tega1236,Orig,ATTR,D,D,D
+323,tega1236,Orig,P,Ø,Ø,Ø
+323,tega1236,Orig,POSS,D,D,D
+323,tega1236,Orig,S,H,H,H
+324,east2652,Oromo,A,H+D,2,2
+324,east2652,Oromo,ATTR,D,D,D
+324,east2652,Oromo,P,Ø,Ø,Ø
+324,east2652,Oromo,POSS,F,FloatingorClitic,F
+324,east2652,Oromo,S,H+D,2,2
+325,osse1243,Ossetic,A,H+D,2,2
+325,osse1243,Ossetic,P,H+D,2,2
+325,osse1243,Ossetic,POSS,D,D,D
+325,osse1243,Ossetic,S,H+D,2,2
+326,paez1247,Paez,A,H+D,2,2
+326,paez1247,Paez,P,D,D,D
+326,paez1247,Paez,POSS,H,H,H
+326,paez1247,Paez,S,H+D,2,2
+327,paiw1248,Paiwan,A,H+D,2,2
+327,paiw1248,Paiwan,ATTR,,,
+327,paiw1248,Paiwan,P,H+D,2,2
+327,paiw1248,Paiwan,POSS,h+D,D,2
+327,paiw1248,Paiwan,S,H+D,2,2
+329,paum1247,Paumarí,A,H+D,2,2
+329,paum1247,Paumarí,P,H+D,2,2
+329,paum1247,Paumarí,POSS,H,H,H
+329,paum1247,Paumarí,S,H+D,2,2
+331,pawn1254,Pawnee,A,H,H,H
+331,pawn1254,Pawnee,P,H,H,H
+331,pawn1254,Pawnee,POSS,H,H,H
+331,pawn1254,Pawnee,S,H,H,H
+332,pipi1250,Pipil,A,H,H,H
+332,pipi1250,Pipil,P,H,H,H
+332,pipi1250,Pipil,POSS,H,H,H
+332,pipi1250,Pipil,S,H,H,H
+333,pira1253,Pirahã,A,Ø,Ø,Ø
+333,pira1253,Pirahã,ATTR,Ø,Ø,Ø
+333,pira1253,Pirahã,P,Ø,Ø,Ø
+333,pira1253,Pirahã,POSS,Ø,Ø,Ø
+333,pira1253,Pirahã,S,Ø,Ø,Ø
+337,kich1262,Quiche,A,H,H,H
+337,kich1262,Quiche,P,H,H,H
+337,kich1262,Quiche,S,H,H,H
+338,quil1240,Quileute,A,H+D,2,2
+338,quil1240,Quileute,P,H+D,2,2
+338,quil1240,Quileute,POSS,H,H,H
+338,quil1240,Quileute,S,H+D,2,2
+340,russ1263,Russian,A,H+D,2,2
+340,russ1263,Russian,P,D,D,D
+340,russ1263,Russian,S,H+D,2,2
+343,sahu1245,Sahu,A,H,H,H
+343,sahu1245,Sahu,ATTR,Ø,Ø,Ø
+343,sahu1245,Sahu,P,H,H,H
+343,sahu1245,Sahu,POSS,H,H,H
+343,sahu1245,Sahu,S,H,H,H
+345,salt1242,Salt-Yui,A,H,H,H
+345,salt1242,Salt-Yui,ATTR,Ø,Ø,Ø
+345,salt1242,Salt-Yui,P,Ø,Ø,Ø
+345,salt1242,Salt-Yui,POSS,Ø,Ø,Ø
+345,salt1242,Salt-Yui,S,H,H,H
+347,sand1273,Sandawe,A,H,H,H
+347,sand1273,Sandawe,P,Ø,Ø,Ø
+347,sand1273,Sandawe,POSS,Ø,Ø,Ø
+347,sand1273,Sandawe,S,H,H,H
+348,sanu1240,Sanuma,A,h+D,D,2
+348,sanu1240,Sanuma,ATTR,Ø,Ø,Ø
+348,sanu1240,Sanuma,P,h,H,H
+348,sanu1240,Sanuma,POSS,D,D,D
+348,sanu1240,Sanuma,S,Ø,Ø,Ø
+350,nucl1632,Sentani,A,H,H,H
+350,nucl1632,Sentani,ATTR,Ø,Ø,Ø
+350,nucl1632,Sentani,P,H,H,H
+350,nucl1632,Sentani,POSS,Ø,Ø,Ø
+350,nucl1632,Sentani,S,H,H,H
+352,shua1257,Shuar,A,H+D,2,2
+352,shua1257,Shuar,P,H+D,2,2
+352,shua1257,Shuar,POSS,H+D,2,2
+352,shua1257,Shuar,S,H+D,2,2
+354,nort2942,Slave,A,H,H,H
+354,nort2942,Slave,ATTR,Ø,Ø,Ø
+354,nort2942,Slave,P,H,H,H
+354,nort2942,Slave,POSS,hh,H,H
+354,nort2942,Slave,S,H,H,H
+356,sout2985,Miwok (Southern Sierra),A,H+D,2,2
+356,sout2985,Miwok (Southern Sierra),ATTR,D,D,D
+356,sout2985,Miwok (Southern Sierra),P,H+D,2,2
+356,sout2985,Miwok (Southern Sierra),POSS,H+D,2,2
+356,sout2985,Miwok (Southern Sierra),S,H+D,2,2
+357,squa1248,Squamish,A,H+D,2,2
+357,squa1248,Squamish,ATTR,Ø,Ø,Ø
+357,squa1248,Squamish,P,H+D,2,2
+357,squa1248,Squamish,POSS,H,H,H
+357,squa1248,Squamish,S,H+D,2,2
+358,suen1241,Suena,A,H,H,H
+358,suen1241,Suena,ATTR,Ø,Ø,Ø
+358,suen1241,Suena,P,Ø,Ø,Ø
+358,suen1241,Suena,POSS,D,D,D
+358,suen1241,Suena,S,H,H,H
+359,sulk1246,Sulka,A,H,H,H
+359,sulk1246,Sulka,ATTR,D,D,D
+359,sulk1246,Sulka,P,Ø,Ø,Ø
+359,sulk1246,Sulka,POSS,H,H,H
+359,sulk1246,Sulka,S,H,H,H
+361,swah1253,Swahili,A,H,H,H
+361,swah1253,Swahili,ATTR,D,D,D
+361,swah1253,Swahili,P,H,H,H
+361,swah1253,Swahili,POSS,DD,D,D
+361,swah1253,Swahili,S,H,H,H
+362,taga1270,Tagalog,A,H+D,2,2
+362,taga1270,Tagalog,ATTR,F,FloatingorClitic,F
+362,taga1270,Tagalog,P,H+D,2,2
+362,taga1270,Tagalog,POSS,F,FloatingorClitic,F
+362,taga1270,Tagalog,S,H+D,2,2
+362,taga1270,Tagalog,,H+D,2,2
+363,take1257,Takelma,A,H,H,H
+363,take1257,Takelma,P,H,H,H
+363,take1257,Takelma,POSS,H,H,H
+363,take1257,Takelma,S,H,H,H
+364,kula1280,Tanglapui,A,H,H,H
+364,kula1280,Tanglapui,ATTR,Ø,Ø,Ø
+364,kula1280,Tanglapui,P,H,H,H
+364,kula1280,Tanglapui,POSS,H,H,H
+364,kula1280,Tanglapui,S,H,H,H
+365,pure1242,Tarascan,A,H+D,2,2
+365,pure1242,Tarascan,ATTR,D,D,D
+365,pure1242,Tarascan,P,D,D,D
+365,pure1242,Tarascan,POSS,D,D,D
+365,pure1242,Tarascan,S,H+D,2,2
+367,tauy1241,Tauya,A,H+D,2,2
+367,tauy1241,Tauya,P,H+D,2,2
+367,tauy1241,Tauya,POSS,D,D,D
+367,tauy1241,Tauya,S,H+D,2,2
+368,tawa1275,Tawala,A,H,H,H
+368,tawa1275,Tawala,P,H,H,H
+368,tawa1275,Tawala,POSS,H,H,H
+368,tawa1275,Tawala,S,H,H,H
+369,tehi1237,Tehit,A,H,H,H
+369,tehi1237,Tehit,P,Ø,Ø,Ø
+369,tehi1237,Tehit,POSS,H,H,H
+369,tehi1237,Tehit,S,H,H,H
+370,tele1256,Telefol,A,H,H,H
+370,tele1256,Telefol,ATTR,Ø,Ø,Ø
+370,tele1256,Telefol,P,h,H,H
+370,tele1256,Telefol,POSS,H,H,H
+370,tele1256,Telefol,S,H,H,H
+373,tera1251,Tera,A,Ø,Ø,Ø
+373,tera1251,Tera,ATTR,Ø,Ø,Ø
+373,tera1251,Tera,P,Ø,Ø,Ø
+373,tera1251,Tera,POSS,D,D,D
+373,tera1251,Tera,S,Ø,Ø,Ø
+374,thai1261,Thai,A,Ø,Ø,Ø
+374,thai1261,Thai,ATTR,Ø,Ø,Ø
+374,thai1261,Thai,P,Ø,Ø,Ø
+374,thai1261,Thai,POSS,D,D,D
+374,thai1261,Thai,S,Ø,Ø,Ø
+375,tibe1272,Tibetan (Standard Spoken),A,D,D,D
+375,tibe1272,Tibetan (Standard Spoken),ATTR,Ø,Ø,Ø
+375,tibe1272,Tibetan (Standard Spoken),P,D,D,D
+375,tibe1272,Tibetan (Standard Spoken),POSS,D,D,D
+375,tibe1272,Tibetan (Standard Spoken),S,h+D,D,2
+377,timu1245,Timucua,A,H,H,H
+377,timu1245,Timucua,P,H,H,H
+377,timu1245,Timucua,POSS,H,H,H
+377,timu1245,Timucua,S,H,H,H
+378,tiwi1244,Tiwi,A,H,H,H
+378,tiwi1244,Tiwi,P,H,H,H
+378,tiwi1244,Tiwi,POSS,Ø,Ø,Ø
+378,tiwi1244,Tiwi,S,H,H,H
+379,tlin1245,Tlingit,A,H,H,H
+379,tlin1245,Tlingit,P,H,H,H
+379,tlin1245,Tlingit,POSS,H,H,H
+379,tlin1245,Tlingit,S,H,H,H
+382,tonk1249,Tonkawa,A,H+D,2,2
+382,tonk1249,Tonkawa,P,H+D,2,2
+382,tonk1249,Tonkawa,POSS,D,D,D
+382,tonk1249,Tonkawa,S,H+D,2,2
+383,trum1247,Trumaí,A,D,D,D
+383,trum1247,Trumaí,ATTR,Ø,Ø,Ø
+383,trum1247,Trumaí,P,D,D,D
+383,trum1247,Trumaí,POSS,D,D,D
+383,trum1247,Trumaí,S,D,D,D
+384,tuka1249,Tukang Besi,A,Hh+D,2,2
+384,tuka1249,Tukang Besi,ATTR,Ø,Ø,Ø
+384,tuka1249,Tukang Besi,P,D on H,FloatingorClitic,D on H
+384,tuka1249,Tukang Besi,POSS,D on H,FloatingorClitic,D on H
+384,tuka1249,Tukang Besi,S,Hh+D,2,2
+385,shos1248,Tümpisa Shoshone,A,D,D,D
+385,shos1248,Tümpisa Shoshone,P,D,D,D
+385,shos1248,Tümpisa Shoshone,POSS,D,D,D
+385,shos1248,Tümpisa Shoshone,S,D,D,D
+386,tuni1252,Tunica,A,H,H,H
+386,tuni1252,Tunica,P,H,H,H
+386,tuni1252,Tunica,POSS,H,H,H
+386,tuni1252,Tunica,S,H,H,H
+387,tuvi1240,Tuva,A,H+D,2,2
+387,tuvi1240,Tuva,ATTR,Ø,Ø,Ø
+387,tuvi1240,Tuva,P,D,D,D
+387,tuvi1240,Tuva,POSS,H+D,2,2
+387,tuvi1240,Tuva,S,H+D,2,2
+388,tzut1248,Tzutujil,A,H,H,H
+388,tzut1248,Tzutujil,ATTR,Ø,Ø,Ø
+388,tzut1248,Tzutujil,P,H,H,H
+388,tzut1248,Tzutujil,POSS,H,H,H
+388,tzut1248,Tzutujil,S,H,H,H
+390,ngar1284,Ungarinjin,A,H,H,H
+390,ngar1284,Ungarinjin,P,H,H,H
+390,ngar1284,Ungarinjin,POSS,D,D,D
+390,ngar1284,Ungarinjin,S,H,H,H
+391,urad1238,Uradhi,A,D,D,D
+391,urad1238,Uradhi,P,D,D,D
+391,urad1238,Uradhi,POSS,DD,D,D
+391,urad1238,Uradhi,S,D,D,D
+393,usan1239,Usan,A,H,H,H
+393,usan1239,Usan,ATTR,Ø,Ø,Ø
+393,usan1239,Usan,P,h,H,H
+393,usan1239,Usan,POSS,H,H,H
+393,usan1239,Usan,S,H,H,H
+395,vani1248,Vanimo,A,H,H,H
+395,vani1248,Vanimo,ATTR,Ø,Ø,Ø
+395,vani1248,Vanimo,P,Ø,Ø,Ø
+395,vani1248,Vanimo,POSS,H,H,H
+395,vani1248,Vanimo,S,H,H,H
+397,waor1240,Waorani,A,H,H,H
+397,waor1240,Waorani,P,Ø,Ø,Ø
+397,waor1240,Waorani,POSS,Ø,Ø,Ø
+397,waor1240,Waorani,S,H,H,H
+398,wapp1239,Wappo,A,D,D,D
+398,wapp1239,Wappo,P,D,D,D
+398,wapp1239,Wappo,POSS,D,D,D
+398,wapp1239,Wappo,S,D,D,D
+399,wara1303,Warao,A,d,D,D
+399,wara1303,Warao,P,d,D,D
+399,wara1303,Warao,POSS,H/D,2,
+399,wara1303,Warao,S,d,D,D
+400,wara1290,Waray,A,H+D,2,2
+400,wara1290,Waray,P,H+D,2,2
+400,wara1290,Waray,POSS,D,D,D
+400,wara1290,Waray,S,H+D,2,2
+401,ward1246,Wardaman,A,H+D,2,2
+401,ward1246,Wardaman,P,H+D,2,2
+401,ward1246,Wardaman,POSS,D,D,D
+401,ward1246,Wardaman,S,H+D,2,2
+402,ware1253,Warembori,A,H,H,H
+402,ware1253,Warembori,ATTR,H,H,H
+402,ware1253,Warembori,P,h,H,H
+402,ware1253,Warembori,POSS,H,H,H
+402,ware1253,Warembori,S,H,H,H
+404,warl1254,Warlpiri,A,H+D,2,2
+404,warl1254,Warlpiri,P,H+D,2,2
+404,warl1254,Warlpiri,POSS,D,D,D
+404,warl1254,Warlpiri,S,H+D,2,2
+405,wand1263,Warndarang,A,H,H,H
+405,wand1263,Warndarang,P,H,H,H
+405,wand1263,Warndarang,POSS,H,H,H
+405,wand1263,Warndarang,S,H,H,H
+406,wash1253,Washo,A,H,H,H
+406,wash1253,Washo,P,H,H,H
+406,wash1253,Washo,POSS,H,H,H
+406,wash1253,Washo,S,H,H,H
+407,wask1241,Waskia,A,H+d,H,2
+407,wask1241,Waskia,ATTR,Ø,Ø,Ø
+407,wask1241,Waskia,P,H+d,H,2
+407,wask1241,Waskia,POSS,H,H,H
+407,wask1241,Waskia,S,H+d,H,2
+408,west2443,Wemba Wemba,A,F+D,2,2
+408,west2443,Wemba Wemba,P,F+D,2,2
+408,west2443,Wemba Wemba,POSS,H+D,2,2
+408,west2443,Wemba Wemba,S,F+D,2,2
+409,wint1259,Wintu,A,H+D,2,2
+409,wint1259,Wintu,P,F+D,2,2
+409,wint1259,Wintu,POSS,D,D,D
+409,wint1259,Wintu,S,H+D,2,2
+411,wasc1239,Wishram,A,H,H,H
+411,wasc1239,Wishram,ATTR,,,
+411,wasc1239,Wishram,P,H,H,H
+411,wasc1239,Wishram,POSS,H,H,H
+411,wasc1239,Wishram,S,H,H,H
+413,khin1240,Xinalug,A,D,D,D
+413,khin1240,Xinalug,ATTR,D,D,D
+413,khin1240,Xinalug,P,H+D,2,2
+413,khin1240,Xinalug,POSS,D,D,D
+413,khin1240,Xinalug,S,H+D,2,2
+414,yagu1244,Yagua,A,H,H,H
+414,yagu1244,Yagua,ATTR,Ø,Ø,Ø
+414,yagu1244,Yagua,P,f,FloatingorClitic,F
+414,yagu1244,Yagua,POSS,H,H,H
+414,yagu1244,Yagua,S,H,H,H
+415,nini1235,retire_Yali,A,H,H,H
+415,nini1235,retire_Yali,P,H,H,H
+415,nini1235,retire_Yali,POSS,H,H,H
+415,nini1235,retire_Yali,S,H,H,H
+416,yank1247,Yankunytjara,A,D,D,D
+416,yank1247,Yankunytjara,P,D,D,D
+416,yank1247,Yankunytjara,POSS,D,D,D
+416,yank1247,Yankunytjara,S,D,D,D
+418,yoku1256,Yokuts (Yawelmani),A,D,D,D
+418,yoku1256,Yokuts (Yawelmani),ATTR,D,D,D
+418,yoku1256,Yokuts (Yawelmani),P,D,D,D
+418,yoku1256,Yokuts (Yawelmani),POSS,D,D,D
+418,yoku1256,Yokuts (Yawelmani),S,D,D,D
+419,yess1239,Yessan-Mayo,A,Ø,Ø,Ø
+419,yess1239,Yessan-Mayo,P,Ø,Ø,Ø
+419,yess1239,Yessan-Mayo,POSS,H,H,H
+419,yess1239,Yessan-Mayo,S,Ø,Ø,Ø
+420,yima1243,Yimas,A,H,H,H
+420,yima1243,Yimas,P,H,H,H
+420,yima1243,Yimas,POSS,D,D,D
+420,yima1243,Yimas,S,H,H,H
+421,yoru1245,Yoruba,A,Ø,Ø,Ø
+421,yoru1245,Yoruba,P,H+D,2,2
+421,yoru1245,Yoruba,POSS,H,H,H
+421,yoru1245,Yoruba,S,Ø,Ø,Ø
+422,yuch1247,Yuchi,A,H,H,H
+422,yuch1247,Yuchi,P,H,H,H
+422,yuch1247,Yuchi,POSS,H,H,H
+422,yuch1247,Yuchi,S,H,H,H
+423,nort2745,Yukagir (Tundra),A,H+D,2,2
+423,nort2745,Yukagir (Tundra),P,D,D,D
+423,nort2745,Yukagir (Tundra),POSS,Ø,Ø,Ø
+423,nort2745,Yukagir (Tundra),S,H+D,2,2
+428,yuro1248,Yurok,A,H,H,H
+428,yuro1248,Yurok,ATTR,,,
+428,yuro1248,Yurok,P,H,H,H
+428,yuro1248,Yurok,POSS,H,H,H
+428,yuro1248,Yurok,S,H,H,H
+429,zuni1245,Zuni,A,H,H,H
+429,zuni1245,Zuni,P,H+D,2,2
+429,zuni1245,Zuni,POSS,H,H,H
+429,zuni1245,Zuni,S,H,H,H
+432,coos1249,Hanis (Coos),A,H+D,2,2
+432,coos1249,Hanis (Coos),P,H,H,H
+432,coos1249,Hanis (Coos),POSS,H,H,H
+432,coos1249,Hanis (Coos),S,H,H,H
+433,gily1242,Nivkh,A,Ø,Ø,Ø
+433,gily1242,Nivkh,ATTR,H,H,H
+433,gily1242,Nivkh,P,HH,H,H
+433,gily1242,Nivkh,POSS,H,H,H
+433,gily1242,Nivkh,S,H,H,H
+438,maib1239,Maybrat,A,H,H,H
+438,maib1239,Maybrat,P,P,,
+438,maib1239,Maybrat,POSS,D,D,D
+438,maib1239,Maybrat,S,H,H,H
+442,sius1254,Siuslaw (Lower Umpqua),A,H+D,2,2
+442,sius1254,Siuslaw (Lower Umpqua),P,H+D,2,2
+442,sius1254,Siuslaw (Lower Umpqua),POSS,D,D,D
+442,sius1254,Siuslaw (Lower Umpqua),S,H+D,2,2
+443,koyr1240,Songhai (Koyra Chiini),A,d,D,D
+443,koyr1240,Songhai (Koyra Chiini),ATTR,Ø,Ø,Ø
+443,koyr1240,Songhai (Koyra Chiini),P,d,D,D
+443,koyr1240,Songhai (Koyra Chiini),POSS,d,D,D
+443,koyr1240,Songhai (Koyra Chiini),S,d,D,D
+454,rama1270,Rama,A,H,H,H
+454,rama1270,Rama,ATTR,Ø,Ø,Ø
+454,rama1270,Rama,P,h+d,2,2
+454,rama1270,Rama,POSS,H/D/DH,2,
+454,rama1270,Rama,S,H,H,H
+455,cent2127,Yup’ik (Central),A,H+D,2,2
+455,cent2127,Yup’ik (Central),P,H+D,2,2
+455,cent2127,Yup’ik (Central),POSS,D,D,D
+455,cent2127,Yup’ik (Central),S,H+D,2,2
+456,west2369,Persian,A,H+D,2,2
+456,west2369,Persian,ATTR,H,H,H
+456,west2369,Persian,P,H+D,2,2
+456,west2369,Persian,POSS,H,H,H
+456,west2369,Persian,S,H+D,2,2
+460,popt1235,Jacaltec,A,H,H,H
+460,popt1235,Jacaltec,ATTR,Ø,Ø,Ø
+460,popt1235,Jacaltec,P,H,H,H
+460,popt1235,Jacaltec,POSS,H,H,H
+460,popt1235,Jacaltec,S,H,H,H
+461,onei1249,Oneida,A,H,H,H
+461,onei1249,Oneida,P,H,H,H
+461,onei1249,Oneida,POSS,H,H,H
+461,onei1249,Oneida,S,H,H,H
+463,nucl1310,Burmese,A,d,D,D
+463,nucl1310,Burmese,ATTR,Ø,Ø,Ø
+463,nucl1310,Burmese,P,d,D,D
+463,nucl1310,Burmese,POSS,d,D,D
+463,nucl1310,Burmese,S,d,D,D
+464,mode1248,Greek (modern),A,H+D,2,2
+464,mode1248,Greek (modern),ATTR,D,D,D
+464,mode1248,Greek (modern),P,h+D,D,2
+464,mode1248,Greek (modern),POSS,h+D,D,2
+464,mode1248,Greek (modern),S,H+D,2,2
+465,mari1440,Maricopa,A,H+D,2,2
+465,mari1440,Maricopa,ATTR,Ø,Ø,Ø
+465,mari1440,Maricopa,P,H+D,2,2
+465,mari1440,Maricopa,POSS,H,H,H
+465,mari1440,Maricopa,S,H+D,2,2
+466,sang1328,Sango,A,h,H,H
+466,sang1328,Sango,ATTR,Ø,Ø,Ø
+466,sang1328,Sango,P,Ø,Ø,Ø
+466,sang1328,Sango,POSS,D,D,D
+466,sang1328,Sango,S,h,H,H
+469,awac1239,Awa Pit,A,h+D,D,2
+469,awac1239,Awa Pit,ATTR,Ø,Ø,Ø
+469,awac1239,Awa Pit,P,h+D,D,2
+469,awac1239,Awa Pit,POSS,d,D,D
+469,awac1239,Awa Pit,S,h+D,D,2
+481,svan1243,Svan,A,H+D,2,2
+481,svan1243,Svan,P,H+D,2,2
+481,svan1243,Svan,POSS,D,D,D
+481,svan1243,Svan,S,H+D,2,2
+491,mala1537,Malagasy,A,H+F,H,H
+491,mala1537,Malagasy,ATTR,Ø,Ø,Ø
+491,mala1537,Malagasy,P,d,D,D
+491,mala1537,Malagasy,POSS,f,FloatingorClitic,F
+491,mala1537,Malagasy,S,H+F,H,H
+492,copa1236,Zoque (Copainalá),A,H+D,2,2
+492,copa1236,Zoque (Copainalá),ATTR,D,D,D
+492,copa1236,Zoque (Copainalá),P,H+D,2,2
+492,copa1236,Zoque (Copainalá),POSS,H+D,2,2
+492,copa1236,Zoque (Copainalá),S,H+D,2,2
+493,bara1380,Barasano,A,H,H,H
+493,bara1380,Barasano,ATTR,D,D,D
+493,bara1380,Barasano,P,H+D,2,2
+493,bara1380,Barasano,POSS,H,H,H
+493,bara1380,Barasano,S,H,H,H
+494,viet1252,Vietnamese,A,Ø,Ø,Ø
+494,viet1252,Vietnamese,ATTR,Ø,Ø,Ø
+494,viet1252,Vietnamese,P,Ø,Ø,Ø
+494,viet1252,Vietnamese,POSS,Ø,Ø,Ø
+494,viet1252,Vietnamese,S,Ø,Ø,Ø
+495,kron1241,Krongo,A,H,H,H
+495,kron1241,Krongo,ATTR,D,D,D
+495,kron1241,Krongo,P,P,,
+495,kron1241,Krongo,POSS,D,D,D
+495,kron1241,Krongo,S,H,H,H
+496,indo1316,Indonesian,A,Ø,Ø,Ø
+496,indo1316,Indonesian,ATTR,Ø,Ø,Ø
+496,indo1316,Indonesian,P,Ø,Ø,Ø
+496,indo1316,Indonesian,POSS,Ø,Ø,Ø
+496,indo1316,Indonesian,S,Ø,Ø,Ø
+497,supy1237,Supyire,A,Ø,Ø,Ø
+497,supy1237,Supyire,ATTR,D,D,D
+497,supy1237,Supyire,P,Ø,Ø,Ø
+497,supy1237,Supyire,POSS,H,H,H
+497,supy1237,Supyire,S,Ø,Ø,Ø
+498,mezq1235,Otomi (Mezquital),A,H,H,H
+498,mezq1235,Otomi (Mezquital),ATTR,Ø,Ø,Ø
+498,mezq1235,Otomi (Mezquital),P,H,H,H
+498,mezq1235,Otomi (Mezquital),POSS,H,H,H
+498,mezq1235,Otomi (Mezquital),S,H,H,H
+499,buki1249,Bukiyip,A,H,H,H
+499,buki1249,Bukiyip,P,H,H,H
+499,buki1249,Bukiyip,POSS,DD,D,D
+499,buki1249,Bukiyip,S,H,H,H
+500,hmon1264,Hmong Njua,A,Ø,Ø,Ø
+500,hmon1264,Hmong Njua,P,Ø,Ø,Ø
+500,hmon1264,Hmong Njua,POSS,d,D,D
+500,hmon1264,Hmong Njua,S,Ø,Ø,Ø
+501,mani1292,Meithei,A,d,D,D
+501,mani1292,Meithei,ATTR,D,D,D
+501,mani1292,Meithei,P,d,D,D
+501,mani1292,Meithei,POSS,D,D,D
+501,mani1292,Meithei,S,d,D,D
+502,nucl1301,Turkish,A,H+D,2,2
+502,nucl1301,Turkish,ATTR,Ø,Ø,Ø
+502,nucl1301,Turkish,P,d,D,D
+502,nucl1301,Turkish,POSS,H+d,H,2
+502,nucl1301,Turkish,S,H+D,2,2
+503,yaqu1251,Yaqui,A,h+d,2,2
+503,yaqu1251,Yaqui,ATTR,D,D,D
+503,yaqu1251,Yaqui,P,h+d,2,2
+503,yaqu1251,Yaqui,POSS,h+D,D,2
+503,yaqu1251,Yaqui,S,hh+d,2,2
+504,greb1256,Grebo,A,d,D,D
+504,greb1256,Grebo,ATTR,d,D,D
+504,greb1256,Grebo,P,d,D,D
+504,greb1256,Grebo,POSS,D,D,D
+504,greb1256,Grebo,S,d,D,D
+505,daga1275,Daga,A,H,H,H
+505,daga1275,Daga,ATTR,Ø,Ø,Ø
+505,daga1275,Daga,P,H,H,H
+505,daga1275,Daga,POSS,H,H,H
+505,daga1275,Daga,S,H,H,H
+511,kala1399,Greenlandic Eskimo (West),A,H+D,2,2
+511,kala1399,Greenlandic Eskimo (West),P,H+D,2,2
+511,kala1399,Greenlandic Eskimo (West),POSS,H+D,2,2
+511,kala1399,Greenlandic Eskimo (West),S,H+D,2,2
+512,apur1254,Apurina,A,H,H,H
+512,apur1254,Apurina,P,H,H,H
+512,apur1254,Apurina,POSS,h,H,H
+512,apur1254,Apurina,S,H,H,H
+514,cent2142,Aymara,A,H+D,2,2
+514,cent2142,Aymara,ATTR,Ø,Ø,Ø
+514,cent2142,Aymara,P,H+D,2,2
+514,cent2142,Aymara,POSS,H+D,2,2
+514,cent2142,Aymara,S,H+D,2,2
+515,bagi1246,Bagirmi,A,H,H,H
+515,bagi1246,Bagirmi,P,d on h,FloatingorClitic,D on H
+515,bagi1246,Bagirmi,POSS,Ø,Ø,Ø
+515,bagi1246,Bagirmi,S,H,H,H
+518,brah1256,Brahui,A,H+D,2,2
+518,brah1256,Brahui,ATTR,D,D,D
+518,brah1256,Brahui,P,D,D,D
+518,brah1256,Brahui,POSS,D,D,D
+518,brah1256,Brahui,S,H+D,2,2
+519,brib1243,Bribri,A,D,D,D
+519,brib1243,Bribri,ATTR,Ø,Ø,Ø
+519,brib1243,Bribri,P,Ø,Ø,Ø
+519,brib1243,Bribri,S,Ø,Ø,Ø
+525,ekar1243,Ekari,A,H,H,H
+525,ekar1243,Ekari,P,H,H,H
+525,ekar1243,Ekari,POSS,Ø,Ø,Ø
+525,ekar1243,Ekari,S,H,H,H
+526,epen1239,Epena Pedee,A,D,D,D
+526,epen1239,Epena Pedee,ATTR,Ø,Ø,Ø
+526,epen1239,Epena Pedee,P,D,D,D
+526,epen1239,Epena Pedee,POSS,Ø,Ø,Ø
+526,epen1239,Epena Pedee,S,D,D,D
+527,even1259,Evenki,A,H+D,2,2
+527,even1259,Evenki,ATTR,D,D,D
+527,even1259,Evenki,P,D,D,D
+527,even1259,Evenki,POSS,H+D,2,2
+527,even1259,Evenki,S,H+D,2,2
+528,garo1247,Garo,A,D,D,D
+528,garo1247,Garo,ATTR,Ø,Ø,Ø
+528,garo1247,Garo,P,D,D,D
+528,garo1247,Garo,POSS,D,D,D
+528,garo1247,Garo,S,D,D,D
+530,hunz1247,Hunzib,A,D,D,D
+530,hunz1247,Hunzib,ATTR,D,D,D
+530,hunz1247,Hunzib,P,H+D,2,2
+530,hunz1247,Hunzib,POSS,D,D,D
+530,hunz1247,Hunzib,S,H+D,2,2
+532,arhu1242,Ika,A,H+d,H,2
+532,arhu1242,Ika,ATTR,Ø,Ø,Ø
+532,arhu1242,Ika,P,Ø,Ø,Ø
+532,arhu1242,Ika,POSS,D,D,D
+532,arhu1242,Ika,S,H,H,H
+533,imba1240,Quechua (Imbabura),A,H+D,2,2
+533,imba1240,Quechua (Imbabura),ATTR,Ø,Ø,Ø
+533,imba1240,Quechua (Imbabura),P,D,D,D
+533,imba1240,Quechua (Imbabura),POSS,D,D,D
+533,imba1240,Quechua (Imbabura),S,H+D,2,2
+535,nucl1305,Kannada,A,H+D,2,2
+535,nucl1305,Kannada,ATTR,Ø,Ø,Ø
+535,nucl1305,Kannada,P,D,D,D
+535,nucl1305,Kannada,POSS,D,D,D
+535,nucl1305,Kannada,S,H+D,2,2
+540,khas1269,Khasi,A,H,H,H
+540,khas1269,Khasi,ATTR,D,D,D
+540,khas1269,Khasi,P,D,D,D
+540,khas1269,Khasi,POSS,D,D,D
+540,khas1269,Khasi,S,H,H,H
+550,lavu1241,Lavukaleve,A,H,H,H
+550,lavu1241,Lavukaleve,ATTR,D,D,D
+550,lavu1241,Lavukaleve,P,H,H,H
+550,lavu1241,Lavukaleve,POSS,H,H,H
+550,lavu1241,Lavukaleve,S,H,H,H
+553,luva1239,Luvale,A,H,H,H
+553,luva1239,Luvale,ATTR,D,D,D
+553,luva1239,Luvale,P,h,H,H
+553,luva1239,Luvale,POSS,D,D,D
+553,luva1239,Luvale,S,H,H,H
+555,maka1318,Makah,A,H,H,H
+555,maka1318,Makah,P,H,H,H
+555,maka1318,Makah,POSS,H,H,H
+555,maka1318,Makah,S,H,H,H
+558,mund1320,Mundari,A,H+D,2,2
+558,mund1320,Mundari,P,H+D,2,2
+558,mund1320,Mundari,POSS,D,D,D
+558,mund1320,Mundari,S,H+D,2,2
+564,rapa1244,Rapanui,A,d,D,D
+564,rapa1244,Rapanui,ATTR,Ø,Ø,Ø
+564,rapa1244,Rapanui,P,h+d,2,2
+564,rapa1244,Rapanui,POSS,D,D,D
+564,rapa1244,Rapanui,S,h+d,2,2
+566,seme1247,Semelai,A,H+D,2,2
+566,seme1247,Semelai,P,d,D,D
+566,seme1247,Semelai,POSS,Ø,Ø,Ø
+566,seme1247,Semelai,S,Ø,Ø,Ø
+567,ship1254,Shipibo-Konibo,A,h+D,D,2
+567,ship1254,Shipibo-Konibo,P,D,D,D
+567,ship1254,Shipibo-Konibo,POSS,D,D,D
+567,ship1254,Shipibo-Konibo,S,h+D,D,2
+568,sout2982,Pomo (Southeastern),A,D,D,D
+568,sout2982,Pomo (Southeastern),ATTR,,,
+568,sout2982,Pomo (Southeastern),P,D,D,D
+568,sout2982,Pomo (Southeastern),POSS,D,D,D
+568,sout2982,Pomo (Southeastern),S,D,D,D
+569,stan1288,Spanish,A,H+d,H,2
+569,stan1288,Spanish,ATTR,d,D,D
+569,stan1288,Spanish,P,h+d,2,2
+569,stan1288,Spanish,POSS,Dd,D,D
+569,stan1288,Spanish,S,H+d,H,2
+571,cent2194,Tamazight (Ayt Ndhir),A,H+D,2,2
+571,cent2194,Tamazight (Ayt Ndhir),P,D,D,D
+571,cent2194,Tamazight (Ayt Ndhir),POSS,D,D,D
+571,cent2194,Tamazight (Ayt Ndhir),S,H+D,2,2
+576,wari1268,Wari,A,H,H,H
+576,wari1268,Wari,ATTR,H’,H,H
+576,wari1268,Wari,P,H,H,H
+576,wari1268,Wari,POSS,H,H,H
+576,wari1268,Wari,S,H,H,H
+577,wich1260,Wichita,A,H,H,H
+577,wich1260,Wichita,ATTR,,,
+577,wich1260,Wichita,P,H,H,H
+577,wich1260,Wichita,POSS,HH,H,H
+577,wich1260,Wichita,S,H,H,H
+580,yidi1250,Yidiny,A,D,D,D
+580,yidi1250,Yidiny,P,D,D,D
+580,yidi1250,Yidiny,POSS,D,D,D
+580,yidi1250,Yidiny,S,D,D,D
+581,zulu1248,Zulu,A,H,H,H
+581,zulu1248,Zulu,ATTR,D,D,D
+581,zulu1248,Zulu,P,H,H,H
+581,zulu1248,Zulu,POSS,DD,D,D
+581,zulu1248,Zulu,S,H,H,H
+583,hebr1245,Hebrew (Modern),A,H,H,H
+583,hebr1245,Hebrew (Modern),ATTR,D,D,D
+583,hebr1245,Hebrew (Modern),P,D on H,FloatingorClitic,D on H
+583,hebr1245,Hebrew (Modern),POSS,D,D,D
+583,hebr1245,Hebrew (Modern),S,H,H,H
+595,nort2699,Kolami,A,H+D,2,2
+595,nort2699,Kolami,P,D,D,D
+595,nort2699,Kolami,POSS,D,D,D
+595,nort2699,Kolami,S,H+D,2,2
+599,chay1248,Chayahuita,A,H+D,2,2
+599,chay1248,Chayahuita,P,H+D,2,2
+599,chay1248,Chayahuita,POSS,Ø,Ø,Ø
+599,chay1248,Chayahuita,S,H,H,H
+606,naro1249,Nharo,POSS,D,D,D
+608,mari1278,Mari,A,H+D,2,2
+608,mari1278,Mari,ATTR,Ø,Ø,Ø
+608,mari1278,Mari,P,D,D,D
+608,mari1278,Mari,POSS,H+D,2,2
+608,mari1278,Mari,S,H+D,2,2
+629,chan1310,Chantyal,A,D,D,D
+629,chan1310,Chantyal,P,d,D,D
+629,chan1310,Chantyal,S,D,D,D
+632,wayu1241,Hayu,A,D,D,D
+632,wayu1241,Hayu,P,H+D,2,2
+632,wayu1241,Hayu,POSS,H+D,2,2
+632,wayu1241,Hayu,S,H+D,2,2
+634,saur1249,Malto,A,H+D,2,2
+634,saur1249,Malto,ATTR,Ø,Ø,Ø
+634,saur1249,Malto,P,D,D,D
+634,saur1249,Malto,POSS,D,D,D
+634,saur1249,Malto,S,H+D,2,2
+635,sant1410,Santali,A,H,H,H
+635,sant1410,Santali,ATTR,Ø,Ø,Ø
+635,sant1410,Santali,P,H,H,H
+635,sant1410,Santali,POSS,D,D,D
+635,sant1410,Santali,S,H,H,H
+642,egyp1253,Arabic (Egyptian),A,H,H,H
+642,egyp1253,Arabic (Egyptian),P,Ø,Ø,Ø
+642,egyp1253,Arabic (Egyptian),POSS,Ø,Ø,Ø
+642,egyp1253,Arabic (Egyptian),S,H,H,H
+643,sout2778,Kisi,A,P,,
+643,sout2778,Kisi,ATTR,D,D,D
+643,sout2778,Kisi,P,P,,
+643,sout2778,Kisi,POSS,D,D,D
+643,sout2778,Kisi,S,P,,
+644,kari1255,Kiriri (Kipea),A,H+D,2,2
+644,kari1255,Kiriri (Kipea),P,D,D,D
+644,kari1255,Kiriri (Kipea),POSS,H+D,2,2
+644,kari1255,Kiriri (Kipea),S,H,H,H
+645,hata1243,Hatam,A,H,H,H
+645,hata1243,Hatam,P,Ø,Ø,Ø
+645,hata1243,Hatam,POSS,H,H,H
+645,hata1243,Hatam,S,H,H,H
+646,xokl1240,Xokleng,A,H+D,2,2
+646,xokl1240,Xokleng,P,D,D,D
+646,xokl1240,Xokleng,POSS,H,H,H
+646,xokl1240,Xokleng,S,H+D,2,2
+648,boro1282,Bororo,A,F,FloatingorClitic,F
+648,boro1282,Bororo,P,H,H,H
+648,boro1282,Bororo,POSS,H,H,H
+648,boro1282,Bororo,S,H,H,H
+649,jeri1242,Jeli,A,Ø,Ø,Ø
+649,jeri1242,Jeli,P,Ø,Ø,Ø
+649,jeri1242,Jeli,POSS,D,D,D
+649,jeri1242,Jeli,S,Ø,Ø,Ø
+654,nisg1240,Nisgha,A,H,H,H
+654,nisg1240,Nisgha,P,H,H,H
+654,nisg1240,Nisgha,POSS,H,H,H
+654,nisg1240,Nisgha,S,H,H,H
+656,koro1312,Korowai,A,H,H,H
+656,koro1312,Korowai,ATTR,Ø,Ø,Ø
+656,koro1312,Korowai,P,Ø,Ø,Ø
+656,koro1312,Korowai,POSS,Ø,Ø,Ø
+656,koro1312,Korowai,S,H,H,H
+660,band1339,Bandjalang,A,D,D,D
+660,band1339,Bandjalang,ATTR,Ø,Ø,Ø
+660,band1339,Bandjalang,P,D,D,D
+660,band1339,Bandjalang,POSS,D,D,D
+660,band1339,Bandjalang,S,D,D,D
+662,apat1240,Apatani,A,D,D,D
+662,apat1240,Apatani,P,D,D,D
+662,apat1240,Apatani,S,D,D,D
+663,drun1238,Drung,A,h+D,D,2
+663,drun1238,Drung,P,h+D,D,2
+667,thul1246,Thulung (Mukli),A,H+D,2,2
+667,thul1246,Thulung (Mukli),ATTR,Ø,Ø,Ø
+667,thul1246,Thulung (Mukli),P,H+D,2,2
+667,thul1246,Thulung (Mukli),POSS,D,D,D
+667,thul1246,Thulung (Mukli),S,H+D,2,2
+668,yecu1235,Totonac (Misantla),A,H,H,H
+668,yecu1235,Totonac (Misantla),ATTR,Ø,Ø,Ø
+668,yecu1235,Totonac (Misantla),P,H,H,H
+668,yecu1235,Totonac (Misantla),POSS,H,H,H
+668,yecu1235,Totonac (Misantla),S,H,H,H
+669,gras1249,Koiari,A,H,H,H
+669,gras1249,Koiari,ATTR,Ø,Ø,Ø
+669,gras1249,Koiari,P,H,H,H
+669,gras1249,Koiari,POSS,H,H,H
+669,gras1249,Koiari,S,H,H,H
+685,klam1254,Klamath,A,D,D,D
+685,klam1254,Klamath,P,D,D,D
+685,klam1254,Klamath,POSS,D,D,D
+685,klam1254,Klamath,S,D,D,D
+686,daha1245,Dahalo,A,H+D,2,2
+686,daha1245,Dahalo,P,D,D,D
+686,daha1245,Dahalo,POSS,D,D,D
+686,daha1245,Dahalo,S,H+D,2,2
+687,hopi1249,Hopi,A,D,D,D
+687,hopi1249,Hopi,P,H+D,2,2
+687,hopi1249,Hopi,POSS,H+D,2,2
+687,hopi1249,Hopi,S,H+D,2,2
+692,nucl1327,Limilngan,A,H,H,H
+692,nucl1327,Limilngan,ATTR,D,D,D
+692,nucl1327,Limilngan,P,H,H,H
+692,nucl1327,Limilngan,POSS,Ø,Ø,Ø
+692,nucl1327,Limilngan,S,H,H,H
+722,nort2722,Qiang (Northern),A,h+d,2,2
+722,nort2722,Qiang (Northern),P,h+d,2,2
+722,nort2722,Qiang (Northern),S,h,H,H
+885,yane1238,Amuesha,A,H,H,H
+885,yane1238,Amuesha,P,H,H,H
+885,yane1238,Amuesha,POSS,H,H,H
+885,yane1238,Amuesha,S,H,H,H
+917,arch1244,Archi,A,D,D,D
+917,arch1244,Archi,P,H+D,2,2
+917,arch1244,Archi,POSS,D,D,D
+917,arch1244,Archi,S,H+D,2,2
+942,avar1256,Avar,A,D,D,D
+942,avar1256,Avar,P,H+D,2,2
+942,avar1256,Avar,POSS,D,D,D
+942,avar1256,Avar,S,H+D,2,2
+1108,cadd1256,Caddo,A,H,H,H
+1108,cadd1256,Caddo,P,H,H,H
+1108,cadd1256,Caddo,POSS,HH,H,H
+1108,cadd1256,Caddo,S,H,H,H
+1527,mali1284,Mali,A,H,H,H
+1527,mali1284,Mali,ATTR,D,D,D
+1527,mali1284,Mali,P,H,H,H
+1527,mali1284,Mali,POSS,D on H,FloatingorClitic,D on H
+1527,mali1284,Mali,S,H,H,H
+1542,hinu1240,Hinuq,A,D,D,D
+1542,hinu1240,Hinuq,P,H+D,2,2
+1542,hinu1240,Hinuq,POSS,D,D,D
+1542,hinu1240,Hinuq,S,H+D,2,2
+1621,hupa1239,Hupa,A,H,H,H
+1621,hupa1239,Hupa,P,H,H,H
+1621,hupa1239,Hupa,POSS,H,H,H
+1621,hupa1239,Hupa,S,H,H,H
+1623,halk1245,Halkomelem,A,H,H,H
+1623,halk1245,Halkomelem,P,H,H,H
+1623,halk1245,Halkomelem,POSS,H/F,2,
+1692,hupd1244,Hup,A,D,D,D
+1692,hupd1244,Hup,P,D,D,D
+1692,hupd1244,Hup,POSS,D,D,D
+1692,hupd1244,Hup,S,D,D,D
+1706,kadi1248,Kadiwéu,A,H,H,H
+1706,kadi1248,Kadiwéu,P,H+D,2,2
+1706,kadi1248,Kadiwéu,S,H+D,2,2
+1750,khar1287,Kharia,A,H+D,2,2
+1750,khar1287,Kharia,P,D,D,D
+1750,khar1287,Kharia,POSS,D,D,D
+1750,khar1287,Kharia,S,H+D,2,2
+1807,kara1474,Karata,A,D,D,D
+1807,kara1474,Karata,P,H+D,2,2
+1807,kara1474,Karata,POSS,D,D,D
+1807,kara1474,Karata,S,H+D,2,2
+1936,macu1259,Macushi,A,H+D,2,2
+1936,macu1259,Macushi,P,H+D,2,2
+1936,macu1259,Macushi,POSS,H,H,H
+1936,macu1259,Macushi,S,H+D,2,2
+2015,manc1252,Manchu,A,D,D,D
+2015,manc1252,Manchu,P,D,D,D
+2015,manc1252,Manchu,POSS,D,D,D
+2015,manc1252,Manchu,S,D,D,D
+2142,sout2689,Nicobarese,A,H,H,H
+2142,sout2689,Nicobarese,P,H+D,2,2
+2142,sout2689,Nicobarese,POSS,Ø,Ø,Ø
+2142,sout2689,Nicobarese,S,H,H,H
+2308,olut1240,Olutec,A,H,H,H
+2308,olut1240,Olutec,P,H,H,H
+2308,olut1240,Olutec,POSS,H,H,H
+2308,olut1240,Olutec,S,H,H,H
+2412,seri1257,Seri,A,H,H,H
+2412,seri1257,Seri,P,H,H,H
+2412,seri1257,Seri,POSS,H,H,H
+2412,seri1257,Seri,S,H,H,H
+2450,kamb1299,Kambera,A,H,H,H
+2450,kamb1299,Kambera,P,H,H,H
+2450,kamb1299,Kambera,POSS,H,H,H
+2450,kamb1299,Kambera,S,H,H,H
+2471,croa1245,Serbian-Croatian,A,H+D,2,2
+2471,croa1245,Serbian-Croatian,P,D,D,D
+2471,croa1245,Serbian-Croatian,POSS,D,D,D
+2471,croa1245,Serbian-Croatian,S,H+D,2,2
+2564,thom1243,Thompson,P,H,H,H
+2564,thom1243,Thompson,POSS,H,H,H
+2577,tsak1249,Tsakhur,A,D,D,D
+2577,tsak1249,Tsakhur,P,H+D,2,2
+2577,tsak1249,Tsakhur,POSS,D,D,D
+2577,tsak1249,Tsakhur,S,H+D,2,2
+2641,turk1308,Turkana,A,H+D,2,2
+2641,turk1308,Turkana,P,H+D,2,2
+2641,turk1308,Turkana,POSS,D,D,D
+2641,turk1308,Turkana,S,H+D,2,2
+2826,darg1241,Dargi (standard),A,H+D,2,2
+2826,darg1241,Dargi (standard),P,H+D,2,2
+2826,darg1241,Dargi (standard),POSS,D,D,D
+2826,darg1241,Dargi (standard),S,H+D,2,2
+2873,bant1281,Bantawa,A,H+D,2,2
+2873,bant1281,Bantawa,P,H+D,2,2
+2873,bant1281,Bantawa,POSS,H+D,2,2
+2873,bant1281,Bantawa,S,H+D,2,2
+2949,darg1241,Dargi (Icari),A,H+D,2,2
+2949,darg1241,Dargi (Icari),P,H+D,2,2
+2949,darg1241,Dargi (Icari),POSS,D,D,D
+2949,darg1241,Dargi (Icari),S,H+D,2,2
+2984,mian1256,Mian,A,H,H,H
+2984,mian1256,Mian,POSS,D,D,D
+2984,mian1256,Mian,S,H,H,H
+2994,sanf1258,Huave (San Francisco del Mar),A,H,H,H
+2994,sanf1258,Huave (San Francisco del Mar),P,Ø,Ø,Ø
+2994,sanf1258,Huave (San Francisco del Mar),POSS,H,H,H
+2994,sanf1258,Huave (San Francisco del Mar),S,H,H,H
+3101,assy1241,Neo-Aramaic (Barwar),A,H,H,H
+3101,assy1241,Neo-Aramaic (Barwar),P,H,H,H
+3101,assy1241,Neo-Aramaic (Barwar),POSS,H+D,2,2
+3101,assy1241,Neo-Aramaic (Barwar),S,H,H,H
+3232,isco1239,Iskonawa,A,h+D,D,2
+3232,isco1239,Iskonawa,P,D,D,D
+3232,isco1239,Iskonawa,POSS,D,D,D
+3232,isco1239,Iskonawa,S,h+D,D,2
+3235,uduk1239,Uduk,A,H+D,2,2
+3235,uduk1239,Uduk,P,D,D,D
+3235,uduk1239,Uduk,POSS,D,D,D
+3235,uduk1239,Uduk,S,H+D,2,2
+3239,atin1240,Laz (Pazar),A,H+D,2,2
+3239,atin1240,Laz (Pazar),P,H+D,2,2
+3239,atin1240,Laz (Pazar),POSS,D,D,D
+3239,atin1240,Laz (Pazar),S,H+D,2,2
+3240,ashe1272,Ashéninka Perené,A,H,H,H
+3240,ashe1272,Ashéninka Perené,P,H,H,H
+3240,ashe1272,Ashéninka Perené,POSS,H,H,H
+3240,ashe1272,Ashéninka Perené,S,H,H,H

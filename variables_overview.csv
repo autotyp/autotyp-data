@@ -1,0 +1,1517 @@
+dataset,dataset_kind,modules,variable,kind,variant_of,data,n_languages_covered
+Alienability,primary,Categories,LID,manual entry,,integer,1
+Alienability,primary,Categories,Glottocode,manual entry,,string,1
+Alienability,primary,Categories,Language,manual entry,,string,1
+Alienability,primary,Categories,NPPossessionLocusDistribution,manual entry,,value-list,1
+Alienability,primary,Categories,NPHasPossessiveClassification,computed,,logical,1
+Alienability,primary,Categories,NPPossessiveClassificationType,manual entry,,value-list,1
+Alienability,primary,Categories,NPHasBoundNouns,computed,,logical,1
+Alienability,primary,Categories,NPBoundNounsCount,manual entry,,integer,1
+Alienability,primary,Categories,NPHasAlienableClasses,computed,,logical,1
+Alienability,primary,Categories,NPAlienableClassesCount,manual entry,,integer,1
+Alienability,primary,Categories,NPHasInalienableClasses,computed,,logical,1
+Alienability,primary,Categories,NPInalienableClassesCount,manual entry,,integer,1
+Alienability,primary,Categories,NPHasPossessiveClasses,computed,,logical,1
+Alienability,primary,Categories,NPHasMultiplePossessiveClasses,computed,,logical,1
+Alienability,primary,Categories,NPPossessiveClassesCount,manual entry,,integer,1
+ClauseLinkage,primary,Sentence,LID,manual entry,,integer,1
+ClauseLinkage,primary,Sentence,Glottocode,manual entry,,string,1
+ClauseLinkage,primary,Sentence,Language,manual entry,,string,1
+ClauseLinkage,primary,Sentence,ConstructionLabel,manual entry,,string,1
+ClauseLinkage,primary,Sentence,MarkerID,manual entry,,integer,1
+ClauseLinkage,primary,Sentence,IntuitiveClassification,manual entry,,value-list,1
+ClauseLinkage,primary,Sentence,OriginalName,manual entry,,string,1
+ClauseLinkage,primary,Sentence,AnticipatoryArgumentMarking,manual entry,,value-list,1
+ClauseLinkage,primary,Sentence,CataphoraConstraints,manual entry,,value-list,1
+ClauseLinkage,primary,Sentence,CategoricalSymmetry,manual entry,,value-list,1
+ClauseLinkage,primary,Sentence,ClauseLayer,manual entry,,value-list,1
+ClauseLinkage,primary,Sentence,ClausePosition,manual entry,,value-list,1
+ClauseLinkage,primary,Sentence,Embedding,manual entry,,value-list,1
+ClauseLinkage,primary,Sentence,ExtractionConstraints,manual entry,,value-list,1
+ClauseLinkage,primary,Sentence,FinitenessRatio,manual entry,,number,1
+ClauseLinkage,primary,Sentence,FinitenessSimplified,manual entry,,value-list,1
+ClauseLinkage,primary,Sentence,FocusMarkinginDependent,manual entry,,value-list,1
+ClauseLinkage,primary,Sentence,FocusMarking,manual entry,,value-list,1
+ClauseLinkage,primary,Sentence,IllocutionaryMarking,manual entry,,value-list,1
+ClauseLinkage,primary,Sentence,IllocutionaryScope,manual entry,,value-list,1
+ClauseLinkage,primary,Sentence,InterpropositionalSemanticRelation,manual entry,,value-list,1
+ClauseLinkage,primary,Sentence,ReferenceTrackingSystem,manual entry,,value-list,1
+ClauseLinkage,primary,Sentence,TenseMarking,manual entry,,value-list,1
+ClauseLinkage,primary,Sentence,TenseScope,manual entry,,value-list,1
+ClauseLinkage,primary,Sentence,Examples,manual entry,,comment,1
+ClauseWordOrder,primary,Sentence,LID,manual entry,,integer,1
+ClauseWordOrder,primary,Sentence,Glottocode,manual entry,,string,1
+ClauseWordOrder,primary,Sentence,Language,manual entry,,string,1
+ClauseWordOrder,primary,Sentence,WordOrderAPLex,manual entry,,value-list,1
+ClauseWordOrder,primary,Sentence,WordOrderAPVLexFlexible,manual entry,,string,1
+ClauseWordOrder,primary,Sentence,VFinalLex,manual entry,,string,1
+ClauseWordOrder,primary,Sentence,VFinalOrFreeLex,manual entry,,string,1
+ClauseWordOrder,primary,Sentence,VInitialLex,manual entry,,string,1
+ClauseWordOrder,primary,Sentence,VMedialLex,manual entry,,string,1
+ClauseWordOrder,primary,Sentence,WordOrderAPVBasicLex,manual entry,,value-list,1
+ClauseWordOrder,primary,Sentence,WordOrderSVBasicLex,manual entry,,value-list,1
+ClauseWordOrder,primary,Sentence,WordOrderAPBasicLex,manual entry,,value-list,1
+ClauseWordOrder,primary,Sentence,WordOrderAVBasicLex,manual entry,,value-list,1
+ClauseWordOrder,primary,Sentence,WordOrderPVBasicLex,manual entry,,value-list,1
+ClauseWordOrder,primary,Sentence,PositionVBasicLex,manual entry,,value-list,1
+ClauseWordOrder,primary,Sentence,PositionVBasicLexIsFinal,manual entry,,logical,1
+ClauseWordOrder,primary,Sentence,PositionVBasicLexIsFinalFree,manual entry,,logical,1
+ClauseWordOrder,primary,Sentence,PositionVBasicLexIsInitial,manual entry,,logical,1
+ClauseWordOrder,primary,Sentence,PositionVBasicLexIsMedial,manual entry,,logical,1
+ClauseWordOrder,primary,Sentence,WordOrderAPVSecondaryLex,manual entry,,value-list,1
+ClauseWordOrder,primary,Sentence,WordOrderSVSecondaryLex,manual entry,,value-list,1
+ClauseWordOrder,primary,Sentence,WordOrderAPSecondaryLex,manual entry,,value-list,1
+ClauseWordOrder,primary,Sentence,WordOrderAVSecondaryLex,manual entry,,value-list,1
+ClauseWordOrder,primary,Sentence,WordOrderPVSecondaryLex,manual entry,,value-list,1
+ClauseWordOrder,primary,Sentence,PositionVSecondaryLex,manual entry,,value-list,1
+ClauseWordOrder,primary,Sentence,PositionVSecondaryLexIsFinal,manual entry,,logical,1
+ClauseWordOrder,primary,Sentence,PositionVSecondaryLexIsFinalFree,manual entry,,logical,1
+ClauseWordOrder,primary,Sentence,PositionVSecondaryLexIsInitial,manual entry,,logical,1
+ClauseWordOrder,primary,Sentence,PositionVSecondaryLexIsMedial,manual entry,,logical,1
+Clusivity,primary,Categories,LID,manual entry,,integer,1
+Clusivity,primary,Categories,Glottocode,manual entry,,string,1
+Clusivity,primary,Categories,Language,manual entry,,string,1
+Clusivity,primary,Categories,HasClusivity,manual entry,,logical,1
+Clusivity,primary,Categories,ClusivityType,computed,,value-list,1
+Clusivity,primary,Categories,HasClusivityAsPerson,manual entry,,logical,1
+Clusivity,primary,Categories,HasClusivityWithMinimalNumberSystem,manual entry,,logical,1
+Gender,primary,Categories,LID,manual entry,,integer,1
+Gender,primary,Categories,Glottocode,manual entry,,string,1
+Gender,primary,Categories,Language,manual entry,,string,1
+Gender,primary,Categories,HasGender,manual entry,,logical,1
+Gender,primary,Categories,GenderCount,manual entry,,integer,1
+Gender,primary,Categories,GenderCountBinned4,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,LID,manual entry,,integer,1
+GrammaticalMarkers,primary,Morphology,Glottocode,manual entry,,string,1
+GrammaticalMarkers,primary,Morphology,Language,manual entry,,string,1
+GrammaticalMarkers,primary,Morphology,MarkerID,manual entry,,integer,1
+GrammaticalMarkers,primary,Morphology,MarkerLabel,manual entry,,comment,1
+GrammaticalMarkers,primary,Morphology,MarkerExemplar,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerForm,manual entry,,comment,1
+GrammaticalMarkers,primary,Morphology,MarkerClausalDomain,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerMorphemeType,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerIsGrammaticalWord,manual entry,,logical,1
+GrammaticalMarkers,primary,Morphology,MarkerIsPersonPortmanteau,manual entry,,logical,1
+GrammaticalMarkers,primary,Morphology,MarkerHostRestriction,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerIsHostRestricted,manual entry,,logical,1
+GrammaticalMarkers,primary,Morphology,MarkerFusion,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerFusionBinned6,manual entry,MarkerFusion,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerFusionIsIsolating,manual entry,MarkerFusion,logical,1
+GrammaticalMarkers,primary,Morphology,MarkerFusionIsNonlinear,manual entry,MarkerFusion,logical,1
+GrammaticalMarkers,primary,Morphology,MarkerFusionIsReduplicative,manual entry,MarkerFusion,logical,1
+GrammaticalMarkers,primary,Morphology,MarkerFusionIsTonal,manual entry,MarkerFusion,logical,1
+GrammaticalMarkers,primary,Morphology,MarkerIsFlexive,computed,,logical,1
+GrammaticalMarkers,primary,Morphology,MarkerHasLexicalFlexivity,computed,,logical,1
+GrammaticalMarkers,primary,Morphology,MarkerStemFlexivity,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerFormativeFlexivity,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerLocus,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerLocusBinned6,manual entry,MarkerLocus,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerLocusBinned5,manual entry,MarkerLocus,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerPosition,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerPositionBinned4,manual entry,MarkerPosition,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerPositionBinned5,manual entry,MarkerPosition,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerHasPreposedExponent,manual entry,MarkerPosition,logical,1
+GrammaticalMarkers,primary,Morphology,MarkerHasPreposedDefaultExponent,manual entry,MarkerPosition,logical,1
+GrammaticalMarkers,primary,Morphology,MarkerHasPostposedExponent,manual entry,MarkerPosition,logical,1
+GrammaticalMarkers,primary,Morphology,MarkerHasMultipleExponents,manual entry,MarkerPosition,logical,1
+GrammaticalMarkers,primary,Morphology,MarkerHasMultipleDefaultExponents,manual entry,MarkerPosition,logical,1
+GrammaticalMarkers,primary,Morphology,MarkerBehavior,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerBehaviorBinned4,manual entry,MarkerBehavior,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerBehaviorIsSpreading,manual entry,MarkerBehavior,logical,1
+GrammaticalMarkers,primary,Morphology,MarkerPlacement,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerSource,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerSlot,manual entry,,string,1
+GrammaticalMarkers,primary,Morphology,MarkerIsInOppositionToZero,manual entry,,logical,1
+GrammaticalMarkers,primary,Morphology,MarkerHosts$MarkerHostCategory,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerHosts$MarkerHostProjectionType,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerHosts$MarkerHostSyntacticDomain,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerHosts$MarkerHostClausalDomain,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerExpressedMicrorelations$MarkerExpressedMicrorelation,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerExpressedMicrorelations$MarkerExpressedMacrorelation,manual entry,MarkerExpressedMicrorelation,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerExpressedCategoriesCount,computed,,integer,1
+GrammaticalMarkers,primary,Morphology,MarkerExpressesMultipleCategories,computed,,integer,1
+GrammaticalMarkers,primary,Morphology,MarkerExpressedCategories$MarkerExpressedCategory,manual entry,,value-list,1
+GrammaticalMarkers,primary,Morphology,MarkerExpressedCategories$MarkerExpressedMacrocategory,manual entry,MarkerExpressedCategory,value-list,1
+GrammaticalRelationCoverage,primary,GrammaticalRelations,LID,manual entry,,integer,1
+GrammaticalRelationCoverage,primary,GrammaticalRelations,Glottocode,manual entry,,string,1
+GrammaticalRelationCoverage,primary,GrammaticalRelations,Language,manual entry,,string,1
+GrammaticalRelationCoverage,primary,GrammaticalRelations,Case$HasCase,manual entry,,logical,1
+GrammaticalRelationCoverage,primary,GrammaticalRelations,Case$IsCaseCodedForDefaultPredicates,manual entry,,logical,1
+GrammaticalRelationCoverage,primary,GrammaticalRelations,Case$IsCaseCodedForDitransitivePredicates,manual entry,,logical,1
+GrammaticalRelationCoverage,primary,GrammaticalRelations,Case$IsCaseCodedForOtherPredicates,manual entry,,logical,1
+GrammaticalRelationCoverage,primary,GrammaticalRelations,Agreement$HasAgreement,manual entry,,logical,1
+GrammaticalRelationCoverage,primary,GrammaticalRelations,Agreement$IsAgreementCodedForDefaultPredicates,manual entry,,logical,1
+GrammaticalRelationCoverage,primary,GrammaticalRelations,Agreement$IsAgreementCodedForDitransitivePredicates,manual entry,,logical,1
+GrammaticalRelationCoverage,primary,GrammaticalRelations,Agreement$IsAgreementCodedForOtherPredicates,manual entry,,logical,1
+GrammaticalRelationCoverage,primary,GrammaticalRelations,Agreement$IsAgreementMarkersCodedForDefaultPredicates,manual entry,,logical,1
+GrammaticalRelationCoverage,primary,GrammaticalRelations,Agreement$IsAgreementMarkersCodedForDitransitivePredicates,manual entry,,logical,1
+GrammaticalRelationCoverage,primary,GrammaticalRelations,Agreement$IsAgreementMarkersCodedForOtherPredicates,manual entry,,logical,1
+GrammaticalRelationCoverage,primary,GrammaticalRelations,PersonNumberCategories$PersonNumberCategory,manual entry,,value-list,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,LID,manual entry,,integer,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,Glottocode,manual entry,,string,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,Language,manual entry,,string,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectorID,manual entry,,integer,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectorLabel,manual entry,,comment,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectorType,manual entry,,string,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectorTypeBinned,manual entry,,value-list,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,IsSelectorSurveyComplete,manual entry,,logical,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,MarkerID,manual entry,,integer,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectedArguments$SelectedRole,manual entry,,value-list,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectedArguments$ReferentialCondition,manual entry,,value-list,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectedArguments$CoargumentRoleCondition,manual entry,,value-list,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectedArguments$CoargumentReferentialCondition,manual entry,,value-list,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectedArguments$PredicateClassID,manual entry,,integer,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectedArguments$SemanticCondition,manual entry,,value-list,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectedArguments$SyntacticDomainCondition,manual entry,,value-list,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectedArguments$ClauseRankCondition,manual entry,,value-list,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectedArguments$CategoryCondition,manual entry,,value-list,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectedArguments$DiathesisCondition,manual entry,,value-list,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectedArguments$PolarityCondition,manual entry,,value-list,1
+LocusOfMarkingPerMicrorelation,primary,Morphology,LID,manual entry,,integer,1
+LocusOfMarkingPerMicrorelation,primary,Morphology,Glottocode,manual entry,,string,1
+LocusOfMarkingPerMicrorelation,primary,Morphology,Language,manual entry,,string,1
+LocusOfMarkingPerMicrorelation,primary,Morphology,Microrelation,manual entry,,value-list,1
+LocusOfMarkingPerMicrorelation,primary,Morphology,Macrorelation,manual entry,Microrelation,value-list,1
+LocusOfMarkingPerMicrorelation,primary,Morphology,LocusOfMarkingComments,manual entry,,comment,1
+LocusOfMarkingPerMicrorelation,primary,Morphology,LocusOfMarking$IsDefaultLocusOfMarking,manual entry,,logical,1
+LocusOfMarkingPerMicrorelation,primary,Morphology,LocusOfMarking$LocusOfMarking,manual entry,,value-list,1
+LocusOfMarkingPerMicrorelation,primary,Morphology,LocusOfMarking$LocusOfMarkingBinned6,manual entry,LocusOfMarking,value-list,1
+LocusOfMarkingPerMicrorelation,primary,Morphology,LocusOfMarking$LocusOfMarkingBinned5,manual entry,LocusOfMarking,value-list,1
+LocusOfMarkingPerMicrorelation,primary,Morphology,LocusOfMarking$LocusOfMarkingCategoryCondition,manual entry,,value-list,1
+LocusOfMarkingPerMicrorelation,primary,Morphology,LocusOfMarking$LocusOfMarkingSyntacticDomainCondition,manual entry,,value-list,1
+LocusOfMarkingPerMicrorelation,primary,Morphology,LocusOfMarking$LocusOfMarkingSemanticDomainCondition,manual entry,,value-list,1
+MorphemeClasses,primary,Morphology,MorphemeClassID,manual entry,,integer,1
+MorphemeClasses,primary,Morphology,LID,manual entry,,integer,1
+MorphemeClasses,primary,Morphology,Glottocode,manual entry,,string,1
+MorphemeClasses,primary,Morphology,Language,manual entry,,string,1
+MorphemeClasses,primary,Morphology,MorphemeType,manual entry,,value-list,1
+MorphemeClasses,primary,Morphology,MorphemePosition,manual entry,,value-list,1
+MorphemeClasses,primary,Morphology,MorphemeHostRestriction,manual entry,,value-list,1
+MorphemeClasses,primary,Morphology,Notes,manual entry,,comment,1
+NPStructure,primary,NP,LID,manual entry,,integer,1
+NPStructure,primary,NP,Glottocode,manual entry,,string,1
+NPStructure,primary,NP,Language,manual entry,,string,1
+NPStructure,primary,NP,NPStructureID,manual entry,,integer,1
+NPStructure,primary,NP,NPStructureExample,manual entry,,comment,1
+NPStructure,primary,NP,NPStructureType,manual entry,,string,1
+NPStructure,primary,NP,NPStructureMarkingAssignmentType,manual entry,,value-list,1
+NPStructure,primary,NP,NPStructureMarkingType,manual entry,,value-list,1
+NPStructure,primary,NP,NPStructureIsOvertlyMarked,manual entry,NPStructureType,logical,1
+NPStructure,primary,NP,NPStructureMarkerID,manual entry,,list-of<integer>,1
+NPStructure,primary,NP,NPStructureAgreement$NPStructureAgreementCategory,manual entry,,value-list,1
+NPStructure,primary,NP,NPStructureAgreement$NPStructureAgreementMacrocategory,manual entry,NPStructureAgreementCategory,value-list,1
+NPStructure,primary,NP,NPStructureWordOrder,manual entry,,value-list,1
+NPStructure,primary,NP,NPStructureHasAlienability,manual entry,NPStructureAlienabilityType,logical,1
+NPStructure,primary,NP,NPStructureAlienabilityType,manual entry,,value-list,1
+NPStructure,primary,NP,NPStructureDependentPoSConstraints,manual entry,,list-of<value-list>,1
+NPStructure,primary,NP,NPStructureDependentSemConstraints,manual entry,,value-list,1
+NPStructure,primary,NP,NPStructureDependentSemConstraintsBinned,manual entry,NPStructureDependentSemConstraints,value-list,1
+NPStructure,primary,NP,NPStructureHeadlessness,manual entry,,value-list,1
+NPStructure,primary,NP,NPStructureHeadSemConstraints$NPStructureHeadSemConstraints,manual entry,,value-list,1
+NPStructure,primary,NP,NPStructureHeadSemConstraints$NPStructureHeadSemConstraintsBinned,manual entry,NPStructureHeadSemConstraints,value-list,1
+NPStructure,primary,NP,NPStructureHeadAdditionalConstraintsNotes,manual entry,,comment,1
+NumeralClassifiers,primary,Categories,LID,manual entry,,integer,1
+NumeralClassifiers,primary,Categories,Glottocode,manual entry,,string,1
+NumeralClassifiers,primary,Categories,Language,manual entry,,string,1
+NumeralClassifiers,primary,Categories,HasNumeralClassifiers,manual entry,,logical,1
+NumeralClassifiers,primary,Categories,NumeralClassifiersCount,manual entry,,integer,1
+PredicateClasses,primary,GrammaticalRelations,LID,manual entry,,integer,1
+PredicateClasses,primary,GrammaticalRelations,Glottocode,manual entry,,string,1
+PredicateClasses,primary,GrammaticalRelations,Language,manual entry,,string,1
+PredicateClasses,primary,GrammaticalRelations,PredicateClassID,manual entry,,integer,1
+PredicateClasses,primary,GrammaticalRelations,PredicateClassLabel,manual entry,,string,1
+PredicateClasses,primary,GrammaticalRelations,PredicateClassDiscourseFrequency,manual entry,,value-list,1
+PredicateClasses,primary,GrammaticalRelations,IndividualPredicates$IndividualPredicateID,manual entry,,integer,1
+PredicateClasses,primary,GrammaticalRelations,IndividualPredicates$IndividualPredicateMeaning,manual entry,,comment,1
+PredicateClasses,primary,GrammaticalRelations,IndividualPredicates$IndividualPredicateSemanticClass,manual entry,,string,1
+PredicateClasses,primary,GrammaticalRelations,IndividualPredicates$IndividualPredicateMalchukovSemanticClass,manual entry,,string,1
+PredicateClasses,primary,GrammaticalRelations,PredicateClassDescription,manual entry,,comment,1
+Register,primary,"",LID,manual entry,,integer,1
+Register,primary,"",Glottocode,manual entry,,string,1
+Register,primary,"",Language,manual entry,,string,1
+Register,primary,"",ISO639_3,manual entry,,string,1
+Register,primary,"",LanguageAlternativeNames,manual entry,,comment,1
+Register,primary,"",Stock,manual entry,,string,1
+Register,primary,"",StockAlternativeName,manual entry,,comment,1
+Register,primary,"",MacroQuasiStock,manual entry,,string,1
+Register,primary,"",QuasiStock,manual entry,,string,1
+Register,primary,"",MajorBranch,manual entry,,string,1
+Register,primary,"",SubBranch,manual entry,,string,1
+Register,primary,"",SubSubBranch,manual entry,,string,1
+Register,primary,"",LowestSubBranch,manual entry,,string,1
+Register,primary,"",Genesis,manual entry,,string,1
+Register,primary,"",Longitude,manual entry,,number,1
+Register,primary,"",Latitude,manual entry,,number,1
+Register,primary,"",LocalRegion,manual entry,,string,1
+Register,primary,"",IsNearProtoHomeland,manual entry,,logical,1
+Register,primary,"",Modality,manual entry,,string,1
+Register,primary,"",Subsistence,manual entry,,string,1
+Register,primary,"",OriginContinent,manual entry,,value-list,1
+Register,primary,"",Continent,manual entry,,value-list,1
+Register,primary,"",Area,manual entry,,value-list,1
+Register,primary,"",Macrocontinent,manual entry,,value-list,1
+VerbSynthesis,primary,Morphology,LID,manual entry,,integer,1
+VerbSynthesis,primary,Morphology,Glottocode,manual entry,,string,1
+VerbSynthesis,primary,Morphology,Language,manual entry,,string,1
+VerbSynthesis,primary,Morphology,VerbInflectionExponenceType,computed,,value-list,1
+VerbSynthesis,primary,Morphology,VerbInflectionMaxCategoryCount,computed,,integer,1
+VerbSynthesis,primary,Morphology,VerbInflectionMaxCategorySansAgreementCount,computed,,integer,1
+VerbSynthesis,primary,Morphology,VerbInflectionMaxFormativeCount,manual entry,,integer,1
+VerbSynthesis,primary,Morphology,VerbInflectionMaxFormativeSansAgreementCount,manual entry,,integer,1
+VerbSynthesis,primary,Morphology,VerbHasBipartiteStem,manual entry,,logical,1
+VerbSynthesis,primary,Morphology,VerbIsSyntacticallyCoherent,manual entry,,logical,1
+VerbSynthesis,primary,Morphology,VerbSyntacticCoherencyNotes,manual entry,,comment,1
+VerbSynthesis,primary,Morphology,VerbIsProsodicallyCoherent,manual entry,,logical,1
+VerbSynthesis,primary,Morphology,VerbProsodicCoherencyNotes,manual entry,,comment,1
+VerbSynthesis,primary,Morphology,VerbIsPhonologicallyCoherent,manual entry,,logical,1
+VerbSynthesis,primary,Morphology,VerbPhonologicalCoherencyNotes,manual entry,,comment,1
+VerbSynthesis,primary,Morphology,VerbIncorporation,manual entry,,list-of<value-list>,1
+VerbSynthesis,primary,Morphology,VerbHasAnyIncorporation,computed,,logical,1
+VerbSynthesis,primary,Morphology,VerbHasNounIncorporation,computed,,logical,1
+VerbSynthesis,primary,Morphology,VerbHasVerbIncorporation,computed,,logical,1
+VerbSynthesis,primary,Morphology,VerbHasNounOrVerbIncorporation,computed,,logical,1
+VerbSynthesis,primary,Morphology,IsVerbInflectionSurveyComplete,manual entry,,logical,1
+VerbSynthesis,primary,Morphology,VerbInflectionCategories$VerbInflectionCategory,manual entry,,value-list,1
+VerbSynthesis,primary,Morphology,VerbInflectionCategories$VerbInflectionMacrocategory,manual entry,VerbInflectionCategory,value-list,1
+VerbSynthesis,primary,Morphology,VerbInflectionCategories$VerbInflectionMarkerPosition,manual entry,,value-list,1
+VerbSynthesis,primary,Morphology,VerbInflectionCategories$VerbInflectionMarkerPositionBinned4,manual entry,VerbInflectionMarkerPosition,value-list,1
+VerbSynthesis,primary,Morphology,VerbInflectionCategories$VerbInflectionMarkerPositionBinned5,manual entry,VerbInflectionMarkerPosition,value-list,1
+VerbSynthesis,primary,Morphology,VerbInflectionCategories$VerbInflectionMarkerHasPreposedExponent,manual entry,VerbInflectionMarkerPosition,logical,1
+VerbSynthesis,primary,Morphology,VerbInflectionCategories$VerbInflectionMarkerHasPostposedExponent,manual entry,VerbInflectionMarkerPosition,logical,1
+VerbSynthesis,primary,Morphology,VerbInflectionCategories$VerbInflectionMarkerHasMultipleExponents,manual entry,VerbInflectionMarkerPosition,logical,1
+VerbSynthesis,primary,Morphology,IsVerbAgreementSurveyComplete,manual entry,,logical,1
+VerbSynthesis,primary,Morphology,VerbAgreement$VerbAgreementMicrorelation,manual entry,,value-list,1
+VerbSynthesis,primary,Morphology,VerbAgreement$VerbAgreementMarkerPosition,manual entry,,value-list,1
+VerbSynthesis,primary,Morphology,VerbAgreement$VerbAgreementMarkerPositionBinned4,manual entry,VerbAgreementMarkerPosition,value-list,1
+VerbSynthesis,primary,Morphology,VerbAgreement$VerbAgreementMarkerPositionBinned5,manual entry,VerbAgreementMarkerPosition,value-list,1
+VerbSynthesis,primary,Morphology,VerbAgreement$VerbAgreementMarkerHasPreposedExponent,manual entry,VerbAgreementMarkerPosition,logical,1
+VerbSynthesis,primary,Morphology,VerbAgreement$VerbAgreementMarkerHasPostposedExponent,manual entry,VerbAgreementMarkerPosition,logical,1
+VerbSynthesis,primary,Morphology,VerbAgreement$VerbAgreementMarkerHasMultipleExponents,manual entry,VerbAgreementMarkerPosition,logical,1
+WordDomains,primary,Word,LID,manual entry,,integer,1
+WordDomains,primary,Word,Glottocode,manual entry,,string,1
+WordDomains,primary,Word,Language,manual entry,,string,1
+WordDomains,primary,Word,CohesionPatternLoc,manual entry,,string,1
+WordDomains,primary,Word,MphmTypesInCohDomainProp,manual entry,,string,1
+WordDomains,primary,Word,MphmTypesInCohPrefixDomainProp,manual entry,,number,1
+WordDomains,primary,Word,MphmTypesInCohSuffixDomainProp,manual entry,,number,1
+WordDomains,primary,Word,MphmTypesInCohStemDomainProp,manual entry,,number,1
+WordDomains,primary,Word,MphmTypesInCohDomain,manual entry,,string,1
+WordDomains,primary,Word,MphmTypesInCohDomainBinned77,manual entry,,string,1
+WordDomains,primary,Word,CoherentEncliticBoundaryPresence,manual entry,,string,1
+WordDomains,primary,Word,CoherentEnclEnclBoundaryPresence,manual entry,,string,1
+WordDomains,primary,Word,CohPatternOutputOrigin,manual entry,,string,1
+WordDomains,primary,Word,MphmTypesInCohDomainMultistemPresence,manual entry,,string,1
+WordDomains,primary,Word,CohesionPatternBinned18,manual entry,,string,1
+WordDomains,primary,Word,CohesionPatternBinned12,manual entry,,string,1
+WordDomains,primary,Word,CohesionPatternBinned4,manual entry,,string,1
+WordDomains,primary,Word,CoherentPrefixBoundaryPresence,manual entry,,string,1
+WordDomains,primary,Word,CoherentPrefixPrefixBoundaryPresence,manual entry,,string,1
+WordDomains,primary,Word,CoherentPrefixStemBoundaryPresence,manual entry,,string,1
+WordDomains,primary,Word,CoherentProclBoundaryPresence,manual entry,,string,1
+WordDomains,primary,Word,CoherentProclPrefixBoundaryPresence,manual entry,,string,1
+WordDomains,primary,Word,CoherentProclProcliticBoundaryPresence,manual entry,,string,1
+WordDomains,primary,Word,CoherentProclStemBoundaryPresence,manual entry,,string,1
+WordDomains,primary,Word,CohesionPatternDataSourceType,manual entry,,string,1
+WordDomains,primary,Word,NumberMphmTypesInCohDomain,manual entry,,string,1
+WordDomains,primary,Word,NumberMphmTypesInCohPrefixDomain,manual entry,,string,1
+WordDomains,primary,Word,NumberMphmTypesInCohSuffixDomain,manual entry,,string,1
+WordDomains,primary,Word,CoherentStemBoundaryPresence,manual entry,,string,1
+WordDomains,primary,Word,CoherentStemEnclBoundaryPresence,manual entry,,string,1
+WordDomains,primary,Word,CoherentStemEndoclBoundaryPresence,manual entry,,string,1
+WordDomains,primary,Word,CoherentStemInfixBoundaryPresence,manual entry,,string,1
+WordDomains,primary,Word,CoherentStemSuffixBoundaryPresence,manual entry,,string,1
+WordDomains,primary,Word,CohesionPatternStressPresence,manual entry,,string,1
+WordDomains,primary,Word,CohPatternStructurePreservingPresence,manual entry,,string,1
+WordDomains,primary,Word,CoherentSuffixBoundaryPresence,manual entry,,string,1
+WordDomains,primary,Word,CoherentSuffixEnclBoundaryPresence,manual entry,,string,1
+WordDomains,primary,Word,CoherentSuffixSuffixBoundaryPresence,manual entry,,string,1
+WordDomains,primary,Word,SurveyStatus,manual entry,,string,1
+WordDomains,primary,Word,CohesionPatternType,manual entry,,string,1
+WordDomains,primary,Word,MphmTypesInCohPrefixDomainPropBinned3,computed,,value-list,1
+WordDomains,primary,Word,MphmTypesInCohSuffixDomainPropBinned3,computed,,value-list,1
+WordDomains,primary,Word,MphmTypesInCohStemDomainPropBinned3,computed,,value-list,1
+GrammaticalRelations,derived,GrammaticalRelations,LID,manual entry,,integer,1
+GrammaticalRelations,derived,GrammaticalRelations,Glottocode,manual entry,,string,1
+GrammaticalRelations,derived,GrammaticalRelations,Language,manual entry,,string,1
+GrammaticalRelations,derived,GrammaticalRelations,SelectorID,manual entry,,integer,1
+GrammaticalRelations,derived,GrammaticalRelations,MarkerID,manual entry,,integer,1
+GrammaticalRelations,derived,GrammaticalRelations,SelectorType,manual entry,,string,1
+GrammaticalRelations,derived,GrammaticalRelations,SelectorLabel,manual entry,,comment,1
+GrammaticalRelations,derived,GrammaticalRelations,ReferentialCondition,manual entry,,value-list,1
+GrammaticalRelations,derived,GrammaticalRelations,CoargumentAtr,computed,,value-list,1
+GrammaticalRelations,derived,GrammaticalRelations,CoargumentP,computed,,value-list,1
+GrammaticalRelations,derived,GrammaticalRelations,PredicateClassID,manual entry,,integer,1
+GrammaticalRelations,derived,GrammaticalRelations,MarkerSlot,manual entry,,string,1
+GrammaticalRelations,derived,GrammaticalRelations,ClauseRankCondition,manual entry,,value-list,1
+GrammaticalRelations,derived,GrammaticalRelations,CategoryCondition,manual entry,,value-list,1
+GrammaticalRelations,derived,GrammaticalRelations,SyntacticDomainCondition,manual entry,,value-list,1
+GrammaticalRelations,derived,GrammaticalRelations,PolarityCondition,manual entry,,value-list,1
+GrammaticalRelations,derived,GrammaticalRelations,SelectedRoles,computed,,list-of<value-list>,1
+Alignment,derived,GrammaticalRelations,LID,manual entry,,integer,1
+Alignment,derived,GrammaticalRelations,Glottocode,manual entry,,string,1
+Alignment,derived,GrammaticalRelations,Language,manual entry,,string,1
+Alignment,derived,GrammaticalRelations,SelectorType,manual entry,,string,1
+Alignment,derived,GrammaticalRelations,ReferentialCondition,manual entry,,value-list,1
+Alignment,derived,GrammaticalRelations,CoargumentAtr,computed,,value-list,1
+Alignment,derived,GrammaticalRelations,CoargumentP,computed,,value-list,1
+Alignment,derived,GrammaticalRelations,CombinedPredicateClassID,computed,,string,1
+Alignment,derived,GrammaticalRelations,MarkerSlot,manual entry,,string,1
+Alignment,derived,GrammaticalRelations,ClauseRankCondition,manual entry,,value-list,1
+Alignment,derived,GrammaticalRelations,CategoryCondition,manual entry,,value-list,1
+Alignment,derived,GrammaticalRelations,SyntacticDomainCondition,manual entry,,value-list,1
+Alignment,derived,GrammaticalRelations,PolarityCondition,manual entry,,value-list,1
+Alignment,derived,GrammaticalRelations,Alignment2,computed,,string,1
+Alignment,derived,GrammaticalRelations,Alignment3,computed,,string,1
+Alignment,derived,GrammaticalRelations,AlignmentPTG,computed,,string,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,LID,manual entry,,integer,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,Glottocode,manual entry,,string,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,Language,manual entry,,string,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,AccDegreeForAgreement,computed,,number,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,AccDegreeForCase,computed,,number,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,AccDegreeForMarkerAgreement,computed,,number,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,ErgDegreeForAgreement,computed,,number,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,ErgDegreeForCase,computed,,number,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,ErgDegreeForMarkerAgreement,computed,,number,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,AccDegreeBinnedForAgreement,computed,,value-list,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,AccDegreeBinnedForCase,computed,,value-list,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,AccDegreeBinnedForMarkerAgreement,computed,,value-list,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,ErgDegreeBinnedForAgreement,computed,,value-list,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,ErgDegreeBinnedForCase,computed,,value-list,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,ErgDegreeBinnedForMarkerAgreement,computed,,value-list,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,DominantAlignment2ForAgreement,computed,,string,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,DominantAlignment2ForCase,computed,,string,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,DominantAlignment2ForMarkerAgreement,computed,,string,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,DominantAlignment3ForAgreement,computed,,string,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,DominantAlignment3ForCase,computed,,string,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,DominantAlignment3ForMarkerAgreement,computed,,string,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,DominantAlignmentPTGForAgreement,computed,,string,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,DominantAlignmentPTGForCase,computed,,string,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,DominantAlignmentPTGForMarkerAgreement,computed,,string,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,HasReferenceConditionedSplitsForAgreement,computed,,logical,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,HasReferenceConditionedSplitsForCase,computed,,logical,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,HasReferenceConditionedSplitsForMarkerAgreement,computed,,logical,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,HasCategoryConditionedSplitsForAgreement,computed,,logical,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,HasCategoryConditionedSplitsForCase,computed,,logical,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,HasCategoryConditionedSplitsForMarkerAgreement,computed,,logical,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,HasClauseRankConditionedSplitsForAgreement,computed,,logical,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,HasClauseRankConditionedSplitsForCase,computed,,logical,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,HasClauseRankConditionedSplitsForMarkerAgreement,computed,,logical,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,HasPolarityConditionedSplitsForAgreement,computed,,logical,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,HasPolarityConditionedSplitsForCase,computed,,logical,1
+AlignmentForDefaultPredicatesPerLanguage,derived,GrammaticalRelations,HasPolarityConditionedSplitsForMarkerAgreement,computed,,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,LID,manual entry,,integer,1
+GrammaticalMarkersPerLanguage,derived,Morphology,Glottocode,manual entry,,string,1
+GrammaticalMarkersPerLanguage,derived,Morphology,Language,manual entry,,string,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerMorphemeType,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerMorphemeType,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerMorphemeType,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerMorphemeType,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerIsPersonPortmanteau,computed,,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerIsPersonPortmanteau,computed,,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerIsPersonPortmanteau,computed,,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerIsPersonPortmanteau,computed,,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerHostRestriction,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerHostRestriction,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerHostRestriction,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerHostRestriction,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerFusion,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerFusion,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerFusion,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerFusion,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerFusionBinned6,computed,MarkerFusion,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerFusionBinned6,computed,MarkerFusion,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerFusionBinned6,computed,MarkerFusion,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerFusionBinned6,computed,MarkerFusion,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerFusionIsIsolating,computed,MarkerFusion,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerFusionIsIsolating,computed,MarkerFusion,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerFusionIsIsolating,computed,MarkerFusion,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerFusionIsIsolating,computed,MarkerFusion,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerFusionIsNonlinear,computed,MarkerFusion,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerFusionIsNonlinear,computed,MarkerFusion,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerFusionIsNonlinear,computed,MarkerFusion,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerFusionIsNonlinear,computed,MarkerFusion,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerFusionIsReduplicative,computed,MarkerFusion,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerFusionIsReduplicative,computed,MarkerFusion,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerFusionIsReduplicative,computed,MarkerFusion,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerFusionIsReduplicative,computed,MarkerFusion,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerFusionIsTonal,computed,MarkerFusion,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerFusionIsTonal,computed,MarkerFusion,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerFusionIsTonal,computed,MarkerFusion,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerFusionIsTonal,computed,MarkerFusion,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerStemFlexivity,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerStemFlexivity,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerStemFlexivity,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerStemFlexivity,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerFormativeFlexivity,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerFormativeFlexivity,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerFormativeFlexivity,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerFormativeFlexivity,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerPosition,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerPosition,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerPosition,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerPosition,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerPositionBinned4,computed,MarkerPosition,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerPositionBinned4,computed,MarkerPosition,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerPositionBinned4,computed,MarkerPosition,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerPositionBinned4,computed,MarkerPosition,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerPositionBinned5,computed,MarkerPosition,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerPositionBinned5,computed,MarkerPosition,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerPositionBinned5,computed,MarkerPosition,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerPositionBinned5,computed,MarkerPosition,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerHasPreposedExponent,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerHasPreposedExponent,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerHasPreposedExponent,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerHasPreposedExponent,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerHasPreposedDefaultExponent,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerHasPreposedDefaultExponent,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerHasPreposedDefaultExponent,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerHasPreposedDefaultExponent,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerHasPostposedExponent,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerHasPostposedExponent,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerHasPostposedExponent,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerHasPostposedExponent,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerHasMultipleExponents,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerHasMultipleExponents,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerHasMultipleExponents,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerHasMultipleExponents,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerHasMultipleDefaultExponents,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerHasMultipleDefaultExponents,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerHasMultipleDefaultExponents,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerHasMultipleDefaultExponents,computed,MarkerPosition,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerBehavior,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerBehavior,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerBehavior,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerBehavior,computed,,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerBehaviorBinned4,computed,MarkerBehavior,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerBehaviorBinned4,computed,MarkerBehavior,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerBehaviorBinned4,computed,MarkerBehavior,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerBehaviorBinned4,computed,MarkerBehavior,value-list,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerBehaviorIsSpreading,computed,MarkerBehavior,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerBehaviorIsSpreading,computed,MarkerBehavior,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerBehaviorIsSpreading,computed,MarkerBehavior,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerBehaviorIsSpreading,computed,MarkerBehavior,logical,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerExpressedCategoriesCount,computed,,integer,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerExpressedCategoriesCount,computed,,integer,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerExpressedCategoriesCount,computed,,integer,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerExpressedCategoriesCount,computed,,integer,1
+GrammaticalMarkersPerLanguage,derived,Morphology,CaseMarkerExpressesMultipleCategories,computed,,integer,1
+GrammaticalMarkersPerLanguage,derived,Morphology,TenseMarkerExpressesMultipleCategories,computed,,integer,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NegationMarkerExpressesMultipleCategories,computed,,integer,1
+GrammaticalMarkersPerLanguage,derived,Morphology,NounPluralMarkerExpressesMultipleCategories,computed,,integer,1
+LocusOfMarkingPerLanguage,derived,Morphology,LID,manual entry,,integer,1
+LocusOfMarkingPerLanguage,derived,Morphology,Glottocode,manual entry,,string,1
+LocusOfMarkingPerLanguage,derived,Morphology,Language,manual entry,,string,1
+LocusOfMarkingPerLanguage,derived,Morphology,HasHeadMarkingForA,computed,,logical,1
+LocusOfMarkingPerLanguage,derived,Morphology,HasHeadMarkingForP,computed,,logical,1
+LocusOfMarkingPerLanguage,derived,Morphology,HasHeadMarkingForPOSS,computed,,logical,1
+LocusOfMarkingPerLanguage,derived,Morphology,HasHeadMarkingForS,computed,,logical,1
+LocusOfMarkingPerLanguage,derived,Morphology,HasHeadMarkingForATTR,computed,,logical,1
+LocusOfMarkingPerLanguage,derived,Morphology,HasDependentMarkingForA,computed,,logical,1
+LocusOfMarkingPerLanguage,derived,Morphology,HasDependentMarkingForP,computed,,logical,1
+LocusOfMarkingPerLanguage,derived,Morphology,HasDependentMarkingForPOSS,computed,,logical,1
+LocusOfMarkingPerLanguage,derived,Morphology,HasDependentMarkingForS,computed,,logical,1
+LocusOfMarkingPerLanguage,derived,Morphology,HasDependentMarkingForATTR,computed,,logical,1
+LocusOfMarkingPerLanguage,derived,Morphology,HasHeadMarkingForSAndA,computed,,logical,1
+LocusOfMarkingPerLanguage,derived,Morphology,HasHeadMarkingForSOrA,computed,,logical,1
+LocusOfMarkingPerLanguage,derived,Morphology,HasHeadMarkingForAAndP,computed,,logical,1
+LocusOfMarkingPerLanguage,derived,Morphology,HasHeadMarkingForAOrP,computed,,logical,1
+LocusOfMarkingPerLanguage,derived,Morphology,HasDependentMarkingForSAndA,computed,,logical,1
+LocusOfMarkingPerLanguage,derived,Morphology,HasDependentMarkingForSOrA,computed,,logical,1
+LocusOfMarkingPerLanguage,derived,Morphology,HasDependentMarkingForAAndP,computed,,logical,1
+LocusOfMarkingPerLanguage,derived,Morphology,HasDependentMarkingForAOrP,computed,,logical,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForUStim,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForADefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForSDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForAct,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForUDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForSDefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForAExp,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForAAnim,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForTDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForBDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForGDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForPat,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForUEmp,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForUDef,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForTDef,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForTEmp,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForUDefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForBRec,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForBBen,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForLocative,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForIDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForAPoss,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForURef,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForPOSSDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForATTRDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForPOSSDefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForPOSSDefaultIfN,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForPOSSDefaultIfNAlien,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForPOSSDefaultIfPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForATTRDefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForSDefaultIfPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForADefaultIfPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForUDefaultIfPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForPOSSDefaultIfNInal,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForSDefaultIfNOrPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForADefaultIfNOrPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForPOSSDefaultIfNOrPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForBDefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForTDefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForADefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForBDefaultIfPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForUDefaultIfSAP,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForPOSSDefaultIf1PERS,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForSDefaultIfSAP,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForADefaultIfSAP,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForUDefaultIf1PERS,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForPOSSDefaultIfNKin,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForUDefaultIfN,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForUDefaultIfNAnim,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingForADefaultIfN,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForUStim,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForADefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForSDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForAct,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForUDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForSDefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForAExp,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForAAnim,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForTDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForBDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForGDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForPat,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForUEmp,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForUDef,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForTDef,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForTEmp,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForUDefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForBRec,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForBBen,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForLocative,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForIDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForAPoss,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForURef,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForPOSSDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForATTRDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForPOSSDefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForPOSSDefaultIfN,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForPOSSDefaultIfNAlien,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForPOSSDefaultIfPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForATTRDefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForSDefaultIfPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForADefaultIfPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForUDefaultIfPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForPOSSDefaultIfNInal,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForSDefaultIfNOrPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForADefaultIfNOrPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForPOSSDefaultIfNOrPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForBDefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForTDefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForADefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForBDefaultIfPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForUDefaultIfSAP,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForPOSSDefaultIf1PERS,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForSDefaultIfSAP,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForADefaultIfSAP,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForUDefaultIf1PERS,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForPOSSDefaultIfNKin,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForUDefaultIfN,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForUDefaultIfNAnim,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned5ForADefaultIfN,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForUStim,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForADefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForSDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForAct,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForUDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForSDefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForAExp,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForAAnim,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForTDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForBDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForGDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForPat,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForUEmp,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForUDef,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForTDef,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForTEmp,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForUDefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForBRec,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForBBen,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForLocative,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForIDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForAPoss,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForURef,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForPOSSDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForATTRDefault,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForPOSSDefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForPOSSDefaultIfN,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForPOSSDefaultIfNAlien,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForPOSSDefaultIfPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForATTRDefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForSDefaultIfPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForADefaultIfPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForUDefaultIfPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForPOSSDefaultIfNInal,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForSDefaultIfNOrPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForADefaultIfNOrPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForPOSSDefaultIfNOrPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForBDefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForTDefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForADefaultIfOther,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForBDefaultIfPro,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForUDefaultIfSAP,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForPOSSDefaultIf1PERS,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForSDefaultIfSAP,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForADefaultIfSAP,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForUDefaultIf1PERS,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForPOSSDefaultIfNKin,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForUDefaultIfN,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForUDefaultIfNAnim,computed,,value-list,1
+LocusOfMarkingPerLanguage,derived,Morphology,LocusOfMarkingBinned6ForADefaultIfN,computed,,value-list,1
+DefaultLocusOfMarkingPerMacrorelation,derived,Morphology,LID,manual entry,,integer,1
+DefaultLocusOfMarkingPerMacrorelation,derived,Morphology,Glottocode,manual entry,,string,1
+DefaultLocusOfMarkingPerMacrorelation,derived,Morphology,Language,manual entry,,string,1
+DefaultLocusOfMarkingPerMacrorelation,derived,Morphology,Macrorelation,manual entry,Microrelation,value-list,1
+DefaultLocusOfMarkingPerMacrorelation,derived,Morphology,LocusOfMarking,manual entry,,value-list,1
+DefaultLocusOfMarkingPerMacrorelation,derived,Morphology,LocusOfMarkingBinned5,manual entry,,value-list,1
+DefaultLocusOfMarkingPerMacrorelation,derived,Morphology,LocusOfMarkingBinned6,manual entry,,value-list,1
+MorphologyPerLanguage,derived,Morphology,LID,manual entry,,integer,1
+MorphologyPerLanguage,derived,Morphology,Glottocode,manual entry,,string,1
+MorphologyPerLanguage,derived,Morphology,Language,manual entry,,string,1
+MorphologyPerLanguage,derived,Morphology,HasAnyVerbAgreement,computed,,logical,1
+MorphologyPerLanguage,derived,Morphology,MorphemeClassesCount,computed,,integer,1
+MorphologyPerLanguage,derived,Morphology,PreposedMorphemeClassesCount,computed,,integer,1
+MorphologyPerLanguage,derived,Morphology,PostposedMorphemeClassesCount,computed,,integer,1
+MorphologyPerLanguage,derived,Morphology,HasAnyPrefixes,computed,,integer,1
+MorphologyPerLanguage,derived,Morphology,HasAnySuffixes,computed,,integer,1
+MorphologyPerLanguage,derived,Morphology,HasAnyInfixes,computed,,integer,1
+MorphologyPerLanguage,derived,Morphology,HasAnyProclitics,computed,,integer,1
+MorphologyPerLanguage,derived,Morphology,HasAnyEnclitics,computed,,integer,1
+MorphologyPerLanguage,derived,Morphology,HasAnyEndoclitics,computed,,integer,1
+MorphologyPerLanguage,derived,Morphology,HasAnyPreposedFormatives,computed,,integer,1
+MorphologyPerLanguage,derived,Morphology,HasAnyPostposedFormatives,computed,,integer,1
+MorphologyPerLanguage,derived,Morphology,HasAnyInterposedFormatives,computed,,integer,1
+MorphologyPerLanguage,derived,Morphology,HasAnyFlexivity,computed,,logical,1
+MorphologyPerLanguage,derived,Morphology,HasAnyFlexivityForNouns,computed,,logical,1
+MorphologyPerLanguage,derived,Morphology,HasAnyFlexivityForVerbs,computed,,logical,1
+MorphologyPerLanguage,derived,Morphology,HasAnyLexicalFlexivity,computed,,logical,1
+MorphologyPerLanguage,derived,Morphology,HasAnyLexicalFlexivityForNouns,computed,,logical,1
+MorphologyPerLanguage,derived,Morphology,HasAnyLexicalFlexivityForVerbs,computed,,logical,1
+MorphologyPerLanguage,derived,Morphology,HasAnyPolyexponence,computed,,logical,1
+MorphologyPerLanguage,derived,Morphology,HasAnyPolyexponenceForNouns,computed,,logical,1
+MorphologyPerLanguage,derived,Morphology,HasAnyPolyexponenceForVerbs,computed,,logical,1
+MorphologyPerLanguage,derived,Morphology,VerbSlotsInOppositionToZeroCount,computed,,integer,1
+MorphologyPerLanguage,derived,Morphology,PreposedVerbSlotsInOppositionToZeroCount,computed,,integer,1
+MorphologyPerLanguage,derived,Morphology,PostposedVerbSlotsInOppositionToZeroCount,computed,,integer,1
+NPStructurePerLanguage,derived,NP,LID,manual entry,,integer,1
+NPStructurePerLanguage,derived,NP,Glottocode,manual entry,,string,1
+NPStructurePerLanguage,derived,NP,Language,manual entry,,string,1
+NPStructurePerLanguage,derived,NP,NPHasAgreement,computed,,logical,1
+NPStructurePerLanguage,derived,NP,NPHasConstructMarkers,computed,,logical,1
+NPStructurePerLanguage,derived,NP,NPHasGovernment,computed,,integer,1
+NPStructurePerLanguage,derived,NP,NPHasOvertMarking,computed,,logical,1
+NPStructurePerLanguage,derived,NP,NPHasAdjAgreement,computed,,logical,1
+NPStructurePerLanguage,derived,NP,NPHasAdjConstructMarkers,computed,,logical,1
+NPStructurePerLanguage,derived,NP,NPHasAdjGovernment,computed,,integer,1
+NPStructurePerLanguage,derived,NP,NPHasAdjOvertMarking,computed,,logical,1
+NPStructurePresence,derived,NP,LID,manual entry,,integer,1
+NPStructurePresence,derived,NP,Glottocode,manual entry,,string,1
+NPStructurePresence,derived,NP,Language,manual entry,,string,1
+NPStructurePresence,derived,NP,NPStructureID,computed,,logical,1
+NPStructurePresence,derived,NP,NPHasGenderAgreement,computed,,logical,1
+NPStructurePresence,derived,NP,NPHasNumberAgreement,computed,,logical,1
+NPStructurePresence,derived,NP,NPHasPersonAgreement,computed,,logical,1
+NPStructurePresence,derived,NP,NPHasReferentialAgreement,computed,,logical,1
+NPStructurePresence,derived,NP,NPHasRoleAgreement,computed,,logical,1
+NPStructurePresence,derived,NP,NPAlienabilityConstraintIsAlienable,computed,,logical,1
+NPStructurePresence,derived,NP,NPAlienabilityConstraintIsInalienable,computed,,logical,1
+NPStructurePresence,derived,NP,NPAlienabilityConstraintIsFluid,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerSourceIsAgrTarget,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerSourceIsAgree,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerSourceIsAssign,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerSourceIsBothAssignAndAgree,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerSourceIsCaseAssignedGenderAgrees,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerSourceIsFree,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerTypeIsConstrainedToFormative,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerTypeIsConstrainedToPoSWd,computed,,logical,1
+NPStructurePresence,derived,NP,NPLocusOfMarkingIsD,computed,,logical,1
+NPStructurePresence,derived,NP,NPLocusOfMarkingIsdonh,computed,,logical,1
+NPStructurePresence,derived,NP,NPLocusOfMarkingIsDonH,computed,,logical,1
+NPStructurePresence,derived,NP,NPLocusOfMarkingIsF,computed,,logical,1
+NPStructurePresence,derived,NP,NPLocusOfMarkingIsH,computed,,logical,1
+NPStructurePresence,derived,NP,NPLocusOfMarkingIsP,computed,,logical,1
+NPStructurePresence,derived,NP,NPLocusOfMarkingBinned6IsD,computed,,logical,1
+NPStructurePresence,derived,NP,NPLocusOfMarkingBinned6IsDonH,computed,,logical,1
+NPStructurePresence,derived,NP,NPLocusOfMarkingBinned6IsF,computed,,logical,1
+NPStructurePresence,derived,NP,NPLocusOfMarkingBinned6IsH,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerFusionIsConcatenative,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerFusionIsSuppletive,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerFusionIsIsolating,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerFusionIsProsodicTemplatic,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerFusionIsTonal,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerFusionIsLenition,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerFusionIsConcatenativeOrSuppletive,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerFusionBinned6IsConcatenative,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerFusionBinned6IsStem,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerFusionBinned6IsIsolating,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerFusionBinned6IsTonal,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToHighIndexability,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToLowIndexability,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToAnimate,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToInanimate,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToHuman,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToSpecific,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToNonSpecific,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToMeronyms,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToNOrPro,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToN,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToPro,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedTo12ProOrN,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedTo3Pro,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedTo3sgPro,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedTo2Or3Pro,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToNv,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToNP,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToAdj,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToNum,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToS,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToDEM,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToNProper,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToV,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToSAP,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToNonSAP,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToPTCP,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToArt,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToAdvP,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToAdp,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToOrd,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToQuant,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToNumAbove20,computed,,logical,1
+NPStructurePresence,derived,NP,NPDependentIsConstrainedToOrd1,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToHighIndexability,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToKinTerms,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToBodyParts,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToVolitional,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToTopological,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToOwner,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToMeronyms,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToTracks,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToProperty,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToAnimals,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToQuantificational,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToAlienable,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToClothingTerms,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToOrigin,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToUnmarkedInalienable,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToSpecific,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToSemantic,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToPlantParts,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToWeapon,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToSubsets,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToParentsSiblings,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToTransportationMeans,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToSingular,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToVillageGroup,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToEdible,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToDrinkable,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToClassifiers,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToInalienable,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToRocks,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToPlants,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToUnspecifiedInanimate,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToSpouse,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToNonSpecific,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToHuman,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToNonHuman,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToNeutral,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToReferentiality,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToKin,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToParts,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToKinds,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToFormal,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToNames,computed,,logical,1
+NPStructurePresence,derived,NP,NPHeadIsConstrainedToPragmatic,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,LID,manual entry,,integer,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,Glottocode,manual entry,,string,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,Language,manual entry,,string,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,PredicateClassesCount,computed,,integer,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeEmotion,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeDesideration,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeAttempt,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeCognition,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeHelp,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeMotion,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeChangeOfState,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeCommunication,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeFight,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeQuality,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeSocialInteraction,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeHit,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeSpatialPosition,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeBodilyEmission,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeChangeOfPossession,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypePutPourSprayLoadFill,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeLaughWink,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeSoundEmission,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeGrooming,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeMalchEmotion,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeMalchSensation,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeMalchOther,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeMalchPerceptionCognition,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeMalchMotion,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeMalchContact,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeSendCarryBringTake,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeSeem,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeHappening,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeSensation,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeRemoveWipeClear,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypePossession,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeJudge,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeActivity,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeExistence,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypePerception,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeHoldKeep,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypePushPull,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeModality,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeObligation,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeDiseasesAndBodilyStates,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeMeasure,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypePersuit,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeCombineAttach,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeSpreadApply,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeSeparateDisassemble,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeInfluenceCause,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeMalchPursuit,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeTouch,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeAssumingPosition,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeHide,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeSleep,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeScentEmission,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeFail,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeName,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeAspectual,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeHurt,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeUse,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeCreationTransformation,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeAchieve,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeAppearanceDisappearance,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeNecessity,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeLose,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeCausedMotion,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeKill,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeMalchEffectiveAction,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeAbility,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeIngestion,computed,,logical,1
+PredicateClassesSemanticsPerLanguage,derived,GrammaticalRelations,HasPredicateClassWithVerbsOfTypeDestroy,computed,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,LID,manual entry,,integer,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,Glottocode,manual entry,,string,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,Language,manual entry,,string,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryApplicative,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryReflexive,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryDeixis,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategorySemistem,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryTense,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryCausative,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategorySpatial,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryQuantificational,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryAktionsart,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryTAM,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryIllocution,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForMacrocategoryValence,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForMacrocategoryPragmatic,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForMacrocategoryOther,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForMacrocategoryTAMPlus,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForMacrocategoryEventSpecs,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForMacrocategoryNumber,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryNumber,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryReflexiveAndReciprocal,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryAspect,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryMSE,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryEvidential,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryVoice,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryFocus,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryPolarity,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForMacrocategoryEvidential,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForMacrocategoryOperators,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryTM,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryMood,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryValence,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryConnective,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForMacrocategoryInterClausal,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategorySymmetricalVoice,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryRECIP,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryTA,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryVersion,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryNominalizer,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForMacrocategoryNPRelated,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryReferential,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryClassifier,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryStatus,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForMacrocategoryClassification,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryHonorificity,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryDirection,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForMacrocategoryRole,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryConstruct,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryModality,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryMotion,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryRepetition,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategorySwitchReference,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryMA,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryMTN,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryAffect,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryTE,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryPosterior,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryPotentialis,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryME,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryAE,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryConditional,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryQuotative,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryPossessor,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryTAME,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryTAE,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryControl,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryReversative,manual entry,,logical,1
+VerbInflectionCategoriesAggregatedPresence,primary,VerbInflection,IsInflectedForCategoryTN,manual entry,,logical,1
+VerbInflectionAndAgreementCountsByPosition,derived,Morphology,LID,manual entry,,integer,1
+VerbInflectionAndAgreementCountsByPosition,derived,Morphology,Glottocode,manual entry,,string,1
+VerbInflectionAndAgreementCountsByPosition,derived,Morphology,Language,manual entry,,string,1
+VerbInflectionAndAgreementCountsByPosition,derived,Morphology,InflectionMarkersAtPostCount,computed,,integer,1
+VerbInflectionAndAgreementCountsByPosition,derived,Morphology,InflectionMarkersAtPraeCount,computed,,integer,1
+VerbInflectionAndAgreementCountsByPosition,derived,Morphology,InflectionMarkersAtSplitCount,computed,,integer,1
+VerbInflectionAndAgreementCountsByPosition,derived,Morphology,InflectionMarkersAtSimulCount,computed,,integer,1
+VerbInflectionAndAgreementCountsByPosition,derived,Morphology,InflectionMarkersAtInCount,manual entry,,integer,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,LID,manual entry,,integer,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,Glottocode,manual entry,,string,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,Language,manual entry,,string,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForTAM,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForPolarity,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForVoice,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForMood,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForValence,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForAktionsart,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForConnective,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForSemistem,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForReferential,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForCausative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForAspect,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForTM,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForDeixis,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForMSE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForQuantificational,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForMA,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForTense,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForTA,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForPotentialis,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForApplicative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForNumber,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForReflexiveAndReciprocal,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForVersion,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForIllocution,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForMTN,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForStatus,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForEvidential,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForConstruct,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForNominalizer,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForHonorificity,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForFocus,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForSwitchReference,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForSymmetricalVoice,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForRECIP,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForTE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForReflexive,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForClassifier,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForME,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForRepetition,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForSpatial,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForMotion,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForModality,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForDirection,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForPosterior,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForControl,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForQuotative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForReversative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForAffect,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForAE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForTAME,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForConditional,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForPossessor,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForTAE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForTN,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,LID,manual entry,,integer,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,Glottocode,manual entry,,string,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,Language,manual entry,,string,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForTAM,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForPolarity,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForVoice,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForMood,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForValence,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForAktionsart,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForConnective,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForSemistem,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForReferential,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForCausative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForAspect,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForTM,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForDeixis,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForMSE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForQuantificational,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForMA,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForTense,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForTA,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForPotentialis,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForApplicative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForNumber,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForReflexiveAndReciprocal,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForVersion,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForIllocution,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForMTN,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForStatus,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForEvidential,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForConstruct,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForNominalizer,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForHonorificity,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForFocus,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForSwitchReference,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForSymmetricalVoice,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForRECIP,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForTE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForReflexive,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForClassifier,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForME,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForRepetition,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForSpatial,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForMotion,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForModality,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForDirection,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForPosterior,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForControl,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForQuotative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForReversative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForAffect,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForAE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForTAME,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForConditional,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForPossessor,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForTAE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForTN,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,LID,manual entry,,integer,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,Glottocode,manual entry,,string,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,Language,manual entry,,string,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForTAM,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForPolarity,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForVoice,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForMood,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForValence,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForAktionsart,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForConnective,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForSemistem,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForReferential,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForCausative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForAspect,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForTM,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForDeixis,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForMSE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForQuantificational,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForMA,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForTense,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForTA,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForPotentialis,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForApplicative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForNumber,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForReflexiveAndReciprocal,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForVersion,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForIllocution,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForMTN,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForStatus,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForEvidential,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForConstruct,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForNominalizer,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForHonorificity,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForFocus,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForSwitchReference,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForSymmetricalVoice,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForRECIP,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForTE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForReflexive,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForClassifier,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForME,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForRepetition,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForSpatial,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForMotion,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForModality,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForDirection,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForPosterior,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForControl,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForQuotative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForReversative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForAffect,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForAE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForTAME,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForConditional,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForPossessor,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForTAE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForTN,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,LID,manual entry,,integer,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,Glottocode,manual entry,,string,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,Language,manual entry,,string,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForTAM,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForPolarity,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForVoice,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForMood,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForValence,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForAktionsart,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForConnective,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForSemistem,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForReferential,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForCausative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForAspect,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForTM,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForDeixis,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForMSE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForQuantificational,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForMA,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForTense,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForTA,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForPotentialis,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForApplicative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForNumber,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForReflexiveAndReciprocal,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForVersion,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForIllocution,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForMTN,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForStatus,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForEvidential,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForConstruct,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForNominalizer,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForHonorificity,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForFocus,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForSwitchReference,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForSymmetricalVoice,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForRECIP,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForTE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForReflexive,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForClassifier,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForME,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForRepetition,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForSpatial,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForMotion,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForModality,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForDirection,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForPosterior,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForControl,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForQuotative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForReversative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForAffect,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForAE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForTAME,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForConditional,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForPossessor,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForTAE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForTN,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,LID,manual entry,,integer,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,Glottocode,manual entry,,string,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,Language,manual entry,,string,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForTAM,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForPolarity,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForVoice,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForMood,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForValence,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForAktionsart,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForConnective,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForSemistem,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForReferential,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForCausative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForAspect,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForTM,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForDeixis,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForMSE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForQuantificational,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForMA,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForTense,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForTA,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForPotentialis,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForApplicative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForNumber,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForReflexiveAndReciprocal,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForVersion,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForIllocution,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForMTN,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForStatus,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForEvidential,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForConstruct,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForNominalizer,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForHonorificity,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForFocus,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForSwitchReference,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForSymmetricalVoice,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForRECIP,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForTE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForReflexive,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForClassifier,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForME,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForRepetition,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForSpatial,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForMotion,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForModality,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForDirection,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForPosterior,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForControl,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForQuotative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForReversative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForAffect,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForAE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForTAME,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForConditional,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForPossessor,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForTAE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForTN,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,LID,manual entry,,integer,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,Glottocode,manual entry,,string,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,Language,manual entry,,string,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForTAM,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForPolarity,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForVoice,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForMood,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForValence,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForAktionsart,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForConnective,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForSemistem,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForReferential,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForCausative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForAspect,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForTM,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForDeixis,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForMSE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForQuantificational,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForMA,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForTense,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForTA,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForPotentialis,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForApplicative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForNumber,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForReflexiveAndReciprocal,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForVersion,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForIllocution,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForMTN,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForStatus,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForEvidential,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForConstruct,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForNominalizer,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForHonorificity,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForFocus,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForSwitchReference,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForSymmetricalVoice,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForRECIP,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForTE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForReflexive,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForClassifier,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForME,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForRepetition,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForSpatial,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForMotion,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForModality,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForDirection,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForPosterior,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForControl,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForQuotative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForReversative,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForAffect,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForAE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForTAME,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForConditional,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForPossessor,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForTAE,computed,,logical,1
+VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForTN,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPosition,derived,VerbInflection,LID,manual entry,,integer,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPosition,derived,VerbInflection,Glottocode,manual entry,,string,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPosition,derived,VerbInflection,Language,manual entry,,string,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForTAMPlus,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForOperators,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForValence,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForInterClausal,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForOther,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForPragmatic,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForNumber,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForEvidential,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForNPRelated,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForClassification,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForEventSpecs,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForRole,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,LID,manual entry,,integer,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,Glottocode,manual entry,,string,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,Language,manual entry,,string,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForTAMPlus,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForOperators,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForValence,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForInterClausal,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForOther,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForPragmatic,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForNumber,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForEvidential,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForNPRelated,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForClassification,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForEventSpecs,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForRole,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,LID,manual entry,,integer,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,Glottocode,manual entry,,string,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,Language,manual entry,,string,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForTAMPlus,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForOperators,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForValence,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForInterClausal,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForOther,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForPragmatic,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForNumber,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForEvidential,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForNPRelated,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForClassification,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForEventSpecs,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForRole,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,LID,manual entry,,integer,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,Glottocode,manual entry,,string,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,Language,manual entry,,string,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForTAMPlus,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForOperators,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForValence,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForInterClausal,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForOther,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForPragmatic,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForNumber,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForEvidential,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForNPRelated,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForClassification,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForEventSpecs,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForRole,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,LID,manual entry,,integer,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,Glottocode,manual entry,,string,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,Language,manual entry,,string,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForTAMPlus,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForOperators,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForValence,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForInterClausal,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForOther,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForPragmatic,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForNumber,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForEvidential,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForNPRelated,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForClassification,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForEventSpecs,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForRole,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,LID,manual entry,,integer,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,Glottocode,manual entry,,string,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,Language,manual entry,,string,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForTAMPlus,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForOperators,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForValence,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForInterClausal,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForOther,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForPragmatic,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForNumber,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForEvidential,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForNPRelated,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForClassification,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForEventSpecs,computed,,logical,1
+VerbInflectionMacrocategoriesAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForRole,computed,,logical,1
+VerbAgreementAggregatedByMarkerPosition,derived,VerbInflection,LID,manual entry,,integer,1
+VerbAgreementAggregatedByMarkerPosition,derived,VerbInflection,Glottocode,manual entry,,string,1
+VerbAgreementAggregatedByMarkerPosition,derived,VerbInflection,Language,manual entry,,string,1
+VerbAgreementAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForADefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForUDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForSDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForBDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForPOSSDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForARGNom,computed,,logical,1
+VerbAgreementAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForOAdp,computed,,logical,1
+VerbAgreementAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForAFF,computed,,logical,1
+VerbAgreementAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForTDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForIDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForGDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForCore,computed,,logical,1
+VerbAgreementAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForPat,computed,,logical,1
+VerbAgreementAggregatedByMarkerPosition,derived,VerbInflection,MarkerPositionForUBDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned4,derived,VerbInflection,LID,manual entry,,integer,1
+VerbAgreementAggregatedByMarkerPositionBinned4,derived,VerbInflection,Glottocode,manual entry,,string,1
+VerbAgreementAggregatedByMarkerPositionBinned4,derived,VerbInflection,Language,manual entry,,string,1
+VerbAgreementAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForADefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForUDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForSDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForBDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForPOSSDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForARGNom,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForOAdp,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForAFF,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForTDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForIDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForGDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForCore,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForPat,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned4,derived,VerbInflection,MarkerPositionBinned4ForUBDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned5,derived,VerbInflection,LID,manual entry,,integer,1
+VerbAgreementAggregatedByMarkerPositionBinned5,derived,VerbInflection,Glottocode,manual entry,,string,1
+VerbAgreementAggregatedByMarkerPositionBinned5,derived,VerbInflection,Language,manual entry,,string,1
+VerbAgreementAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForADefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForUDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForSDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForBDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForPOSSDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForARGNom,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForOAdp,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForAFF,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForTDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForIDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForGDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForCore,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForPat,computed,,logical,1
+VerbAgreementAggregatedByMarkerPositionBinned5,derived,VerbInflection,MarkerPositionBinned5ForUBDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,LID,manual entry,,integer,1
+VerbAgreementAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,Glottocode,manual entry,,string,1
+VerbAgreementAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,Language,manual entry,,string,1
+VerbAgreementAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForADefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForUDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForSDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForBDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForPOSSDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForARGNom,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForOAdp,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForAFF,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForTDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForIDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForGDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForCore,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForPat,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPreposedExponent,derived,VerbInflection,MarkerHasPreposedExponentForUBDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,LID,manual entry,,integer,1
+VerbAgreementAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,Glottocode,manual entry,,string,1
+VerbAgreementAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,Language,manual entry,,string,1
+VerbAgreementAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForADefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForUDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForSDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForBDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForPOSSDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForARGNom,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForOAdp,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForAFF,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForTDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForIDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForGDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForCore,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForPat,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasPostposedExponent,derived,VerbInflection,MarkerHasPostposedExponentForUBDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,LID,manual entry,,integer,1
+VerbAgreementAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,Glottocode,manual entry,,string,1
+VerbAgreementAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,Language,manual entry,,string,1
+VerbAgreementAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForADefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForUDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForSDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForBDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForPOSSDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForARGNom,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForOAdp,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForAFF,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForTDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForIDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForGDefault,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForCore,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForPat,computed,,logical,1
+VerbAgreementAggregatedByMarkerHasMultipleExponents,derived,VerbInflection,MarkerHasMultipleExponentsForUBDefault,computed,,logical,1

@@ -1,0 +1,364 @@
+description: >-
+  Strings of morphs are coded for phonological and grammatical cohesion; cohesion patterns come
+  with explicit descriptions and morphs are categorized in a multivariate typology.  See our
+  [2009 project report](http://www.autotyp.uzh.ch/download/finalreport_words.pdf) for details.
+kind: manual data entry
+data: table
+counts:
+  n_languages: 76
+  n_variables: 40
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      Language name
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  CohesionPatternLoc:
+    description: >-
+      Location in the morphosyntactic structure where a cohesion pattern
+      has effects (edge, spanning all, etc.)
+    kind: manual data entry
+    data: string
+  # -- end of CohesionPatternLoc
+
+  MphmTypesInCohDomainProp:
+    description: >-
+      Proportion of morpheme types included in a phonologically or grammatically
+      coherent domain
+    kind: manual data entry
+    data: string
+  # -- end of MphmTypesInCohDomainProp
+
+  MphmTypesInCohPrefixDomainProp:
+    description: >-
+      Proportion of morpheme types included in a phonologically or grammatically
+      coherent prefix domain
+    kind: manual data entry
+    data: number
+  # -- end of MphmTypesInCohPrefixDomainProp
+
+  MphmTypesInCohSuffixDomainProp:
+    description: >-
+      Proportion of morpheme types included in a phonologically or grammatically
+      coherent suffix domain
+    kind: manual data entry
+    data: number
+  # -- end of MphmTypesInCohSuffixDomainProp
+
+  MphmTypesInCohStemDomainProp:
+    description: >-
+      Proportion of morpheme types included in a phonologically or grammatically
+      coherent stem domain
+    kind: manual data entry
+    data: number
+  # -- end of MphmTypesInCohStemDomainProp
+
+  MphmTypesInCohDomain:
+    description: >-
+      Grammatical domain to which a cohesion pattern applies
+    kind: manual data entry
+    data: string
+  # -- end of MphmTypesInCohDomain
+
+  MphmTypesInCohDomainBinned77:
+    description: >-
+      Grammatical domain to which a cohesion pattern applies, binned into
+      slightly more abstract categories, disregarding any difference between ‘root’
+      and ‘stem’ that can be motivated in a given language and disregarding whether
+      or not morphemes must be simulteneously present or not for a cohesion pattern
+      to apply (i.e. disregarding the difference between ± and + in MphmTypesInCohDomain).
+      For example, the following four separate types in MphmTypesInCohDomain are here
+      considered a single type: Stem + suffix, Stem ± suffix, Root + sufix, Root ± suffix.
+    kind: manual data entry
+    data: string
+  # -- end of MphmTypesInCohDomainBinned77
+
+  CoherentEncliticBoundaryPresence:
+    description: >-
+      Application of cohesion pattern to an enclitic alone (i.e. within the
+      enclitic)
+    kind: manual data entry
+    data: string
+  # -- end of CoherentEncliticBoundaryPresence
+
+  CoherentEnclEnclBoundaryPresence:
+    description: >-
+      Application of cohesion pattern to an enclitic boundary
+    kind: manual data entry
+    data: string
+  # -- end of CoherentEnclEnclBoundaryPresence
+
+  CohPatternOutputOrigin:
+    description: >-
+      Origin of the output of phonological cohesion rules. An attempt to
+      address Lexical Phonology predictions and assumptions (generally, akin to structure-preserving
+      vs structure-altering distinctions)
+    kind: manual data entry
+    data: string
+  # -- end of CohPatternOutputOrigin
+
+  MphmTypesInCohDomainMultistemPresence:
+    description: >-
+      Ponologically or grammatically coherent domain involving more than
+      one stem, i.e. potentially phrase-level
+    kind: manual data entry
+    data: string
+  # -- end of MphmTypesInCohDomainMultistemPresence
+
+  CohesionPatternBinned18:
+    description: >-
+      Type of phonological pattern, binned at a low level (see Bickel et
+      al. 2009 in Grijzenhout, G. & B. Kabak [eds] Phonological domains, Berlin: DeGruyterMouton)
+    kind: manual data entry
+    data: string
+  # -- end of CohesionPatternBinned18
+
+  CohesionPatternBinned12:
+    description: >-
+      Type of phonological pattern, binned at a high level (see Bickel et
+      al. 2009 in Grijzenhout, G. & B. Kabak [eds] Phonological domains, Berlin: DeGruyterMouton)
+    kind: manual data entry
+    data: string
+  # -- end of CohesionPatternBinned12
+
+  CohesionPatternBinned4:
+    description: >-
+      Type of phonological pattern, binned at a very abstract level (see
+      Bickel et al. 2009 in Grijzenhout, G. & B. Kabak [eds] Phonological domains, Berlin:
+      DeGruyterMouton)
+    kind: manual data entry
+    data: string
+  # -- end of CohesionPatternBinned4
+
+  CoherentPrefixBoundaryPresence:
+    description: >-
+      Application of cohesion pattern to a prefix alone (i.e. wthin the prefix)
+    kind: manual data entry
+    data: string
+  # -- end of CoherentPrefixBoundaryPresence
+
+  CoherentPrefixPrefixBoundaryPresence:
+    description: >-
+      Application of cohesion pattern to a prefix boundary
+    kind: manual data entry
+    data: string
+  # -- end of CoherentPrefixPrefixBoundaryPresence
+
+  CoherentPrefixStemBoundaryPresence:
+    description: >-
+      Application of cohesion pattern to a prefix-stem boundary
+    kind: manual data entry
+    data: string
+  # -- end of CoherentPrefixStemBoundaryPresence
+
+  CoherentProclBoundaryPresence:
+    description: >-
+      Application of cohesion pattern to a proclitic alone (i.e. within the
+      proclitic)
+    kind: manual data entry
+    data: string
+  # -- end of CoherentProclBoundaryPresence
+
+  CoherentProclPrefixBoundaryPresence:
+    description: >-
+      Application of cohesion pattern to a proclitic-prefix boundary
+    kind: manual data entry
+    data: string
+  # -- end of CoherentProclPrefixBoundaryPresence
+
+  CoherentProclProcliticBoundaryPresence:
+    description: >-
+      Application of cohesion pattern to a proclitic boundary
+    kind: manual data entry
+    data: string
+  # -- end of CoherentProclProcliticBoundaryPresence
+
+  CoherentProclStemBoundaryPresence:
+    description: >-
+      Application of cohesion pattern to a proclitic-stem boundary
+    kind: manual data entry
+    data: string
+  # -- end of CoherentProclStemBoundaryPresence
+
+  CohesionPatternDataSourceType:
+    description: >-
+      Type of evidence for the coding. Not a typological variable: do not
+      quantify and use only for filtering!
+    kind: manual data entry
+    data: string
+  # -- end of CohesionPatternDataSourceType
+
+  NumberMphmTypesInCohDomain:
+    description: >-
+      Number of morpheme types included in a phonologically or grammatically
+      coherent domain
+    kind: manual data entry
+    data: string
+  # -- end of NumberMphmTypesInCohDomain
+
+  NumberMphmTypesInCohPrefixDomain:
+    description: >-
+      Number of morpheme types included in a phonologically or grammatically
+      coherent prefix domain
+    kind: manual data entry
+    data: string
+  # -- end of NumberMphmTypesInCohPrefixDomain
+
+  NumberMphmTypesInCohSuffixDomain:
+    description: >-
+      Number of morpheme types included in a phonologically or grammatically
+      coherent suffix domain
+    kind: manual data entry
+    data: string
+  # -- end of NumberMphmTypesInCohSuffixDomain
+
+  CoherentStemBoundaryPresence:
+    description: >-
+      Application of cohesion pattern to a stem alone (i.e. within the stem)
+    kind: manual data entry
+    data: string
+  # -- end of CoherentStemBoundaryPresence
+
+  CoherentStemEnclBoundaryPresence:
+    description: >-
+      Application of cohesion pattern to a stem-enclitic boundary
+    kind: manual data entry
+    data: string
+  # -- end of CoherentStemEnclBoundaryPresence
+
+  CoherentStemEndoclBoundaryPresence:
+    description: >-
+      Application of cohesion pattern to a stem-endoclitic boundary
+    kind: manual data entry
+    data: string
+  # -- end of CoherentStemEndoclBoundaryPresence
+
+  CoherentStemInfixBoundaryPresence:
+    description: >-
+      Application of cohesion pattern to a stem-infix boundary
+    kind: manual data entry
+    data: string
+  # -- end of CoherentStemInfixBoundaryPresence
+
+  CoherentStemSuffixBoundaryPresence:
+    description: >-
+      Application of cohesion pattern to a stem-suffix boundary
+    kind: manual data entry
+    data: string
+  # -- end of CoherentStemSuffixBoundaryPresence
+
+  CohesionPatternStressPresence:
+    description: >-
+      Phonological cohesion pattern based on stress placement (see Bickel
+      et al. 2009 in Grijzenhout, G. & B. Kabak [eds] Phonological domains, Berlin:
+      DeGruyterMouton)
+    kind: manual data entry
+    data: string
+  # -- end of CohesionPatternStressPresence
+
+  CohPatternStructurePreservingPresence:
+    description: >-
+      Cohesion pattern which preserves the native lexical phonological contrast
+      set or does it introduce segments not contained there (Only defined for phonological
+      cohesion)
+    kind: manual data entry
+    data: string
+  # -- end of CohPatternStructurePreservingPresence
+
+  CoherentSuffixBoundaryPresence:
+    description: >-
+      Application of cohesion pattern to a suffix alone (i.e. within the
+      suffix)
+    kind: manual data entry
+    data: string
+  # -- end of CoherentSuffixBoundaryPresence
+
+  CoherentSuffixEnclBoundaryPresence:
+    description: >-
+      Application of cohesion pattern to a suffix-enclitic boundary
+    kind: manual data entry
+    data: string
+  # -- end of CoherentSuffixEnclBoundaryPresence
+
+  CoherentSuffixSuffixBoundaryPresence:
+    description: >-
+      Application of cohesion pattern to a suffix boundary
+    kind: manual data entry
+    data: string
+  # -- end of CoherentSuffixSuffixBoundaryPresence
+
+  SurveyStatus:
+    description: >-
+      Extent of analysis. Not a typological variable: do not quantify and
+      use only for filtering!
+    kind: manual data entry
+    data: string
+  # -- end of SurveyStatus
+
+  CohesionPatternType:
+    description: >-
+      'Type of cohesion pattern: grammatical/morphosyntactic or phonological.'
+    kind: manual data entry
+    data: string
+  # -- end of CohesionPatternType
+
+  MphmTypesInCohPrefixDomainPropBinned3:
+    description: >-
+        Proportion of morpheme types included in a phonologically or
+        grammatically coherent prefix domain, binned
+    kind: computed data (aggregation-scripts/enhancements/WordDomains.R)
+    data: value-list
+    values: 
+      "low": >-
+        lowest 33% percentile
+      "medium": >-
+        middle 33% percentile
+      "high": >-
+        top 33% percentile
+  # -- end of MphmTypesInCohPrefixDomainPropBinned3
+
+  MphmTypesInCohSuffixDomainPropBinned3:
+    description: >-
+        Proportion of morpheme types included in a phonologically or grammatically
+        coherent suffix domain, binned
+    kind: computed data (aggregation-scripts/enhancements/WordDomains.R)
+    data: value-list
+    values: 
+      "low": >-
+        lowest 33% percentile
+      "medium": >-
+        middle 33% percentile
+      "high": >-
+        top 33% percentile
+  # -- end of MphmTypesInCohSuffixDomainPropBinned3
+
+  MphmTypesInCohStemDomainPropBinned3:
+    description: >-
+        Proportion of morpheme types included in a phonologically or grammatically
+        coherent stem domain, binned
+    kind: computed data (aggregation-scripts/enhancements/WordDomains.R)
+    data: value-list
+    values: 
+      "low": >-
+        lowest 33% percentile
+      "medium": >-
+        middle 33% percentile
+      "high": >-
+        top 33% percentile
+  # -- end of MphmTypesInCohStemDomainPropBinned3
