@@ -329,14 +329,14 @@ Kristine, Rießler, Michael, Bierkandt, Lennart, Zúñiga, Fernando & Lowe, John
 ```bibtex
 @misc{AUTOTYP,
   author = {
-    Bickel, Balthasar and 
-    Nichols, Johanna and 
-    Zakharko, Taras and 
-    Witzlack-Makarevich, Alena and 
-    Hildebrandt, Kristine and 
-    Rießler, Michael and 
-    Bierkandt, Lennart and 
-    Zúñiga, Fernando and 
+    Bickel, Balthasar and
+    Nichols, Johanna and
+    Zakharko, Taras and
+    Witzlack-Makarevich, Alena and
+    Hildebrandt, Kristine and
+    Rie{\ss}ler, Michael and
+    Bierkandt, Lennart and
+    Z{\'u}{\~n}iga, Fernando and
     Lowe, John B
   },
   doi = {10.5281/zenodo.5931509},
