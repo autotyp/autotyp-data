@@ -939,7 +939,10 @@
     "LID": 48,
     "Glottocode": "cham1312",
     "Language": "Chamorro",
-    "Macrorelation": "P"
+    "Macrorelation": "P",
+    "LocusOfMarking": null,
+    "LocusOfMarkingBinned5": null,
+    "LocusOfMarkingBinned6": null
   },
   {
     "LID": 48,
@@ -1161,7 +1164,10 @@
     "LID": 61,
     "Glottocode": "lowe1415",
     "Language": "Dani (Lower Grand Valley)",
-    "Macrorelation": "ATTR"
+    "Macrorelation": "ATTR",
+    "LocusOfMarking": null,
+    "LocusOfMarkingBinned5": null,
+    "LocusOfMarkingBinned6": null
   },
   {
     "LID": 61,
@@ -2796,7 +2802,10 @@
     "LID": 125,
     "Glottocode": "karo1304",
     "Language": "Karok",
-    "Macrorelation": "ATTR"
+    "Macrorelation": "ATTR",
+    "LocusOfMarking": null,
+    "LocusOfMarkingBinned5": null,
+    "LocusOfMarkingBinned6": null
   },
   {
     "LID": 125,
@@ -4152,7 +4161,10 @@
     "LID": 176,
     "Glottocode": "mapu1245",
     "Language": "Mapudungun",
-    "Macrorelation": "P"
+    "Macrorelation": "P",
+    "LocusOfMarking": null,
+    "LocusOfMarkingBinned5": null,
+    "LocusOfMarkingBinned6": null
   },
   {
     "LID": 176,
@@ -4691,7 +4703,8 @@
     "Language": "Nakkara",
     "Macrorelation": "POSS",
     "LocusOfMarking": "H/D",
-    "LocusOfMarkingBinned5": "2"
+    "LocusOfMarkingBinned5": "2",
+    "LocusOfMarkingBinned6": null
   },
   {
     "LID": 198,
@@ -5624,7 +5637,10 @@
     "LID": 327,
     "Glottocode": "paiw1248",
     "Language": "Paiwan",
-    "Macrorelation": "ATTR"
+    "Macrorelation": "ATTR",
+    "LocusOfMarking": null,
+    "LocusOfMarkingBinned5": null,
+    "LocusOfMarkingBinned6": null
   },
   {
     "LID": 327,
@@ -6467,6 +6483,7 @@
     "LID": 362,
     "Glottocode": "taga1270",
     "Language": "Tagalog",
+    "Macrorelation": null,
     "LocusOfMarking": "H+D",
     "LocusOfMarkingBinned5": "2",
     "LocusOfMarkingBinned6": "2"
@@ -7539,7 +7556,8 @@
     "Language": "Warao",
     "Macrorelation": "POSS",
     "LocusOfMarking": "H/D",
-    "LocusOfMarkingBinned5": "2"
+    "LocusOfMarkingBinned5": "2",
+    "LocusOfMarkingBinned6": null
   },
   {
     "LID": 399,
@@ -7905,7 +7923,10 @@
     "LID": 411,
     "Glottocode": "wasc1239",
     "Language": "Wishram",
-    "Macrorelation": "ATTR"
+    "Macrorelation": "ATTR",
+    "LocusOfMarking": null,
+    "LocusOfMarkingBinned5": null,
+    "LocusOfMarkingBinned6": null
   },
   {
     "LID": 411,
@@ -8334,7 +8355,10 @@
     "LID": 428,
     "Glottocode": "yuro1248",
     "Language": "Yurok",
-    "Macrorelation": "ATTR"
+    "Macrorelation": "ATTR",
+    "LocusOfMarking": null,
+    "LocusOfMarkingBinned5": null,
+    "LocusOfMarkingBinned6": null
   },
   {
     "LID": 428,
@@ -8494,7 +8518,9 @@
     "Glottocode": "maib1239",
     "Language": "Maybrat",
     "Macrorelation": "P",
-    "LocusOfMarking": "P"
+    "LocusOfMarking": "P",
+    "LocusOfMarkingBinned5": null,
+    "LocusOfMarkingBinned6": null
   },
   {
     "LID": 438,
@@ -8628,7 +8654,8 @@
     "Language": "Rama",
     "Macrorelation": "POSS",
     "LocusOfMarking": "H/D/DH",
-    "LocusOfMarkingBinned5": "2"
+    "LocusOfMarkingBinned5": "2",
+    "LocusOfMarkingBinned6": null
   },
   {
     "LID": 454,
@@ -9265,7 +9292,9 @@
     "Glottocode": "kron1241",
     "Language": "Krongo",
     "Macrorelation": "P",
-    "LocusOfMarking": "P"
+    "LocusOfMarking": "P",
+    "LocusOfMarkingBinned5": null,
+    "LocusOfMarkingBinned6": null
   },
   {
     "LID": 495,
@@ -10639,7 +10668,10 @@
     "LID": 568,
     "Glottocode": "sout2982",
     "Language": "Pomo (Southeastern)",
-    "Macrorelation": "ATTR"
+    "Macrorelation": "ATTR",
+    "LocusOfMarking": null,
+    "LocusOfMarkingBinned5": null,
+    "LocusOfMarkingBinned6": null
   },
   {
     "LID": 568,
@@ -10807,7 +10839,10 @@
     "LID": 577,
     "Glottocode": "wich1260",
     "Language": "Wichita",
-    "Macrorelation": "ATTR"
+    "Macrorelation": "ATTR",
+    "LocusOfMarking": null,
+    "LocusOfMarkingBinned5": null,
+    "LocusOfMarkingBinned6": null
   },
   {
     "LID": 577,
@@ -11282,7 +11317,9 @@
     "Glottocode": "sout2778",
     "Language": "Kisi",
     "Macrorelation": "A",
-    "LocusOfMarking": "P"
+    "LocusOfMarking": "P",
+    "LocusOfMarkingBinned5": null,
+    "LocusOfMarkingBinned6": null
   },
   {
     "LID": 643,
@@ -11298,7 +11335,9 @@
     "Glottocode": "sout2778",
     "Language": "Kisi",
     "Macrorelation": "P",
-    "LocusOfMarking": "P"
+    "LocusOfMarking": "P",
+    "LocusOfMarkingBinned5": null,
+    "LocusOfMarkingBinned6": null
   },
   {
     "LID": 643,
@@ -11314,7 +11353,9 @@
     "Glottocode": "sout2778",
     "Language": "Kisi",
     "Macrorelation": "S",
-    "LocusOfMarking": "P"
+    "LocusOfMarking": "P",
+    "LocusOfMarkingBinned5": null,
+    "LocusOfMarkingBinned6": null
   },
   {
     "LID": 644,
@@ -12267,7 +12308,8 @@
     "Language": "Halkomelem",
     "Macrorelation": "POSS",
     "LocusOfMarking": "H/F",
-    "LocusOfMarkingBinned5": "2"
+    "LocusOfMarkingBinned5": "2",
+    "LocusOfMarkingBinned6": null
   },
   {
     "LID": 1692,

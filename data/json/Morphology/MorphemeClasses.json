@@ -45,6 +45,7 @@
     "Glottocode": "belh1239",
     "Language": "Belhare",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Double marking?"
   },
@@ -54,6 +55,7 @@
     "Glottocode": "belh1239",
     "Language": "Belhare",
     "MorphemeType": "stem part",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Double marking?"
   },
@@ -93,6 +95,7 @@
     "Glottocode": "mana1288",
     "Language": "Manange",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "NA"
   },
@@ -142,6 +145,7 @@
     "Glottocode": "stan1295",
     "Language": "German",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "simulfix is like Häuser ‘houses’ or Wänd-chen ‘wall-DIM’ with both ablaut and suffix\rprae, semirestricted is like ent- + verbs, numerals, ‘neither’, and nouns (ent-stem)\rPossibly also: (?) post-semirestricted -lich (goes with colours, participialized verbs, adjectives) and also simul semirestricted (ablaut + -lich_ goes with nouns, adjectives, verbs"
   },
@@ -211,6 +215,7 @@
     "Glottocode": "chuk1273",
     "Language": "Chukchi",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "maybe also simulfixes: Dunn 1999\r‘Circum’ split into 2 positions because of potential to be divided in domains"
   },
@@ -260,6 +265,7 @@
     "Glottocode": "jeha1242",
     "Language": "Jahai",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "NA"
   },
@@ -289,6 +295,7 @@
     "Glottocode": "dutc1256",
     "Language": "Dutch",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "possibly simul restricted formative? some verbs undergo ablaut with PTCP.PT circumfix ge--d\rzaag ‘tell’ > ge-zeg-d ‘told’"
   },
@@ -388,6 +395,7 @@
     "Glottocode": "czec1258",
     "Language": "Czech",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Superlative marking on adjectives is marked via nej-STEM-í, where -i alone is the suffix in comparative marking."
   },
@@ -427,6 +435,7 @@
     "Glottocode": "east2773",
     "Language": "Newar (Dolakha)",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "unrestricted formative is -ŋ EMPHATIC; follows nouns, inflected verbs, temporal elements, numerals, etc."
   },
@@ -456,6 +465,7 @@
     "Glottocode": "lahu1253",
     "Language": "Lahu",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Unrestricted posposted is Question marker -la53; shown with inflected verb and with verb (what else can it follow?)"
   },
@@ -485,6 +495,7 @@
     "Glottocode": "mand1415",
     "Language": "Mandarin",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "postposed unrestricted formative is -lə FOCUS; follows nouns and verbs (what else?)"
   },
@@ -534,6 +545,7 @@
     "Glottocode": "nepa1254",
     "Language": "Nepali",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "semirestricted postposed formative: adjectivizer derivational marker -il; follows nouns and verbs"
   },
@@ -573,6 +585,7 @@
     "Glottocode": "mani1292",
     "Language": "Meithei",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "unrestricted preposed formative: -ə nominalizer/attributive.  Occurs on nouns, verbs, verbal adjectives, numerals, determiner, adverb, ‘so’ discourse particle\rsemirestricted postposed formative: -ni COP.  Occurs on verbs, nouns and verbal adjectives"
   },
@@ -612,6 +625,7 @@
     "Glottocode": "west2420",
     "Language": "Kham",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "no ‘clitics/semi-/unrestricted’ formatives?"
   },
@@ -641,6 +655,7 @@
     "Glottocode": "kyer1238",
     "Language": "Tibetan (Kyirong)",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "semi-restricted postposed formative DEF =de (last element of the NP)\ralso emphatic =ko (verbs, nouns)"
   },
@@ -680,6 +695,7 @@
     "Glottocode": "kham1282",
     "Language": "Tibetan (Dege)",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Semi-restricted postposed: -ki ERG/GEN/INSTR; occurs on last element of NP (noun, adjective)"
   },
@@ -719,6 +735,7 @@
     "Glottocode": "tibe1272",
     "Language": "Tibetan (Lhasa)",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Not sure if any formatives are unrestricted or semi-restricted.  What about case?  Question markers?"
   },
@@ -748,6 +765,7 @@
     "Glottocode": "swed1254",
     "Language": "Swedish",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Simulfix: (adjective) stem vowel fronting/shortening + -re for COMPARATIVE (2nd inflection class)\rsto:r > stør-re ‘bigger’"
   },
@@ -797,6 +815,7 @@
     "Glottocode": "kinn1249",
     "Language": "Kinnauri",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "The postposed semi-restricted is not totally certain: -č DIM\rOccurs with noun stem, no other data, but looks like it can occur with verbs & adjective stems (see quote Sharma p. 59)"
   },
@@ -836,6 +855,7 @@
     "Glottocode": "nucl1634",
     "Language": "Sko",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "‘suffixes’ only on nominal elements--predicates no suffixation; true unrestricted ‘enclitics’ include =ra ‘also’ and demonstratives; preposed semi-restricted formative: subject agreement (on adjectives & verbs); GEN & DAT marking suffixal on nouns; prefix also subj marking on verbs only"
   },
@@ -885,6 +905,7 @@
     "Glottocode": "egyp1253",
     "Language": "Arabic (Egyptian)",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "circum semi-restrcted: ma-X-ʃ (negation).  Circles verbs, personal pronouns\rpotentially a semi/unrestricted post-posed formative: -ak.  It occurs with verbs as object marker.  It occurs with nouns as 2nd person possession (head-marked); it occurs with prepositions as object marker.\rpossibly preposed semirestricted: ʔal- ARTICLE--occurs with nouns, adjectives\rpreposed unrestricted--negation (word-level): occurs with nouns, pronouns, adjectives, adverbs, participles, prepositions (but not verbs?)"
   },
@@ -954,6 +975,7 @@
     "Glottocode": "cayu1262",
     "Language": "Cayuvava",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "semi-restricted preposed formative: ji- WITH/BY (not exactly comitative): ocurs with noun, adjective, verb\rNot sure about semi-restricted Pre + Postposed formative:\r-pə (but only if it co-occurs wiht ji- prefix) ‘DOWN’ (but no data in grammar)"
   },
@@ -1003,6 +1025,7 @@
     "Glottocode": "kumi1248",
     "Language": "Diegueño",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "restricted simulfix: -c suffix with root vowel length change DISTR.PLT (distributive plurality)\rwa:w-c > [wawc] ‘holler-DISTR.PLT’ (vowel shortening)\rxuy-c [xu:yc] ‘be hard-DISTR.PLT’ (vowel lengthening)"
   },
@@ -1042,6 +1065,7 @@
     "Glottocode": "fiji1243",
     "Language": "Fijian (Boumaa)",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "unrestricted preposed: loosely bouond funtion words"
   },
@@ -1091,6 +1115,7 @@
     "Glottocode": "nucl1301",
     "Language": "Turkish",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Pos1: prefixed reduplicative\rPos3: suffixes\rPos4: -lar PL on nouns and verbs (with verbs only in 3rd person)\rPos5: -mi Q on just about any stem (and other clitics)\r(Revised by René 10-17-2006)"
   },
@@ -1130,6 +1155,7 @@
     "Glottocode": "hind1269",
     "Language": "Hindi",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "possible postposed semirestricted: -vālā ASSOCIATED.PERSON\rwith nouns and nominalized verbs"
   },
@@ -1169,6 +1195,7 @@
     "Glottocode": "yidi1250",
     "Language": "Yidiny",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "not sure if other morpheme types"
   },
@@ -1198,6 +1225,7 @@
     "Glottocode": "halh1238",
     "Language": "Mongolian (Khalkha)",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "postposed semirestricted: -nee GEN with verbs and nouns"
   },
@@ -1227,6 +1255,7 @@
     "Glottocode": "dier1241",
     "Language": "Diyari",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "postposed semirestricted: -yiʈa HABIT (habitual association)\rwith demonstrative, noun, adjective"
   },
@@ -1256,6 +1285,7 @@
     "Glottocode": "finn1318",
     "Language": "Finnish",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "postposed unrestricted: -ko Question (but maybe 2nd position within clause?)"
   },
@@ -1285,6 +1315,7 @@
     "Glottocode": "hixk1239",
     "Language": "Hixkaryana",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "semirestricted postposed: -rha AGAIN\rattaches to verbs and nouns (?) like ‘other’"
   },
@@ -1334,6 +1365,7 @@
     "Glottocode": "west2599",
     "Language": "Kewa",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Not sure if ma- CAUS is a semi-restricted preposed formative.  Data in report show it on adjective and verb, but the adjectives look like verb stems (verbal property concepts) from other morphology\rPostposed semirestricted formative: -pe FOR occurs with verb and noun"
   },
@@ -1373,6 +1405,7 @@
     "Glottocode": "east2342",
     "Language": "Kayah Li (Eastern)",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "restricted preposed: ʔi- TOOL on verbs (a nominalizer with tool semantics, it seems)\rrestricted postposed: -(ph)ú DIM (marginal use on nouns only--perhaps the only suffix in lg.)\rsemirestricted postposed: negative particle to"
   },
@@ -1412,6 +1445,7 @@
     "Glottocode": "limb1266",
     "Language": "Limbu",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "postposed semi/unrestricted -i: QUESTION (verbs, nouns, quantifiers)\rcircum (pref-stem-suffix): mɛ-STEM-n NEGATION & ku-STEM-la COLOR"
   },
@@ -1451,6 +1485,7 @@
     "Glottocode": "mapu1245",
     "Language": "Mapudungun",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "postposed semi-restricted: -pe DUBITATIVE (occurs on nouns, verbs)"
   },
@@ -1480,6 +1515,7 @@
     "Glottocode": "nucl1310",
     "Language": "Burmese",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "In main clauses, this looks more like a circumfix:\rmə- pauʔ-p’ù-là\rNEG-grow-NEG-Q\r‘Don’t they grow there?’ (p. 205): Wheatley calls the first piece an enclitic\rmaybe interrogative -là or DOUBT -nɔ; Wheatly calls these sentence level, but I’m not really sure of co-occurrence restrictions. (p. 204)"
   },
@@ -1519,6 +1555,7 @@
     "Glottocode": "mart1255",
     "Language": "Martuthunira",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "NA"
   },
@@ -1558,6 +1595,7 @@
     "Glottocode": "hung1274",
     "Language": "Hungarian",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "NA"
   },
@@ -1597,6 +1635,7 @@
     "Glottocode": "stan1290",
     "Language": "French (colloquial)",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "the post (super-restricted) is suffix part of circumfix negation, where the ne preposed formative marginally used\rShould this negation then be coded differently? i.e. 1 prae super-restricted in addition to prae restricted?"
   },
@@ -1636,6 +1675,7 @@
     "Glottocode": "mode1248",
     "Language": "Greek (modern)",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "are ‘weak’ pronouns really ‘clitics’?  Not sure if they should be included in this inventory.  Currently they are, and they are also in P-domain records.  If the ‘proclitic’ formative is removed, then the p-domain records should also be revised."
   },
@@ -1675,6 +1715,7 @@
     "Glottocode": "yuca1254",
     "Language": "Yucatec",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "any unrestricted/semirestricted particles?"
   },
@@ -1704,6 +1745,7 @@
     "Glottocode": "kusu1250",
     "Language": "Kusunda",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Watters 2005; do not appear to be semi/unrestricted particles"
   },
@@ -1733,6 +1775,7 @@
     "Glottocode": "nama1264",
     "Language": "Nama",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Not sure about status of the postposed unrestricted formative--need more information"
   },
@@ -1772,6 +1815,7 @@
     "Glottocode": "gand1255",
     "Language": "Luganda",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Need to be sure the semi-restricted preposed & postposed formatives are accurate"
   },
@@ -1821,6 +1865,7 @@
     "Glottocode": "udii1243",
     "Language": "Udi",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Not sure if there are pro-formatives"
   },
@@ -1850,6 +1895,7 @@
     "Glottocode": "stan1293",
     "Language": "English",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "NA"
   },
@@ -1889,6 +1935,7 @@
     "Glottocode": "gugu1255",
     "Language": "Guugu Yimidhirr",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "The emphatidc -:gu (which causes stem vowel lengthening) is unrestricted, but data only with nouns, verbs.  Perhaps wider selectional distribution?"
   },
@@ -1918,6 +1965,7 @@
     "Glottocode": "ital1282",
     "Language": "Italian",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Preposed restricted formatives are derivational morphemes\rNot sure if Italian has true ‘semi/unrestricted formatives’"
   },
@@ -1947,6 +1995,7 @@
     "Glottocode": "yima1243",
     "Language": "Yimas",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Is there a circumfix?"
   },
@@ -1976,6 +2025,7 @@
     "Glottocode": "wuch1236",
     "Language": "Wu",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "The semi-restricted formatives: NEG, TOP, Question.\rAre they always preposed?  Perhaps position should be more accurate."
   },
@@ -2005,6 +2055,7 @@
     "Glottocode": "yuec1235",
     "Language": "Cantonese",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Postposed (?) semirestricted formatives: kɛ5 relativizer\rand utterance-final particle wɔ5"
   },
@@ -2034,6 +2085,7 @@
     "Glottocode": "poli1260",
     "Language": "Polish",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "For P-domains records, prepositions are POSwds\rThey are: semi-restricted preposed POSwds--this means that they are grammatical heads (head of a PPhrase), but they are semi-restricted in occurrence--either before a lexical noun or a pronominal element (referred to as pronominal clitic in literature)"
   },
@@ -2083,6 +2135,7 @@
     "Glottocode": "west2369",
     "Language": "Persian",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "I have added preposed semi-restricted formative to account for proximal demonstrative.  Is this accurate?  Should it be unrestricted? Restricted?"
   },
@@ -2132,6 +2185,7 @@
     "Glottocode": "iris1253",
     "Language": "Irish",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "NA"
   },
@@ -2201,6 +2255,7 @@
     "Glottocode": "lith1251",
     "Language": "Lithuanian",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "For No. 3:  Reflexive marker is postposed restricted, but may also be preposed when occurring with verbs that also have a derivational prefix. Maybe to be changed later."
   },
@@ -2240,6 +2295,7 @@
     "Glottocode": "mode1248",
     "Language": "Greek (modern)",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "For No. 4:  object agr. clitic that changes position from pro- to en- depending on finiteness of the verb; maybe to be changed later."
   },
@@ -2279,6 +2335,7 @@
     "Glottocode": "stan1288",
     "Language": "Spanish",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Preposed phrase-restricted: preposition (also de preposition), NEG ‘no’--preposed before VP.\rThese are things that show up in literature as romance clitics: they are phonologicaly weak (but NEG can take contrastive stress) and they have a small syllable structure: (C)V.  Most lexical items in Spanish I think are minimally VC"
   },
@@ -2318,6 +2375,7 @@
     "Glottocode": "balk1252",
     "Language": "Romani (Sepecides)",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Residual issues:\rthe subjunctive/conditional marker ‘ti’ is called a particle, but it behaves like a prefix (restricted preposed).  If it is truly a particle, we might want to add a semi-restricted preposed formative to the inventory\rThe same for the negation particle ma, which behaves like a prefix (restricted)\rData from Chech, P. & M.F. Heinschink.  1999.  Sepečides Romani.  Harrassowitz Verlag (Wiesbaden)"
   },
@@ -2357,6 +2415,7 @@
     "Glottocode": "garo1247",
     "Language": "Garo",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Pos3 includes case markers such as -o LOC and clause-final clitics like =ma Yes-No-Question marker"
   },
@@ -2396,6 +2455,7 @@
     "Glottocode": "nort2722",
     "Language": "Qiang (Northern)",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "NA"
   },
@@ -2435,6 +2495,7 @@
     "Glottocode": "carn1240",
     "Language": "Car",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "NA"
   },
@@ -2494,6 +2555,7 @@
     "Glottocode": "buru1296",
     "Language": "Burushaski",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "NA"
   },
@@ -2533,6 +2595,7 @@
     "Glottocode": "khar1287",
     "Language": "Kharia",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "ad POS 4: prefix with monosyllabic roots, infix with polysyllabic roots (in some cases both pre- and infixed)\rNote: Presumably no suffixes in the language, only prefixes and enclitics"
   },
@@ -2572,6 +2635,7 @@
     "Glottocode": "viet1252",
     "Language": "Vietnamese",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Based on Available Morpheme Types Information (Thomas Goldammer, 19.05.2005)"
   },
@@ -2621,6 +2685,7 @@
     "Glottocode": "sant1410",
     "Language": "Santali",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "There are also Infixes in the derivation of nouns, but the process is not productive anymore and rather rare.\rThere are also Particles expressing a certain mode, doubt, exhortative: distribution is not entirely clear (maybe something like second position), however, different from Pos3."
   },
@@ -2660,6 +2725,7 @@
     "Glottocode": "nucl1235",
     "Language": "Armenian (Eastern)",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "The semi-restricted includes what Vaux (1998) calls enclitics (DEFINITE, 2nd/1st possessive pronominals ‘your’, ‘my’)\rMany (but not all, I think) dialects have at least one prefix.  The prefixes attested include:\rk- FUT\rg- PRES\rg- IMPER\rNOTE THAT THERE IS ANOTHER MORPHEME TYPES ENTRY FOR WESTERN ARMENIAN (LID 610).  VAUX’S GRAMMAR ALTERNATES BETWEEN THE EASTERN & WESTERN DIALECTS IN DESCRIPTION & ANALYSIS"
   },
@@ -2699,6 +2765,7 @@
     "Glottocode": "homs1234",
     "Language": "Armenian (Western)",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "The semi-restricted includes what Vaux (1998) calls enclitics (DEFINITE, 2nd/1st possessive pronominals ‘your’, ‘my’)\rMany (but not all, I think) dialects have at least one prefix.  The prefixes attested include:\rk- FUT\rg- PRES\rg- IMPER\rNOTE THAT THERE IS ANOTHER MORPHEME TYPES ENTRY FOR EASTERN ARMENIAN (LID 25).  VAUX’S GRAMMAR ALTERNATES BETWEEN THE EASTERN & WESTERN DIALECTS IN DESCRIPTION & ANALYSIS"
   },
@@ -2728,6 +2795,7 @@
     "Glottocode": "seme1247",
     "Language": "Semelai",
     "MorphemeType": "root",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Pos4: only two, both vowel-initial, cf. -(ʔ)iʔ ‘APPL/ITER’, -an ‘NMZ’.\rPos5: only one, cf. b-...-(ʔ)an ‘collective activity’.\rPos6: proclitics, unstressable; typically CV; some selective, some not, phrasal\rPos7: enclitics, unstressable; unselective; phrasal"
   },
@@ -2797,6 +2865,7 @@
     "Glottocode": "paco1243",
     "Language": "Pacoh",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Pos2: e.g. dative and possessive prefixes on pronouns; two allomorphs each: one monosyllabic (with monosyllabic stems), the other disyllabic (with disyllabic stems)."
   },
@@ -2816,6 +2885,7 @@
     "Glottocode": "khas1269",
     "Language": "Khasi",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Pos5: clause-final clitics."
   },
@@ -2865,6 +2935,7 @@
     "Glottocode": "monn1252",
     "Language": "Mon",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Pos2: causative prefixes on verbs, e.g. p-, pə-, hə-\rPos3: causative infix on verbs: -ə-\rPos4: periphrastic causative marker paʔ (auxiliary verb)\rPos5: phrase/clause-final clitics, e.g. topic/focus markers"
   },
@@ -2914,6 +2985,7 @@
     "Glottocode": "cent1989",
     "Language": "Cambodian",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Pos2: prefixes like p- have different functions on verbs and nouns, e.g. /dac/ ‘to break (intrans.) > /pdac/ ‘to break (trans.) vs. /ku:/ ‘a pair’ > /pku:/ ‘pair off’\rPos3: includes prefixed reduplicants, which appear with every word class\rPos4: derivational infixes on verbs\rPos5: very few, only derivation\rPos6: very few, only in derivation"
   },
@@ -2973,6 +3045,7 @@
     "Glottocode": "chra1242",
     "Language": "Chrau",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "NA"
   },
@@ -3012,6 +3085,7 @@
     "Glottocode": "khmu1256",
     "Language": "Khmu",
     "MorphemeType": "root",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Pos2: nominalization, causative, resultative, reciprocal (often realized as minor syllables)\rPos3: verbalizing prefix kn- which operates on words of different word classes; a number of preposed particles such as the negator pə́\rPos4: nominalization, causative"
   },
@@ -3051,6 +3125,7 @@
     "Glottocode": "wayu1241",
     "Language": "Hayu",
     "MorphemeType": "root",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "NA"
   },
@@ -3080,6 +3155,7 @@
     "Glottocode": "hame1242",
     "Language": "Hamer",
     "MorphemeType": "root",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "Needs rechecking!!!"
   },
@@ -3129,6 +3205,7 @@
     "Glottocode": "apat1240",
     "Language": "Apatani",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "post-posed semi-restricted include case enclitics, which have phrasal scope"
   },
@@ -3138,6 +3215,7 @@
     "Glottocode": "rabh1238",
     "Language": "Rabha",
     "MorphemeType": "stem",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "There is good (but not fantastic) evidence of interposition and bipartites, hence the fourth morpheme type entry"
   },
@@ -3167,6 +3245,7 @@
     "Glottocode": "rabh1238",
     "Language": "Rabha",
     "MorphemeType": "stem part",
+    "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
     "Notes": "There is good (but not fantastic) evidence of interposition and bipartites, hence the fourth morpheme type entry"
   }

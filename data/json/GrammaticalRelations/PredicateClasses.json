@@ -70,6 +70,7 @@
     "Language": "Tuva",
     "PredicateClassID": 11,
     "PredicateClassLabel": "PDAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 109,
@@ -87,8 +88,12 @@
     "PredicateClassDescription": "‘like’, ‘be able’"
   },
   {
+    "LID": null,
+    "Glottocode": null,
+    "Language": null,
     "PredicateClassID": 13,
     "PredicateClassLabel": "<default>",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "used to cover all predicate classes not listed separately DO NOT USE ANY MORE - use pred cl. 1, 2, and 3 instead"
   },
@@ -98,6 +103,7 @@
     "Language": "Tuva",
     "PredicateClassID": 15,
     "PredicateClassLabel": "ADAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 111,
@@ -121,8 +127,12 @@
     "PredicateClassDescription": "ceratin adjectival predicates, like ‘known, equal, necessary’"
   },
   {
+    "LID": null,
+    "Glottocode": null,
+    "Language": null,
     "PredicateClassID": 10,
     "PredicateClassLabel": "<unknown>",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "used when it is not clear which semantics the predicate class has"
   },
@@ -309,6 +319,7 @@
     "Language": "Russian",
     "PredicateClassID": 22,
     "PredicateClassLabel": "ANOM PDAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 200,
@@ -690,6 +701,7 @@
       {
         "IndividualPredicateID": 222,
         "IndividualPredicateMeaning": "avoid",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       },
       {
@@ -864,6 +876,7 @@
     "Language": "Mandarin",
     "PredicateClassID": 40,
     "PredicateClassLabel": "unaccusative verbs",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 136,
@@ -1083,6 +1096,7 @@
     "Language": "Nepali",
     "PredicateClassID": 42,
     "PredicateClassLabel": "SDAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 255,
@@ -1129,13 +1143,16 @@
     "Language": "Mongolian (Khalkha)",
     "PredicateClassID": 43,
     "PredicateClassLabel": "SDAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
-    ]
+    ],
+    "PredicateClassDescription": null
   },
   {
     "LID": 188,
@@ -1143,6 +1160,7 @@
     "Language": "Mongolian (Khalkha)",
     "PredicateClassID": 44,
     "PredicateClassLabel": "ANOM PDAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 122,
@@ -1183,6 +1201,7 @@
     "Language": "Mongolian (Khalkha)",
     "PredicateClassID": 45,
     "PredicateClassLabel": "ANOM PCOM",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 225,
@@ -1211,6 +1230,7 @@
     "Language": "Mongolian (Khalkha)",
     "PredicateClassID": 46,
     "PredicateClassLabel": "ANOM PABL",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 656,
@@ -1362,6 +1382,7 @@
     "Language": "Ingush",
     "PredicateClassID": 54,
     "PredicateClassLabel": "possession with ‘be’",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 136,
@@ -1369,7 +1390,8 @@
         "IndividualPredicateSemanticClass": "possession",
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
-    ]
+    ],
+    "PredicateClassDescription": null
   },
   {
     "LID": 1263,
@@ -1377,6 +1399,7 @@
     "Language": "Tsez",
     "PredicateClassID": 55,
     "PredicateClassLabel": "ADAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 117,
@@ -1453,6 +1476,7 @@
     "Language": "Maithili",
     "PredicateClassID": 57,
     "PredicateClassLabel": "raising-to-object verbs",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 259,
@@ -1469,6 +1493,7 @@
     "Language": "Maithili",
     "PredicateClassID": 58,
     "PredicateClassLabel": "raising-to-subject verbs",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 273,
@@ -1485,13 +1510,16 @@
     "Language": "Maithili",
     "PredicateClassID": 59,
     "PredicateClassLabel": "object control verbs",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 1,
         "IndividualPredicateMeaning": "nonspecific_control",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
-    ]
+    ],
+    "PredicateClassDescription": null
   },
   {
     "LID": 1263,
@@ -1499,6 +1527,7 @@
     "Language": "Tsez",
     "PredicateClassID": 60,
     "PredicateClassLabel": "raising and control verbs",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 163,
@@ -1527,6 +1556,7 @@
     "Language": "Hindi",
     "PredicateClassID": 62,
     "PredicateClassLabel": "control or raising verbs",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 117,
@@ -1650,6 +1680,7 @@
     "Language": "Nepali",
     "PredicateClassID": 64,
     "PredicateClassLabel": "control or raising verbs",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 153,
@@ -1689,6 +1720,7 @@
     "Language": "English",
     "PredicateClassID": 53,
     "PredicateClassLabel": "control and raising verbs",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 122,
@@ -1711,6 +1743,7 @@
     "Language": "English",
     "PredicateClassID": 61,
     "PredicateClassLabel": "control and raising verbs",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 123,
@@ -1815,6 +1848,7 @@
     "Language": "Nias",
     "PredicateClassID": 68,
     "PredicateClassLabel": "SERG",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 449,
@@ -1896,6 +1930,7 @@
       {
         "IndividualPredicateID": 222,
         "IndividualPredicateMeaning": "avoid",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       },
       {
@@ -2278,6 +2313,7 @@
     "Language": "Icelandic",
     "PredicateClassID": 72,
     "PredicateClassLabel": "SACC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 266,
@@ -2466,6 +2502,7 @@
     "Language": "Warlpiri",
     "PredicateClassID": 75,
     "PredicateClassLabel": "PDAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 133,
@@ -2600,6 +2637,7 @@
     "Language": "Mparntwe Arrernte",
     "PredicateClassID": 79,
     "PredicateClassLabel": "control verbs",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 288,
@@ -2645,10 +2683,12 @@
     "Language": "Djaru",
     "PredicateClassID": 81,
     "PredicateClassLabel": "AERG PDAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 20,
         "IndividualPredicateMeaning": "(unclear)",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -2660,6 +2700,7 @@
     "Language": "Fur",
     "PredicateClassID": 82,
     "PredicateClassLabel": "ANOM PACC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 343,
@@ -2781,6 +2822,7 @@
     "Language": "Acehnese",
     "PredicateClassID": 86,
     "PredicateClassLabel": "control verbs",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 109,
@@ -2902,6 +2944,7 @@
     "Language": "Yucatec",
     "PredicateClassID": 90,
     "PredicateClassLabel": "subject control verbs",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 105,
@@ -3214,6 +3257,7 @@
     "Language": "German",
     "PredicateClassID": 95,
     "PredicateClassLabel": "control & raising verbs",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 271,
@@ -3302,6 +3346,7 @@
     "Language": "Chintang",
     "PredicateClassID": 96,
     "PredicateClassLabel": "AERGTNOM GNOM",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 116,
@@ -3443,6 +3488,7 @@
     "Language": "Chintang",
     "PredicateClassID": 98,
     "PredicateClassLabel": "Raising verbs",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 374,
@@ -3499,6 +3545,7 @@
     "Language": "Belhare",
     "PredicateClassID": 101,
     "PredicateClassLabel": "control predicates",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 375,
@@ -3538,6 +3585,7 @@
     "Language": "Belhare",
     "PredicateClassID": 103,
     "PredicateClassLabel": "ANOM PERG",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "experience predicates\r\rother selectors:\r7, 12, 28, 35, 36: like in default verbs\r3 (agreement): class 629"
   },
@@ -3834,6 +3882,7 @@
       {
         "IndividualPredicateID": 222,
         "IndividualPredicateMeaning": "avoid",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       },
       {
@@ -4004,6 +4053,7 @@
     "Language": "Tepehuan (Southeastern)",
     "PredicateClassID": 114,
     "PredicateClassLabel": "G[+anim]",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 338,
@@ -4020,6 +4070,7 @@
     "Language": "Tepehuan (Southeastern)",
     "PredicateClassID": 115,
     "PredicateClassLabel": "Gposposition",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 336,
@@ -4042,6 +4093,7 @@
     "Language": "Pipil",
     "PredicateClassID": 116,
     "PredicateClassLabel": "transfer verbs",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 338,
@@ -4058,6 +4110,7 @@
     "Language": "O’odham",
     "PredicateClassID": 117,
     "PredicateClassLabel": "ANOM TNOM GNOM",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 9,
@@ -4074,6 +4127,7 @@
     "Language": "Tümpisa Shoshone",
     "PredicateClassID": 118,
     "PredicateClassLabel": "ANOM TACC GACC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 338,
@@ -4096,6 +4150,7 @@
     "Language": "Mixe (Coatlán)",
     "PredicateClassID": 119,
     "PredicateClassLabel": "ANOM TNOM GNOM",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 338,
@@ -4112,6 +4167,7 @@
     "Language": "Yaqui",
     "PredicateClassID": 120,
     "PredicateClassLabel": "ANOM TACC GACC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 338,
@@ -4128,6 +4184,7 @@
     "Language": "Yaqui",
     "PredicateClassID": 121,
     "PredicateClassLabel": "ANOM TACC GDAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 338,
@@ -4144,10 +4201,12 @@
     "Language": "Yaqui",
     "PredicateClassID": 122,
     "PredicateClassLabel": "ANOM TACC GLOC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -4159,6 +4218,7 @@
     "Language": "Futuna (East)",
     "PredicateClassID": 123,
     "PredicateClassLabel": "ANOM POBL",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 153,
@@ -4692,6 +4752,7 @@
     "Language": "Russian",
     "PredicateClassID": 136,
     "PredicateClassLabel": "SDAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 126,
@@ -4773,6 +4834,7 @@
       {
         "IndividualPredicateID": 222,
         "IndividualPredicateMeaning": "avoid",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       },
       {
@@ -4838,16 +4900,36 @@
     "PredicateClassLabel": "ANOM GILL",
     "PredicateClassDiscourseFrequency": "frequent",
     "IndividualPredicates": [
-      {},
-      {},
+      {
+        "IndividualPredicateID": null,
+        "IndividualPredicateMeaning": null,
+        "IndividualPredicateSemanticClass": null,
+        "IndividualPredicateMalchukovSemanticClass": null
+      },
+      {
+        "IndividualPredicateID": null,
+        "IndividualPredicateMeaning": null,
+        "IndividualPredicateSemanticClass": null,
+        "IndividualPredicateMalchukovSemanticClass": null
+      },
       {
         "IndividualPredicateID": 337,
         "IndividualPredicateMeaning": "send",
         "IndividualPredicateSemanticClass": "send_carry_bring_take",
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       },
-      {},
-      {}
+      {
+        "IndividualPredicateID": null,
+        "IndividualPredicateMeaning": null,
+        "IndividualPredicateSemanticClass": null,
+        "IndividualPredicateMalchukovSemanticClass": null
+      },
+      {
+        "IndividualPredicateID": null,
+        "IndividualPredicateMeaning": null,
+        "IndividualPredicateSemanticClass": null,
+        "IndividualPredicateMalchukovSemanticClass": null
+      }
     ],
     "PredicateClassDescription": "Verbs of sending"
   },
@@ -6596,6 +6678,7 @@
     "Language": "Chechen",
     "PredicateClassID": 197,
     "PredicateClassLabel": "control predicates",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 123,
@@ -6959,6 +7042,7 @@
     "Language": "Amharic",
     "PredicateClassID": 211,
     "PredicateClassLabel": "ANOM PDAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "agreement: #594"
   },
@@ -6968,6 +7052,7 @@
     "Language": "Amharic",
     "PredicateClassID": 212,
     "PredicateClassLabel": "ANOM PPP",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "agreement: #594"
   },
@@ -6982,6 +7067,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -7629,6 +7715,7 @@
     "Language": "Kunama",
     "PredicateClassID": 239,
     "PredicateClassLabel": "ANOM PPP",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 8,
@@ -7674,6 +7761,7 @@
     "Language": "Kusunda",
     "PredicateClassID": 241,
     "PredicateClassLabel": "ANOM PNOM???",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 115,
@@ -7696,6 +7784,7 @@
     "Language": "Kusunda",
     "PredicateClassID": 242,
     "PredicateClassLabel": "ANOM GNOM/??? TNOM/???",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 336,
@@ -7868,6 +7957,7 @@
     "Language": "Nez Perce",
     "PredicateClassID": 249,
     "PredicateClassLabel": "ANOM PALL",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 115,
@@ -8004,6 +8094,7 @@
     "Language": "Kham",
     "PredicateClassID": 256,
     "PredicateClassLabel": "AABS PALL",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 115,
@@ -8026,6 +8117,7 @@
     "Language": "Kham",
     "PredicateClassID": 257,
     "PredicateClassLabel": "AABS GALL T(DAT)",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 299,
@@ -8893,6 +8985,7 @@
     "Language": "Baure",
     "PredicateClassID": 265,
     "PredicateClassLabel": "ANOM PLOC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 8,
@@ -8915,6 +9008,7 @@
     "Language": "Baure",
     "PredicateClassID": 266,
     "PredicateClassLabel": "ANOM GLOC TNOM",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 116,
@@ -9427,6 +9521,7 @@
     "Language": "Bambara",
     "PredicateClassID": 288,
     "PredicateClassLabel": "ANOM Gma TNOM",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 338,
@@ -9489,6 +9584,7 @@
     "Language": "Khanty",
     "PredicateClassID": 292,
     "PredicateClassLabel": "ANOM GILLAT T(ACC)",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 338,
@@ -9505,6 +9601,7 @@
     "Language": "Khanty",
     "PredicateClassID": 293,
     "PredicateClassLabel": "ANOM G(ACC) TINSTROBJ",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 338,
@@ -9521,6 +9618,7 @@
     "Language": "Khanty",
     "PredicateClassID": 294,
     "PredicateClassLabel": "ANOM PILLAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 8,
@@ -9549,6 +9647,7 @@
     "Language": "Khanty",
     "PredicateClassID": 295,
     "PredicateClassLabel": "ANOM PALLAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 8,
@@ -9565,6 +9664,7 @@
     "Language": "Khanty",
     "PredicateClassID": 296,
     "PredicateClassLabel": "ANOM GILLAT TINSTROBJ",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 336,
@@ -9735,6 +9835,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -9751,6 +9852,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -9762,6 +9864,7 @@
     "Language": "Tsafiki",
     "PredicateClassID": 306,
     "PredicateClassLabel": "ADAT PNOM/ACC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 2,
@@ -9831,6 +9934,7 @@
     "Language": "Tsafiki",
     "PredicateClassID": 308,
     "PredicateClassLabel": "ANOM G(ACC) TNOM",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 286,
@@ -9847,6 +9951,7 @@
     "Language": "Tsafiki",
     "PredicateClassID": 309,
     "PredicateClassLabel": "ANOM GLOC T(ACC)",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 286,
@@ -10828,6 +10933,7 @@
     "Language": "Nisgha",
     "PredicateClassID": 348,
     "PredicateClassLabel": "ANOM POBL",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 204,
@@ -10868,6 +10974,7 @@
     "Language": "Matsés",
     "PredicateClassID": 349,
     "PredicateClassLabel": "AABS PABS",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 117,
@@ -11609,6 +11716,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -11851,6 +11959,7 @@
     "Language": "Jalonke",
     "PredicateClassID": 380,
     "PredicateClassLabel": "ANOM GNOM Tma",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 545,
@@ -11867,6 +11976,7 @@
     "Language": "Jalonke",
     "PredicateClassID": 381,
     "PredicateClassLabel": "ANOM Gma TNOM",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 407,
@@ -11895,6 +12005,7 @@
     "Language": "Jalonke",
     "PredicateClassID": 382,
     "PredicateClassLabel": "ANOM Gbe TNOM",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 153,
@@ -11917,6 +12028,7 @@
     "Language": "Jalonke",
     "PredicateClassID": 383,
     "PredicateClassLabel": "ANOM GNOM Tra",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 338,
@@ -12395,9 +12507,14 @@
     "PredicateClassDescription": "come from, go to"
   },
   {
+    "LID": null,
+    "Glottocode": null,
+    "Language": null,
     "PredicateClassID": 0,
     "PredicateClassLabel": "n/a",
-    "IndividualPredicates": []
+    "PredicateClassDiscourseFrequency": null,
+    "IndividualPredicates": [],
+    "PredicateClassDescription": null
   },
   {
     "LID": 2985,
@@ -12463,6 +12580,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -12726,6 +12844,7 @@
     "Language": "Mongolian (Khalkha)",
     "PredicateClassID": 407,
     "PredicateClassLabel": "ADAT PNOM",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 136,
@@ -12836,6 +12955,7 @@
     "Language": "Sherpa",
     "PredicateClassID": 410,
     "PredicateClassLabel": "SLOC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 200,
@@ -12870,6 +12990,7 @@
     "Language": "Sherpa",
     "PredicateClassID": 411,
     "PredicateClassLabel": "ALOC PNOM",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 156,
@@ -12904,6 +13025,7 @@
     "Language": "Sherpa",
     "PredicateClassID": 412,
     "PredicateClassLabel": "ANOM/GENPLOC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 372,
@@ -12914,6 +13036,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -12988,6 +13111,7 @@
     "Language": "Mualang",
     "PredicateClassID": 416,
     "PredicateClassLabel": "ANOM GNOM TDAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 338,
@@ -12998,6 +13122,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -13009,6 +13134,7 @@
     "Language": "Mualang",
     "PredicateClassID": 417,
     "PredicateClassLabel": "ANOM PDAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 153,
@@ -13025,6 +13151,7 @@
     "Language": "Mualang",
     "PredicateClassID": 418,
     "PredicateClassLabel": "ANOM PLOC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 288,
@@ -13064,6 +13191,7 @@
     "Language": "Biak",
     "PredicateClassID": 420,
     "PredicateClassLabel": "ANOM GLOC TNOM",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 9,
@@ -13098,6 +13226,7 @@
     "Language": "Biak",
     "PredicateClassID": 421,
     "PredicateClassLabel": "ANOM GNOM TINSTR",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 426,
@@ -13981,6 +14110,7 @@
     "Language": "Haida (Northern)",
     "PredicateClassID": 445,
     "PredicateClassLabel": "SOBJ",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 146,
@@ -14057,6 +14187,7 @@
     "Language": "Haida (Northern)",
     "PredicateClassID": 446,
     "PredicateClassLabel": "SAGT/OBJ",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 125,
@@ -14097,6 +14228,7 @@
     "Language": "Haida (Northern)",
     "PredicateClassID": 447,
     "PredicateClassLabel": "SDAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 618,
@@ -14113,6 +14245,7 @@
     "Language": "Haida (Northern)",
     "PredicateClassID": 448,
     "PredicateClassLabel": "Srii",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 538,
@@ -14141,6 +14274,7 @@
     "Language": "Haida (Northern)",
     "PredicateClassID": 450,
     "PredicateClassLabel": "Sraa",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 286,
@@ -14157,6 +14291,7 @@
     "Language": "Haida (Northern)",
     "PredicateClassID": 451,
     "PredicateClassLabel": "AOBJ POBJ",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 109,
@@ -14185,6 +14320,7 @@
     "Language": "Haida (Northern)",
     "PredicateClassID": 452,
     "PredicateClassLabel": "AOBJ Prii",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 350,
@@ -14207,6 +14343,7 @@
     "Language": "Haida (Northern)",
     "PredicateClassID": 453,
     "PredicateClassLabel": "AAGT/OBJ POBJ",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 125,
@@ -14223,6 +14360,7 @@
     "Language": "Haida (Northern)",
     "PredicateClassID": 454,
     "PredicateClassLabel": "AAGT/OBJ Pran",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 515,
@@ -14239,6 +14377,7 @@
     "Language": "Haida (Northern)",
     "PredicateClassID": 455,
     "PredicateClassLabel": "AAGT Pgwii",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 268,
@@ -14261,6 +14400,7 @@
     "Language": "Haida (Northern)",
     "PredicateClassID": 456,
     "PredicateClassLabel": "AAGT Praa",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 201,
@@ -14283,6 +14423,7 @@
     "Language": "Haida (Northern)",
     "PredicateClassID": 457,
     "PredicateClassLabel": "AAGT PDAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 123,
@@ -14362,6 +14503,7 @@
     "Language": "Osage",
     "PredicateClassID": 461,
     "PredicateClassLabel": "V-Spat",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 124,
@@ -14648,6 +14790,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -14664,9 +14807,11 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
-    ]
+    ],
+    "PredicateClassDescription": null
   },
   {
     "LID": 1176,
@@ -14714,9 +14859,11 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
-    ]
+    ],
+    "PredicateClassDescription": null
   },
   {
     "LID": 1136,
@@ -14729,9 +14876,11 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
-    ]
+    ],
+    "PredicateClassDescription": null
   },
   {
     "LID": 1155,
@@ -14744,6 +14893,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -14760,9 +14910,11 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
-    ]
+    ],
+    "PredicateClassDescription": null
   },
   {
     "LID": 1660,
@@ -14793,10 +14945,12 @@
     "Language": "Yucatec",
     "PredicateClassID": 483,
     "PredicateClassLabel": "stative S",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -14893,6 +15047,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -14984,9 +15139,11 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
-    ]
+    ],
+    "PredicateClassDescription": null
   },
   {
     "LID": 357,
@@ -15016,6 +15173,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -15032,6 +15190,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       },
       {
@@ -15054,6 +15213,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -15070,9 +15230,11 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
-    ]
+    ],
+    "PredicateClassDescription": null
   },
   {
     "LID": 110,
@@ -15137,10 +15299,12 @@
     "Language": "Icelandic",
     "PredicateClassID": 503,
     "PredicateClassLabel": "AACC PPP",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -15152,10 +15316,12 @@
     "Language": "Icelandic",
     "PredicateClassID": 504,
     "PredicateClassLabel": "SGEN",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -15167,10 +15333,12 @@
     "Language": "Icelandic",
     "PredicateClassID": 505,
     "PredicateClassLabel": "ANOM PPP",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -15182,10 +15350,12 @@
     "Language": "Icelandic",
     "PredicateClassID": 506,
     "PredicateClassLabel": "AGEN PPP",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -15197,6 +15367,7 @@
     "Language": "Limbu",
     "PredicateClassID": 507,
     "PredicateClassLabel": "AABS PLOC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 8,
@@ -15213,10 +15384,12 @@
     "Language": "Limbu",
     "PredicateClassID": 508,
     "PredicateClassLabel": "A?? PCOM",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       },
       {
@@ -15273,6 +15446,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -15289,6 +15463,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -15305,6 +15480,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       },
       {
@@ -15620,10 +15796,12 @@
     "Language": "Nisgha",
     "PredicateClassID": 524,
     "PredicateClassLabel": "ANOM GNOM TOBL",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -15635,10 +15813,12 @@
     "Language": "Nisgha",
     "PredicateClassID": 525,
     "PredicateClassLabel": "ANOM GOBL TNOM",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -15714,6 +15894,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -15742,10 +15923,12 @@
     "Language": "Amharic",
     "PredicateClassID": 529,
     "PredicateClassLabel": "ANOM GACC T(NOM)",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -15792,6 +15975,7 @@
     "Language": "Evenki",
     "PredicateClassID": 531,
     "PredicateClassLabel": "ANOM GLOCDIR TACC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 338,
@@ -15802,6 +15986,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -15813,6 +15998,7 @@
     "Language": "Evenki",
     "PredicateClassID": 532,
     "PredicateClassLabel": "ANOM GLOCALL TACC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 153,
@@ -15852,10 +16038,12 @@
     "Language": "Even",
     "PredicateClassID": 534,
     "PredicateClassLabel": "ANOM PDEST",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -15867,6 +16055,7 @@
     "Language": "Even",
     "PredicateClassID": 535,
     "PredicateClassLabel": "ANOM GNOM(GEN for PRO) TDESIGN",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 338,
@@ -15877,6 +16066,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -15888,10 +16078,12 @@
     "Language": "Even",
     "PredicateClassID": 536,
     "PredicateClassLabel": "ANOM GDAT TDEST",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       },
       {
@@ -15909,10 +16101,12 @@
     "Language": "Crow",
     "PredicateClassID": 537,
     "PredicateClassLabel": "Sagt",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -15924,10 +16118,12 @@
     "Language": "Crow",
     "PredicateClassID": 538,
     "PredicateClassLabel": "Spat",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -16007,6 +16203,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -16023,6 +16220,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -17274,10 +17472,12 @@
     "Language": "Amharic",
     "PredicateClassID": 594,
     "PredicateClassLabel": "ASU-AGR P",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -17318,10 +17518,12 @@
     "Language": "Amharic",
     "PredicateClassID": 596,
     "PredicateClassLabel": "ASU-AGR GOBJ-AGR T",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -17350,6 +17552,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -17361,6 +17564,7 @@
     "Language": "Nisgha",
     "PredicateClassID": 598,
     "PredicateClassLabel": "AAGR P",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 204,
@@ -17395,10 +17599,12 @@
     "Language": "Nisgha",
     "PredicateClassID": 599,
     "PredicateClassLabel": "A GAGR T",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -17410,10 +17616,12 @@
     "Language": "Nisgha",
     "PredicateClassID": 600,
     "PredicateClassLabel": "A G TAGR",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -17767,6 +17975,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -17967,6 +18176,7 @@
     "Language": "Khanty",
     "PredicateClassID": 616,
     "PredicateClassLabel": "ASU-AGR P",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 8,
@@ -18012,6 +18222,7 @@
     "Language": "Kham",
     "PredicateClassID": 618,
     "PredicateClassLabel": "ASu-AGR P",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 8,
@@ -18034,6 +18245,7 @@
     "Language": "Kham",
     "PredicateClassID": 619,
     "PredicateClassLabel": "ASU-AGR G TOBJ-AGR",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 9,
@@ -18329,6 +18541,7 @@
     "Language": "Belhare",
     "PredicateClassID": 629,
     "PredicateClassLabel": "AP-AGR PA-AGR",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 103,
@@ -18502,6 +18715,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -18595,6 +18809,7 @@
     "Language": "Gude",
     "PredicateClassID": 638,
     "PredicateClassLabel": "ANOM GACC TINSTR",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 667,
@@ -18657,6 +18872,7 @@
     "Language": "Tagalog",
     "PredicateClassID": 641,
     "PredicateClassLabel": "control verbs",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "hesitate, ...-"
   },
@@ -18677,6 +18893,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -18768,6 +18985,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -19206,7 +19424,8 @@
     "PredicateClassID": 659,
     "PredicateClassLabel": "IntrInanim",
     "PredicateClassDiscourseFrequency": "frequent",
-    "IndividualPredicates": []
+    "IndividualPredicates": [],
+    "PredicateClassDescription": null
   },
   {
     "LID": 1036,
@@ -19215,7 +19434,8 @@
     "PredicateClassID": 660,
     "PredicateClassLabel": "IntrAnim",
     "PredicateClassDiscourseFrequency": "frequent",
-    "IndividualPredicates": []
+    "IndividualPredicates": [],
+    "PredicateClassDescription": null
   },
   {
     "LID": 1036,
@@ -19224,7 +19444,8 @@
     "PredicateClassID": 661,
     "PredicateClassLabel": "TrAnim",
     "PredicateClassDiscourseFrequency": "frequent",
-    "IndividualPredicates": []
+    "IndividualPredicates": [],
+    "PredicateClassDescription": null
   },
   {
     "LID": 1036,
@@ -19233,7 +19454,8 @@
     "PredicateClassID": 662,
     "PredicateClassLabel": "TrInanim",
     "PredicateClassDiscourseFrequency": "frequent",
-    "IndividualPredicates": []
+    "IndividualPredicates": [],
+    "PredicateClassDescription": null
   },
   {
     "LID": 1973,
@@ -19282,7 +19504,8 @@
     "PredicateClassID": 668,
     "PredicateClassLabel": "A Pinanim",
     "PredicateClassDiscourseFrequency": "frequent",
-    "IndividualPredicates": []
+    "IndividualPredicates": [],
+    "PredicateClassDescription": null
   },
   {
     "LID": 1036,
@@ -19325,6 +19548,9 @@
     "PredicateClassDescription": "verbs of the so-called transitive inanimate paradigm (TI)"
   },
   {
+    "LID": null,
+    "Glottocode": null,
+    "Language": null,
     "PredicateClassID": 1,
     "PredicateClassLabel": "def_intr",
     "PredicateClassDiscourseFrequency": "very frequent",
@@ -19332,6 +19558,9 @@
     "PredicateClassDescription": "the default intransitive predicate class"
   },
   {
+    "LID": null,
+    "Glottocode": null,
+    "Language": null,
     "PredicateClassID": 2,
     "PredicateClassLabel": "def_tr",
     "PredicateClassDiscourseFrequency": "very frequent",
@@ -19339,6 +19568,9 @@
     "PredicateClassDescription": "the default transitive predicate class"
   },
   {
+    "LID": null,
+    "Glottocode": null,
+    "Language": null,
     "PredicateClassID": 3,
     "PredicateClassLabel": "def_ditr",
     "PredicateClassDiscourseFrequency": "very frequent",
@@ -19424,6 +19656,7 @@
     "Language": "Russian",
     "PredicateClassID": 684,
     "PredicateClassLabel": "SPP",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 104,
@@ -19584,6 +19817,7 @@
     "Language": "Madurese",
     "PredicateClassID": 694,
     "PredicateClassLabel": "ANOM PDAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 142,
@@ -19690,6 +19924,7 @@
     "Language": "Madurese",
     "PredicateClassID": 695,
     "PredicateClassLabel": "ANOM PINSTR",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 209,
@@ -19724,6 +19959,7 @@
     "Language": "Madurese",
     "PredicateClassID": 696,
     "PredicateClassLabel": "ANOM GNOM TINSTR",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 367,
@@ -19876,6 +20112,7 @@
     "Language": "Turkish",
     "PredicateClassID": 699,
     "PredicateClassLabel": "ANOM PLOC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 504,
@@ -19904,6 +20141,7 @@
     "Language": "Turkish",
     "PredicateClassID": 700,
     "PredicateClassLabel": "ANOM PABL",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 109,
@@ -19974,6 +20212,7 @@
     "Language": "Turkish",
     "PredicateClassID": 701,
     "PredicateClassLabel": "ANOM PINSTR",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 182,
@@ -20019,6 +20258,7 @@
     "Language": "Tsafiki",
     "PredicateClassID": 703,
     "PredicateClassLabel": "SDAT",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 125,
@@ -20365,6 +20605,7 @@
     "Language": "Bororo",
     "PredicateClassID": 718,
     "PredicateClassLabel": "ANOM PLOC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 115,
@@ -20559,6 +20800,7 @@
     "Language": "Bororo",
     "PredicateClassID": 722,
     "PredicateClassLabel": "ANOM GLOC TNOM",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 336,
@@ -20581,6 +20823,7 @@
     "Language": "Anamuxra",
     "PredicateClassID": 723,
     "PredicateClassLabel": "ANOM POBL",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 8,
@@ -20597,6 +20840,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -20608,6 +20852,7 @@
     "Language": "Anamuxra",
     "PredicateClassID": 724,
     "PredicateClassLabel": "ANOM GOBL TNOM/ACC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 336,
@@ -20770,6 +21015,7 @@
     "Language": "Motuna",
     "PredicateClassID": 729,
     "PredicateClassLabel": "AABS PPURP",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 105,
@@ -20780,6 +21026,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -20814,6 +21061,7 @@
     "Language": "Motuna",
     "PredicateClassID": 731,
     "PredicateClassLabel": "AABS PABL",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 144,
@@ -20824,6 +21072,7 @@
       {
         "IndividualPredicateID": 263,
         "IndividualPredicateMeaning": "no_details",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -20864,6 +21113,7 @@
     "Language": "Motuna",
     "PredicateClassID": 733,
     "PredicateClassLabel": "AERG GLOC TABS",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 336,
@@ -20886,6 +21136,7 @@
     "Language": "Motuna",
     "PredicateClassID": 734,
     "PredicateClassLabel": "AERG GABS TERG",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 384,
@@ -20949,6 +21200,7 @@
     "Language": "Tsamai",
     "PredicateClassID": 736,
     "PredicateClassLabel": "ANOM GABL TNOM/ACC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 116,
@@ -20989,6 +21241,7 @@
     "Language": "Tsamai",
     "PredicateClassID": 737,
     "PredicateClassLabel": "ANOM PLOC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 147,
@@ -21011,6 +21264,7 @@
     "Language": "Tsamai",
     "PredicateClassID": 738,
     "PredicateClassLabel": "ANOM GLOC TNOM/ACC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 336,
@@ -21033,6 +21287,7 @@
     "Language": "Tsamai",
     "PredicateClassID": 739,
     "PredicateClassLabel": "ANOM PALL",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 115,
@@ -21125,6 +21380,7 @@
     "Language": "Even",
     "PredicateClassID": 743,
     "PredicateClassLabel": "ANOM PALL",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 134,
@@ -21153,6 +21409,7 @@
     "Language": "Even",
     "PredicateClassID": 744,
     "PredicateClassLabel": "ANOM PINS",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 105,
@@ -23403,7 +23660,8 @@
         "IndividualPredicateSemanticClass": "communication",
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
-    ]
+    ],
+    "PredicateClassDescription": null
   },
   {
     "LID": 340,
@@ -23419,7 +23677,8 @@
         "IndividualPredicateSemanticClass": "laugh_wink",
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
-    ]
+    ],
+    "PredicateClassDescription": null
   },
   {
     "LID": 340,
@@ -23447,7 +23706,8 @@
         "IndividualPredicateSemanticClass": "diseases_and_bodily_states",
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
-    ]
+    ],
+    "PredicateClassDescription": null
   },
   {
     "LID": 340,
@@ -23463,7 +23723,8 @@
         "IndividualPredicateSemanticClass": "communication",
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
-    ]
+    ],
+    "PredicateClassDescription": null
   },
   {
     "LID": 340,
@@ -23488,6 +23749,7 @@
     "Language": "Mongolian (Khalkha)",
     "PredicateClassID": 824,
     "PredicateClassLabel": "ANOM GABL TACC",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 229,
@@ -23534,6 +23796,7 @@
     "Language": "Mongolian (Khalkha)",
     "PredicateClassID": 825,
     "PredicateClassLabel": "ANOM GACC TINSTR",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 501,
@@ -23650,7 +23913,8 @@
         "IndividualPredicateSemanticClass": "put_pour_spray_load_fill",
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
-    ]
+    ],
+    "PredicateClassDescription": null
   },
   {
     "LID": 28,
@@ -26558,6 +26822,7 @@
       {
         "IndividualPredicateID": 678,
         "IndividualPredicateMeaning": "be",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
     ],
@@ -26955,6 +27220,7 @@
     "Language": "Japanese",
     "PredicateClassID": 919,
     "PredicateClassLabel": "A-NOM P-NOM",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 109,
@@ -27124,6 +27390,7 @@
     "Language": "Alaba-K’abeena",
     "PredicateClassID": 924,
     "PredicateClassLabel": "Adat Pnom",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 136,
@@ -27425,7 +27692,8 @@
         "IndividualPredicateSemanticClass": "quality",
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
-    ]
+    ],
+    "PredicateClassDescription": null
   },
   {
     "LID": 3034,
@@ -27815,6 +28083,7 @@
     "Language": "Hopi",
     "PredicateClassID": 939,
     "PredicateClassLabel": "Obj.-agr. verbs",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 307,
@@ -27908,6 +28177,7 @@
     "Language": "Albanian",
     "PredicateClassID": 941,
     "PredicateClassLabel": "Adat",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 122,
@@ -27948,6 +28218,7 @@
     "Language": "Albanian",
     "PredicateClassID": 942,
     "PredicateClassLabel": "Vtr-noagr",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 122,
@@ -27988,6 +28259,7 @@
     "Language": "Albanian",
     "PredicateClassID": 943,
     "PredicateClassLabel": "Sdat",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 132,
@@ -28001,7 +28273,8 @@
         "IndividualPredicateSemanticClass": "emotion",
         "IndividualPredicateMalchukovSemanticClass": "Malch_emotion"
       }
-    ]
+    ],
+    "PredicateClassDescription": null
   },
   {
     "LID": 1542,
@@ -28763,6 +29036,7 @@
     "Language": "Khwarshi",
     "PredicateClassID": 967,
     "PredicateClassLabel": "Aabs Pcontess",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 105,
@@ -29033,6 +29307,7 @@
       {
         "IndividualPredicateID": 702,
         "IndividualPredicateMeaning": "face",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       },
       {
@@ -29643,6 +29918,7 @@
       {
         "IndividualPredicateID": 707,
         "IndividualPredicateMeaning": "trick",
+        "IndividualPredicateSemanticClass": null,
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       },
       {
@@ -29725,6 +30001,7 @@
     "Language": "Olo",
     "PredicateClassID": 997,
     "PredicateClassLabel": "infix-P-Vtr",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "agreement with 3rd person P by means of an infix, no info. on the semantics"
   },
@@ -29790,7 +30067,12 @@
         "IndividualPredicateSemanticClass": "emotion",
         "IndividualPredicateMalchukovSemanticClass": "Malch_emotion"
       },
-      {}
+      {
+        "IndividualPredicateID": null,
+        "IndividualPredicateMeaning": null,
+        "IndividualPredicateSemanticClass": null,
+        "IndividualPredicateMalchukovSemanticClass": null
+      }
     ],
     "PredicateClassDescription": "=ŋqä\rThe clitic marks goals of movement, intended (but not necessarily affected) patients, purpose, objects of searching or waiting, objects of desire or emotion, and beneficiary and maleficiary.\r\rMotion verbs include the following:\rp\t\t‘come’\ryap\t\t‘come up’\rquyep\t\t\t‘come down’\rpäu\t\t‘pass by’\rw~u\t\t‘go’\ry\t\t‘go up’\rwä~wi\t\t‘go down’\rpäwä\t\t‘pass going down’\r(Whitehead 2004:80)"
   },
@@ -29901,7 +30183,9 @@
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 710,
-        "IndividualPredicateMeaning": "spear"
+        "IndividualPredicateMeaning": "spear",
+        "IndividualPredicateSemanticClass": null,
+        "IndividualPredicateMalchukovSemanticClass": null
       },
       {
         "IndividualPredicateID": 307,
@@ -29971,6 +30255,7 @@
     "Language": "Chontal (Huamelultec Oaxaca)",
     "PredicateClassID": 1007,
     "PredicateClassLabel": "Sacc",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 489,
@@ -30308,7 +30593,9 @@
       },
       {
         "IndividualPredicateID": 714,
-        "IndividualPredicateMeaning": "dominate"
+        "IndividualPredicateMeaning": "dominate",
+        "IndividualPredicateSemanticClass": null,
+        "IndividualPredicateMalchukovSemanticClass": null
       }
     ],
     "PredicateClassDescription": "‘remember’ (mimnḗskō), ‘forget’ (lanthánomai), ‘prevail over’ (perigígnomai), ‘lead’ (hēgéomai), ‘accuse’ (katēgoréō) → examples for verbs usually constructed with an object in the genitive, and occasionally in the accusative; basileúō ‘reign, be king’ (Rufilanchas2014Differential: 526); árkhein, ‘to govern’, akoúein, ‘to hear’ (Luraghi20013Meaning: 53-54)"
@@ -30335,11 +30622,15 @@
       },
       {
         "IndividualPredicateID": 715,
-        "IndividualPredicateMeaning": "resist"
+        "IndividualPredicateMeaning": "resist",
+        "IndividualPredicateSemanticClass": null,
+        "IndividualPredicateMalchukovSemanticClass": null
       },
       {
         "IndividualPredicateID": 716,
-        "IndividualPredicateMeaning": "make_company"
+        "IndividualPredicateMeaning": "make_company",
+        "IndividualPredicateSemanticClass": null,
+        "IndividualPredicateMalchukovSemanticClass": null
       },
       {
         "IndividualPredicateID": 122,
@@ -30356,7 +30647,9 @@
     "Language": "Kamayurá",
     "PredicateClassID": 1017,
     "PredicateClassLabel": "Sp",
-    "IndividualPredicates": []
+    "PredicateClassDiscourseFrequency": null,
+    "IndividualPredicates": [],
+    "PredicateClassDescription": null
   },
   {
     "LID": 2900,
@@ -30441,7 +30734,8 @@
         "IndividualPredicateSemanticClass": "necessity",
         "IndividualPredicateMalchukovSemanticClass": "Malch_other"
       }
-    ]
+    ],
+    "PredicateClassDescription": null
   },
   {
     "LID": 725,
@@ -30453,9 +30747,12 @@
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 717,
-        "IndividualPredicateMeaning": "phone"
+        "IndividualPredicateMeaning": "phone",
+        "IndividualPredicateSemanticClass": null,
+        "IndividualPredicateMalchukovSemanticClass": null
       }
-    ]
+    ],
+    "PredicateClassDescription": null
   },
   {
     "LID": 2893,
@@ -30463,6 +30760,7 @@
     "Language": "Latin",
     "PredicateClassID": 1024,
     "PredicateClassLabel": "Anom Pabl",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 402,
@@ -30515,6 +30813,7 @@
     "Language": "Latin",
     "PredicateClassID": 1025,
     "PredicateClassLabel": "Agen Pnom",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 327,
@@ -30531,6 +30830,7 @@
     "Language": "Latin",
     "PredicateClassID": 1026,
     "PredicateClassLabel": "Anom Pgen",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 350,
@@ -30553,6 +30853,7 @@
     "Language": "Latin",
     "PredicateClassID": 1027,
     "PredicateClassLabel": "Adat Pnom",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [
       {
         "IndividualPredicateID": 136,
@@ -30675,7 +30976,9 @@
       },
       {
         "IndividualPredicateID": 719,
-        "IndividualPredicateMeaning": "hinder"
+        "IndividualPredicateMeaning": "hinder",
+        "IndividualPredicateSemanticClass": null,
+        "IndividualPredicateMalchukovSemanticClass": null
       },
       {
         "IndividualPredicateID": 522,
@@ -30697,15 +31000,21 @@
       },
       {
         "IndividualPredicateID": 715,
-        "IndividualPredicateMeaning": "resist"
+        "IndividualPredicateMeaning": "resist",
+        "IndividualPredicateSemanticClass": null,
+        "IndividualPredicateMalchukovSemanticClass": null
       },
       {
         "IndividualPredicateID": 722,
-        "IndividualPredicateMeaning": "serve"
+        "IndividualPredicateMeaning": "serve",
+        "IndividualPredicateSemanticClass": null,
+        "IndividualPredicateMalchukovSemanticClass": null
       },
       {
         "IndividualPredicateID": 723,
-        "IndividualPredicateMeaning": "study"
+        "IndividualPredicateMeaning": "study",
+        "IndividualPredicateSemanticClass": null,
+        "IndividualPredicateMalchukovSemanticClass": null
       }
     ],
     "PredicateClassDescription": "appropinquō I approach, confīdō I trust, diffīdō I mistrust, consulō I take care of/provide for, credō I believe/ I trust, faueō I favour/ back up, grātulor I congratulate, ignoscō  (see 11)) I forgive/pardon, immineō I threaten/overhang, indulgeō I am kind to, inuideō I envy/grudge, īrāscor I am angry with, medeor  I heal, noceō I hurt, nūbō I marry, obstō I hinder/stand in the way of, occurrō I run to meet, succurrō I run to help, parcō I spare, pareō I obey, persuadeō I persuade, praecipiō I teach/order, resist I resist, seruiō I serve, studeō I study/ devote myself to, subueniō I come to the help of,"
@@ -30751,6 +31060,7 @@
     "Language": "Sirionó",
     "PredicateClassID": 1032,
     "PredicateClassLabel": "Sp",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "This is a smaller class than he default Sa, but now details were provided in the report."
   },
@@ -30760,6 +31070,7 @@
     "Language": "Mandarin",
     "PredicateClassID": 1033,
     "PredicateClassLabel": "mandarin_affected_tr",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "Mandarin transitive predicate with affected semantics (its a hack to get correct alighnemnt for Mandarin)"
   },
@@ -30769,6 +31080,7 @@
     "Language": "Mandarin",
     "PredicateClassID": 1034,
     "PredicateClassLabel": "mandarin_affected_ditr",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "Mandarin transitive predicate with affected semantics (its a hack to get correct alighnemnt for Mandarin)"
   },
@@ -30778,6 +31090,7 @@
     "Language": "Nhengatu",
     "PredicateClassID": 1035,
     "PredicateClassLabel": "Sp",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "stative predicates,\rno list in the language report, maybe available in the grammar"
   },
@@ -30787,6 +31100,7 @@
     "Language": "Mbyá Guaraní",
     "PredicateClassID": 1036,
     "PredicateClassLabel": "Sp",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "no list in the language report; can be added later"
   },
@@ -30796,6 +31110,7 @@
     "Language": "Avá-Canoeiro",
     "PredicateClassID": 1037,
     "PredicateClassLabel": "Sp",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "no list in the language report; can be added later"
   },
@@ -30805,6 +31120,7 @@
     "Language": "Kaiwá",
     "PredicateClassID": 1038,
     "PredicateClassLabel": "Sp",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "no list in the language report; can be added later"
   },
@@ -30814,6 +31130,7 @@
     "Language": "Tapiete",
     "PredicateClassID": 1039,
     "PredicateClassLabel": "Sp",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "no list in the language report; can be added later"
   },
@@ -30823,6 +31140,7 @@
     "Language": "Kayabí",
     "PredicateClassID": 1040,
     "PredicateClassLabel": "Sp",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "no list in the language report; can be added later"
   },
@@ -30832,6 +31150,7 @@
     "Language": "Guajá",
     "PredicateClassID": 1041,
     "PredicateClassLabel": "Sp",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "no list in the language report; can be added later"
   },
@@ -30841,6 +31160,7 @@
     "Language": "Pai Tavytera",
     "PredicateClassID": 1042,
     "PredicateClassLabel": "Sp",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "no list in the language report; can be added later"
   },
@@ -30850,6 +31170,7 @@
     "Language": "Parakanã",
     "PredicateClassID": 1043,
     "PredicateClassLabel": "Sp",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "no list in the language report; can be added later"
   },
@@ -30859,6 +31180,7 @@
     "Language": "Emerillon",
     "PredicateClassID": 1044,
     "PredicateClassLabel": "Sp",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "no list in the language report; can be added later"
   },
@@ -30868,6 +31190,7 @@
     "Language": "Wayampi",
     "PredicateClassID": 1045,
     "PredicateClassLabel": "Sp",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "no list in the language report; can be added later"
   },
@@ -30877,6 +31200,7 @@
     "Language": "Guaraní (Paraguayan)",
     "PredicateClassID": 1046,
     "PredicateClassLabel": "Sp",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "no list in the language report; can be added later"
   },
@@ -30886,6 +31210,7 @@
     "Language": "Tocantins Asurini",
     "PredicateClassID": 1047,
     "PredicateClassLabel": "Sp",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "no list in the language report; can be added later"
   },
@@ -30895,6 +31220,7 @@
     "Language": "Guarayu",
     "PredicateClassID": 1048,
     "PredicateClassLabel": "Sp",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "no list in the language report; can be added later"
   },
@@ -30904,7 +31230,9 @@
     "Language": "Awetí",
     "PredicateClassID": 1018,
     "PredicateClassLabel": "UNKNOWN!",
-    "IndividualPredicates": []
+    "PredicateClassDiscourseFrequency": null,
+    "IndividualPredicates": [],
+    "PredicateClassDescription": null
   },
   {
     "LID": 1168,
@@ -30922,6 +31250,7 @@
     "Language": "Ikpeng",
     "PredicateClassID": 1051,
     "PredicateClassLabel": "stative S",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "Pacheco2001ikpeng:63-64 no exhaustiv elist is provided"
   },
@@ -30931,6 +31260,7 @@
     "Language": "Takelma",
     "PredicateClassID": 1052,
     "PredicateClassLabel": "Sp",
+    "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "information available in sapir1990takelma:160–180"
   }

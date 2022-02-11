@@ -1,6 +1,7 @@
 [
   {
     "PositionalBehavior": "inert",
+    "PositionalBehaviorBinned4": null,
     "PositionalBehaviorIsSpreading": false,
     "Definition": "Not spreading, not stacking.  Default for non-phrasal elements."
   },
@@ -36,15 +37,19 @@
   },
   {
     "PositionalBehavior": "on preceding",
+    "PositionalBehaviorBinned4": null,
+    "PositionalBehaviorIsSpreading": null,
     "Definition": "DO NOT USE ANYMORE. If an element precedes its host, e.g. if a case enclitic attaches to the preceding word, this is coded (following Klavans 1985) as placement = preceding and behavior = on head (or spreading or initial or whatever the case may be)."
   },
   {
     "PositionalBehavior": "flexible",
+    "PositionalBehaviorBinned4": null,
     "PositionalBehaviorIsSpreading": false,
     "Definition": "Inert and freely positioned within its domain (ie. position is not defined with respect to H or D but by something else)."
   },
   {
     "PositionalBehavior": "lex. positioned",
+    "PositionalBehaviorBinned4": null,
     "PositionalBehaviorIsSpreading": false,
     "Definition": "Once per phrase; whether on head or dependent is lexically determined.  Example:  Wemba Wemba dual and plural, which are overt on the noun unless there is a demonstrative pronoun; then it takes the dual or plural form and the noun does not."
   },

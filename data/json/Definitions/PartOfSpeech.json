@@ -18,12 +18,15 @@
   {
     "PoS": "AdvP",
     "ProjectionType": "phrasal",
+    "SyntacticDomain": null,
     "SemanticDomain": "other",
+    "ClausalDomain": null,
     "Definition": "Adverb Phrases, including all sorts of ‘preverbs’ and predicative modifiers."
   },
   {
     "PoS": "Adj",
     "ProjectionType": "terminal",
+    "SyntacticDomain": null,
     "SemanticDomain": "other",
     "ClausalDomain": "argument",
     "Definition": "adjective"
@@ -39,20 +42,25 @@
   {
     "PoS": "Adp",
     "ProjectionType": "terminal",
+    "SyntacticDomain": null,
     "SemanticDomain": "other",
+    "ClausalDomain": null,
     "Definition": "Adposition"
   },
   {
     "PoS": "Art",
     "ProjectionType": "terminal",
+    "SyntacticDomain": null,
     "SemanticDomain": "other",
     "ClausalDomain": "argument",
     "Definition": "Article"
   },
   {
+    "PoS": null,
     "ProjectionType": "terminal",
     "SyntacticDomain": "any",
     "SemanticDomain": "general",
+    "ClausalDomain": null,
     "Definition": "no restriction as to what kind of stem or terminal node can host the formative. This is one notion of clitic; do not confuse with phrasal affixes,which are or not restricted to a specific XP"
   },
   {
@@ -81,6 +89,10 @@
   },
   {
     "PoS": "n11.d.",
+    "ProjectionType": null,
+    "SyntacticDomain": null,
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "no data"
   },
   {
@@ -100,6 +112,11 @@
     "Definition": "1st or 2nd person, or noun."
   },
   {
+    "PoS": null,
+    "ProjectionType": null,
+    "SyntacticDomain": null,
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "not applicable"
   },
   {
@@ -137,6 +154,7 @@
   {
     "PoS": "DEM",
     "ProjectionType": "terminal",
+    "SyntacticDomain": null,
     "SemanticDomain": "non-SAP",
     "ClausalDomain": "argument",
     "Definition": "demonstrative"
@@ -144,6 +162,7 @@
   {
     "PoS": "Num",
     "ProjectionType": "terminal",
+    "SyntacticDomain": null,
     "SemanticDomain": "other",
     "ClausalDomain": "argument",
     "Definition": "numeral"
@@ -239,7 +258,9 @@
   {
     "PoS": "S",
     "ProjectionType": "phrasal",
+    "SyntacticDomain": null,
     "SemanticDomain": "other",
+    "ClausalDomain": null,
     "Definition": "Clause"
   },
   {
@@ -301,7 +322,9 @@
   {
     "PoS": "Quant",
     "ProjectionType": "terminal",
+    "SyntacticDomain": null,
     "SemanticDomain": "other",
+    "ClausalDomain": null,
     "Definition": "Quantifiers"
   },
   {
@@ -309,6 +332,7 @@
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
     "SemanticDomain": "general",
+    "ClausalDomain": null,
     "Definition": "any part of speech except verbs"
   },
   {
@@ -330,6 +354,7 @@
   {
     "PoS": "Ord",
     "ProjectionType": "terminal",
+    "SyntacticDomain": null,
     "SemanticDomain": "other",
     "ClausalDomain": "argument",
     "Definition": "Ordinal numeral"
@@ -337,6 +362,7 @@
   {
     "PoS": "Num_above_20",
     "ProjectionType": "terminal",
+    "SyntacticDomain": null,
     "SemanticDomain": "other",
     "ClausalDomain": "argument",
     "Definition": "numeral greater than 20"
@@ -354,6 +380,7 @@
     "ProjectionType": "phrasal",
     "SyntacticDomain": "any",
     "SemanticDomain": "general",
+    "ClausalDomain": null,
     "Definition": "any phrase: the formative attaches to whatever phrase it refers to (typical of focus particles and clitics)"
   },
   {
@@ -367,6 +394,7 @@
   {
     "PoS": "Ord1",
     "ProjectionType": "terminal",
+    "SyntacticDomain": null,
     "SemanticDomain": "other",
     "ClausalDomain": "argument",
     "Definition": "Ordinal numeral greater than 1"
@@ -1078,6 +1106,7 @@
   {
     "PoS": "AdjP",
     "ProjectionType": "phrasal",
+    "SyntacticDomain": null,
     "SemanticDomain": "other",
     "ClausalDomain": "argument",
     "Definition": "adjective phrase"
@@ -1085,13 +1114,17 @@
   {
     "PoS": "Adv",
     "ProjectionType": "terminal",
+    "SyntacticDomain": null,
     "SemanticDomain": "other",
+    "ClausalDomain": null,
     "Definition": "Adverb"
   },
   {
     "PoS": "PP",
     "ProjectionType": "phrasal",
+    "SyntacticDomain": null,
     "SemanticDomain": "other",
+    "ClausalDomain": null,
     "Definition": "Adpositional phrase"
   },
   {
@@ -1112,6 +1145,7 @@
   },
   {
     "PoS": "anim",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "general",
     "ClausalDomain": "argument",
@@ -1135,6 +1169,7 @@
   },
   {
     "PoS": "N-du",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "noun-like",
     "ClausalDomain": "argument",
@@ -1190,26 +1225,34 @@
   },
   {
     "PoS": "2sg",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "SAP",
+    "ClausalDomain": null,
     "Definition": "2nd person singular"
   },
   {
     "PoS": "2pl",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "SAP",
+    "ClausalDomain": null,
     "Definition": "2nd person plural"
   },
   {
     "PoS": "3sg",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person singular"
   },
   {
     "PoS": "3pl",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person plural"
   },
   {
@@ -1246,54 +1289,71 @@
   },
   {
     "PoS": "2du",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "SAP",
+    "ClausalDomain": null,
     "Definition": "2nd person dual"
   },
   {
     "PoS": "3du",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person dual"
   },
   {
     "PoS": "3",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person"
   },
   {
     "PoS": "3sg-anim-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person singular animate argument with a higher discourse rank than ‘3sg-anim-low’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3pl-anim-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person plural animate argument with a higher discourse rank than ‘3pl-anim-low’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3sg-anim-low",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person singular animate argument with a lower discourse rank than ‘3sg-anim-high’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3pl-anim-low",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person plural animate argument with a lower discourse rank than ‘3pl-anim-high’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "indef",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "general",
+    "ClausalDomain": null,
     "Definition": "indefinite referent"
   },
   {
     "PoS": "N-anim-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "noun-like",
     "ClausalDomain": "argument",
@@ -1301,6 +1361,7 @@
   },
   {
     "PoS": "N-anim-low",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "noun-like",
     "ClausalDomain": "argument",
@@ -1308,6 +1369,7 @@
   },
   {
     "PoS": "3anim-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
     "ClausalDomain": "argument",
@@ -1315,6 +1377,7 @@
   },
   {
     "PoS": "3anim-low",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
     "ClausalDomain": "argument",
@@ -1322,12 +1385,15 @@
   },
   {
     "PoS": "3inanim",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "inanimate referent (of the 3rd person)"
   },
   {
     "PoS": "N-anim-sg-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "noun-like",
     "ClausalDomain": "argument",
@@ -1335,6 +1401,7 @@
   },
   {
     "PoS": "N-anim-sg-low",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "noun-like",
     "ClausalDomain": "argument",
@@ -1342,78 +1409,103 @@
   },
   {
     "PoS": "3hum-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person human argument with a higher discourse rank than ‘3hum-low’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3hum-low",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person human argument with a lower discourse rank than ‘3hum-high’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3anim-nhum-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person animate non-human argument with a higher discourse rank than ‘3anim-nhum-low’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3anim-nhum-low",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person animate non-human argument with a lower discourse rank than ‘3anim-nhum-high’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3inanim-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person inanimate argument with a higher discourse rank than ‘3inanim-low’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3inanim-low",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person inanimate argument with a lower discourse rank than ‘3inanim-high’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3sg-inanim",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "inanimate singular referent (of the 3rd person)"
   },
   {
     "PoS": "3pl-inanim",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "inanimate plural referent (of the 3rd person)"
   },
   {
     "PoS": "3sg-inanim-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "inanimate singular referent (of the 3rd person) with higher discourse rank than 3sg/pl-inanim-low"
   },
   {
     "PoS": "3pl-inanim-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "inanimate plural referent (of the 3rd person) with higher discourse rank than 3sg/pl-inanim-low"
   },
   {
     "PoS": "3sg-inanim-low",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "inanimate singular referent (of the 3rd person) with lower discourse rank than 3sg/pl-inanim-high"
   },
   {
     "PoS": "3pl-inanim-low",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "inanimate plural referent (of the 3rd person) with lower discourse rank than 3sg/pl-inanim-high"
   },
   {
     "PoS": "independent",
+    "ProjectionType": null,
     "SyntacticDomain": "verbal",
     "SemanticDomain": "verb-like",
     "ClausalDomain": "predicate",
@@ -1421,6 +1513,7 @@
   },
   {
     "PoS": "conjunct",
+    "ProjectionType": null,
     "SyntacticDomain": "verbal",
     "SemanticDomain": "verb-like",
     "ClausalDomain": "predicate",
@@ -1428,42 +1521,55 @@
   },
   {
     "PoS": "3sg-anim-fobv",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person singular animate further obviative argument (i.e. with a lower dicourse rank than the 3rd person sg. animate low argument)"
   },
   {
     "PoS": "3pl-anim-fobv",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person plural animate further obviative argument (i.e. with a lower dicourse rank than the 3rd person pl. animate low argument)"
   },
   {
     "PoS": "3du-anim-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person dual animate argument with a higher discourse rank than ‘3sg-anim-low’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3du-anim-low",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person dual animate argument with a lower discourse rank than ‘3sg-anim-high’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3du-inanim",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "inanimate dual referent (of the 3rd person)"
   },
   {
     "PoS": "1du",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "SAP",
+    "ClausalDomain": null,
     "Definition": "1st person dual"
   },
   {
     "PoS": "N-loc",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "noun-like",
     "ClausalDomain": "argument",
@@ -1471,6 +1577,7 @@
   },
   {
     "PoS": "N-nloc",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "noun-like",
     "ClausalDomain": "argument",
@@ -1478,26 +1585,34 @@
   },
   {
     "PoS": "N-topon",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "noun-like",
+    "ClausalDomain": null,
     "Definition": "toponym"
   },
   {
     "PoS": "N-nontopon",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "noun-like",
+    "ClausalDomain": null,
     "Definition": "non-toponym noun"
   },
   {
     "PoS": "du",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "general",
+    "ClausalDomain": null,
     "Definition": "dual"
   },
   {
     "PoS": "pl",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "general",
+    "ClausalDomain": null,
     "Definition": "plural"
   },
   {
@@ -1542,50 +1657,66 @@
   },
   {
     "PoS": "3sg-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person singular argument with a higher discourse rank than ‘3sg-anim-low’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3du-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person dual argument with a higher discourse rank than ‘3sg-anim-low’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3pl-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person plural argument with a higher discourse rank than ‘3sg-anim-low’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3sg-low",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person singular argument with a lower discourse rank than ‘3sg-anim-high’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3du-low",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person dual argument with a lower discourse rank than ‘3sg-anim-high’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3pl-low",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person plural argument with a lower discourse rank than ‘3sg-anim-high’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3sg-anim",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person singular animate argument"
   },
   {
     "PoS": "3du-anim",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person dual animate argument"
   },
   {
@@ -1606,26 +1737,34 @@
   },
   {
     "PoS": "N-highest",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "noun-like",
+    "ClausalDomain": null,
     "Definition": "noun denoting the referent highest in discourse (e.g. such as PROX in Algonquian languages)"
   },
   {
     "PoS": "N-non-highest",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "noun-like",
+    "ClausalDomain": null,
     "Definition": "noun denoting any referent than the highest one in discourse (e.g. such as PROX in Algonquian languages)"
   },
   {
     "PoS": "3pl-x",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person plural argument with unknown/unclear referential properties that result in a split, if there is a split triggered by unclear referential properties 3pl-b for the other member of the opposition."
   },
   {
     "PoS": "3pl-y",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person plural argument with unknown/unclear referential properties that result in a split, if there is a split triggered by unclear referential properties 3pl-a for the other member of the opposition."
   },
   {
@@ -1633,6 +1772,7 @@
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "pronoun denoting the 3rd referent highest in discourse (e.g. such as PROX in Algonquian languages)"
   },
   {
@@ -1640,24 +1780,31 @@
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "pronoun denoting any referent other than the highest one in discourse (e.g. such as PROX in Algonquian languages)"
   },
   {
     "PoS": "highest",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "general",
+    "ClausalDomain": null,
     "Definition": "the referent highest in discourse"
   },
   {
     "PoS": "2-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "SAP",
+    "ClausalDomain": null,
     "Definition": "2nd person argument with a higher discourse rank than ‘2-low’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3pl-hum",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person plural human argument"
   },
   {
@@ -1686,14 +1833,18 @@
   },
   {
     "PoS": "N-count",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "noun-like",
+    "ClausalDomain": null,
     "Definition": "countable noun"
   },
   {
     "PoS": "N-uncount",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "noun-like",
+    "ClausalDomain": null,
     "Definition": "uncountable noun"
   },
   {
@@ -1701,6 +1852,7 @@
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person singular pronoun referring to a countable entity"
   },
   {
@@ -1708,6 +1860,7 @@
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person singular pronoun referring to an uncountable entity"
   },
   {
@@ -1728,8 +1881,10 @@
   },
   {
     "PoS": "non-highest",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "general",
+    "ClausalDomain": null,
     "Definition": "the referent non-highest in discourse"
   },
   {
@@ -1737,6 +1892,7 @@
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
     "SemanticDomain": "SAP",
+    "ClausalDomain": null,
     "Definition": "1st person plural inclusive pronoun"
   },
   {
@@ -1744,6 +1900,7 @@
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
     "SemanticDomain": "SAP",
+    "ClausalDomain": null,
     "Definition": "1st person plural exclusive pronoun"
   },
   {
@@ -1812,38 +1969,50 @@
   },
   {
     "PoS": "2sg-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "SAP",
+    "ClausalDomain": null,
     "Definition": "2nd person singular high"
   },
   {
     "PoS": "2pl-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "SAP",
+    "ClausalDomain": null,
     "Definition": "2nd person plural high"
   },
   {
     "PoS": "3sg-hum-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person singular human argument with a higher discourse rank than ‘3sg-anim-low’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3pl-hum-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person plural human argument with a higher discourse rank than ‘3sg-anim-low’ (where rank is determined by discourse factors with language-specific weights)"
   },
   {
     "PoS": "3sg-y",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person singular argument with unknown/unclear referential properties that result in a split, if there is a split triggered by unclear referential properties 3pl-a for the other member of the opposition."
   },
   {
     "PoS": "3sg-x",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3rd person singular argument with unknown/unclear referential properties that result in a split, if there is a split triggered by unclear referential properties 3pl-b for the other member of the opposition."
   },
   {
@@ -1864,50 +2033,66 @@
   },
   {
     "PoS": "2sgMH",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "SAP",
+    "ClausalDomain": null,
     "Definition": "2nd person singular, mid honorific"
   },
   {
     "PoS": "2plMH",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "SAP",
+    "ClausalDomain": null,
     "Definition": "2nd person plural, mid honorific"
   },
   {
     "PoS": "2sgHH",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "SAP",
+    "ClausalDomain": null,
     "Definition": "2nd person singular, high honorific"
   },
   {
     "PoS": "2plHH",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "SAP",
+    "ClausalDomain": null,
     "Definition": "2nd person plural, high honorific"
   },
   {
     "PoS": "3sgMH",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "third person singular, mid honorific"
   },
   {
     "PoS": "3plMH",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "third person plural, mid honorific"
   },
   {
     "PoS": "3sgHH",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "third person singular, high honorific"
   },
   {
     "PoS": "3plHH",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "third person plural, high honorific"
   },
   {
@@ -1947,6 +2132,7 @@
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "pronoun denoting the 3rd sg. referent highest in discourse (e.g. such as PROX in Algonquian languages)"
   },
   {
@@ -1954,6 +2140,7 @@
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "pronoun denoting the 3rd pl. referent highest in discourse (e.g. such as PROX in Algonquian languages)"
   },
   {
@@ -1961,6 +2148,7 @@
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "pronoun denoting any 3rd sg. referent other than the highest one in discourse (e.g. such as PROX Algonquian languages)"
   },
   {
@@ -1968,6 +2156,7 @@
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "pronoun denoting any 3rd pl. referent other than the highest one in discourse (e.g. such as PROX Algonquian languages)"
   },
   {
@@ -1980,6 +2169,7 @@
   },
   {
     "PoS": "N-inanim-high",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "noun-like",
     "ClausalDomain": "argument",
@@ -1987,6 +2177,7 @@
   },
   {
     "PoS": "N-inanim-low",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
     "SemanticDomain": "noun-like",
     "ClausalDomain": "argument",
@@ -1994,6 +2185,7 @@
   },
   {
     "PoS": "1sg-fem340",
+    "ProjectionType": null,
     "SyntacticDomain": "verbal",
     "SemanticDomain": "verb-like",
     "ClausalDomain": "predicate",
@@ -2001,6 +2193,7 @@
   },
   {
     "PoS": "2sg-fem340",
+    "ProjectionType": null,
     "SyntacticDomain": "verbal",
     "SemanticDomain": "verb-like",
     "ClausalDomain": "predicate",
@@ -2008,6 +2201,7 @@
   },
   {
     "PoS": "3sg-fem340",
+    "ProjectionType": null,
     "SyntacticDomain": "verbal",
     "SemanticDomain": "verb-like",
     "ClausalDomain": "predicate",
@@ -2015,6 +2209,7 @@
   },
   {
     "PoS": "3sg-neu340",
+    "ProjectionType": null,
     "SyntacticDomain": "verbal",
     "SemanticDomain": "verb-like",
     "ClausalDomain": "predicate",
@@ -2022,6 +2217,7 @@
   },
   {
     "PoS": "1sg-masc340",
+    "ProjectionType": null,
     "SyntacticDomain": "verbal",
     "SemanticDomain": "verb-like",
     "ClausalDomain": "predicate",
@@ -2029,6 +2225,7 @@
   },
   {
     "PoS": "1sg-neu340",
+    "ProjectionType": null,
     "SyntacticDomain": "verbal",
     "SemanticDomain": "verb-like",
     "ClausalDomain": "predicate",
@@ -2036,6 +2233,7 @@
   },
   {
     "PoS": "2sg-masc340",
+    "ProjectionType": null,
     "SyntacticDomain": "verbal",
     "SemanticDomain": "verb-like",
     "ClausalDomain": "predicate",
@@ -2043,6 +2241,7 @@
   },
   {
     "PoS": "2sg-neu340",
+    "ProjectionType": null,
     "SyntacticDomain": "verbal",
     "SemanticDomain": "verb-like",
     "ClausalDomain": "predicate",
@@ -2050,65 +2249,89 @@
   },
   {
     "PoS": "3sg-masc340",
+    "ProjectionType": null,
     "SyntacticDomain": "verbal",
     "SemanticDomain": "verb-like",
     "ClausalDomain": "predicate",
     "Definition": "Russian S/A past masc agreement"
   },
   {
+    "PoS": null,
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "All referential types"
   },
   {
     "PoS": "N1-2831",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Ancient Greek feminine and masculine nouns in singular and plural"
   },
   {
     "PoS": "N2-2831",
+    "ProjectionType": null,
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Ancient Greek feminine and masculine nouns in dual and neuter nouns in all numbers"
   },
   {
     "PoS": "3sgPro-neu2831",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Ancient Greek neuter 3sg pronoun"
   },
   {
     "PoS": "3sgPro-fem2831",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Ancient Greek feminine 3sg pronoun"
   },
   {
     "PoS": "3sgPro-masc2831",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Ancient Greek masculine 3sg pronoun"
   },
   {
     "PoS": "3plPro-masc2831",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Ancient Greek masculine 3pl pronoun"
   },
   {
     "PoS": "3plPro-fem2831",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Ancient Greek feminine 3pl pronoun"
   },
   {
     "PoS": "3plPro-neu2831",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Ancient Greek neuter 3pl pronoun"
   },
   {
     "PoS": "N-masc110",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
     "ClausalDomain": "argument",
     "Definition": "Icelandic masculine nouns of strong and weak declension, no NOM/ACC syncretism"
   },
@@ -2116,6 +2339,7 @@
     "PoS": "N-fem.neu110",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
     "ClausalDomain": "argument",
     "Definition": "Icelandic feminine nouns of weak declension and a minor masculine strong class, show NOM/ACC syncretism in plural only AND Icelandic neuter and feminine nouns of strong declension, show NOM/ACC syncretism in sg and pl"
   },
@@ -2171,6 +2395,7 @@
     "PoS": "N-syncr2832",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
     "ClausalDomain": "argument",
     "Definition": "Gothic nouns of every gender with syncretic NOM/ACC forms"
   },
@@ -2178,6 +2403,7 @@
     "PoS": "N-nsyncr2832",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
     "ClausalDomain": "argument",
     "Definition": "Gothic nouns of every gender with non-syncretic NOM and ACC forms"
   },
@@ -2233,6 +2459,7 @@
     "PoS": "N-fem549",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
     "ClausalDomain": "argument",
     "Definition": "Latvian nouns in feminine, which are syncretic only in the plural"
   },
@@ -2240,6 +2467,7 @@
     "PoS": "N-masc549",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
     "ClausalDomain": "argument",
     "Definition": "Latvian nouns in masculine, which have no NOM/ACC syncretism"
   },
@@ -2247,30 +2475,39 @@
     "PoS": "3sgPro-fem549",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Latvian feminine 3sg pronoun"
   },
   {
     "PoS": "3plPro-fem549",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Latvian feminine 3pl pronoun (syncretic NOM/ACC)"
   },
   {
     "PoS": "3sgPro-masc549",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Latvian masculine 3sg pronoun"
   },
   {
     "PoS": "3plPro-masc549",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Latvian masculine 3pl pronoun"
   },
   {
     "PoS": "N-syncr2900",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
     "ClausalDomain": "argument",
     "Definition": "Avestan nouns of the inflectional classes with NOM/ACC syncretism (either in du/pl only or also in sg)"
   },
@@ -2278,6 +2515,7 @@
     "PoS": "N-nsyncr2900",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
     "ClausalDomain": "argument",
     "Definition": "Avestan nouns of the inflectional classes without NOM/ACC syncretism"
   },
@@ -2285,270 +2523,360 @@
     "PoS": "N-nsyncr464",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Greek nouns of the inflectional classes without NOM/ACC syncretism (some masculines and some feminines)"
   },
   {
     "PoS": "N-syncr464",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Greek nouns of the inflectional classes with NOM/ACC syncretism (all neuter, some masculines and some feminines, some of them in pl. only, other both in sg. and pl.)"
   },
   {
     "PoS": "3sgPro-neu464",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Greek neuter 3sg pronoun"
   },
   {
     "PoS": "3sgPro-fem464",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Greek feminine 3sg pronoun"
   },
   {
     "PoS": "3sgPro-masc464",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Greek masculine 3sg pronoun"
   },
   {
     "PoS": "3plPro-neu464",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Greek neuter 3pl pronoun"
   },
   {
     "PoS": "3plPro-fem464",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Greek feminine 3pl pronoun"
   },
   {
     "PoS": "3plPro-masc464",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Greek masculine 3pl pronoun"
   },
   {
     "PoS": "N-syncr2893",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Latin nouns with NOM = ACC syncretism both in sg. and pl. (all neuter nouns and fem. and masc. nouns of declension 3, 4 and 5)"
   },
   {
     "PoS": "N-nsyncr2893",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Latin nouns without NOM = ACC syncretism neither in sg. not in pl."
   },
   {
     "PoS": "3sgPro-masc2893",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Latin 3rd person singular masculine pronoun"
   },
   {
     "PoS": "3sgPro-fem2893",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Latin 3rd person singular feminine pronoun"
   },
   {
     "PoS": "3sgPro-neu2893",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Latin 3rd person singular neuter pronoun"
   },
   {
     "PoS": "3plPro-masc2893",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Latin 3rd person plural masculine pronoun"
   },
   {
     "PoS": "3plPro-fem2893",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Latin 3rd person plural feminine pronoun"
   },
   {
     "PoS": "3plPro-neu2893",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Latin 3rd person plural neuter pronoun"
   },
   {
     "PoS": "N-syncr2854",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "High German (old) nouns with NOM = ACC syncretism both in sg. and pl. (nouns of all genders in the vocalic/strong declension, nouns in minor consonantal declensions, neuter nouns of the weak -n-declension)"
   },
   {
     "PoS": "N-nsyncr2854",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "High German (old) nouns without NOM/ACC syncretism in sg.(masc. and fem. nouns of the weak declension); pl. is always syncreticvocalic/strong declension, nouns in minor consonantal declensions, neuter nouns of the weak -n-declension)"
   },
   {
     "PoS": "3sgPro-masc2854",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "High German (old) 3sgPro without NOM/ACC syncretism"
   },
   {
     "PoS": "3sgPro-fem2854",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "High German (old) 3sgPro without NOM/ACC syncretism"
   },
   {
     "PoS": "3sgPro-neu2854",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "High German (old) 3sgPro with NOM = ACC syncretism"
   },
   {
     "PoS": "2du_masc2378",
     "ProjectionType": "terminal",
     "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Rotokas 2nd person dual masculine agreement"
   },
   {
     "PoS": "2du_fem2378",
     "ProjectionType": "terminal",
     "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Rotokas 2nd person dual feminine agreement"
   },
   {
     "PoS": "3sg_masc2378",
     "ProjectionType": "terminal",
     "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Rotokas 3rd person masculine singular agreement"
   },
   {
     "PoS": "3sg_fem2378",
     "ProjectionType": "terminal",
     "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Rotokas 3rd person feminine singular agreement"
   },
   {
     "PoS": "3sg_neu2378",
     "ProjectionType": "terminal",
     "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Rotokas 3rd person neuter singular agreement"
   },
   {
     "PoS": "3du_masc2378",
     "ProjectionType": "terminal",
     "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Rotokas 3rd person masculine dual agreement"
   },
   {
     "PoS": "3du_fem2378",
     "ProjectionType": "terminal",
     "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Rotokas 3rd person feminine dual agreement"
   },
   {
     "PoS": "3du_neu2378",
     "ProjectionType": "terminal",
     "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Rotokas 3rd person neuter dual agreement"
   },
   {
     "PoS": "3pl_masc2378",
     "ProjectionType": "terminal",
     "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Rotokas 3rd person masculine plural agreement"
   },
   {
     "PoS": "3pl_fem2378",
     "ProjectionType": "terminal",
     "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Rotokas 3rd person feminine plural agreement"
   },
   {
     "PoS": "3pl_neu2378",
     "ProjectionType": "terminal",
     "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Rotokas 3rd person neuter plural agreement"
   },
   {
     "PoS": "N_mostclasses2972",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Kambaata majority noun inflection class"
   },
   {
     "PoS": "N_M8M9classes2972",
     "ProjectionType": "terminal",
     "SyntacticDomain": "nominal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Kambaata M8 and M9 noun inflection class"
   },
   {
     "PoS": "3sg_fem2972",
     "ProjectionType": "terminal",
     "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Kambaata 3rd person feminine singular agreement"
   },
   {
     "PoS": "3sg_masc2972",
     "ProjectionType": "terminal",
     "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Kambaata 3rd person masculine singular agreement"
   },
   {
     "PoS": "3pl_fem2972",
     "ProjectionType": "terminal",
     "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Kambaata 3rd person feminine plural agreement"
   },
   {
     "PoS": "3pl_masc2972",
     "ProjectionType": "terminal",
     "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Kambaata 3rd person masculine plural agreement"
   },
   {
     "PoS": "2sgHON",
+    "ProjectionType": null,
     "SyntacticDomain": "verbal",
     "SemanticDomain": "SAP",
+    "ClausalDomain": null,
     "Definition": "2nd person singular honorific"
   },
   {
     "PoS": "2plHON",
+    "ProjectionType": null,
     "SyntacticDomain": "verbal",
     "SemanticDomain": "SAP",
+    "ClausalDomain": null,
     "Definition": "2nd person plural honorific"
   },
   {
     "PoS": "3sgHON",
+    "ProjectionType": null,
     "SyntacticDomain": "verbal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3nd person singular honorific"
   },
   {
     "PoS": "3plHON",
+    "ProjectionType": null,
     "SyntacticDomain": "verbal",
     "SemanticDomain": "non-SAP",
+    "ClausalDomain": null,
     "Definition": "3nd person plural honorific"
   },
   {
     "PoS": "3sg_masc495",
     "ProjectionType": "terminal",
     "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Krongo 3rd person masculine singular agreement"
   },
   {
     "PoS": "3sg_fem495",
     "ProjectionType": "terminal",
     "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Krongo 3rd person feminine singular agreement"
   },
   {
     "PoS": "3sg_neu495",
     "ProjectionType": "terminal",
     "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
     "Definition": "Krongo 3rd person neuter singular agreement"
   }
 ]

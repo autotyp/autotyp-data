@@ -19,10 +19,20 @@
   },
   {
     "Fusion": "Nonconcatenative",
+    "FusionBinned6": null,
+    "FusionIsIsolating": null,
+    "FusionIsNonlinear": null,
+    "FusionIsReduplicative": null,
+    "FusionIsTonal": null,
     "Definition": "No longer used. Instead, use the more specific type of nonconcatenative marking (Fusion ID #s 5ff). See log #40"
   },
   {
     "Fusion": "unknown",
+    "FusionBinned6": null,
+    "FusionIsIsolating": null,
+    "FusionIsNonlinear": null,
+    "FusionIsReduplicative": null,
+    "FusionIsTonal": null,
     "Definition": "Unknown"
   },
   {
@@ -171,6 +181,11 @@
   },
   {
     "Fusion": "mixed",
+    "FusionBinned6": null,
+    "FusionIsIsolating": null,
+    "FusionIsNonlinear": null,
+    "FusionIsReduplicative": null,
+    "FusionIsTonal": null,
     "Definition": "This value is used only for survey purposes. Do not use when inputting data. When inputting data, choose a specific value or <?>."
   },
   {
@@ -184,26 +199,56 @@
   },
   {
     "Fusion": "concatenative_or_suppletive",
+    "FusionBinned6": null,
+    "FusionIsIsolating": null,
+    "FusionIsNonlinear": null,
+    "FusionIsReduplicative": null,
+    "FusionIsTonal": null,
     "Definition": "Concatenative formative or suppletion, under different conditions."
   },
   {
     "Fusion": "tonal_or_suppletive",
+    "FusionBinned6": null,
+    "FusionIsIsolating": null,
+    "FusionIsNonlinear": null,
+    "FusionIsReduplicative": null,
+    "FusionIsTonal": null,
     "Definition": "Tonal formative or suppletion, under different conditions."
   },
   {
     "Fusion": "ablaut_or_suppletive",
+    "FusionBinned6": null,
+    "FusionIsIsolating": null,
+    "FusionIsNonlinear": null,
+    "FusionIsReduplicative": null,
+    "FusionIsTonal": null,
     "Definition": "Ablaut or suppletion, under different conditions."
   },
   {
     "Fusion": "concatenative_or_tonal",
+    "FusionBinned6": null,
+    "FusionIsIsolating": null,
+    "FusionIsNonlinear": null,
+    "FusionIsReduplicative": null,
+    "FusionIsTonal": null,
     "Definition": "Concatenative or tonal formative, under different conditions."
   },
   {
     "Fusion": "reduplicative_or_suppletive",
+    "FusionBinned6": null,
+    "FusionIsIsolating": null,
+    "FusionIsNonlinear": null,
+    "FusionIsReduplicative": null,
+    "FusionIsTonal": null,
     "Definition": "Reduplication or suppletion, under different conditions."
   },
   {
     "Fusion": "ablaut_or_tonal",
+    "FusionBinned6": null,
+    "FusionIsIsolating": null,
+    "FusionIsNonlinear": null,
+    "FusionIsReduplicative": null,
+    "FusionIsTonal": null,
     "Definition": "Ablaut or tone change, under different conditions."
   }
 ]

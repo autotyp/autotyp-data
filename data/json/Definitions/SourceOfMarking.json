@@ -7,7 +7,10 @@
     "SourceOfMarking": "agree",
     "Definition": "The formative is there because of agreement."
   },
-  {},
+  {
+    "SourceOfMarking": null,
+    "Definition": null
+  },
   {
     "SourceOfMarking": "no data",
     "Definition": "TODO"

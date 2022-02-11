@@ -185,7 +185,8 @@
     "Language": "Tera",
     "HasClusivity": false,
     "ClusivityType": "no i/e",
-    "HasClusivityAsPerson": false
+    "HasClusivityAsPerson": false,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 123,
@@ -265,7 +266,8 @@
     "Language": "Hittite",
     "HasClusivity": false,
     "ClusivityType": "no i/e",
-    "HasClusivityAsPerson": false
+    "HasClusivityAsPerson": false,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 108,
@@ -470,7 +472,9 @@
     "Glottocode": "west2414",
     "Language": "Gurung",
     "HasClusivity": true,
-    "ClusivityType": "plain i/e type"
+    "ClusivityType": "plain i/e type",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 142,
@@ -774,7 +778,9 @@
     "Glottocode": "tawa1275",
     "Language": "Tawala",
     "HasClusivity": true,
-    "ClusivityType": "plain i/e type"
+    "ClusivityType": "plain i/e type",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 369,
@@ -961,7 +967,9 @@
     "Glottocode": "wari1266",
     "Language": "Waris",
     "HasClusivity": true,
-    "ClusivityType": "plain i/e type"
+    "ClusivityType": "plain i/e type",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 415,
@@ -1202,7 +1210,9 @@
     "Glottocode": "dehu1237",
     "Language": "Drehu",
     "HasClusivity": true,
-    "ClusivityType": "plain i/e type"
+    "ClusivityType": "plain i/e type",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 140,
@@ -1227,14 +1237,18 @@
     "Glottocode": "pohn1238",
     "Language": "Ponapean",
     "HasClusivity": true,
-    "ClusivityType": "plain i/e type"
+    "ClusivityType": "plain i/e type",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 346,
     "Glottocode": "samo1305",
     "Language": "Samoan",
     "HasClusivity": true,
-    "ClusivityType": "plain i/e type"
+    "ClusivityType": "plain i/e type",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 359,
@@ -1583,7 +1597,9 @@
     "Glottocode": "choc1276",
     "Language": "Choctaw",
     "HasClusivity": true,
-    "ClusivityType": "plain i/e type"
+    "ClusivityType": "plain i/e type",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 59,
@@ -1734,7 +1750,9 @@
     "Glottocode": "hueh1236",
     "Language": "Tepehua (Huehuetla)",
     "HasClusivity": true,
-    "ClusivityType": "plain i/e type"
+    "ClusivityType": "plain i/e type",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 388,
@@ -1805,7 +1823,8 @@
     "Language": "Paez",
     "HasClusivity": false,
     "ClusivityType": "no i/e",
-    "HasClusivityAsPerson": false
+    "HasClusivityAsPerson": false,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 104,
@@ -1821,7 +1840,9 @@
     "Glottocode": "resi1247",
     "Language": "Resígaro",
     "HasClusivity": true,
-    "ClusivityType": "plain i/e type"
+    "ClusivityType": "plain i/e type",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 397,
@@ -1936,7 +1957,9 @@
     "Glottocode": "west2515",
     "Language": "Futuna (West)",
     "HasClusivity": true,
-    "ClusivityType": "plain i/e type"
+    "ClusivityType": "plain i/e type",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 440,
@@ -2861,7 +2884,9 @@
     "Glottocode": "nezp1238",
     "Language": "Nez Perce",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 155,
@@ -2958,7 +2983,9 @@
     "Glottocode": "dogo1299",
     "Language": "Dogon",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 534,
@@ -3028,7 +3055,9 @@
     "Glottocode": "usar1243",
     "Language": "Usarufa",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 158,
@@ -3044,7 +3073,9 @@
     "Glottocode": "haka1240",
     "Language": "Hakka Lai",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 599,
@@ -3060,14 +3091,18 @@
     "Glottocode": "coah1252",
     "Language": "Coahuiltec",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 608,
     "Glottocode": "mari1278",
     "Language": "Mari",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 404,
@@ -3083,7 +3118,9 @@
     "Glottocode": "cent2127",
     "Language": "Yup’ik (Central)",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 82,
@@ -3108,7 +3145,9 @@
     "Glottocode": "yidi1250",
     "Language": "Yidiny",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 669,
@@ -3124,7 +3163,9 @@
     "Glottocode": "band1339",
     "Language": "Bandjalang",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 528,
@@ -3149,14 +3190,18 @@
     "Glottocode": "izon1238",
     "Language": "Ijo",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 643,
     "Glottocode": "sout2778",
     "Language": "Kisi",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 532,
@@ -3181,21 +3226,27 @@
     "Glottocode": "aleu1260",
     "Language": "Aleut",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 538,
     "Glottocode": "east2342",
     "Language": "Kayah Li (Eastern)",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 612,
     "Glottocode": "cent2128",
     "Language": "Yup’ik (Siberian)",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 152,
@@ -3211,7 +3262,9 @@
     "Glottocode": "abip1241",
     "Language": "Abipon",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 620,
@@ -3227,7 +3280,9 @@
     "Glottocode": "jeri1242",
     "Language": "Jeli",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 223,
@@ -3324,7 +3379,9 @@
     "Glottocode": "yecu1235",
     "Language": "Totonac (Misantla)",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 942,
@@ -3448,7 +3505,9 @@
     "Glottocode": "darg1241",
     "Language": "Dargi (standard)",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 2947,
@@ -3617,14 +3676,18 @@
     "Glottocode": "ming1252",
     "Language": "Mingrelian",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 1926,
     "Glottocode": "lazz1240",
     "Language": "Laz",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 2015,
@@ -3649,7 +3712,9 @@
     "Glottocode": "klam1254",
     "Language": "Klamath",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 2970,
@@ -3665,14 +3730,18 @@
     "Glottocode": "kusu1250",
     "Language": "Kusunda",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 458,
     "Glottocode": "adyg1241",
     "Language": "Adyghe (West Circassian)",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 1036,
@@ -3706,7 +3775,9 @@
     "Glottocode": "yele1255",
     "Language": "Yelî Dnye",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 459,
@@ -3740,35 +3811,45 @@
     "Glottocode": "assy1241",
     "Language": "Neo-Aramaic (Barwar)",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 2050,
     "Glottocode": "moco1246",
     "Language": "Mocoví",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 3105,
     "Glottocode": "djeo1235",
     "Language": "Djeoromitxi",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 3106,
     "Glottocode": "arik1265",
     "Language": "Arikapú",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 2564,
     "Glottocode": "thom1243",
     "Language": "Thompson",
     "HasClusivity": false,
-    "ClusivityType": "no i/e"
+    "ClusivityType": "no i/e",
+    "HasClusivityAsPerson": null,
+    "HasClusivityWithMinimalNumberSystem": null
   },
   {
     "LID": 2984,

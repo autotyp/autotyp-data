@@ -41,10 +41,12 @@
   },
   {
     "SemanticClass": "<?a>",
+    "SemanticClassBinned": null,
     "Definition": "Unknown or unclear semantics. If there is a split according to certain loose semantic features, use this category for more the common pattern, use  <?b> for the other member of the split."
   },
   {
     "SemanticClass": "unknown",
+    "SemanticClassBinned": null,
     "Definition": "Unknown or unclear semantics."
   },
   {
@@ -54,14 +56,17 @@
   },
   {
     "SemanticClass": "semantic",
+    "SemanticClassBinned": null,
     "Definition": "Alienability marking has some compositional effect on the lexical input."
   },
   {
     "SemanticClass": "no mention",
+    "SemanticClassBinned": null,
     "Definition": "= <?>"
   },
   {
     "SemanticClass": "n/a",
+    "SemanticClassBinned": null,
     "Definition": "N/A"
   },
   {
@@ -271,6 +276,7 @@
   },
   {
     "SemanticClass": "<?b>",
+    "SemanticClassBinned": null,
     "Definition": "unknown/unclear semantics. In opposition to <?a>"
   },
   {

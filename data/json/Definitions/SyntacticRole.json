@@ -66,6 +66,7 @@
   },
   {
     "SyntacticRole": "<any>",
+    "SyntacticMacrorole": null,
     "Definition": "any role depending on the syntactic environment"
   },
   {
@@ -85,14 +86,17 @@
   },
   {
     "SyntacticRole": "core",
+    "SyntacticMacrorole": null,
     "Definition": "any of S, A or U arguments"
   },
   {
     "SyntacticRole": "oblique",
+    "SyntacticMacrorole": null,
     "Definition": "general oblique"
   },
   {
     "SyntacticRole": "O-adp",
+    "SyntacticMacrorole": null,
     "Definition": "object of adposition"
   },
   {
@@ -142,10 +146,12 @@
   },
   {
     "SyntacticRole": "locative",
+    "SyntacticMacrorole": null,
     "Definition": "locative"
   },
   {
     "SyntacticRole": "I-default",
+    "SyntacticMacrorole": null,
     "Definition": "Instrument"
   },
   {
@@ -200,6 +206,7 @@
   },
   {
     "SyntacticRole": "ARG-nom",
+    "SyntacticMacrorole": null,
     "Definition": "any argument in the unmarked (nominative) case."
   },
   {
@@ -209,6 +216,7 @@
   },
   {
     "SyntacticRole": "AFF",
+    "SyntacticMacrorole": null,
     "Definition": "‘Affected’ non-argumental participant, e.g. ethical datives, ascended possessors etc."
   },
   {
@@ -228,6 +236,7 @@
   },
   {
     "SyntacticRole": "PRED.N",
+    "SyntacticMacrorole": null,
     "Definition": "Predicate nouns"
   },
   {
@@ -252,6 +261,7 @@
   },
   {
     "SyntacticRole": "Temporal",
+    "SyntacticMacrorole": null,
     "Definition": "time circumstance"
   },
   {
@@ -261,6 +271,7 @@
   },
   {
     "SyntacticRole": "COMP",
+    "SyntacticMacrorole": null,
     "Definition": "Standard of comparison"
   },
   {
@@ -270,10 +281,12 @@
   },
   {
     "SyntacticRole": "COM",
+    "SyntacticMacrorole": null,
     "Definition": "comitative (e.g. a verb agreement role in Abkhaz)"
   },
   {
     "SyntacticRole": "U/B-default",
+    "SyntacticMacrorole": null,
     "Definition": "the same marker used for both patients/undergoes of transitives and beneficiary, goal, recipient argument of ditransitives;"
   }
 ]

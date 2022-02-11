@@ -14,6 +14,7 @@
     "Position": "in",
     "PositionBinned4": "in/simul",
     "PositionBinned5": "in",
+    "HasPostposedExponent": null,
     "HasPreposedExponent": false,
     "HasPreposedDefaultExponent": false,
     "HasMultipleExponents": false,
@@ -54,8 +55,14 @@
     "Definition": "the formative has two exponents, one before and  one after the phonological host. This is a special case of the “simul” position"
   },
   {
+    "Position": null,
+    "PositionBinned4": null,
+    "PositionBinned5": null,
+    "HasPostposedExponent": null,
     "HasPreposedExponent": false,
     "HasPreposedDefaultExponent": false,
+    "HasMultipleExponents": null,
+    "HasMultipleDefaultExponents": null,
     "Definition": "not applicable because an element’s position is defined only with respect to  grammatical words"
   },
   {
@@ -115,6 +122,13 @@
   },
   {
     "Position": "Wackernagel",
+    "PositionBinned4": null,
+    "PositionBinned5": null,
+    "HasPostposedExponent": null,
+    "HasPreposedExponent": null,
+    "HasPreposedDefaultExponent": null,
+    "HasMultipleExponents": null,
+    "HasMultipleDefaultExponents": null,
     "Definition": "DO NOT USE (Wackernagel is defined as Behavior = Initial  and Position = post) -- see log 77"
   },
   {
@@ -185,6 +199,13 @@
   },
   {
     "Position": "circum (W)",
+    "PositionBinned4": null,
+    "PositionBinned5": null,
+    "HasPostposedExponent": null,
+    "HasPreposedExponent": null,
+    "HasPreposedDefaultExponent": null,
+    "HasMultipleExponents": null,
+    "HasMultipleDefaultExponents": null,
     "Definition": "DO NOT USE (Wackernagel is defined as Behavior = Initial  and Position = post) -- see log 77"
   },
   {
@@ -255,10 +276,24 @@
   },
   {
     "Position": "unknown",
+    "PositionBinned4": null,
+    "PositionBinned5": null,
+    "HasPostposedExponent": null,
+    "HasPreposedExponent": null,
+    "HasPreposedDefaultExponent": null,
+    "HasMultipleExponents": null,
+    "HasMultipleDefaultExponents": null,
     "Definition": "position is unknown"
   },
   {
     "Position": "any",
+    "PositionBinned4": null,
+    "PositionBinned5": null,
+    "HasPostposedExponent": null,
+    "HasPreposedExponent": null,
+    "HasPreposedDefaultExponent": null,
+    "HasMultipleExponents": null,
+    "HasMultipleDefaultExponents": null,
     "Definition": "unspecified; can appear anywhere where the language allows it."
   },
   {
@@ -266,6 +301,10 @@
     "PositionBinned4": "in/simul",
     "PositionBinned5": "simul",
     "HasPostposedExponent": true,
+    "HasPreposedExponent": null,
+    "HasPreposedDefaultExponent": null,
+    "HasMultipleExponents": null,
+    "HasMultipleDefaultExponents": null,
     "Definition": "in two or more different positions in the phonological host by default, after the host under exceptional conditions (typically lexical)"
   },
   {
@@ -273,6 +312,10 @@
     "PositionBinned4": "in/simul",
     "PositionBinned5": "simul",
     "HasPostposedExponent": false,
+    "HasPreposedExponent": null,
+    "HasPreposedDefaultExponent": null,
+    "HasMultipleExponents": null,
+    "HasMultipleDefaultExponents": null,
     "Definition": "a special case of “simul” where one position is stem change itself"
   },
   {

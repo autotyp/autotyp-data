@@ -1,11 +1,11 @@
-# The AUTOTYP database v1.0.0
+# The AUTOTYP database v1.0.0.9000 (unreleased, in progress)
 
 > Balthasar Bickel, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, 
 > Kristine Hildebrandt, Michael Rießler, Lennart Bierkandt, Fernando Zúñiga and John B. Lowe
 
 ---
 
-[![DOI](https://zenodo.org/badge/92335614.svg)](https://zenodo.org/badge/latestdoi/92335614)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5931509.svg)](https://doi.org/10.5281/zenodo.5931509)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 This work is licensed under a Creative Commons Attribution 4.0 International License
@@ -182,10 +182,11 @@ metadata field `data`):
 
  - `integer`    - an integer number 
  - `number`     - a (possibly fractional) number
+ - `logical`    - a `true`/`false` value
  - `string`     - a label-like short text value (single line, no consecutive whitespaces), 
    open-ended
- - `value-list` - a categorical value from a finite list (YAML metadata field `values` lists 
-   the possible values)
+ - `value-list` - a categorical value from a controlled list of values (YAML metadata field `values`
+   describes the possible values)
  - `comment`    - a free-text comment field
  - `table`      - a nested table field (YAML metadata field `fields` lists the nested fields)
  - `list-of<data>` - a repeated field of type `data`
@@ -347,7 +348,9 @@ Kristine, Rießler, Michael, Bierkandt, Lennart, Zúñiga, Fernando & Lowe, John
 
 
 Please make sure to always include the correct database version number and DOI with your citation. 
-We use Zenodo to archive database releases which ensures that results can always be reproduced. 
+We use Zenodo to archive database releases which ensures that the results can always be reproduced. 
+Please take extra care when citing unreleased versions (e.g. a github revision) as these are not 
+guaranteed to be archived. We recommend only using released database versions for publications. 
 
 ---
 

@@ -30,7 +30,9 @@
   {
     "LID": "111",
     "Glottocode": "ikkk1242",
-    "Language": "Ik"
+    "Language": "Ik",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "163",
@@ -280,7 +282,9 @@
   {
     "LID": "435",
     "Glottocode": "iris1253",
-    "Language": "Irish"
+    "Language": "Irish",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "340",
@@ -376,7 +380,9 @@
   {
     "LID": "118",
     "Glottocode": "nucl1643",
-    "Language": "Japanese"
+    "Language": "Japanese",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "129",
@@ -626,7 +632,9 @@
   {
     "LID": "33",
     "Glottocode": "bauz1241",
-    "Language": "Bauzi"
+    "Language": "Bauzi",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "109",
@@ -652,7 +660,9 @@
   {
     "LID": "403",
     "Glottocode": "wari1266",
-    "Language": "Waris"
+    "Language": "Waris",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "419",
@@ -664,7 +674,9 @@
   {
     "LID": "31",
     "Glottocode": "nucl1630",
-    "Language": "Barai"
+    "Language": "Barai",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "131",
@@ -697,7 +709,9 @@
   {
     "LID": "415",
     "Glottocode": "nini1235",
-    "Language": "retire_Yali"
+    "Language": "retire_Yali",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "26",
@@ -758,7 +772,9 @@
   {
     "LID": "93",
     "Glottocode": "gunw1252",
-    "Language": "Gunwinggu"
+    "Language": "Gunwinggu",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "170",
@@ -791,7 +807,9 @@
   {
     "LID": "198",
     "Glottocode": "naka1260",
-    "Language": "Nakkara"
+    "Language": "Nakkara",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "318",
@@ -887,7 +905,9 @@
   {
     "LID": "319",
     "Glottocode": "nyig1240",
-    "Language": "Nyigina"
+    "Language": "Nyigina",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "408",
@@ -899,7 +919,9 @@
   {
     "LID": "416",
     "Glottocode": "yank1247",
-    "Language": "Yankunytjara"
+    "Language": "Yankunytjara",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "432",
@@ -918,12 +940,16 @@
   {
     "LID": "95",
     "Glottocode": "sout2956",
-    "Language": "Haida"
+    "Language": "Haida",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "317",
     "Glottocode": "nuuc1236",
-    "Language": "Nuuchahnulth"
+    "Language": "Nuuchahnulth",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "338",
@@ -942,7 +968,9 @@
   {
     "LID": "357",
     "Glottocode": "squa1248",
-    "Language": "Squamish"
+    "Language": "Squamish",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "363",
@@ -1171,7 +1199,9 @@
   {
     "LID": "202",
     "Glottocode": "natc1249",
-    "Language": "Natchez"
+    "Language": "Natchez",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "349",
@@ -1190,7 +1220,9 @@
   {
     "LID": "377",
     "Glottocode": "timu1245",
-    "Language": "Timucua"
+    "Language": "Timucua",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "382",
@@ -1230,7 +1262,9 @@
   {
     "LID": "106",
     "Glottocode": "sand1278",
-    "Language": "Huave"
+    "Language": "Huave",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "184",
@@ -1242,7 +1276,9 @@
   {
     "LID": "185",
     "Glottocode": "mixe1286",
-    "Language": "Mixe"
+    "Language": "Mixe",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "186",
@@ -1268,27 +1304,37 @@
   {
     "LID": "372",
     "Glottocode": "hueh1236",
-    "Language": "Tepehua (Huehuetla)"
+    "Language": "Tepehua (Huehuetla)",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "388",
     "Glottocode": "tzut1248",
-    "Language": "Tzutujil"
+    "Language": "Tzutujil",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "29",
     "Glottocode": "asha1243",
-    "Language": "Axininca Campa"
+    "Language": "Axininca Campa",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "45",
     "Glottocode": "cash1254",
-    "Language": "Cashinahua"
+    "Language": "Cashinahua",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "599",
     "Glottocode": "chay1248",
-    "Language": "Chayahuita"
+    "Language": "Chayahuita",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "90",
@@ -1321,7 +1367,9 @@
   {
     "LID": "194",
     "Glottocode": "muin1242",
-    "Language": "Muinane"
+    "Language": "Muinane",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "326",
@@ -1354,7 +1402,9 @@
   {
     "LID": "414",
     "Glottocode": "yagu1244",
-    "Language": "Yagua"
+    "Language": "Yagua",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "620",
@@ -1387,7 +1437,9 @@
   {
     "LID": "92",
     "Glottocode": "puel1244",
-    "Language": "Gününa-Küne"
+    "Language": "Gününa-Küne",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "101",
@@ -1462,12 +1514,16 @@
   {
     "LID": "437",
     "Glottocode": "nort2921",
-    "Language": "Ku Waru"
+    "Language": "Ku Waru",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "116",
     "Glottocode": "itel1242",
-    "Language": "Itelmen"
+    "Language": "Itelmen",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "48",
@@ -1493,7 +1549,9 @@
   {
     "LID": "346",
     "Glottocode": "samo1305",
-    "Language": "Samoan"
+    "Language": "Samoan",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "44",
@@ -1568,7 +1626,9 @@
   {
     "LID": "154",
     "Glottocode": "haka1240",
-    "Language": "Hakka Lai"
+    "Language": "Hakka Lai",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "159",
@@ -1580,7 +1640,9 @@
   {
     "LID": "225",
     "Glottocode": "lahu1253",
-    "Language": "Lahu"
+    "Language": "Lahu",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "177",
@@ -1620,7 +1682,9 @@
   {
     "LID": "494",
     "Glottocode": "viet1252",
-    "Language": "Vietnamese"
+    "Language": "Vietnamese",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "497",
@@ -1688,7 +1752,9 @@
   {
     "LID": "538",
     "Glottocode": "east2342",
-    "Language": "Kayah Li (Eastern)"
+    "Language": "Kayah Li (Eastern)",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "550",
@@ -1707,7 +1773,9 @@
   {
     "LID": "566",
     "Glottocode": "seme1247",
-    "Language": "Semelai"
+    "Language": "Semelai",
+    "HasNumeralClassifiers": null,
+    "NumeralClassifiersCount": null
   },
   {
     "LID": "567",

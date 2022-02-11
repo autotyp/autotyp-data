@@ -31,9 +31,14 @@
   },
   {
     "LocusOfMarking": "P",
+    "LocusOfMarkingBinned6": null,
+    "LocusOfMarkingBinned5": null,
     "Definition": "The relation is marked by position (word or morpheme order)."
   },
   {
+    "LocusOfMarking": null,
+    "LocusOfMarkingBinned6": null,
+    "LocusOfMarkingBinned5": null,
     "Definition": "not applicable"
   },
   {
@@ -133,6 +138,9 @@
     "Definition": "Head marking (construct state type, i.e. registers a dependent but does not index its properties) plus headward-migrated dependent-marked pronouns"
   },
   {
+    "LocusOfMarking": null,
+    "LocusOfMarkingBinned6": null,
+    "LocusOfMarkingBinned5": null,
     "Definition": "Uncertain data (usually with possessive relators that could be F [=linker], D [=case] or H [=construct state marker])"
   },
   {
@@ -142,20 +150,26 @@
     "Definition": "Two restricted H markers and one restricted D marker."
   },
   {
+    "LocusOfMarking": null,
+    "LocusOfMarkingBinned6": null,
+    "LocusOfMarkingBinned5": null,
     "Definition": "No information available."
   },
   {
     "LocusOfMarking": "H/D/DH",
+    "LocusOfMarkingBinned6": null,
     "LocusOfMarkingBinned5": "2",
     "Definition": "Split, e.g. inalienables take H or D+H, alienables take only D."
   },
   {
     "LocusOfMarking": "H/D",
+    "LocusOfMarkingBinned6": null,
     "LocusOfMarkingBinned5": "2",
     "Definition": "Split, either H or D."
   },
   {
     "LocusOfMarking": "D + D on H",
+    "LocusOfMarkingBinned6": null,
     "LocusOfMarkingBinned5": "FloatingorClitic",
     "Definition": "Clitic doubling, where the argument is D-marked and is doubled by a D-marked pronominal on the verb."
   },
@@ -179,6 +193,7 @@
   },
   {
     "LocusOfMarking": "H/F",
+    "LocusOfMarkingBinned6": null,
     "LocusOfMarkingBinned5": "2",
     "Definition": "Split, head or floating.  E.g. Halkomelem (Galloway 1984:179): possessive 1sg is F, 3sg is H."
   },
