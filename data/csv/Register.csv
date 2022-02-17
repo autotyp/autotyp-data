@@ -334,7 +334,7 @@ LID,Glottocode,Language,ISO639_3,LanguageAlternativeNames,Stock,StockAlternative
 465,mari1440,Maricopa,mrc,Maricopa,Yuman,,,,,,,River,,-113.17,33.17,,,,hg,North America,W N America,Basin and Plains,Americas
 466,sang1328,Sango,sag,Sango,Adamawa-Ubangi,,Niger-Kordofanian,Niger-Congo,,,,,,18,5,,TRUE,,,Africa,Africa,S Africa,Africa
 467,paam1238,Paamese,pma,Paamese,Austronesian,,,,Malayo-Polynesian,Oceanic,Southern Oceanic linkage,Central Vanuatu linkage,,168.25,-16.5,,,,,Eurasia,NG and Oceania,Oceania,Pacific
-468,east2773,Newar (Dolakha),NA,Newar (Dolakha),Sino-Tibetan,,,,Newaric,,,,,86.2,27.75,Himalaya,,,,Eurasia,S/SE Asia,Indic,Eurasia
+468,east2773,Newar (Dolakha),,Newar (Dolakha),Sino-Tibetan,,,,Newaric,,,,,86.2,27.75,Himalaya,,,,Eurasia,S/SE Asia,Indic,Eurasia
 469,awac1239,Awa Pit,kwi,"Awa Pit, Cuaiquer",Barbacoan,,,Paesan-Barbacoan,,,,,,-78.25,1.5,,TRUE,,,South America,S America,Andean,Americas
 470,akha1245,Akha,ahk,Akha,Sino-Tibetan,,,,Lolo-Burmese,Loloish,Southern Loloish,,,99.83,21.83,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 471,colo1256,Tsafiki,cof,"Colorado,Tsafiki",Barbacoan,,,Paesan-Barbacoan,,,,,,-79.33,-1,,,,,South America,S America,Andean,Americas
@@ -488,7 +488,7 @@ LID,Glottocode,Language,ISO639_3,LanguageAlternativeNames,Stock,StockAlternative
 646,xokl1240,Xokleng,xok,Xokleng,Macro-Ge,,,,Ge,Southern Ge,,,,-50,-24.5,,,,,South America,S America,SE South America,Americas
 648,boro1282,Bororo,bor,Eastern Bororo,Macro-Ge,,,,Bororo,,,,,-50,-13,,TRUE,,hg,South America,S America,NE South America,Americas
 649,jeri1242,Jeli,jek,"Jeri,Jeli",Mande,,Niger-Kordofanian,Macro-Niger-Congo,West Mande,,,,,-5.67,9.5,,TRUE,,,Africa,Africa,African Savannah,Africa
-650,dogo1299,Dogon,NA,Dogon,Dogon,,Niger-Kordofanian,Macro-Niger-Congo,,,,,,-3.5,14.33,,,,not hg,Africa,Africa,African Savannah,Africa
+650,dogo1299,Dogon,,Dogon,Dogon,,Niger-Kordofanian,Macro-Niger-Congo,,,,,,-3.5,14.33,,,,not hg,Africa,Africa,African Savannah,Africa
 651,anii1246,//Ani,hnh,"/Anda,//Ani",Kwadi-Khoe,,,,Kalahari,,,,,21.92,-18.92,,TRUE,,hg,Africa,Africa,S Africa,Africa
 652,kxoe1243,Khoe,xuu,"Kxoe, Xû, Khoe",Kwadi-Khoe,,,,Kalahari,,,,,22.5,-17.5,,,,hg,Africa,Africa,S Africa,Africa
 653,xooo1239,!Xõo,nmn,!Xõo,!Ui-Taa,,,,Taa,,,,,26,-30,,TRUE,,hg,Africa,Africa,S Africa,Africa
@@ -579,19 +579,19 @@ LID,Glottocode,Language,ISO639_3,LanguageAlternativeNames,Stock,StockAlternative
 744,amas1236,Nyimang,nyi,"Ama,Nyimang",Nyima,,Core Nilo-Saharan,Eastern Sudanic,,,,,,29.33,12.17,,,,,Africa,Africa,African Savannah,Africa
 745,alng1239,Anguthimri,aid,Anguthimri,Pama-Nyungan,,,Macro-Pama-Nyungan,Paman,Northern Pama,,,,141.83,-12.33,,,,,Australia,Australia,N Australia,Pacific
 746,abuu1241,Arapesh (Abu),ado,"Arapesh (Abu), But Arapesh, Weri",Torricelli,,,Torricelli-Lower Sepik,Kombio,Arapesh,,,,142.95,-3.45,,,,not hg,Pacific,NG and Oceania,N Coast New Guinea,Pacific
-747,jira1235,Ayomán,NA,Ayomán,Jirajaran,,,,,,,,,-69,11,,,,,South America,S America,NE South America,Americas
+747,jira1235,Ayomán,,Ayomán,Jirajaran,,,,,,,,,-69,11,,,,,South America,S America,NE South America,Americas
 748,azer1255,Azerbaijani,aze,Azerbaijani,Turkic,,,Altaic,Common Turkic,Oghuz,,,,48.5,40.5,Caucasus,,,,Eurasia,W and SW Eurasia,Greater Mesopotamia,Eurasia
 749,bare1276,Bahuana,bae,Bahuana,Arawakan,,,,North Amazonian,,,,,-62.5,-0.5,,,,,South America,S America,NE South America,Americas
 750,cent2194,Berber (Figuig),tzm,Berber (Figuig),Berber,,,Afroasiatic,,,,Berber,,-1.5,32.5,,,,,Africa,Africa,N Africa,Africa
 751,beto1236,Betoi,qtd,Betoi,Betoi,,,,,,,,,-71.25,7.17,,,,not hg,South America,S America,NE South America,Americas
-752,boka1249,Bokar,NA,Bokar,Sino-Tibetan,,,,Tani,Eastern Tani,,,,94.67,28.5,Himalaya,,,,Eurasia,S/SE Asia,Indic,Eurasia
+752,boka1249,Bokar,,Bokar,Sino-Tibetan,,,,Tani,Eastern Tani,,,,94.67,28.5,Himalaya,,,,Eurasia,S/SE Asia,Indic,Eurasia
 753,bori1243,Bori,adi,Bori,Sino-Tibetan,,,,Tani,Western Tani,,,,94.75,28.33,Himalaya,,,,Eurasia,S/SE Asia,Indic,Eurasia
 754,bugu1246,Bugun,bgg,Bugun,Sino-Tibetan,,,,Greater Sherdukpen,,,,,92.58,27.5,Himalaya,,,,Eurasia,S/SE Asia,Indic,Eurasia
 755,yind1248,Bularnu,yil,Bularnu,Pama-Nyungan,,,Macro-Pama-Nyungan,Warluwarric,,,,,138,-21,,,,,Australia,Australia,S Australia,Pacific
 756,cane1242,Canela,ram,"Canela, Kanela",Macro-Ge,,,,Ge,Amazonian Ge,Northern Ge,,,-45,-6,,,,,South America,S America,NE South America,Americas
 757,rogu1236,Chasta Costa,coq,Chasta Costa,Na-Dene,,,,Athabaskan,,,,,-124,42.67,,,,not hg,North America,W N America,California,Americas
 758,chim1310,Chemakum,xch,Chemakum,Chimakuan,,,,,,,,,-122.92,48.08,,,,hg,North America,W N America,Alaska-Oregon,Americas
-759,cola1237,Colac,NA,Colac,Pama-Nyungan,,,Macro-Pama-Nyungan,Kulinic,,,,,143.5,-38.33,,,,,Australia,Australia,S Australia,Pacific
+759,cola1237,Colac,,Colac,Pama-Nyungan,,,Macro-Pama-Nyungan,Kulinic,,,,,143.5,-38.33,,,,,Australia,Australia,S Australia,Pacific
 760,come1251,Comecrudo,xcm,Comecrudo,Comecrudan,,,,,,,,,-99,25.83,,,,not hg,North America,C America,Mesoamerica,Americas
 761,sout2986,Costanoan,css,Costanoan,Yokuts-Utian,,,California-Plateau Penutian,Utian,Miwok-Costanoan,Costanoan,,,-122,37,,,,hg,North America,W N America,California,Americas
 762,cuic1234,Cuica,,"Cuica, Timoté, Timoté-Cuica",Macro-Ge,,,,Timotean,,,,,-70.5,9,,,,,South America,S America,NE South America,Americas
@@ -619,17 +619,17 @@ LID,Glottocode,Language,ISO639_3,LanguageAlternativeNames,Stock,StockAlternative
 786,rong1264,Rongpo,rnp,"Marchha, Rongpo, Rangpa",Sino-Tibetan,,,,West Himalayish,Greater Kinnauri,,,,79.58,30.25,Himalaya,,,,Eurasia,S/SE Asia,Indic,Eurasia
 787,mayk1239,Mayi-Yapi,mnt,Mayi-Yapi,Pama-Nyungan,,,Macro-Pama-Nyungan,Paman,Mayabic,,,,141,-20,,,,,Australia,Australia,N Australia,Pacific
 788,mbab1239,Mbabaram,vmb,Mbabaram,Pama-Nyungan,,,Macro-Pama-Nyungan,Paman,Southern Pama,,,,145,-17.17,,,,hg,Australia,Australia,N Australia,Pacific
-789,mila1245,Milang,NA,Milang,Sino-Tibetan,,,,Tani,Eastern Tani,,,,95.25,28.5,Himalaya,,,,Eurasia,S/SE Asia,Indic,Eurasia
+789,mila1245,Milang,,Milang,Sino-Tibetan,,,,Tani,Eastern Tani,,,,95.25,28.5,Himalaya,,,,Eurasia,S/SE Asia,Indic,Eurasia
 790,moch1259,Mochica,omc,"Mochica, Chimú, Yunga, Yunca, Muchic",Mochica,"Mochica, Chimuan",,,,,,,,-79.33,-7.5,,,,,South America,S America,Andean,Americas
 791,mong1331,Khamnigan,mon,Mongol (Khamnigan),Mongolic,Mongolian,,Altaic,,,,,,117,49,,,,,Eurasia,N-C Asia,Inner Asia,Eurasia
 792,zaca1241,Nahuatl (Huauchinango),nhi,Nahuatl (Huauchinango),Uto-Aztecan,,,,Southern Uto-Aztecan,Aztecan,,,,-98.08,20.17,,,,,North America,C America,Mesoamerica,Americas
-793,more1259,Nahuatl (Milpa Alta),NA,Nahuatl (Milpa Alta),Uto-Aztecan,,,,Southern Uto-Aztecan,Aztecan,,,,-99.17,19.25,,,,,North America,C America,Mesoamerica,Americas
+793,more1259,Nahuatl (Milpa Alta),,Nahuatl (Milpa Alta),Uto-Aztecan,,,,Southern Uto-Aztecan,Aztecan,,,,-99.17,19.25,,,,,North America,C America,Mesoamerica,Americas
 794,poch1244,Nahuatl (Pochutla),xpo,Nahuatl (Pochutla),Uto-Aztecan,,,,Southern Uto-Aztecan,Aztecan,,,,-96.5,15.75,,,,,North America,C America,Mesoamerica,Americas
 795,nhan1238,Nhanda,nha,Nhanda,Pama-Nyungan,,,Macro-Pama-Nyungan,Southwestern Pama-Nyungan,Kartu,,,,114.17,-27,,,,,Australia,Australia,S Australia,Pacific
 796,puqu1242,Puquina,puq,Puquina,Puquina,"Puquina-Collahuaya, Puquina-Callahuaya",,,,,,,,-68.5,-16.5,,,,,South America,S America,Andean,Americas
 797,sout2991,Quechua (Bolivian),quh,Quechua (Bolivian),Quechuan,,,Quechumaran (Andean),,,,,,-66,-20,,,,not hg,South America,S America,Andean,Americas
 798,balk1252,Romani (Sepecides),rmn,Romani (Sepecides),Indo-European,,,Indo-Uralic,Indo-Iranian,Indo-Aryan,Central Indo-Aryan,Romani,,27,38.25,,,,,Eurasia,W and SW Eurasia,Greater Mesopotamia,Eurasia
-799,kjac1234,Russian-Chinese Pidgin,NA,Birobidjan,Russian-Chinese Pidgin,Birobidjan,,,,,,,creole,132.95,48.8,,,,,Eurasia,N-C Asia,Inner Asia,Eurasia
+799,kjac1234,Russian-Chinese Pidgin,,Birobidjan,Russian-Chinese Pidgin,Birobidjan,,,,,,,creole,132.95,48.8,,,,,Eurasia,N-C Asia,Inner Asia,Eurasia
 800,sorb1249,Sorbian,,Sorbian,Indo-European,,,Indo-Uralic,Balto-Slavic,Slavic,West Slavic,,,14,51.5,,,,,Eurasia,W and SW Eurasia,Europe,Eurasia
 801,tasm1247,Tasmanian (Oyster Bay to Pitwater),xtz,Tasmanian (Oyster Bay to Pitwater),Tasmanian,,,,,,,,,147.75,-42.5,,,,,Australia,Australia,S Australia,Pacific
 803,tupi1274,Tupi,tpw,Tupi,Tupian,,,,Tupi-Guaraní,,,,,-36,-6,,,,not hg,South America,S America,NE South America,Americas
@@ -1044,7 +1044,7 @@ LID,Glottocode,Language,ISO639_3,LanguageAlternativeNames,Stock,StockAlternative
 1221,nort3139,Arabic (Beirut),apc,Arabic (Beirut),Semitic,,,Afroasiatic,West Semitic,Central (West Semitic),South-Central Semitic,Arabic,,35.5,33.92,,,,,Africa,W and SW Eurasia,Greater Mesopotamia,Eurasia
 1222,nort3139,Arabic (Lebanese),apc,Arabic (Lebanese),Semitic,,,Afroasiatic,West Semitic,Central (West Semitic),South-Central Semitic,Arabic,,36,34,,,,,Africa,W and SW Eurasia,Greater Mesopotamia,Eurasia
 1223,nort3139,Arabic (Syrian),apc,Arabic (Syrian),Semitic,,,Afroasiatic,West Semitic,Central (West Semitic),South-Central Semitic,Arabic,,38,34,,,,,Africa,W and SW Eurasia,Greater Mesopotamia,Eurasia
-1224,NA,Armenian (Iranian),hye,Armenian (Iranian),Indo-European,,,Indo-Uralic,Greek-Armenian,Armenian,,,,51.67,32.67,,,,,Eurasia,W and SW Eurasia,Greater Mesopotamia,Eurasia
+1224,,Armenian (Iranian),hye,Armenian (Iranian),Indo-European,,,Indo-Uralic,Greek-Armenian,Armenian,,,,51.67,32.67,,,,,Eurasia,W and SW Eurasia,Greater Mesopotamia,Eurasia
 1225,dars1235,Sila,dau,Sila,Daju,,Core Nilo-Saharan,Eastern Sudanic,,,,,,21.75,12.33,,,,,Africa,Africa,African Savannah,Africa
 1226,tait1250,Dabida,dav,"Dabida, Dawida",Benue-Congo,,Niger-Kordofanian,Niger-Congo,Bantoid,Bantu (narrow),,,,38.67,-4,,,,,Africa,Africa,S Africa,Africa
 1227,bava1246,German (Upper Austrian),bar,German (Upper Austrian),Indo-European,,,Indo-Uralic,Germanic,West Germanic,,,,14,47,,,,,Eurasia,W and SW Eurasia,Europe,Eurasia
@@ -1068,9 +1068,9 @@ LID,Glottocode,Language,ISO639_3,LanguageAlternativeNames,Stock,StockAlternative
 1245,cari1279,Hianacoto,cbd,Hianacoto,Cariban,Carib,,,,,,,,-71,0.83,,,,,South America,S America,NE South America,Americas
 1246,cari1279,Umaua,cbd,Umaua,Cariban,Carib,,,,,,,,-72,1,,,,,South America,S America,NE South America,Americas
 1247,minn1241,Chaozhou,nan,Chaozhou,Sino-Tibetan,,,,Sinitic,Southern Sinitic,,,,116.67,23.67,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
-1248,hokk1242,Hokkien,NA,Hokkien,Sino-Tibetan,,,,Sinitic,Southern Sinitic,,,,118,25,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
-1249,taib1240,Taiwanese Mandarin,NA,"Taiwanese, Taiwanese Southern Min",Sino-Tibetan,,,,Sinitic,Southern Sinitic,,,,121.5,25,,,,,Eurasia,S/SE Asia,Oceania,Eurasia
-1250,xiam1236,Xiamen,NA,Xiamen,Sino-Tibetan,,,,Sinitic,Southern Sinitic,,,,118.17,24.5,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+1248,hokk1242,Hokkien,,Hokkien,Sino-Tibetan,,,,Sinitic,Southern Sinitic,,,,118,25,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+1249,taib1240,Taiwanese Mandarin,,"Taiwanese, Taiwanese Southern Min",Sino-Tibetan,,,,Sinitic,Southern Sinitic,,,,121.5,25,,,,,Eurasia,S/SE Asia,Oceania,Eurasia
+1250,xiam1236,Xiamen,,Xiamen,Sino-Tibetan,,,,Sinitic,Southern Sinitic,,,,118.17,24.5,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 1251,kunm1234,Kunming,cmn,Kunming,Sino-Tibetan,,,,Sinitic,Northern Sinitic,,,,102.75,25,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 1252,chip1241,Chippewa (Red Lake and Pillager),ciw,Chippewa (Red Lake and Pillager),Algic,,,,Algonquian,,,,,-95,48,,,,hg,North America,E N America,E North America,Americas
 1253,west1510,Ojibwe (Minnesota),ojw,Ojibwe (Minnesota),Algic,,,,Algonquian,,,,,-92.5,47.67,,,,,North America,E N America,E North America,Americas
@@ -1499,7 +1499,7 @@ LID,Glottocode,Language,ISO639_3,LanguageAlternativeNames,Stock,StockAlternative
 1691,juan1238,Juang,jun,Juang,Austroasiatic,,,,Munda,Southern Munda,,,,86,21.33,,,,hg,Eurasia,S/SE Asia,Indic,Eurasia
 1692,hupd1244,Hup,jup,Hupda,Nadahup,"Nadahup, Makú, Makúan, Vaupés-Japura, Uaupés-Japura",,,,,,,,-69.25,0.17,,,,hg,South America,S America,NE South America,Americas
 1693,juru1256,Jurúna,jur,"Djudjá, Iuruna, Jaruna, Jurna, Juruna, Jurúna, Yudja, Yudjá, Yudya, Yuruna, Yurúna",Tupian,,,,Tupi-Guaraní,,,,,-54.5,-5,,,,,South America,S America,NE South America,Americas
-1694,japh1234,Jiarong,NA,"Jiarong, Gyarong, rGyarong, Japhug",Sino-Tibetan,,,,Qiangic,,,,,102,31.5,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+1694,japh1234,Jiarong,,"Jiarong, Gyarong, rGyarong, Japhug",Sino-Tibetan,,,,Qiangic,,,,,102,31.5,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 1695,kara1467,Karakalpak,kaa,Karakalpak,Turkic,,,Altaic,Common Turkic,Kipchak (Northwest Turkic),,,,60,43,,,,,Eurasia,N-C Asia,Inner Asia,Eurasia
 1696,chag1250,Chaga,,"Chaga, Chagga",Benue-Congo,,Niger-Kordofanian,Niger-Congo,Bantoid,Bantu (narrow),,,,37,-3,,,,,Africa,Africa,S Africa,Africa
 1697,kara1482,Kara (Central African Republic),kah,Kara (Central African Republic),Bongo-Bagirmi,,,Central Sudanic,,,,,,23,10,,,,,Africa,Africa,African Savannah,Africa
@@ -1571,7 +1571,7 @@ LID,Glottocode,Language,ISO639_3,LanguageAlternativeNames,Stock,StockAlternative
 1764,kunj1245,Kunjen,kjn,Kunjen,Pama-Nyungan,,,Macro-Pama-Nyungan,Paman,Kunjen,,,,142.5,-16.5,,,,hg,Australia,Australia,N Australia,Pacific
 1765,pwoe1235,Karen (Pwo),kjp,Karen (Pwo),Sino-Tibetan,,,,Karenic,,,,,99.17,13,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 1766,kash1280,Kashaya,kju,Kashaya,Pomoan,Pomo,,,,,,,,-123.33,38.67,,,,hg,North America,W N America,California,Americas
-1767,gela1265,Gelao,NA,Gelao,Tai-Kadai,,,,,,,,,105.5,22.92,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+1767,gela1265,Gelao,,Gelao,Tai-Kadai,,,,,,,,,105.5,22.92,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 1768,kagu1239,Kaguru,kki,Kaguru,Benue-Congo,,Niger-Kordofanian,Niger-Congo,Bantoid,Bantu (narrow),,,,37,-6.33,,,,,Africa,Africa,S Africa,Africa
 1769,koko1269,Kokota,kkk,Kokota,Austronesian,,,,Malayo-Polynesian,Oceanic,Western Oceanic linkage,Meso-Melanesian linkage,,159.13,-8,,,,,Eurasia,NG and Oceania,Oceania,Pacific
 1770,kosa1249,Yale (Kosarek),kkl,Yale (Kosarek),Mek,,Trans New Guinea,,Western Mek,,,,,139.5,-4.08,,,,,Pacific,NG and Oceania,Interior New Guinea,Pacific
@@ -2656,7 +2656,7 @@ LID,Glottocode,Language,ISO639_3,LanguageAlternativeNames,Stock,StockAlternative
 2881,kuru1302,Kisan,kru,,Dravidian,,,,North Dravidian,,,,,88,26.5,Himalaya,,,,Eurasia,S/SE Asia,Indic,Eurasia
 2882,kaby1243,Berber (Kabyle),kab,"Berber (Kabyle), Taqbaylit",Berber,,,Afroasiatic,,,,Berber,,3,30,,,,,Africa,Africa,N Africa,Africa
 2883,shug1248,Khufi,sgh,"Khuf, Chuf",Indo-European,,,Indo-Uralic,Indo-Iranian,Iranian,Southeast Iranian,,,71.56,37.95,Himalaya,,,,Eurasia,S/SE Asia,Indic,Eurasia
-2884,zeba1237,Zebaki,NA,Zebak,Indo-European,,,Indo-Uralic,Indo-Iranian,Iranian,Southeast Iranian,,,71.46,36.64,Himalaya,,,,Eurasia,S/SE Asia,Indic,Eurasia
+2884,zeba1237,Zebaki,,Zebak,Indo-European,,,Indo-Uralic,Indo-Iranian,Iranian,Southeast Iranian,,,71.46,36.64,Himalaya,,,,Eurasia,S/SE Asia,Indic,Eurasia
 2885,shug1248,Shughni,sgh,"Shugan, Shugnan",Indo-European,,,Indo-Uralic,Indo-Iranian,Iranian,Southeast Iranian,,,72,37.7,Himalaya,,,,Eurasia,S/SE Asia,Indic,Eurasia
 2886,shug1248,Bartangi,sgh,Bartang,Indo-European,,,Indo-Uralic,Indo-Iranian,Iranian,Southeast Iranian,,,71.86,38.05,Himalaya,,,,Eurasia,S/SE Asia,Indic,Eurasia
 2887,shug1248,Roshorvi,sgh,"Oroshori, Oroshor",Indo-European,,,Indo-Uralic,Indo-Iranian,Iranian,Southeast Iranian,,,71.59,37.93,Himalaya,,,,Eurasia,S/SE Asia,Indic,Eurasia
@@ -2919,15 +2919,15 @@ LID,Glottocode,Language,ISO639_3,LanguageAlternativeNames,Stock,StockAlternative
 3211,mosk1236,Moskona,mtj,"Moskona, Meninggo, Meningo, Meyah, Sabena",East Bird’s Head,,,,,,,,,133.5,-1.17,,,,,Pacific,NG and Oceania,N Coast New Guinea,Pacific
 3213,oldi1245,Irish (Old),sga,,Indo-European,,,Indo-Uralic,Italic-Celtic,Celtic,,,,-8,53,,,,,Eurasia,W and SW Eurasia,Europe,Eurasia
 3208,taba1259,Tabasaran (Northern: Djubek),tab,Tabasaran (Northern: Djubek),Nakh-Daghestanian,,,,Daghestanian,Lezgian,Samurian (core Lezgian),Western Samurian,,47.97,42.02,,,,,Eurasia,W and SW Eurasia,Greater Mesopotamia,Eurasia
-3224,soga1244,Soga,NA,"Soga, Lamogi, Lulamogi, Lusoga",Benue-Congo,,Niger-Kordofanian,Niger-Congo,Bantoid,Bantu (narrow),,,,33.39,0.4,,,,,Africa,Africa,S Africa,Africa
+3224,soga1244,Soga,,"Soga, Lamogi, Lulamogi, Lusoga",Benue-Congo,,Niger-Kordofanian,Niger-Congo,Bantoid,Bantu (narrow),,,,33.39,0.4,,,,,Africa,Africa,S Africa,Africa
 3226,sere1260,Sereer,srr,Serer,North Atlantic,,Niger-Kordofanian,Macro-Niger-Congo,,,"Peul-Serer, Peul-Sereer",,,-16.39,13.89,,,,,Africa,Africa,African Savannah,Africa
-3229,NA,Torlak Serbian,NA,,Indo-European,,,Indo-Uralic,Balto-Slavic,Slavic,South Slavic,,,21.37,43.01,,,,,Eurasia,W and SW Eurasia,Europe,Eurasia
+3229,,Torlak Serbian,,,Indo-European,,,Indo-Uralic,Balto-Slavic,Slavic,South Slavic,,,21.37,43.01,,,,,Eurasia,W and SW Eurasia,Europe,Eurasia
 3230,arom1237,Arumanian (Krushevo),rup,Aromanian,Indo-European,,,Indo-Uralic,Italic-Celtic,Italic,,,,21.2,41.01,,,,,Eurasia,W and SW Eurasia,Europe,Eurasia
 3232,isco1239,Iskonawa,isc,Isconahua,Pano-Tacanan,,,,Panoan,,,,,-73.41,-7.47,,,,,South America,S America,NE South America,Americas
 3235,uduk1239,Uduk,udu,Tw'ana,Koman,,Core Nilo-Saharan,Koman-Gumuz,,,,,,34,9.16,,,,,Africa,Africa,Greater Abyssinia,Africa
-3237,east2774,Khanty (Eastern),NA,"Khanty (Eastern), Eastern Khanty",Uralic,,,Indo-Uralic,Finno-Ugric,Ugric,Ob-Ugric,Khanty,,78,64,,,,,Eurasia,N-C Asia,Inner Asia,Eurasia
-3238,nort3264,Khanty (Northern),NA,"Khanty (Northern), Northern Khanty",Uralic,,,Indo-Uralic,Finno-Ugric,Ugric,Ob-Ugric,Khanty,,66.37,66.26,,,,,Eurasia,N-C Asia,Inner Asia,Eurasia
-3239,atin1240,Laz (Pazar),NA,,Kartvelian,,,,Georgian-Zan,Zan,,,,40.53,41.1,,,,,Eurasia,W and SW Eurasia,Greater Mesopotamia,Eurasia
+3237,east2774,Khanty (Eastern),,"Khanty (Eastern), Eastern Khanty",Uralic,,,Indo-Uralic,Finno-Ugric,Ugric,Ob-Ugric,Khanty,,78,64,,,,,Eurasia,N-C Asia,Inner Asia,Eurasia
+3238,nort3264,Khanty (Northern),,"Khanty (Northern), Northern Khanty",Uralic,,,Indo-Uralic,Finno-Ugric,Ugric,Ob-Ugric,Khanty,,66.37,66.26,,,,,Eurasia,N-C Asia,Inner Asia,Eurasia
+3239,atin1240,Laz (Pazar),,,Kartvelian,,,,Georgian-Zan,Zan,,,,40.53,41.1,,,,,Eurasia,W and SW Eurasia,Greater Mesopotamia,Eurasia
 3240,ashe1272,Ashéninka Perené,prq,"Alto Perené Asheninka, Ashéninka Perené, Alto Perené",Arawakan,,,,Campa,,,,,-74.92,10.98,,,,,South America,S America,Andean,Americas
 3243,nort2646,Pashto (Northern),pbu,Pashto,Indo-European,,,Indo-Uralic,Indo-Iranian,Iranian,Southeast Iranian,,,67,33,,,,,Eurasia,N-C Asia,Inner Asia,Eurasia
 3249,awet1244,Awetí,awe,"Awetí, Arauine, Arauite, Auetí, Auetó, Auití, Autl, Awetö",Tupian,,,,,,,,,-53.59,-12.93,,,,,South America,S America,NE South America,Americas
@@ -2949,37 +2949,37 @@ LID,Glottocode,Language,ISO639_3,LanguageAlternativeNames,Stock,StockAlternative
 3270,axiy1235,Axi Yi,yix,"Ahi, Axi, Axibo, Axipo, Lolo, Yi, Axi",Sino-Tibetan,,,,Lolo-Burmese,Loloish,,,,103.71,24.6,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3272,zaiw1241,Zaiwa,atb,"Aci, Aji, Atshi, Atsi, Atsi-Maru, Atzi, Atši, Azi, Maru, Szi, Tsaiwa, Xiaoshanhua, Zaiwa, Zi",Sino-Tibetan,,,,Lolo-Burmese,Burmish,,,,98.36,24.17,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3274,azha1235,Azha,aza,Azha,Sino-Tibetan,,,,Lolo-Burmese,Loloish,,,,104.15,23.9,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
-3275,jian1239,Jianchuan,NA,"Bai (Jianchuan), Jianchuan Bai, Jiànchuān",Sino-Tibetan,,,,,,,,,99.91,26.54,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+3275,jian1239,Jianchuan,,"Bai (Jianchuan), Jianchuan Bai, Jiànchuān",Sino-Tibetan,,,,,,,,,99.91,26.54,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3276,pela1242,Pela,bxd,"Bela, Bola, Pala, Pela, Polo",Sino-Tibetan,,,,Lolo-Burmese,Burmish,,,,97.92,24.21,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
-3278,tsho1240,Tshobdun,NA,"Tshobdun, Caodeng",Sino-Tibetan,,,,Qiangic,,,,,101.84,32.18,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+3278,tsho1240,Tshobdun,,"Tshobdun, Caodeng",Sino-Tibetan,,,,Qiangic,,,,,101.84,32.18,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3279,munc1235,Mün Chin,mwq,"Chinbok, Chin, Mün, Chinbe, Chinbok, Cho, Mindat, Mun, Mün, Ng'men, Tśinbok, Yawdwin, Mün Chin",Sino-Tibetan,,,,Kukish (Mizo-Kuki-Chin),,,,,94.39,20.29,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3280,guiq1238,Guiqiong,gqi,"Guichión, Guichong, Guiqiong",Sino-Tibetan,,,,,,,,,102.13,30.48,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3281,kadu1253,Kaduo,ktp,"Gazhuo, Kado, Kadu, Kaduo, Khàtù",Sino-Tibetan,,,,Lolo-Burmese,Loloish,,,,101.74,22.3,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3284,enuu1235,Enu,enu,Enu,Sino-Tibetan,,,,Lolo-Burmese,Loloish,,,,101.85,22.95,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3285,hlep1236,Hlepho Phowa,yhl,"Abo, Boren, Bozi, Conehead Phula, Cowtail Phula, Daizhanpho, Digaopho, Flowery Phula, Hua Phula, Jiantou Phula, Minjia, Niuweiba Phula, Paola, Pho, Hlepho Phowa, Phula, Sandaohong Phula,, Shaoji PhulaSifter Basket Phula, Thrice Striped Red Phula, Xiuba",Sino-Tibetan,,,,Lolo-Burmese,Loloish,,,,103.73,23.59,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
-3286,nort2721,North Hpon,NA,North Hpon,Sino-Tibetan,,,,Lolo-Burmese,Burmish,,,,97.11,24.46,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+3286,nort2721,North Hpon,,North Hpon,Sino-Tibetan,,,,Lolo-Burmese,Burmish,,,,97.11,24.46,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3287,kaya1315,Kayan Lahwi,pdu,"Kayan, Kayang, Padaung, Padaung Karen",Sino-Tibetan,,,,Karenic,,,,,97.41,19.52,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3288,kuco1235,Kucong,lkc,"Cosung, Cosung (Chine), Cosung (Vietnam), Cosung (kucong), Kucong, Lahlu",Sino-Tibetan,,,,Lolo-Burmese,Loloish,,,,101.25,22.26,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
-3289,naaa1244,Na (Lahu),NA,,Sino-Tibetan,,,,Lolo-Burmese,Loloish,,,,100.21,21.27,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+3289,naaa1244,Na (Lahu),,,Sino-Tibetan,,,,Lolo-Burmese,Loloish,,,,100.21,21.27,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3290,lahu1252,Lahu Shi,lhi,"Kui, Kur, Kwi, Lahu, Lahu Shi, Lahu Xi, LahuShi, Lâhū-ši, Shi, Yellow Lahu",Sino-Tibetan,,,,Lolo-Burmese,Loloish,,,,100.97,21.21,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
-3291,lawn1238,Lawng Hsu,NA,"Diso, Lang, Lang'e, Langsu, Lansu, Laungaw, Laungwaw, Lawng, Lawngvaw, Lhao Vo, Malu, Maru, Matu, Mulu, Nyky, Zi",Sino-Tibetan,,,,Lolo-Burmese,Burmish,,,,99.83,24.94,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
-3292,laze1238,Laze,NA,,Sino-Tibetan,,,,,,,,,101.45,27.85,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+3291,lawn1238,Lawng Hsu,,"Diso, Lang, Lang'e, Langsu, Lansu, Laungaw, Laungwaw, Lawng, Lawngvaw, Lhao Vo, Malu, Maru, Matu, Mulu, Nyky, Zi",Sino-Tibetan,,,,Lolo-Burmese,Burmish,,,,99.83,24.94,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+3292,laze1238,Laze,,,Sino-Tibetan,,,,,,,,,101.45,27.85,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3293,lash1243,Lashi,lsi,"Ac'ye, Acye, Chashan, Chashanhua, Lachi, Lachik, Lachikwaw, Lacid, Lacik, Lashi, Lashi-Maru, Lasi, Lech'i, Lechi, Leqi, Lets'i, Letsi, Maru, Ngac'an",Sino-Tibetan,,,,Lolo-Burmese,Burmish,,,,98.55,26.1,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3294,lipo1242,Lipo,lpo,"Black Lisu, Dayao, Dayao Lipo, Eastern Lisu, He Lisu, Lipho, Lipo, Lisu, Lolo, TakuTaku Lisu, Yi",Sino-Tibetan,,,,Lolo-Burmese,Loloish,,,,101.3,25.23,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
-3295,blac1267,Black Lisu,NA,"Black Lisu, Black Lo, Hei Lisu, Northern Lo",Sino-Tibetan,,,,Lolo-Burmese,Loloish,,,,94.02,22.55,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
-3296,long1373,Longchuan,NA,Longchuan,Sino-Tibetan,,,,Lolo-Burmese,Burmish,,,,97.74,24.35,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
-3297,chon1286,Chongli,NA,"Ao-Chungli, Chongli, Chungli, Tśungli",Sino-Tibetan,,,,Kukish (Mizo-Kuki-Chin),,,,,94.38,26.32,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
-3298,mong1332,Mongsen Khari,NA,"Ao-Mongsen, Khari, Mongsen, Mongsen Khari",Sino-Tibetan,,,,Kukish (Mizo-Kuki-Chin),,,,,94.39,26.33,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
-3299,prak1243,Prakaa,NA,Prakaa,Sino-Tibetan,,,,Bodic,Tamangic (TGTM),,,,84.05,28.64,,,,,Eurasia,S/SE Asia,Indic,Eurasia
+3295,blac1267,Black Lisu,,"Black Lisu, Black Lo, Hei Lisu, Northern Lo",Sino-Tibetan,,,,Lolo-Burmese,Loloish,,,,94.02,22.55,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+3296,long1373,Longchuan,,Longchuan,Sino-Tibetan,,,,Lolo-Burmese,Burmish,,,,97.74,24.35,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+3297,chon1286,Chongli,,"Ao-Chungli, Chongli, Chungli, Tśungli",Sino-Tibetan,,,,Kukish (Mizo-Kuki-Chin),,,,,94.38,26.32,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+3298,mong1332,Mongsen Khari,,"Ao-Mongsen, Khari, Mongsen, Mongsen Khari",Sino-Tibetan,,,,Kukish (Mizo-Kuki-Chin),,,,,94.39,26.33,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+3299,prak1243,Prakaa,,Prakaa,Sino-Tibetan,,,,Bodic,Tamangic (TGTM),,,,84.05,28.64,,,,,Eurasia,S/SE Asia,Indic,Eurasia
 3300,mpii1239,Mpi,mpz,"Mpi, Mpi-Mi",Sino-Tibetan,,,,Lolo-Burmese,Loloish,,,,100.21,18.17,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3301,yong1270,Yongning Na,nru,Yongning Na,Sino-Tibetan,,,,,,,,,100.9,27.8,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
-3302,lich1241,Lichiang,NA,"Lichiang, Lijiang",Sino-Tibetan,,,,,,,,,100.18,27.46,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+3302,lich1241,Lichiang,,"Lichiang, Lijiang",Sino-Tibetan,,,,,,,,,100.18,27.46,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3304,chir1286,Chiripá,nhd,"Apytare, Ava, Ava Guaraní, Chiriguano-Ava, Chiripa, Chiripá, Guarani-ñandeva, Guaraní language area, Guaraní ñandeva, Nhandeva, Nhandéva, Tsiripá, Txiripá, Ñandeva",Tupian,,,,Tupi-Guaraní,,,,,-55.05,-25.65,,,,,South America,S America,SE South America,Americas
 3305,nhen1239,Nhengatu,yrl,"Coastal Tupian, Coastal Tupí, Geral, Jeral, Língua Geral, Língua Geral Amazônica, Língua Jeral, Modern Tupi, Modern Tupí, Nheengatu, Nheengatú, Nheengatú (Venezuela), Nhengatu, Nyengato, Nyengatú, Tapïhïya, Tupi moderno, Waengatu, Yeral, Yeral (République bolivarienne du Venezuela), Ñeegatú, Ñeengatú",Tupian,,,,Tupi-Guaraní,,,,,-66.96,1.05,,,,,South America,S America,NE South America,Americas
 3306,pait1247,Pai Tavytera,pta,"Ava, Chané, Chiriguano, Izoceño, Pai, Pai Tavytera, Simba, Tapiete, Tavytera",Tupian,,,,Tupi-Guaraní,,,,,-56.12,-23.16,,,,,South America,S America,SE South America,Americas
 3307,suru1261,Suruí Do Pará,mdz,Suruí Do Pará,Tupian,,,,Tupi-Guaraní,,,,,-48.59,-5.93,,,,,South America,S America,NE South America,Americas
 3308,xipa1240,Xipaya,xiy,"Achipaie, Chipaia, Chipaya, Shipaja, Shipaya, Xipaia, Xipaya, Xipáya, Šipaya",Tupian,,,,Tupi-Guaraní,,,,,-49.95,-4.13,,,,,South America,S America,NE South America,Americas
-3311,situ1238,Situ,NA,"Situ, Cogtse Gyarong",Sino-Tibetan,,,,Qiangic,,,,,102.66,31.59,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+3311,situ1238,Situ,,"Situ, Cogtse Gyarong",Sino-Tibetan,,,,Qiangic,,,,,102.66,31.59,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3312,west2368,Balochi (Western),bgn,"Balochi Western, Baloci, Baluchi, Baluci, Balutschi, Western Balochi",Indo-European,,,Indo-Uralic,Indo-Iranian,Iranian,Northwest Iranian,,,62.2,37.8,,,,,Eurasia,S/SE Asia,Indic,Eurasia
 3313,tang1334,Tangut,txg,"Tangut, Tangoute",Sino-Tibetan,,,,Qiangic,,,,,102.25,38.89,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3314,khez1235,Khezha,nkh,"Khezha Naga, Kezami, Kezhama, Keźama, Kheza, Khezha, Khezhama, Naga, Khezha, Naga,Khezha",Sino-Tibetan,,,,Angami-Pochuri Group,,,,,94.31,25.71,,,,,Eurasia,S/SE Asia,Indic,Eurasia
@@ -2991,18 +2991,18 @@ LID,Glottocode,Language,ISO639_3,LanguageAlternativeNames,Stock,StockAlternative
 3323,rana1246,Rana Tharu,thr,"Rana Tharu, Rana Thakur, Tharu, Rana",Indo-European,,,Indo-Uralic,Indo-Iranian,Indo-Aryan,,,,80.44,28.65,,,,,Eurasia,,,
 3324,vaag1238,Vaagri Booli,vaa,"Vaagri Boli, Guvvalollu, Haki Piki, Hakkipikkaru, Karikkorava, Kuruvikkaran, Marattiyan, Narakureavar, Narikkorava, Rattiyan, Shikarijanam, Vaagri Booli, Wogri Boli",Indo-European,,,Indo-Uralic,Indo-Iranian,Indo-Aryan,Central Indo-Aryan,,,79.53,12.21,,,,,Eurasia,,,
 3325,phry1239,Phrygian,xpg,Phrygian,Indo-European,,,Indo-Uralic,Greek-Armenian,Greek,,,,30.41,39.26,,,,,Eurasia,,,
-3326,situ1238,Jiǎomùzú,NA,Jiǎomùzú,Sino-Tibetan,,,,Qiangic,,,,,102.66,31.59,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+3326,situ1238,Jiǎomùzú,,Jiǎomùzú,Sino-Tibetan,,,,Qiangic,,,,,102.66,31.59,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3327,east2304,Balochi (Eastern),bgp,"Eastern Balochi, Eastern Baluchi",Indo-European,,,Indo-Uralic,Indo-Iranian,Iranian,Northwest Iranian,,,62,28,,,,,Eurasia,S/SE Asia,Indic,Eurasia
 3328,sout2679,South Estonian,vro,Vöro,Uralic,,,Indo-Uralic,Finno-Ugric,Finno-Permian,Finno-Volgaic,Finno-Saamic,,,,,,,,,,,
 3331,guan1266,Khroskyabs,jiq,"Khroskyabs, Wobzi",Sino-Tibetan,,,,Qiangic,,,,,,,,,,,Eurasia,S/SE Asia,Indic,
-3332,zbua1234,Zbu,NA,Zbu,Sino-Tibetan,,,,Qiangic,,,,,101.84,32.18,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+3332,zbua1234,Zbu,,Zbu,Sino-Tibetan,,,,Qiangic,,,,,101.84,32.18,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3333,lian1251,Liangmai Naga,njn,"Liangmai Naga, Kacha, Kwoireng, Liangmai, Liangmai Naga, Liangmei, Liyang, Lyangmay, Lyengmai",Sino-Tibetan,,,,Zeme Group,,,,,94,24.83,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3334,mara1379,Maram Naga,nma,"Maram Naga, Maram",Sino-Tibetan,,,,Zeme Group,,,,,93.5,25.17,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3335,tagi1241,Tagin,tgj,Tagin,Sino-Tibetan,,,,Tani,Western Tani,,,,93.5,27.5,Himalaya,,,,Eurasia,S/SE Asia,Indic,Eurasia
 3336,daai1236,Daai Chin,dao,Daai Chin,Sino-Tibetan,,,,Kukish (Mizo-Kuki-Chin),,,,,94.39,20.29,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
-3337,yach1234,Yacham-Tengsa,NA,Yacham-Tengsa,Sino-Tibetan,,,,Brahmaputran (Sal),Ao,,,,94.25,26.5,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+3337,yach1234,Yacham-Tengsa,,Yacham-Tengsa,Sino-Tibetan,,,,Brahmaputran (Sal),Ao,,,,94.25,26.5,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3338,anal1239,Anal,anm,Anal,Sino-Tibetan,,,,Kukish (Mizo-Kuki-Chin),Northern Chin,,,,94.17,24.25,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
-3339,hakh1236,Hakhun,NA,"Hakhun, Hakhun Tangsa",Sino-Tibetan,,,,Brahmaputran (Sal),Konyak,Tangsa-Nocte,,,,,,,,,Eurasia,S/SE Asia,Southeast Asia,
+3339,hakh1236,Hakhun,,"Hakhun, Hakhun Tangsa",Sino-Tibetan,,,,Brahmaputran (Sal),Konyak,Tangsa-Nocte,,,,,,,,,Eurasia,S/SE Asia,Southeast Asia,
 3340,kony1248,Konyak Naga,nbe,"Konyak Naga, Konyak, Kanyak",Sino-Tibetan,,,,Brahmaputran (Sal),Konyak,,,,,,,,,,Eurasia,S/SE Asia,Southeast Asia,
 3341,zhab1238,Zhaba,zhb,Zhaba,Sino-Tibetan,,,,Qiangic,,,,,101.84,32.18,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
 3342,wusa1235,Wusa Nasu,yig,,Sino-Tibetan,,,,Lolo-Burmese,Loloish,,,,101.3,25.23,,,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
@@ -3040,3 +3040,7 @@ LID,Glottocode,Language,ISO639_3,LanguageAlternativeNames,Stock,StockAlternative
 3381,kari1254,Kariri,,,Kariri,Karirian,,Macro-Je,,,,,,-40.49,-7.43,,TRUE,,,South America,S America,NE South America,Americas
 3382,muni1258,Muniche,myr,Muniche,Muniche,,,,,,,,,-76.43,-5.74,,,,,South America,S America,NE South America,Americas
 3383,tabo1241,Tabo,knv,,Tabo,,,,,,,,,143.31,-8.09,,,,,Pacific,NG and Oceania,S New Guinea,
+3384,,Ahom,aho,Ahom,Tai-Kadai,,,,,,,,,88,27,,TRUE,,,Eurasia,S/SE Asia,Southeast Asia,Eurasia
+3385,apma1240,Apma,app,Apma,Austronesian,,,,Malayo-Polynesian,Oceanic,Southeast Solomonic,Longgu/Malaita/Makira,,168.19,-15.86,,,,,Eurasia,NG and Oceania,Oceania,Pacific
+3386,west2516,West Uvean,uve,"West Uvean, Faga-Uvea, Fagauvea",Austronesian,,,,Malayo-Polynesian,Oceanic,Central Pacific,Eastern Fijian-Polynesian linkage,,166.59,-20.41,,,,,Eurasia,NG and Oceania,Oceania,Pacific
+3387,emae1237,Emae,mmw,"Emae, Emai, Mae, Mai, Emwae",Austronesian,,,,Malayo-Polynesian,Oceanic,Central Pacific,Eastern Fijian-Polynesian linkage,,168.4,-17.05,,,,,Eurasia,NG and Oceania,Oceania,Pacific

@@ -34,7 +34,7 @@ description: >-
 kind: manual data entry
 data: table
 counts:
-  n_languages: 3041
+  n_languages: 3045
   n_variables: 19
 fields: 
   LID:
@@ -230,49 +230,25 @@ fields:
     data: value-list
     values: 
       "Africa": >-
-        All of Africa.
-      "W and SW Eurasia": >-
-        Western and Southwestern Eurasia. Including the Caucasus and following the
-        northern shore of the Black Sea and the Carpathians to the Baltic sea. Also
-        includes the languages of Ancient Anatolia and Mesopotamia east to the Hindu Kush
-        (including the Iranian plateau).
-      "N-C Asia": >-
-        Northern and Central Asia. Siberia, the Tibetan plateau, Mongolia, Korea, and
-        Japan.
-      "S/SE Asia": >-
-        South and Southeast Asia. The Indic subcontinent (including the Himalayas, but not
-        the Tibetan plateau), mainland Southeast Asia, and insular Southeast Asia up to
-        the Wallace Line (between Sumbawa and Flores).
+        Africa
+      "Eurasia": >-
+        Eurasia
+      "North America": >-
+        North America
+      "South America": >-
+        South America
+      "Pacific": >-
+        Pacific
       "Australia": >-
-        All of Australia.
-      "NG and Oceania": >-
-        New Guinea and Oceania (all islands east of the Wallace Line).
-      "W N America": >-
-        Western North America. From the Pacific coast (excluding the Aleutian islands,
-        including only mainland Alaska) to the lower eastern slope of the major coastal
-        range (Cascades, Rocky Mountains), thus comprising the coastal and intermontane
-        regions. The southern boundary of North America runs along the US/Mexican border.
-      "E N America": >-
-        Eastern North America. From the lower eastern slope of the Cascades and Rocky
-        Mountains to the Atlantic coast (thus comprising the Great Plains and eastern US
-        and Canada). The southern boundary runs along the US/Mexican border; perhaps this
-        boundary should eventually be placed at the northern limit of the Mesoamerican
-        cultural area.
-      "C America": >-
-        Central America. The southern boundary is the Panama Canal; the northern boundary
-        is the U.S.-Mexico border. Perhaps this boundary should eventually be placed at
-        the northern limit of the Mesoamerican cultural area.
-      "S America": >-
-        All of South America.
+        Australia
   # -- end of OriginContinent
 
   Continent:
     description: >-
       Continent-sized macroarea, based on our assumptions about contact events
       in history, informed by current knowledge of the historical, genetic,
-      anthropological, and archeological record. All macro-areas are visualized
-      in the files continents.jpg and continents.kml available on this
-      repository.
+      anthropological, and archeological record. See
+      [figures/continents.jpg](figures/continents.jpg) for the visual continent breakdown.
     kind: manual data entry
     data: value-list
     values: 
@@ -317,9 +293,8 @@ fields:
     description: >-
       Smaller-scale linguistic areas, based on our assumptions about contact
       events in history, informed by current knowledge of the historical,
-      genetic, anthropological, and archeological record. All areas are
-      visualized in the files areas.jpg and areas.kml available on this
-      repository.
+      genetic, anthropological, and archeological record. See [figures/areas.jpg](figures/areas.jpg)
+      for the visual area breakdown.
     kind: manual data entry
     data: value-list
     values: 

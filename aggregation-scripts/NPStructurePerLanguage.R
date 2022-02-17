@@ -31,6 +31,8 @@ to_camel_case <- function(x) {
 }
 
 
+
+
 # ███████╗██╗   ██╗███╗   ███╗███╗   ███╗ █████╗ ██████╗ ██╗   ██╗
 # ██╔════╝██║   ██║████╗ ████║████╗ ████║██╔══██╗██╔══██╗╚██╗ ██╔╝
 # ███████╗██║   ██║██╔████╔██║██╔████╔██║███████║██████╔╝ ╚████╔╝
@@ -354,9 +356,8 @@ NPStructurePresence <- NPStructure %>%
   left_join(head_macrosem_constraints_presence, by = c("LID", "NPStructureID")) %>%
   # add glottocodes
   left_join(select(Register, LID, Glottocode), by = "LID") %>%
-  select(LID, Glottocode, Language, everything()) %>%
-  arrange(LID, Language)
-
+  select(LID, Glottocode, Language, NPStructureID, everything()) %>%
+  arrange(LID, Language, NPStructureID)
 
 
 descriptor <- describe_data(
@@ -387,7 +388,7 @@ descriptor <- describe_data(
       "
     ),
     NPHasGovernment = describe_data(
-      ptype = integer(),
+      ptype = logical(),
       computed = "NPStructurePerLanguage.R",
       description = "
         NPs with some kind of marker which is governed/assigned by the head
@@ -421,7 +422,7 @@ descriptor <- describe_data(
       "
     ),
     NPHasAdjGovernment = describe_data(
-      ptype = integer(),
+      ptype = logical(),
       computed = "NPStructurePerLanguage.R",
       description = "
         Adjective attribution with some kind of marker which is governed/assigned
@@ -438,22 +439,21 @@ descriptor <- describe_data(
 
 export_dataset("NPStructurePerLanguage", NPStructurePerLanguage, descriptor, c("PerLanguageSummaries", "NP"))
 
-
-
 descriptor <- describe_data(
   ptype = tibble(),
   description = "Per-language presence of NP properties",
   computed = "NPStructurePerLanguage.R",
   fields = c(
     .metadata$Register$fields[c("LID", "Language", "Glottocode")],
-    map(names(NPStructurePresence)[-(1:3)], ~ {
+    list(NPStructureID = .metadata$NPStructure$fields$NPStructureID),
+    map(names(NPStructurePresence)[-(1:4)], ~ {
       describe_data(
         ptype = logical(),
         computed = "NPStructurePerLanguage.R",
         description = "<pending>"
       )
-    }) %>% set_names(names(NPStructurePresence)[-(1:3)])
+    }) %>% set_names(names(NPStructurePresence)[-(1:4)])
   )
 )
 
-export_dataset("NPStructurePresence", NPStructurePresence, descriptor, c("PerLanguageSummaries", "NP"))
+export_dataset("NPStructurePresence", NPStructurePresence, descriptor, "NP")

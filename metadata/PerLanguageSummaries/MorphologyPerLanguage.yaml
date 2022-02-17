@@ -3,7 +3,7 @@ description: >-
 kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
 data: table
 counts:
-  n_languages: 998
+  n_languages: 1006
   n_variables: 25
 fields: 
   LID:
@@ -74,21 +74,21 @@ fields:
     description: >-
       Are prefixes (restricted preposed formatives) present in the language
     kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
-    data: integer
+    data: logical
   # -- end of HasAnyPrefixes
 
   HasAnySuffixes:
     description: >-
       Are suffixes (restricted postposed formatives) present in the language
     kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
-    data: integer
+    data: logical
   # -- end of HasAnySuffixes
 
   HasAnyInfixes:
     description: >-
       Are infixes (restricted interposed formatives) present in the language
     kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
-    data: integer
+    data: logical
   # -- end of HasAnyInfixes
 
   HasAnyProclitics:
@@ -96,7 +96,7 @@ fields:
         Are proclitics (unrestricted or semirestricted preposed formatives) present
         in the language
     kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
-    data: integer
+    data: logical
   # -- end of HasAnyProclitics
 
   HasAnyEnclitics:
@@ -104,7 +104,7 @@ fields:
         Are enclitics (unrestricted or semirestricted postposed formatives) present
         in the language
     kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
-    data: integer
+    data: logical
   # -- end of HasAnyEnclitics
 
   HasAnyEndoclitics:
@@ -112,28 +112,28 @@ fields:
         Are endoclitics (unrestricted or semirestricted interposed formatives) present
         in the language
     kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
-    data: integer
+    data: logical
   # -- end of HasAnyEndoclitics
 
   HasAnyPreposedFormatives:
     description: >-
       Are any preposed formatives present in the language
     kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
-    data: integer
+    data: logical
   # -- end of HasAnyPreposedFormatives
 
   HasAnyPostposedFormatives:
     description: >-
       Are any postposed formatives present in the language
     kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
-    data: integer
+    data: logical
   # -- end of HasAnyPostposedFormatives
 
   HasAnyInterposedFormatives:
     description: >-
       Are any interposed formatives present in the language
     kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
-    data: integer
+    data: logical
   # -- end of HasAnyInterposedFormatives
 
   HasAnyFlexivity:

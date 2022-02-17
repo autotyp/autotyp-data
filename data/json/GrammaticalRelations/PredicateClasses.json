@@ -31263,5 +31263,25 @@
     "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "information available in sapir1990takelma:160–180"
+  },
+  {
+    "LID": 506,
+    "Glottocode": "maxa1247",
+    "Language": "Maxakalí",
+    "PredicateClassID": 1053,
+    "PredicateClassLabel": "Sp",
+    "PredicateClassDiscourseFrequency": null,
+    "IndividualPredicates": [],
+    "PredicateClassDescription": null
+  },
+  {
+    "LID": 106,
+    "Glottocode": "sand1278",
+    "Language": "Huave",
+    "PredicateClassID": 1054,
+    "PredicateClassLabel": "Sstative",
+    "PredicateClassDiscourseFrequency": null,
+    "IndividualPredicates": [],
+    "PredicateClassDescription": "closed class, exclusively intr. verbs, mostly a state or position, also changes of position and changes of state"
   }
 ]

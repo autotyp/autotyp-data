@@ -6589,7 +6589,7 @@
     "Case": [
       {
         "HasCase": true,
-        "IsCaseCodedForDefaultPredicates": false,
+        "IsCaseCodedForDefaultPredicates": true,
         "IsCaseCodedForDitransitivePredicates": null,
         "IsCaseCodedForOtherPredicates": null
       }
@@ -6597,7 +6597,7 @@
     "Agreement": [
       {
         "HasAgreement": true,
-        "IsAgreementCodedForDefaultPredicates": false,
+        "IsAgreementCodedForDefaultPredicates": true,
         "IsAgreementCodedForDitransitivePredicates": null,
         "IsAgreementCodedForOtherPredicates": null,
         "IsAgreementMarkersCodedForDefaultPredicates": null,
@@ -6605,7 +6605,38 @@
         "IsAgreementMarkersCodedForOtherPredicates": null
       }
     ],
-    "PersonNumberCategories": []
+    "PersonNumberCategories": [
+      {
+        "PersonNumberCategory": "1sg"
+      },
+      {
+        "PersonNumberCategory": "3sg"
+      },
+      {
+        "PersonNumberCategory": "3pl"
+      },
+      {
+        "PersonNumberCategory": "2pl"
+      },
+      {
+        "PersonNumberCategory": "2sg"
+      },
+      {
+        "PersonNumberCategory": "2du"
+      },
+      {
+        "PersonNumberCategory": "3du"
+      },
+      {
+        "PersonNumberCategory": "1du.incl"
+      },
+      {
+        "PersonNumberCategory": "1du.excl"
+      },
+      {
+        "PersonNumberCategory": "1pl"
+      }
+    ]
   },
   {
     "LID": 433,
@@ -24932,5 +24963,330 @@
       }
     ],
     "PersonNumberCategories": []
+  },
+  {
+    "LID": 1002,
+    "Glottocode": "bada1257",
+    "Language": "Badaga",
+    "Case": [
+      {
+        "HasCase": true,
+        "IsCaseCodedForDefaultPredicates": null,
+        "IsCaseCodedForDitransitivePredicates": null,
+        "IsCaseCodedForOtherPredicates": null
+      }
+    ],
+    "Agreement": [
+      {
+        "HasAgreement": true,
+        "IsAgreementCodedForDefaultPredicates": true,
+        "IsAgreementCodedForDitransitivePredicates": null,
+        "IsAgreementCodedForOtherPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": false,
+        "IsAgreementMarkersCodedForDitransitivePredicates": null,
+        "IsAgreementMarkersCodedForOtherPredicates": null
+      }
+    ],
+    "PersonNumberCategories": []
+  },
+  {
+    "LID": 3384,
+    "Glottocode": null,
+    "Language": "Ahom",
+    "Case": [
+      {
+        "HasCase": true,
+        "IsCaseCodedForDefaultPredicates": true,
+        "IsCaseCodedForDitransitivePredicates": true,
+        "IsCaseCodedForOtherPredicates": null
+      }
+    ],
+    "Agreement": [
+      {
+        "HasAgreement": false,
+        "IsAgreementCodedForDefaultPredicates": false,
+        "IsAgreementCodedForDitransitivePredicates": false,
+        "IsAgreementCodedForOtherPredicates": false,
+        "IsAgreementMarkersCodedForDefaultPredicates": false,
+        "IsAgreementMarkersCodedForDitransitivePredicates": false,
+        "IsAgreementMarkersCodedForOtherPredicates": false
+      }
+    ],
+    "PersonNumberCategories": []
+  },
+  {
+    "LID": 3385,
+    "Glottocode": "apma1240",
+    "Language": "Apma",
+    "Case": [
+      {
+        "HasCase": true,
+        "IsCaseCodedForDefaultPredicates": true,
+        "IsCaseCodedForDitransitivePredicates": null,
+        "IsCaseCodedForOtherPredicates": null
+      }
+    ],
+    "Agreement": [
+      {
+        "HasAgreement": true,
+        "IsAgreementCodedForDefaultPredicates": true,
+        "IsAgreementCodedForDitransitivePredicates": null,
+        "IsAgreementCodedForOtherPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": null,
+        "IsAgreementMarkersCodedForDitransitivePredicates": null,
+        "IsAgreementMarkersCodedForOtherPredicates": null
+      }
+    ],
+    "PersonNumberCategories": []
+  },
+  {
+    "LID": 3240,
+    "Glottocode": "ashe1272",
+    "Language": "Ashéninka Perené",
+    "Case": [
+      {
+        "HasCase": true,
+        "IsCaseCodedForDefaultPredicates": true,
+        "IsCaseCodedForDitransitivePredicates": null,
+        "IsCaseCodedForOtherPredicates": null
+      }
+    ],
+    "Agreement": [
+      {
+        "HasAgreement": true,
+        "IsAgreementCodedForDefaultPredicates": true,
+        "IsAgreementCodedForDitransitivePredicates": null,
+        "IsAgreementCodedForOtherPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": null,
+        "IsAgreementMarkersCodedForDitransitivePredicates": null,
+        "IsAgreementMarkersCodedForOtherPredicates": null
+      }
+    ],
+    "PersonNumberCategories": []
+  },
+  {
+    "LID": 182,
+    "Glottocode": "caom1238",
+    "Language": "Cao Miao",
+    "Case": [
+      {
+        "HasCase": true,
+        "IsCaseCodedForDefaultPredicates": true,
+        "IsCaseCodedForDitransitivePredicates": null,
+        "IsCaseCodedForOtherPredicates": null
+      }
+    ],
+    "Agreement": [
+      {
+        "HasAgreement": false,
+        "IsAgreementCodedForDefaultPredicates": false,
+        "IsAgreementCodedForDitransitivePredicates": null,
+        "IsAgreementCodedForOtherPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": false,
+        "IsAgreementMarkersCodedForDitransitivePredicates": null,
+        "IsAgreementMarkersCodedForOtherPredicates": null
+      }
+    ],
+    "PersonNumberCategories": []
+  },
+  {
+    "LID": 3386,
+    "Glottocode": "west2516",
+    "Language": "West Uvean",
+    "Case": [
+      {
+        "HasCase": true,
+        "IsCaseCodedForDefaultPredicates": true,
+        "IsCaseCodedForDitransitivePredicates": null,
+        "IsCaseCodedForOtherPredicates": null
+      }
+    ],
+    "Agreement": [
+      {
+        "HasAgreement": false,
+        "IsAgreementCodedForDefaultPredicates": false,
+        "IsAgreementCodedForDitransitivePredicates": false,
+        "IsAgreementCodedForOtherPredicates": false,
+        "IsAgreementMarkersCodedForDefaultPredicates": false,
+        "IsAgreementMarkersCodedForDitransitivePredicates": false,
+        "IsAgreementMarkersCodedForOtherPredicates": false
+      }
+    ],
+    "PersonNumberCategories": []
+  },
+  {
+    "LID": 3387,
+    "Glottocode": "emae1237",
+    "Language": "Emae",
+    "Case": [
+      {
+        "HasCase": true,
+        "IsCaseCodedForDefaultPredicates": true,
+        "IsCaseCodedForDitransitivePredicates": null,
+        "IsCaseCodedForOtherPredicates": null
+      }
+    ],
+    "Agreement": [
+      {
+        "HasAgreement": false,
+        "IsAgreementCodedForDefaultPredicates": false,
+        "IsAgreementCodedForDitransitivePredicates": false,
+        "IsAgreementCodedForOtherPredicates": false,
+        "IsAgreementMarkersCodedForDefaultPredicates": false,
+        "IsAgreementMarkersCodedForDitransitivePredicates": false,
+        "IsAgreementMarkersCodedForOtherPredicates": false
+      }
+    ],
+    "PersonNumberCategories": []
+  },
+  {
+    "LID": 506,
+    "Glottocode": "maxa1247",
+    "Language": "Maxakalí",
+    "Case": [
+      {
+        "HasCase": true,
+        "IsCaseCodedForDefaultPredicates": true,
+        "IsCaseCodedForDitransitivePredicates": null,
+        "IsCaseCodedForOtherPredicates": null
+      }
+    ],
+    "Agreement": [
+      {
+        "HasAgreement": false,
+        "IsAgreementCodedForDefaultPredicates": true,
+        "IsAgreementCodedForDitransitivePredicates": true,
+        "IsAgreementCodedForOtherPredicates": true,
+        "IsAgreementMarkersCodedForDefaultPredicates": false,
+        "IsAgreementMarkersCodedForDitransitivePredicates": false,
+        "IsAgreementMarkersCodedForOtherPredicates": false
+      }
+    ],
+    "PersonNumberCategories": []
+  },
+  {
+    "LID": 2795,
+    "Glottocode": "yukp1241",
+    "Language": "Yukpa",
+    "Case": [
+      {
+        "HasCase": true,
+        "IsCaseCodedForDefaultPredicates": true,
+        "IsCaseCodedForDitransitivePredicates": null,
+        "IsCaseCodedForOtherPredicates": null
+      }
+    ],
+    "Agreement": [
+      {
+        "HasAgreement": null,
+        "IsAgreementCodedForDefaultPredicates": false,
+        "IsAgreementCodedForDitransitivePredicates": null,
+        "IsAgreementCodedForOtherPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": false,
+        "IsAgreementMarkersCodedForDitransitivePredicates": null,
+        "IsAgreementMarkersCodedForOtherPredicates": null
+      }
+    ],
+    "PersonNumberCategories": []
+  },
+  {
+    "LID": 599,
+    "Glottocode": "chay1248",
+    "Language": "Chayahuita",
+    "Case": [
+      {
+        "HasCase": true,
+        "IsCaseCodedForDefaultPredicates": true,
+        "IsCaseCodedForDitransitivePredicates": null,
+        "IsCaseCodedForOtherPredicates": null
+      }
+    ],
+    "Agreement": [
+      {
+        "HasAgreement": true,
+        "IsAgreementCodedForDefaultPredicates": true,
+        "IsAgreementCodedForDitransitivePredicates": null,
+        "IsAgreementCodedForOtherPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": true,
+        "IsAgreementMarkersCodedForDitransitivePredicates": null,
+        "IsAgreementMarkersCodedForOtherPredicates": null
+      }
+    ],
+    "PersonNumberCategories": [
+      {
+        "PersonNumberCategory": "1sg"
+      },
+      {
+        "PersonNumberCategory": "1pl.incl"
+      },
+      {
+        "PersonNumberCategory": "1pl.excl"
+      },
+      {
+        "PersonNumberCategory": "3sg"
+      },
+      {
+        "PersonNumberCategory": "3pl"
+      },
+      {
+        "PersonNumberCategory": "2sg"
+      },
+      {
+        "PersonNumberCategory": "2pl"
+      },
+      {
+        "PersonNumberCategory": "1du.incl"
+      }
+    ]
+  },
+  {
+    "LID": 106,
+    "Glottocode": "sand1278",
+    "Language": "Huave",
+    "Case": [
+      {
+        "HasCase": true,
+        "IsCaseCodedForDefaultPredicates": true,
+        "IsCaseCodedForDitransitivePredicates": null,
+        "IsCaseCodedForOtherPredicates": null
+      }
+    ],
+    "Agreement": [
+      {
+        "HasAgreement": true,
+        "IsAgreementCodedForDefaultPredicates": true,
+        "IsAgreementCodedForDitransitivePredicates": null,
+        "IsAgreementCodedForOtherPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": true,
+        "IsAgreementMarkersCodedForDitransitivePredicates": null,
+        "IsAgreementMarkersCodedForOtherPredicates": null
+      }
+    ],
+    "PersonNumberCategories": [
+      {
+        "PersonNumberCategory": "1sg"
+      },
+      {
+        "PersonNumberCategory": "1du.incl"
+      },
+      {
+        "PersonNumberCategory": "1pl.incl"
+      },
+      {
+        "PersonNumberCategory": "1pl.excl"
+      },
+      {
+        "PersonNumberCategory": "2sg"
+      },
+      {
+        "PersonNumberCategory": "2pl"
+      },
+      {
+        "PersonNumberCategory": "3sg"
+      },
+      {
+        "PersonNumberCategory": "3pl"
+      }
+    ]
   }
 ]

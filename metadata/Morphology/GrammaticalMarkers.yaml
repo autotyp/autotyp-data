@@ -5,7 +5,7 @@ description: >-
 kind: manual data entry
 data: table
 counts:
-  n_languages: 832
+  n_languages: 841
   n_variables: 28
 fields: 
   LID:
@@ -328,6 +328,19 @@ fields:
       ed. T. Shopen, Cambridge: Cambridge University Press), binned into 6 types
     kind: manual data entry
     data: value-list
+    values: 
+      "isolating": >-
+        The formative is a free phonological word
+      "concatenative": >-
+        The formative is a clitic or segmentable affix
+      "reduplicative": >-
+        Some kind of reduplication effect
+      "replacive": >-
+        The formative replaces the stem
+      "stem": >-
+        Some kind of effect within the stem
+      "tonal": >-
+        A tone contrast
   # -- end of MarkerFusionBinned6
 
   MarkerFusionIsIsolating:
@@ -552,6 +565,8 @@ fields:
         Simultaneously markign on head and the dependent
       "D": >-
         Marking on dependent
+      "D on H": >-
+        Headward-migrated dependent marking
       "F": >-
         Floating marker
       "H": >-
@@ -573,8 +588,8 @@ fields:
         Simultaneously markign on head and the dependent
       "D": >-
         Marking on dependent
-      "F": >-
-        Floating marker
+      "FloatingorClitic": >-
+        Floating marker or clitic
       "H": >-
         Marking on head
       "Ø": >-
@@ -685,93 +700,13 @@ fields:
     data: value-list
     values: 
       "prae": >-
-        before the phonological host
-      "in": >-
-        inside the phonological host
+        Marker occurs before its phonological host
+      "in/simul": >-
+        Marker occurs inside its phonological host
       "post": >-
-        after the phonological host
-      "simul": >-
-        the formative has two exponents at different positions in the phonological host
-        (but it is not the case that one is positioned before and the other after the
-        host, which is coded as “circum”)
-      "circum": >-
-        the formative has two exponents, one before and one after the phonological host.
-        This is a special case of the “simul” position
-      "prae/post": >-
-        either before or after the phonological host, conditioned by some structural
-        context (category, syntax etc.)
-      "in/prae": >-
-        either inside or before the phonological host, conditioned by some structural
-        context (category, syntax etc.)
-      "in/post": >-
-        either inside or after the phonological host, conditioned by some structural
-        context (category, syntax etc.)
-      "post (prae)": >-
-        after the phonological host by default, before the host under exceptional
-        conditions (typically lexical)
-      "prae/circum": >-
-        either before or around the phonological host, conditioned by some structural
-        context (category, syntax etc.)
-      "Wackernagel": >-
-        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
-        see log 77
-      "in (post)": >-
-        inside the phonological host by default, after the host under exceptional
-        conditions (typically lexical)
-      "prae/post/circum": >-
-        either before, after or around the phonological host, conditioned by some
-        structural context (category, syntax etc.)
-      "post (circum)": >-
-        after the phonological host by default, around the host under exceptional
-        conditions (typically lexical)
-      "circum (prae)": >-
-        around the phonological host by default, before the host under exceptional
-        conditions (typically lexical)
-      "prae (circum)": >-
-        before the phonological host by default, around the host under exceptional
-        conditions (typically lexical)
-      "circum (post)": >-
-        around the phonological host by default, after the host under exceptional
-        conditions (typically lexical)
-      "circum (W)": >-
-        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
-        see log 77
-      "simul (prae)": >-
-        in two or more different positions in (but not around) the phonological host by
-        default, before the host under exceptional conditions (typically lexical)
-      "prae/in/post": >-
-        either before, inside or after the phonological host, conditioned by some
-        structural context (category, syntax etc.)
-      "prae (post)": >-
-        before the phonological host by default, after the host under exceptional
-        conditions (typically lexical)
-      "post (in)": >-
-        after the phonological host by default, inside the host under exceptional
-        conditions (typically lexical)
-      "post/prae (simul)": >-
-        either before, after or in two or more positions in the phonological host,
-        conditioned by some structural context (category, syntax etc.)
-      "prae/post/in/circum": >-
-        either before, after, inside or around the phonological host, conditioned by some
-        structural context (category, syntax etc.)
-      "unknown": >-
-        position is unknown
-      "any": >-
-        unspecified; can appear anywhere where the language allows it.
-      "simul (post)": >-
-        in two or more different positions in the phonological host by default, after the
-        host under exceptional conditions (typically lexical)
-      "stem change": >-
-        a special case of “simul” where one position is stem change itself
-      "post/circum": >-
-        either after or around the phonological host, conditioned by some structural
-        context (category, syntax etc.)
-      "prae/in": >-
-        either before or inside the phonological host, conditioned by some structural
-        context (category, syntax etc.)
-      "prae (in)": >-
-        before the phonological host by default, inside the host under exceptional
-        conditions (typically lexical)
+        Marker occurs after its phonological host
+      "split": >-
+        Marker has multiple parts that occur at different positions
   # -- end of MarkerPositionBinned4
 
   MarkerPositionBinned5:
@@ -782,93 +717,15 @@ fields:
     data: value-list
     values: 
       "prae": >-
-        before the phonological host
+        Marker occurs before its phonological host
       "in": >-
-        inside the phonological host
+        Marker occurs inside its phonological host
       "post": >-
-        after the phonological host
+        Marker occurs after its phonological host
+      "split": >-
+        Marker has multiple parts that occur at different positions (before or after)
       "simul": >-
-        the formative has two exponents at different positions in the phonological host
-        (but it is not the case that one is positioned before and the other after the
-        host, which is coded as “circum”)
-      "circum": >-
-        the formative has two exponents, one before and one after the phonological host.
-        This is a special case of the “simul” position
-      "prae/post": >-
-        either before or after the phonological host, conditioned by some structural
-        context (category, syntax etc.)
-      "in/prae": >-
-        either inside or before the phonological host, conditioned by some structural
-        context (category, syntax etc.)
-      "in/post": >-
-        either inside or after the phonological host, conditioned by some structural
-        context (category, syntax etc.)
-      "post (prae)": >-
-        after the phonological host by default, before the host under exceptional
-        conditions (typically lexical)
-      "prae/circum": >-
-        either before or around the phonological host, conditioned by some structural
-        context (category, syntax etc.)
-      "Wackernagel": >-
-        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
-        see log 77
-      "in (post)": >-
-        inside the phonological host by default, after the host under exceptional
-        conditions (typically lexical)
-      "prae/post/circum": >-
-        either before, after or around the phonological host, conditioned by some
-        structural context (category, syntax etc.)
-      "post (circum)": >-
-        after the phonological host by default, around the host under exceptional
-        conditions (typically lexical)
-      "circum (prae)": >-
-        around the phonological host by default, before the host under exceptional
-        conditions (typically lexical)
-      "prae (circum)": >-
-        before the phonological host by default, around the host under exceptional
-        conditions (typically lexical)
-      "circum (post)": >-
-        around the phonological host by default, after the host under exceptional
-        conditions (typically lexical)
-      "circum (W)": >-
-        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
-        see log 77
-      "simul (prae)": >-
-        in two or more different positions in (but not around) the phonological host by
-        default, before the host under exceptional conditions (typically lexical)
-      "prae/in/post": >-
-        either before, inside or after the phonological host, conditioned by some
-        structural context (category, syntax etc.)
-      "prae (post)": >-
-        before the phonological host by default, after the host under exceptional
-        conditions (typically lexical)
-      "post (in)": >-
-        after the phonological host by default, inside the host under exceptional
-        conditions (typically lexical)
-      "post/prae (simul)": >-
-        either before, after or in two or more positions in the phonological host,
-        conditioned by some structural context (category, syntax etc.)
-      "prae/post/in/circum": >-
-        either before, after, inside or around the phonological host, conditioned by some
-        structural context (category, syntax etc.)
-      "unknown": >-
-        position is unknown
-      "any": >-
-        unspecified; can appear anywhere where the language allows it.
-      "simul (post)": >-
-        in two or more different positions in the phonological host by default, after the
-        host under exceptional conditions (typically lexical)
-      "stem change": >-
-        a special case of “simul” where one position is stem change itself
-      "post/circum": >-
-        either after or around the phonological host, conditioned by some structural
-        context (category, syntax etc.)
-      "prae/in": >-
-        either before or inside the phonological host, conditioned by some structural
-        context (category, syntax etc.)
-      "prae (in)": >-
-        before the phonological host by default, inside the host under exceptional
-        conditions (typically lexical)
+        Marker has multiple parts that occur at different positions inside the host
   # -- end of MarkerPositionBinned5
 
   MarkerHasPreposedExponent:
@@ -975,6 +832,16 @@ fields:
       ed. T. Shopen, Cambridge: Cambridge University Press), binned into four broad types
     kind: manual data entry
     data: value-list
+    values: 
+      "initial": >-
+        Inert and at the beginning of its domain
+      "final": >-
+        Inert and at the end of its domain
+      "on head": >-
+        Inert and positioned on the head of its domain
+      "spreading": >-
+        See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology
+        and Syntactic Description (CUP 2007)
   # -- end of MarkerBehaviorBinned4
 
   MarkerBehaviorIsSpreading:
@@ -2137,7 +2004,7 @@ fields:
     description: >-
       Does the marker express more than one category?
     kind: computed data (aggregation-scripts/enhancements/GrammaticalMarkers.R)
-    data: integer
+    data: logical
   # -- end of MarkerExpressesMultipleCategories
 
   MarkerExpressedCategories:

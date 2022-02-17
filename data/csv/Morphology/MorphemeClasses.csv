@@ -5,10 +5,10 @@ MorphemeClassID,LID,Glottocode,Language,MorphemeType,MorphemePosition,MorphemeHo
 330,35,belh1239,Belhare,formative,post,unrestricted,Double marking?
 331,35,belh1239,Belhare,stem,,unrestricted,Double marking?
 332,35,belh1239,Belhare,stem part,,unrestricted,Double marking?
-333,690,mana1288,Manange,formative,prae,restricted,NA
-334,690,mana1288,Manange,formative,post,restricted,NA
-335,690,mana1288,Manange,formative,post,semi-restricted,NA
-336,690,mana1288,Manange,stem,,unrestricted,NA
+333,690,mana1288,Manange,formative,prae,restricted,
+334,690,mana1288,Manange,formative,post,restricted,
+335,690,mana1288,Manange,formative,post,semi-restricted,
+336,690,mana1288,Manange,stem,,unrestricted,
 337,87,stan1295,German,formative,prae,unrestricted,"simulfix is like Häuser ‘houses’ or Wänd-chen ‘wall-DIM’ with both ablaut and suffixprae, semirestricted is like ent- + verbs, numerals, ‘neither’, and nouns (ent-stem)Possibly also: (?) post-semirestricted -lich (goes with colours, participialized verbs, adjectives) and also simul semirestricted (ablaut + -lich_ goes with nouns, adjectives, verbs"
 338,87,stan1295,German,formative,prae,restricted,"simulfix is like Häuser ‘houses’ or Wänd-chen ‘wall-DIM’ with both ablaut and suffixprae, semirestricted is like ent- + verbs, numerals, ‘neither’, and nouns (ent-stem)Possibly also: (?) post-semirestricted -lich (goes with colours, participialized verbs, adjectives) and also simul semirestricted (ablaut + -lich_ goes with nouns, adjectives, verbs"
 339,87,stan1295,German,formative,prae,Part circum/simulfix,"simulfix is like Häuser ‘houses’ or Wänd-chen ‘wall-DIM’ with both ablaut and suffixprae, semirestricted is like ent- + verbs, numerals, ‘neither’, and nouns (ent-stem)Possibly also: (?) post-semirestricted -lich (goes with colours, participialized verbs, adjectives) and also simul semirestricted (ablaut + -lich_ goes with nouns, adjectives, verbs"
@@ -22,10 +22,10 @@ MorphemeClassID,LID,Glottocode,Language,MorphemeType,MorphemePosition,MorphemeHo
 347,56,chuk1273,Chukchi,formative,post,unrestricted,"maybe also simulfixes: Dunn 1999‘Circum’ split into 2 positions because of potential to be divided in domains"
 348,56,chuk1273,Chukchi,stem,,unrestricted,"maybe also simulfixes: Dunn 1999‘Circum’ split into 2 positions because of potential to be divided in domains"
 349,56,chuk1273,Chukchi,formative,post,Part circum/simulfix,"maybe also simulfixes: Dunn 1999‘Circum’ split into 2 positions because of potential to be divided in domains"
-350,1682,jeha1242,Jahai,formative,prae,restricted,NA
-351,1682,jeha1242,Jahai,formative,in,restricted,NA
-352,1682,jeha1242,Jahai,formative,prae,unrestricted,NA
-353,1682,jeha1242,Jahai,stem,,unrestricted,NA
+350,1682,jeha1242,Jahai,formative,prae,restricted,
+351,1682,jeha1242,Jahai,formative,in,restricted,
+352,1682,jeha1242,Jahai,formative,prae,unrestricted,
+353,1682,jeha1242,Jahai,stem,,unrestricted,
 354,1440,dutc1256,Dutch,formative,prae,restricted,"possibly simul restricted formative? some verbs undergo ablaut with PTCP.PT circumfix ge--dzaag ‘tell’ > ge-zeg-d ‘told’"
 355,1440,dutc1256,Dutch,formative,post,restricted,"possibly simul restricted formative? some verbs undergo ablaut with PTCP.PT circumfix ge--dzaag ‘tell’ > ge-zeg-d ‘told’"
 356,1440,dutc1256,Dutch,stem,,unrestricted,"possibly simul restricted formative? some verbs undergo ablaut with PTCP.PT circumfix ge--dzaag ‘tell’ > ge-zeg-d ‘told’"
@@ -154,14 +154,14 @@ MorphemeClassID,LID,Glottocode,Language,MorphemeType,MorphemePosition,MorphemeHo
 479,463,nucl1310,Burmese,formative,prae,restricted,"In main clauses, this looks more like a circumfix:mə- pauʔ-p’ù-làNEG-grow-NEG-Q‘Don’t they grow there?’ (p. 205): Wheatley calls the first piece an encliticmaybe interrogative -là or DOUBT -nɔ; Wheatly calls these sentence level, but I’m not really sure of co-occurrence restrictions. (p. 204)"
 480,463,nucl1310,Burmese,formative,post,restricted,"In main clauses, this looks more like a circumfix:mə- pauʔ-p’ù-làNEG-grow-NEG-Q‘Don’t they grow there?’ (p. 205): Wheatley calls the first piece an encliticmaybe interrogative -là or DOUBT -nɔ; Wheatly calls these sentence level, but I’m not really sure of co-occurrence restrictions. (p. 204)"
 481,463,nucl1310,Burmese,formative,post,semi-restricted,"In main clauses, this looks more like a circumfix:mə- pauʔ-p’ù-làNEG-grow-NEG-Q‘Don’t they grow there?’ (p. 205): Wheatley calls the first piece an encliticmaybe interrogative -là or DOUBT -nɔ; Wheatly calls these sentence level, but I’m not really sure of co-occurrence restrictions. (p. 204)"
-482,179,mart1255,Martuthunira,stem,,unrestricted,NA
-483,179,mart1255,Martuthunira,formative,prae,restricted,NA
-484,179,mart1255,Martuthunira,formative,post,restricted,NA
-485,179,mart1255,Martuthunira,formative,post,unrestricted,NA
-486,107,hung1274,Hungarian,stem,,unrestricted,NA
-487,107,hung1274,Hungarian,formative,post,semi-restricted,NA
-488,107,hung1274,Hungarian,formative,prae,restricted,NA
-489,107,hung1274,Hungarian,formative,post,restricted,NA
+482,179,mart1255,Martuthunira,stem,,unrestricted,
+483,179,mart1255,Martuthunira,formative,prae,restricted,
+484,179,mart1255,Martuthunira,formative,post,restricted,
+485,179,mart1255,Martuthunira,formative,post,unrestricted,
+486,107,hung1274,Hungarian,stem,,unrestricted,
+487,107,hung1274,Hungarian,formative,post,semi-restricted,
+488,107,hung1274,Hungarian,formative,prae,restricted,
+489,107,hung1274,Hungarian,formative,post,restricted,
 490,79,stan1290,French (colloquial),stem,,unrestricted,"the post (super-restricted) is suffix part of circumfix negation, where the ne preposed formative marginally usedShould this negation then be coded differently? i.e. 1 prae super-restricted in addition to prae restricted?"
 491,79,stan1290,French (colloquial),formative,prae,restricted,"the post (super-restricted) is suffix part of circumfix negation, where the ne preposed formative marginally usedShould this negation then be coded differently? i.e. 1 prae super-restricted in addition to prae restricted?"
 492,79,stan1290,French (colloquial),formative,post,restricted,"the post (super-restricted) is suffix part of circumfix negation, where the ne preposed formative marginally usedShould this negation then be coded differently? i.e. 1 prae super-restricted in addition to prae restricted?"
@@ -188,10 +188,10 @@ MorphemeClassID,LID,Glottocode,Language,MorphemeType,MorphemePosition,MorphemeHo
 513,389,udii1243,Udi,stem,,unrestricted,Not sure if there are pro-formatives
 514,389,udii1243,Udi,formative,post,restricted,Not sure if there are pro-formatives
 515,389,udii1243,Udi,formative,in,semi-restricted,Not sure if there are pro-formatives
-516,74,stan1293,English,stem,,unrestricted,NA
-517,74,stan1293,English,formative,prae,restricted,NA
-518,74,stan1293,English,formative,post,restricted,NA
-519,74,stan1293,English,formative,post,semi-restricted,NA
+516,74,stan1293,English,stem,,unrestricted,
+517,74,stan1293,English,formative,prae,restricted,
+518,74,stan1293,English,formative,post,restricted,
+519,74,stan1293,English,formative,post,semi-restricted,
 520,1772,gugu1255,Guugu Yimidhirr,stem,,unrestricted,"The emphatidc -:gu (which causes stem vowel lengthening) is unrestricted, but data only with nouns, verbs.  Perhaps wider selectional distribution?"
 521,1772,gugu1255,Guugu Yimidhirr,formative,post,restricted,"The emphatidc -:gu (which causes stem vowel lengthening) is unrestricted, but data only with nouns, verbs.  Perhaps wider selectional distribution?"
 522,1772,gugu1255,Guugu Yimidhirr,formative,post,semi-restricted,"The emphatidc -:gu (which causes stem vowel lengthening) is unrestricted, but data only with nouns, verbs.  Perhaps wider selectional distribution?"
@@ -217,13 +217,13 @@ MorphemeClassID,LID,Glottocode,Language,MorphemeType,MorphemePosition,MorphemeHo
 542,456,west2369,Persian,formative,post,restricted,I have added preposed semi-restricted formative to account for proximal demonstrative.  Is this accurate?  Should it be unrestricted? Restricted?
 543,456,west2369,Persian,formative,post,semi-restricted,I have added preposed semi-restricted formative to account for proximal demonstrative.  Is this accurate?  Should it be unrestricted? Restricted?
 544,456,west2369,Persian,formative,prae,semi-restricted,I have added preposed semi-restricted formative to account for proximal demonstrative.  Is this accurate?  Should it be unrestricted? Restricted?
-545,435,iris1253,Irish,stem,,unrestricted,NA
-546,435,iris1253,Irish,formative,prae,restricted,NA
-547,435,iris1253,Irish,formative,post,restricted,NA
-548,435,iris1253,Irish,formative,prae,Part circum/simulfix,NA
-549,435,iris1253,Irish,formative,post,Part circum/simulfix,NA
-550,435,iris1253,Irish,formative,post,semi-restricted,NA
-551,435,iris1253,Irish,formative,prae,semi-restricted,NA
+545,435,iris1253,Irish,stem,,unrestricted,
+546,435,iris1253,Irish,formative,prae,restricted,
+547,435,iris1253,Irish,formative,post,restricted,
+548,435,iris1253,Irish,formative,prae,Part circum/simulfix,
+549,435,iris1253,Irish,formative,post,Part circum/simulfix,
+550,435,iris1253,Irish,formative,post,semi-restricted,
+551,435,iris1253,Irish,formative,prae,semi-restricted,
 552,1890,lith1251,Lithuanian,stem,,unrestricted,"For No. 3:  Reflexive marker is postposed restricted, but may also be preposed when occurring with verbs that also have a derivational prefix. Maybe to be changed later."
 553,1890,lith1251,Lithuanian,formative,prae,restricted,"For No. 3:  Reflexive marker is postposed restricted, but may also be preposed when occurring with verbs that also have a derivational prefix. Maybe to be changed later."
 554,1890,lith1251,Lithuanian,formative,post,restricted,"For No. 3:  Reflexive marker is postposed restricted, but may also be preposed when occurring with verbs that also have a derivational prefix. Maybe to be changed later."
@@ -244,20 +244,20 @@ MorphemeClassID,LID,Glottocode,Language,MorphemeType,MorphemePosition,MorphemeHo
 569,528,garo1247,Garo,formative,post,restricted,Pos3 includes case markers such as -o LOC and clause-final clitics like =ma Yes-No-Question marker
 570,528,garo1247,Garo,formative,post,unrestricted,Pos3 includes case markers such as -o LOC and clause-final clitics like =ma Yes-No-Question marker
 571,528,garo1247,Garo,formative,prae,restricted,Pos3 includes case markers such as -o LOC and clause-final clitics like =ma Yes-No-Question marker
-572,722,nort2722,Qiang (Northern),stem,,unrestricted,NA
-573,722,nort2722,Qiang (Northern),formative,post,restricted,NA
-574,722,nort2722,Qiang (Northern),formative,post,semi-restricted,NA
-575,722,nort2722,Qiang (Northern),formative,prae,semi-restricted,NA
-576,44,carn1240,Car,stem,,unrestricted,NA
-577,44,carn1240,Car,formative,prae,restricted,NA
-578,44,carn1240,Car,formative,post,restricted,NA
-579,44,carn1240,Car,formative,prae,unrestricted,NA
-580,44,carn1240,Car,formative,post,semi-restricted,NA
-581,44,carn1240,Car,formative,in,restricted,NA
-582,40,buru1296,Burushaski,stem,,unrestricted,NA
-583,40,buru1296,Burushaski,formative,prae,restricted,NA
-584,40,buru1296,Burushaski,formative,post,restricted,NA
-585,40,buru1296,Burushaski,formative,prae,semi-restricted,NA
+572,722,nort2722,Qiang (Northern),stem,,unrestricted,
+573,722,nort2722,Qiang (Northern),formative,post,restricted,
+574,722,nort2722,Qiang (Northern),formative,post,semi-restricted,
+575,722,nort2722,Qiang (Northern),formative,prae,semi-restricted,
+576,44,carn1240,Car,stem,,unrestricted,
+577,44,carn1240,Car,formative,prae,restricted,
+578,44,carn1240,Car,formative,post,restricted,
+579,44,carn1240,Car,formative,prae,unrestricted,
+580,44,carn1240,Car,formative,post,semi-restricted,
+581,44,carn1240,Car,formative,in,restricted,
+582,40,buru1296,Burushaski,stem,,unrestricted,
+583,40,buru1296,Burushaski,formative,prae,restricted,
+584,40,buru1296,Burushaski,formative,post,restricted,
+585,40,buru1296,Burushaski,formative,prae,semi-restricted,
 586,1750,khar1287,Kharia,stem,,unrestricted,"ad POS 4: prefix with monosyllabic roots, infix with polysyllabic roots (in some cases both pre- and infixed)Note: Presumably no suffixes in the language, only prefixes and enclitics"
 587,1750,khar1287,Kharia,formative,post,semi-restricted,"ad POS 4: prefix with monosyllabic roots, infix with polysyllabic roots (in some cases both pre- and infixed)Note: Presumably no suffixes in the language, only prefixes and enclitics"
 588,1750,khar1287,Kharia,formative,prae,restricted,"ad POS 4: prefix with monosyllabic roots, infix with polysyllabic roots (in some cases both pre- and infixed)Note: Presumably no suffixes in the language, only prefixes and enclitics"
@@ -303,17 +303,17 @@ MorphemeClassID,LID,Glottocode,Language,MorphemeType,MorphemePosition,MorphemeHo
 628,614,cent1989,Cambodian,formative,in,restricted,"Pos2: prefixes like p- have different functions on verbs and nouns, e.g. /dac/ ‘to break (intrans.) > /pdac/ ‘to break (trans.) vs. /ku:/ ‘a pair’ > /pku:/ ‘pair off’Pos3: includes prefixed reduplicants, which appear with every word classPos4: derivational infixes on verbsPos5: very few, only derivationPos6: very few, only in derivation"
 629,614,cent1989,Cambodian,formative,post,restricted,"Pos2: prefixes like p- have different functions on verbs and nouns, e.g. /dac/ ‘to break (intrans.) > /pdac/ ‘to break (trans.) vs. /ku:/ ‘a pair’ > /pku:/ ‘pair off’Pos3: includes prefixed reduplicants, which appear with every word classPos4: derivational infixes on verbsPos5: very few, only derivationPos6: very few, only in derivation"
 630,614,cent1989,Cambodian,formative,post,unrestricted,"Pos2: prefixes like p- have different functions on verbs and nouns, e.g. /dac/ ‘to break (intrans.) > /pdac/ ‘to break (trans.) vs. /ku:/ ‘a pair’ > /pku:/ ‘pair off’Pos3: includes prefixed reduplicants, which appear with every word classPos4: derivational infixes on verbsPos5: very few, only derivationPos6: very few, only in derivation"
-631,1139,chra1242,Chrau,stem,,unrestricted,NA
-632,1139,chra1242,Chrau,formative,prae,restricted,NA
-633,1139,chra1242,Chrau,formative,post,restricted,NA
-634,1139,chra1242,Chrau,formative,in,restricted,NA
+631,1139,chra1242,Chrau,stem,,unrestricted,
+632,1139,chra1242,Chrau,formative,prae,restricted,
+633,1139,chra1242,Chrau,formative,post,restricted,
+634,1139,chra1242,Chrau,formative,in,restricted,
 635,541,khmu1256,Khmu,root,,unrestricted,"Pos2: nominalization, causative, resultative, reciprocal (often realized as minor syllables)Pos3: verbalizing prefix kn- which operates on words of different word classes; a number of preposed particles such as the negator pə́Pos4: nominalization, causative"
 636,541,khmu1256,Khmu,formative,prae,restricted,"Pos2: nominalization, causative, resultative, reciprocal (often realized as minor syllables)Pos3: verbalizing prefix kn- which operates on words of different word classes; a number of preposed particles such as the negator pə́Pos4: nominalization, causative"
 637,541,khmu1256,Khmu,formative,prae,unrestricted,"Pos2: nominalization, causative, resultative, reciprocal (often realized as minor syllables)Pos3: verbalizing prefix kn- which operates on words of different word classes; a number of preposed particles such as the negator pə́Pos4: nominalization, causative"
 638,541,khmu1256,Khmu,formative,in,restricted,"Pos2: nominalization, causative, resultative, reciprocal (often realized as minor syllables)Pos3: verbalizing prefix kn- which operates on words of different word classes; a number of preposed particles such as the negator pə́Pos4: nominalization, causative"
-639,632,wayu1241,Hayu,root,,unrestricted,NA
-640,632,wayu1241,Hayu,formative,post,restricted,NA
-641,632,wayu1241,Hayu,formative,post,unrestricted,NA
+639,632,wayu1241,Hayu,root,,unrestricted,
+640,632,wayu1241,Hayu,formative,post,restricted,
+641,632,wayu1241,Hayu,formative,post,unrestricted,
 642,886,hame1242,Hamer,root,,unrestricted,Needs rechecking!!!
 643,886,hame1242,Hamer,formative,post,restricted,Needs rechecking!!!
 644,662,apat1240,Apatani,formative,prae,restricted,"post-posed semi-restricted include case enclitics, which have phrasal scope"

@@ -95,7 +95,7 @@ LID,Glottocode,Language,MarkerHasPreposedExponentForADefault,MarkerHasPreposedEx
 2330,poli1260,Polish,FALSE,,,,,,,,,,,,,
 2447,slov1268,Slovene,FALSE,,,,,,,,,,,,,
 675,kaba1278,Circassian (East),TRUE,TRUE,,TRUE,,,,,,,,,,
-3229,NA,Torlak Serbian,FALSE,TRUE,,TRUE,,,,,,,,,,
+3229,,Torlak Serbian,FALSE,TRUE,,TRUE,,,,,,,,,,
 1890,lith1251,Lithuanian,FALSE,,,,,,,,,,,,,
 549,latv1249,Latvian,FALSE,,,,,,,,,,,,,
 683,roma1327,Romanian,FALSE,TRUE,,TRUE,,,,,,,,,,

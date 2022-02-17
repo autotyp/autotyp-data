@@ -136,11 +136,11 @@ aggregate_by_position <- function(data, out_names_prefix) {
       names_glue = str_c(value_field, "For", "{Category}"),
       values_from = all_of(value_field),
       values_fn = function(.) {
-        . <- na.omit(.)
+        . <- unique(na.omit(.))
         if(length(.) == 0L) return(NA)
 
         if(is_character(.) || is.factor(.)) {
-          str_flatten(sort(.), "/")
+          if(length(.)>1) "multiple" else .
         } else
         if(is_logical(.)) {
           any(.)
@@ -329,15 +329,38 @@ for(i in seq_along(aggregates_by_position)) {
       {
         nms <- str_subset(names(aggregates_by_position[[i]]), "^Marker")
         map(nms, ~ {
+
           cat <- str_remove(., "^Marker.*For")
 
-          describe_data(
-            ptype = logical(),
+          descriptor <- describe_data(
+            ptype = if(is.logical(aggregates_by_position[[i]][[.]])) logical() else factor(),
             computed = "VerbInflectionPerLanguage.R",
             description = format_inline(
               "GrammaticalMarkers::{variable} value for {cat}"
             )
           )
+
+          # fix factors
+          if(is.factor(descriptor$ptype)) {
+            dd <- switch(var <- str_remove(., "For.*$"),
+              MarkerPosition = .metadata$Position$fields$Position,
+              MarkerPositionBinned4 = .metadata$Position$fields$PositionBinned4,
+              MarkerPositionBinned5 = .metadata$Position$fields$PositionBinned5,
+              abort("Unknown field {var}")
+            )
+
+            descriptor$levels <- add_row(dd$levels,
+              level = "multiple", description = "multiple markers at different positions"
+            )
+            descriptor <- fix_metadata_levels(descriptor, aggregates_by_position[[i]][[.]])
+
+            aggregates_by_position[[i]][[.]] <<- factor(
+              as.character(aggregates_by_position[[i]][[.]]),
+              levels = levels(descriptor$ptype)
+            )
+          }
+
+          descriptor
         }) %>% set_names(nms)
       }
     )
@@ -350,3 +373,5 @@ for(i in seq_along(aggregates_by_position)) {
     c("PerLanguageSummaries", "VerbInflection")
   )
 }
+
+names(aggregates_by_position)

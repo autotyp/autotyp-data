@@ -61,7 +61,7 @@ fields:
         NPs with some kind of marker which is governed/assigned by the head
         (see Riessler 2016, Adjective Attribution, Language Sciences Press)
     kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
-    data: integer
+    data: logical
   # -- end of NPHasGovernment
 
   NPHasOvertMarking:
@@ -97,7 +97,7 @@ fields:
         Adjective attribution with some kind of marker which is governed/assigned
         by the head (see Riessler 2016, Adjective Attribution, Language Sciences Press)
     kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
-    data: integer
+    data: logical
   # -- end of NPHasAdjGovernment
 
   NPHasAdjOvertMarking:

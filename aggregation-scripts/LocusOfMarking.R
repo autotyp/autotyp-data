@@ -159,7 +159,10 @@ MarkingPerMicrorelation <- LocusOfMarkingPerMicrorelation %>%
     names_from=RoleCatLabel,
     values_from=c(LocusOfMarking, LocusOfMarkingBinned5, LocusOfMarkingBinned6),
     names_glue = "{.value}For{RoleCatLabel}",
-    values_fn = function(x) str_flatten(unique(x), "/"),
+    values_fn = function(x) {
+      x <- unique(x)
+      if(length(x) > 1) "multiple" else x
+    },
     values_fill = NA
   )
 
@@ -175,7 +178,6 @@ LocusOfMarkingPerLanguage <- inner_join(
   arrange(LID, Language)
 
 
-
 # TODO: improve this
 descriptor <- describe_data(
   ptype = tibble(),
@@ -184,11 +186,32 @@ descriptor <- describe_data(
   fields = c(
     .metadata$Register$fields[c("LID", "Language", "Glottocode")],
     map(setdiff(names(LocusOfMarkingPerLanguage), c("LID", "Language", "Glottocode")), ~ {
-      describe_data(
+      descriptor <- describe_data(
         ptype = if(is.logical(LocusOfMarkingPerLanguage[[.]])) logical() else factor(),
         computed = "LocusOfMarking.R",
         description = "<pending>"
       )
+
+      # fix factors
+      if(is.factor(descriptor$ptype)) {
+        # variable name
+        var <- gsub("For.+$", "", .)
+
+        dd <- .metadata$LocusOfMarkingPerMicrorelation$fields$LocusOfMarking$element$fields[[var]]
+        !is_null(dd) || abort("Unknown variable {var}")
+
+        descriptor$levels <- add_row(dd$levels,
+          level = "multiple", description = "multiple different loci"
+        )
+        descriptor <- fix_metadata_levels(descriptor, LocusOfMarkingPerLanguage[[.]])
+
+        LocusOfMarkingPerLanguage[[.]] <<- factor(
+          as.character(LocusOfMarkingPerLanguage[[.]]),
+          levels = levels(descriptor$ptype)
+        )
+      }
+
+      descriptor
     }) %>% set_names(setdiff(names(LocusOfMarkingPerLanguage), c("LID", "Language", "Glottocode")))
   )
 )

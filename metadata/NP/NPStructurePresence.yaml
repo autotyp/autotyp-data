@@ -1,0 +1,838 @@
+description: >-
+  Per-language presence of NP properties
+kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+data: table
+counts:
+  n_languages: 485
+  n_variables: 114
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      In this database a language is actually a dialect or variety, in that
+      individual dialects are entered as languages. That is, each language has
+      its own ID number (the 'LID') distinct from that of the pan-dialectal
+      language:e.g. LID 87 German, 1227 Upper Austrian German, 1295 Berlin
+      German, 1310 Zürich German, 2845 Old High German, etc. (The pan-dialectal
+      language is identified as the lowest taxonomic level, the `dialect group',
+      but this information is incomplete in many areas and has not been included
+      in the current release.) The general criterion for a separate language
+      record in the database is that it has a distinct property in at least one
+      of the typological variables that we survey; this may or may not coincide
+      with sociolinguistic criteria.
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  NPStructureID:
+    description: >-
+      (Arbitrary) ID of the NP structure. Structures are distinguished from
+      each other if they differ in their morphological marking and/or any constraints
+      they have on dependents or heads (but not word order)
+    kind: manual data entry
+    data: integer
+  # -- end of NPStructureID
+
+  NPHasGenderAgreement:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHasGenderAgreement
+
+  NPHasNumberAgreement:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHasNumberAgreement
+
+  NPHasPersonAgreement:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHasPersonAgreement
+
+  NPHasReferentialAgreement:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHasReferentialAgreement
+
+  NPHasRoleAgreement:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHasRoleAgreement
+
+  NPAlienabilityConstraintIsAlienable:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPAlienabilityConstraintIsAlienable
+
+  NPAlienabilityConstraintIsInalienable:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPAlienabilityConstraintIsInalienable
+
+  NPAlienabilityConstraintIsFluid:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPAlienabilityConstraintIsFluid
+
+  NPMarkerSourceIsAgrTarget:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerSourceIsAgrTarget
+
+  NPMarkerSourceIsAgree:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerSourceIsAgree
+
+  NPMarkerSourceIsAssign:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerSourceIsAssign
+
+  NPMarkerSourceIsBothAssignAndAgree:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerSourceIsBothAssignAndAgree
+
+  NPMarkerSourceIsCaseAssignedGenderAgrees:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerSourceIsCaseAssignedGenderAgrees
+
+  NPMarkerSourceIsFree:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerSourceIsFree
+
+  NPMarkerTypeIsConstrainedToFormative:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerTypeIsConstrainedToFormative
+
+  NPMarkerTypeIsConstrainedToPoSWd:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerTypeIsConstrainedToPoSWd
+
+  NPLocusOfMarkingIsD:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPLocusOfMarkingIsD
+
+  NPLocusOfMarkingIsdonh:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPLocusOfMarkingIsdonh
+
+  NPLocusOfMarkingIsDonH:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPLocusOfMarkingIsDonH
+
+  NPLocusOfMarkingIsF:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPLocusOfMarkingIsF
+
+  NPLocusOfMarkingIsH:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPLocusOfMarkingIsH
+
+  NPLocusOfMarkingIsP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPLocusOfMarkingIsP
+
+  NPLocusOfMarkingBinned6IsD:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPLocusOfMarkingBinned6IsD
+
+  NPLocusOfMarkingBinned6IsDonH:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPLocusOfMarkingBinned6IsDonH
+
+  NPLocusOfMarkingBinned6IsF:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPLocusOfMarkingBinned6IsF
+
+  NPLocusOfMarkingBinned6IsH:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPLocusOfMarkingBinned6IsH
+
+  NPMarkerFusionIsConcatenative:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerFusionIsConcatenative
+
+  NPMarkerFusionIsSuppletive:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerFusionIsSuppletive
+
+  NPMarkerFusionIsIsolating:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerFusionIsIsolating
+
+  NPMarkerFusionIsProsodicTemplatic:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerFusionIsProsodicTemplatic
+
+  NPMarkerFusionIsTonal:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerFusionIsTonal
+
+  NPMarkerFusionIsLenition:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerFusionIsLenition
+
+  NPMarkerFusionIsConcatenativeOrSuppletive:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerFusionIsConcatenativeOrSuppletive
+
+  NPMarkerFusionBinned6IsConcatenative:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerFusionBinned6IsConcatenative
+
+  NPMarkerFusionBinned6IsStem:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerFusionBinned6IsStem
+
+  NPMarkerFusionBinned6IsIsolating:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerFusionBinned6IsIsolating
+
+  NPMarkerFusionBinned6IsTonal:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerFusionBinned6IsTonal
+
+  NPDependentIsConstrainedToHighIndexability:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToHighIndexability
+
+  NPDependentIsConstrainedToLowIndexability:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToLowIndexability
+
+  NPDependentIsConstrainedToAnimate:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToAnimate
+
+  NPDependentIsConstrainedToInanimate:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToInanimate
+
+  NPDependentIsConstrainedToHuman:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToHuman
+
+  NPDependentIsConstrainedToSpecific:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToSpecific
+
+  NPDependentIsConstrainedToNonSpecific:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToNonSpecific
+
+  NPDependentIsConstrainedToMeronyms:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToMeronyms
+
+  NPDependentIsConstrainedToNOrPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToNOrPro
+
+  NPDependentIsConstrainedToN:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToN
+
+  NPDependentIsConstrainedToPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToPro
+
+  NPDependentIsConstrainedTo12ProOrN:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedTo12ProOrN
+
+  NPDependentIsConstrainedTo3Pro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedTo3Pro
+
+  NPDependentIsConstrainedTo3sgPro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedTo3sgPro
+
+  NPDependentIsConstrainedTo2Or3Pro:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedTo2Or3Pro
+
+  NPDependentIsConstrainedToNv:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToNv
+
+  NPDependentIsConstrainedToNP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToNP
+
+  NPDependentIsConstrainedToAdj:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToAdj
+
+  NPDependentIsConstrainedToNum:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToNum
+
+  NPDependentIsConstrainedToS:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToS
+
+  NPDependentIsConstrainedToDEM:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToDEM
+
+  NPDependentIsConstrainedToNProper:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToNProper
+
+  NPDependentIsConstrainedToV:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToV
+
+  NPDependentIsConstrainedToSAP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToSAP
+
+  NPDependentIsConstrainedToNonSAP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToNonSAP
+
+  NPDependentIsConstrainedToPTCP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToPTCP
+
+  NPDependentIsConstrainedToArt:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToArt
+
+  NPDependentIsConstrainedToAdvP:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToAdvP
+
+  NPDependentIsConstrainedToAdp:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToAdp
+
+  NPDependentIsConstrainedToOrd:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToOrd
+
+  NPDependentIsConstrainedToQuant:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToQuant
+
+  NPDependentIsConstrainedToNumAbove20:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToNumAbove20
+
+  NPDependentIsConstrainedToOrd1:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPDependentIsConstrainedToOrd1
+
+  NPHeadIsConstrainedToHighIndexability:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToHighIndexability
+
+  NPHeadIsConstrainedToKinTerms:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToKinTerms
+
+  NPHeadIsConstrainedToBodyParts:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToBodyParts
+
+  NPHeadIsConstrainedToVolitional:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToVolitional
+
+  NPHeadIsConstrainedToTopological:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToTopological
+
+  NPHeadIsConstrainedToOwner:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToOwner
+
+  NPHeadIsConstrainedToMeronyms:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToMeronyms
+
+  NPHeadIsConstrainedToTracks:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToTracks
+
+  NPHeadIsConstrainedToProperty:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToProperty
+
+  NPHeadIsConstrainedToAnimals:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToAnimals
+
+  NPHeadIsConstrainedToQuantificational:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToQuantificational
+
+  NPHeadIsConstrainedToAlienable:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToAlienable
+
+  NPHeadIsConstrainedToClothingTerms:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToClothingTerms
+
+  NPHeadIsConstrainedToOrigin:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToOrigin
+
+  NPHeadIsConstrainedToUnmarkedInalienable:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToUnmarkedInalienable
+
+  NPHeadIsConstrainedToSpecific:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToSpecific
+
+  NPHeadIsConstrainedToSemantic:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToSemantic
+
+  NPHeadIsConstrainedToPlantParts:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToPlantParts
+
+  NPHeadIsConstrainedToWeapon:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToWeapon
+
+  NPHeadIsConstrainedToSubsets:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToSubsets
+
+  NPHeadIsConstrainedToParentsSiblings:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToParentsSiblings
+
+  NPHeadIsConstrainedToTransportationMeans:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToTransportationMeans
+
+  NPHeadIsConstrainedToSingular:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToSingular
+
+  NPHeadIsConstrainedToVillageGroup:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToVillageGroup
+
+  NPHeadIsConstrainedToEdible:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToEdible
+
+  NPHeadIsConstrainedToDrinkable:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToDrinkable
+
+  NPHeadIsConstrainedToClassifiers:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToClassifiers
+
+  NPHeadIsConstrainedToInalienable:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToInalienable
+
+  NPHeadIsConstrainedToRocks:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToRocks
+
+  NPHeadIsConstrainedToPlants:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToPlants
+
+  NPHeadIsConstrainedToUnspecifiedInanimate:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToUnspecifiedInanimate
+
+  NPHeadIsConstrainedToSpouse:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToSpouse
+
+  NPHeadIsConstrainedToNonSpecific:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToNonSpecific
+
+  NPHeadIsConstrainedToHuman:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToHuman
+
+  NPHeadIsConstrainedToNonHuman:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToNonHuman
+
+  NPHeadIsConstrainedToNeutral:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToNeutral
+
+  NPHeadIsConstrainedToReferentiality:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToReferentiality
+
+  NPHeadIsConstrainedToKin:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToKin
+
+  NPHeadIsConstrainedToParts:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToParts
+
+  NPHeadIsConstrainedToKinds:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToKinds
+
+  NPHeadIsConstrainedToFormal:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToFormal
+
+  NPHeadIsConstrainedToNames:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToNames
+
+  NPHeadIsConstrainedToPragmatic:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPHeadIsConstrainedToPragmatic

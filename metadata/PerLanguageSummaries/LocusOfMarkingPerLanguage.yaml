@@ -168,6 +168,14 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "h+D": >-
+        Dependent marking is dominant. Additional head marking with some verbs only or
+        under specific morphosyntactic conditions as noted.
   # -- end of LocusOfMarkingForUStim
 
   LocusOfMarkingForADefault:
@@ -175,6 +183,50 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "F": >-
+        Free or floating, including particles or similar in phrase-second position
+        (Wackernagel position), e.g. Tagalog ‘linkers’
+      "F+D": >-
+        Simultaneously (or mostly simultaneously) detached and on dependent (e.g. an
+        argument role is marked by both a Wackernagel agreement clitic and case)
+      "P": >-
+        The relation is marked by position (word or morpheme order).
+      "h+D": >-
+        Dependent marking is dominant. Additional head marking with some verbs only or
+        under specific morphosyntactic conditions as noted.
+      "H+d": >-
+        Head marking is dominant. Additional dependent marking with some NPs or under
+        specific morphosyntactic conditions as noted.
+      "d": >-
+        Dependent marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
+      "Ø": >-
+        No marking
+      "h": >-
+        Head marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
+      "h+d": >-
+        Simultaneously on head and dependent, both with restrictions.
+      "D on H": >-
+        Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal
+        agreement, where nouns and independent pronouns are case-marked. (The case itself
+        is dependent marking, but the dependent argument can be realized by agreement
+        morphology on the head. If it is, it absorbs the argument position in the clause
+        and therefore does not allow an independent NP to show up in the same clausal
+        core.)
+      "Hh+D": >-
+        Two head marks (one restricted) plus one dependent.
+      "H+F": >-
+        Head plus floating
+      "F+d": >-
+        Floating plus restricted dependent marking.
   # -- end of LocusOfMarkingForADefault
 
   LocusOfMarkingForSDefault:
@@ -182,6 +234,45 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "F": >-
+        Free or floating, including particles or similar in phrase-second position
+        (Wackernagel position), e.g. Tagalog ‘linkers’
+      "F+D": >-
+        Simultaneously (or mostly simultaneously) detached and on dependent (e.g. an
+        argument role is marked by both a Wackernagel agreement clitic and case)
+      "P": >-
+        The relation is marked by position (word or morpheme order).
+      "h+D": >-
+        Dependent marking is dominant. Additional head marking with some verbs only or
+        under specific morphosyntactic conditions as noted.
+      "H+d": >-
+        Head marking is dominant. Additional dependent marking with some NPs or under
+        specific morphosyntactic conditions as noted.
+      "d": >-
+        Dependent marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
+      "Ø": >-
+        No marking
+      "h": >-
+        Head marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
+      "h+d": >-
+        Simultaneously on head and dependent, both with restrictions.
+      "Hh+D": >-
+        Two head marks (one restricted) plus one dependent.
+      "hh+d": >-
+        Two restricted H markers and one restricted D marker.
+      "H+F": >-
+        Head plus floating
+      "F+d": >-
+        Floating plus restricted dependent marking.
   # -- end of LocusOfMarkingForSDefault
 
   LocusOfMarkingForAct:
@@ -189,6 +280,11 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
   # -- end of LocusOfMarkingForAct
 
   LocusOfMarkingForUDefault:
@@ -196,6 +292,60 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "F": >-
+        Free or floating, including particles or similar in phrase-second position
+        (Wackernagel position), e.g. Tagalog ‘linkers’
+      "F+D": >-
+        Simultaneously (or mostly simultaneously) detached and on dependent (e.g. an
+        argument role is marked by both a Wackernagel agreement clitic and case)
+      "P": >-
+        The relation is marked by position (word or morpheme order).
+      "h+D": >-
+        Dependent marking is dominant. Additional head marking with some verbs only or
+        under specific morphosyntactic conditions as noted.
+      "H+d": >-
+        Head marking is dominant. Additional dependent marking with some NPs or under
+        specific morphosyntactic conditions as noted.
+      "d": >-
+        Dependent marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
+      "Ø": >-
+        No marking
+      "h": >-
+        Head marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
+      "HH": >-
+        On head, with more than one formative or more than one category. Typical case:
+        construct state or linker on head plus head-driven agreement ; or Philippine-style
+        voice plus agreement
+      "h+d": >-
+        Simultaneously on head and dependent, both with restrictions.
+      "D on H": >-
+        Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal
+        agreement, where nouns and independent pronouns are case-marked. (The case itself
+        is dependent marking, but the dependent argument can be realized by agreement
+        morphology on the head. If it is, it absorbs the argument position in the clause
+        and therefore does not allow an independent NP to show up in the same clausal
+        core.)
+      "d on h": >-
+        Headward-migrated dependent marking, restricted in some way. Typical cases:
+        Bagirmi or standard French, where there is no case on independent pronouns
+        and nouns, so only pronominal agreement markers are case-marked. As a result,
+        arguments are differentiated only in headward-migrated dependent marking. This
+        marking realizes the dependent argument syntactically and leaves no place for an
+        independent NP to show up in the same clausal core.
+      "Hh+D": >-
+        Two head marks (one restricted) plus one dependent.
+      "f": >-
+        Floating, under limited circumstances (e.g. Yagua DOM by floating agreement with
+        definite noun)
   # -- end of LocusOfMarkingForUDefault
 
   LocusOfMarkingForSDefaultIfOther:
@@ -203,6 +353,25 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "F": >-
+        Free or floating, including particles or similar in phrase-second position
+        (Wackernagel position), e.g. Tagalog ‘linkers’
+      "H+d": >-
+        Head marking is dominant. Additional dependent marking with some NPs or under
+        specific morphosyntactic conditions as noted.
+      "Ø": >-
+        No marking
+      "HH": >-
+        On head, with more than one formative or more than one category. Typical case:
+        construct state or linker on head plus head-driven agreement ; or Philippine-style
+        voice plus agreement
   # -- end of LocusOfMarkingForSDefaultIfOther
 
   LocusOfMarkingForAExp:
@@ -210,6 +379,14 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "h+D": >-
+        Dependent marking is dominant. Additional head marking with some verbs only or
+        under specific morphosyntactic conditions as noted.
   # -- end of LocusOfMarkingForAExp
 
   LocusOfMarkingForAAnim:
@@ -217,6 +394,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
   # -- end of LocusOfMarkingForAAnim
 
   LocusOfMarkingForTDefault:
@@ -224,6 +404,31 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "h+D": >-
+        Dependent marking is dominant. Additional head marking with some verbs only or
+        under specific morphosyntactic conditions as noted.
+      "d": >-
+        Dependent marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
+      "Ø": >-
+        No marking
+      "h": >-
+        Head marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
+      "d on h": >-
+        Headward-migrated dependent marking, restricted in some way. Typical cases:
+        Bagirmi or standard French, where there is no case on independent pronouns
+        and nouns, so only pronominal agreement markers are case-marked. As a result,
+        arguments are differentiated only in headward-migrated dependent marking. This
+        marking realizes the dependent argument syntactically and leaves no place for an
+        independent NP to show up in the same clausal core.
   # -- end of LocusOfMarkingForTDefault
 
   LocusOfMarkingForBDefault:
@@ -231,6 +436,43 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "h+D": >-
+        Dependent marking is dominant. Additional head marking with some verbs only or
+        under specific morphosyntactic conditions as noted.
+      "H+d": >-
+        Head marking is dominant. Additional dependent marking with some NPs or under
+        specific morphosyntactic conditions as noted.
+      "d": >-
+        Dependent marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
+      "Ø": >-
+        No marking
+      "h": >-
+        Head marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
+      "HH": >-
+        On head, with more than one formative or more than one category. Typical case:
+        construct state or linker on head plus head-driven agreement ; or Philippine-style
+        voice plus agreement
+      "D on H": >-
+        Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal
+        agreement, where nouns and independent pronouns are case-marked. (The case itself
+        is dependent marking, but the dependent argument can be realized by agreement
+        morphology on the head. If it is, it absorbs the argument position in the clause
+        and therefore does not allow an independent NP to show up in the same clausal
+        core.)
+      "H/D": >-
+        Split, either H or D.
+      "f": >-
+        Floating, under limited circumstances (e.g. Yagua DOM by floating agreement with
+        definite noun)
   # -- end of LocusOfMarkingForBDefault
 
   LocusOfMarkingForGDefault:
@@ -238,6 +480,11 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
   # -- end of LocusOfMarkingForGDefault
 
   LocusOfMarkingForPat:
@@ -245,6 +492,11 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
   # -- end of LocusOfMarkingForPat
 
   LocusOfMarkingForUEmp:
@@ -252,6 +504,12 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "h+D": >-
+        Dependent marking is dominant. Additional head marking with some verbs only or
+        under specific morphosyntactic conditions as noted.
   # -- end of LocusOfMarkingForUEmp
 
   LocusOfMarkingForUDef:
@@ -259,6 +517,15 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+d": >-
+        Head marking is dominant. Additional dependent marking with some NPs or under
+        specific morphosyntactic conditions as noted.
+      "d": >-
+        Dependent marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
   # -- end of LocusOfMarkingForUDef
 
   LocusOfMarkingForTDef:
@@ -266,6 +533,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
   # -- end of LocusOfMarkingForTDef
 
   LocusOfMarkingForTEmp:
@@ -273,6 +543,10 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "h+D": >-
+        Dependent marking is dominant. Additional head marking with some verbs only or
+        under specific morphosyntactic conditions as noted.
   # -- end of LocusOfMarkingForTEmp
 
   LocusOfMarkingForUDefaultIfOther:
@@ -280,6 +554,41 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "F": >-
+        Free or floating, including particles or similar in phrase-second position
+        (Wackernagel position), e.g. Tagalog ‘linkers’
+      "h+D": >-
+        Dependent marking is dominant. Additional head marking with some verbs only or
+        under specific morphosyntactic conditions as noted.
+      "H+d": >-
+        Head marking is dominant. Additional dependent marking with some NPs or under
+        specific morphosyntactic conditions as noted.
+      "Ø": >-
+        No marking
+      "D on H": >-
+        Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal
+        agreement, where nouns and independent pronouns are case-marked. (The case itself
+        is dependent marking, but the dependent argument can be realized by agreement
+        morphology on the head. If it is, it absorbs the argument position in the clause
+        and therefore does not allow an independent NP to show up in the same clausal
+        core.)
+      "d on h": >-
+        Headward-migrated dependent marking, restricted in some way. Typical cases:
+        Bagirmi or standard French, where there is no case on independent pronouns
+        and nouns, so only pronominal agreement markers are case-marked. As a result,
+        arguments are differentiated only in headward-migrated dependent marking. This
+        marking realizes the dependent argument syntactically and leaves no place for an
+        independent NP to show up in the same clausal core.
+      "H+d on h": >-
+        Head marking (construct state type, i.e. registers a dependent but does not index
+        its properties) plus headward-migrated dependent-marked pronouns
   # -- end of LocusOfMarkingForUDefaultIfOther
 
   LocusOfMarkingForBRec:
@@ -287,6 +596,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
   # -- end of LocusOfMarkingForBRec
 
   LocusOfMarkingForBBen:
@@ -294,6 +606,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
   # -- end of LocusOfMarkingForBBen
 
   LocusOfMarkingForLocative:
@@ -301,6 +616,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
   # -- end of LocusOfMarkingForLocative
 
   LocusOfMarkingForIDefault:
@@ -308,6 +626,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
   # -- end of LocusOfMarkingForIDefault
 
   LocusOfMarkingForAPoss:
@@ -315,6 +636,12 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "h+D": >-
+        Dependent marking is dominant. Additional head marking with some verbs only or
+        under specific morphosyntactic conditions as noted.
   # -- end of LocusOfMarkingForAPoss
 
   LocusOfMarkingForURef:
@@ -322,6 +649,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
   # -- end of LocusOfMarkingForURef
 
   LocusOfMarkingForPOSSDefault:
@@ -329,6 +659,69 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "F": >-
+        Free or floating, including particles or similar in phrase-second position
+        (Wackernagel position), e.g. Tagalog ‘linkers’
+      "h+D": >-
+        Dependent marking is dominant. Additional head marking with some verbs only or
+        under specific morphosyntactic conditions as noted.
+      "H+d": >-
+        Head marking is dominant. Additional dependent marking with some NPs or under
+        specific morphosyntactic conditions as noted.
+      "d": >-
+        Dependent marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
+      "Ø": >-
+        No marking
+      "DD": >-
+        On dependent, with more than one formative or more than one category. Typical
+        instance: genitive (or possessive form of pronoun) plus head-driven agreement
+        (dependent agreeing with head).
+      "Dd": >-
+        Same as DD but with the additional formative or category restricted to some
+        possessors only (e.g. pronouns only: German; contrast Hindi, where all possessors
+        show head-driven agreement)
+      "h": >-
+        Head marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
+      "HH": >-
+        On head, with more than one formative or more than one category. Typical case:
+        construct state or linker on head plus head-driven agreement ; or Philippine-style
+        voice plus agreement
+      "hh": >-
+        On head, with more than one formative or more than one category, but both
+        formatives have restricted distribution.
+      "D on H": >-
+        Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal
+        agreement, where nouns and independent pronouns are case-marked. (The case itself
+        is dependent marking, but the dependent argument can be realized by agreement
+        morphology on the head. If it is, it absorbs the argument position in the clause
+        and therefore does not allow an independent NP to show up in the same clausal
+        core.)
+      "d on h": >-
+        Headward-migrated dependent marking, restricted in some way. Typical cases:
+        Bagirmi or standard French, where there is no case on independent pronouns
+        and nouns, so only pronominal agreement markers are case-marked. As a result,
+        arguments are differentiated only in headward-migrated dependent marking. This
+        marking realizes the dependent argument syntactically and leaves no place for an
+        independent NP to show up in the same clausal core.
+      "H/D/DH": >-
+        Split, e.g. inalienables take H or D+H, alienables take only D.
+      "H/D": >-
+        Split, either H or D.
+      "f": >-
+        Floating, under limited circumstances (e.g. Yagua DOM by floating agreement with
+        definite noun)
+      "H/F": >-
+        Split, head or floating. E.g. Halkomelem (Galloway 1984:179): possessive 1sg is F,
+        3sg is H.
   # -- end of LocusOfMarkingForPOSSDefault
 
   LocusOfMarkingForATTRDefault:
@@ -336,6 +729,27 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "F": >-
+        Free or floating, including particles or similar in phrase-second position
+        (Wackernagel position), e.g. Tagalog ‘linkers’
+      "d": >-
+        Dependent marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
+      "Ø": >-
+        No marking
+      "DD": >-
+        On dependent, with more than one formative or more than one category. Typical
+        instance: genitive (or possessive form of pronoun) plus head-driven agreement
+        (dependent agreeing with head).
+      "H’": >-
+        NP-internal head in a modifier-headed agreement pattern
   # -- end of LocusOfMarkingForATTRDefault
 
   LocusOfMarkingForPOSSDefaultIfOther:
@@ -343,6 +757,58 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "F": >-
+        Free or floating, including particles or similar in phrase-second position
+        (Wackernagel position), e.g. Tagalog ‘linkers’
+      "F+D": >-
+        Simultaneously (or mostly simultaneously) detached and on dependent (e.g. an
+        argument role is marked by both a Wackernagel agreement clitic and case)
+      "P": >-
+        The relation is marked by position (word or morpheme order).
+      "Ø": >-
+        No marking
+      "DD": >-
+        On dependent, with more than one formative or more than one category. Typical
+        instance: genitive (or possessive form of pronoun) plus head-driven agreement
+        (dependent agreeing with head).
+      "h": >-
+        Head marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
+      "D on H": >-
+        Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal
+        agreement, where nouns and independent pronouns are case-marked. (The case itself
+        is dependent marking, but the dependent argument can be realized by agreement
+        morphology on the head. If it is, it absorbs the argument position in the clause
+        and therefore does not allow an independent NP to show up in the same clausal
+        core.)
+      "d on h": >-
+        Headward-migrated dependent marking, restricted in some way. Typical cases:
+        Bagirmi or standard French, where there is no case on independent pronouns
+        and nouns, so only pronominal agreement markers are case-marked. As a result,
+        arguments are differentiated only in headward-migrated dependent marking. This
+        marking realizes the dependent argument syntactically and leaves no place for an
+        independent NP to show up in the same clausal core.
+      "h+d on h": >-
+        Head marking (construct state type, i.e. registers a dependent but does not index
+        its properties) plus headward-migrated dependent-marked pronouns
+      "H+d on h": >-
+        Head marking (construct state type, i.e. registers a dependent but does not index
+        its properties) plus headward-migrated dependent-marked pronouns
+      "H/D": >-
+        Split, either H or D.
+      "H+": >-
+        Possessor promoted to verb argument (external possession), and indexed or
+        registered on verb. Example: Registered in Nez Perce (Rude, U. Ore. diss.
+        1985:199ff.).
+      "multiple": >-
+        multiple different loci
   # -- end of LocusOfMarkingForPOSSDefaultIfOther
 
   LocusOfMarkingForPOSSDefaultIfN:
@@ -350,6 +816,16 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "F": >-
+        Free or floating, including particles or similar in phrase-second position
+        (Wackernagel position), e.g. Tagalog ‘linkers’
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingForPOSSDefaultIfN
 
   LocusOfMarkingForPOSSDefaultIfNAlien:
@@ -357,6 +833,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "d": >-
+        Dependent marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
+      "h+d on h": >-
+        Head marking (construct state type, i.e. registers a dependent but does not index
+        its properties) plus headward-migrated dependent-marked pronouns
   # -- end of LocusOfMarkingForPOSSDefaultIfNAlien
 
   LocusOfMarkingForPOSSDefaultIfPro:
@@ -364,6 +851,34 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "F": >-
+        Free or floating, including particles or similar in phrase-second position
+        (Wackernagel position), e.g. Tagalog ‘linkers’
+      "F+D": >-
+        Simultaneously (or mostly simultaneously) detached and on dependent (e.g. an
+        argument role is marked by both a Wackernagel agreement clitic and case)
+      "Ø": >-
+        No marking
+      "D on H": >-
+        Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal
+        agreement, where nouns and independent pronouns are case-marked. (The case itself
+        is dependent marking, but the dependent argument can be realized by agreement
+        morphology on the head. If it is, it absorbs the argument position in the clause
+        and therefore does not allow an independent NP to show up in the same clausal
+        core.)
+      "H/D/DH": >-
+        Split, e.g. inalienables take H or D+H, alienables take only D.
+      "H/D": >-
+        Split, either H or D.
+      "multiple": >-
+        multiple different loci
   # -- end of LocusOfMarkingForPOSSDefaultIfPro
 
   LocusOfMarkingForATTRDefaultIfOther:
@@ -371,6 +886,16 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "d": >-
+        Dependent marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
+      "Ø": >-
+        No marking
+      "H’": >-
+        NP-internal head in a modifier-headed agreement pattern
   # -- end of LocusOfMarkingForATTRDefaultIfOther
 
   LocusOfMarkingForSDefaultIfPro:
@@ -378,6 +903,15 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingForSDefaultIfPro
 
   LocusOfMarkingForADefaultIfPro:
@@ -385,6 +919,13 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
   # -- end of LocusOfMarkingForADefaultIfPro
 
   LocusOfMarkingForUDefaultIfPro:
@@ -392,6 +933,29 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "Ø": >-
+        No marking
+      "D on H": >-
+        Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal
+        agreement, where nouns and independent pronouns are case-marked. (The case itself
+        is dependent marking, but the dependent argument can be realized by agreement
+        morphology on the head. If it is, it absorbs the argument position in the clause
+        and therefore does not allow an independent NP to show up in the same clausal
+        core.)
+      "d on h": >-
+        Headward-migrated dependent marking, restricted in some way. Typical cases:
+        Bagirmi or standard French, where there is no case on independent pronouns
+        and nouns, so only pronominal agreement markers are case-marked. As a result,
+        arguments are differentiated only in headward-migrated dependent marking. This
+        marking realizes the dependent argument syntactically and leaves no place for an
+        independent NP to show up in the same clausal core.
   # -- end of LocusOfMarkingForUDefaultIfPro
 
   LocusOfMarkingForPOSSDefaultIfNInal:
@@ -399,6 +963,20 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "Ø": >-
+        No marking
+      "hh": >-
+        On head, with more than one formative or more than one category, but both
+        formatives have restricted distribution.
+      "multiple": >-
+        multiple different loci
   # -- end of LocusOfMarkingForPOSSDefaultIfNInal
 
   LocusOfMarkingForSDefaultIfNOrPro:
@@ -406,6 +984,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingForSDefaultIfNOrPro
 
   LocusOfMarkingForADefaultIfNOrPro:
@@ -413,6 +994,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingForADefaultIfNOrPro
 
   LocusOfMarkingForPOSSDefaultIfNOrPro:
@@ -420,6 +1004,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
   # -- end of LocusOfMarkingForPOSSDefaultIfNOrPro
 
   LocusOfMarkingForBDefaultIfOther:
@@ -427,6 +1014,25 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "Ø": >-
+        No marking
+      "D on H": >-
+        Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal
+        agreement, where nouns and independent pronouns are case-marked. (The case itself
+        is dependent marking, but the dependent argument can be realized by agreement
+        morphology on the head. If it is, it absorbs the argument position in the clause
+        and therefore does not allow an independent NP to show up in the same clausal
+        core.)
+      "h+d on h": >-
+        Head marking (construct state type, i.e. registers a dependent but does not index
+        its properties) plus headward-migrated dependent-marked pronouns
+      "multiple": >-
+        multiple different loci
   # -- end of LocusOfMarkingForBDefaultIfOther
 
   LocusOfMarkingForTDefaultIfOther:
@@ -434,6 +1040,14 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D on H": >-
+        Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal
+        agreement, where nouns and independent pronouns are case-marked. (The case itself
+        is dependent marking, but the dependent argument can be realized by agreement
+        morphology on the head. If it is, it absorbs the argument position in the clause
+        and therefore does not allow an independent NP to show up in the same clausal
+        core.)
   # -- end of LocusOfMarkingForTDefaultIfOther
 
   LocusOfMarkingForADefaultIfOther:
@@ -441,6 +1055,25 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "F": >-
+        Free or floating, including particles or similar in phrase-second position
+        (Wackernagel position), e.g. Tagalog ‘linkers’
+      "H+d": >-
+        Head marking is dominant. Additional dependent marking with some NPs or under
+        specific morphosyntactic conditions as noted.
+      "Ø": >-
+        No marking
+      "HH": >-
+        On head, with more than one formative or more than one category. Typical case:
+        construct state or linker on head plus head-driven agreement ; or Philippine-style
+        voice plus agreement
   # -- end of LocusOfMarkingForADefaultIfOther
 
   LocusOfMarkingForBDefaultIfPro:
@@ -448,6 +1081,25 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "H+d": >-
+        Head marking is dominant. Additional dependent marking with some NPs or under
+        specific morphosyntactic conditions as noted.
+      "D on H": >-
+        Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal
+        agreement, where nouns and independent pronouns are case-marked. (The case itself
+        is dependent marking, but the dependent argument can be realized by agreement
+        morphology on the head. If it is, it absorbs the argument position in the clause
+        and therefore does not allow an independent NP to show up in the same clausal
+        core.)
+      "F+d": >-
+        Floating plus restricted dependent marking.
   # -- end of LocusOfMarkingForBDefaultIfPro
 
   LocusOfMarkingForUDefaultIfSAP:
@@ -455,6 +1107,12 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
+      "H+d": >-
+        Head marking is dominant. Additional dependent marking with some NPs or under
+        specific morphosyntactic conditions as noted.
   # -- end of LocusOfMarkingForUDefaultIfSAP
 
   LocusOfMarkingForPOSSDefaultIf1PERS:
@@ -462,6 +1120,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingForPOSSDefaultIf1PERS
 
   LocusOfMarkingForSDefaultIfSAP:
@@ -469,6 +1130,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
   # -- end of LocusOfMarkingForSDefaultIfSAP
 
   LocusOfMarkingForADefaultIfSAP:
@@ -476,6 +1140,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
   # -- end of LocusOfMarkingForADefaultIfSAP
 
   LocusOfMarkingForUDefaultIf1PERS:
@@ -483,6 +1150,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
   # -- end of LocusOfMarkingForUDefaultIf1PERS
 
   LocusOfMarkingForPOSSDefaultIfNKin:
@@ -490,6 +1160,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        On head.
   # -- end of LocusOfMarkingForPOSSDefaultIfNKin
 
   LocusOfMarkingForUDefaultIfN:
@@ -497,6 +1170,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingForUDefaultIfN
 
   LocusOfMarkingForUDefaultIfNAnim:
@@ -504,6 +1180,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
   # -- end of LocusOfMarkingForUDefaultIfNAnim
 
   LocusOfMarkingForADefaultIfN:
@@ -511,6 +1190,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
   # -- end of LocusOfMarkingForADefaultIfN
 
   LocusOfMarkingBinned5ForUStim:
@@ -518,6 +1200,11 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned5ForUStim
 
   LocusOfMarkingBinned5ForADefault:
@@ -525,6 +1212,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "FloatingorClitic": >-
+        Floating marker or clitic
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned5ForADefault
 
   LocusOfMarkingBinned5ForSDefault:
@@ -532,6 +1230,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "FloatingorClitic": >-
+        Floating marker or clitic
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned5ForSDefault
 
   LocusOfMarkingBinned5ForAct:
@@ -539,6 +1248,11 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned5ForAct
 
   LocusOfMarkingBinned5ForUDefault:
@@ -546,6 +1260,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "FloatingorClitic": >-
+        Floating marker or clitic
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned5ForUDefault
 
   LocusOfMarkingBinned5ForSDefaultIfOther:
@@ -553,6 +1278,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "FloatingorClitic": >-
+        Floating marker or clitic
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned5ForSDefaultIfOther
 
   LocusOfMarkingBinned5ForAExp:
@@ -560,6 +1296,11 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned5ForAExp
 
   LocusOfMarkingBinned5ForAAnim:
@@ -567,6 +1308,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
   # -- end of LocusOfMarkingBinned5ForAAnim
 
   LocusOfMarkingBinned5ForTDefault:
@@ -574,6 +1318,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "FloatingorClitic": >-
+        Floating marker or clitic
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned5ForTDefault
 
   LocusOfMarkingBinned5ForBDefault:
@@ -581,6 +1336,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "FloatingorClitic": >-
+        Floating marker or clitic
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned5ForBDefault
 
   LocusOfMarkingBinned5ForGDefault:
@@ -588,6 +1354,11 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned5ForGDefault
 
   LocusOfMarkingBinned5ForPat:
@@ -595,6 +1366,11 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned5ForPat
 
   LocusOfMarkingBinned5ForUEmp:
@@ -602,6 +1378,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned5ForUEmp
 
   LocusOfMarkingBinned5ForUDef:
@@ -609,6 +1388,11 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned5ForUDef
 
   LocusOfMarkingBinned5ForTDef:
@@ -616,6 +1400,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned5ForTDef
 
   LocusOfMarkingBinned5ForTEmp:
@@ -623,6 +1410,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned5ForTEmp
 
   LocusOfMarkingBinned5ForUDefaultIfOther:
@@ -630,6 +1420,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "FloatingorClitic": >-
+        Floating marker or clitic
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned5ForUDefaultIfOther
 
   LocusOfMarkingBinned5ForBRec:
@@ -637,6 +1438,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
   # -- end of LocusOfMarkingBinned5ForBRec
 
   LocusOfMarkingBinned5ForBBen:
@@ -644,6 +1448,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
   # -- end of LocusOfMarkingBinned5ForBBen
 
   LocusOfMarkingBinned5ForLocative:
@@ -651,6 +1458,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
   # -- end of LocusOfMarkingBinned5ForLocative
 
   LocusOfMarkingBinned5ForIDefault:
@@ -658,6 +1468,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
   # -- end of LocusOfMarkingBinned5ForIDefault
 
   LocusOfMarkingBinned5ForAPoss:
@@ -665,6 +1478,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned5ForAPoss
 
   LocusOfMarkingBinned5ForURef:
@@ -672,6 +1488,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
   # -- end of LocusOfMarkingBinned5ForURef
 
   LocusOfMarkingBinned5ForPOSSDefault:
@@ -679,6 +1498,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "FloatingorClitic": >-
+        Floating marker or clitic
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned5ForPOSSDefault
 
   LocusOfMarkingBinned5ForATTRDefault:
@@ -686,6 +1516,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "FloatingorClitic": >-
+        Floating marker or clitic
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned5ForATTRDefault
 
   LocusOfMarkingBinned5ForPOSSDefaultIfOther:
@@ -693,6 +1534,19 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "FloatingorClitic": >-
+        Floating marker or clitic
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
+      "multiple": >-
+        multiple different loci
   # -- end of LocusOfMarkingBinned5ForPOSSDefaultIfOther
 
   LocusOfMarkingBinned5ForPOSSDefaultIfN:
@@ -700,6 +1554,15 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
+      "FloatingorClitic": >-
+        Floating marker or clitic
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned5ForPOSSDefaultIfN
 
   LocusOfMarkingBinned5ForPOSSDefaultIfNAlien:
@@ -707,6 +1570,13 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
+      "FloatingorClitic": >-
+        Floating marker or clitic
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned5ForPOSSDefaultIfNAlien
 
   LocusOfMarkingBinned5ForPOSSDefaultIfPro:
@@ -714,6 +1584,19 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "FloatingorClitic": >-
+        Floating marker or clitic
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
+      "multiple": >-
+        multiple different loci
   # -- end of LocusOfMarkingBinned5ForPOSSDefaultIfPro
 
   LocusOfMarkingBinned5ForATTRDefaultIfOther:
@@ -721,6 +1604,13 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned5ForATTRDefaultIfOther
 
   LocusOfMarkingBinned5ForSDefaultIfPro:
@@ -728,6 +1618,15 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned5ForSDefaultIfPro
 
   LocusOfMarkingBinned5ForADefaultIfPro:
@@ -735,6 +1634,13 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned5ForADefaultIfPro
 
   LocusOfMarkingBinned5ForUDefaultIfPro:
@@ -742,6 +1648,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "FloatingorClitic": >-
+        Floating marker or clitic
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned5ForUDefaultIfPro
 
   LocusOfMarkingBinned5ForPOSSDefaultIfNInal:
@@ -749,6 +1666,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
+      "multiple": >-
+        multiple different loci
   # -- end of LocusOfMarkingBinned5ForPOSSDefaultIfNInal
 
   LocusOfMarkingBinned5ForSDefaultIfNOrPro:
@@ -756,6 +1684,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned5ForSDefaultIfNOrPro
 
   LocusOfMarkingBinned5ForADefaultIfNOrPro:
@@ -763,6 +1694,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned5ForADefaultIfNOrPro
 
   LocusOfMarkingBinned5ForPOSSDefaultIfNOrPro:
@@ -770,6 +1704,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned5ForPOSSDefaultIfNOrPro
 
   LocusOfMarkingBinned5ForBDefaultIfOther:
@@ -777,6 +1714,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
+      "FloatingorClitic": >-
+        Floating marker or clitic
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
+      "multiple": >-
+        multiple different loci
   # -- end of LocusOfMarkingBinned5ForBDefaultIfOther
 
   LocusOfMarkingBinned5ForTDefaultIfOther:
@@ -784,6 +1732,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "FloatingorClitic": >-
+        Floating marker or clitic
   # -- end of LocusOfMarkingBinned5ForTDefaultIfOther
 
   LocusOfMarkingBinned5ForADefaultIfOther:
@@ -791,6 +1742,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "FloatingorClitic": >-
+        Floating marker or clitic
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned5ForADefaultIfOther
 
   LocusOfMarkingBinned5ForBDefaultIfPro:
@@ -798,6 +1760,15 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "FloatingorClitic": >-
+        Floating marker or clitic
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned5ForBDefaultIfPro
 
   LocusOfMarkingBinned5ForUDefaultIfSAP:
@@ -805,6 +1776,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned5ForUDefaultIfSAP
 
   LocusOfMarkingBinned5ForPOSSDefaultIf1PERS:
@@ -812,6 +1786,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned5ForPOSSDefaultIf1PERS
 
   LocusOfMarkingBinned5ForSDefaultIfSAP:
@@ -819,6 +1796,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned5ForSDefaultIfSAP
 
   LocusOfMarkingBinned5ForADefaultIfSAP:
@@ -826,6 +1806,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned5ForADefaultIfSAP
 
   LocusOfMarkingBinned5ForUDefaultIf1PERS:
@@ -833,6 +1816,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
   # -- end of LocusOfMarkingBinned5ForUDefaultIf1PERS
 
   LocusOfMarkingBinned5ForPOSSDefaultIfNKin:
@@ -840,6 +1826,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned5ForPOSSDefaultIfNKin
 
   LocusOfMarkingBinned5ForUDefaultIfN:
@@ -847,6 +1836,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned5ForUDefaultIfN
 
   LocusOfMarkingBinned5ForUDefaultIfNAnim:
@@ -854,6 +1846,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned5ForUDefaultIfNAnim
 
   LocusOfMarkingBinned5ForADefaultIfN:
@@ -861,6 +1856,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned5ForADefaultIfN
 
   LocusOfMarkingBinned6ForUStim:
@@ -868,6 +1866,11 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned6ForUStim
 
   LocusOfMarkingBinned6ForADefault:
@@ -875,6 +1878,19 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "D on H": >-
+        Headward-migrated dependent marking
+      "F": >-
+        Floating marker
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned6ForADefault
 
   LocusOfMarkingBinned6ForSDefault:
@@ -882,6 +1898,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "F": >-
+        Floating marker
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned6ForSDefault
 
   LocusOfMarkingBinned6ForAct:
@@ -889,6 +1916,11 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned6ForAct
 
   LocusOfMarkingBinned6ForUDefault:
@@ -896,6 +1928,19 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "D on H": >-
+        Headward-migrated dependent marking
+      "F": >-
+        Floating marker
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned6ForUDefault
 
   LocusOfMarkingBinned6ForSDefaultIfOther:
@@ -903,6 +1948,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "F": >-
+        Floating marker
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned6ForSDefaultIfOther
 
   LocusOfMarkingBinned6ForAExp:
@@ -910,6 +1966,11 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned6ForAExp
 
   LocusOfMarkingBinned6ForAAnim:
@@ -917,6 +1978,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
   # -- end of LocusOfMarkingBinned6ForAAnim
 
   LocusOfMarkingBinned6ForTDefault:
@@ -924,6 +1988,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "D on H": >-
+        Headward-migrated dependent marking
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned6ForTDefault
 
   LocusOfMarkingBinned6ForBDefault:
@@ -931,6 +2006,19 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "D on H": >-
+        Headward-migrated dependent marking
+      "F": >-
+        Floating marker
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned6ForBDefault
 
   LocusOfMarkingBinned6ForGDefault:
@@ -938,6 +2026,11 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned6ForGDefault
 
   LocusOfMarkingBinned6ForPat:
@@ -945,6 +2038,11 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned6ForPat
 
   LocusOfMarkingBinned6ForUEmp:
@@ -952,6 +2050,11 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned6ForUEmp
 
   LocusOfMarkingBinned6ForUDef:
@@ -959,6 +2062,11 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned6ForUDef
 
   LocusOfMarkingBinned6ForTDef:
@@ -966,6 +2074,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned6ForTDef
 
   LocusOfMarkingBinned6ForTEmp:
@@ -973,6 +2084,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
   # -- end of LocusOfMarkingBinned6ForTEmp
 
   LocusOfMarkingBinned6ForUDefaultIfOther:
@@ -980,6 +2094,19 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "D on H": >-
+        Headward-migrated dependent marking
+      "F": >-
+        Floating marker
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned6ForUDefaultIfOther
 
   LocusOfMarkingBinned6ForBRec:
@@ -987,6 +2114,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
   # -- end of LocusOfMarkingBinned6ForBRec
 
   LocusOfMarkingBinned6ForBBen:
@@ -994,6 +2124,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
   # -- end of LocusOfMarkingBinned6ForBBen
 
   LocusOfMarkingBinned6ForLocative:
@@ -1001,6 +2134,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
   # -- end of LocusOfMarkingBinned6ForLocative
 
   LocusOfMarkingBinned6ForIDefault:
@@ -1008,6 +2144,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
   # -- end of LocusOfMarkingBinned6ForIDefault
 
   LocusOfMarkingBinned6ForAPoss:
@@ -1015,6 +2154,11 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned6ForAPoss
 
   LocusOfMarkingBinned6ForURef:
@@ -1022,6 +2166,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
   # -- end of LocusOfMarkingBinned6ForURef
 
   LocusOfMarkingBinned6ForPOSSDefault:
@@ -1029,6 +2176,19 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "D on H": >-
+        Headward-migrated dependent marking
+      "F": >-
+        Floating marker
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned6ForPOSSDefault
 
   LocusOfMarkingBinned6ForATTRDefault:
@@ -1036,6 +2196,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "F": >-
+        Floating marker
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned6ForATTRDefault
 
   LocusOfMarkingBinned6ForPOSSDefaultIfOther:
@@ -1043,6 +2214,21 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "D on H": >-
+        Headward-migrated dependent marking
+      "F": >-
+        Floating marker
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
+      "multiple": >-
+        multiple different loci
   # -- end of LocusOfMarkingBinned6ForPOSSDefaultIfOther
 
   LocusOfMarkingBinned6ForPOSSDefaultIfN:
@@ -1050,6 +2236,15 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
+      "F": >-
+        Floating marker
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned6ForPOSSDefaultIfN
 
   LocusOfMarkingBinned6ForPOSSDefaultIfNAlien:
@@ -1057,6 +2252,13 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
+      "D on H": >-
+        Headward-migrated dependent marking
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned6ForPOSSDefaultIfNAlien
 
   LocusOfMarkingBinned6ForPOSSDefaultIfPro:
@@ -1064,6 +2266,21 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "D on H": >-
+        Headward-migrated dependent marking
+      "F": >-
+        Floating marker
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
+      "multiple": >-
+        multiple different loci
   # -- end of LocusOfMarkingBinned6ForPOSSDefaultIfPro
 
   LocusOfMarkingBinned6ForATTRDefaultIfOther:
@@ -1071,6 +2288,13 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned6ForATTRDefaultIfOther
 
   LocusOfMarkingBinned6ForSDefaultIfPro:
@@ -1078,6 +2302,15 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned6ForSDefaultIfPro
 
   LocusOfMarkingBinned6ForADefaultIfPro:
@@ -1085,6 +2318,13 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned6ForADefaultIfPro
 
   LocusOfMarkingBinned6ForUDefaultIfPro:
@@ -1092,6 +2332,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "D on H": >-
+        Headward-migrated dependent marking
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned6ForUDefaultIfPro
 
   LocusOfMarkingBinned6ForPOSSDefaultIfNInal:
@@ -1099,6 +2350,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
+      "multiple": >-
+        multiple different loci
   # -- end of LocusOfMarkingBinned6ForPOSSDefaultIfNInal
 
   LocusOfMarkingBinned6ForSDefaultIfNOrPro:
@@ -1106,6 +2368,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned6ForSDefaultIfNOrPro
 
   LocusOfMarkingBinned6ForADefaultIfNOrPro:
@@ -1113,6 +2378,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned6ForADefaultIfNOrPro
 
   LocusOfMarkingBinned6ForPOSSDefaultIfNOrPro:
@@ -1120,6 +2388,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned6ForPOSSDefaultIfNOrPro
 
   LocusOfMarkingBinned6ForBDefaultIfOther:
@@ -1127,6 +2398,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
+      "D on H": >-
+        Headward-migrated dependent marking
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
+      "multiple": >-
+        multiple different loci
   # -- end of LocusOfMarkingBinned6ForBDefaultIfOther
 
   LocusOfMarkingBinned6ForTDefaultIfOther:
@@ -1134,6 +2416,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D on H": >-
+        Headward-migrated dependent marking
   # -- end of LocusOfMarkingBinned6ForTDefaultIfOther
 
   LocusOfMarkingBinned6ForADefaultIfOther:
@@ -1141,6 +2426,17 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "F": >-
+        Floating marker
+      "H": >-
+        Marking on head
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned6ForADefaultIfOther
 
   LocusOfMarkingBinned6ForBDefaultIfPro:
@@ -1148,6 +2444,15 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "D": >-
+        Marking on dependent
+      "D on H": >-
+        Headward-migrated dependent marking
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned6ForBDefaultIfPro
 
   LocusOfMarkingBinned6ForUDefaultIfSAP:
@@ -1155,6 +2460,11 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned6ForUDefaultIfSAP
 
   LocusOfMarkingBinned6ForPOSSDefaultIf1PERS:
@@ -1162,6 +2472,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned6ForPOSSDefaultIf1PERS
 
   LocusOfMarkingBinned6ForSDefaultIfSAP:
@@ -1169,6 +2482,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned6ForSDefaultIfSAP
 
   LocusOfMarkingBinned6ForADefaultIfSAP:
@@ -1176,6 +2492,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned6ForADefaultIfSAP
 
   LocusOfMarkingBinned6ForUDefaultIf1PERS:
@@ -1183,6 +2502,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "2": >-
+        Simultaneously markign on head and the dependent
   # -- end of LocusOfMarkingBinned6ForUDefaultIf1PERS
 
   LocusOfMarkingBinned6ForPOSSDefaultIfNKin:
@@ -1190,6 +2512,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "H": >-
+        Marking on head
   # -- end of LocusOfMarkingBinned6ForPOSSDefaultIfNKin
 
   LocusOfMarkingBinned6ForUDefaultIfN:
@@ -1197,6 +2522,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "Ø": >-
+        No marking
   # -- end of LocusOfMarkingBinned6ForUDefaultIfN
 
   LocusOfMarkingBinned6ForUDefaultIfNAnim:
@@ -1204,6 +2532,9 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned6ForUDefaultIfNAnim
 
   LocusOfMarkingBinned6ForADefaultIfN:
@@ -1211,4 +2542,7 @@ fields:
       <pending>
     kind: computed data (aggregation-scripts/LocusOfMarking.R)
     data: value-list
+    values: 
+      "D": >-
+        Marking on dependent
   # -- end of LocusOfMarkingBinned6ForADefaultIfN

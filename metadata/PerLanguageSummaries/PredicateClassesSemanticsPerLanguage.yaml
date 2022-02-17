@@ -3,7 +3,7 @@ description: >-
 kind: computed data (aggregation-scripts/PredicateClass.R)
 data: table
 counts:
-  n_languages: 248
+  n_languages: 250
   n_variables: 69
 fields: 
   LID:

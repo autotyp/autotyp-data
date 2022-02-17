@@ -63,6 +63,16 @@ fields:
       ed. T. Shopen, Cambridge: Cambridge University Press), binned into four broad types
     kind: manual data entry
     data: value-list
+    values: 
+      "initial": >-
+        Inert and at the beginning of its domain
+      "final": >-
+        Inert and at the end of its domain
+      "on head": >-
+        Inert and positioned on the head of its domain
+      "spreading": >-
+        See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology
+        and Syntactic Description (CUP 2007)
   # -- end of PositionalBehaviorBinned4
 
   PositionalBehaviorIsSpreading:

@@ -393,22 +393,22 @@ descriptor <- describe_data(
       "
     ),
     HasAnyPrefixes = describe_data(
-      ptype = integer(),
+      ptype = logical(),
       computed = "MorphologyPerLanguage.R",
       description = "Are prefixes (restricted preposed formatives) present in the language"
     ),
     HasAnySuffixes = describe_data(
-      ptype = integer(),
+      ptype = logical(),
       computed = "MorphologyPerLanguage.R",
       description = "Are suffixes (restricted postposed formatives) present in the language"
     ),
     HasAnyInfixes = describe_data(
-      ptype = integer(),
+      ptype = logical(),
       computed = "MorphologyPerLanguage.R",
       description = "Are infixes (restricted interposed formatives) present in the language"
     ),
     HasAnyProclitics = describe_data(
-      ptype = integer(),
+      ptype = logical(),
       computed = "MorphologyPerLanguage.R",
       description = "
         Are proclitics (unrestricted or semirestricted preposed formatives) present
@@ -416,7 +416,7 @@ descriptor <- describe_data(
       "
     ),
     HasAnyEnclitics = describe_data(
-      ptype = integer(),
+      ptype = logical(),
       computed = "MorphologyPerLanguage.R",
       description = "
         Are enclitics (unrestricted or semirestricted postposed formatives) present
@@ -424,7 +424,7 @@ descriptor <- describe_data(
       "
     ),
     HasAnyEndoclitics = describe_data(
-      ptype = integer(),
+      ptype = logical(),
       computed = "MorphologyPerLanguage.R",
       description = "
         Are endoclitics (unrestricted or semirestricted interposed formatives) present
@@ -432,17 +432,17 @@ descriptor <- describe_data(
       "
     ),
     HasAnyPreposedFormatives = describe_data(
-      ptype = integer(),
+      ptype = logical(),
       computed = "MorphologyPerLanguage.R",
       description = "Are any preposed formatives present in the language"
     ),
     HasAnyPostposedFormatives = describe_data(
-      ptype = integer(),
+      ptype = logical(),
       computed = "MorphologyPerLanguage.R",
       description = "Are any postposed formatives present in the language"
     ),
     HasAnyInterposedFormatives = describe_data(
-      ptype = integer(),
+      ptype = logical(),
       computed = "MorphologyPerLanguage.R",
       description = "Are any interposed formatives present in the language"
     ),

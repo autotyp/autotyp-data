@@ -8,7 +8,7 @@ description: >-
 kind: computed data (aggregation-scripts/Alignment.R)
 data: table
 counts:
-  n_languages: 671
+  n_languages: 682
   n_variables: 13
 fields: 
   LID:
@@ -905,6 +905,7 @@ fields:
       the topic position in the language with LID 3024.
     kind: manual data entry
     data: value-list
+    values: []
   # -- end of SyntacticDomainCondition
 
   PolarityCondition:

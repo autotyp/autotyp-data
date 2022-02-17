@@ -41,96 +41,158 @@ fields:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned4 value for ADefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "in/simul": >-
+        Marker occurs inside its phonological host
+      "post": >-
+        Marker occurs after its phonological host
+      "split": >-
+        Marker has multiple parts that occur at different positions
   # -- end of MarkerPositionBinned4ForADefault
 
   MarkerPositionBinned4ForUDefault:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned4 value for UDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "in/simul": >-
+        Marker occurs inside its phonological host
+      "post": >-
+        Marker occurs after its phonological host
+      "split": >-
+        Marker has multiple parts that occur at different positions
   # -- end of MarkerPositionBinned4ForUDefault
 
   MarkerPositionBinned4ForSDefault:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned4 value for SDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "post": >-
+        Marker occurs after its phonological host
   # -- end of MarkerPositionBinned4ForSDefault
 
   MarkerPositionBinned4ForBDefault:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned4 value for BDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "post": >-
+        Marker occurs after its phonological host
+      "split": >-
+        Marker has multiple parts that occur at different positions
   # -- end of MarkerPositionBinned4ForBDefault
 
   MarkerPositionBinned4ForPOSSDefault:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned4 value for POSSDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "split": >-
+        Marker has multiple parts that occur at different positions
   # -- end of MarkerPositionBinned4ForPOSSDefault
 
   MarkerPositionBinned4ForARGNom:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned4 value for ARGNom
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "post": >-
+        Marker occurs after its phonological host
   # -- end of MarkerPositionBinned4ForARGNom
 
   MarkerPositionBinned4ForOAdp:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned4 value for OAdp
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
   # -- end of MarkerPositionBinned4ForOAdp
 
   MarkerPositionBinned4ForAFF:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned4 value for AFF
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "post": >-
+        Marker occurs after its phonological host
   # -- end of MarkerPositionBinned4ForAFF
 
   MarkerPositionBinned4ForTDefault:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned4 value for TDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
   # -- end of MarkerPositionBinned4ForTDefault
 
   MarkerPositionBinned4ForIDefault:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned4 value for IDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "post": >-
+        Marker occurs after its phonological host
   # -- end of MarkerPositionBinned4ForIDefault
 
   MarkerPositionBinned4ForGDefault:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned4 value for GDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
   # -- end of MarkerPositionBinned4ForGDefault
 
   MarkerPositionBinned4ForCore:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned4 value for Core
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "post": >-
+        Marker occurs after its phonological host
   # -- end of MarkerPositionBinned4ForCore
 
   MarkerPositionBinned4ForPat:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned4 value for Pat
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "split": >-
+        Marker has multiple parts that occur at different positions
   # -- end of MarkerPositionBinned4ForPat
 
   MarkerPositionBinned4ForUBDefault:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned4 value for UBDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "post": >-
+        Marker occurs after its phonological host
   # -- end of MarkerPositionBinned4ForUBDefault

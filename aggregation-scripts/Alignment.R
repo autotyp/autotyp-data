@@ -984,7 +984,17 @@ GR_roles <- GR_roles %>%
   filter(!SelectorID %in% no_agreement_ID) %>%
   # add glottocodes
   left_join(select(Register, LID, Glottocode), by = "LID") %>%
-  select(LID, Glottocode, Language, everything())
+  select(LID, Glottocode, Language, everything()) %>%
+  # drop unused factor levels
+  mutate(
+    ReferentialCondition = fct_drop(ReferentialCondition),
+    CoargumentAtr = fct_drop(CoargumentAtr),
+    CoargumentP = fct_drop(CoargumentP),
+    ClauseRankCondition =fct_drop(ClauseRankCondition),
+    CategoryCondition = fct_drop(CategoryCondition),
+    SyntacticDomainCondition = fct_drop(SyntacticDomainCondition),
+    PolarityCondition = fct_drop(PolarityCondition)
+  )
 
 
 alignments <- alignments %>%
@@ -1000,26 +1010,23 @@ alignments <- alignments %>%
   ) %>%
   # add glottocodes
   left_join(select(Register, LID, Glottocode), by = "LID") %>%
-  select(LID, Glottocode, Language, everything())
+  select(LID, Glottocode, Language, everything()) %>%
+  # drop unused factor levels
+  mutate(
+    ReferentialCondition = fct_drop(ReferentialCondition),
+    CoargumentAtr = fct_drop(CoargumentAtr),
+    CoargumentP = fct_drop(CoargumentP),
+    ClauseRankCondition =fct_drop(ClauseRankCondition),
+    CategoryCondition = fct_drop(CategoryCondition),
+    SyntacticDomainCondition = fct_drop(SyntacticDomainCondition),
+    PolarityCondition = fct_drop(PolarityCondition)
+  )
+
 
 AlignmentForDefaultPredicatesPerLanguage <- AlignmentForDefaultPredicatesPerLanguage %>%
   # add glottocodes
   left_join(select(Register, LID, Glottocode), by = "LID") %>%
   select(LID, Glottocode, Language, everything())
-
-
-fix_metadata_levels <- function(desc, values) {
-  values <- as.character(unique(unlist(values)))
-  values <- values[!is.na(values)]
-  if(!all(values %in% desc$levels$level)) {
-    unknown_levels <- setdiff(values, desc$levels$level)
-    arg <- caller_arg(values)
-    cli::cli_abort("unknown values in {arg}: {unknown_levels}")
-  }
-  desc$levels <- filter(desc$levels, level %in% values)
-  desc
-}
-
 
 descriptor <- describe_data(
   ptype = tibble(),

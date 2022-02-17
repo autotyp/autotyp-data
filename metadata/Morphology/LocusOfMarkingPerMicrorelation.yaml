@@ -354,8 +354,8 @@ fields:
             Simultaneously markign on head and the dependent
           "D": >-
             Marking on dependent
-          "F": >-
-            Floating marker
+          "FloatingorClitic": >-
+            Floating marker or clitic
           "H": >-
             Marking on head
           "Ø": >-

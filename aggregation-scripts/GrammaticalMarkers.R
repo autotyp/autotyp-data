@@ -97,6 +97,7 @@ GrammaticalMarkersPerLanguage <- GrammaticalMarkers %>%
 
 
 
+
 descriptor <- describe_data(
   ptype = tibble(),
   description = "
@@ -111,11 +112,27 @@ descriptor <- describe_data(
     new_variables %>%
     rowwise() %>%
     group_map(~ {
+      # build the descriptor
       descriptor <- .metadata$GrammaticalMarkers$fields[[.$Variable]]
       descriptor$description <- format_inline(
         "Value of `GrammaticalMarkers::{.$Variable}` for exemplar {.q {.$MarkerExemplar}}"
       )
       descriptor$computed <- "GrammaticalMarkers.R"
+      descriptor
+
+
+      # fix factors
+      if(is.factor(descriptor$ptype)) {
+        descriptor <- fix_metadata_levels(
+          descriptor,
+          GrammaticalMarkersPerLanguage[[.$NewVariable]]
+        )
+        GrammaticalMarkersPerLanguage[[.$NewVariable]] <<- factor(
+          as.character(GrammaticalMarkersPerLanguage[[.$NewVariable]]),
+          levels = levels(descriptor$ptype)
+        )
+      }
+
       descriptor
     }) %>% set_names(new_variables$NewVariable)
   )

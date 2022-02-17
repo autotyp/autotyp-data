@@ -108,6 +108,19 @@ fields:
       Cambridge: Cambridge University Press), binned into six types
     kind: manual data entry
     data: value-list
+    values: 
+      "isolating": >-
+        The formative is a free phonological word
+      "concatenative": >-
+        The formative is a clitic or segmentable affix
+      "reduplicative": >-
+        Some kind of reduplication effect
+      "replacive": >-
+        The formative replaces the stem
+      "stem": >-
+        Some kind of effect within the stem
+      "tonal": >-
+        A tone contrast
   # -- end of FusionBinned6
 
   FusionIsIsolating:

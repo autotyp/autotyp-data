@@ -181,6 +181,10 @@ single dataset:
     on head and dependents. Each entry is an NP construction type with a distinct morphosyntax and/or
     distinct constraints.
 
+- **`NPStructurePresence`** (derived)
+
+    Per-language presence of NP properties
+
 ## Module `Morphology`
 
 This module contains information about verb morphology and grammatical markers. Currently available 
@@ -301,10 +305,6 @@ Currently available aggregations are:
 - **`NPStructurePerLanguage`** (derived)
 
     Per-language aggregations of NP properties
-
-- **`NPStructurePresence`** (derived)
-
-    Per-language presence of NP properties
 
 - **`PredicateClassesSemanticsPerLanguage`** (derived)
 
