@@ -174,7 +174,7 @@ fields:
       GrammaticalMarkers::MarkerPositionBinned4 value for Classification
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
     data: value-list
-    values: []
+    values: {}
   # -- end of MarkerPositionBinned4ForClassification
 
   MarkerPositionBinned4ForEventSpecs:

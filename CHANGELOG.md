@@ -6,7 +6,7 @@
 - Fixed an issue with JSON export where missing values were silently dropped
   by the serializer, they are now exported as `null` 
 - If a value list variable has no values (all missing), the json value list metadata 
-  is now serialized as an empty list `[]` for consistency
+  is now serialized as an empty dictionary `{}` for consistency
 - `NPStructurePresence` is no longer classified as a `PerLanguageSummaries` dataset
 - `LID` field was sometimes serialized as string, fixed
 - Missing glottocodes were sometimes serialized as explicit "NA" string, fixed

@@ -877,7 +877,7 @@ fields:
       the topic position in the language with LID 3024.
     kind: manual data entry
     data: value-list
-    values: []
+    values: {}
   # -- end of SyntacticDomainCondition
 
   PolarityCondition:

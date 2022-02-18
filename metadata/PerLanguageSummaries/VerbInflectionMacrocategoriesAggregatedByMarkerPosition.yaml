@@ -216,7 +216,7 @@ fields:
       GrammaticalMarkers::MarkerPosition value for Classification
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
     data: value-list
-    values: []
+    values: {}
   # -- end of MarkerPositionForClassification
 
   MarkerPositionForEventSpecs:

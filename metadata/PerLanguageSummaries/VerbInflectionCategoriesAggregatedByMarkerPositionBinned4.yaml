@@ -486,7 +486,7 @@ fields:
       GrammaticalMarkers::MarkerPositionBinned4 value for SymmetricalVoice
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
     data: value-list
-    values: []
+    values: {}
   # -- end of MarkerPositionBinned4ForSymmetricalVoice
 
   MarkerPositionBinned4ForRECIP:
@@ -534,7 +534,7 @@ fields:
       GrammaticalMarkers::MarkerPositionBinned4 value for Classifier
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
     data: value-list
-    values: []
+    values: {}
   # -- end of MarkerPositionBinned4ForClassifier
 
   MarkerPositionBinned4ForME:
