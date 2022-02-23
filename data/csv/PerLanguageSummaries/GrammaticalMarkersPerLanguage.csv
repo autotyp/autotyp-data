@@ -470,4 +470,4 @@ LID,Glottocode,Language,CaseMarkerMorphemeType,TenseMarkerMorphemeType,NegationM
 2378,roto1249,Rotokas,,,,,FALSE,,,,restricted,,,,,,,,,,,,,,,,,,,,,,,,,,,,none,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,FALSE,,,
 2015,manc1252,Manchu,formative,,,,,,,,,,,,concatenative,,,,concatenative,,,,FALSE,,,,TRUE,,,,FALSE,,,,FALSE,,,,none,,,,none,,,,post,,,,post,,,,post,,,,FALSE,,,,FALSE,,,,TRUE,,,,FALSE,,,,FALSE,,,,,,,,,,,,,,,,,,,,,,,
 2489,bulo1242,Stieng,,,,,FALSE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,,,,FALSE,,,
-3384,,Ahom,,,,,FALSE,,,,restricted,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,FALSE,,,
+3384,ahom1240,Ahom,,,,,FALSE,,,,restricted,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,,,,FALSE,,,

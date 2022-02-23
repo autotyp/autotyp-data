@@ -1,48 +1,4 @@
 LID,Glottocode,Language,NPPossessionLocusDistribution,NPHasPossessiveClassification,NPPossessiveClassificationType,NPHasBoundNouns,NPBoundNounsCount,NPHasAlienableClasses,NPAlienableClassesCount,NPHasInalienableClasses,NPInalienableClassesCount,NPHasPossessiveClasses,NPHasMultiplePossessiveClasses,NPPossessiveClassesCount
-48,cham1312,Chamorro,None,FALSE,semantic,FALSE,0,TRUE,4,FALSE,0,FALSE,FALSE,0
-346,samo1305,Samoan,"Alienable D, inalienable D",FALSE,semantic,FALSE,0,TRUE,1,TRUE,1,FALSE,FALSE,0
-56,chuk1273,Chukchi,"Alienable D, inalienable D",FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
-205,nene1249,Nenets (Tundra),,TRUE,,,,,,,,TRUE,FALSE,1
-467,paam1238,Paamese,"Alienable appositive classificatory possessive noun, inalienable H",TRUE,semantic,TRUE,1,TRUE,4,TRUE,1,,,
-399,wara1303,Warao,,FALSE,semantic,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
-128,kaya1319,Kayardild,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
-564,rapa1244,Rapanui,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
-77,fiji1243,Fijian (Boumaa),"Alienable appositive classificatory possessive noun, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
-388,tzut1248,Tzutujil,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,2,TRUE,2,TRUE,TRUE,4
-175,maor1246,Maori,,FALSE,semantic,FALSE,0,,,,,FALSE,FALSE,0
-50,chic1272,Chichimec,"Alienable appositive classificatory possessive noun, inalienable H",TRUE,classificatory,TRUE,1,TRUE,4,TRUE,12,TRUE,TRUE,12
-332,pipi1250,Pipil,,TRUE,,TRUE,1,,,,,,,
-511,kala1399,Greenlandic Eskimo (West),None,FALSE,semantic,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
-644,kari1255,Kiriri (Kipea),"Alienable D+H, inalienable H",TRUE,classificatory,FALSE,0,TRUE,2,TRUE,1,TRUE,TRUE,3
-193,east2379,Mparntwe Arrernte,"Alienable D, inalienable H",TRUE,classificatory,FALSE,0,,,TRUE,1,TRUE,TRUE,3
-669,gras1249,Koiari,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
-540,khas1269,Khasi,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
-634,saur1249,Malto,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
-221,diga1241,Mishmi,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
-44,carn1240,Car,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
-197,naha1261,Nahali,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
-48,cham1312,Chamorro,None,FALSE,semantic,FALSE,0,TRUE,4,FALSE,0,FALSE,FALSE,0
-346,samo1305,Samoan,"Alienable D, inalienable D",FALSE,semantic,FALSE,0,TRUE,1,TRUE,1,FALSE,FALSE,0
-56,chuk1273,Chukchi,"Alienable D, inalienable D",FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
-205,nene1249,Nenets (Tundra),,TRUE,,,,,,,,TRUE,FALSE,1
-467,paam1238,Paamese,"Alienable appositive classificatory possessive noun, inalienable H",TRUE,semantic,TRUE,1,TRUE,4,TRUE,1,,,
-399,wara1303,Warao,,FALSE,semantic,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
-128,kaya1319,Kayardild,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
-564,rapa1244,Rapanui,,TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
-77,fiji1243,Fijian (Boumaa),"Alienable appositive classificatory possessive noun, inalienable H",TRUE,classificatory,FALSE,0,TRUE,1,TRUE,1,TRUE,TRUE,2
-388,tzut1248,Tzutujil,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,2,TRUE,2,TRUE,TRUE,4
-175,maor1246,Maori,,FALSE,semantic,FALSE,0,,,,,FALSE,FALSE,0
-50,chic1272,Chichimec,"Alienable appositive classificatory possessive noun, inalienable H",TRUE,classificatory,TRUE,1,TRUE,4,TRUE,12,TRUE,TRUE,12
-332,pipi1250,Pipil,,TRUE,,TRUE,1,,,,,,,
-511,kala1399,Greenlandic Eskimo (West),None,FALSE,semantic,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
-644,kari1255,Kiriri (Kipea),"Alienable D+H, inalienable H",TRUE,classificatory,FALSE,0,TRUE,2,TRUE,1,TRUE,TRUE,3
-193,east2379,Mparntwe Arrernte,"Alienable D, inalienable H",TRUE,classificatory,FALSE,0,,,TRUE,1,TRUE,TRUE,3
-669,gras1249,Koiari,"Alienable H, inalienable H",TRUE,classificatory,TRUE,1,TRUE,1,TRUE,1,TRUE,TRUE,2
-540,khas1269,Khasi,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
-634,saur1249,Malto,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
-221,diga1241,Mishmi,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
-44,carn1240,Car,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
-197,naha1261,Nahali,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
 114,ingu1240,Ingush,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
 74,stan1293,English,None,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0
 340,russ1263,Russian,,FALSE,,FALSE,0,FALSE,0,FALSE,0,FALSE,FALSE,0

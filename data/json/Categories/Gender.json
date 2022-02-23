@@ -2176,14 +2176,6 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": 656,
-    "Glottocode": "koro1312",
-    "Language": "Korowai",
-    "HasGender": false,
-    "GenderCount": null,
-    "GenderCountBinned4": null
-  },
-  {
     "LID": 77,
     "Glottocode": "fiji1243",
     "Language": "Fijian (Boumaa)",
@@ -2203,14 +2195,6 @@
     "LID": 112,
     "Glottocode": "imon1245",
     "Language": "Imonda",
-    "HasGender": false,
-    "GenderCount": null,
-    "GenderCountBinned4": null
-  },
-  {
-    "LID": 454,
-    "Glottocode": "rama1270",
-    "Language": "Rama",
     "HasGender": false,
     "GenderCount": null,
     "GenderCountBinned4": null

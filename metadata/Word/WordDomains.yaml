@@ -6,7 +6,7 @@ kind: manual data entry
 data: table
 counts:
   n_languages: 76
-  n_variables: 40
+  n_variables: 39
 fields: 
   LID:
     description: >-
@@ -120,6 +120,13 @@ fields:
     kind: manual data entry
     data: string
   # -- end of MphmTypesInCohDomainMultistemPresence
+
+  CohesionPatternLabel:
+    description: >-
+      The label associated with this specific cohesion pattern. Not a typological variable!
+    kind: manual data entry
+    data: comment
+  # -- end of CohesionPatternLabel
 
   CohesionPatternBinned18:
     description: >-
@@ -308,7 +315,7 @@ fields:
       Extent of analysis. Not a typological variable: do not quantify and
       use only for filtering!
     kind: manual data entry
-    data: string
+    data: comment
   # -- end of SurveyStatus
 
   CohesionPatternType:

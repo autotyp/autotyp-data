@@ -18,7 +18,6 @@
 source("R/plugin-support.R")
 source("R/expand_na.R")
 
-
 Alienability <- Alienability %>%
   # Presence of bound nouns
   mutate(

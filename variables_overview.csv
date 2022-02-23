@@ -301,6 +301,7 @@ WordDomains,primary,Word,CoherentEncliticBoundaryPresence,manual entry,,string,1
 WordDomains,primary,Word,CoherentEnclEnclBoundaryPresence,manual entry,,string,1
 WordDomains,primary,Word,CohPatternOutputOrigin,manual entry,,string,1
 WordDomains,primary,Word,MphmTypesInCohDomainMultistemPresence,manual entry,,string,1
+WordDomains,primary,Word,CohesionPatternLabel,manual entry,,comment,1
 WordDomains,primary,Word,CohesionPatternBinned18,manual entry,,string,1
 WordDomains,primary,Word,CohesionPatternBinned12,manual entry,,string,1
 WordDomains,primary,Word,CohesionPatternBinned4,manual entry,,string,1
@@ -325,7 +326,7 @@ WordDomains,primary,Word,CohPatternStructurePreservingPresence,manual entry,,str
 WordDomains,primary,Word,CoherentSuffixBoundaryPresence,manual entry,,string,1
 WordDomains,primary,Word,CoherentSuffixEnclBoundaryPresence,manual entry,,string,1
 WordDomains,primary,Word,CoherentSuffixSuffixBoundaryPresence,manual entry,,string,1
-WordDomains,primary,Word,SurveyStatus,manual entry,,string,1
+WordDomains,primary,Word,SurveyStatus,manual entry,,comment,1
 WordDomains,primary,Word,CohesionPatternType,manual entry,,string,1
 WordDomains,primary,Word,MphmTypesInCohPrefixDomainPropBinned3,computed,,value-list,1
 WordDomains,primary,Word,MphmTypesInCohSuffixDomainPropBinned3,computed,,value-list,1

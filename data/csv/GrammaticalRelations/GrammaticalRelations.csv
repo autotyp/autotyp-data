@@ -27856,12 +27856,12 @@ LID,Glottocode,Language,SelectorID,MarkerID,SelectorType,SelectorLabel,Referenti
 3364,ikpe1245,Ikpeng,5139,5292,case marker or adposition,NOM case,,,,1,,main,,,,S
 3364,ikpe1245,Ikpeng,5139,5292,case marker or adposition,NOM case,,,,2,,main,,,,Atr
 3364,ikpe1245,Ikpeng,5139,5292,case marker or adposition,NOM case,,,,2,,main,,,,P
-3384,,Ahom,5246,5400,case marker or adposition,no case,,,,1,,,,,,S
-3384,,Ahom,5246,5400,case marker or adposition,no case,,,,2,,,,,,Atr
-3384,,Ahom,5246,5400,case marker or adposition,no case,,,,2,,,,,,P
-3384,,Ahom,5246,5400,case marker or adposition,no case,,,,3,,,,,,Aditr
-3384,,Ahom,5246,5400,case marker or adposition,no case,,,,3,,,,,,T
-3384,,Ahom,5247,5402,case marker or adposition,DAT case,,,,3,,,,,,G
+3384,ahom1240,Ahom,5246,5400,case marker or adposition,no case,,,,1,,,,,,S
+3384,ahom1240,Ahom,5246,5400,case marker or adposition,no case,,,,2,,,,,,Atr
+3384,ahom1240,Ahom,5246,5400,case marker or adposition,no case,,,,2,,,,,,P
+3384,ahom1240,Ahom,5246,5400,case marker or adposition,no case,,,,3,,,,,,Aditr
+3384,ahom1240,Ahom,5246,5400,case marker or adposition,no case,,,,3,,,,,,T
+3384,ahom1240,Ahom,5247,5402,case marker or adposition,DAT case,,,,3,,,,,,G
 3385,apma1240,Apma,5249,5404,agreement (grammatical),S/A agreement,,,,1,,main,,,,S
 3385,apma1240,Apma,5249,5404,agreement (grammatical),S/A agreement,,,,2,,main,,,,Atr
 3385,apma1240,Apma,5248,5403,case marker or adposition,NOM case,,,,1,,main,,,,S

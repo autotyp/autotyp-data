@@ -10,6 +10,9 @@
 - `NPStructurePresence` is no longer classified as a `PerLanguageSummaries` dataset
 - `LID` field was sometimes serialized as string, fixed
 - Missing glottocodes were sometimes serialized as explicit "NA" string, fixed
+- Removed duplicate data entries from `Alienability`
+- Removed duplicate data entries from `Gender`
+- Removed duplicate data entries from `NumeralClassifiers`
 - Multiple metadata fixes:
   - Added value list descriptions for `PhonologicalFusion::FusionBinned6` and all variables that 
     rely on it (such as `GrammaticalMarkers::MarkerFusionBinned6`)

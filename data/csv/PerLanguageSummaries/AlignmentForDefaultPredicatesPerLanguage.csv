@@ -672,7 +672,7 @@ LID,Glottocode,Language,AccDegreeForAgreement,AccDegreeForCase,AccDegreeForMarke
 3306,pait1247,Pai Tavytera,0,,1,0,,0.6326530612244898,low,,high,low,,medium,S=Atr=P,,S≠Atr=P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
 3359,nant1250,Nanti,0,,1,0,,0,low,,high,low,,low,S=Atr=P,,S=Atr≠P,,,,,,,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
 3364,ikpe1245,Ikpeng,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
-3384,,Ahom,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
+3384,ahom1240,Ahom,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 3385,apma1240,Apma,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
 3386,west2516,West Uvean,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 3387,emae1237,Emae,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,

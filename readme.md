@@ -268,9 +268,9 @@ The following table breaks down the data coverage per AUTOTYP module:
 |Morphology           |                51|               248|                         999|~110,000                                 |
 |NP                   |                13|               121|                         485|~9,000                                   |
 |Sentence             |                47|                 0|                         468|~8,000                                   |
-|Word                 |                37|                 3|                          76|~26,000                                  |
+|Word                 |                36|                 3|                          76|~25,000                                  |
 |                     |                  |                  |                            |                                         |
-|Total                |               279|               970|                        1166|~260,000                                 |
+|Total                |               278|               970|                        1166|~260,000                                 |
 
 The following map shows how the primary data are distributed over the world. Points are sized in 
 proportion to the number of primary typological variables available for each language
