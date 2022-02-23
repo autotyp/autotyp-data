@@ -279,6 +279,9 @@ single dataset:
     Strings of morphs are coded for phonological and grammatical cohesion; cohesion patterns come
     with explicit descriptions and morphs are categorized in a multivariate typology.  See our
     [2009 project report](http://www.autotyp.uzh.ch/download/finalreport_words.pdf) for details.
+    Note: this dataset has known structural defects and only partially exports the available
+    information. It is currently undergoing significant structural revision and will be released
+    as a modernised dataset in a future update.
 
 ## Module `PerLanguageSummaries`
 
