@@ -77,7 +77,7 @@ descriptor$fields <- c(descriptor$fields, list(
   ),
   MarkerExpressesMultipleCategories = describe_data(
     computed = "enhancements/GrammaticalMarkers.R",
-    ptype = integer(),
+    ptype = logical(),
     description = "Does the marker express more than one category?"
   )
 ))

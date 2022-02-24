@@ -1553,6 +1553,8 @@ fields:
     kind: manual data entry
     data: value-list
     values: 
+      "neutral": >-
+        No semantic class assignment
       "formal": >-
         Formal (arbitrary) class assignment
       "referentiality": >-
@@ -1751,6 +1753,8 @@ fields:
         kind: manual data entry
         data: value-list
         values: 
+          "neutral": >-
+            No semantic class assignment
           "formal": >-
             Formal (arbitrary) class assignment
           "referentiality": >-

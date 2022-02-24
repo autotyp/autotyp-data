@@ -1956,7 +1956,7 @@
   },
   {
     "LID": 3229,
-    "Glottocode": "NA",
+    "Glottocode": null,
     "Language": "Torlak Serbian",
     "MarkerHasMultipleExponentsForTAMPlus": false,
     "MarkerHasMultipleExponentsForOperators": false,

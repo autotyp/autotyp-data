@@ -35,3 +35,7 @@ SyntacticDomain,Definition
 1168_enclitics,"the domain has poorely described properties but is characterized by the use of clitics instead of lond and short pronouns, partially the domain isphonologically determined"
 387_register1_3pl,"the variation affects the presence of 3pl S/A marker, which is said to be ""optional and marks a stylistic register"""
 387_register1_no3pl,"the variation affects the presence of 3pl S/A marker, which is said to be ""optional and marks a stylistic register"""
+599_A-ERG,under this not further specified condition there is an ERG marker on A
+599_A-NOM,under this seemingly default conditions the A argument is in the NOM
+133_P-ACC,default
+133_P-DAT/unmarked,possible with PV constituent order

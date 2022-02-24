@@ -2879,6 +2879,29 @@ LID,Glottocode,Language,SelectorID,MarkerID,SelectorType,SelectorLabel,Referenti
 104,hual1241,Quechua (Huallaga),482,4710,case marker or adposition,NOM case,,,,1,,main,,,,S
 104,hual1241,Quechua (Huallaga),482,4710,case marker or adposition,NOM case,,,,2,,main,,,,Atr
 104,hual1241,Quechua (Huallaga),482,4710,case marker or adposition,NOM case,,,,3,,main,,,,Aditr
+106,sand1278,Huave,5282,5430,agreement (grammatical),S/A agreement,,,,1,,main,,,,S
+106,sand1278,Huave,5282,5430,agreement (grammatical),S/A agreement,,,,2,,main,,,,Atr
+106,sand1278,Huave,5283,5431,agreement (marker),s- 1sg/plS/A agreement,1pl.excl,,,1,-1,main,,,,S
+106,sand1278,Huave,5283,5431,agreement (marker),s- 1sg/plS/A agreement,1pl.excl,,,2,-1,main,,,,Atr
+106,sand1278,Huave,5283,5431,agreement (marker),s- 1sg/plS/A agreement,1sg,,,1,-1,main,,,,S
+106,sand1278,Huave,5283,5431,agreement (marker),s- 1sg/plS/A agreement,1sg,,,2,-1,main,,,,Atr
+106,sand1278,Huave,5284,5432,agreement (marker),i- 2S/A agreement,2pl,,,1,-1,main,,,,S
+106,sand1278,Huave,5284,5432,agreement (marker),i- 2S/A agreement,2pl,,,2,-1,main,,,,Atr
+106,sand1278,Huave,5284,5432,agreement (marker),i- 2S/A agreement,2sg,,,1,-1,main,,,,S
+106,sand1278,Huave,5284,5432,agreement (marker),i- 2S/A agreement,2sg,,,2,-1,main,,,,Atr
+106,sand1278,Huave,5285,5433,agreement (marker),-r 1du.inclS/A agreement,1du.incl,,,1,1,main,,,,S
+106,sand1278,Huave,5285,5433,agreement (marker),-r 1du.inclS/A agreement,1du.incl,,,2,1,main,,,,Atr
+106,sand1278,Huave,5286,5434,agreement (marker),-n 1/2plS/A agreement,1pl.excl,,,1,2,main,,,,S
+106,sand1278,Huave,5286,5434,agreement (marker),-n 1/2plS/A agreement,1pl.excl,,,2,2,main,,,,Atr
+106,sand1278,Huave,5286,5434,agreement (marker),-n 1/2plS/A agreement,2pl,,,1,2,main,,,,S
+106,sand1278,Huave,5286,5434,agreement (marker),-n 1/2plS/A agreement,2pl,,,2,2,main,,,,Atr
+106,sand1278,Huave,5287,5435,agreement (marker),-jts 1pl.inclS/A agreement,1pl.incl,,,1,1,main,,,,S
+106,sand1278,Huave,5287,5435,agreement (marker),-jts 1pl.inclS/A agreement,1pl.incl,,,2,1,main,,,,Atr
+106,sand1278,Huave,5288,5436,agreement (marker),-w/j 3plS/A agreement,3pl,,,1,1,main,,,,S
+106,sand1278,Huave,5288,5436,agreement (marker),-w/j 3plS/A agreement,3pl,,,2,1,main,,,,Atr
+106,sand1278,Huave,5281,986,case marker or adposition,case,,,,1,,main,,,,S
+106,sand1278,Huave,5281,986,case marker or adposition,case,,,,2,,main,,,,Atr
+106,sand1278,Huave,5281,986,case marker or adposition,case,,,,2,,main,,,,P
 107,hung1274,Hungarian,485,1372,case marker or adposition,ACC case,,,,2,,main,,,,P
 107,hung1274,Hungarian,485,1372,case marker or adposition,ACC case,,,,3,,main,,,,T
 107,hung1274,Hungarian,485,1372,case marker or adposition,ACC case,,,,545,,main,,,,T
@@ -3458,14 +3481,6 @@ LID,Glottocode,Language,SelectorID,MarkerID,SelectorType,SelectorLabel,Referenti
 134,nort2930,Kiwai,4685,,case marker or adposition,NOM case,,,,1,,main,,,,S
 134,nort2930,Kiwai,4685,,case marker or adposition,NOM case,,,,2,,main,,,,Atr
 134,nort2930,Kiwai,4685,,case marker or adposition,NOM case,,,,2,,main,,,,P
-135,koas1236,Koasati,544,2415,case marker or adposition,NOM case,,,,1,,main,,,,S
-135,koas1236,Koasati,544,2415,case marker or adposition,NOM case,,,,2,,main,,,,Atr
-135,koas1236,Koasati,544,2415,case marker or adposition,NOM case,,,,3,,main,,,,Aditr
-135,koas1236,Koasati,544,2415,case marker or adposition,NOM case,,,,475,,main,,,,Atr
-135,koas1236,Koasati,545,394,case marker or adposition,ACC case,,,,2,,main,,,,P
-135,koas1236,Koasati,545,394,case marker or adposition,ACC case,,,,3,,main,,,,T
-135,koas1236,Koasati,1953,2416,case marker or adposition,DAT case,,,,3,,main,,,,G
-135,koas1236,Koasati,1978,2440,case marker or adposition,ALL case,,,,475,,main,,,,P
 136,kobo1249,Kobon,550,2361,agreement (grammatical),S/A agreement,,,,1,,main,,,,S
 136,kobo1249,Kobon,550,2361,agreement (grammatical),S/A agreement,,,,2,,main,,,,Atr
 136,kobo1249,Kobon,550,2361,agreement (grammatical),S/A agreement,,,,3,,main,,,,Aditr
@@ -4001,6 +4016,9 @@ LID,Glottocode,Language,SelectorID,MarkerID,SelectorType,SelectorLabel,Referenti
 181,maun1240,Mawng,606,570,case marker or adposition,ABS case,Pro,,,3,,main,,,,Aditr
 181,maun1240,Mawng,606,570,case marker or adposition,ABS case,Pro,,,3,,main,,,,T
 181,maun1240,Mawng,4679,,case marker or adposition,OBL case,Pro,,,3,,main,,,,G
+182,caom1238,Cao Miao,5252,5406,case marker or adposition,no case,,,,1,,,,,,S
+182,caom1238,Cao Miao,5252,5406,case marker or adposition,no case,,,,2,,,,,,Atr
+182,caom1238,Cao Miao,5252,5406,case marker or adposition,no case,,,,2,,,,,,P
 188,halh1238,Mongolian (Khalkha),214,3580,case marker or adposition,NOM case,N-high,,,1,,main,,,,S
 188,halh1238,Mongolian (Khalkha),214,3580,case marker or adposition,NOM case,N-high,,,2,,main,,,,Atr
 188,halh1238,Mongolian (Khalkha),214,3580,case marker or adposition,NOM case,N-high,,,3,,main,,,,Aditr
@@ -6116,6 +6134,18 @@ LID,Glottocode,Language,SelectorID,MarkerID,SelectorType,SelectorLabel,Referenti
 429,zuni1245,Zuni,868,,case marker or adposition,NOM case,Pro,,,1,,main,,,,S
 429,zuni1245,Zuni,868,,case marker or adposition,NOM case,Pro,,,2,,main,,,,Atr
 429,zuni1245,Zuni,868,,case marker or adposition,NOM case,Pro,,,3,,main,,,,Aditr
+432,coos1249,Hanis (Coos),843,,agreement (grammatical),agreement,,,,1,,main,,,,S
+432,coos1249,Hanis (Coos),843,,agreement (grammatical),agreement,,,,2,,main,,,,Atr
+432,coos1249,Hanis (Coos),843,,agreement (grammatical),agreement,,,,2,,main,,,,P
+432,coos1249,Hanis (Coos),129,1005,case marker or adposition,ERG case,N-low,,,2,,main,,,,Atr
+432,coos1249,Hanis (Coos),842,5382,case marker or adposition,ABS case,N-high,,,1,,main,,,,S
+432,coos1249,Hanis (Coos),842,5382,case marker or adposition,ABS case,N-high,,,2,,main,,,,Atr
+432,coos1249,Hanis (Coos),842,5382,case marker or adposition,ABS case,N-high,,,2,,main,,,,P
+432,coos1249,Hanis (Coos),842,5382,case marker or adposition,ABS case,N-low,,,1,,main,,,,S
+432,coos1249,Hanis (Coos),842,5382,case marker or adposition,ABS case,N-low,,,2,,main,,,,P
+432,coos1249,Hanis (Coos),842,5382,case marker or adposition,ABS case,Pro,,,1,,main,,,,S
+432,coos1249,Hanis (Coos),842,5382,case marker or adposition,ABS case,Pro,,,2,,main,,,,Atr
+432,coos1249,Hanis (Coos),842,5382,case marker or adposition,ABS case,Pro,,,2,,main,,,,P
 433,gily1242,Nivkh,845,753,case marker or adposition,NOM case,,,,1,,main,,,,S
 433,gily1242,Nivkh,845,753,case marker or adposition,NOM case,,,,2,,main,,,,Atr
 433,gily1242,Nivkh,845,753,case marker or adposition,NOM case,,,,2,,main,,,,P
@@ -6717,6 +6747,9 @@ LID,Glottocode,Language,SelectorID,MarkerID,SelectorType,SelectorLabel,Referenti
 505,daga1275,Daga,4653,587,case marker or adposition,NOM case,,,,1,,main,,,,S
 505,daga1275,Daga,4653,587,case marker or adposition,NOM case,,,,2,,main,,,,Atr
 505,daga1275,Daga,4653,587,case marker or adposition,NOM case,,,,2,,main,,,,P
+506,maxa1247,Maxakalí,5255,5410,case marker or adposition,ERG/marked-NOM case,,,,1,,main,,,,S
+506,maxa1247,Maxakalí,5255,5410,case marker or adposition,ERG/marked-NOM case,,,,2,,main,,,,Atr
+506,maxa1247,Maxakalí,5258,5411,case marker or adposition,ACC case,,,,2,,main,,,,P
 514,cent2142,Aymara,894,,case marker or adposition,NOM case,,,,1,,main,,,,S
 514,cent2142,Aymara,894,,case marker or adposition,NOM case,,,,2,,main,,,,Atr
 514,cent2142,Aymara,895,,case marker or adposition,ACC case,,,,2,,main,,,,P
@@ -7469,6 +7502,9 @@ LID,Glottocode,Language,SelectorID,MarkerID,SelectorType,SelectorLabel,Referenti
 583,hebr1245,Hebrew (Modern),4311,4470,case marker or adposition,DAT case,N-def,,,3,,,,,,G
 583,hebr1245,Hebrew (Modern),4311,4470,case marker or adposition,DAT case,N-indef,,,3,,,,,,G
 583,hebr1245,Hebrew (Modern),4311,4470,case marker or adposition,DAT case,Pro,,,3,,,,,,G
+599,chay1248,Chayahuita,5263,5414,agreement (grammatical),S/A/P agreement,,,,1,,main,,,,S
+599,chay1248,Chayahuita,5263,5414,agreement (grammatical),S/A/P agreement,,,,2,,main,,,,Atr
+599,chay1248,Chayahuita,5263,5414,agreement (grammatical),S/A/P agreement,,,,2,,main,,,,P
 608,mari1278,Mari,927,3925,agreement (grammatical),agreement,,,,1,,main,,,,S
 608,mari1278,Mari,927,3925,agreement (grammatical),agreement,,,,2,,main,,,,Atr
 608,mari1278,Mari,927,3925,agreement (grammatical),agreement,,,,3,,main,,,,Aditr
@@ -11540,6 +11576,56 @@ LID,Glottocode,Language,SelectorID,MarkerID,SelectorType,SelectorLabel,Referenti
 853,agua1253,Aguaruna,2124,,agreement (grammatical),agreement,,,,1,,main,,,,S
 853,agua1253,Aguaruna,2124,,agreement (grammatical),agreement,,,,2,,main,,,,Atr
 853,agua1253,Aguaruna,2124,,agreement (grammatical),agreement,,,,2,,main,,,,P
+853,agua1253,Aguaruna,2900,5276,agreement (marker),agreement -ha '1sgS/A' (slot F),1sg,,,1,F,main,,,,S
+853,agua1253,Aguaruna,2900,5276,agreement (marker),agreement -ha '1sgS/A' (slot F),1sg,,3pl,2,F,main,,,,Atr
+853,agua1253,Aguaruna,2900,5276,agreement (marker),agreement -ha '1sgS/A' (slot F),1sg,,3sg,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5123,5277,agreement (marker),agreement -hi '1plS/A' (slot F),1pl,,,1,F,main,,,,S
+853,agua1253,Aguaruna,5123,5277,agreement (marker),agreement -hi '1plS/A' (slot F),1pl,,3pl,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5123,5277,agreement (marker),agreement -hi '1plS/A' (slot F),1pl,,3sg,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5124,5278,agreement (marker),agreement -(u)mi̵ '2sgS/A' (slot F),2sg,,,1,F,main,,,,S
+853,agua1253,Aguaruna,5124,5278,agreement (marker),agreement -(u)mi̵ '2sgS/A' (slot F),2sg,,1pl,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5124,5278,agreement (marker),agreement -(u)mi̵ '2sgS/A' (slot F),2sg,,1sg,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5124,5278,agreement (marker),agreement -(u)mi̵ '2sgS/A' (slot F),2sg,,3pl,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5124,5278,agreement (marker),agreement -(u)mi̵ '2sgS/A' (slot F),2sg,,3sg,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5125,5279,agreement (marker),agreement -(u)humi̵ '2plS/A' (slot F),2pl,,,1,F,main,,,,S
+853,agua1253,Aguaruna,5125,5279,agreement (marker),agreement -(u)humi̵ '2plS/A' (slot F),2pl,,1pl,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5125,5279,agreement (marker),agreement -(u)humi̵ '2plS/A' (slot F),2pl,,1sg,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5125,5279,agreement (marker),agreement -(u)humi̵ '2plS/A' (slot F),2pl,,3pl,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5125,5279,agreement (marker),agreement -(u)humi̵ '2plS/A' (slot F),2pl,,3sg,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5126,5280,agreement (marker),agreement -wa '3S/A' (slot F),3pl,,,1,F,main,,,,S
+853,agua1253,Aguaruna,5126,5280,agreement (marker),agreement -wa '3S/A' (slot F),3pl,,1pl,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5126,5280,agreement (marker),agreement -wa '3S/A' (slot F),3pl,,1sg,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5126,5280,agreement (marker),agreement -wa '3S/A' (slot F),3pl,,2pl,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5126,5280,agreement (marker),agreement -wa '3S/A' (slot F),3pl,,2sg,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5126,5280,agreement (marker),agreement -wa '3S/A' (slot F),3pl,,3pl,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5126,5280,agreement (marker),agreement -wa '3S/A' (slot F),3pl,,3sg,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5126,5280,agreement (marker),agreement -wa '3S/A' (slot F),3sg,,,1,F,main,,,,S
+853,agua1253,Aguaruna,5126,5280,agreement (marker),agreement -wa '3S/A' (slot F),3sg,,1pl,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5126,5280,agreement (marker),agreement -wa '3S/A' (slot F),3sg,,1sg,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5126,5280,agreement (marker),agreement -wa '3S/A' (slot F),3sg,,2pl,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5126,5280,agreement (marker),agreement -wa '3S/A' (slot F),3sg,,2sg,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5126,5280,agreement (marker),agreement -wa '3S/A' (slot F),3sg,,3pl,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5126,5280,agreement (marker),agreement -wa '3S/A' (slot F),3sg,,3sg,2,F,main,,,,Atr
+853,agua1253,Aguaruna,5127,5281,agreement (marker),agreement -hu/-tu '1sgP' (slot B),1sg,2pl,,2,B,main,,,,P
+853,agua1253,Aguaruna,5127,5281,agreement (marker),agreement -hu/-tu '1sgP' (slot B),1sg,2sg,,2,B,main,,,,P
+853,agua1253,Aguaruna,5127,5281,agreement (marker),agreement -hu/-tu '1sgP' (slot B),1sg,3pl,,2,B,main,,,,P
+853,agua1253,Aguaruna,5127,5281,agreement (marker),agreement -hu/-tu '1sgP' (slot B),1sg,3sg,,2,B,main,,,,P
+853,agua1253,Aguaruna,5128,5282,agreement (marker),agreement -hama/-pa/-kahatu/-tama/-pa/-tVpa/-hama/-kahatu '1plP' (slot B),1pl,2pl,,2,B,main,,,,P
+853,agua1253,Aguaruna,5128,5282,agreement (marker),agreement -hama/-pa/-kahatu/-tama/-pa/-tVpa/-hama/-kahatu '1plP' (slot B),1pl,2sg,,2,B,main,,,,P
+853,agua1253,Aguaruna,5128,5282,agreement (marker),agreement -hama/-pa/-kahatu/-tama/-pa/-tVpa/-hama/-kahatu '1plP' (slot B),1pl,3pl,,2,B,main,,,,P
+853,agua1253,Aguaruna,5128,5282,agreement (marker),agreement -hama/-pa/-kahatu/-tama/-pa/-tVpa/-hama/-kahatu '1plP' (slot B),1pl,3sg,,2,B,main,,,,P
+853,agua1253,Aguaruna,5129,5283,agreement (marker),agreement -hama/-tama/-pa '2P' (slot B),2pl,3pl,,2,B,main,,,,P
+853,agua1253,Aguaruna,5129,5283,agreement (marker),agreement -hama/-tama/-pa '2P' (slot B),2pl,3sg,,2,B,main,,,,P
+853,agua1253,Aguaruna,5129,5283,agreement (marker),agreement -hama/-tama/-pa '2P' (slot B),2sg,3pl,,2,B,main,,,,P
+853,agua1253,Aguaruna,5129,5283,agreement (marker),agreement -hama/-tama/-pa '2P' (slot B),2sg,3sg,,2,B,main,,,,P
+853,agua1253,Aguaruna,5130,5284,agreement (marker),agreement -hamɨ (1sgA>2sgP),1sg,,2sg,2,B,main,,,,Atr
+853,agua1253,Aguaruna,5130,5284,agreement (marker),agreement -hamɨ (1sgA>2sgP),2sg,1sg,,2,B,main,,,,P
+853,agua1253,Aguaruna,5131,5285,agreement (marker),"agreement -himɨ (1plA>2P, 1sgA>2plP)",1pl,,2pl,2,B,main,,,,Atr
+853,agua1253,Aguaruna,5131,5285,agreement (marker),"agreement -himɨ (1plA>2P, 1sgA>2plP)",1pl,,2sg,2,B,main,,,,Atr
+853,agua1253,Aguaruna,5131,5285,agreement (marker),"agreement -himɨ (1plA>2P, 1sgA>2plP)",1sg,,2pl,2,B,main,,,,Atr
+853,agua1253,Aguaruna,5131,5285,agreement (marker),"agreement -himɨ (1plA>2P, 1sgA>2plP)",2pl,1pl,,2,B,main,,,,P
+853,agua1253,Aguaruna,5131,5285,agreement (marker),"agreement -himɨ (1plA>2P, 1sgA>2plP)",2pl,1sg,,2,B,main,,,,P
+853,agua1253,Aguaruna,5131,5285,agreement (marker),"agreement -himɨ (1plA>2P, 1sgA>2plP)",2sg,1pl,,2,B,main,,,,P
 865,aari1239,Aari,4282,4435,agreement (grammatical),S/A agreement,,,,1,,,,,,S
 865,aari1239,Aari,4282,4435,agreement (grammatical),S/A agreement,,,,2,,,,,,Atr
 871,arak1252,Araki,1975,,agreement (grammatical),S/A&P agreement,,,,1,,main,,,,S
@@ -12382,6 +12468,8 @@ LID,Glottocode,Language,SelectorID,MarkerID,SelectorType,SelectorLabel,Referenti
 995,bell1243,Bella Coola,2020,2469,case marker or adposition,LOC1 case,,,,3,,main,,,,T
 995,bell1243,Bella Coola,2021,2470,case marker or adposition,LOC2 case,,,,490,,main,,,,P
 995,bell1243,Bella Coola,2022,2471,case marker or adposition,LOC3 case,,,,491,,main,,,,P
+1002,bada1257,Badaga,5245,5399,agreement (grammatical),S/A agreement,,,,1,,main,,,,S
+1002,bada1257,Badaga,5245,5399,agreement (grammatical),S/A agreement,,,,2,,main,,,,Atr
 1007,bagr1243,Bagri,4549,4713,agreement (grammatical),S/A agreement,,,,1,,main,,,,S
 1007,bagr1243,Bagri,4549,4713,agreement (grammatical),S/A agreement,,,,2,,main,,,,Atr
 1010,bina1277,Binandere,4355,4517,agreement (grammatical),S/A agreement,,,,1,,main,,,,S
@@ -12640,9 +12728,9 @@ LID,Glottocode,Language,SelectorID,MarkerID,SelectorType,SelectorLabel,Referenti
 1105,chor1273,Chortí,3119,,case marker or adposition,NOM case,,,,1,,main,,,,S
 1105,chor1273,Chortí,3119,,case marker or adposition,NOM case,,,,2,,main,,,,Atr
 1105,chor1273,Chortí,3119,,case marker or adposition,NOM case,,,,2,,main,,,,P
-1108,cadd1256,Caddo,2000,,case marker or adposition,NOM case,,,,1,,main,,,,S
-1108,cadd1256,Caddo,2000,,case marker or adposition,NOM case,,,,2,,main,,,,Atr
-1108,cadd1256,Caddo,2000,,case marker or adposition,NOM case,,,,2,,main,,,,P
+1108,cadd1256,Caddo,2000,,case marker or adposition,NOM case,N,,,1,,main,,,,S
+1108,cadd1256,Caddo,2000,,case marker or adposition,NOM case,N,,,2,,main,,,,Atr
+1108,cadd1256,Caddo,2000,,case marker or adposition,NOM case,N,,,2,,main,,,,P
 1116,cavi1250,Cavineña,1550,2211,case marker or adposition,ERG case,,,,2,,main,,,,Atr
 1116,cavi1250,Cavineña,1550,2211,case marker or adposition,ERG case,,,,3,,main,,,,Aditr
 1116,cavi1250,Cavineña,1550,2211,case marker or adposition,ERG case,,,,253,,main,,,,Aditr
@@ -19514,6 +19602,9 @@ LID,Glottocode,Language,SelectorID,MarkerID,SelectorType,SelectorLabel,Referenti
 2790,yuec1235,Cantonese,1841,,case marker or adposition,NOM case,,,,3,,main,,,,Aditr
 2790,yuec1235,Cantonese,1841,,case marker or adposition,NOM case,,,,3,,main,,,,T
 2790,yuec1235,Cantonese,1841,,case marker or adposition,NOM case,,,,3,,main,,,,G
+2795,yukp1241,Yukpa,5260,2795,case marker or adposition,NOM case,,,,1,,main,,,,S
+2795,yukp1241,Yukpa,5260,2795,case marker or adposition,NOM case,,,,2,,main,,,,Atr
+2795,yukp1241,Yukpa,5260,2795,case marker or adposition,NOM case,,,,2,,main,,,,P
 2797,sout2750,Yukagir (Kolyma),2089,2516,agreement (grammatical),agreement,,,,1,,main,2797_FIN,,,S
 2797,sout2750,Yukagir (Kolyma),2089,2516,agreement (grammatical),agreement,,,,2,,main,2797_FIN,,,Atr
 2797,sout2750,Yukagir (Kolyma),2089,2516,agreement (grammatical),agreement,,,,3,,main,2797_FIN,,,Aditr
@@ -27371,6 +27462,9 @@ LID,Glottocode,Language,SelectorID,MarkerID,SelectorType,SelectorLabel,Referenti
 3213,oldi1245,Irish (Old),4707,4843,agreement (grammatical),S/A agreement,,,,1,,main,3213_ABS,,,S
 3213,oldi1245,Irish (Old),4707,4843,agreement (grammatical),S/A agreement,,,,2,,main,3213_ABS,,,Atr
 3213,oldi1245,Irish (Old),4707,4843,agreement (grammatical),S/A agreement,,,,3,,main,3213_ABS,,,Aditr
+3240,ashe1272,Ashéninka Perené,5251,5405,agreement (grammatical),S/A agreement,,,,1,,main,,,,S
+3240,ashe1272,Ashéninka Perené,5251,5405,agreement (grammatical),S/A agreement,,,,2,,main,,,,Atr
+3240,ashe1272,Ashéninka Perené,5251,5405,agreement (grammatical),S/A agreement,,,,2,,main,,,,P
 3249,awet1244,Awetí,4769,4926,agreement (marker),wej- ‘3’ agreement,3pl,,3pl,2,-1,,,,,Atr
 3249,awet1244,Awetí,4769,4926,agreement (marker),wej- ‘3’ agreement,3pl,,3sg,2,-1,,,,,Atr
 3249,awet1244,Awetí,4769,4926,agreement (marker),wej- ‘3’ agreement,3sg,,3pl,2,-1,,,,,Atr
@@ -27386,6 +27480,9 @@ LID,Glottocode,Language,SelectorID,MarkerID,SelectorType,SelectorLabel,Referenti
 3249,awet1244,Awetí,4772,4930,agreement (marker),a- ‘1sA’ agreement,1sg,,3sg,2,-1,,,,,Atr
 3249,awet1244,Awetí,4773,4931,agreement (marker),o- ‘3Sa’ agreement,3pl,,,1,-1,,,,,S
 3249,awet1244,Awetí,4773,4931,agreement (marker),o- ‘3Sa’ agreement,3sg,,,1,-1,,,,,S
+3250,xing1248,Xingú Asuriní,4855,5030,agreement (grammatical),S/A/P-agreement,,,,1,,main,,,,S
+3250,xing1248,Xingú Asuriní,4855,5030,agreement (grammatical),S/A/P-agreement,,,,2,,main,,,,Atr
+3250,xing1248,Xingú Asuriní,4855,5030,agreement (grammatical),S/A/P-agreement,,,,2,,main,,,,P
 3250,xing1248,Xingú Asuriní,4843,5018,agreement (marker),1sg P-agreement dje,1sg,2pl,,2,-1,main,,,,P
 3250,xing1248,Xingú Asuriní,4843,5018,agreement (marker),1sg P-agreement dje,1sg,2sg,,2,-1,main,,,,P
 3250,xing1248,Xingú Asuriní,4843,5018,agreement (marker),1sg P-agreement dje,1sg,3pl,,2,-1,main,,,,P
@@ -27759,3 +27856,20 @@ LID,Glottocode,Language,SelectorID,MarkerID,SelectorType,SelectorLabel,Referenti
 3364,ikpe1245,Ikpeng,5139,5292,case marker or adposition,NOM case,,,,1,,main,,,,S
 3364,ikpe1245,Ikpeng,5139,5292,case marker or adposition,NOM case,,,,2,,main,,,,Atr
 3364,ikpe1245,Ikpeng,5139,5292,case marker or adposition,NOM case,,,,2,,main,,,,P
+3384,ahom1240,Ahom,5246,5400,case marker or adposition,no case,,,,1,,,,,,S
+3384,ahom1240,Ahom,5246,5400,case marker or adposition,no case,,,,2,,,,,,Atr
+3384,ahom1240,Ahom,5246,5400,case marker or adposition,no case,,,,2,,,,,,P
+3384,ahom1240,Ahom,5246,5400,case marker or adposition,no case,,,,3,,,,,,Aditr
+3384,ahom1240,Ahom,5246,5400,case marker or adposition,no case,,,,3,,,,,,T
+3384,ahom1240,Ahom,5247,5402,case marker or adposition,DAT case,,,,3,,,,,,G
+3385,apma1240,Apma,5249,5404,agreement (grammatical),S/A agreement,,,,1,,main,,,,S
+3385,apma1240,Apma,5249,5404,agreement (grammatical),S/A agreement,,,,2,,main,,,,Atr
+3385,apma1240,Apma,5248,5403,case marker or adposition,NOM case,,,,1,,main,,,,S
+3385,apma1240,Apma,5248,5403,case marker or adposition,NOM case,,,,2,,main,,,,Atr
+3385,apma1240,Apma,5248,5403,case marker or adposition,NOM case,,,,2,,main,,,,P
+3386,west2516,West Uvean,5253,5408,case marker or adposition,NOM case,,,,1,,main,,,,S
+3386,west2516,West Uvean,5253,5408,case marker or adposition,NOM case,,,,2,,main,,,,Atr
+3386,west2516,West Uvean,5253,5408,case marker or adposition,NOM case,,,,2,,main,,,,P
+3387,emae1237,Emae,5254,5409,case marker or adposition,NOM case,,,,1,,main,,,,S
+3387,emae1237,Emae,5254,5409,case marker or adposition,NOM case,,,,2,,main,,,,Atr
+3387,emae1237,Emae,5254,5409,case marker or adposition,NOM case,,,,2,,main,,,,P

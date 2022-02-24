@@ -41,96 +41,212 @@ fields:
     description: >-
       GrammaticalMarkers::MarkerPosition value for ADefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "simul": >-
+        the formative has two exponents at different positions in the phonological host
+        (but it is not the case that one is positioned before and the other after the
+        host, which is coded as “circum”)
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "Wackernagel": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "prae/post/circum": >-
+        either before, after or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "prae/in/post": >-
+        either before, inside or after the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "prae (post)": >-
+        before the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "post (in)": >-
+        after the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+      "post/prae (simul)": >-
+        either before, after or in two or more positions in the phonological host,
+        conditioned by some structural context (category, syntax etc.)
+      "prae/post/in/circum": >-
+        either before, after, inside or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
   # -- end of MarkerPositionForADefault
 
   MarkerPositionForUDefault:
     description: >-
       GrammaticalMarkers::MarkerPosition value for UDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post (prae)": >-
+        after the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "Wackernagel": >-
+        DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) --
+        see log 77
+      "prae/post/circum": >-
+        either before, after or around the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "prae/in/post": >-
+        either before, inside or after the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "prae (post)": >-
+        before the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "post/prae (simul)": >-
+        either before, after or in two or more positions in the phonological host,
+        conditioned by some structural context (category, syntax etc.)
   # -- end of MarkerPositionForUDefault
 
   MarkerPositionForSDefault:
     description: >-
       GrammaticalMarkers::MarkerPosition value for SDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
   # -- end of MarkerPositionForSDefault
 
   MarkerPositionForBDefault:
     description: >-
       GrammaticalMarkers::MarkerPosition value for BDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae (post)": >-
+        before the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
   # -- end of MarkerPositionForBDefault
 
   MarkerPositionForPOSSDefault:
     description: >-
       GrammaticalMarkers::MarkerPosition value for POSSDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
   # -- end of MarkerPositionForPOSSDefault
 
   MarkerPositionForARGNom:
     description: >-
       GrammaticalMarkers::MarkerPosition value for ARGNom
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
   # -- end of MarkerPositionForARGNom
 
   MarkerPositionForOAdp:
     description: >-
       GrammaticalMarkers::MarkerPosition value for OAdp
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
   # -- end of MarkerPositionForOAdp
 
   MarkerPositionForAFF:
     description: >-
       GrammaticalMarkers::MarkerPosition value for AFF
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
+      "post (in)": >-
+        after the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
   # -- end of MarkerPositionForAFF
 
   MarkerPositionForTDefault:
     description: >-
       GrammaticalMarkers::MarkerPosition value for TDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
   # -- end of MarkerPositionForTDefault
 
   MarkerPositionForIDefault:
     description: >-
       GrammaticalMarkers::MarkerPosition value for IDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
   # -- end of MarkerPositionForIDefault
 
   MarkerPositionForGDefault:
     description: >-
       GrammaticalMarkers::MarkerPosition value for GDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
   # -- end of MarkerPositionForGDefault
 
   MarkerPositionForCore:
     description: >-
       GrammaticalMarkers::MarkerPosition value for Core
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
   # -- end of MarkerPositionForCore
 
   MarkerPositionForPat:
     description: >-
       GrammaticalMarkers::MarkerPosition value for Pat
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
   # -- end of MarkerPositionForPat
 
   MarkerPositionForUBDefault:
     description: >-
       GrammaticalMarkers::MarkerPosition value for UBDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
   # -- end of MarkerPositionForUBDefault

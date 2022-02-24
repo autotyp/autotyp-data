@@ -33,32 +33,10 @@ fields:
     kind: manual data entry
     data: value-list
     values: 
-      "AOV": >-
-        AOV
-      "OAV": >-
-        OAV
-      "AVO": >-
-        AVO
-      "OVA": >-
-        OVA
-      "VAO": >-
-        VAO
-      "VOA": >-
-        VOA
-      "xxV": >-
-        xxV
-      "xVx": >-
-        xVx
-      "Vxx": >-
-        Vxx
-      "free": >-
-        free
-      "V-2": >-
-        V-2
-      "SV": >-
-        SV
-      "VS": >-
-        VS
+      "AO": >-
+        AO
+      "OA": >-
+        OA
       "mixed": >-
         mixed
   # -- end of WordOrderAPLex

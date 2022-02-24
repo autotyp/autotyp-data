@@ -4,7 +4,7 @@ description: >-
 kind: manual data entry
 data: table
 counts:
-  n_languages: 798
+  n_languages: 809
   n_variables: 12
 fields: 
   LID:

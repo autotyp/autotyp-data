@@ -41,96 +41,160 @@ fields:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for ADefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "in": >-
+        Marker occurs inside its phonological host
+      "post": >-
+        Marker occurs after its phonological host
+      "split": >-
+        Marker has multiple parts that occur at different positions (before or after)
+      "simul": >-
+        Marker has multiple parts that occur at different positions inside the host
   # -- end of MarkerPositionBinned5ForADefault
 
   MarkerPositionBinned5ForUDefault:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for UDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "in": >-
+        Marker occurs inside its phonological host
+      "post": >-
+        Marker occurs after its phonological host
+      "split": >-
+        Marker has multiple parts that occur at different positions (before or after)
   # -- end of MarkerPositionBinned5ForUDefault
 
   MarkerPositionBinned5ForSDefault:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for SDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "post": >-
+        Marker occurs after its phonological host
   # -- end of MarkerPositionBinned5ForSDefault
 
   MarkerPositionBinned5ForBDefault:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for BDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "post": >-
+        Marker occurs after its phonological host
+      "split": >-
+        Marker has multiple parts that occur at different positions (before or after)
   # -- end of MarkerPositionBinned5ForBDefault
 
   MarkerPositionBinned5ForPOSSDefault:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for POSSDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "split": >-
+        Marker has multiple parts that occur at different positions (before or after)
   # -- end of MarkerPositionBinned5ForPOSSDefault
 
   MarkerPositionBinned5ForARGNom:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for ARGNom
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "post": >-
+        Marker occurs after its phonological host
   # -- end of MarkerPositionBinned5ForARGNom
 
   MarkerPositionBinned5ForOAdp:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for OAdp
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
   # -- end of MarkerPositionBinned5ForOAdp
 
   MarkerPositionBinned5ForAFF:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for AFF
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "post": >-
+        Marker occurs after its phonological host
   # -- end of MarkerPositionBinned5ForAFF
 
   MarkerPositionBinned5ForTDefault:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for TDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
   # -- end of MarkerPositionBinned5ForTDefault
 
   MarkerPositionBinned5ForIDefault:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for IDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "post": >-
+        Marker occurs after its phonological host
   # -- end of MarkerPositionBinned5ForIDefault
 
   MarkerPositionBinned5ForGDefault:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for GDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
   # -- end of MarkerPositionBinned5ForGDefault
 
   MarkerPositionBinned5ForCore:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for Core
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "post": >-
+        Marker occurs after its phonological host
   # -- end of MarkerPositionBinned5ForCore
 
   MarkerPositionBinned5ForPat:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for Pat
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "split": >-
+        Marker has multiple parts that occur at different positions (before or after)
   # -- end of MarkerPositionBinned5ForPat
 
   MarkerPositionBinned5ForUBDefault:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for UBDefault
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "post": >-
+        Marker occurs after its phonological host
   # -- end of MarkerPositionBinned5ForUBDefault

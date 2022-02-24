@@ -41,82 +41,166 @@ fields:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for TAMPlus
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "post": >-
+        Marker occurs after its phonological host
+      "split": >-
+        Marker has multiple parts that occur at different positions (before or after)
+      "multiple": >-
+        multiple markers at different positions
   # -- end of MarkerPositionBinned5ForTAMPlus
 
   MarkerPositionBinned5ForOperators:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for Operators
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "in": >-
+        Marker occurs inside its phonological host
+      "post": >-
+        Marker occurs after its phonological host
+      "split": >-
+        Marker has multiple parts that occur at different positions (before or after)
+      "simul": >-
+        Marker has multiple parts that occur at different positions inside the host
   # -- end of MarkerPositionBinned5ForOperators
 
   MarkerPositionBinned5ForValence:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for Valence
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "in": >-
+        Marker occurs inside its phonological host
+      "post": >-
+        Marker occurs after its phonological host
+      "split": >-
+        Marker has multiple parts that occur at different positions (before or after)
+      "multiple": >-
+        multiple markers at different positions
   # -- end of MarkerPositionBinned5ForValence
 
   MarkerPositionBinned5ForInterClausal:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for InterClausal
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "post": >-
+        Marker occurs after its phonological host
+      "split": >-
+        Marker has multiple parts that occur at different positions (before or after)
   # -- end of MarkerPositionBinned5ForInterClausal
 
   MarkerPositionBinned5ForOther:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for Other
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
   # -- end of MarkerPositionBinned5ForOther
 
   MarkerPositionBinned5ForPragmatic:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for Pragmatic
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "in": >-
+        Marker occurs inside its phonological host
+      "post": >-
+        Marker occurs after its phonological host
+      "multiple": >-
+        multiple markers at different positions
   # -- end of MarkerPositionBinned5ForPragmatic
 
   MarkerPositionBinned5ForNumber:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for Number
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "in": >-
+        Marker occurs inside its phonological host
+      "post": >-
+        Marker occurs after its phonological host
+      "split": >-
+        Marker has multiple parts that occur at different positions (before or after)
+      "multiple": >-
+        multiple markers at different positions
   # -- end of MarkerPositionBinned5ForNumber
 
   MarkerPositionBinned5ForEvidential:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for Evidential
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "post": >-
+        Marker occurs after its phonological host
   # -- end of MarkerPositionBinned5ForEvidential
 
   MarkerPositionBinned5ForNPRelated:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for NPRelated
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "in": >-
+        Marker occurs inside its phonological host
+      "post": >-
+        Marker occurs after its phonological host
   # -- end of MarkerPositionBinned5ForNPRelated
 
   MarkerPositionBinned5ForClassification:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for Classification
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: {}
   # -- end of MarkerPositionBinned5ForClassification
 
   MarkerPositionBinned5ForEventSpecs:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for EventSpecs
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "post": >-
+        Marker occurs after its phonological host
+      "simul": >-
+        Marker has multiple parts that occur at different positions inside the host
   # -- end of MarkerPositionBinned5ForEventSpecs
 
   MarkerPositionBinned5ForRole:
     description: >-
       GrammaticalMarkers::MarkerPositionBinned5 value for Role
     kind: computed data (aggregation-scripts/VerbInflectionPerLanguage.R)
-    data: logical
+    data: value-list
+    values: 
+      "prae": >-
+        Marker occurs before its phonological host
+      "post": >-
+        Marker occurs after its phonological host
   # -- end of MarkerPositionBinned5ForRole

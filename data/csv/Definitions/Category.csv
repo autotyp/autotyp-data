@@ -11,7 +11,7 @@ Tense,TAM+,The traditional category of time reference (absolute or relative) in 
 Connective,inter-clausal,"Marker of clause connection, including chaining markers, complementizers, markers of subordination or relative (unless it is a nominalizer, in which case code as Nominalizer). Includes converbs of all types, chaining (narrative, sequencing) and subordinating (adverbial).  Forms called “subjunctive” or “conjunctive” are likely to belong here."
 Causative,valence,Adds an agent to the valence.
 Voice,valence,"Assignment of role to an NP with a certain marker or status (nominative, absolutive, etc.) with a reduction in syntactic transitivity. This includes passives, antipassives, diathetic reflexives, middles etc."
-Version,valence,"Category that registers the presence of an indirect object, goal, or applicative object and responds to its person (typically distinguishing 1st/2nd vs. 3rd person).  Term and concept from Kartvelian languages."
+Version,valence,"Category that registers the presence of an indirect object, goal, or applicative object and responds to its person (typically distinguishing 1st/2nd vs. 3rd person). Term and concept from Kartvelian languages."
 Semistem,other,The more wordlike or noun-like element of a bipartite stem that interacts with the inflectional system.
 Gender,classification,Agreement category involving noun classification.  Usually covert on nouns; overt on agreeing word(s).  Unless otherwise specified this is lexical gender of nouns.
 Quantificational,number,"Multiple argument or multiple action, variously or fluidly. Pluractionals, distributive, ‘each’, ‘all’, ‘some’, ‘once’, ‘always’, ‘repeatedly’ etc. Subsumes both argument and event quantification"

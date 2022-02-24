@@ -47,6 +47,13 @@ fields:
       etc.
     kind: manual data entry
     data: value-list
+    values: 
+      "coordination": >-
+        Coordination
+      "cosubordination": >-
+        Cosubordination
+      "subordination": >-
+        Subordination
   # -- end of IntuitiveClassification
 
   OriginalName:
@@ -61,6 +68,11 @@ fields:
       Anticipatory argument marking in clause linkage (as defined in Bickel 2010)
     kind: manual data entry
     data: value-list
+    values: 
+      "none": >-
+        No anticipatory argument marking
+      "obligatory": >-
+        Obligatory anticipatory argument marking
   # -- end of AnticipatoryArgumentMarking
 
   CataphoraConstraints:
@@ -68,6 +80,11 @@ fields:
       Cataphora (backward control) in clause linkage (as defined in Bickel 2010)
     kind: manual data entry
     data: value-list
+    values: 
+      "cataphora_impossible": >-
+        Cataphora is impossible
+      "cataphora_possible": >-
+        Cataphora is possible
   # -- end of CataphoraConstraints
 
   CategoricalSymmetry:
@@ -75,6 +92,13 @@ fields:
       Paradigm and word class choices in clause linkage (as defined in Bickel 2010)
     kind: manual data entry
     data: value-list
+    values: 
+      "asymmetrical": >-
+        asymmetrical
+      "constraint-free": >-
+        constraint-free
+      "symmetrical": >-
+        symmetrical
   # -- end of CategoricalSymmetry
 
   ClauseLayer:
@@ -82,6 +106,17 @@ fields:
       Attachment level in clause linkage (as defined in Bickel 2010)
     kind: manual data entry
     data: value-list
+    values: 
+      "ad-S": >-
+        ad-S
+      "ad-V": >-
+        ad-V
+      "attr": >-
+        attr
+      "core": >-
+        core
+      "detached": >-
+        detached
   # -- end of ClauseLayer
 
   ClausePosition:
@@ -89,6 +124,15 @@ fields:
       Clause order in clause linkage (as defined in Bickel 2010)
     kind: manual data entry
     data: value-list
+    values: 
+      "fixed:post-main": >-
+        fixed:post-main
+      "fixed:pre-main": >-
+        fixed:pre-main
+      "flexible-adjacent": >-
+        flexible-adjacent
+      "flexible-relational": >-
+        flexible-relational
   # -- end of ClausePosition
 
   Embedding:
@@ -96,6 +140,11 @@ fields:
       Syntactic relation of dependent clauses (as defined in Bickel 2010)
     kind: manual data entry
     data: value-list
+    values: 
+      "adjoined": >-
+        adjoined
+      "subcategorized": >-
+        subcategorized
   # -- end of Embedding
 
   ExtractionConstraints:
@@ -103,6 +152,11 @@ fields:
       Extraction constraints in clause linkage (as defined in Bickel 2010)
     kind: manual data entry
     data: value-list
+    values: 
+      "extraction_impossible": >-
+        Extraction is impossible
+      "extraction_possible": >-
+        Extraction is possible
   # -- end of ExtractionConstraints
 
   FinitenessRatio:
@@ -118,20 +172,37 @@ fields:
       Three-way breakdown of finiteness, adapted from Bickel 2009 (as defined in Bickel 2010)
     kind: manual data entry
     data: value-list
+    values: 
+      "any": >-
+        Finite or nonfinite
+      "finite": >-
+        Finite only
+      "nonfinite": >-
+        Noninite only
   # -- end of FinitenessSimplified
 
-  FocusMarkinginDependent:
+  FocusMarkingInDependent:
     description: >-
       Constituent focus or WH question inside the dependent clause (as defined in Bickel 2010)
     kind: manual data entry
     data: value-list
-  # -- end of FocusMarkinginDependent
+    values: 
+      "ok": >-
+        Focus marking in dependent is permitted
+      "banned": >-
+        Focus marking in dependent is banned
+  # -- end of FocusMarkingInDependent
 
   FocusMarking:
     description: >-
       Focus marking on dependent clauses (as defined in Bickel 2010)
     kind: manual data entry
     data: value-list
+    values: 
+      "ok": >-
+        Focus marking is permitted
+      "banned": >-
+        Focus marking is banned
   # -- end of FocusMarking
 
   IllocutionaryMarking:
@@ -139,6 +210,13 @@ fields:
       Illocutionary force marking in dependent clauses (as defined in Bickel 2010)
     kind: manual data entry
     data: value-list
+    values: 
+      "ok": >-
+        Illocutionary marking is permitted
+      "banned": >-
+        Illocutionary marking is banned
+      "harmonic": >-
+        Illocutionary marking is harmonic
   # -- end of IllocutionaryMarking
 
   IllocutionaryScope:
@@ -146,6 +224,17 @@ fields:
       Scope of main clause illocutionary force markers (as defined in Bickel 2010)
     kind: manual data entry
     data: value-list
+    values: 
+      "conjunct": >-
+        Conjunct scope
+      "constraint-free": >-
+        No constraints
+      "disjunct": >-
+        Disjunct scope
+      "extensible": >-
+        Extensible scope
+      "local": >-
+        Local scope
   # -- end of IllocutionaryScope
 
   InterpropositionalSemanticRelation:
@@ -153,6 +242,31 @@ fields:
       Semantic relationship in clause linkage (as defined in Bickel 2010)
     kind: manual data entry
     data: value-list
+    values: 
+      "‘lest’": >-
+        lest
+      "alternation": >-
+        alternation
+      "causal": >-
+        causal
+      "conditional": >-
+        conditional
+      "conjunction": >-
+        conjunction
+      "dependent": >-
+        dependent
+      "disjunction": >-
+        disjunction
+      "inconsequential": >-
+        inconsequential
+      "manner": >-
+        manner
+      "narrative": >-
+        narrative
+      "purposive": >-
+        purposive
+      "topic": >-
+        topic
   # -- end of InterpropositionalSemanticRelation
 
   ReferenceTrackingSystem:
@@ -160,6 +274,15 @@ fields:
       Reference tracking system
     kind: manual data entry
     data: value-list
+    values: 
+      "none": >-
+        No reference tracking system
+      "optional_switch_reference": >-
+        Optional switch reference
+      "same-GR constraint": >-
+        same-GR constraint
+      "switch-reference": >-
+        Switch reference
   # -- end of ReferenceTrackingSystem
 
   TenseMarking:
@@ -167,6 +290,13 @@ fields:
       Tense marking in dependent clause (as defined in Bickel 2010)
     kind: manual data entry
     data: value-list
+    values: 
+      "ok": >-
+        Tense marking is permitted
+      "banned": >-
+        Tense marking is banned
+      "harmonic": >-
+        Tense marking is harmonic
   # -- end of TenseMarking
 
   TenseScope:
@@ -174,6 +304,17 @@ fields:
       Scope of main clause tense markers (as defined in Bickel 2010)
     kind: manual data entry
     data: value-list
+    values: 
+      "conjunct": >-
+        Conjunct scope
+      "constraint-free": >-
+        No constraints
+      "disjunct": >-
+        Disjunct scope
+      "extensible": >-
+        Extensible scope
+      "local": >-
+        Local scope
   # -- end of TenseScope
 
   Examples:

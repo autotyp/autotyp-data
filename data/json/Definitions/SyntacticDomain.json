@@ -142,5 +142,21 @@
   {
     "SyntacticDomain": "387_register1_no3pl",
     "Definition": "the variation affects the presence of 3pl S/A marker, which is said to be \"optional and marks a stylistic register\""
+  },
+  {
+    "SyntacticDomain": "599_A-ERG",
+    "Definition": "under this not further specified condition there is an ERG marker on A"
+  },
+  {
+    "SyntacticDomain": "599_A-NOM",
+    "Definition": "under this seemingly default conditions the A argument is in the NOM"
+  },
+  {
+    "SyntacticDomain": "133_P-ACC",
+    "Definition": "default"
+  },
+  {
+    "SyntacticDomain": "133_P-DAT/unmarked",
+    "Definition": "possible with PV constituent order"
   }
 ]

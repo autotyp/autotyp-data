@@ -67,7 +67,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "prae",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 334,
@@ -77,7 +77,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 335,
@@ -87,7 +87,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "semi-restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 336,
@@ -97,7 +97,7 @@
     "MorphemeType": "stem",
     "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 337,
@@ -237,7 +237,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "prae",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 351,
@@ -247,7 +247,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "in",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 352,
@@ -257,7 +257,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "prae",
     "MorphemeHostRestriction": "unrestricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 353,
@@ -267,7 +267,7 @@
     "MorphemeType": "stem",
     "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 354,
@@ -1557,7 +1557,7 @@
     "MorphemeType": "stem",
     "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 483,
@@ -1567,7 +1567,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "prae",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 484,
@@ -1577,7 +1577,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 485,
@@ -1587,7 +1587,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "unrestricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 486,
@@ -1597,7 +1597,7 @@
     "MorphemeType": "stem",
     "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 487,
@@ -1607,7 +1607,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "semi-restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 488,
@@ -1617,7 +1617,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "prae",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 489,
@@ -1627,7 +1627,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 490,
@@ -1897,7 +1897,7 @@
     "MorphemeType": "stem",
     "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 517,
@@ -1907,7 +1907,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "prae",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 518,
@@ -1917,7 +1917,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 519,
@@ -1927,7 +1927,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "semi-restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 520,
@@ -2187,7 +2187,7 @@
     "MorphemeType": "stem",
     "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 546,
@@ -2197,7 +2197,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "prae",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 547,
@@ -2207,7 +2207,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 548,
@@ -2217,7 +2217,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "prae",
     "MorphemeHostRestriction": "Part circum/simulfix",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 549,
@@ -2227,7 +2227,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "Part circum/simulfix",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 550,
@@ -2237,7 +2237,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "semi-restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 551,
@@ -2247,7 +2247,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "prae",
     "MorphemeHostRestriction": "semi-restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 552,
@@ -2457,7 +2457,7 @@
     "MorphemeType": "stem",
     "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 573,
@@ -2467,7 +2467,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 574,
@@ -2477,7 +2477,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "semi-restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 575,
@@ -2487,7 +2487,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "prae",
     "MorphemeHostRestriction": "semi-restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 576,
@@ -2497,7 +2497,7 @@
     "MorphemeType": "stem",
     "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 577,
@@ -2507,7 +2507,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "prae",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 578,
@@ -2517,7 +2517,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 579,
@@ -2527,7 +2527,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "prae",
     "MorphemeHostRestriction": "unrestricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 580,
@@ -2537,7 +2537,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "semi-restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 581,
@@ -2547,7 +2547,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "in",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 582,
@@ -2557,7 +2557,7 @@
     "MorphemeType": "stem",
     "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 583,
@@ -2567,7 +2567,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "prae",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 584,
@@ -2577,7 +2577,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 585,
@@ -2587,7 +2587,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "prae",
     "MorphemeHostRestriction": "semi-restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 586,
@@ -3047,7 +3047,7 @@
     "MorphemeType": "stem",
     "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 632,
@@ -3057,7 +3057,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "prae",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 633,
@@ -3067,7 +3067,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 634,
@@ -3077,7 +3077,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "in",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 635,
@@ -3127,7 +3127,7 @@
     "MorphemeType": "root",
     "MorphemePosition": null,
     "MorphemeHostRestriction": "unrestricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 640,
@@ -3137,7 +3137,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "restricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 641,
@@ -3147,7 +3147,7 @@
     "MorphemeType": "formative",
     "MorphemePosition": "post",
     "MorphemeHostRestriction": "unrestricted",
-    "Notes": "NA"
+    "Notes": null
   },
   {
     "MorphemeClassID": 642,

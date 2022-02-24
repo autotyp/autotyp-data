@@ -114,7 +114,7 @@ LID,Glottocode,Language,MarkerHasMultipleExponentsForTAMPlus,MarkerHasMultipleEx
 2330,poli1260,Polish,FALSE,FALSE,FALSE,,,,,,,,,
 2447,slov1268,Slovene,FALSE,FALSE,,,,,,,,,,
 675,kaba1278,Circassian (East),FALSE,FALSE,FALSE,,,FALSE,,FALSE,,,,
-3229,NA,Torlak Serbian,FALSE,FALSE,,,,,,,,,,
+3229,,Torlak Serbian,FALSE,FALSE,,,,,,,,,,
 1890,lith1251,Lithuanian,FALSE,,,,,,,,,,,
 549,latv1249,Latvian,FALSE,FALSE,FALSE,,,,,,,,,
 683,roma1327,Romanian,FALSE,,FALSE,,,,,,,,,

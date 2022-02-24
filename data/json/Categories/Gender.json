@@ -1,6 +1,6 @@
 [
   {
-    "LID": "71",
+    "LID": 71,
     "Glottocode": "dyir1250",
     "Language": "Dyirbal",
     "HasGender": true,
@@ -8,7 +8,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "692",
+    "LID": 692,
     "Glottocode": "nucl1327",
     "Language": "Limilngan",
     "HasGender": true,
@@ -16,7 +16,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "668",
+    "LID": 668,
     "Glottocode": "yecu1235",
     "Language": "Totonac (Misantla)",
     "HasGender": false,
@@ -24,7 +24,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "580",
+    "LID": 580,
     "Glottocode": "yidi1250",
     "Language": "Yidiny",
     "HasGender": false,
@@ -32,7 +32,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "64",
+    "LID": 64,
     "Glottocode": "dier1241",
     "Language": "Diyari",
     "HasGender": false,
@@ -40,7 +40,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "355",
+    "LID": 355,
     "Glottocode": "soma1255",
     "Language": "Somali",
     "HasGender": true,
@@ -48,7 +48,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "571",
+    "LID": 571,
     "Glottocode": "cent2194",
     "Language": "Tamazight (Ayt Ndhir)",
     "HasGender": true,
@@ -56,7 +56,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "1519",
+    "LID": 1519,
     "Glottocode": "bora1271",
     "Language": "Oromo (Boraana)",
     "HasGender": true,
@@ -64,7 +64,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "167",
+    "LID": 167,
     "Glottocode": "masa1300",
     "Language": "Maa",
     "HasGender": true,
@@ -72,7 +72,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "98",
+    "LID": 98,
     "Glottocode": "haus1257",
     "Language": "Hausa",
     "HasGender": true,
@@ -80,7 +80,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "40",
+    "LID": 40,
     "Glottocode": "buru1296",
     "Language": "Burushaski",
     "HasGender": true,
@@ -88,7 +88,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "386",
+    "LID": 386,
     "Glottocode": "tuni1252",
     "Language": "Tunica",
     "HasGender": true,
@@ -96,7 +96,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "411",
+    "LID": 411,
     "Glottocode": "wasc1239",
     "Language": "Wishram",
     "HasGender": true,
@@ -104,7 +104,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "132",
+    "LID": 132,
     "Glottocode": "kiow1266",
     "Language": "Kiowa",
     "HasGender": false,
@@ -112,7 +112,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "87",
+    "LID": 87,
     "Glottocode": "stan1295",
     "Language": "German",
     "HasGender": true,
@@ -120,7 +120,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "114",
+    "LID": 114,
     "Glottocode": "ingu1240",
     "Language": "Ingush",
     "HasGender": true,
@@ -128,7 +128,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "343",
+    "LID": 343,
     "Glottocode": "sahu1245",
     "Language": "Sahu",
     "HasGender": null,
@@ -136,7 +136,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "340",
+    "LID": 340,
     "Glottocode": "russ1263",
     "Language": "Russian",
     "HasGender": true,
@@ -144,7 +144,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "608",
+    "LID": 608,
     "Glottocode": "mari1278",
     "Language": "Mari",
     "HasGender": false,
@@ -152,7 +152,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "188",
+    "LID": 188,
     "Glottocode": "halh1238",
     "Language": "Mongolian (Khalkha)",
     "HasGender": false,
@@ -160,7 +160,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "78",
+    "LID": 78,
     "Glottocode": "finn1318",
     "Language": "Finnish",
     "HasGender": false,
@@ -168,7 +168,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "423",
+    "LID": 423,
     "Glottocode": "nort2745",
     "Language": "Yukagir (Tundra)",
     "HasGender": false,
@@ -176,7 +176,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "191",
+    "LID": 191,
     "Glottocode": "siwa1245",
     "Language": "Motuna",
     "HasGender": true,
@@ -184,7 +184,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "22",
+    "LID": 22,
     "Glottocode": "anem1249",
     "Language": "Anêm",
     "HasGender": true,
@@ -192,7 +192,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "438",
+    "LID": 438,
     "Glottocode": "maib1239",
     "Language": "Maybrat",
     "HasGender": null,
@@ -200,7 +200,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "325",
+    "LID": 325,
     "Glottocode": "osse1243",
     "Language": "Ossetic",
     "HasGender": false,
@@ -208,7 +208,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "348",
+    "LID": 348,
     "Glottocode": "sanu1240",
     "Language": "Sanuma",
     "HasGender": false,
@@ -216,7 +216,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "388",
+    "LID": 388,
     "Glottocode": "tzut1248",
     "Language": "Tzutujil",
     "HasGender": false,
@@ -224,7 +224,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "318",
+    "LID": 318,
     "Glottocode": "nung1290",
     "Language": "Nunggubuyu",
     "HasGender": true,
@@ -232,7 +232,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "7",
+    "LID": 7,
     "Glottocode": "abkh1244",
     "Language": "Abkhaz",
     "HasGender": false,
@@ -240,7 +240,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "32",
+    "LID": 32,
     "Glottocode": "basq1248",
     "Language": "Basque",
     "HasGender": false,
@@ -248,7 +248,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "14",
+    "LID": 14,
     "Glottocode": "alam1246",
     "Language": "Alamblak",
     "HasGender": true,
@@ -256,7 +256,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "149",
+    "LID": 149,
     "Glottocode": "goon1238",
     "Language": "Kuniyanti",
     "HasGender": false,
@@ -264,7 +264,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "2536",
+    "LID": 2536,
     "Glottocode": "tami1289",
     "Language": "Tamil",
     "HasGender": true,
@@ -272,7 +272,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "69",
+    "LID": 69,
     "Glottocode": "nubi1251",
     "Language": "Nubian (Dongolese)",
     "HasGender": false,
@@ -280,7 +280,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "378",
+    "LID": 378,
     "Glottocode": "tiwi1244",
     "Language": "Tiwi",
     "HasGender": true,
@@ -288,7 +288,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "173",
+    "LID": 173,
     "Glottocode": "mang1381",
     "Language": "Mangarayi",
     "HasGender": true,
@@ -296,7 +296,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "80",
+    "LID": 80,
     "Glottocode": "adam1253",
     "Language": "Fula",
     "HasGender": true,
@@ -304,7 +304,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "199",
+    "LID": 199,
     "Glottocode": "nama1264",
     "Language": "Nama",
     "HasGender": true,
@@ -312,7 +312,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "402",
+    "LID": 402,
     "Glottocode": "ware1253",
     "Language": "Warembori",
     "HasGender": false,
@@ -320,7 +320,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "686",
+    "LID": 686,
     "Glottocode": "daha1245",
     "Language": "Dahalo",
     "HasGender": false,
@@ -328,7 +328,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "2779",
+    "LID": 2779,
     "Glottocode": "yele1255",
     "Language": "Yelî Dnye",
     "HasGender": false,
@@ -336,7 +336,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "21",
+    "LID": 21,
     "Glottocode": "amha1245",
     "Language": "Amharic",
     "HasGender": true,
@@ -344,7 +344,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "499",
+    "LID": 499,
     "Glottocode": "buki1249",
     "Language": "Bukiyip",
     "HasGender": true,
@@ -352,7 +352,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "395",
+    "LID": 395,
     "Glottocode": "vani1248",
     "Language": "Vanimo",
     "HasGender": true,
@@ -360,7 +360,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "332",
+    "LID": 332,
     "Glottocode": "pipi1250",
     "Language": "Pipil",
     "HasGender": false,
@@ -368,7 +368,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "200",
+    "LID": 200,
     "Glottocode": "sout2994",
     "Language": "Nambikwara",
     "HasGender": false,
@@ -376,7 +376,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "409",
+    "LID": 409,
     "Glottocode": "wint1259",
     "Language": "Wintu",
     "HasGender": false,
@@ -384,7 +384,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "365",
+    "LID": 365,
     "Glottocode": "pure1242",
     "Language": "Tarascan",
     "HasGender": false,
@@ -392,7 +392,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "10",
+    "LID": 10,
     "Glottocode": "west2632",
     "Language": "Acoma",
     "HasGender": false,
@@ -400,7 +400,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "642",
+    "LID": 642,
     "Glottocode": "egyp1253",
     "Language": "Arabic (Egyptian)",
     "HasGender": true,
@@ -408,7 +408,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "390",
+    "LID": 390,
     "Glottocode": "ngar1284",
     "Language": "Ungarinjin",
     "HasGender": true,
@@ -416,7 +416,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "148",
+    "LID": 148,
     "Glottocode": "kung1261",
     "Language": "!Kung",
     "HasGender": true,
@@ -424,7 +424,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "420",
+    "LID": 420,
     "Glottocode": "yima1243",
     "Language": "Yimas",
     "HasGender": true,
@@ -432,7 +432,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "461",
+    "LID": 461,
     "Glottocode": "onei1249",
     "Language": "Oneida",
     "HasGender": true,
@@ -440,7 +440,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "129",
+    "LID": 129,
     "Glottocode": "kett1243",
     "Language": "Ket",
     "HasGender": true,
@@ -448,7 +448,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "2960",
+    "LID": 2960,
     "Glottocode": "avar1256",
     "Language": "Avar (Chadakolob)",
     "HasGender": true,
@@ -456,7 +456,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "895",
+    "LID": 895,
     "Glottocode": "andi1255",
     "Language": "Andi",
     "HasGender": true,
@@ -464,7 +464,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "2962",
+    "LID": 2962,
     "Glottocode": "akhv1239",
     "Language": "Akhvakh (Northern)",
     "HasGender": true,
@@ -472,7 +472,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "1149",
+    "LID": 1149,
     "Glottocode": "cham1309",
     "Language": "Chamalal",
     "HasGender": true,
@@ -480,7 +480,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "2572",
+    "LID": 2572,
     "Glottocode": "tind1238",
     "Language": "Tindi",
     "HasGender": true,
@@ -488,7 +488,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "1531",
+    "LID": 1531,
     "Glottocode": "ghod1238",
     "Language": "Godoberi",
     "HasGender": true,
@@ -496,7 +496,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "1807",
+    "LID": 1807,
     "Glottocode": "kara1474",
     "Language": "Karata",
     "HasGender": true,
@@ -504,7 +504,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "1840",
+    "LID": 1840,
     "Glottocode": "bagv1239",
     "Language": "Bagwalal",
     "HasGender": true,
@@ -512,7 +512,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "1263",
+    "LID": 1263,
     "Glottocode": "dido1241",
     "Language": "Tsez",
     "HasGender": true,
@@ -520,7 +520,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "530",
+    "LID": 530,
     "Glottocode": "hunz1247",
     "Language": "Hunzib",
     "HasGender": true,
@@ -528,7 +528,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "1700",
+    "LID": 1700,
     "Glottocode": "bezh1248",
     "Language": "Bezhta",
     "HasGender": true,
@@ -536,7 +536,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "155",
+    "LID": 155,
     "Glottocode": "lakk1252",
     "Language": "Lak",
     "HasGender": true,
@@ -544,7 +544,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "2947",
+    "LID": 2947,
     "Glottocode": "darg1241",
     "Language": "Dargi (Chirag)",
     "HasGender": true,
@@ -552,7 +552,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "2826",
+    "LID": 2826,
     "Glottocode": "darg1241",
     "Language": "Dargi (standard)",
     "HasGender": true,
@@ -560,7 +560,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "145",
+    "LID": 145,
     "Glottocode": "darg1241",
     "Language": "Dargi (Kubachi)",
     "HasGender": true,
@@ -568,7 +568,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "2948",
+    "LID": 2948,
     "Glottocode": "darg1241",
     "Language": "Dargi (Mehweb)",
     "HasGender": true,
@@ -576,7 +576,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "2949",
+    "LID": 2949,
     "Glottocode": "darg1241",
     "Language": "Dargi (Icari)",
     "HasGender": true,
@@ -584,7 +584,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "2967",
+    "LID": 2967,
     "Glottocode": "darg1241",
     "Language": "Dargi (Kaitag)",
     "HasGender": true,
@@ -592,7 +592,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "162",
+    "LID": 162,
     "Glottocode": "lezg1247",
     "Language": "Lezgi",
     "HasGender": false,
@@ -600,7 +600,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "2511",
+    "LID": 2511,
     "Glottocode": "taba1259",
     "Language": "Tabasaran",
     "HasGender": true,
@@ -608,7 +608,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "2828",
+    "LID": 2828,
     "Glottocode": "aghu1253",
     "Language": "Agul",
     "HasGender": false,
@@ -616,7 +616,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "2388",
+    "LID": 2388,
     "Glottocode": "rutu1240",
     "Language": "Rutul",
     "HasGender": true,
@@ -624,7 +624,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "2577",
+    "LID": 2577,
     "Glottocode": "tsak1249",
     "Language": "Tsakhur",
     "HasGender": true,
@@ -632,7 +632,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "1816",
+    "LID": 1816,
     "Glottocode": "kryt1240",
     "Language": "Kryz",
     "HasGender": true,
@@ -640,7 +640,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "987",
+    "LID": 987,
     "Glottocode": "budu1248",
     "Language": "Budukh",
     "HasGender": true,
@@ -648,7 +648,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "917",
+    "LID": 917,
     "Glottocode": "arch1244",
     "Language": "Archi",
     "HasGender": true,
@@ -656,7 +656,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "389",
+    "LID": 389,
     "Glottocode": "udii1243",
     "Language": "Udi",
     "HasGender": false,
@@ -664,7 +664,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "413",
+    "LID": 413,
     "Glottocode": "khin1240",
     "Language": "Xinalug",
     "HasGender": true,
@@ -672,7 +672,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "86",
+    "LID": 86,
     "Glottocode": "nucl1302",
     "Language": "Georgian",
     "HasGender": false,
@@ -680,7 +680,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "481",
+    "LID": 481,
     "Glottocode": "svan1243",
     "Language": "Svan",
     "HasGender": false,
@@ -688,7 +688,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "34",
+    "LID": 34,
     "Glottocode": "beja1238",
     "Language": "Beja",
     "HasGender": true,
@@ -696,7 +696,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "65",
+    "LID": 65,
     "Glottocode": "dizi1235",
     "Language": "Dizi",
     "HasGender": true,
@@ -704,7 +704,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "75",
+    "LID": 75,
     "Glottocode": "ewee1241",
     "Language": "Ewe",
     "HasGender": false,
@@ -712,7 +712,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "81",
+    "LID": 81,
     "Glottocode": "furr1244",
     "Language": "Fur",
     "HasGender": false,
@@ -720,7 +720,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "91",
+    "LID": 91,
     "Glottocode": "gumu1244",
     "Language": "Gumuz",
     "HasGender": false,
@@ -728,7 +728,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "111",
+    "LID": 111,
     "Glottocode": "ikkk1242",
     "Language": "Ik",
     "HasGender": false,
@@ -736,7 +736,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "123",
+    "LID": 123,
     "Glottocode": "kanu1279",
     "Language": "Kanuri",
     "HasGender": false,
@@ -744,7 +744,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "643",
+    "LID": 643,
     "Glottocode": "sout2778",
     "Language": "Kisi",
     "HasGender": true,
@@ -752,7 +752,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "147",
+    "LID": 147,
     "Glottocode": "kuna1268",
     "Language": "Kunama",
     "HasGender": false,
@@ -760,7 +760,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "163",
+    "LID": 163,
     "Glottocode": "lugb1240",
     "Language": "Logbara",
     "HasGender": false,
@@ -768,7 +768,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "165",
+    "LID": 165,
     "Glottocode": "gand1255",
     "Language": "Luganda",
     "HasGender": true,
@@ -776,7 +776,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "323",
+    "LID": 323,
     "Glottocode": "tega1236",
     "Language": "Orig",
     "HasGender": true,
@@ -784,7 +784,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "347",
+    "LID": 347,
     "Glottocode": "sand1273",
     "Language": "Sandawe",
     "HasGender": true,
@@ -792,7 +792,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "443",
+    "LID": 443,
     "Glottocode": "koyr1240",
     "Language": "Songhai (Koyra Chiini)",
     "HasGender": false,
@@ -800,7 +800,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "373",
+    "LID": 373,
     "Glottocode": "tera1251",
     "Language": "Tera",
     "HasGender": false,
@@ -808,7 +808,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "421",
+    "LID": 421,
     "Glottocode": "yoru1245",
     "Language": "Yoruba",
     "HasGender": false,
@@ -816,7 +816,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "68",
+    "LID": 68,
     "Glottocode": "djin1251",
     "Language": "Djingili",
     "HasGender": true,
@@ -824,7 +824,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "84",
+    "LID": 84,
     "Glottocode": "gara1269",
     "Language": "Garrwa",
     "HasGender": false,
@@ -832,7 +832,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "128",
+    "LID": 128,
     "Glottocode": "kaya1319",
     "Language": "Kayardild",
     "HasGender": false,
@@ -840,7 +840,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "170",
+    "LID": 170,
     "Glottocode": "mull1237",
     "Language": "Malak-Malak",
     "HasGender": true,
@@ -848,7 +848,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "178",
+    "LID": 178,
     "Glottocode": "mari1424",
     "Language": "Marrithiyel",
     "HasGender": true,
@@ -856,7 +856,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "179",
+    "LID": 179,
     "Glottocode": "mart1255",
     "Language": "Martuthunira",
     "HasGender": false,
@@ -864,7 +864,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "181",
+    "LID": 181,
     "Glottocode": "maun1240",
     "Language": "Mawng",
     "HasGender": true,
@@ -872,7 +872,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "93",
+    "LID": 93,
     "Glottocode": "gunw1252",
     "Language": "Gunwinggu",
     "HasGender": true,
@@ -880,7 +880,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "196",
+    "LID": 196,
     "Glottocode": "murr1258",
     "Language": "Murrinh-patha",
     "HasGender": false,
@@ -888,7 +888,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "198",
+    "LID": 198,
     "Glottocode": "naka1260",
     "Language": "Nakkara",
     "HasGender": true,
@@ -896,7 +896,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "210",
+    "LID": 210,
     "Glottocode": "wang1291",
     "Language": "Ngiyambaa",
     "HasGender": false,
@@ -904,7 +904,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "319",
+    "LID": 319,
     "Glottocode": "nyig1240",
     "Language": "Nyigina",
     "HasGender": false,
@@ -912,7 +912,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "405",
+    "LID": 405,
     "Glottocode": "wand1263",
     "Language": "Warndarang",
     "HasGender": true,
@@ -920,7 +920,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "408",
+    "LID": 408,
     "Glottocode": "west2443",
     "Language": "Wemba Wemba",
     "HasGender": false,
@@ -928,7 +928,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "416",
+    "LID": 416,
     "Glottocode": "yank1247",
     "Language": "Yankunytjara",
     "HasGender": false,
@@ -936,7 +936,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "50",
+    "LID": 50,
     "Glottocode": "chic1272",
     "Language": "Chichimec",
     "HasGender": false,
@@ -944,7 +944,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "55",
+    "LID": 55,
     "Glottocode": "high1242",
     "Language": "Chontal (Highland)",
     "HasGender": false,
@@ -952,7 +952,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "184",
+    "LID": 184,
     "Glottocode": "misk1235",
     "Language": "Miskito",
     "HasGender": false,
@@ -960,7 +960,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "186",
+    "LID": 186,
     "Glottocode": "sanm1295",
     "Language": "Mixtec (Chalcatongo)",
     "HasGender": false,
@@ -968,7 +968,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "27",
+    "LID": 27,
     "Glottocode": "atak1252",
     "Language": "Atakapa",
     "HasGender": false,
@@ -976,7 +976,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "53",
+    "LID": 53,
     "Glottocode": "chit1248",
     "Language": "Chitimacha",
     "HasGender": false,
@@ -984,7 +984,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "59",
+    "LID": 59,
     "Glottocode": "plai1258",
     "Language": "Cree (Plains)",
     "HasGender": true,
@@ -992,7 +992,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "135",
+    "LID": 135,
     "Glottocode": "koas1236",
     "Language": "Koasati",
     "HasGender": false,
@@ -1000,7 +1000,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "150",
+    "LID": 150,
     "Glottocode": "kute1249",
     "Language": "Kutenai",
     "HasGender": false,
@@ -1008,7 +1008,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "156",
+    "LID": 156,
     "Glottocode": "lako1247",
     "Language": "Lakhota",
     "HasGender": false,
@@ -1016,7 +1016,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "202",
+    "LID": 202,
     "Glottocode": "natc1249",
     "Language": "Natchez",
     "HasGender": false,
@@ -1024,7 +1024,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "208",
+    "LID": 208,
     "Glottocode": "nezp1238",
     "Language": "Nez Perce",
     "HasGender": false,
@@ -1032,7 +1032,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "354",
+    "LID": 354,
     "Glottocode": "nort2942",
     "Language": "Slave",
     "HasGender": false,
@@ -1040,7 +1040,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "377",
+    "LID": 377,
     "Glottocode": "timu1245",
     "Language": "Timucua",
     "HasGender": false,
@@ -1048,7 +1048,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "382",
+    "LID": 382,
     "Glottocode": "tonk1249",
     "Language": "Tonkawa",
     "HasGender": false,
@@ -1056,7 +1056,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "577",
+    "LID": 577,
     "Glottocode": "wich1260",
     "Language": "Wichita",
     "HasGender": false,
@@ -1064,7 +1064,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "422",
+    "LID": 422,
     "Glottocode": "yuch1247",
     "Language": "Yuchi",
     "HasGender": true,
@@ -1072,7 +1072,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "25",
+    "LID": 25,
     "Glottocode": "nucl1235",
     "Language": "Armenian (Eastern)",
     "HasGender": false,
@@ -1080,7 +1080,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "458",
+    "LID": 458,
     "Glottocode": "adyg1241",
     "Language": "Adyghe (West Circassian)",
     "HasGender": false,
@@ -1088,7 +1088,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "73",
+    "LID": 73,
     "Glottocode": "elam1244",
     "Language": "Elamite",
     "HasGender": true,
@@ -1096,7 +1096,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "464",
+    "LID": 464,
     "Glottocode": "mode1248",
     "Language": "Greek (modern)",
     "HasGender": true,
@@ -1104,7 +1104,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "100",
+    "LID": 100,
     "Glottocode": "hitt1242",
     "Language": "Hittite",
     "HasGender": true,
@@ -1112,7 +1112,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "107",
+    "LID": 107,
     "Glottocode": "hung1274",
     "Language": "Hungarian",
     "HasGender": false,
@@ -1120,7 +1120,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "435",
+    "LID": 435,
     "Glottocode": "iris1253",
     "Language": "Irish",
     "HasGender": true,
@@ -1128,7 +1128,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "456",
+    "LID": 456,
     "Glottocode": "west2369",
     "Language": "Persian",
     "HasGender": false,
@@ -1136,7 +1136,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "569",
+    "LID": 569,
     "Glottocode": "stan1288",
     "Language": "Spanish",
     "HasGender": true,
@@ -1144,7 +1144,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "360",
+    "LID": 360,
     "Glottocode": "sume1241",
     "Language": "Sumerian",
     "HasGender": true,
@@ -1152,7 +1152,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "12",
+    "LID": 12,
     "Glottocode": "ainu1240",
     "Language": "Ainu",
     "HasGender": false,
@@ -1160,7 +1160,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "18",
+    "LID": 18,
     "Glottocode": "aleu1260",
     "Language": "Aleut",
     "HasGender": false,
@@ -1168,7 +1168,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "56",
+    "LID": 56,
     "Glottocode": "chuk1273",
     "Language": "Chukchi",
     "HasGender": false,
@@ -1176,7 +1176,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "527",
+    "LID": 527,
     "Glottocode": "even1259",
     "Language": "Evenki",
     "HasGender": false,
@@ -1184,7 +1184,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "116",
+    "LID": 116,
     "Glottocode": "itel1242",
     "Language": "Itelmen",
     "HasGender": false,
@@ -1192,7 +1192,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "118",
+    "LID": 118,
     "Glottocode": "nucl1643",
     "Language": "Japanese",
     "HasGender": false,
@@ -1200,7 +1200,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "141",
+    "LID": 141,
     "Glottocode": "kore1280",
     "Language": "Korean",
     "HasGender": false,
@@ -1208,7 +1208,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "201",
+    "LID": 201,
     "Glottocode": "nana1257",
     "Language": "Nanai",
     "HasGender": false,
@@ -1216,7 +1216,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "205",
+    "LID": 205,
     "Glottocode": "nene1249",
     "Language": "Nenets (Tundra)",
     "HasGender": false,
@@ -1224,7 +1224,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "433",
+    "LID": 433,
     "Glottocode": "gily1242",
     "Language": "Nivkh",
     "HasGender": false,
@@ -1232,7 +1232,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "387",
+    "LID": 387,
     "Glottocode": "tuvi1240",
     "Language": "Tuva",
     "HasGender": false,
@@ -1240,7 +1240,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "612",
+    "LID": 612,
     "Glottocode": "cent2128",
     "Language": "Yup’ik (Siberian)",
     "HasGender": false,
@@ -1248,7 +1248,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "6",
+    "LID": 6,
     "Glottocode": "ambu1247",
     "Language": "Ambulas",
     "HasGender": true,
@@ -1256,7 +1256,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "20",
+    "LID": 20,
     "Glottocode": "amel1241",
     "Language": "Amele",
     "HasGender": false,
@@ -1264,7 +1264,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "28",
+    "LID": 28,
     "Glottocode": "awtu1239",
     "Language": "Awtuw",
     "HasGender": false,
@@ -1272,7 +1272,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "33",
+    "LID": 33,
     "Glottocode": "bauz1241",
     "Language": "Bauzi",
     "HasGender": false,
@@ -1280,7 +1280,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "38",
+    "LID": 38,
     "Glottocode": "kuni1265",
     "Language": "Boazi",
     "HasGender": true,
@@ -1288,7 +1288,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "103",
+    "LID": 103,
     "Glottocode": "yaga1260",
     "Language": "Hua",
     "HasGender": false,
@@ -1296,7 +1296,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "109",
+    "LID": 109,
     "Glottocode": "iauu1242",
     "Language": "Iau",
     "HasGender": false,
@@ -1304,7 +1304,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "126",
+    "LID": 126,
     "Glottocode": "kate1253",
     "Language": "Kâte",
     "HasGender": false,
@@ -1312,7 +1312,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "130",
+    "LID": 130,
     "Glottocode": "west2599",
     "Language": "Kewa",
     "HasGender": false,
@@ -1320,7 +1320,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "131",
+    "LID": 131,
     "Glottocode": "kima1246",
     "Language": "Kimaama",
     "HasGender": false,
@@ -1328,7 +1328,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "133",
+    "LID": 133,
     "Glottocode": "kiri1256",
     "Language": "Kirikiri",
     "HasGender": false,
@@ -1336,7 +1336,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "134",
+    "LID": 134,
     "Glottocode": "nort2930",
     "Language": "Kiwai",
     "HasGender": false,
@@ -1344,7 +1344,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "136",
+    "LID": 136,
     "Glottocode": "kobo1249",
     "Language": "Kobon",
     "HasGender": false,
@@ -1352,7 +1352,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "138",
+    "LID": 138,
     "Glottocode": "komb1274",
     "Language": "Kombai",
     "HasGender": false,
@@ -1360,7 +1360,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "140",
+    "LID": 140,
     "Glottocode": "rapo1238",
     "Language": "Konua",
     "HasGender": true,
@@ -1368,7 +1368,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "550",
+    "LID": 550,
     "Glottocode": "lavu1241",
     "Language": "Lavukaleve",
     "HasGender": true,
@@ -1376,7 +1376,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "211",
+    "LID": 211,
     "Glottocode": "ngka1235",
     "Language": "Ngkalmpw Knwme",
     "HasGender": false,
@@ -1384,7 +1384,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "345",
+    "LID": 345,
     "Glottocode": "salt1242",
     "Language": "Salt-Yui",
     "HasGender": false,
@@ -1392,7 +1392,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "350",
+    "LID": 350,
     "Glottocode": "nucl1632",
     "Language": "Sentani",
     "HasGender": false,
@@ -1400,7 +1400,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "358",
+    "LID": 358,
     "Glottocode": "suen1241",
     "Language": "Suena",
     "HasGender": false,
@@ -1408,7 +1408,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "359",
+    "LID": 359,
     "Glottocode": "sulk1246",
     "Language": "Sulka",
     "HasGender": false,
@@ -1416,7 +1416,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "367",
+    "LID": 367,
     "Glottocode": "tauy1241",
     "Language": "Tauya",
     "HasGender": false,
@@ -1424,7 +1424,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "369",
+    "LID": 369,
     "Glottocode": "tehi1237",
     "Language": "Tehit",
     "HasGender": true,
@@ -1432,7 +1432,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "370",
+    "LID": 370,
     "Glottocode": "tele1256",
     "Language": "Telefol",
     "HasGender": true,
@@ -1440,7 +1440,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "393",
+    "LID": 393,
     "Glottocode": "usan1239",
     "Language": "Usan",
     "HasGender": false,
@@ -1448,7 +1448,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "407",
+    "LID": 407,
     "Glottocode": "wask1241",
     "Language": "Waskia",
     "HasGender": false,
@@ -1456,7 +1456,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "415",
+    "LID": 415,
     "Glottocode": "nini1235",
     "Language": "retire_Yali",
     "HasGender": false,
@@ -1464,7 +1464,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "419",
+    "LID": 419,
     "Glottocode": "yess1239",
     "Language": "Yessan-Mayo",
     "HasGender": false,
@@ -1472,7 +1472,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "620",
+    "LID": 620,
     "Glottocode": "arao1248",
     "Language": "Araona",
     "HasGender": false,
@@ -1480,7 +1480,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "469",
+    "LID": 469,
     "Glottocode": "awac1239",
     "Language": "Awa Pit",
     "HasGender": false,
@@ -1488,7 +1488,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "514",
+    "LID": 514,
     "Glottocode": "cent2142",
     "Language": "Aymara",
     "HasGender": false,
@@ -1496,7 +1496,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "43",
+    "LID": 43,
     "Glottocode": "cane1242",
     "Language": "Canela-Krahô",
     "HasGender": false,
@@ -1504,7 +1504,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "47",
+    "LID": 47,
     "Glottocode": "cayu1262",
     "Language": "Cayuvava",
     "HasGender": false,
@@ -1512,7 +1512,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "599",
+    "LID": 599,
     "Glottocode": "chay1248",
     "Language": "Chayahuita",
     "HasGender": false,
@@ -1520,7 +1520,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "89",
+    "LID": 89,
     "Glottocode": "para1311",
     "Language": "Guaraní (Paraguayan)",
     "HasGender": false,
@@ -1528,7 +1528,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "92",
+    "LID": 92,
     "Glottocode": "puel1244",
     "Language": "Gününa-Küne",
     "HasGender": false,
@@ -1536,7 +1536,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "101",
+    "LID": 101,
     "Glottocode": "hixk1239",
     "Language": "Hixkaryana",
     "HasGender": false,
@@ -1544,7 +1544,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "104",
+    "LID": 104,
     "Glottocode": "hual1241",
     "Language": "Quechua (Huallaga)",
     "HasGender": false,
@@ -1552,7 +1552,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "176",
+    "LID": 176,
     "Glottocode": "mapu1245",
     "Language": "Mapudungun",
     "HasGender": false,
@@ -1560,7 +1560,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "180",
+    "LID": 180,
     "Glottocode": "wich1263",
     "Language": "Mataco",
     "HasGender": false,
@@ -1568,7 +1568,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "329",
+    "LID": 329,
     "Glottocode": "paum1247",
     "Language": "Paumarí",
     "HasGender": true,
@@ -1576,7 +1576,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "333",
+    "LID": 333,
     "Glottocode": "pira1253",
     "Language": "Pirahã",
     "HasGender": false,
@@ -1584,7 +1584,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "567",
+    "LID": 567,
     "Glottocode": "ship1254",
     "Language": "Shipibo-Konibo",
     "HasGender": false,
@@ -1592,7 +1592,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "352",
+    "LID": 352,
     "Glottocode": "shua1257",
     "Language": "Shuar",
     "HasGender": false,
@@ -1600,7 +1600,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "399",
+    "LID": 399,
     "Glottocode": "wara1303",
     "Language": "Warao",
     "HasGender": false,
@@ -1608,7 +1608,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "576",
+    "LID": 576,
     "Glottocode": "wari1268",
     "Language": "Wari",
     "HasGender": true,
@@ -1616,7 +1616,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "9",
+    "LID": 9,
     "Glottocode": "achi1257",
     "Language": "Acehnese",
     "HasGender": false,
@@ -1624,7 +1624,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "35",
+    "LID": 35,
     "Glottocode": "belh1239",
     "Language": "Belhare",
     "HasGender": false,
@@ -1632,7 +1632,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "463",
+    "LID": 463,
     "Glottocode": "nucl1310",
     "Language": "Burmese",
     "HasGender": false,
@@ -1640,7 +1640,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "44",
+    "LID": 44,
     "Glottocode": "carn1240",
     "Language": "Car",
     "HasGender": null,
@@ -1648,7 +1648,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "154",
+    "LID": 154,
     "Glottocode": "haka1240",
     "Language": "Hakka Lai",
     "HasGender": false,
@@ -1656,7 +1656,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "99",
+    "LID": 99,
     "Glottocode": "hind1269",
     "Language": "Hindi",
     "HasGender": true,
@@ -1664,7 +1664,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "500",
+    "LID": 500,
     "Glottocode": "hmon1264",
     "Language": "Hmong Njua",
     "HasGender": false,
@@ -1672,7 +1672,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "225",
+    "LID": 225,
     "Glottocode": "lahu1253",
     "Language": "Lahu",
     "HasGender": false,
@@ -1680,7 +1680,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "171",
+    "LID": 171,
     "Glottocode": "mand1415",
     "Language": "Mandarin",
     "HasGender": false,
@@ -1688,7 +1688,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "197",
+    "LID": 197,
     "Glottocode": "naha1261",
     "Language": "Nahali",
     "HasGender": false,
@@ -1696,7 +1696,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "327",
+    "LID": 327,
     "Glottocode": "paiw1248",
     "Language": "Paiwan",
     "HasGender": false,
@@ -1704,7 +1704,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "362",
+    "LID": 362,
     "Glottocode": "taga1270",
     "Language": "Tagalog",
     "HasGender": null,
@@ -1712,7 +1712,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "374",
+    "LID": 374,
     "Glottocode": "thai1261",
     "Language": "Thai",
     "HasGender": false,
@@ -1720,7 +1720,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "375",
+    "LID": 375,
     "Glottocode": "tibe1272",
     "Language": "Tibetan (Standard Spoken)",
     "HasGender": false,
@@ -1728,7 +1728,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "494",
+    "LID": 494,
     "Glottocode": "viet1252",
     "Language": "Vietnamese",
     "HasGender": false,
@@ -1736,7 +1736,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "51",
+    "LID": 51,
     "Glottocode": "chim1301",
     "Language": "Chimariko",
     "HasGender": false,
@@ -1744,7 +1744,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "63",
+    "LID": 63,
     "Glottocode": "kumi1248",
     "Language": "Diegueño",
     "HasGender": false,
@@ -1752,7 +1752,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "95",
+    "LID": 95,
     "Glottocode": "sout2956",
     "Language": "Haida",
     "HasGender": false,
@@ -1760,7 +1760,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "432",
+    "LID": 432,
     "Glottocode": "coos1249",
     "Language": "Hanis (Coos)",
     "HasGender": false,
@@ -1768,7 +1768,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "113",
+    "LID": 113,
     "Glottocode": "ines1240",
     "Language": "Ineseño",
     "HasGender": false,
@@ -1776,7 +1776,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "125",
+    "LID": 125,
     "Glottocode": "karo1304",
     "Language": "Karok",
     "HasGender": false,
@@ -1784,7 +1784,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "168",
+    "LID": 168,
     "Glottocode": "nort2952",
     "Language": "Maidu (Northeast)",
     "HasGender": false,
@@ -1792,7 +1792,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "317",
+    "LID": 317,
     "Glottocode": "nuuc1236",
     "Language": "Nuuchahnulth",
     "HasGender": null,
@@ -1800,7 +1800,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "72",
+    "LID": 72,
     "Glottocode": "east2545",
     "Language": "Pomo (Eastern)",
     "HasGender": false,
@@ -1808,7 +1808,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "338",
+    "LID": 338,
     "Glottocode": "quil1240",
     "Language": "Quileute",
     "HasGender": true,
@@ -1816,7 +1816,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "344",
+    "LID": 344,
     "Glottocode": "sali1253",
     "Language": "Salinan",
     "HasGender": false,
@@ -1824,7 +1824,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "351",
+    "LID": 351,
     "Glottocode": "shas1239",
     "Language": "Shasta",
     "HasGender": false,
@@ -1832,7 +1832,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "442",
+    "LID": 442,
     "Glottocode": "sius1254",
     "Language": "Siuslaw (Lower Umpqua)",
     "HasGender": false,
@@ -1840,7 +1840,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "356",
+    "LID": 356,
     "Glottocode": "sout2985",
     "Language": "Miwok (Southern Sierra)",
     "HasGender": false,
@@ -1848,7 +1848,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "357",
+    "LID": 357,
     "Glottocode": "squa1248",
     "Language": "Squamish",
     "HasGender": false,
@@ -1856,7 +1856,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "363",
+    "LID": 363,
     "Glottocode": "take1257",
     "Language": "Takelma",
     "HasGender": false,
@@ -1864,7 +1864,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "379",
+    "LID": 379,
     "Glottocode": "tlin1245",
     "Language": "Tlingit",
     "HasGender": false,
@@ -1872,7 +1872,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "398",
+    "LID": 398,
     "Glottocode": "wapp1239",
     "Language": "Wappo",
     "HasGender": false,
@@ -1880,7 +1880,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "406",
+    "LID": 406,
     "Glottocode": "wash1253",
     "Language": "Washo",
     "HasGender": false,
@@ -1888,7 +1888,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "418",
+    "LID": 418,
     "Glottocode": "yoku1256",
     "Language": "Yokuts (Yawelmani)",
     "HasGender": false,
@@ -1896,7 +1896,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "428",
+    "LID": 428,
     "Glottocode": "yuro1248",
     "Language": "Yurok",
     "HasGender": false,
@@ -1904,7 +1904,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "429",
+    "LID": 429,
     "Glottocode": "zuni1245",
     "Language": "Zuni",
     "HasGender": false,
@@ -1912,7 +1912,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "1739",
+    "LID": 1739,
     "Glottocode": "kusu1250",
     "Language": "Kusunda",
     "HasGender": false,
@@ -1920,7 +1920,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "1397",
+    "LID": 1397,
     "Glottocode": "ruka1240",
     "Language": "Rukai",
     "HasGender": false,
@@ -1928,7 +1928,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "1036",
+    "LID": 1036,
     "Glottocode": "siks1238",
     "Language": "Blackfoot",
     "HasGender": true,
@@ -1936,7 +1936,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "534",
+    "LID": 534,
     "Glottocode": "iraq1241",
     "Language": "Iraqw",
     "HasGender": true,
@@ -1944,7 +1944,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "2974",
+    "LID": 2974,
     "Glottocode": "mina1276",
     "Language": "Mina",
     "HasGender": false,
@@ -1952,7 +1952,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "15",
+    "LID": 15,
     "Glottocode": "akka1240",
     "Language": "Akkadian",
     "HasGender": true,
@@ -1960,7 +1960,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "606",
+    "LID": 606,
     "Glottocode": "naro1249",
     "Language": "Nharo",
     "HasGender": true,
@@ -1968,7 +1968,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "651",
+    "LID": 651,
     "Glottocode": "anii1246",
     "Language": "//Ani",
     "HasGender": true,
@@ -1976,7 +1976,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "385",
+    "LID": 385,
     "Glottocode": "shos1248",
     "Language": "Tümpisa Shoshone",
     "HasGender": false,
@@ -1984,7 +1984,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "412",
+    "LID": 412,
     "Glottocode": "wiyo1248",
     "Language": "Wiyot",
     "HasGender": false,
@@ -1992,7 +1992,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "1896",
+    "LID": 1896,
     "Glottocode": "lele1276",
     "Language": "Lele",
     "HasGender": true,
@@ -2000,7 +2000,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "177",
+    "LID": 177,
     "Glottocode": "marg1265",
     "Language": "Margi",
     "HasGender": false,
@@ -2008,7 +2008,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "649",
+    "LID": 649,
     "Glottocode": "jeri1242",
     "Language": "Jeli",
     "HasGender": false,
@@ -2016,7 +2016,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "305",
+    "LID": 305,
     "Glottocode": "izon1238",
     "Language": "Ijo",
     "HasGender": true,
@@ -2024,7 +2024,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "553",
+    "LID": 553,
     "Glottocode": "luva1239",
     "Language": "Luvale",
     "HasGender": true,
@@ -2032,7 +2032,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "466",
+    "LID": 466,
     "Glottocode": "sang1328",
     "Language": "Sango",
     "HasGender": true,
@@ -2040,7 +2040,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "497",
+    "LID": 497,
     "Glottocode": "supy1237",
     "Language": "Supyire",
     "HasGender": true,
@@ -2048,7 +2048,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "226",
+    "LID": 226,
     "Glottocode": "sgaw1245",
     "Language": "Karen (Sgaw)",
     "HasGender": false,
@@ -2056,7 +2056,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "459",
+    "LID": 459,
     "Glottocode": "isth1244",
     "Language": "Zapotec (Isthmus)",
     "HasGender": false,
@@ -2064,7 +2064,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "551",
+    "LID": 551,
     "Glottocode": "leal1235",
     "Language": "Chinantec (Lealao)",
     "HasGender": true,
@@ -2072,7 +2072,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "669",
+    "LID": 669,
     "Glottocode": "gras1249",
     "Language": "Koiari",
     "HasGender": false,
@@ -2080,7 +2080,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "61",
+    "LID": 61,
     "Glottocode": "lowe1415",
     "Language": "Dani (Lower Grand Valley)",
     "HasGender": false,
@@ -2088,7 +2088,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "505",
+    "LID": 505,
     "Glottocode": "daga1275",
     "Language": "Daga",
     "HasGender": false,
@@ -2096,7 +2096,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "404",
+    "LID": 404,
     "Glottocode": "warl1254",
     "Language": "Warlpiri",
     "HasGender": false,
@@ -2104,7 +2104,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "159",
+    "LID": 159,
     "Glottocode": "lang1324",
     "Language": "Lango",
     "HasGender": false,
@@ -2112,7 +2112,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "1828",
+    "LID": 1828,
     "Glottocode": "kuot1243",
     "Language": "Kuot",
     "HasGender": true,
@@ -2120,7 +2120,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "512",
+    "LID": 512,
     "Glottocode": "apur1254",
     "Language": "Apurina",
     "HasGender": true,
@@ -2128,7 +2128,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "400",
+    "LID": 400,
     "Glottocode": "wara1290",
     "Language": "Waray",
     "HasGender": true,
@@ -2136,7 +2136,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "2469",
+    "LID": 2469,
     "Glottocode": "soqo1240",
     "Language": "Soqotri",
     "HasGender": true,
@@ -2144,7 +2144,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "564",
+    "LID": 564,
     "Glottocode": "rapa1244",
     "Language": "Rapanui",
     "HasGender": false,
@@ -2152,7 +2152,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "558",
+    "LID": 558,
     "Glottocode": "mund1320",
     "Language": "Mundari",
     "HasGender": true,
@@ -2160,7 +2160,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "535",
+    "LID": 535,
     "Glottocode": "nucl1305",
     "Language": "Kannada",
     "HasGender": true,
@@ -2168,7 +2168,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "566",
+    "LID": 566,
     "Glottocode": "seme1247",
     "Language": "Semelai",
     "HasGender": false,
@@ -2176,15 +2176,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "656",
-    "Glottocode": "koro1312",
-    "Language": "Korowai",
-    "HasGender": false,
-    "GenderCount": null,
-    "GenderCountBinned4": null
-  },
-  {
-    "LID": "77",
+    "LID": 77,
     "Glottocode": "fiji1243",
     "Language": "Fijian (Boumaa)",
     "HasGender": false,
@@ -2192,7 +2184,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "645",
+    "LID": 645,
     "Glottocode": "hata1243",
     "Language": "Hatam",
     "HasGender": false,
@@ -2200,7 +2192,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "112",
+    "LID": 112,
     "Glottocode": "imon1245",
     "Language": "Imonda",
     "HasGender": false,
@@ -2208,15 +2200,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "454",
-    "Glottocode": "rama1270",
-    "Language": "Rama",
-    "HasGender": false,
-    "GenderCount": null,
-    "GenderCountBinned4": null
-  },
-  {
-    "LID": "498",
+    "LID": 498,
     "Glottocode": "mezq1235",
     "Language": "Otomi (Mezquital)",
     "HasGender": false,
@@ -2224,7 +2208,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "391",
+    "LID": 391,
     "Glottocode": "urad1238",
     "Language": "Uradhi",
     "HasGender": false,
@@ -2232,7 +2216,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "515",
+    "LID": 515,
     "Glottocode": "bagi1246",
     "Language": "Bagirmi",
     "HasGender": false,
@@ -2240,7 +2224,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "654",
+    "LID": 654,
     "Glottocode": "nisg1240",
     "Language": "Nisgha",
     "HasGender": false,
@@ -2248,7 +2232,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "326",
+    "LID": 326,
     "Glottocode": "paez1247",
     "Language": "Paez",
     "HasGender": false,
@@ -2256,7 +2240,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "492",
+    "LID": 492,
     "Glottocode": "copa1236",
     "Language": "Zoque (Copainalá)",
     "HasGender": false,
@@ -2264,7 +2248,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "2987",
+    "LID": 2987,
     "Glottocode": "jams1239",
     "Language": "Dogon (Jamsay)",
     "HasGender": false,
@@ -2272,7 +2256,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "502",
+    "LID": 502,
     "Glottocode": "nucl1301",
     "Language": "Turkish",
     "HasGender": false,
@@ -2280,7 +2264,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "666",
+    "LID": 666,
     "Glottocode": "coah1252",
     "Language": "Coahuiltec",
     "HasGender": false,
@@ -2288,7 +2272,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "518",
+    "LID": 518,
     "Glottocode": "brah1256",
     "Language": "Brahui",
     "HasGender": false,
@@ -2296,7 +2280,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "538",
+    "LID": 538,
     "Glottocode": "east2342",
     "Language": "Kayah Li (Eastern)",
     "HasGender": false,
@@ -2304,7 +2288,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "646",
+    "LID": 646,
     "Glottocode": "xokl1240",
     "Language": "Xokleng",
     "HasGender": false,
@@ -2312,7 +2296,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "454",
+    "LID": 454,
     "Glottocode": "rama1270",
     "Language": "Rama",
     "HasGender": false,
@@ -2320,7 +2304,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "383",
+    "LID": 383,
     "Glottocode": "trum1247",
     "Language": "Trumaí",
     "HasGender": false,
@@ -2328,7 +2312,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "1625",
+    "LID": 1625,
     "Glottocode": "sanm1287",
     "Language": "Huave (San Mateo del Mar)",
     "HasGender": false,
@@ -2336,7 +2320,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "582",
+    "LID": 582,
     "Glottocode": "abip1241",
     "Language": "Abipon",
     "HasGender": false,
@@ -2344,7 +2328,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "26",
+    "LID": 26,
     "Glottocode": "casu1237",
     "Language": "Asmat",
     "HasGender": false,
@@ -2352,7 +2336,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "414",
+    "LID": 414,
     "Glottocode": "yagu1244",
     "Language": "Yagua",
     "HasGender": false,
@@ -2360,7 +2344,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "655",
+    "LID": 655,
     "Glottocode": "gunw1252",
     "Language": "Mayali",
     "HasGender": true,
@@ -2368,7 +2352,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "66",
+    "LID": 66,
     "Glottocode": "dhuw1249",
     "Language": "Djapu",
     "HasGender": false,
@@ -2376,7 +2360,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "82",
+    "LID": 82,
     "Glottocode": "gaga1251",
     "Language": "Gaagudju",
     "HasGender": true,
@@ -2384,7 +2368,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "207",
+    "LID": 207,
     "Glottocode": "nara1262",
     "Language": "Nera",
     "HasGender": false,
@@ -2392,7 +2376,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "397",
+    "LID": 397,
     "Glottocode": "waor1240",
     "Language": "Waorani",
     "HasGender": false,
@@ -2400,7 +2384,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "526",
+    "LID": 526,
     "Glottocode": "epen1239",
     "Language": "Epena Pedee",
     "HasGender": false,
@@ -2408,7 +2392,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "493",
+    "LID": 493,
     "Glottocode": "bara1380",
     "Language": "Barasano",
     "HasGender": true,
@@ -2416,7 +2400,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "656",
+    "LID": 656,
     "Glottocode": "koro1312",
     "Language": "Korowai",
     "HasGender": false,
@@ -2424,7 +2408,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "528",
+    "LID": 528,
     "Glottocode": "garo1247",
     "Language": "Garo",
     "HasGender": false,
@@ -2432,7 +2416,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "501",
+    "LID": 501,
     "Glottocode": "mani1292",
     "Language": "Meithei",
     "HasGender": false,
@@ -2440,7 +2424,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "223",
+    "LID": 223,
     "Glottocode": "sout2729",
     "Language": "Pumi",
     "HasGender": false,
@@ -2448,7 +2432,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "664",
+    "LID": 664,
     "Glottocode": "west2420",
     "Language": "Kham",
     "HasGender": false,
@@ -2456,7 +2440,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "663",
+    "LID": 663,
     "Glottocode": "drun1238",
     "Language": "Drung",
     "HasGender": false,
@@ -2464,7 +2448,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "540",
+    "LID": 540,
     "Glottocode": "khas1269",
     "Language": "Khasi",
     "HasGender": true,
@@ -2472,7 +2456,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "503",
+    "LID": 503,
     "Glottocode": "yaqu1251",
     "Language": "Yaqui",
     "HasGender": false,
@@ -2480,7 +2464,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "660",
+    "LID": 660,
     "Glottocode": "band1339",
     "Language": "Bandjalang",
     "HasGender": true,
@@ -2488,7 +2472,7 @@
     "GenderCountBinned4": "more"
   },
   {
-    "LID": "565",
+    "LID": 565,
     "Glottocode": "onaa1245",
     "Language": "Selknam",
     "HasGender": true,
@@ -2496,7 +2480,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "192",
+    "LID": 192,
     "Glottocode": "movi1243",
     "Language": "Movima",
     "HasGender": true,
@@ -2504,7 +2488,7 @@
     "GenderCountBinned4": "3"
   },
   {
-    "LID": "212",
+    "LID": 212,
     "Glottocode": "nucl1633",
     "Language": "Nimboran",
     "HasGender": null,
@@ -2512,7 +2496,7 @@
     "GenderCountBinned4": "2"
   },
   {
-    "LID": "106",
+    "LID": 106,
     "Glottocode": "sand1278",
     "Language": "Huave",
     "HasGender": false,
@@ -2520,7 +2504,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "2260",
+    "LID": 2260,
     "Glottocode": "ixte1237",
     "Language": "Otomí (Ixtenco)",
     "HasGender": false,
@@ -2528,7 +2512,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "578",
+    "LID": 578,
     "Glottocode": "muru1274",
     "Language": "Witoto",
     "HasGender": false,
@@ -2536,7 +2520,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "2797",
+    "LID": 2797,
     "Glottocode": "sout2750",
     "Language": "Yukagir (Kolyma)",
     "HasGender": false,
@@ -2544,7 +2528,7 @@
     "GenderCountBinned4": null
   },
   {
-    "LID": "3101",
+    "LID": 3101,
     "Glottocode": "assy1241",
     "Language": "Neo-Aramaic (Barwar)",
     "HasGender": true,
