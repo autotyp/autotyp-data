@@ -1,4 +1,18 @@
-# AUTOTYP (in progress)
+# AUTOTYP 1.0.1
+
+This is a bugfix release that focuses on JSON output and improving metadata for variables of type
+value list. Notable changes:
+
+- improved JSON output
+- improved and corrected the metadata for multiple variables of the type value list
+- improved the bibliography data, added Glottolog language and reference IDs (many thanks to 
+  Robert Forkel for doing this work)
+- minor data fixes (duplicate entries in datasets `Alienability`, `Gender` and `NumeralClassifiers`)
+
+Many thanks to Robert Forkel for reporting most of these issues and cleaning up the bibliography 
+files!
+
+Detailed changes:
 
 - Fixed the DOI badge (now points to last released version 1.0.0)
 - Added data type `logical` to the list of valid variable types
@@ -13,6 +27,9 @@
 - Removed duplicate data entries from `Alienability`
 - Removed duplicate data entries from `Gender`
 - Removed duplicate data entries from `NumeralClassifiers`
+- Added maps illustrating the geographical breakdown (by continent and area)
+- improved the bibliography data, added Glottolog language and reference IDs (many thanks to 
+  Robert Forkel for doing this work)
 - Multiple metadata fixes:
   - Added value list descriptions for `PhonologicalFusion::FusionBinned6` and all variables that 
     rely on it (such as `GrammaticalMarkers::MarkerFusionBinned6`)
@@ -35,7 +52,7 @@
   - Fixed the value list description for `ClauseWordOrder::WordOrderAPLex`
   - Fixed the value list description for `SemanticClass::SemanticClassBinned`
   - Removed invalid values from `GrammaticalRelationsRaw::SelectedArguments::SemanticCondition`
-  - Fixed the value list descriptionb for `Register::OriginContinent`
+  - Fixed the value list description for `Register::OriginContinent`
   - Computed variables in `GrammaticalMarkersPerLanguage` now have correct value list metadata
   - Computed variables in `LocusOfMarkingPerLanguage` now have correct value list metadata
   - Computed variables `MorphologyPerLanguage::HasAny*` are now correctly annotated as logical
