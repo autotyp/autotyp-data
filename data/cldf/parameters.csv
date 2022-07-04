@@ -147,9 +147,15 @@ Unique ID of the argument selector (grammatical relation) — specific morphosyn
 A short label that can be used to informally refer to the specific argument selector (grammatical relation), usually a traditional grammatical description such as ""nominative case marking"".
 A (cross-linguistic) morphosyntactic pattern type that encompasses multiple specific argument selectors and organises them into groups such as dependent marking selectors (i.e. in- dividual case and adposition markers). This is the type of the grammatical relation. Alignment patterns arise from comparing argument selectors that belong to the same group (e.g. ""nominative/accusative case marking alignment"" implies that there are two selectors of dependent marking type, one of which selects roles S and A and another selects the role P). See Witzlack 2011.  Typological variation in grammatical relations for more information.
 A (cross-linguistic) morphosyntactic pattern type that encompasses multiple specific argument selectors and organises them into groups such as dependent marking selectors, binned into broader categories.
+A (cross-linguistic) morphosyntactic pattern type that encompasses multiple specific argument selectors and organises them into groups such as dependent marking selectors, binned into four broad categories: head or dependent marking, diathesis and syntactic constraints.
+Is the grammatical relation overtly coded (involving an overt marker).
+Locus of marking, if applicable
+Does the grammatical relation operate within the clause (e.g. case, normal agreement) or cross-clausaly (cross-clausal agreement, diff. types of coreference, switch-reference etc.)?
+Does the grammatical relation describe the controller or the controllee of a coreference collector?
+Treatment of the argument under coreference (e.g. deleted, gapped, etc)
 Flag indicating whether the data survey for this argument selector ( grammatical relation) is considered reliable.
 Unique ID of the marker associated with this argument selector (if any)
-A list of generalized semantic roles and the conditions under which they are selected by this argument selector.",GrammaticalRelations,,manual data entry,table,10,"""json""",true,true,GrammaticalRelationsRaw
+A list of generalized semantic roles and the conditions under which they are selected by this argument selector.",GrammaticalRelations,,manual data entry,table,16,"""json""",true,true,GrammaticalRelationsRaw
 67,LocusOfMarkingPerMicrorelation,"Locus of marking (head vs. dependent marking and various special cases) coded at a fine-grained level, tracking language-internal variation in detail. Expanded version of Nichols and Bickel's chapters on Locus in the World Atlas of Language Structure.
 
 Unique language ID
@@ -212,8 +218,8 @@ Language name
 Overall type of exponence in verbal inflection, determined by comparing the number of formatives and the number of categories they express (inflection defined as in Bickel & Nichols 2007 in T. Shopen [ed.], Language Typology and Syntactic Description. CUP)
 Number of categories (including agreement) expressed in maximally inflected verb form ('inflection' as defined in Bickel & Nichols 2007 in T. Shopen [ed.], Language Typology and Syntactic Description. CUP)
 Number of categories (excluding agreement) expressed in maximally inflected verb form ('inflection' as defined in Bickel & Nichols 2007 in T. Shopen [ed.], Language Typology and Syntactic Description. CUP)
-Number of categories (including agreement) expressed in maximally inflected verb form ('inflection' as defined in Bickel & Nichols 2007 in Shopen, T. [ed.] Language Typology and Syntactic Description. CUP)
-Number of categories (excluding agreement) expressed in maximally inflected verb form ('inflection' as defined in Bickel & Nichols 2007 in Shopen, T. [ed.] Language Typology and Syntactic Description. CUP)
+Number of formatives (including agreement) expressed in maximally inflected verb form ('inflection' as defined in Bickel & Nichols 2007 in Shopen, T. [ed.] Language Typology and Syntactic Description. CUP)
+Number of formatives (excluding agreement) expressed in maximally inflected verb form ('inflection' as defined in Bickel & Nichols 2007 in Shopen, T. [ed.] Language Typology and Syntactic Description. CUP)
 Verbs have bipartite stems (in the sense of Bickel & Nichols 2007. In Shopen, T. [ed.] Language Typology and Syntactic Description. CUP)
 Syntactic coherence of verb forms (as opposed to separable particles, preverbs etc.)
 Comments on Syntactic coherence of verb forms
@@ -283,9 +289,16 @@ Unique language ID
 Glottolog ID
 In this database a language is actually a dialect or variety, in that individual dialects are entered as languages. That is, each language has its own ID number (the 'LID') distinct from that of the pan-dialectal language:e.g. LID 87 German, 1227 Upper Austrian German, 1295 Berlin German, 1310 Zürich German, 2845 Old High German, etc. (The pan-dialectal language is identified as the lowest taxonomic level, the `dialect group', but this information is incomplete in many areas and has not been included in the current release.) The general criterion for a separate language record in the database is that it has a distinct property in at least one of the typological variables that we survey; this may or may not coincide with sociolinguistic criteria.
 Unique ID of the argument selector (grammatical relation) — specific morphosyntactic pattern that selects/aligns arguments.
-Unique ID of the marker associated with this argument selector (if any)
-A (cross-linguistic) morphosyntactic pattern type that encompasses multiple specific argument selectors and organises them into groups such as dependent marking selectors (i.e. in- dividual case and adposition markers). This is the type of the grammatical relation. Alignment patterns arise from comparing argument selectors that belong to the same group (e.g. ""nominative/accusative case marking alignment"" implies that there are two selectors of dependent marking type, one of which selects roles S and A and another selects the role P). See Witzlack 2011.  Typological variation in grammatical relations for more information.
 A short label that can be used to informally refer to the specific argument selector (grammatical relation), usually a traditional grammatical description such as ""nominative case marking"".
+A (cross-linguistic) morphosyntactic pattern type that encompasses multiple specific argument selectors and organises them into groups such as dependent marking selectors (i.e. in- dividual case and adposition markers). This is the type of the grammatical relation. Alignment patterns arise from comparing argument selectors that belong to the same group (e.g. ""nominative/accusative case marking alignment"" implies that there are two selectors of dependent marking type, one of which selects roles S and A and another selects the role P). See Witzlack 2011.  Typological variation in grammatical relations for more information.
+A (cross-linguistic) morphosyntactic pattern type that encompasses multiple specific argument selectors and organises them into groups such as dependent marking selectors, binned into broader categories.
+A (cross-linguistic) morphosyntactic pattern type that encompasses multiple specific argument selectors and organises them into groups such as dependent marking selectors, binned into four broad categories: head or dependent marking, diathesis and syntactic constraints.
+Unique ID of the marker associated with this argument selector (if any)
+Is the grammatical relation overtly coded (involving an overt marker).
+Locus of marking, if applicable
+Does the grammatical relation operate within the clause (e.g. case, normal agreement) or cross-clausaly (cross-clausal agreement, diff. types of coreference, switch-reference etc.)?
+Does the grammatical relation describe the controller or the controllee of a coreference collector?
+Treatment of the argument under coreference (e.g. deleted, gapped, etc)
 The referential or part of speech category that conditions whether the selector selects the role. Note: language-specific conditions end with an LID.
 Refrential condition on the Atr coargument
 Refrential condition on the P coargument
@@ -295,7 +308,7 @@ The clause rank (main vs. dependent) that conditions whether the role is selecte
 The category that conditions whether the role is selected. Language-specific conditions begin with an LID.
 The syntactic domain in which the selector is active. If there is a condition, this is coded by a language-specific entry, e.g. ""3024_NTOP"", which refers to the syntactic domain that excludes the topic position in the language with LID 3024.
 The polarity that conditions whether the role is selected
-Selected generalized semantic roles",GrammaticalRelations,,computed data (aggregation-scripts/Alignment.R),table,17,"""json""",true,true,GrammaticalRelations
+Selected generalized semantic roles",GrammaticalRelations,,computed data (aggregation-scripts/Alignment.R),table,24,"""json""",true,true,GrammaticalRelations
 103,Alignment,"Computed alignments for case and agreement (syntactic and per-marker)
 
 Unique language ID

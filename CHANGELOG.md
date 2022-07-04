@@ -1,3 +1,20 @@
+# AUTOTYP 1.1.0
+
+The main new feature of this release is the addition of CLDF export using code contributed by 
+Robert Forkel. We are very thankful to Robert for his work without which this would have not 
+been possible. The detailed list of changes is as follows:
+
+- CLDF export is now available in `data/cldf`
+- Additional properties of grammatical relations are added to `GrammaticalRelationsRaw` 
+  and `GrammaticalRelations`:
+  - `SelectorTypeBinned4` (grammatical relation macrotype)
+  - `IsOvertlyCoded` (whether the GR is overtly coded)
+  - `SelectorLocusOfMarking`
+  - `SelectorClauseScope` (does the GR operate within a clause or across multiple clauses)
+  - `CoreferenceControllerOrControllee`
+  - `CoreferenceArgumentTreatment` (treatment of arguments under coreference in the GR)
+- Fixed some issues in the documentation ( #44)
+
 # AUTOTYP 1.0.1
 
 This is a bugfix release that focuses on JSON output and improving metadata for variables of type

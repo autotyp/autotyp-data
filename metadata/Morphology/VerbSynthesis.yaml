@@ -73,7 +73,7 @@ fields:
 
   VerbInflectionMaxFormativeCount:
     description: >-
-      Number of categories (including agreement) expressed in maximally
+      Number of formatives (including agreement) expressed in maximally
       inflected verb form ('inflection' as defined in Bickel & Nichols 2007 in
       Shopen, T. [ed.] Language Typology and Syntactic Description. CUP)
     kind: manual data entry
@@ -82,7 +82,7 @@ fields:
 
   VerbInflectionMaxFormativeSansAgreementCount:
     description: >-
-      Number of categories (excluding agreement) expressed in maximally
+      Number of formatives (excluding agreement) expressed in maximally
       inflected verb form ('inflection' as defined in Bickel & Nichols 2007 in
       Shopen, T. [ed.] Language Typology and Syntactic Description. CUP)
     kind: manual data entry

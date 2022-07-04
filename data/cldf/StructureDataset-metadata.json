@@ -11,7 +11,7 @@
         {
             "rdf:about": "new-autotyp-preview",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0.1-1-g1d0af14",
+            "dc:created": "v1.0.1-2-gac3a5ca",
             "dc:title": "Repository"
         },
         {
@@ -23,7 +23,7 @@
         {
             "rdf:about": "new-autotyp-preview",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0.1-1-g1d0af14",
+            "dc:created": "v1.0.1-2-gac3a5ca",
             "dc:title": "Repository"
         }
     ],

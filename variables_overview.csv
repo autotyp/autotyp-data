@@ -154,6 +154,12 @@ GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectorID,manual entry,,in
 GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectorLabel,manual entry,,comment,1
 GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectorType,manual entry,,string,1
 GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectorTypeBinned,manual entry,,value-list,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectorTypeBinned4,manual entry,,value-list,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,IsOvertlyCoded,manual entry,,logical,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectorLocusOfMarking,manual entry,,value-list,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectorClauseScope,manual entry,,value-list,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,CoreferenceControllerOrControllee,manual entry,,value-list,1
+GrammaticalRelationsRaw,primary,GrammaticalRelations,CoreferenceArgumentTreatment,manual entry,,value-list,1
 GrammaticalRelationsRaw,primary,GrammaticalRelations,IsSelectorSurveyComplete,manual entry,,logical,1
 GrammaticalRelationsRaw,primary,GrammaticalRelations,MarkerID,manual entry,,integer,1
 GrammaticalRelationsRaw,primary,GrammaticalRelations,SelectedArguments$SelectedRole,manual entry,,value-list,1
@@ -335,9 +341,16 @@ GrammaticalRelations,derived,GrammaticalRelations,LID,manual entry,,integer,1
 GrammaticalRelations,derived,GrammaticalRelations,Glottocode,manual entry,,string,1
 GrammaticalRelations,derived,GrammaticalRelations,Language,manual entry,,string,1
 GrammaticalRelations,derived,GrammaticalRelations,SelectorID,manual entry,,integer,1
-GrammaticalRelations,derived,GrammaticalRelations,MarkerID,manual entry,,integer,1
-GrammaticalRelations,derived,GrammaticalRelations,SelectorType,manual entry,,string,1
 GrammaticalRelations,derived,GrammaticalRelations,SelectorLabel,manual entry,,comment,1
+GrammaticalRelations,derived,GrammaticalRelations,SelectorType,manual entry,,string,1
+GrammaticalRelations,derived,GrammaticalRelations,SelectorTypeBinned,manual entry,,value-list,1
+GrammaticalRelations,derived,GrammaticalRelations,SelectorTypeBinned4,manual entry,,value-list,1
+GrammaticalRelations,derived,GrammaticalRelations,MarkerID,manual entry,,integer,1
+GrammaticalRelations,derived,GrammaticalRelations,IsOvertlyCoded,manual entry,,logical,1
+GrammaticalRelations,derived,GrammaticalRelations,SelectorLocusOfMarking,manual entry,,value-list,1
+GrammaticalRelations,derived,GrammaticalRelations,SelectorClauseScope,manual entry,,value-list,1
+GrammaticalRelations,derived,GrammaticalRelations,CoreferenceControllerOrControllee,manual entry,,value-list,1
+GrammaticalRelations,derived,GrammaticalRelations,CoreferenceArgumentTreatment,manual entry,,value-list,1
 GrammaticalRelations,derived,GrammaticalRelations,ReferentialCondition,manual entry,,value-list,1
 GrammaticalRelations,derived,GrammaticalRelations,CoargumentAtr,computed,,value-list,1
 GrammaticalRelations,derived,GrammaticalRelations,CoargumentP,computed,,value-list,1
@@ -734,14 +747,14 @@ NPStructurePresence,derived,NP,NPMarkerSourceIsAssign,computed,,logical,1
 NPStructurePresence,derived,NP,NPMarkerSourceIsBothAssignAndAgree,computed,,logical,1
 NPStructurePresence,derived,NP,NPMarkerSourceIsCaseAssignedGenderAgrees,computed,,logical,1
 NPStructurePresence,derived,NP,NPMarkerSourceIsFree,computed,,logical,1
-NPStructurePresence,derived,NP,NPMarkerTypeIsConstrainedToFormative,computed,,logical,1
 NPStructurePresence,derived,NP,NPMarkerTypeIsConstrainedToPoSWd,computed,,logical,1
+NPStructurePresence,derived,NP,NPMarkerTypeIsConstrainedToFormative,computed,,logical,1
 NPStructurePresence,derived,NP,NPLocusOfMarkingIsD,computed,,logical,1
-NPStructurePresence,derived,NP,NPLocusOfMarkingIsdonh,computed,,logical,1
 NPStructurePresence,derived,NP,NPLocusOfMarkingIsDonH,computed,,logical,1
 NPStructurePresence,derived,NP,NPLocusOfMarkingIsF,computed,,logical,1
 NPStructurePresence,derived,NP,NPLocusOfMarkingIsH,computed,,logical,1
 NPStructurePresence,derived,NP,NPLocusOfMarkingIsP,computed,,logical,1
+NPStructurePresence,derived,NP,NPLocusOfMarkingIsdonh,computed,,logical,1
 NPStructurePresence,derived,NP,NPLocusOfMarkingBinned6IsD,computed,,logical,1
 NPStructurePresence,derived,NP,NPLocusOfMarkingBinned6IsDonH,computed,,logical,1
 NPStructurePresence,derived,NP,NPLocusOfMarkingBinned6IsF,computed,,logical,1

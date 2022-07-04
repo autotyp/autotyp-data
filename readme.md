@@ -1,11 +1,11 @@
-# The AUTOTYP database v1.0.1
+# The AUTOTYP database v1.1.0
 
 > Balthasar Bickel, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, 
 > Kristine Hildebrandt, Michael Rießler, Lennart Bierkandt, Fernando Zúñiga and John B. Lowe
 
 ---
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6255206.svg)](https://doi.org/10.5281/zenodo.6255206)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6793367.svg)](https://doi.org/10.5281/zenodo.6793367)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 This work is licensed under a Creative Commons Attribution 4.0 International License
@@ -21,6 +21,7 @@ provided using a variety of formats:
 - An R workspace file `data/autotyp.RData` for convenient import into R
 - A series of JSON files in `data/json` for use with other processing environments (e.g. Python)
 - A series of CSV files in `data/csv` for quick visual exploration or use with a spreadsheet tool
+- A CLDF dataset in `data/cldf` (CLDF export code contributed by Robert Forkel)
 
 Human-readable descriptions of the datasets in [`YAML`](https://en.wikipedia.org/wiki/YAML) format 
 are located in `metadata` and are organized according to the module (see 
@@ -54,6 +55,8 @@ value per cell, with outer rows replicated — see
 
 #### Example usage with Python
 
+Using the JSON dataset:
+
 ```python
   import json
 
@@ -63,6 +66,13 @@ value per cell, with outer rows replicated — see
   
   # inspect the first record
   print(register_data[0])
+```
+
+Using the CLDF dataset:
+
+```python
+from pycldf import Dataset
+autotyp = Dataset.from_metadata("data/cldf/StructureDataset-metadata.json")
 ```
 
 ## General design principles
@@ -256,21 +266,21 @@ Detailed list of datasets is available in the [overview of available datasets](d
 The current release includes over 260 primary 
 (hand-entered) typological variables (not counting auxiliary variables, comments, bookkeeping and
 recodings) that describe 1,220 languages over 
-approximately 260,000 data points. Together with the 
-derived (aggregated) data, we provide over 1,700,000 data points. 
+approximately 280,000 data points. Together with the 
+derived (aggregated) data, we provide over 1,900,000 data points. 
 The following table breaks down the data coverage per AUTOTYP module:
 
 
 |Module               | Primary variables| Derived variables| Number of languages covered|Number of primary typological datapoints |
 |:--------------------|-----------------:|-----------------:|---------------------------:|:----------------------------------------|
 |Categories           |                14|                 7|                         505|~4,000                                   |
-|GrammaticalRelations |                51|               111|                         812|~90,000                                  |
+|GrammaticalRelations |                64|               111|                         812|~110,000                                 |
 |Morphology           |                51|               248|                         999|~110,000                                 |
 |NP                   |                13|               121|                         485|~9,000                                   |
 |Sentence             |                47|                 0|                         468|~8,000                                   |
 |Word                 |                36|                 3|                          76|~25,000                                  |
 |                     |                  |                  |                            |                                         |
-|Total                |               278|               970|                        1166|~260,000                                 |
+|Total                |               291|               970|                        1166|~280,000                                 |
 
 The following map shows how the primary data are distributed over the world. Points are sized in 
 proportion to the number of primary typological variables available for each language
@@ -324,7 +334,7 @@ Please use the AUTOTYP database issue tracker at
 
 Bickel, Balthasar, Nichols, Johanna, Zakharko, Taras, Witzlack-Makarevich, Alena, Hildebrandt, 
 Kristine, Rießler, Michael, Bierkandt, Lennart, Zúñiga, Fernando & Lowe, John B.
-2022. The AUTOTYP database (v1.0.1). https://doi.org/10.5281/zenodo.6255206
+2022. The AUTOTYP database (v1.1.0). https://doi.org/10.5281/zenodo.6793367
 
 ```bibtex
 @misc{AUTOTYP,
@@ -339,9 +349,9 @@ Kristine, Rießler, Michael, Bierkandt, Lennart, Zúñiga, Fernando & Lowe, John
     Zúñiga, Fernando and 
     Lowe, John B
   },
-  doi = {10.5281/zenodo.6255206},
-  title = {The AUTOTYP database (v1.0.1)},
-  url = {https://doi.org/10.5281/zenodo.6255206},
+  doi = {10.5281/zenodo.6793367},
+  title = {The AUTOTYP database (v1.1.0)},
+  url = {https://doi.org/10.5281/zenodo.6793367},
   year = {2022}
 }
 ```

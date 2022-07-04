@@ -11,7 +11,7 @@ kind: manual data entry
 data: table
 counts:
   n_languages: 799
-  n_variables: 16
+  n_variables: 22
 fields: 
   LID:
     description: >-
@@ -91,6 +91,192 @@ fields:
       "position": >-
         Position
   # -- end of SelectorTypeBinned
+
+  SelectorTypeBinned4:
+    description: >-
+      A (cross-linguistic) morphosyntactic pattern type that encompasses
+      multiple specific argument selectors and organises them into groups such
+      as dependent marking selectors, binned into four broad categories: head or
+      dependent marking, diathesis and syntactic constraints.
+    kind: manual data entry
+    data: value-list
+    values: 
+      "head marker": >-
+        Head-marking grammatical relation
+      "dependent marker": >-
+        Dependent-marking grammatical relation
+      "diathesis": >-
+        Diathesis-type grammatical relation
+      "syntactic constraint": >-
+        Grammatical relation involving a syntactic constraint
+  # -- end of SelectorTypeBinned4
+
+  IsOvertlyCoded:
+    description: >-
+      Is the grammatical relation overtly coded (involving an overt marker).
+    kind: manual data entry
+    data: logical
+  # -- end of IsOvertlyCoded
+
+  SelectorLocusOfMarking:
+    description: >-
+      Locus of marking, if applicable
+    kind: manual data entry
+    data: value-list
+    values: 
+      "H": >-
+        On head.
+      "D": >-
+        On dependent. For zero formative on dependent, code as Ø.
+      "H+D": >-
+        Simultaneously (or mostly simultaneously) on head and dependent
+      "F": >-
+        Free or floating, including particles or similar in phrase-second position
+        (Wackernagel position), e.g. Tagalog ‘linkers’
+      "F+D": >-
+        Simultaneously (or mostly simultaneously) detached and on dependent (e.g. an
+        argument role is marked by both a Wackernagel agreement clitic and case)
+      "P": >-
+        The relation is marked by position (word or morpheme order).
+      "h+D": >-
+        Dependent marking is dominant. Additional head marking with some verbs only or
+        under specific morphosyntactic conditions as noted.
+      "H+d": >-
+        Head marking is dominant. Additional dependent marking with some NPs or under
+        specific morphosyntactic conditions as noted.
+      "d": >-
+        Dependent marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
+      "Ø": >-
+        No marking
+      "DD": >-
+        On dependent, with more than one formative or more than one category. Typical
+        instance: genitive (or possessive form of pronoun) plus head-driven agreement
+        (dependent agreeing with head).
+      "Dd": >-
+        Same as DD but with the additional formative or category restricted to some
+        possessors only (e.g. pronouns only: German; contrast Hindi, where all possessors
+        show head-driven agreement)
+      "h": >-
+        Head marking that is available only on a limited set of NPs or under specific
+        morphosyntactic conditions as noted.
+      "HH": >-
+        On head, with more than one formative or more than one category. Typical case:
+        construct state or linker on head plus head-driven agreement ; or Philippine-style
+        voice plus agreement
+      "hh": >-
+        On head, with more than one formative or more than one category, but both
+        formatives have restricted distribution.
+      "h+d": >-
+        Simultaneously on head and dependent, both with restrictions.
+      "H’": >-
+        NP-internal head in a modifier-headed agreement pattern
+      "D on H": >-
+        Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal
+        agreement, where nouns and independent pronouns are case-marked. (The case itself
+        is dependent marking, but the dependent argument can be realized by agreement
+        morphology on the head. If it is, it absorbs the argument position in the clause
+        and therefore does not allow an independent NP to show up in the same clausal
+        core.)
+      "d on h": >-
+        Headward-migrated dependent marking, restricted in some way. Typical cases:
+        Bagirmi or standard French, where there is no case on independent pronouns
+        and nouns, so only pronominal agreement markers are case-marked. As a result,
+        arguments are differentiated only in headward-migrated dependent marking. This
+        marking realizes the dependent argument syntactically and leaves no place for an
+        independent NP to show up in the same clausal core.
+      "h+d on h": >-
+        Head marking (construct state type, i.e. registers a dependent but does not index
+        its properties) plus headward-migrated dependent-marked pronouns
+      "Hh+D": >-
+        Two head marks (one restricted) plus one dependent.
+      "H+d on h": >-
+        Head marking (construct state type, i.e. registers a dependent but does not index
+        its properties) plus headward-migrated dependent-marked pronouns
+      "hh+d": >-
+        Two restricted H markers and one restricted D marker.
+      "H/D/DH": >-
+        Split, e.g. inalienables take H or D+H, alienables take only D.
+      "H/D": >-
+        Split, either H or D.
+      "D + D on H": >-
+        Clitic doubling, where the argument is D-marked and is doubled by a D-marked
+        pronominal on the verb.
+      "f": >-
+        Floating, under limited circumstances (e.g. Yagua DOM by floating agreement with
+        definite noun)
+      "H+F": >-
+        Head plus floating
+      "F+d": >-
+        Floating plus restricted dependent marking.
+      "H/F": >-
+        Split, head or floating. E.g. Halkomelem (Galloway 1984:179): possessive 1sg is F,
+        3sg is H.
+      "H+": >-
+        Possessor promoted to verb argument (external possession), and indexed or
+        registered on verb. Example: Registered in Nez Perce (Rude, U. Ore. diss.
+        1985:199ff.).
+  # -- end of SelectorLocusOfMarking
+
+  SelectorClauseScope:
+    description: >-
+      Does the grammatical relation operate within the clause (e.g. case, normal agreement) or
+      cross-clausaly (cross-clausal agreement, diff. types of coreference, switch-reference etc.)?
+    kind: manual data entry
+    data: value-list
+    values: 
+      "mono-clausal": >-
+        The grammatical relation operates within a clause
+      "cross-clausal": >-
+        The grammatical relation operates across multiple clauses
+  # -- end of SelectorClauseScope
+
+  CoreferenceControllerOrControllee:
+    description: >-
+      Does the grammatical relation describe the controller or the controllee of a
+      coreference collector?
+    kind: manual data entry
+    data: value-list
+    values: 
+      "controller": >-
+        Controller
+      "controllee": >-
+        Controllee
+  # -- end of CoreferenceControllerOrControllee
+
+  CoreferenceArgumentTreatment:
+    description: >-
+      Treatment of the argument under coreference (e.g. deleted, gapped, etc)
+    kind: manual data entry
+    data: value-list
+    values: 
+      "shared": >-
+        argument impossible to insert in any form (e.g., frequent with converbs,
+        infinitives, control and relative constructions, e.g. En. I like (*me, *him) to
+        work here
+      "gapped": >-
+        argument impossible if coreferent; arguments with disjunct reference are permitted
+        (e.g., En. he wants him*i, j / øi to leave)
+      "deleted": >-
+        argument possible but its insertion breaks up the constraint of the SCP under
+        discussion (e.g., ‘conjunction reduction’ in SAE, where argument insertion breaks
+        up the coreference constraint without however necessarily imposing disjunct
+        reference)
+      "required": >-
+        argument is required in the SCP under discussion (e.g., main clauses in SAE)
+      "free": >-
+        presence or absence of arguments is a pragmatic issue (‘free pro-drop’)
+      "reflexive": >-
+        argument must appear in a form that overtly indicates coreference
+      "interrogative": >-
+        question word
+      "promoted": >-
+        promoting of one role into a higher role (as in case of diathesis)
+      "demoted": >-
+        demoting of one role into a lower role (as in case of diathesis)
+      "copied": >-
+        for copy control/raising constructions
+  # -- end of CoreferenceArgumentTreatment
 
   IsSelectorSurveyComplete:
     description: >-
