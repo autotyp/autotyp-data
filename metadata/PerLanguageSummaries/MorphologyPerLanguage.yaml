@@ -39,9 +39,12 @@ fields:
 
   HasAnyVerbAgreement:
     description: >-
-      Does the language have some kind of verb agreement (including pronominal/anaphoric
-      agreement), based on our records in the Synthesis, Locus and Grammatical Relations
-      modules
+        Presence of any type of verb agreement as indicated by the records in 
+        MaximallyInflectedVerbSynthesis, LocusOfMarkingPerMicrorelation and GrammaticalRelations.
+        This aggregated variable will be set to TRUE if any of the mentioned data sets describe any 
+        type of agreement. If will be set to FALSE if none of the mentioned data sets describe any
+        type of agreement. Finally, it will be set to NA (missing value) if none of the mentioned
+        data sets have data on the language. 
     kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
     data: logical
   # -- end of HasAnyVerbAgreement

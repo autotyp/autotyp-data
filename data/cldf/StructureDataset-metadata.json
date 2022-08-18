@@ -9,28 +9,22 @@
     "dc:source": "sources.bib",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "new-autotyp-preview",
+            "rdf:about": "autotyp-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.0.1-2-gac3a5ca",
+            "dc:created": "v1.1.0",
             "dc:title": "Repository"
         },
         {
-            "rdf:about": "https://github.com/glottolog/glottolog",
+            "rdf:about": "glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.5",
+            "dc:created": "glottolog",
             "dc:title": "Glottolog"
-        },
-        {
-            "rdf:about": "new-autotyp-preview",
-            "rdf:type": "prov:Entity",
-            "dc:created": "v1.0.1-2-gac3a5ca",
-            "dc:title": "Repository"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.9.10"
+            "dc:description": "3.9.13"
         },
         {
             "dc:title": "python-packages",
@@ -39,13 +33,10 @@
     ],
     "rdf:ID": "autotyp",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
-    "dialect": {
-        "commentPrefix": null
-    },
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 278536,
+            "dc:extent": 278557,
             "tableSchema": {
                 "columns": [
                     {
@@ -198,7 +189,7 @@
                         },
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#glottocode",
                         "required": false,
-                        "valueUrl": "http://glottolog.org/resource/languoid/id/{glottocode}",
+                        "valueUrl": "http://glottolog.org/resource/languoid/id/{Glottocode}",
                         "name": "Glottocode"
                     },
                     {

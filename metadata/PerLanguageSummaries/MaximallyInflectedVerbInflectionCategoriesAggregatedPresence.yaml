@@ -1,0 +1,500 @@
+description: >-
+  Per-language summaries of presence of inflectional categories
+kind: manual data entry
+data: table
+counts:
+  n_languages: 228
+  n_variables: 66
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      In this database a language is actually a dialect or variety, in that
+      individual dialects are entered as languages. That is, each language has
+      its own ID number (the 'LID') distinct from that of the pan-dialectal
+      language:e.g. LID 87 German, 1227 Upper Austrian German, 1295 Berlin
+      German, 1310 Zürich German, 2845 Old High German, etc. (The pan-dialectal
+      language is identified as the lowest taxonomic level, the `dialect group',
+      but this information is incomplete in many areas and has not been included
+      in the current release.) The general criterion for a separate language
+      record in the database is that it has a distinct property in at least one
+      of the typological variables that we survey; this may or may not coincide
+      with sociolinguistic criteria.
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  IsInflectedForCategoryApplicative:
+    description: >-
+      Is the maximally inflected verb form inflected for "Applicative"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryApplicative
+
+  IsInflectedForCategoryReflexive:
+    description: >-
+      Is the maximally inflected verb form inflected for "Reflexive"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryReflexive
+
+  IsInflectedForCategoryDeixis:
+    description: >-
+      Is the maximally inflected verb form inflected for "Deixis"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryDeixis
+
+  IsInflectedForCategorySemistem:
+    description: >-
+      Is the maximally inflected verb form inflected for "Semistem"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategorySemistem
+
+  IsInflectedForCategoryTense:
+    description: >-
+      Is the maximally inflected verb form inflected for "Tense"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryTense
+
+  IsInflectedForCategoryCausative:
+    description: >-
+      Is the maximally inflected verb form inflected for "Causative"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryCausative
+
+  IsInflectedForCategorySpatial:
+    description: >-
+      Is the maximally inflected verb form inflected for "Spatial"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategorySpatial
+
+  IsInflectedForCategoryQuantificational:
+    description: >-
+      Is the maximally inflected verb form inflected for "Quantificational"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryQuantificational
+
+  IsInflectedForCategoryAktionsart:
+    description: >-
+      Is the maximally inflected verb form inflected for "Aktionsart"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryAktionsart
+
+  IsInflectedForCategoryTAM:
+    description: >-
+      Is the maximally inflected verb form inflected for "TAM"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryTAM
+
+  IsInflectedForCategoryIllocution:
+    description: >-
+      Is the maximally inflected verb form inflected for "Illocution"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryIllocution
+
+  IsInflectedForMacrocategoryValence:
+    description: >-
+      Is the maximally inflected verb form inflected for "Valence"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForMacrocategoryValence
+
+  IsInflectedForMacrocategoryPragmatic:
+    description: >-
+      Is the maximally inflected verb form inflected for "Pragmatic"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForMacrocategoryPragmatic
+
+  IsInflectedForMacrocategoryOther:
+    description: >-
+      Is the maximally inflected verb form inflected for "Other"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForMacrocategoryOther
+
+  IsInflectedForMacrocategoryTAMPlus:
+    description: >-
+      Is the maximally inflected verb form inflected for "TAMPlus"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForMacrocategoryTAMPlus
+
+  IsInflectedForMacrocategoryEventSpecs:
+    description: >-
+      Is the maximally inflected verb form inflected for "EventSpecs"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForMacrocategoryEventSpecs
+
+  IsInflectedForMacrocategoryNumber:
+    description: >-
+      Is the maximally inflected verb form inflected for "Number"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForMacrocategoryNumber
+
+  IsInflectedForCategoryNumber:
+    description: >-
+      Is the maximally inflected verb form inflected for "Number"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryNumber
+
+  IsInflectedForCategoryReflexiveAndReciprocal:
+    description: >-
+      Is the maximally inflected verb form inflected for "ReflexiveAndReciprocal"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryReflexiveAndReciprocal
+
+  IsInflectedForCategoryAspect:
+    description: >-
+      Is the maximally inflected verb form inflected for "Aspect"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryAspect
+
+  IsInflectedForCategoryMSE:
+    description: >-
+      Is the maximally inflected verb form inflected for "MSE"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryMSE
+
+  IsInflectedForCategoryEvidential:
+    description: >-
+      Is the maximally inflected verb form inflected for "Evidential"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryEvidential
+
+  IsInflectedForCategoryVoice:
+    description: >-
+      Is the maximally inflected verb form inflected for "Voice"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryVoice
+
+  IsInflectedForCategoryFocus:
+    description: >-
+      Is the maximally inflected verb form inflected for "Focus"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryFocus
+
+  IsInflectedForCategoryPolarity:
+    description: >-
+      Is the maximally inflected verb form inflected for "Polarity"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryPolarity
+
+  IsInflectedForMacrocategoryEvidential:
+    description: >-
+      Is the maximally inflected verb form inflected for "Evidential"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForMacrocategoryEvidential
+
+  IsInflectedForMacrocategoryOperators:
+    description: >-
+      Is the maximally inflected verb form inflected for "Operators"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForMacrocategoryOperators
+
+  IsInflectedForCategoryTM:
+    description: >-
+      Is the maximally inflected verb form inflected for "TM"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryTM
+
+  IsInflectedForCategoryMood:
+    description: >-
+      Is the maximally inflected verb form inflected for "Mood"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryMood
+
+  IsInflectedForCategoryValence:
+    description: >-
+      Is the maximally inflected verb form inflected for "Valence"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryValence
+
+  IsInflectedForCategoryConnective:
+    description: >-
+      Is the maximally inflected verb form inflected for "Connective"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryConnective
+
+  IsInflectedForMacrocategoryInterClausal:
+    description: >-
+      Is the maximally inflected verb form inflected for "InterClausal"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForMacrocategoryInterClausal
+
+  IsInflectedForCategorySymmetricalVoice:
+    description: >-
+      Is the maximally inflected verb form inflected for "SymmetricalVoice"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategorySymmetricalVoice
+
+  IsInflectedForCategoryRECIP:
+    description: >-
+      Is the maximally inflected verb form inflected for "RECIP"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryRECIP
+
+  IsInflectedForCategoryTA:
+    description: >-
+      Is the maximally inflected verb form inflected for "TA"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryTA
+
+  IsInflectedForCategoryVersion:
+    description: >-
+      Is the maximally inflected verb form inflected for "Version"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryVersion
+
+  IsInflectedForCategoryNominalizer:
+    description: >-
+      Is the maximally inflected verb form inflected for "Nominalizer"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryNominalizer
+
+  IsInflectedForMacrocategoryNPRelated:
+    description: >-
+      Is the maximally inflected verb form inflected for "NPRelated"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForMacrocategoryNPRelated
+
+  IsInflectedForCategoryReferential:
+    description: >-
+      Is the maximally inflected verb form inflected for "Referential"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryReferential
+
+  IsInflectedForCategoryClassifier:
+    description: >-
+      Is the maximally inflected verb form inflected for "Classifier"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryClassifier
+
+  IsInflectedForCategoryStatus:
+    description: >-
+      Is the maximally inflected verb form inflected for "Status"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryStatus
+
+  IsInflectedForMacrocategoryClassification:
+    description: >-
+      Is the maximally inflected verb form inflected for "Classification"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForMacrocategoryClassification
+
+  IsInflectedForCategoryHonorificity:
+    description: >-
+      Is the maximally inflected verb form inflected for "Honorificity"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryHonorificity
+
+  IsInflectedForCategoryDirection:
+    description: >-
+      Is the maximally inflected verb form inflected for "Direction"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryDirection
+
+  IsInflectedForMacrocategoryRole:
+    description: >-
+      Is the maximally inflected verb form inflected for "Role"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForMacrocategoryRole
+
+  IsInflectedForCategoryConstruct:
+    description: >-
+      Is the maximally inflected verb form inflected for "Construct"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryConstruct
+
+  IsInflectedForCategoryModality:
+    description: >-
+      Is the maximally inflected verb form inflected for "Modality"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryModality
+
+  IsInflectedForCategoryMotion:
+    description: >-
+      Is the maximally inflected verb form inflected for "Motion"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryMotion
+
+  IsInflectedForCategoryRepetition:
+    description: >-
+      Is the maximally inflected verb form inflected for "Repetition"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryRepetition
+
+  IsInflectedForCategorySwitchReference:
+    description: >-
+      Is the maximally inflected verb form inflected for "SwitchReference"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategorySwitchReference
+
+  IsInflectedForCategoryMA:
+    description: >-
+      Is the maximally inflected verb form inflected for "MA"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryMA
+
+  IsInflectedForCategoryMTN:
+    description: >-
+      Is the maximally inflected verb form inflected for "MTN"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryMTN
+
+  IsInflectedForCategoryAffect:
+    description: >-
+      Is the maximally inflected verb form inflected for "Affect"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryAffect
+
+  IsInflectedForCategoryTE:
+    description: >-
+      Is the maximally inflected verb form inflected for "TE"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryTE
+
+  IsInflectedForCategoryPosterior:
+    description: >-
+      Is the maximally inflected verb form inflected for "Posterior"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryPosterior
+
+  IsInflectedForCategoryPotentialis:
+    description: >-
+      Is the maximally inflected verb form inflected for "Potentialis"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryPotentialis
+
+  IsInflectedForCategoryME:
+    description: >-
+      Is the maximally inflected verb form inflected for "ME"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryME
+
+  IsInflectedForCategoryAE:
+    description: >-
+      Is the maximally inflected verb form inflected for "AE"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryAE
+
+  IsInflectedForCategoryConditional:
+    description: >-
+      Is the maximally inflected verb form inflected for "Conditional"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryConditional
+
+  IsInflectedForCategoryQuotative:
+    description: >-
+      Is the maximally inflected verb form inflected for "Quotative"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryQuotative
+
+  IsInflectedForCategoryPossessor:
+    description: >-
+      Is the maximally inflected verb form inflected for "Possessor"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryPossessor
+
+  IsInflectedForCategoryTAME:
+    description: >-
+      Is the maximally inflected verb form inflected for "TAME"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryTAME
+
+  IsInflectedForCategoryTAE:
+    description: >-
+      Is the maximally inflected verb form inflected for "TAE"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryTAE
+
+  IsInflectedForCategoryControl:
+    description: >-
+      Is the maximally inflected verb form inflected for "Control"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryControl
+
+  IsInflectedForCategoryReversative:
+    description: >-
+      Is the maximally inflected verb form inflected for "Reversative"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryReversative
+
+  IsInflectedForCategoryTN:
+    description: >-
+      Is the maximally inflected verb form inflected for "TN"?
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of IsInflectedForCategoryTN

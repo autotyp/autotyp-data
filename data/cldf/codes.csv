@@ -802,602 +802,602 @@ ID,Parameter_ID,Name,Description
 801,407,Ø,No marking
 802,408,D,Marking on dependent
 803,409,D,Marking on dependent
-804,603,prae,before the phonological host
-805,603,post,after the phonological host
-806,603,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-807,603,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-808,603,post (prae),"after the phonological host by default, before the host under exceptional conditions (typically lexical)"
-809,603,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
-810,603,post/circum,"either after or around the phonological host, conditioned by some structural context (category, syntax etc.)"
-811,603,multiple,multiple markers at different positions
-812,604,prae,before the phonological host
-813,604,in,inside the phonological host
-814,604,post,after the phonological host
-815,604,simul,"the formative has two exponents at different positions in the phonological host (but it is not the case that one is positioned before and the other after the host, which is coded as “circum”)"
-816,604,circum,"the formative has two exponents, one before and one after the phonological host. This is a special case of the “simul” position"
-817,604,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-818,604,post (prae),"after the phonological host by default, before the host under exceptional conditions (typically lexical)"
-819,604,prae/circum,"either before or around the phonological host, conditioned by some structural context (category, syntax etc.)"
-820,604,post/prae (simul),"either before, after or in two or more positions in the phonological host, conditioned by some structural context (category, syntax etc.)"
-821,604,prae (in),"before the phonological host by default, inside the host under exceptional conditions (typically lexical)"
-822,605,prae,before the phonological host
-823,605,post,after the phonological host
-824,605,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-825,605,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-826,605,multiple,multiple markers at different positions
-827,606,prae,before the phonological host
-828,606,post,after the phonological host
-829,606,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-830,606,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
-831,606,multiple,multiple markers at different positions
-832,607,prae,before the phonological host
-833,607,post,after the phonological host
-834,607,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-835,608,prae,before the phonological host
-836,608,post,after the phonological host
-837,608,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-838,609,prae,before the phonological host
-839,609,post,after the phonological host
-840,609,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-841,610,prae,before the phonological host
-842,611,prae,before the phonological host
-843,611,post,after the phonological host
-844,612,prae,before the phonological host
-845,612,in,inside the phonological host
-846,612,post,after the phonological host
-847,612,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-848,612,multiple,multiple markers at different positions
-849,613,prae,before the phonological host
-850,613,in,inside the phonological host
-851,613,post,after the phonological host
-852,613,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-853,613,circum (post),"around the phonological host by default, after the host under exceptional conditions (typically lexical)"
-854,613,multiple,multiple markers at different positions
-855,614,prae,before the phonological host
-856,614,post,after the phonological host
-857,614,prae/in/post,"either before, inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-858,615,prae,before the phonological host
-859,615,post,after the phonological host
-860,616,post,after the phonological host
-861,616,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-862,617,prae,before the phonological host
-863,617,in,inside the phonological host
-864,617,post,after the phonological host
-865,617,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-866,617,multiple,multiple markers at different positions
-867,618,prae,before the phonological host
-868,618,in,inside the phonological host
-869,618,post,after the phonological host
-870,618,prae/in/post,"either before, inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-871,618,multiple,multiple markers at different positions
-872,619,prae,before the phonological host
-873,619,post,after the phonological host
-874,619,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-875,619,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-876,619,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
-877,619,multiple,multiple markers at different positions
-878,620,prae,before the phonological host
-879,620,post,after the phonological host
-880,620,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-881,620,in/prae,"either inside or before the phonological host, conditioned by some structural context (category, syntax etc.)"
-882,620,multiple,multiple markers at different positions
-883,621,prae,before the phonological host
-884,622,prae,before the phonological host
-885,622,post,after the phonological host
-886,623,prae,before the phonological host
-887,623,in,inside the phonological host
-888,623,post,after the phonological host
-889,623,multiple,multiple markers at different positions
-890,624,prae,before the phonological host
-891,624,post,after the phonological host
-892,624,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-893,624,prae (post),"before the phonological host by default, after the host under exceptional conditions (typically lexical)"
-894,625,prae,before the phonological host
-895,626,prae,before the phonological host
-896,626,post,after the phonological host
-897,627,prae,before the phonological host
-898,627,post,after the phonological host
-899,628,prae,before the phonological host
-900,628,in,inside the phonological host
-901,628,post,after the phonological host
-902,628,multiple,multiple markers at different positions
-903,629,post,after the phonological host
-904,630,in,inside the phonological host
-905,630,post,after the phonological host
-906,631,post,after the phonological host
-907,632,prae,before the phonological host
-908,632,in,inside the phonological host
-909,632,post,after the phonological host
-910,632,in (post),"inside the phonological host by default, after the host under exceptional conditions (typically lexical)"
-911,633,prae,before the phonological host
-912,633,in,inside the phonological host
-913,633,post,after the phonological host
-914,633,multiple,multiple markers at different positions
-915,634,post,after the phonological host
-916,636,prae,before the phonological host
-917,636,in,inside the phonological host
-918,636,post,after the phonological host
-919,637,post,after the phonological host
-920,637,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-921,638,prae,before the phonological host
-922,638,post,after the phonological host
-923,638,multiple,multiple markers at different positions
-924,640,post,after the phonological host
-925,641,prae,before the phonological host
-926,641,post,after the phonological host
-927,642,post,after the phonological host
-928,643,post,after the phonological host
-929,643,simul (post),"in two or more different positions in the phonological host by default, after the host under exceptional conditions (typically lexical)"
-930,644,prae,before the phonological host
-931,644,post,after the phonological host
-932,645,prae,before the phonological host
-933,645,post,after the phonological host
-934,646,post,after the phonological host
-935,647,post,after the phonological host
-936,648,post,after the phonological host
-937,649,post,after the phonological host
-938,650,prae,before the phonological host
-939,650,post,after the phonological host
-940,651,post,after the phonological host
-941,652,post,after the phonological host
-942,653,post,after the phonological host
-943,654,prae,before the phonological host
-944,655,post,after the phonological host
-945,656,post,after the phonological host
-946,660,prae,Marker occurs before its phonological host
-947,660,post,Marker occurs after its phonological host
-948,660,split,Marker has multiple parts that occur at different positions
-949,660,multiple,multiple markers at different positions
-950,661,prae,Marker occurs before its phonological host
-951,661,in/simul,Marker occurs inside its phonological host
-952,661,post,Marker occurs after its phonological host
-953,661,split,Marker has multiple parts that occur at different positions
-954,662,prae,Marker occurs before its phonological host
-955,662,post,Marker occurs after its phonological host
-956,662,split,Marker has multiple parts that occur at different positions
-957,662,multiple,multiple markers at different positions
-958,663,prae,Marker occurs before its phonological host
-959,663,post,Marker occurs after its phonological host
-960,663,split,Marker has multiple parts that occur at different positions
-961,663,multiple,multiple markers at different positions
-962,664,prae,Marker occurs before its phonological host
-963,664,post,Marker occurs after its phonological host
-964,664,split,Marker has multiple parts that occur at different positions
-965,665,prae,Marker occurs before its phonological host
-966,665,post,Marker occurs after its phonological host
-967,665,split,Marker has multiple parts that occur at different positions
-968,666,prae,Marker occurs before its phonological host
-969,666,post,Marker occurs after its phonological host
-970,666,split,Marker has multiple parts that occur at different positions
-971,667,prae,Marker occurs before its phonological host
-972,668,prae,Marker occurs before its phonological host
-973,668,post,Marker occurs after its phonological host
-974,669,prae,Marker occurs before its phonological host
-975,669,in/simul,Marker occurs inside its phonological host
-976,669,post,Marker occurs after its phonological host
-977,669,split,Marker has multiple parts that occur at different positions
-978,669,multiple,multiple markers at different positions
-979,670,prae,Marker occurs before its phonological host
-980,670,in/simul,Marker occurs inside its phonological host
-981,670,post,Marker occurs after its phonological host
-982,670,split,Marker has multiple parts that occur at different positions
-983,670,multiple,multiple markers at different positions
-984,671,prae,Marker occurs before its phonological host
-985,671,post,Marker occurs after its phonological host
-986,671,split,Marker has multiple parts that occur at different positions
-987,672,prae,Marker occurs before its phonological host
-988,672,post,Marker occurs after its phonological host
-989,673,post,Marker occurs after its phonological host
-990,673,split,Marker has multiple parts that occur at different positions
-991,674,prae,Marker occurs before its phonological host
-992,674,in/simul,Marker occurs inside its phonological host
-993,674,post,Marker occurs after its phonological host
-994,674,split,Marker has multiple parts that occur at different positions
-995,674,multiple,multiple markers at different positions
-996,675,prae,Marker occurs before its phonological host
-997,675,in/simul,Marker occurs inside its phonological host
-998,675,post,Marker occurs after its phonological host
-999,675,split,Marker has multiple parts that occur at different positions
-1000,675,multiple,multiple markers at different positions
-1001,676,prae,Marker occurs before its phonological host
-1002,676,post,Marker occurs after its phonological host
-1003,676,split,Marker has multiple parts that occur at different positions
-1004,676,multiple,multiple markers at different positions
-1005,677,prae,Marker occurs before its phonological host
-1006,677,post,Marker occurs after its phonological host
-1007,677,split,Marker has multiple parts that occur at different positions
-1008,677,multiple,multiple markers at different positions
-1009,678,prae,Marker occurs before its phonological host
-1010,679,prae,Marker occurs before its phonological host
-1011,679,post,Marker occurs after its phonological host
-1012,680,prae,Marker occurs before its phonological host
-1013,680,in/simul,Marker occurs inside its phonological host
-1014,680,post,Marker occurs after its phonological host
-1015,680,multiple,multiple markers at different positions
-1016,681,prae,Marker occurs before its phonological host
-1017,681,post,Marker occurs after its phonological host
-1018,681,split,Marker has multiple parts that occur at different positions
-1019,682,prae,Marker occurs before its phonological host
-1020,683,prae,Marker occurs before its phonological host
-1021,683,post,Marker occurs after its phonological host
-1022,684,prae,Marker occurs before its phonological host
-1023,684,post,Marker occurs after its phonological host
-1024,685,prae,Marker occurs before its phonological host
-1025,685,in/simul,Marker occurs inside its phonological host
-1026,685,post,Marker occurs after its phonological host
-1027,685,multiple,multiple markers at different positions
-1028,686,post,Marker occurs after its phonological host
-1029,687,in/simul,Marker occurs inside its phonological host
-1030,687,post,Marker occurs after its phonological host
-1031,688,post,Marker occurs after its phonological host
-1032,689,prae,Marker occurs before its phonological host
-1033,689,in/simul,Marker occurs inside its phonological host
-1034,689,post,Marker occurs after its phonological host
-1035,690,prae,Marker occurs before its phonological host
-1036,690,in/simul,Marker occurs inside its phonological host
-1037,690,post,Marker occurs after its phonological host
-1038,690,multiple,multiple markers at different positions
-1039,691,post,Marker occurs after its phonological host
-1040,693,prae,Marker occurs before its phonological host
-1041,693,in/simul,Marker occurs inside its phonological host
-1042,693,post,Marker occurs after its phonological host
-1043,694,post,Marker occurs after its phonological host
-1044,694,split,Marker has multiple parts that occur at different positions
-1045,695,prae,Marker occurs before its phonological host
-1046,695,post,Marker occurs after its phonological host
-1047,695,multiple,multiple markers at different positions
-1048,697,post,Marker occurs after its phonological host
-1049,698,prae,Marker occurs before its phonological host
-1050,698,post,Marker occurs after its phonological host
-1051,699,post,Marker occurs after its phonological host
-1052,700,in/simul,Marker occurs inside its phonological host
-1053,700,post,Marker occurs after its phonological host
-1054,701,prae,Marker occurs before its phonological host
-1055,701,post,Marker occurs after its phonological host
-1056,702,prae,Marker occurs before its phonological host
-1057,702,post,Marker occurs after its phonological host
-1058,703,post,Marker occurs after its phonological host
-1059,704,post,Marker occurs after its phonological host
-1060,705,post,Marker occurs after its phonological host
-1061,706,post,Marker occurs after its phonological host
-1062,707,prae,Marker occurs before its phonological host
-1063,707,post,Marker occurs after its phonological host
-1064,708,post,Marker occurs after its phonological host
-1065,709,post,Marker occurs after its phonological host
-1066,710,post,Marker occurs after its phonological host
-1067,711,prae,Marker occurs before its phonological host
-1068,712,post,Marker occurs after its phonological host
-1069,713,post,Marker occurs after its phonological host
-1070,717,prae,Marker occurs before its phonological host
-1071,717,post,Marker occurs after its phonological host
-1072,717,split,Marker has multiple parts that occur at different positions (before or after)
-1073,717,multiple,multiple markers at different positions
-1074,718,prae,Marker occurs before its phonological host
-1075,718,in,Marker occurs inside its phonological host
-1076,718,post,Marker occurs after its phonological host
-1077,718,split,Marker has multiple parts that occur at different positions (before or after)
-1078,718,simul,Marker has multiple parts that occur at different positions inside the host
-1079,719,prae,Marker occurs before its phonological host
-1080,719,post,Marker occurs after its phonological host
-1081,719,split,Marker has multiple parts that occur at different positions (before or after)
-1082,719,multiple,multiple markers at different positions
-1083,720,prae,Marker occurs before its phonological host
-1084,720,post,Marker occurs after its phonological host
-1085,720,split,Marker has multiple parts that occur at different positions (before or after)
-1086,720,multiple,multiple markers at different positions
-1087,721,prae,Marker occurs before its phonological host
-1088,721,post,Marker occurs after its phonological host
-1089,721,split,Marker has multiple parts that occur at different positions (before or after)
-1090,722,prae,Marker occurs before its phonological host
-1091,722,post,Marker occurs after its phonological host
-1092,722,split,Marker has multiple parts that occur at different positions (before or after)
-1093,723,prae,Marker occurs before its phonological host
-1094,723,post,Marker occurs after its phonological host
-1095,723,split,Marker has multiple parts that occur at different positions (before or after)
-1096,724,prae,Marker occurs before its phonological host
-1097,725,prae,Marker occurs before its phonological host
-1098,725,post,Marker occurs after its phonological host
-1099,726,prae,Marker occurs before its phonological host
-1100,726,in,Marker occurs inside its phonological host
-1101,726,post,Marker occurs after its phonological host
-1102,726,split,Marker has multiple parts that occur at different positions (before or after)
-1103,726,multiple,multiple markers at different positions
-1104,727,prae,Marker occurs before its phonological host
-1105,727,in,Marker occurs inside its phonological host
-1106,727,post,Marker occurs after its phonological host
-1107,727,split,Marker has multiple parts that occur at different positions (before or after)
-1108,727,simul,Marker has multiple parts that occur at different positions inside the host
-1109,727,multiple,multiple markers at different positions
-1110,728,prae,Marker occurs before its phonological host
-1111,728,post,Marker occurs after its phonological host
-1112,728,split,Marker has multiple parts that occur at different positions (before or after)
-1113,729,prae,Marker occurs before its phonological host
-1114,729,post,Marker occurs after its phonological host
-1115,730,post,Marker occurs after its phonological host
-1116,730,split,Marker has multiple parts that occur at different positions (before or after)
-1117,731,prae,Marker occurs before its phonological host
-1118,731,in,Marker occurs inside its phonological host
-1119,731,post,Marker occurs after its phonological host
-1120,731,split,Marker has multiple parts that occur at different positions (before or after)
-1121,731,multiple,multiple markers at different positions
-1122,732,prae,Marker occurs before its phonological host
-1123,732,in,Marker occurs inside its phonological host
-1124,732,post,Marker occurs after its phonological host
-1125,732,split,Marker has multiple parts that occur at different positions (before or after)
-1126,732,multiple,multiple markers at different positions
-1127,733,prae,Marker occurs before its phonological host
-1128,733,post,Marker occurs after its phonological host
-1129,733,split,Marker has multiple parts that occur at different positions (before or after)
-1130,733,multiple,multiple markers at different positions
-1131,734,prae,Marker occurs before its phonological host
-1132,734,post,Marker occurs after its phonological host
-1133,734,split,Marker has multiple parts that occur at different positions (before or after)
-1134,734,multiple,multiple markers at different positions
-1135,735,prae,Marker occurs before its phonological host
-1136,736,prae,Marker occurs before its phonological host
-1137,736,post,Marker occurs after its phonological host
-1138,737,prae,Marker occurs before its phonological host
-1139,737,in,Marker occurs inside its phonological host
-1140,737,post,Marker occurs after its phonological host
-1141,737,multiple,multiple markers at different positions
-1142,738,prae,Marker occurs before its phonological host
-1143,738,post,Marker occurs after its phonological host
-1144,738,split,Marker has multiple parts that occur at different positions (before or after)
-1145,739,prae,Marker occurs before its phonological host
-1146,740,prae,Marker occurs before its phonological host
-1147,740,post,Marker occurs after its phonological host
-1148,741,prae,Marker occurs before its phonological host
-1149,741,post,Marker occurs after its phonological host
-1150,742,prae,Marker occurs before its phonological host
-1151,742,in,Marker occurs inside its phonological host
-1152,742,post,Marker occurs after its phonological host
-1153,742,multiple,multiple markers at different positions
-1154,743,post,Marker occurs after its phonological host
-1155,744,in,Marker occurs inside its phonological host
-1156,744,post,Marker occurs after its phonological host
-1157,745,post,Marker occurs after its phonological host
-1158,746,prae,Marker occurs before its phonological host
-1159,746,in,Marker occurs inside its phonological host
-1160,746,post,Marker occurs after its phonological host
-1161,747,prae,Marker occurs before its phonological host
-1162,747,in,Marker occurs inside its phonological host
-1163,747,post,Marker occurs after its phonological host
-1164,747,multiple,multiple markers at different positions
-1165,748,post,Marker occurs after its phonological host
-1166,750,prae,Marker occurs before its phonological host
-1167,750,in,Marker occurs inside its phonological host
-1168,750,post,Marker occurs after its phonological host
-1169,751,post,Marker occurs after its phonological host
-1170,751,split,Marker has multiple parts that occur at different positions (before or after)
-1171,752,prae,Marker occurs before its phonological host
-1172,752,post,Marker occurs after its phonological host
-1173,752,multiple,multiple markers at different positions
-1174,754,post,Marker occurs after its phonological host
-1175,755,prae,Marker occurs before its phonological host
-1176,755,post,Marker occurs after its phonological host
-1177,756,post,Marker occurs after its phonological host
-1178,757,post,Marker occurs after its phonological host
-1179,757,simul,Marker has multiple parts that occur at different positions inside the host
-1180,758,prae,Marker occurs before its phonological host
-1181,758,post,Marker occurs after its phonological host
-1182,759,prae,Marker occurs before its phonological host
-1183,759,post,Marker occurs after its phonological host
-1184,760,post,Marker occurs after its phonological host
-1185,761,post,Marker occurs after its phonological host
-1186,762,post,Marker occurs after its phonological host
-1187,763,post,Marker occurs after its phonological host
-1188,764,prae,Marker occurs before its phonological host
-1189,764,post,Marker occurs after its phonological host
-1190,765,post,Marker occurs after its phonological host
-1191,766,post,Marker occurs after its phonological host
-1192,767,post,Marker occurs after its phonological host
-1193,768,prae,Marker occurs before its phonological host
-1194,769,post,Marker occurs after its phonological host
-1195,770,post,Marker occurs after its phonological host
-1196,945,prae,before the phonological host
-1197,945,post,after the phonological host
-1198,945,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-1199,945,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-1200,945,post (prae),"after the phonological host by default, before the host under exceptional conditions (typically lexical)"
-1201,945,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
-1202,945,multiple,multiple markers at different positions
-1203,946,prae,before the phonological host
-1204,946,in,inside the phonological host
-1205,946,post,after the phonological host
-1206,946,simul,"the formative has two exponents at different positions in the phonological host (but it is not the case that one is positioned before and the other after the host, which is coded as “circum”)"
-1207,946,circum,"the formative has two exponents, one before and one after the phonological host. This is a special case of the “simul” position"
-1208,946,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-1209,946,post (prae),"after the phonological host by default, before the host under exceptional conditions (typically lexical)"
-1210,946,prae/circum,"either before or around the phonological host, conditioned by some structural context (category, syntax etc.)"
-1211,946,post/prae (simul),"either before, after or in two or more positions in the phonological host, conditioned by some structural context (category, syntax etc.)"
-1212,946,prae (in),"before the phonological host by default, inside the host under exceptional conditions (typically lexical)"
-1213,947,prae,before the phonological host
-1214,947,in,inside the phonological host
-1215,947,post,after the phonological host
-1216,947,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-1217,947,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-1218,947,prae (post),"before the phonological host by default, after the host under exceptional conditions (typically lexical)"
-1219,947,multiple,multiple markers at different positions
-1220,948,prae,before the phonological host
-1221,948,post,after the phonological host
-1222,948,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-1223,949,prae,before the phonological host
-1224,950,prae,before the phonological host
-1225,950,in,inside the phonological host
-1226,950,post,after the phonological host
-1227,950,in (post),"inside the phonological host by default, after the host under exceptional conditions (typically lexical)"
-1228,950,multiple,multiple markers at different positions
-1229,951,prae,before the phonological host
-1230,951,in,inside the phonological host
-1231,951,post,after the phonological host
-1232,951,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-1233,951,multiple,multiple markers at different positions
-1234,952,post,after the phonological host
-1235,953,prae,before the phonological host
-1236,953,in,inside the phonological host
-1237,953,post,after the phonological host
-1238,955,prae,before the phonological host
-1239,955,post,after the phonological host
-1240,955,simul (post),"in two or more different positions in the phonological host by default, after the host under exceptional conditions (typically lexical)"
-1241,956,prae,before the phonological host
-1242,956,post,after the phonological host
-1243,960,prae,Marker occurs before its phonological host
-1244,960,post,Marker occurs after its phonological host
-1245,960,split,Marker has multiple parts that occur at different positions
-1246,960,multiple,multiple markers at different positions
-1247,961,prae,Marker occurs before its phonological host
-1248,961,in/simul,Marker occurs inside its phonological host
-1249,961,post,Marker occurs after its phonological host
-1250,961,split,Marker has multiple parts that occur at different positions
-1251,962,prae,Marker occurs before its phonological host
-1252,962,in/simul,Marker occurs inside its phonological host
-1253,962,post,Marker occurs after its phonological host
-1254,962,split,Marker has multiple parts that occur at different positions
-1255,962,multiple,multiple markers at different positions
-1256,963,prae,Marker occurs before its phonological host
-1257,963,post,Marker occurs after its phonological host
-1258,963,split,Marker has multiple parts that occur at different positions
-1259,964,prae,Marker occurs before its phonological host
-1260,965,prae,Marker occurs before its phonological host
-1261,965,in/simul,Marker occurs inside its phonological host
-1262,965,post,Marker occurs after its phonological host
-1263,965,multiple,multiple markers at different positions
-1264,966,prae,Marker occurs before its phonological host
-1265,966,in/simul,Marker occurs inside its phonological host
-1266,966,post,Marker occurs after its phonological host
-1267,966,split,Marker has multiple parts that occur at different positions
-1268,966,multiple,multiple markers at different positions
-1269,967,post,Marker occurs after its phonological host
-1270,968,prae,Marker occurs before its phonological host
-1271,968,in/simul,Marker occurs inside its phonological host
-1272,968,post,Marker occurs after its phonological host
-1273,970,prae,Marker occurs before its phonological host
-1274,970,in/simul,Marker occurs inside its phonological host
-1275,970,post,Marker occurs after its phonological host
-1276,971,prae,Marker occurs before its phonological host
-1277,971,post,Marker occurs after its phonological host
-1278,975,prae,Marker occurs before its phonological host
-1279,975,post,Marker occurs after its phonological host
-1280,975,split,Marker has multiple parts that occur at different positions (before or after)
-1281,975,multiple,multiple markers at different positions
-1282,976,prae,Marker occurs before its phonological host
-1283,976,in,Marker occurs inside its phonological host
-1284,976,post,Marker occurs after its phonological host
-1285,976,split,Marker has multiple parts that occur at different positions (before or after)
-1286,976,simul,Marker has multiple parts that occur at different positions inside the host
-1287,977,prae,Marker occurs before its phonological host
-1288,977,in,Marker occurs inside its phonological host
-1289,977,post,Marker occurs after its phonological host
-1290,977,split,Marker has multiple parts that occur at different positions (before or after)
-1291,977,multiple,multiple markers at different positions
-1292,978,prae,Marker occurs before its phonological host
-1293,978,post,Marker occurs after its phonological host
-1294,978,split,Marker has multiple parts that occur at different positions (before or after)
-1295,979,prae,Marker occurs before its phonological host
-1296,980,prae,Marker occurs before its phonological host
-1297,980,in,Marker occurs inside its phonological host
-1298,980,post,Marker occurs after its phonological host
-1299,980,multiple,multiple markers at different positions
-1300,981,prae,Marker occurs before its phonological host
-1301,981,in,Marker occurs inside its phonological host
-1302,981,post,Marker occurs after its phonological host
-1303,981,split,Marker has multiple parts that occur at different positions (before or after)
-1304,981,multiple,multiple markers at different positions
-1305,982,post,Marker occurs after its phonological host
-1306,983,prae,Marker occurs before its phonological host
-1307,983,in,Marker occurs inside its phonological host
-1308,983,post,Marker occurs after its phonological host
-1309,985,prae,Marker occurs before its phonological host
-1310,985,post,Marker occurs after its phonological host
-1311,985,simul,Marker has multiple parts that occur at different positions inside the host
-1312,986,prae,Marker occurs before its phonological host
-1313,986,post,Marker occurs after its phonological host
-1314,1035,prae,before the phonological host
-1315,1035,in,inside the phonological host
-1316,1035,post,after the phonological host
-1317,1035,simul,"the formative has two exponents at different positions in the phonological host (but it is not the case that one is positioned before and the other after the host, which is coded as “circum”)"
-1318,1035,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-1319,1035,Wackernagel,DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) -- see log 77
-1320,1035,prae/post/circum,"either before, after or around the phonological host, conditioned by some structural context (category, syntax etc.)"
-1321,1035,prae/in/post,"either before, inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-1322,1035,prae (post),"before the phonological host by default, after the host under exceptional conditions (typically lexical)"
-1323,1035,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
-1324,1035,post/prae (simul),"either before, after or in two or more positions in the phonological host, conditioned by some structural context (category, syntax etc.)"
-1325,1035,prae/post/in/circum,"either before, after, inside or around the phonological host, conditioned by some structural context (category, syntax etc.)"
-1326,1036,prae,before the phonological host
-1327,1036,in,inside the phonological host
-1328,1036,post,after the phonological host
-1329,1036,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-1330,1036,post (prae),"after the phonological host by default, before the host under exceptional conditions (typically lexical)"
-1331,1036,Wackernagel,DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) -- see log 77
-1332,1036,prae/post/circum,"either before, after or around the phonological host, conditioned by some structural context (category, syntax etc.)"
-1333,1036,prae/in/post,"either before, inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-1334,1036,prae (post),"before the phonological host by default, after the host under exceptional conditions (typically lexical)"
-1335,1036,post/prae (simul),"either before, after or in two or more positions in the phonological host, conditioned by some structural context (category, syntax etc.)"
-1336,1037,prae,before the phonological host
-1337,1037,post,after the phonological host
-1338,1038,prae,before the phonological host
-1339,1038,post,after the phonological host
-1340,1038,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-1341,1038,prae (post),"before the phonological host by default, after the host under exceptional conditions (typically lexical)"
-1342,1039,prae,before the phonological host
-1343,1039,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-1344,1040,post,after the phonological host
-1345,1041,prae,before the phonological host
-1346,1042,post,after the phonological host
-1347,1042,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
-1348,1043,prae,before the phonological host
-1349,1044,post,after the phonological host
-1350,1045,prae,before the phonological host
-1351,1046,post,after the phonological host
-1352,1047,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
-1353,1048,post,after the phonological host
-1354,1052,prae,Marker occurs before its phonological host
-1355,1052,in/simul,Marker occurs inside its phonological host
-1356,1052,post,Marker occurs after its phonological host
-1357,1052,split,Marker has multiple parts that occur at different positions
-1358,1053,prae,Marker occurs before its phonological host
-1359,1053,in/simul,Marker occurs inside its phonological host
-1360,1053,post,Marker occurs after its phonological host
-1361,1053,split,Marker has multiple parts that occur at different positions
-1362,1054,prae,Marker occurs before its phonological host
-1363,1054,post,Marker occurs after its phonological host
-1364,1055,prae,Marker occurs before its phonological host
-1365,1055,post,Marker occurs after its phonological host
-1366,1055,split,Marker has multiple parts that occur at different positions
-1367,1056,prae,Marker occurs before its phonological host
-1368,1056,split,Marker has multiple parts that occur at different positions
-1369,1057,post,Marker occurs after its phonological host
-1370,1058,prae,Marker occurs before its phonological host
-1371,1059,post,Marker occurs after its phonological host
-1372,1060,prae,Marker occurs before its phonological host
-1373,1061,post,Marker occurs after its phonological host
-1374,1062,prae,Marker occurs before its phonological host
-1375,1063,post,Marker occurs after its phonological host
-1376,1064,split,Marker has multiple parts that occur at different positions
-1377,1065,post,Marker occurs after its phonological host
-1378,1069,prae,Marker occurs before its phonological host
-1379,1069,in,Marker occurs inside its phonological host
-1380,1069,post,Marker occurs after its phonological host
-1381,1069,split,Marker has multiple parts that occur at different positions (before or after)
-1382,1069,simul,Marker has multiple parts that occur at different positions inside the host
-1383,1070,prae,Marker occurs before its phonological host
-1384,1070,in,Marker occurs inside its phonological host
-1385,1070,post,Marker occurs after its phonological host
-1386,1070,split,Marker has multiple parts that occur at different positions (before or after)
-1387,1071,prae,Marker occurs before its phonological host
-1388,1071,post,Marker occurs after its phonological host
-1389,1072,prae,Marker occurs before its phonological host
-1390,1072,post,Marker occurs after its phonological host
-1391,1072,split,Marker has multiple parts that occur at different positions (before or after)
-1392,1073,prae,Marker occurs before its phonological host
-1393,1073,split,Marker has multiple parts that occur at different positions (before or after)
-1394,1074,post,Marker occurs after its phonological host
-1395,1075,prae,Marker occurs before its phonological host
-1396,1076,post,Marker occurs after its phonological host
-1397,1077,prae,Marker occurs before its phonological host
-1398,1078,post,Marker occurs after its phonological host
-1399,1079,prae,Marker occurs before its phonological host
-1400,1080,post,Marker occurs after its phonological host
-1401,1081,split,Marker has multiple parts that occur at different positions (before or after)
-1402,1082,post,Marker occurs after its phonological host
+804,491,prae,before the phonological host
+805,491,post,after the phonological host
+806,491,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+807,491,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+808,491,post (prae),"after the phonological host by default, before the host under exceptional conditions (typically lexical)"
+809,491,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+810,491,post/circum,"either after or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+811,491,multiple,multiple markers at different positions
+812,492,prae,before the phonological host
+813,492,in,inside the phonological host
+814,492,post,after the phonological host
+815,492,simul,"the formative has two exponents at different positions in the phonological host (but it is not the case that one is positioned before and the other after the host, which is coded as “circum”)"
+816,492,circum,"the formative has two exponents, one before and one after the phonological host. This is a special case of the “simul” position"
+817,492,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+818,492,post (prae),"after the phonological host by default, before the host under exceptional conditions (typically lexical)"
+819,492,prae/circum,"either before or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+820,492,post/prae (simul),"either before, after or in two or more positions in the phonological host, conditioned by some structural context (category, syntax etc.)"
+821,492,prae (in),"before the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+822,493,prae,before the phonological host
+823,493,post,after the phonological host
+824,493,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+825,493,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+826,493,multiple,multiple markers at different positions
+827,494,prae,before the phonological host
+828,494,post,after the phonological host
+829,494,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+830,494,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+831,494,multiple,multiple markers at different positions
+832,495,prae,before the phonological host
+833,495,post,after the phonological host
+834,495,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+835,496,prae,before the phonological host
+836,496,post,after the phonological host
+837,496,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+838,497,prae,before the phonological host
+839,497,post,after the phonological host
+840,497,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+841,498,prae,before the phonological host
+842,499,prae,before the phonological host
+843,499,post,after the phonological host
+844,500,prae,before the phonological host
+845,500,in,inside the phonological host
+846,500,post,after the phonological host
+847,500,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+848,500,multiple,multiple markers at different positions
+849,501,prae,before the phonological host
+850,501,in,inside the phonological host
+851,501,post,after the phonological host
+852,501,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+853,501,circum (post),"around the phonological host by default, after the host under exceptional conditions (typically lexical)"
+854,501,multiple,multiple markers at different positions
+855,502,prae,before the phonological host
+856,502,post,after the phonological host
+857,502,prae/in/post,"either before, inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+858,503,prae,before the phonological host
+859,503,post,after the phonological host
+860,504,post,after the phonological host
+861,504,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+862,505,prae,before the phonological host
+863,505,in,inside the phonological host
+864,505,post,after the phonological host
+865,505,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+866,505,multiple,multiple markers at different positions
+867,506,prae,before the phonological host
+868,506,in,inside the phonological host
+869,506,post,after the phonological host
+870,506,prae/in/post,"either before, inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+871,506,multiple,multiple markers at different positions
+872,507,prae,before the phonological host
+873,507,post,after the phonological host
+874,507,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+875,507,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+876,507,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+877,507,multiple,multiple markers at different positions
+878,508,prae,before the phonological host
+879,508,post,after the phonological host
+880,508,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+881,508,in/prae,"either inside or before the phonological host, conditioned by some structural context (category, syntax etc.)"
+882,508,multiple,multiple markers at different positions
+883,509,prae,before the phonological host
+884,510,prae,before the phonological host
+885,510,post,after the phonological host
+886,511,prae,before the phonological host
+887,511,in,inside the phonological host
+888,511,post,after the phonological host
+889,511,multiple,multiple markers at different positions
+890,512,prae,before the phonological host
+891,512,post,after the phonological host
+892,512,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+893,512,prae (post),"before the phonological host by default, after the host under exceptional conditions (typically lexical)"
+894,513,prae,before the phonological host
+895,514,prae,before the phonological host
+896,514,post,after the phonological host
+897,515,prae,before the phonological host
+898,515,post,after the phonological host
+899,516,prae,before the phonological host
+900,516,in,inside the phonological host
+901,516,post,after the phonological host
+902,516,multiple,multiple markers at different positions
+903,517,post,after the phonological host
+904,518,in,inside the phonological host
+905,518,post,after the phonological host
+906,519,post,after the phonological host
+907,520,prae,before the phonological host
+908,520,in,inside the phonological host
+909,520,post,after the phonological host
+910,520,in (post),"inside the phonological host by default, after the host under exceptional conditions (typically lexical)"
+911,521,prae,before the phonological host
+912,521,in,inside the phonological host
+913,521,post,after the phonological host
+914,521,multiple,multiple markers at different positions
+915,522,post,after the phonological host
+916,524,prae,before the phonological host
+917,524,in,inside the phonological host
+918,524,post,after the phonological host
+919,525,post,after the phonological host
+920,525,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+921,526,prae,before the phonological host
+922,526,post,after the phonological host
+923,526,multiple,multiple markers at different positions
+924,528,post,after the phonological host
+925,529,prae,before the phonological host
+926,529,post,after the phonological host
+927,530,post,after the phonological host
+928,531,post,after the phonological host
+929,531,simul (post),"in two or more different positions in the phonological host by default, after the host under exceptional conditions (typically lexical)"
+930,532,prae,before the phonological host
+931,532,post,after the phonological host
+932,533,prae,before the phonological host
+933,533,post,after the phonological host
+934,534,post,after the phonological host
+935,535,post,after the phonological host
+936,536,post,after the phonological host
+937,537,post,after the phonological host
+938,538,prae,before the phonological host
+939,538,post,after the phonological host
+940,539,post,after the phonological host
+941,540,post,after the phonological host
+942,541,post,after the phonological host
+943,542,prae,before the phonological host
+944,543,post,after the phonological host
+945,544,post,after the phonological host
+946,548,prae,Marker occurs before its phonological host
+947,548,post,Marker occurs after its phonological host
+948,548,split,Marker has multiple parts that occur at different positions
+949,548,multiple,multiple markers at different positions
+950,549,prae,Marker occurs before its phonological host
+951,549,in/simul,Marker occurs inside its phonological host
+952,549,post,Marker occurs after its phonological host
+953,549,split,Marker has multiple parts that occur at different positions
+954,550,prae,Marker occurs before its phonological host
+955,550,post,Marker occurs after its phonological host
+956,550,split,Marker has multiple parts that occur at different positions
+957,550,multiple,multiple markers at different positions
+958,551,prae,Marker occurs before its phonological host
+959,551,post,Marker occurs after its phonological host
+960,551,split,Marker has multiple parts that occur at different positions
+961,551,multiple,multiple markers at different positions
+962,552,prae,Marker occurs before its phonological host
+963,552,post,Marker occurs after its phonological host
+964,552,split,Marker has multiple parts that occur at different positions
+965,553,prae,Marker occurs before its phonological host
+966,553,post,Marker occurs after its phonological host
+967,553,split,Marker has multiple parts that occur at different positions
+968,554,prae,Marker occurs before its phonological host
+969,554,post,Marker occurs after its phonological host
+970,554,split,Marker has multiple parts that occur at different positions
+971,555,prae,Marker occurs before its phonological host
+972,556,prae,Marker occurs before its phonological host
+973,556,post,Marker occurs after its phonological host
+974,557,prae,Marker occurs before its phonological host
+975,557,in/simul,Marker occurs inside its phonological host
+976,557,post,Marker occurs after its phonological host
+977,557,split,Marker has multiple parts that occur at different positions
+978,557,multiple,multiple markers at different positions
+979,558,prae,Marker occurs before its phonological host
+980,558,in/simul,Marker occurs inside its phonological host
+981,558,post,Marker occurs after its phonological host
+982,558,split,Marker has multiple parts that occur at different positions
+983,558,multiple,multiple markers at different positions
+984,559,prae,Marker occurs before its phonological host
+985,559,post,Marker occurs after its phonological host
+986,559,split,Marker has multiple parts that occur at different positions
+987,560,prae,Marker occurs before its phonological host
+988,560,post,Marker occurs after its phonological host
+989,561,post,Marker occurs after its phonological host
+990,561,split,Marker has multiple parts that occur at different positions
+991,562,prae,Marker occurs before its phonological host
+992,562,in/simul,Marker occurs inside its phonological host
+993,562,post,Marker occurs after its phonological host
+994,562,split,Marker has multiple parts that occur at different positions
+995,562,multiple,multiple markers at different positions
+996,563,prae,Marker occurs before its phonological host
+997,563,in/simul,Marker occurs inside its phonological host
+998,563,post,Marker occurs after its phonological host
+999,563,split,Marker has multiple parts that occur at different positions
+1000,563,multiple,multiple markers at different positions
+1001,564,prae,Marker occurs before its phonological host
+1002,564,post,Marker occurs after its phonological host
+1003,564,split,Marker has multiple parts that occur at different positions
+1004,564,multiple,multiple markers at different positions
+1005,565,prae,Marker occurs before its phonological host
+1006,565,post,Marker occurs after its phonological host
+1007,565,split,Marker has multiple parts that occur at different positions
+1008,565,multiple,multiple markers at different positions
+1009,566,prae,Marker occurs before its phonological host
+1010,567,prae,Marker occurs before its phonological host
+1011,567,post,Marker occurs after its phonological host
+1012,568,prae,Marker occurs before its phonological host
+1013,568,in/simul,Marker occurs inside its phonological host
+1014,568,post,Marker occurs after its phonological host
+1015,568,multiple,multiple markers at different positions
+1016,569,prae,Marker occurs before its phonological host
+1017,569,post,Marker occurs after its phonological host
+1018,569,split,Marker has multiple parts that occur at different positions
+1019,570,prae,Marker occurs before its phonological host
+1020,571,prae,Marker occurs before its phonological host
+1021,571,post,Marker occurs after its phonological host
+1022,572,prae,Marker occurs before its phonological host
+1023,572,post,Marker occurs after its phonological host
+1024,573,prae,Marker occurs before its phonological host
+1025,573,in/simul,Marker occurs inside its phonological host
+1026,573,post,Marker occurs after its phonological host
+1027,573,multiple,multiple markers at different positions
+1028,574,post,Marker occurs after its phonological host
+1029,575,in/simul,Marker occurs inside its phonological host
+1030,575,post,Marker occurs after its phonological host
+1031,576,post,Marker occurs after its phonological host
+1032,577,prae,Marker occurs before its phonological host
+1033,577,in/simul,Marker occurs inside its phonological host
+1034,577,post,Marker occurs after its phonological host
+1035,578,prae,Marker occurs before its phonological host
+1036,578,in/simul,Marker occurs inside its phonological host
+1037,578,post,Marker occurs after its phonological host
+1038,578,multiple,multiple markers at different positions
+1039,579,post,Marker occurs after its phonological host
+1040,581,prae,Marker occurs before its phonological host
+1041,581,in/simul,Marker occurs inside its phonological host
+1042,581,post,Marker occurs after its phonological host
+1043,582,post,Marker occurs after its phonological host
+1044,582,split,Marker has multiple parts that occur at different positions
+1045,583,prae,Marker occurs before its phonological host
+1046,583,post,Marker occurs after its phonological host
+1047,583,multiple,multiple markers at different positions
+1048,585,post,Marker occurs after its phonological host
+1049,586,prae,Marker occurs before its phonological host
+1050,586,post,Marker occurs after its phonological host
+1051,587,post,Marker occurs after its phonological host
+1052,588,in/simul,Marker occurs inside its phonological host
+1053,588,post,Marker occurs after its phonological host
+1054,589,prae,Marker occurs before its phonological host
+1055,589,post,Marker occurs after its phonological host
+1056,590,prae,Marker occurs before its phonological host
+1057,590,post,Marker occurs after its phonological host
+1058,591,post,Marker occurs after its phonological host
+1059,592,post,Marker occurs after its phonological host
+1060,593,post,Marker occurs after its phonological host
+1061,594,post,Marker occurs after its phonological host
+1062,595,prae,Marker occurs before its phonological host
+1063,595,post,Marker occurs after its phonological host
+1064,596,post,Marker occurs after its phonological host
+1065,597,post,Marker occurs after its phonological host
+1066,598,post,Marker occurs after its phonological host
+1067,599,prae,Marker occurs before its phonological host
+1068,600,post,Marker occurs after its phonological host
+1069,601,post,Marker occurs after its phonological host
+1070,605,prae,Marker occurs before its phonological host
+1071,605,post,Marker occurs after its phonological host
+1072,605,split,Marker has multiple parts that occur at different positions (before or after)
+1073,605,multiple,multiple markers at different positions
+1074,606,prae,Marker occurs before its phonological host
+1075,606,in,Marker occurs inside its phonological host
+1076,606,post,Marker occurs after its phonological host
+1077,606,split,Marker has multiple parts that occur at different positions (before or after)
+1078,606,simul,Marker has multiple parts that occur at different positions inside the host
+1079,607,prae,Marker occurs before its phonological host
+1080,607,post,Marker occurs after its phonological host
+1081,607,split,Marker has multiple parts that occur at different positions (before or after)
+1082,607,multiple,multiple markers at different positions
+1083,608,prae,Marker occurs before its phonological host
+1084,608,post,Marker occurs after its phonological host
+1085,608,split,Marker has multiple parts that occur at different positions (before or after)
+1086,608,multiple,multiple markers at different positions
+1087,609,prae,Marker occurs before its phonological host
+1088,609,post,Marker occurs after its phonological host
+1089,609,split,Marker has multiple parts that occur at different positions (before or after)
+1090,610,prae,Marker occurs before its phonological host
+1091,610,post,Marker occurs after its phonological host
+1092,610,split,Marker has multiple parts that occur at different positions (before or after)
+1093,611,prae,Marker occurs before its phonological host
+1094,611,post,Marker occurs after its phonological host
+1095,611,split,Marker has multiple parts that occur at different positions (before or after)
+1096,612,prae,Marker occurs before its phonological host
+1097,613,prae,Marker occurs before its phonological host
+1098,613,post,Marker occurs after its phonological host
+1099,614,prae,Marker occurs before its phonological host
+1100,614,in,Marker occurs inside its phonological host
+1101,614,post,Marker occurs after its phonological host
+1102,614,split,Marker has multiple parts that occur at different positions (before or after)
+1103,614,multiple,multiple markers at different positions
+1104,615,prae,Marker occurs before its phonological host
+1105,615,in,Marker occurs inside its phonological host
+1106,615,post,Marker occurs after its phonological host
+1107,615,split,Marker has multiple parts that occur at different positions (before or after)
+1108,615,simul,Marker has multiple parts that occur at different positions inside the host
+1109,615,multiple,multiple markers at different positions
+1110,616,prae,Marker occurs before its phonological host
+1111,616,post,Marker occurs after its phonological host
+1112,616,split,Marker has multiple parts that occur at different positions (before or after)
+1113,617,prae,Marker occurs before its phonological host
+1114,617,post,Marker occurs after its phonological host
+1115,618,post,Marker occurs after its phonological host
+1116,618,split,Marker has multiple parts that occur at different positions (before or after)
+1117,619,prae,Marker occurs before its phonological host
+1118,619,in,Marker occurs inside its phonological host
+1119,619,post,Marker occurs after its phonological host
+1120,619,split,Marker has multiple parts that occur at different positions (before or after)
+1121,619,multiple,multiple markers at different positions
+1122,620,prae,Marker occurs before its phonological host
+1123,620,in,Marker occurs inside its phonological host
+1124,620,post,Marker occurs after its phonological host
+1125,620,split,Marker has multiple parts that occur at different positions (before or after)
+1126,620,multiple,multiple markers at different positions
+1127,621,prae,Marker occurs before its phonological host
+1128,621,post,Marker occurs after its phonological host
+1129,621,split,Marker has multiple parts that occur at different positions (before or after)
+1130,621,multiple,multiple markers at different positions
+1131,622,prae,Marker occurs before its phonological host
+1132,622,post,Marker occurs after its phonological host
+1133,622,split,Marker has multiple parts that occur at different positions (before or after)
+1134,622,multiple,multiple markers at different positions
+1135,623,prae,Marker occurs before its phonological host
+1136,624,prae,Marker occurs before its phonological host
+1137,624,post,Marker occurs after its phonological host
+1138,625,prae,Marker occurs before its phonological host
+1139,625,in,Marker occurs inside its phonological host
+1140,625,post,Marker occurs after its phonological host
+1141,625,multiple,multiple markers at different positions
+1142,626,prae,Marker occurs before its phonological host
+1143,626,post,Marker occurs after its phonological host
+1144,626,split,Marker has multiple parts that occur at different positions (before or after)
+1145,627,prae,Marker occurs before its phonological host
+1146,628,prae,Marker occurs before its phonological host
+1147,628,post,Marker occurs after its phonological host
+1148,629,prae,Marker occurs before its phonological host
+1149,629,post,Marker occurs after its phonological host
+1150,630,prae,Marker occurs before its phonological host
+1151,630,in,Marker occurs inside its phonological host
+1152,630,post,Marker occurs after its phonological host
+1153,630,multiple,multiple markers at different positions
+1154,631,post,Marker occurs after its phonological host
+1155,632,in,Marker occurs inside its phonological host
+1156,632,post,Marker occurs after its phonological host
+1157,633,post,Marker occurs after its phonological host
+1158,634,prae,Marker occurs before its phonological host
+1159,634,in,Marker occurs inside its phonological host
+1160,634,post,Marker occurs after its phonological host
+1161,635,prae,Marker occurs before its phonological host
+1162,635,in,Marker occurs inside its phonological host
+1163,635,post,Marker occurs after its phonological host
+1164,635,multiple,multiple markers at different positions
+1165,636,post,Marker occurs after its phonological host
+1166,638,prae,Marker occurs before its phonological host
+1167,638,in,Marker occurs inside its phonological host
+1168,638,post,Marker occurs after its phonological host
+1169,639,post,Marker occurs after its phonological host
+1170,639,split,Marker has multiple parts that occur at different positions (before or after)
+1171,640,prae,Marker occurs before its phonological host
+1172,640,post,Marker occurs after its phonological host
+1173,640,multiple,multiple markers at different positions
+1174,642,post,Marker occurs after its phonological host
+1175,643,prae,Marker occurs before its phonological host
+1176,643,post,Marker occurs after its phonological host
+1177,644,post,Marker occurs after its phonological host
+1178,645,post,Marker occurs after its phonological host
+1179,645,simul,Marker has multiple parts that occur at different positions inside the host
+1180,646,prae,Marker occurs before its phonological host
+1181,646,post,Marker occurs after its phonological host
+1182,647,prae,Marker occurs before its phonological host
+1183,647,post,Marker occurs after its phonological host
+1184,648,post,Marker occurs after its phonological host
+1185,649,post,Marker occurs after its phonological host
+1186,650,post,Marker occurs after its phonological host
+1187,651,post,Marker occurs after its phonological host
+1188,652,prae,Marker occurs before its phonological host
+1189,652,post,Marker occurs after its phonological host
+1190,653,post,Marker occurs after its phonological host
+1191,654,post,Marker occurs after its phonological host
+1192,655,post,Marker occurs after its phonological host
+1193,656,prae,Marker occurs before its phonological host
+1194,657,post,Marker occurs after its phonological host
+1195,658,post,Marker occurs after its phonological host
+1196,833,prae,before the phonological host
+1197,833,post,after the phonological host
+1198,833,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1199,833,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1200,833,post (prae),"after the phonological host by default, before the host under exceptional conditions (typically lexical)"
+1201,833,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+1202,833,multiple,multiple markers at different positions
+1203,834,prae,before the phonological host
+1204,834,in,inside the phonological host
+1205,834,post,after the phonological host
+1206,834,simul,"the formative has two exponents at different positions in the phonological host (but it is not the case that one is positioned before and the other after the host, which is coded as “circum”)"
+1207,834,circum,"the formative has two exponents, one before and one after the phonological host. This is a special case of the “simul” position"
+1208,834,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1209,834,post (prae),"after the phonological host by default, before the host under exceptional conditions (typically lexical)"
+1210,834,prae/circum,"either before or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+1211,834,post/prae (simul),"either before, after or in two or more positions in the phonological host, conditioned by some structural context (category, syntax etc.)"
+1212,834,prae (in),"before the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+1213,835,prae,before the phonological host
+1214,835,in,inside the phonological host
+1215,835,post,after the phonological host
+1216,835,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1217,835,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1218,835,prae (post),"before the phonological host by default, after the host under exceptional conditions (typically lexical)"
+1219,835,multiple,multiple markers at different positions
+1220,836,prae,before the phonological host
+1221,836,post,after the phonological host
+1222,836,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1223,837,prae,before the phonological host
+1224,838,prae,before the phonological host
+1225,838,in,inside the phonological host
+1226,838,post,after the phonological host
+1227,838,in (post),"inside the phonological host by default, after the host under exceptional conditions (typically lexical)"
+1228,838,multiple,multiple markers at different positions
+1229,839,prae,before the phonological host
+1230,839,in,inside the phonological host
+1231,839,post,after the phonological host
+1232,839,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1233,839,multiple,multiple markers at different positions
+1234,840,post,after the phonological host
+1235,841,prae,before the phonological host
+1236,841,in,inside the phonological host
+1237,841,post,after the phonological host
+1238,843,prae,before the phonological host
+1239,843,post,after the phonological host
+1240,843,simul (post),"in two or more different positions in the phonological host by default, after the host under exceptional conditions (typically lexical)"
+1241,844,prae,before the phonological host
+1242,844,post,after the phonological host
+1243,848,prae,Marker occurs before its phonological host
+1244,848,post,Marker occurs after its phonological host
+1245,848,split,Marker has multiple parts that occur at different positions
+1246,848,multiple,multiple markers at different positions
+1247,849,prae,Marker occurs before its phonological host
+1248,849,in/simul,Marker occurs inside its phonological host
+1249,849,post,Marker occurs after its phonological host
+1250,849,split,Marker has multiple parts that occur at different positions
+1251,850,prae,Marker occurs before its phonological host
+1252,850,in/simul,Marker occurs inside its phonological host
+1253,850,post,Marker occurs after its phonological host
+1254,850,split,Marker has multiple parts that occur at different positions
+1255,850,multiple,multiple markers at different positions
+1256,851,prae,Marker occurs before its phonological host
+1257,851,post,Marker occurs after its phonological host
+1258,851,split,Marker has multiple parts that occur at different positions
+1259,852,prae,Marker occurs before its phonological host
+1260,853,prae,Marker occurs before its phonological host
+1261,853,in/simul,Marker occurs inside its phonological host
+1262,853,post,Marker occurs after its phonological host
+1263,853,multiple,multiple markers at different positions
+1264,854,prae,Marker occurs before its phonological host
+1265,854,in/simul,Marker occurs inside its phonological host
+1266,854,post,Marker occurs after its phonological host
+1267,854,split,Marker has multiple parts that occur at different positions
+1268,854,multiple,multiple markers at different positions
+1269,855,post,Marker occurs after its phonological host
+1270,856,prae,Marker occurs before its phonological host
+1271,856,in/simul,Marker occurs inside its phonological host
+1272,856,post,Marker occurs after its phonological host
+1273,858,prae,Marker occurs before its phonological host
+1274,858,in/simul,Marker occurs inside its phonological host
+1275,858,post,Marker occurs after its phonological host
+1276,859,prae,Marker occurs before its phonological host
+1277,859,post,Marker occurs after its phonological host
+1278,863,prae,Marker occurs before its phonological host
+1279,863,post,Marker occurs after its phonological host
+1280,863,split,Marker has multiple parts that occur at different positions (before or after)
+1281,863,multiple,multiple markers at different positions
+1282,864,prae,Marker occurs before its phonological host
+1283,864,in,Marker occurs inside its phonological host
+1284,864,post,Marker occurs after its phonological host
+1285,864,split,Marker has multiple parts that occur at different positions (before or after)
+1286,864,simul,Marker has multiple parts that occur at different positions inside the host
+1287,865,prae,Marker occurs before its phonological host
+1288,865,in,Marker occurs inside its phonological host
+1289,865,post,Marker occurs after its phonological host
+1290,865,split,Marker has multiple parts that occur at different positions (before or after)
+1291,865,multiple,multiple markers at different positions
+1292,866,prae,Marker occurs before its phonological host
+1293,866,post,Marker occurs after its phonological host
+1294,866,split,Marker has multiple parts that occur at different positions (before or after)
+1295,867,prae,Marker occurs before its phonological host
+1296,868,prae,Marker occurs before its phonological host
+1297,868,in,Marker occurs inside its phonological host
+1298,868,post,Marker occurs after its phonological host
+1299,868,multiple,multiple markers at different positions
+1300,869,prae,Marker occurs before its phonological host
+1301,869,in,Marker occurs inside its phonological host
+1302,869,post,Marker occurs after its phonological host
+1303,869,split,Marker has multiple parts that occur at different positions (before or after)
+1304,869,multiple,multiple markers at different positions
+1305,870,post,Marker occurs after its phonological host
+1306,871,prae,Marker occurs before its phonological host
+1307,871,in,Marker occurs inside its phonological host
+1308,871,post,Marker occurs after its phonological host
+1309,873,prae,Marker occurs before its phonological host
+1310,873,post,Marker occurs after its phonological host
+1311,873,simul,Marker has multiple parts that occur at different positions inside the host
+1312,874,prae,Marker occurs before its phonological host
+1313,874,post,Marker occurs after its phonological host
+1314,923,prae,before the phonological host
+1315,923,in,inside the phonological host
+1316,923,post,after the phonological host
+1317,923,simul,"the formative has two exponents at different positions in the phonological host (but it is not the case that one is positioned before and the other after the host, which is coded as “circum”)"
+1318,923,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1319,923,Wackernagel,DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) -- see log 77
+1320,923,prae/post/circum,"either before, after or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+1321,923,prae/in/post,"either before, inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1322,923,prae (post),"before the phonological host by default, after the host under exceptional conditions (typically lexical)"
+1323,923,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+1324,923,post/prae (simul),"either before, after or in two or more positions in the phonological host, conditioned by some structural context (category, syntax etc.)"
+1325,923,prae/post/in/circum,"either before, after, inside or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+1326,924,prae,before the phonological host
+1327,924,in,inside the phonological host
+1328,924,post,after the phonological host
+1329,924,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1330,924,post (prae),"after the phonological host by default, before the host under exceptional conditions (typically lexical)"
+1331,924,Wackernagel,DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) -- see log 77
+1332,924,prae/post/circum,"either before, after or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+1333,924,prae/in/post,"either before, inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1334,924,prae (post),"before the phonological host by default, after the host under exceptional conditions (typically lexical)"
+1335,924,post/prae (simul),"either before, after or in two or more positions in the phonological host, conditioned by some structural context (category, syntax etc.)"
+1336,925,prae,before the phonological host
+1337,925,post,after the phonological host
+1338,926,prae,before the phonological host
+1339,926,post,after the phonological host
+1340,926,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1341,926,prae (post),"before the phonological host by default, after the host under exceptional conditions (typically lexical)"
+1342,927,prae,before the phonological host
+1343,927,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1344,928,post,after the phonological host
+1345,929,prae,before the phonological host
+1346,930,post,after the phonological host
+1347,930,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+1348,931,prae,before the phonological host
+1349,932,post,after the phonological host
+1350,933,prae,before the phonological host
+1351,934,post,after the phonological host
+1352,935,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1353,936,post,after the phonological host
+1354,940,prae,Marker occurs before its phonological host
+1355,940,in/simul,Marker occurs inside its phonological host
+1356,940,post,Marker occurs after its phonological host
+1357,940,split,Marker has multiple parts that occur at different positions
+1358,941,prae,Marker occurs before its phonological host
+1359,941,in/simul,Marker occurs inside its phonological host
+1360,941,post,Marker occurs after its phonological host
+1361,941,split,Marker has multiple parts that occur at different positions
+1362,942,prae,Marker occurs before its phonological host
+1363,942,post,Marker occurs after its phonological host
+1364,943,prae,Marker occurs before its phonological host
+1365,943,post,Marker occurs after its phonological host
+1366,943,split,Marker has multiple parts that occur at different positions
+1367,944,prae,Marker occurs before its phonological host
+1368,944,split,Marker has multiple parts that occur at different positions
+1369,945,post,Marker occurs after its phonological host
+1370,946,prae,Marker occurs before its phonological host
+1371,947,post,Marker occurs after its phonological host
+1372,948,prae,Marker occurs before its phonological host
+1373,949,post,Marker occurs after its phonological host
+1374,950,prae,Marker occurs before its phonological host
+1375,951,post,Marker occurs after its phonological host
+1376,952,split,Marker has multiple parts that occur at different positions
+1377,953,post,Marker occurs after its phonological host
+1378,957,prae,Marker occurs before its phonological host
+1379,957,in,Marker occurs inside its phonological host
+1380,957,post,Marker occurs after its phonological host
+1381,957,split,Marker has multiple parts that occur at different positions (before or after)
+1382,957,simul,Marker has multiple parts that occur at different positions inside the host
+1383,958,prae,Marker occurs before its phonological host
+1384,958,in,Marker occurs inside its phonological host
+1385,958,post,Marker occurs after its phonological host
+1386,958,split,Marker has multiple parts that occur at different positions (before or after)
+1387,959,prae,Marker occurs before its phonological host
+1388,959,post,Marker occurs after its phonological host
+1389,960,prae,Marker occurs before its phonological host
+1390,960,post,Marker occurs after its phonological host
+1391,960,split,Marker has multiple parts that occur at different positions (before or after)
+1392,961,prae,Marker occurs before its phonological host
+1393,961,split,Marker has multiple parts that occur at different positions (before or after)
+1394,962,post,Marker occurs after its phonological host
+1395,963,prae,Marker occurs before its phonological host
+1396,964,post,Marker occurs after its phonological host
+1397,965,prae,Marker occurs before its phonological host
+1398,966,post,Marker occurs after its phonological host
+1399,967,prae,Marker occurs before its phonological host
+1400,968,post,Marker occurs after its phonological host
+1401,969,split,Marker has multiple parts that occur at different positions (before or after)
+1402,970,post,Marker occurs after its phonological host

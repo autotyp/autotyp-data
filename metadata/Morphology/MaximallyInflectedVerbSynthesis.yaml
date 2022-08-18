@@ -1,0 +1,1795 @@
+description: >-
+  Various aspects of how verbs forms can be structured in a language, such
+  as presence of incorporation and inflectional categories (including agreement)
+  expressed on maximally inflected verbs. These are high-level
+  per-language aggregations, not individual verb forms.
+  
+  *Note*: the entries in this dataset only describe maximally inflected verbs. Do not use
+  this dataset to make definitive statements of which overt inflectional categories are present
+  in a language as other verb forms might be inflected for categories that are absent
+  in the maximally inflected form.
+  
+  *Note*: the fields `IsVerbAgreementSurveyComplete` and `IsVerbInflectionSurveyComplete` specify
+  whether the data in `VerbAgreement` and `VerbInflectionCategories` is exhaustively coded.
+  Do not rely on entries where these flags are FALSE.
+kind: manual data entry
+data: table
+counts:
+  n_languages: 450
+  n_variables: 20
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      Language name
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  VerbInflectionExponenceType:
+    description: >-
+        Overall type of exponence in verbal inflection for maximally inflected verb forms,
+        determined by comparing the number of formatives and the number of categories they
+        express (inflection defined as in Bickel & Nichols 2007 in T. Shopen [ed.], Language Typology and
+        Syntactic Description. CUP)
+    kind: computed data (aggregation-scripts/enhancements/MaximallyInflectedVerbSynthesis.R)
+    data: value-list
+    values: 
+      "cumulative": >-
+        there are more categories than marker slots expressing these categories (at least
+        some feature cumulation)
+      "distributive": >-
+        there are fewer categories than marker slots expressing these categories (at least
+        some feature distribution)
+      "separative": >-
+        the number of categories and marker slots expressing these categories match
+  # -- end of VerbInflectionExponenceType
+
+  VerbInflectionMaxCategoryCount:
+    description: >-
+      Number of categories (including agreement) expressed in maximally
+      inflected verb form ('inflection' as defined in Bickel & Nichols 2007
+      in T. Shopen [ed.], Language Typology and Syntactic Description. CUP)
+    kind: computed data (aggregation-scripts/enhancements/MaximallyInflectedVerbSynthesis.R)
+    data: integer
+  # -- end of VerbInflectionMaxCategoryCount
+
+  VerbInflectionMaxCategorySansAgreementCount:
+    description: >-
+      Number of categories (excluding agreement) expressed in maximally
+      inflected verb form ('inflection' as defined in Bickel & Nichols 2007 in
+      T. Shopen [ed.], Language Typology and Syntactic Description. CUP)
+    kind: computed data (aggregation-scripts/enhancements/VerbSynthesis.R)
+    data: integer
+  # -- end of VerbInflectionMaxCategorySansAgreementCount
+
+  VerbInflectionMaxFormativeCount:
+    description: >-
+      Number of formatives (including agreement) expressed in maximally
+      inflected verb form ('inflection' as defined in Bickel & Nichols 2007 in
+      Shopen, T. [ed.] Language Typology and Syntactic Description. CUP)
+    kind: manual data entry
+    data: integer
+  # -- end of VerbInflectionMaxFormativeCount
+
+  VerbInflectionMaxFormativeSansAgreementCount:
+    description: >-
+      Number of formatives (excluding agreement) expressed in maximally
+      inflected verb form ('inflection' as defined in Bickel & Nichols 2007 in
+      Shopen, T. [ed.] Language Typology and Syntactic Description. CUP)
+    kind: manual data entry
+    data: integer
+  # -- end of VerbInflectionMaxFormativeSansAgreementCount
+
+  VerbHasBipartiteStem:
+    description: >-
+      Whether verbs have bipartite stems (in the sense of Bickel & Nichols 2007. In
+      Shopen, T. [ed.] Language Typology and Syntactic Description. CUP)
+    kind: manual data entry
+    data: logical
+  # -- end of VerbHasBipartiteStem
+
+  VerbIsSyntacticallyCoherent:
+    description: >-
+      Syntactic coherence of maximally inflected verb forms (as opposed to separable particles,
+      preverbs etc.)
+    kind: manual data entry
+    data: logical
+  # -- end of VerbIsSyntacticallyCoherent
+
+  VerbSyntacticCoherencyNotes:
+    description: >-
+      Comments on Syntactic coherence of maximally inflected verb forms
+    kind: manual data entry
+    data: comment
+  # -- end of VerbSyntacticCoherencyNotes
+
+  VerbIsProsodicallyCoherent:
+    description: >-
+      Suprasegmental coherence of maximally inflected verb forms
+    kind: manual data entry
+    data: logical
+  # -- end of VerbIsProsodicallyCoherent
+
+  VerbProsodicCoherencyNotes:
+    description: >-
+      Comments on suprasegmental coherence of maximally inflected verb forms
+    kind: manual data entry
+    data: comment
+  # -- end of VerbProsodicCoherencyNotes
+
+  VerbIsPhonologicallyCoherent:
+    description: >-
+      Suprasegmental coherence of maximally inflected verb forms
+    kind: manual data entry
+    data: logical
+  # -- end of VerbIsPhonologicallyCoherent
+
+  VerbPhonologicalCoherencyNotes:
+    description: >-
+      Comments on suprasegmental coherence of maximally inflected verb forms
+    kind: manual data entry
+    data: comment
+  # -- end of VerbPhonologicalCoherencyNotes
+
+  VerbIncorporation:
+    description: >-
+      Which syntactic categories can be incorporated in maximally inflected verbs
+    kind: manual data entry
+    data: list-of<value-list>
+    values: 
+      "V": >-
+        lexical verb
+      "N": >-
+        lexical noun, nominalized verb -- whether possessed or non-possessed (all)
+      "AdvP": >-
+        Adverb Phrases, including all sorts of ‘preverbs’ and predicative modifiers.
+      "Adj": >-
+        adjective
+      "Pro": >-
+        Pronouns. This refers to free pronouns that head NPs; it does not refer to
+        pronominal indexes.
+      "Adp": >-
+        Adposition
+      "Art": >-
+        Article
+      "<any>": >-
+        no restriction as to what kind of stem or terminal node can host the formative.
+        This is one notion of clitic; do not confuse with phrasal affixes,which are or not
+        restricted to a specific XP
+      "2_or_3Pro": >-
+        2nd or 3rd person pronoun
+      "3Pro": >-
+        3rd person pronoun
+      "3sgPro": >-
+        3rd person singular pronoun
+      "n11.d.": >-
+        no data
+      "N_or_Pro": >-
+        noun or pronoun (including nominalized verbs, participles, etc. ). If a language
+        or construction only includes root nouns, this needs to be mentioned. NOT
+        including Adjectives (if this is at all distinct PoS)
+      "1_2Pro_or_N": >-
+        1st or 2nd person, or noun.
+      "n/a": >-
+        not applicable
+      "N-inal": >-
+        inalienably possessed noun
+      "N-alien": >-
+        alienably possessed noun, i.e. one taking alienable possession (see sem_class_def
+        for alienability)
+      "N-hum": >-
+        human noun
+      "Nv": >-
+        nominalized verb
+      "DEM": >-
+        demonstrative
+      "Num": >-
+        numeral
+      "N-proper": >-
+        proper noun
+      "Possessor": >-
+        any possessor NP
+      "Possessum": >-
+        the head of a possessive NP
+      "SAP": >-
+        Speech act participant, i.e. 1st or 2nd person. (Using SAP allows non-SAP to be
+        used for 3rd person pronouns and nouns
+      "1PERS": >-
+        1st person only
+      "N-proper&kin": >-
+        proper nouns and kin nouns
+      "Body_part": >-
+        body parts and similar parts
+      "N-anim": >-
+        animate noun
+      "N-kin": >-
+        kin terms
+      "1sg": >-
+        1st person singular
+      "Pro_or_N-hum": >-
+        personal pronoun or human noun
+      "S": >-
+        Clause
+      "Pro-sg": >-
+        singular pronoun
+      "Pro-pl": >-
+        plural pronoun
+      "VP": >-
+        verb phrase (syntactic domain hosting particles or complementing auxiliaries).
+        Includes all sorts of coconstituents (NPs, adverbs, etc.). For a more specific
+        notion of VP, see #48
+      "V-fin": >-
+        finite verb
+      "V-aux": >-
+        (subset) of auxiliary verbs
+      "PRED": >-
+        any element in predicative use (verb, predicate nominal etc.); predicate phrase
+      "VAdvP": >-
+        type of verb phrase defined as Verb plus adverbials, particles, perhaps pronouns
+        -- but excluding NPs
+      "Quant": >-
+        Quantifiers
+      "non-V": >-
+        any part of speech except verbs
+      "nonSAP": >-
+        noun or third person pronoun (i.e. any third person NP).
+      "PTCP": >-
+        participle
+      "Ord": >-
+        Ordinal numeral
+      "Num_above_20": >-
+        numeral greater than 20
+      "NP": >-
+        (expandable) NP
+      "XP": >-
+        any phrase: the formative attaches to whatever phrase it refers to (typical of
+        focus particles and clitics)
+      "VP-nonfin": >-
+        The elements of the VP with all and only the nonfinite parts of the verb, as in
+        German ;-)
+      "Ord1": >-
+        Ordinal numeral greater than 1
+      "not_1sgPro": >-
+        any noun or pronoun apart from 1sg pronoun
+      "deictic_Pro": >-
+        deictic/demonstrative pronouns
+      "non-PTCP": >-
+        non-participle
+      "sg": >-
+        noun or pronoun in singular
+      "N-def": >-
+        definite noun
+      "high": >-
+        ‘high-indexability’, nouns or pronouns with a higher discourse rank than ‘low-
+        indexability’ (where rank is determined by discourse factors with language-
+        specific weights)
+      "low": >-
+        ‘low-indexability’, nouns or pronouns with a higher discourse rank than ‘low-
+        indexability’ (where rank is determined by discourse factors with language-
+        specific weights)
+      "N-def_or_Pro": >-
+        definite nouns or pronouns
+      "N-indef": >-
+        indefinite noun
+      "N-non-hum": >-
+        non-human noun
+      "Inf": >-
+        infinitive
+      "CONV": >-
+        converb
+      "1/2Pro": >-
+        1st and 2nd person pronouns
+      "3Pro_or_N": >-
+        3rd person pronoun or noun
+      "N_or_Pro-pl": >-
+        noun or pronoun in plural
+      "PTCP_based": >-
+        participle-based verb form
+      "non-PTCP_based": >-
+        any form apart from participle-based forms
+      "V-non-fin": >-
+        nonfinite: verb form with fewer categories coded than in the main clause
+      "N-high-anim": >-
+        noun denoting a higher animate (humans and some animals)
+      "N-low-anim": >-
+        noun denoting a lower animate (some animals, e.g. all non-mammals)
+      "2sgPro": >-
+        2nd person singular pronoun
+      "NOT_2sg_Pro": >-
+        any noun or pronoun apart from 2sgPro
+      "hum": >-
+        human referent
+      "non-hum": >-
+        non-human referent
+      "1/2sgPro": >-
+        1st singular or 2nd singular pronoun
+      "1/2plPro": >-
+        1st plural or 2nd plural pronoun
+      "N-sg": >-
+        noun in singular number
+      "N-pl": >-
+        noun in plural number
+      "3plPro": >-
+        3rd person plural pronoun
+      "2Pro": >-
+        2nd person pronoun
+      "1plPro": >-
+        1st person plural pronoun
+      "N-spec": >-
+        noun with specific reference
+      "N-non-spec": >-
+        noun with non-specific reference
+      "N-inanim": >-
+        inanimate noun
+      "N-non-kin": >-
+        noun apart from kin terms
+      "1Pro": >-
+        1st person pronoun
+      "1&3": >-
+        1st and 3rd person referents
+      "2": >-
+        2nd person referents
+      "Pro_NOT_1sgPro": >-
+        any pronoun apart from 1sg pronoun
+      "1sgPro": >-
+        1st person singular pronoun
+      "NOT_2plPro": >-
+        any noun or pronoun apart from 2plPro
+      "Pro_NOT_2plPro": >-
+        any pronoun apart from 2plPro
+      "2plPro": >-
+        2nd person plural pronoun
+      "N-specif&anim": >-
+        animate noun with specific reference
+      "Pro_NOT_1plPro": >-
+        any pronoun apart from 1pl pronoun
+      "N-pers": >-
+        personal name (proper nouns which are personal names, but not toponyms, etc.)
+      "N-non-sg": >-
+        noun in non-singular number (i.e. noun in dual, trial, and plural)
+      "Pro-kin": >-
+        kinship pronoun
+      "1duPro": >-
+        1st person dual pronoun
+      "2duPro": >-
+        2nd person dual pronoun
+      "N-non-hum-sg": >-
+        non-human noun in singular
+      "N-high": >-
+        noun with a higher discourse rank than ‘N-low’ (where rank is determined by
+        discourse factors with language-specific weights)
+      "N-low": >-
+        noun with a lower discourse rank than ‘N-high’ (where rank is determined by
+        discourse factors with language-specific weights)
+      "3duPro": >-
+        3rd person dual pronoun
+      "3sgPro-hum": >-
+        3rd person singular pronoun referring to a human
+      "3sgPro-non-hum": >-
+        3rd person singular pronoun referring to a non-human
+      "N-non-pers": >-
+        non-personal noun (common nouns and proper nouns which are not personal names
+        (e.g. toponyms))
+      "3sgPro-high": >-
+        3rd person singular pronoun with a higher discourse rank than ‘3sgPro-low’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3plPro-high": >-
+        3rd person plural pronoun with a higher discourse rank than ‘3plPro-low’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3sgPro-low": >-
+        3rd person plural pronoun with a lower discourse rank than ‘3sgPro-high’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3plPro-low": >-
+        3rd person plural pronoun with a lower discourse rank than ‘3plPro-high’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "N-sg-proper": >-
+        proper noun in singular
+      "N-pl-proper": >-
+        proper noun in plural
+      "N-common-sg": >-
+        common (non-proper) noun in singular
+      "N-common-pl": >-
+        common (non-proper) noun in plural
+      "N-common": >-
+        common noun
+      "SUP": >-
+        supine (a nonfinite verb form indicating purpose)
+      "N-pers-male": >-
+        male personal name
+      "N-pers-female": >-
+        female personal name
+      "N-non-hum-pl": >-
+        non-human noun in plural
+      "N-non-hum-du": >-
+        non-human noun in dual
+      "Pro-dep": >-
+        dependent pronoun (e.g. procliticized, etc.) if a language has both dependent and
+        independent pronouns
+      "N-masc-sg87": >-
+        German masculine singular noun (case on determiner)
+      "N-fem-sg87": >-
+        German feminine singular noun
+      "N-neut-sg87": >-
+        German neutral singular noun
+      "3sgPro-masc87": >-
+        German 3rd person masculine pronoun
+      "3sgPro-fem87": >-
+        German 3rd person feminine pronoun
+      "3sgPro-neut87": >-
+        German 3rd person neutral pronoun
+      "1inclPro": >-
+        1st person (plural) inclusive pronoun
+      "1exclPro": >-
+        1st person (plural) exclusive pronoun
+      "Pro-high": >-
+        pronoun with a higher discourse rank than ‘Pro-low’ (where rank is determined by
+        discourse factors with language-specific weights)
+      "Pro-low": >-
+        pronoun with a lower discourse rank than ‘Pro-high’ (where rank is determined by
+        discourse factors with language-specific weights)
+      "N1-sg-inanim340": >-
+        Russian inanimate noun of declension class 1 (e.g. zavod `factory’, mesto `place’)
+      "N1-sg-anim340": >-
+        Russian animate noun of declension class 1 (e.g. student `student’)
+      "N2-sg340": >-
+        Russian noun of declension class 2 (e.g. komnata `room’, sestra ‘sister’)
+      "N3-sg340": >-
+        Russian noun of declension class 3 (e.g. doč’ `daughter’)
+      "N-pl-anim": >-
+        animate noun in plural
+      "N-pl-inanim": >-
+        inanimate noun in plural
+      "AdjP": >-
+        adjective phrase
+      "Adv": >-
+        Adverb
+      "PP": >-
+        Adpositional phrase
+      "3Pro-anim": >-
+        pronoun referring to an animate entity
+      "3Pro-inanim": >-
+        pronoun referring to an inanimate entity
+      "anim": >-
+        animate referent
+      "3Pro-high": >-
+        3rd person pronoun (no number distinction) with a higher discourse rank than
+        ‘3Pro-low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3Pro-low": >-
+        3rd person pronoun (no number distinction) with a lower discourse rank than ‘3Pro-
+        high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "N-du": >-
+        noun in dual number
+      "N-sg-anim": >-
+        animate noun in singular
+      "N-du-anim": >-
+        animate noun in dual
+      "3sgPro-anim": >-
+        3rd person singular pronouns with animate reference
+      "3duPro-anim": >-
+        3rd person dual pronoun with animate reference
+      "3plPro-anim": >-
+        3rd person plural pronoun with animate reference
+      "1pl": >-
+        1st person plural
+      "2sg": >-
+        2nd person singular
+      "2pl": >-
+        2nd person plural
+      "3sg": >-
+        3rd person singular
+      "3pl": >-
+        3rd person plural
+      "1du.incl": >-
+        1st person dual inclusive
+      "1pl.incl": >-
+        1st person plural inclusive
+      "1du.excl": >-
+        1st person dual exclusive
+      "1pl.excl": >-
+        1st person plural exclusive
+      "2du": >-
+        2nd person dual
+      "3du": >-
+        3rd person dual
+      "3": >-
+        3rd person
+      "3sg-anim-high": >-
+        3rd person singular animate argument with a higher discourse rank than ‘3sg-
+        anim-low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3pl-anim-high": >-
+        3rd person plural animate argument with a higher discourse rank than ‘3pl-
+        anim-low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3sg-anim-low": >-
+        3rd person singular animate argument with a lower discourse rank than ‘3sg-
+        anim-high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3pl-anim-low": >-
+        3rd person plural animate argument with a lower discourse rank than ‘3pl-anim-
+        high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "indef": >-
+        indefinite referent
+      "N-anim-high": >-
+        animate noun with a higher discourse rank than ‘N-anim-low’ (where rank is
+        determined by discourse factors with language-specific weights)
+      "N-anim-low": >-
+        animate noun with a lower discourse rank than ‘N-anim-high’ (where rank is
+        determined by discourse factors with language-specific weights)
+      "3anim-high": >-
+        3rd person high-indexability animate referent, i.e. with a higher discourse
+        rank than ‘low-indexability’ (where rank is determined by discourse factors with
+        language-specific weights)
+      "3anim-low": >-
+        3rd person low-indexability animate referent, i.e. with a lower discourse rank
+        than ‘high-indexability’ (where rank is determined by discourse factors with
+        language-specific weights)
+      "3inanim": >-
+        inanimate referent (of the 3rd person)
+      "N-anim-sg-high": >-
+        animate singular noun with a higher discourse rank than ‘N-anim-low’ (where rank
+        is determined by discourse factors with language-specific weights)
+      "N-anim-sg-low": >-
+        animate singular noun with a lower discourse rank than ‘N-anim-high’ (where rank
+        is determined by discourse factors with language-specific weights)
+      "3hum-high": >-
+        3rd person human argument with a higher discourse rank than ‘3hum-low’ (where rank
+        is determined by discourse factors with language-specific weights)
+      "3hum-low": >-
+        3rd person human argument with a lower discourse rank than ‘3hum-high’ (where rank
+        is determined by discourse factors with language-specific weights)
+      "3anim-nhum-high": >-
+        3rd person animate non-human argument with a higher discourse rank than ‘3anim-
+        nhum-low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3anim-nhum-low": >-
+        3rd person animate non-human argument with a lower discourse rank than ‘3anim-
+        nhum-high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3inanim-high": >-
+        3rd person inanimate argument with a higher discourse rank than ‘3inanim-
+        low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3inanim-low": >-
+        3rd person inanimate argument with a lower discourse rank than ‘3inanim-
+        high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3sg-inanim": >-
+        inanimate singular referent (of the 3rd person)
+      "3pl-inanim": >-
+        inanimate plural referent (of the 3rd person)
+      "3sg-inanim-high": >-
+        inanimate singular referent (of the 3rd person) with higher discourse rank than
+        3sg/pl-inanim-low
+      "3pl-inanim-high": >-
+        inanimate plural referent (of the 3rd person) with higher discourse rank than 3sg/
+        pl-inanim-low
+      "3sg-inanim-low": >-
+        inanimate singular referent (of the 3rd person) with lower discourse rank than
+        3sg/pl-inanim-high
+      "3pl-inanim-low": >-
+        inanimate plural referent (of the 3rd person) with lower discourse rank than 3sg/
+        pl-inanim-high
+      "independent": >-
+        independent order forms in Algonquian verbs
+      "conjunct": >-
+        conjunct order forms in Algonquian verbs
+      "3sg-anim-fobv": >-
+        3rd person singular animate further obviative argument (i.e. with a lower dicourse
+        rank than the 3rd person sg. animate low argument)
+      "3pl-anim-fobv": >-
+        3rd person plural animate further obviative argument (i.e. with a lower dicourse
+        rank than the 3rd person pl. animate low argument)
+      "3du-anim-high": >-
+        3rd person dual animate argument with a higher discourse rank than ‘3sg-anim-
+        low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3du-anim-low": >-
+        3rd person dual animate argument with a lower discourse rank than ‘3sg-anim-
+        high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3du-inanim": >-
+        inanimate dual referent (of the 3rd person)
+      "1du": >-
+        1st person dual
+      "N-loc": >-
+        location nouns
+      "N-nloc": >-
+        non-location nouns
+      "N-topon": >-
+        toponym
+      "N-nontopon": >-
+        non-toponym noun
+      "du": >-
+        dual
+      "pl": >-
+        plural
+      "def": >-
+        definite argument
+      "pl-anim": >-
+        animate plural referent
+      "3pl-anim": >-
+        3rd person plural animate reference
+      "3duPro-high": >-
+        3rd person dual pronoun with a higher discourse rank than ‘3plPro-low’ (where rank
+        is determined by discourse factors with language-specific weights)
+      "3duPro-low": >-
+        3rd person dual pronoun with a lower discourse rank than ‘3plPro-low’ (where rank
+        is determined by discourse factors with language-specific weights)
+      "3sg-high": >-
+        3rd person singular argument with a higher discourse rank than ‘3sg-anim-
+        low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3du-high": >-
+        3rd person dual argument with a higher discourse rank than ‘3sg-anim-low’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3pl-high": >-
+        3rd person plural argument with a higher discourse rank than ‘3sg-anim-low’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3sg-low": >-
+        3rd person singular argument with a lower discourse rank than ‘3sg-anim-
+        high’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3du-low": >-
+        3rd person dual argument with a lower discourse rank than ‘3sg-anim-high’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3pl-low": >-
+        3rd person plural argument with a lower discourse rank than ‘3sg-anim-high’ (where
+        rank is determined by discourse factors with language-specific weights)
+      "3sg-anim": >-
+        3rd person singular animate argument
+      "3du-anim": >-
+        3rd person dual animate argument
+      "N-non-kin-sg": >-
+        singular noun apart from kin terms
+      "N-non-kin-pl": >-
+        plural noun apart from kin terms
+      "N-highest": >-
+        noun denoting the referent highest in discourse (e.g. such as PROX in Algonquian
+        languages)
+      "N-non-highest": >-
+        noun denoting any referent than the highest one in discourse (e.g. such as PROX in
+        Algonquian languages)
+      "3pl-x": >-
+        3rd person plural argument with unknown/unclear referential properties that result
+        in a split, if there is a split triggered by unclear referential properties 3pl-b
+        for the other member of the opposition.
+      "3pl-y": >-
+        3rd person plural argument with unknown/unclear referential properties that result
+        in a split, if there is a split triggered by unclear referential properties 3pl-a
+        for the other member of the opposition.
+      "Pro-highest": >-
+        pronoun denoting the 3rd referent highest in discourse (e.g. such as PROX in
+        Algonquian languages)
+      "Pro-non-highest": >-
+        pronoun denoting any referent other than the highest one in discourse (e.g. such
+        as PROX in Algonquian languages)
+      "highest": >-
+        the referent highest in discourse
+      "2-high": >-
+        2nd person argument with a higher discourse rank than ‘2-low’ (where rank is
+        determined by discourse factors with language-specific weights)
+      "3pl-hum": >-
+        3rd person plural human argument
+      "3sgPro-inanim": >-
+        3rd person singular pronouns with inanimate reference
+      "3duPro-inanim": >-
+        3rd person dual pronoun with inanimate reference
+      "3plPro-inanim": >-
+        3rd person plural pronouns with inanimate reference
+      "N-count": >-
+        countable noun
+      "N-uncount": >-
+        uncountable noun
+      "3sgPro-count": >-
+        3rd person singular pronoun referring to a countable entity
+      "3sgPro-uncount": >-
+        3rd person singular pronoun referring to an uncountable entity
+      "1du.INCL.Pro": >-
+        1st person dual inclusive pronoun
+      "1du.EXCL.Pro": >-
+        1st person dual exclusive pronoun
+      "non-highest": >-
+        the referent non-highest in discourse
+      "1pl.INCL.Pro": >-
+        1st person plural inclusive pronoun
+      "1pl.EXCL.Pro": >-
+        1st person plural exclusive pronoun
+      "3sg-non-hum": >-
+        3rd person sg. with non-human referent
+      "3sg-hum": >-
+        3rd person sg. with human referent
+      "3pl-non-hum": >-
+        3rd person pl. non-human referent
+      "3pl-hum-ref": >-
+        3rd person pl. human referent
+      "3sgPro-fem79": >-
+        French 3rd person feminine pronoun
+      "3plPro-fem79": >-
+        French 3p person plural feminine pronoun
+      "3sgPro-masc79": >-
+        French 3rd person singular masculine pronoun
+      "3plPro-masc79": >-
+        French 3rd person plural masculine pronoun
+      "2sg-high": >-
+        2nd person singular high
+      "2pl-high": >-
+        2nd person plural high
+      "3sg-hum-high": >-
+        3rd person singular human argument with a higher discourse rank than ‘3sg-
+        anim-low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3pl-hum-high": >-
+        3rd person plural human argument with a higher discourse rank than ‘3sg-anim-
+        low’ (where rank is determined by discourse factors with language-specific
+        weights)
+      "3sg-y": >-
+        3rd person singular argument with unknown/unclear referential properties that
+        result in a split, if there is a split triggered by unclear referential properties
+        3pl-a for the other member of the opposition.
+      "3sg-x": >-
+        3rd person singular argument with unknown/unclear referential properties that
+        result in a split, if there is a split triggered by unclear referential properties
+        3pl-b for the other member of the opposition.
+      "N1-1517": >-
+        Gahuku nouns taking the object suffix
+      "N2-1517": >-
+        Gahuku nouns not taking the object suffix
+      "2sgMH": >-
+        2nd person singular, mid honorific
+      "2plMH": >-
+        2nd person plural, mid honorific
+      "2sgHH": >-
+        2nd person singular, high honorific
+      "2plHH": >-
+        2nd person plural, high honorific
+      "3sgMH": >-
+        third person singular, mid honorific
+      "3plMH": >-
+        third person plural, mid honorific
+      "3sgHH": >-
+        third person singular, high honorific
+      "3plHH": >-
+        third person plural, high honorific
+      "N1sg-2471": >-
+        Serbian-Croatian nouns in SG that distinguish NOM and ACC
+      "N2pl-2471": >-
+        Serbian-Croatian nouns in PL that distinguish NOM and ACC
+      "N3sg-2471": >-
+        Serbian-Croatian nouns in SG that do not distinguish NOM and ACC
+      "N4pl-2471": >-
+        Serbian-Croatian nouns in PL that do not distinguish NOM and ACC
+      "3sgPro-highest": >-
+        pronoun denoting the 3rd sg. referent highest in discourse (e.g. such as PROX in
+        Algonquian languages)
+      "3plPro-highest": >-
+        pronoun denoting the 3rd pl. referent highest in discourse (e.g. such as PROX in
+        Algonquian languages)
+      "3sgPro-non-highest": >-
+        pronoun denoting any 3rd sg. referent other than the highest one in discourse
+        (e.g. such as PROX Algonquian languages)
+      "3plPro-non-highest": >-
+        pronoun denoting any 3rd pl. referent other than the highest one in discourse
+        (e.g. such as PROX Algonquian languages)
+      "N-common-non-kin": >-
+        noun apart from kin terms and proper nouns
+      "N-inanim-high": >-
+        inanimate noun with a higher discourse rank than ‘N-anim-low’ (where rank is
+        determined by discourse factors with language-specific weights)
+      "N-inanim-low": >-
+        inanimate noun with a lower discourse rank than ‘N-anim-high’ (where rank is
+        determined by discourse factors with language-specific weights)
+      "1sg-fem340": >-
+        Russian S/A past feminine agreement
+      "2sg-fem340": >-
+        Russian S/A past feminine agreement
+      "3sg-fem340": >-
+        Russian S/A past feminine agreement
+      "3sg-neu340": >-
+        Russian S/A past neuter agreement
+      "1sg-masc340": >-
+        Russian S/A past masculine agreement
+      "1sg-neu340": >-
+        Russian S/A past neuter agreement
+      "2sg-masc340": >-
+        Russian S/A past masculine agreement
+      "2sg-neu340": >-
+        Russian S/A past neuter agreement
+      "3sg-masc340": >-
+        Russian S/A past masc agreement
+      "#ANY#": >-
+        All referential types
+      "N1-2831": >-
+        Ancient Greek feminine and masculine nouns in singular and plural
+      "N2-2831": >-
+        Ancient Greek feminine and masculine nouns in dual and neuter nouns in all numbers
+      "3sgPro-neu2831": >-
+        Ancient Greek neuter 3sg pronoun
+      "3sgPro-fem2831": >-
+        Ancient Greek feminine 3sg pronoun
+      "3sgPro-masc2831": >-
+        Ancient Greek masculine 3sg pronoun
+      "3plPro-masc2831": >-
+        Ancient Greek masculine 3pl pronoun
+      "3plPro-fem2831": >-
+        Ancient Greek feminine 3pl pronoun
+      "3plPro-neu2831": >-
+        Ancient Greek neuter 3pl pronoun
+      "N-masc110": >-
+        Icelandic masculine nouns of strong and weak declension, no NOM/ACC syncretism
+      "N-fem.neu110": >-
+        Icelandic feminine nouns of weak declension and a minor masculine strong class,
+        show NOM/ACC syncretism in plural only AND Icelandic neuter and feminine nouns of
+        strong declension, show NOM/ACC syncretism in sg and pl
+      "3sgPro-masc110": >-
+        Icelandic 3rd person singular masculine pronoun
+      "3sgPro-fem110": >-
+        Icelandic 3rd person singular feminine pronoun
+      "3sgPro-neu110": >-
+        Icelandic 3rd person singular neuter pronoun
+      "3plPro-masc110": >-
+        Icelandic 3rd person plural masculine pronoun
+      "3plPro-fem110": >-
+        Icelandic 3rd person plural feminine pronoun
+      "3plPro-neu110": >-
+        Icelandic 3rd person plural neuter pronoun
+      "N-syncr2832": >-
+        Gothic nouns of every gender with syncretic NOM/ACC forms
+      "N-nsyncr2832": >-
+        Gothic nouns of every gender with non-syncretic NOM and ACC forms
+      "3sgPro-masc2832": >-
+        Gothic 3rd person singular masculine pronoun
+      "3sgPro-fem2832": >-
+        Gothic 3rd person singular feminine pronoun
+      "3sgPro-neu2832": >-
+        Gothic 3rd person singular neutrum pronoun
+      "3plPro-masc2832": >-
+        Gothic 3rd person plural masculine pronoun
+      "3plPro-fem2832": >-
+        Gothic 3rd person plural feminine pronoun
+      "3plPro-neu2832": >-
+        Gothic 3rd person plural neuter pronoun
+      "N-fem549": >-
+        Latvian nouns in feminine, which are syncretic only in the plural
+      "N-masc549": >-
+        Latvian nouns in masculine, which have no NOM/ACC syncretism
+      "3sgPro-fem549": >-
+        Latvian feminine 3sg pronoun
+      "3plPro-fem549": >-
+        Latvian feminine 3pl pronoun (syncretic NOM/ACC)
+      "3sgPro-masc549": >-
+        Latvian masculine 3sg pronoun
+      "3plPro-masc549": >-
+        Latvian masculine 3pl pronoun
+      "N-syncr2900": >-
+        Avestan nouns of the inflectional classes with NOM/ACC syncretism (either in du/pl
+        only or also in sg)
+      "N-nsyncr2900": >-
+        Avestan nouns of the inflectional classes without NOM/ACC syncretism
+      "N-nsyncr464": >-
+        Greek nouns of the inflectional classes without NOM/ACC syncretism (some
+        masculines and some feminines)
+      "N-syncr464": >-
+        Greek nouns of the inflectional classes with NOM/ACC syncretism (all neuter, some
+        masculines and some feminines, some of them in pl. only, other both in sg. and
+        pl.)
+      "3sgPro-neu464": >-
+        Greek neuter 3sg pronoun
+      "3sgPro-fem464": >-
+        Greek feminine 3sg pronoun
+      "3sgPro-masc464": >-
+        Greek masculine 3sg pronoun
+      "3plPro-neu464": >-
+        Greek neuter 3pl pronoun
+      "3plPro-fem464": >-
+        Greek feminine 3pl pronoun
+      "3plPro-masc464": >-
+        Greek masculine 3pl pronoun
+      "N-syncr2893": >-
+        Latin nouns with NOM = ACC syncretism both in sg. and pl. (all neuter nouns and
+        fem. and masc. nouns of declension 3, 4 and 5)
+      "N-nsyncr2893": >-
+        Latin nouns without NOM = ACC syncretism neither in sg. not in pl.
+      "3sgPro-masc2893": >-
+        Latin 3rd person singular masculine pronoun
+      "3sgPro-fem2893": >-
+        Latin 3rd person singular feminine pronoun
+      "3sgPro-neu2893": >-
+        Latin 3rd person singular neuter pronoun
+      "3plPro-masc2893": >-
+        Latin 3rd person plural masculine pronoun
+      "3plPro-fem2893": >-
+        Latin 3rd person plural feminine pronoun
+      "3plPro-neu2893": >-
+        Latin 3rd person plural neuter pronoun
+      "N-syncr2854": >-
+        High German (old) nouns with NOM = ACC syncretism both in sg. and pl. (nouns
+        of all genders in the vocalic/strong declension, nouns in minor consonantal
+        declensions, neuter nouns of the weak -n-declension)
+      "N-nsyncr2854": >-
+        High German (old) nouns without NOM/ACC syncretism in sg.(masc. and fem. nouns of
+        the weak declension); pl. is always syncreticvocalic/strong declension, nouns in
+        minor consonantal declensions, neuter nouns of the weak -n-declension)
+      "3sgPro-masc2854": >-
+        High German (old) 3sgPro without NOM/ACC syncretism
+      "3sgPro-fem2854": >-
+        High German (old) 3sgPro without NOM/ACC syncretism
+      "3sgPro-neu2854": >-
+        High German (old) 3sgPro with NOM = ACC syncretism
+      "2du_masc2378": >-
+        Rotokas 2nd person dual masculine agreement
+      "2du_fem2378": >-
+        Rotokas 2nd person dual feminine agreement
+      "3sg_masc2378": >-
+        Rotokas 3rd person masculine singular agreement
+      "3sg_fem2378": >-
+        Rotokas 3rd person feminine singular agreement
+      "3sg_neu2378": >-
+        Rotokas 3rd person neuter singular agreement
+      "3du_masc2378": >-
+        Rotokas 3rd person masculine dual agreement
+      "3du_fem2378": >-
+        Rotokas 3rd person feminine dual agreement
+      "3du_neu2378": >-
+        Rotokas 3rd person neuter dual agreement
+      "3pl_masc2378": >-
+        Rotokas 3rd person masculine plural agreement
+      "3pl_fem2378": >-
+        Rotokas 3rd person feminine plural agreement
+      "3pl_neu2378": >-
+        Rotokas 3rd person neuter plural agreement
+      "N_mostclasses2972": >-
+        Kambaata majority noun inflection class
+      "N_M8M9classes2972": >-
+        Kambaata M8 and M9 noun inflection class
+      "3sg_fem2972": >-
+        Kambaata 3rd person feminine singular agreement
+      "3sg_masc2972": >-
+        Kambaata 3rd person masculine singular agreement
+      "3pl_fem2972": >-
+        Kambaata 3rd person feminine plural agreement
+      "3pl_masc2972": >-
+        Kambaata 3rd person masculine plural agreement
+      "2sgHON": >-
+        2nd person singular honorific
+      "2plHON": >-
+        2nd person plural honorific
+      "3sgHON": >-
+        3nd person singular honorific
+      "3plHON": >-
+        3nd person plural honorific
+      "3sg_masc495": >-
+        Krongo 3rd person masculine singular agreement
+      "3sg_fem495": >-
+        Krongo 3rd person feminine singular agreement
+      "3sg_neu495": >-
+        Krongo 3rd person neuter singular agreement
+  # -- end of VerbIncorporation
+
+  VerbHasAnyIncorporation:
+    description: >-
+      Presence of any type of incorporation in the maximally inflected verb form
+    kind: computed data (aggregation-scripts/enhancements/MaximallyInflectedVerbSynthesis.R)
+    data: logical
+  # -- end of VerbHasAnyIncorporation
+
+  VerbHasNounIncorporation:
+    description: >-
+      Presence of noun incorporation in the maximally inflected verb form
+    kind: computed data (aggregation-scripts/enhancements/MaximallyInflectedVerbSynthesis.R)
+    data: logical
+  # -- end of VerbHasNounIncorporation
+
+  VerbHasVerbIncorporation:
+    description: >-
+      Presence of verb incorporation in the maximally inflected verb form
+    kind: computed data (aggregation-scripts/enhancements/MaximallyInflectedVerbSynthesis.R)
+    data: logical
+  # -- end of VerbHasVerbIncorporation
+
+  VerbHasNounOrVerbIncorporation:
+    description: >-
+      Presence of verb or noun incorporation in the maximally inflected verb form
+    kind: computed data (aggregation-scripts/enhancements/MaximallyInflectedVerbSynthesis.R)
+    data: logical
+  # -- end of VerbHasNounOrVerbIncorporation
+
+  IsVerbInflectionSurveyComplete:
+    description: >-
+      Flag showing wheher the inflectional category survey is sufficiently
+      complete for aggregations
+    kind: manual data entry
+    data: logical
+  # -- end of IsVerbInflectionSurveyComplete
+
+  VerbInflectionCategories:
+    description: >-
+      Inflectional categories marked on the maximally inflected verb forms
+    kind: manual data entry
+    data: table
+    fields: 
+      VerbInflectionCategory:
+        description: >-
+          Inflectional categories that can be marked separately on a maximally
+          inflected verb form and that have at least one overt reflex in the
+          form. When categories are cumulated or semantically conflated
+          in a single marker (as is often case with tense, aspect and mood),
+          they are counted as a single composite category (e.g. TAM); therefore
+          separate listing of categories entails that they are marked separately
+          and are clearly distinguishable. Categories are only coded if they
+          have at least one overt morphological reflex in the form (e.g.
+          'active' is not a category of English synthetic verb forms even though
+          such forms are in opposition to a passive construction). Also see
+          Bickel & Nichols' chapter on synthesis in the World Atlas of Language
+          Structure (wals.info).
+        kind: manual data entry
+        data: value-list
+        values: 
+          "Person": >-
+            1st, 2nd, 3rd person (and sometimes others), i.e. noun or pronoun referents
+            defined as speaker/hearer/neither.
+          "Number": >-
+            Singular, plural, sometimes others. Other than in role agreement.
+          "Role": >-
+            Grammatical role or relation, including pivots
+          "TAM": >-
+            Tense, aspect, and mood
+          "Honorificity": >-
+            Categories used to differentiate status of individuals: the referent of a form
+            marked as honorific is higher in status than the other(s) in the discourse.
+          "Aspect": >-
+            Grammatical aspect, sensitive to lexical Aktionsart and implicated in syntax;
+            categories such as perfective and imperfective.
+          "Polarity": >-
+            Negative vs. Affirmative
+          "Nominalizer": >-
+            Derives a syntactic noun form from a verb; turns a clause into a phrase that
+            can function as argument or possessor.
+          "Tense": >-
+            The traditional category of time reference (absolute or relative) in verbs.
+          "Connective": >-
+            Marker of clause connection, including chaining markers, complementizers,
+            markers of subordination or relative (unless it is a nominalizer, in
+            which case code as Nominalizer). Includes converbs of all types, chaining
+            (narrative, sequencing) and subordinating (adverbial). Forms called
+            “subjunctive” or “conjunctive” are likely to belong here.
+          "Causative": >-
+            Adds an agent to the valence.
+          "Voice": >-
+            Assignment of role to an NP with a certain marker or status (nominative,
+            absolutive, etc.) with a reduction in syntactic transitivity. This includes
+            passives, antipassives, diathetic reflexives, middles etc.
+          "Version": >-
+            Category that registers the presence of an indirect object, goal, or
+            applicative object and responds to its person (typically distinguishing 1st/
+            2nd vs. 3rd person). Term and concept from Kartvelian languages.
+          "Semistem": >-
+            The more wordlike or noun-like element of a bipartite stem that interacts with
+            the inflectional system.
+          "Gender": >-
+            Agreement category involving noun classification. Usually covert on nouns;
+            overt on agreeing word(s). Unless otherwise specified this is lexical gender
+            of nouns.
+          "Quantificational": >-
+            Multiple argument or multiple action, variously or fluidly. Pluractionals,
+            distributive, ‘each’, ‘all’, ‘some’, ‘once’, ‘always’, ‘repeatedly’ etc.
+            Subsumes both argument and event quantification
+          "MAN": >-
+            Mood-Aspect-Negation (term from Heath 1999 [Koyra Chiini]).
+          "TA": >-
+            Tense-aspect
+          "Applicative": >-
+            Adds another object to the valence.
+          "Illocution": >-
+            Interrogative, Declarative, Imperative etc.
+          "MTN": >-
+            Mood, tense, and negation
+          "Direction": >-
+            Direct/inverse marking, indicating conformity vs. non-conformity to a
+            hierarchy (person, referentiality), whether using equipollent direct and
+            inverse markers (e.g. Cree) or only an inverse marker (e.g. Chukchi).
+          "Reflexive": >-
+            Reflexives unless they serve purely diathetic purposes (passives,
+            antipassives)
+          "Focus": >-
+            intensifiers, focus, emphatics etc.
+          "Valence": >-
+            Transitivity markers. Does not include diathetical markers whose primary
+            function is to change valence. Valence markers as defined here are generally
+            used on ALL transitive or ALL intransitive verbs, whether derived or not
+            (Example; Algonquian, Austronesian transitivity markers). But note that
+            obviation is covered under Referential.
+          "Evidential": >-
+            Evidentials, miratives, evaluatives, etc.
+          "PossClass": >-
+            Possessive declension class, i.e. declension class based on possessum=head
+          "Construct": >-
+            The formative does not express any category but rather indicates the use of
+            a certain construction or the presence of a certain syntactic configuration.
+            Examples: Arabic or Slave construct state marking
+          "PossSem": >-
+            Possession semantics (e.g. marking that the head is alienable or drinkable
+            or whatever) -- not to be used if the marking is due to possessive declension
+            class differences!
+          "Sex": >-
+            Natural gender. Sex of referent (e.g. in English pronouns). For gender
+            classification of nouns, code as gender (even if gender is predictable from
+            sex, as it usually is for animates).
+          "Referential": >-
+            Values like definite, indefinite, specific, nonspecific, generic, obviative,
+            proximative, remote, etc. NB: “Referential” is exponent of CASE only if the
+            referential value cannot be separated from the syntactic role that the CASE
+            marker codes. That is, with Tagalog ANG, for example, you cannot have the
+            syntactic role that ANG codes without at the same time having specific NP
+            reference. This is different from DOM (and DSM) in Turkish or Hindi or Spanish
+            because not marking the object by the ACC does not make it an object any less.
+            Unmarked O’s in DOM systems are O’s. But not using ANG because the NP doesn’t
+            have specific reference, changes the syntactic role the NP is in.
+          "Switch_reference": >-
+            Grammatical category tracking successive clauses in a discourse for whether
+            the subject (or other pivot) is referentially identical to vs. different from
+            that of the adjacent clause.
+          "Status": >-
+            Realis vs. irrealis; certainty
+          "TE": >-
+            Tense and evidentiality together
+          "Aktionsart": >-
+            Situation aspect, or lexical aspect.
+          "Potentialis": >-
+            Potential mood category.
+          "Classifier": >-
+            Formative that classifies any argument, regardless of the type of
+            classification (e.g. shape, body part) or whether the classifier itself
+            is incorporated or just its semantics is specified. If numeral classifiers
+            are incorporated into the verb, include that here regardless of whether the
+            classified noun is also incorporated with it.
+          "Mood": >-
+            General term for mood categories such as indicative, conditional, subjunctive,
+            imperative, etc.
+          "Reflexive_and_Reciprocal": >-
+            Reflexive and/or reciprocal, for languages in which these two are non-distinct
+            or in complementary distribution.
+          "RECIP": >-
+            Reciprocal
+          "MSE": >-
+            Mood or Status or Evidential or any combination of these
+          "AN Focus": >-
+            DO NOT USE. Use 72 instead. (Was: Western Austronesian-style focus marking.)
+          "Scope": >-
+            The category serves to indicate or constrain the scope of some other morpheme
+            (e.g negation).
+          "Modality": >-
+            Possibility, probability, etc.; also desiderative, intention.
+          "Deixis": >-
+            Any grammatical category distinguishing direction toward vs. from speaker,
+            or similar; also up (from speaker), down (from speaker). Common terms:
+            cislocative, translocative.
+          "Possessor": >-
+            The adnominal, or dependent, member of adnominal constructions (NP with
+            modifier or adjunct). Includes but is not limited to literal possessors.
+          "Motion": >-
+            Inflectional categories (other than deixis) that have to do with motion, e.g.
+            Yagua unbounded movement suffix, Mparntwe Arrernte associated motion. But see
+            also Purposive.
+          "Repetition": >-
+            Iteration, repetition (‘again’); not the same as an iterative Aktionsart.
+          "Posterior": >-
+            Action follows another. May be future-like in elicitation. This definition
+            based on the Hatam posterior category.
+          "Rich_Construct": >-
+            Construct marker, but with additional semantics indicating something about the
+            role or function of the relevant dependent. See the Hatam instrument prefix
+            for an example.
+          "Present": >-
+            True present or Current Relevance (defined for Jeli [Mande, Ivory Coast] by
+            Tröbs 1998: 141-2): makes a verb present or perfect.
+          "TM": >-
+            Tense and mood
+          "Quotative": >-
+            Reported speech, quotative, and other dedicated markers of direct, indirect,
+            or semidirect speech.
+          "Possessive": >-
+            Possessive morphology (often affix), usually dependent-driven agreement on
+            head.
+          "Sequential": >-
+            Sequenced or sequential actions (anterior or posterior relative tense). Maybe
+            this category should be conflated with future/posterior.
+          "Conditional": >-
+            Mood category marking conditionality in any sense (hypothetical,
+            counterfactual, etc.).
+          "MA": >-
+            Mood and aspect
+          "Case": >-
+            E.g. Kunwinjku inflected verbs can take a case suffix; makes the verb
+            (approximately) an adverbial clause (‘when’, etc.).
+          "Control": >-
+            As in Salishan: deliberate, involuntary, etc. control of A over the action.
+          "Topic": >-
+            Either sentential topic (what is talked about in a sentence, opposed to
+            comment) or discourse topic (central participant of a stretch of discourse).
+          "Taxis": >-
+            Converb, participle, etc. morphology that can expand a fully inflected verb
+            form
+          "Progressive": >-
+            Aktionsart category involving bounded duration.
+          "Clusivity": >-
+            inclusive/exclusive
+          "Spatial": >-
+            Various local, spatial, etc. things (other than Deixis).
+          "Symmetrical_voice": >-
+            Assignment of role to an NP with a certain marker or status (proximate, topic,
+            focus, etc.) without a change in syntactic transitivity. This includes systems
+            such as Western Austronesian focus, Yukagir focus, Algonquian obviation, etc.
+          "Distributive": >-
+            Multiple occurrences of an argument, separate from role marking and distinct
+            from number marking
+          "Reversative": >-
+            ‘undo’, etc.
+          "Unspecified_Argument": >-
+            Unspecified or generic (or similar) A, O, etc.
+          "Middle": >-
+            Middle voice. This is probably lexical or derivational, not inflectional.
+          "Incompletive": >-
+            Incompletive aspect.
+          "Purposive": >-
+            (Term used for Tariana and used as though it were a standard term. Means ‘go
+            and ...’, ‘(in order) for ... to...’. Consider changing to Modality.
+          "TAME": >-
+            TAM and evidential, all in one slot
+          "Affect": >-
+            Indicates that an argument (e.g. A) is affected by, or has an interest in, the
+            event.
+          "AE": >-
+            Aspect and evidentiality
+          "ME": >-
+            Mood and evidentiality
+          "TAE": >-
+            Tense, aspect and evidentiality
+          "TN": >-
+            Tense, and negation
+      # -- end of VerbInflectionCategory
+
+      VerbInflectionMacrocategory:
+        variant_of: VerbInflectionCategory
+        description: >-
+          Inflectional macrocategories that can be marked. Macrocategories are
+          defined by grouping categories in major classes, as shown in the level
+          definitions.
+        kind: manual data entry
+        data: value-list
+        values: 
+          "person": >-
+            Person categories
+          "number": >-
+            Number categories
+          "role": >-
+            Role categories
+          "TAM+": >-
+            TAM or related categories
+          "pragmatic": >-
+            Pragmatic categories
+          "operators": >-
+            Operator categories
+          "NP-related": >-
+            NP structure categories
+          "inter-clausal": >-
+            Inter-clausal categories
+          "valence": >-
+            Valence-related categories
+          "classification": >-
+            Classification categories
+          "evidential": >-
+            Evidential categories
+          "event-specs": >-
+            Event specification categories (e.g. motion or repetition)
+          "other": >-
+            Other category type
+      # -- end of VerbInflectionMacrocategory
+
+      VerbInflectionMarkerPosition:
+        description: >-
+          Inflectional category marker position
+        kind: manual data entry
+        data: value-list
+        values: 
+          "prae": >-
+            before the phonological host
+          "in": >-
+            inside the phonological host
+          "post": >-
+            after the phonological host
+          "simul": >-
+            the formative has two exponents at different positions in the phonological
+            host (but it is not the case that one is positioned before and the other after
+            the host, which is coded as “circum”)
+          "circum": >-
+            the formative has two exponents, one before and one after the phonological
+            host. This is a special case of the “simul” position
+          "prae/post": >-
+            either before or after the phonological host, conditioned by some structural
+            context (category, syntax etc.)
+          "in/prae": >-
+            either inside or before the phonological host, conditioned by some structural
+            context (category, syntax etc.)
+          "in/post": >-
+            either inside or after the phonological host, conditioned by some structural
+            context (category, syntax etc.)
+          "post (prae)": >-
+            after the phonological host by default, before the host under exceptional
+            conditions (typically lexical)
+          "prae/circum": >-
+            either before or around the phonological host, conditioned by some structural
+            context (category, syntax etc.)
+          "Wackernagel": >-
+            DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post)
+            -- see log 77
+          "in (post)": >-
+            inside the phonological host by default, after the host under exceptional
+            conditions (typically lexical)
+          "prae/post/circum": >-
+            either before, after or around the phonological host, conditioned by some
+            structural context (category, syntax etc.)
+          "post (circum)": >-
+            after the phonological host by default, around the host under exceptional
+            conditions (typically lexical)
+          "circum (prae)": >-
+            around the phonological host by default, before the host under exceptional
+            conditions (typically lexical)
+          "prae (circum)": >-
+            before the phonological host by default, around the host under exceptional
+            conditions (typically lexical)
+          "circum (post)": >-
+            around the phonological host by default, after the host under exceptional
+            conditions (typically lexical)
+          "circum (W)": >-
+            DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post)
+            -- see log 77
+          "simul (prae)": >-
+            in two or more different positions in (but not around) the phonological host
+            by default, before the host under exceptional conditions (typically lexical)
+          "prae/in/post": >-
+            either before, inside or after the phonological host, conditioned by some
+            structural context (category, syntax etc.)
+          "prae (post)": >-
+            before the phonological host by default, after the host under exceptional
+            conditions (typically lexical)
+          "post (in)": >-
+            after the phonological host by default, inside the host under exceptional
+            conditions (typically lexical)
+          "post/prae (simul)": >-
+            either before, after or in two or more positions in the phonological host,
+            conditioned by some structural context (category, syntax etc.)
+          "prae/post/in/circum": >-
+            either before, after, inside or around the phonological host, conditioned by
+            some structural context (category, syntax etc.)
+          "unknown": >-
+            position is unknown
+          "any": >-
+            unspecified; can appear anywhere where the language allows it.
+          "simul (post)": >-
+            in two or more different positions in the phonological host by default, after
+            the host under exceptional conditions (typically lexical)
+          "stem change": >-
+            a special case of “simul” where one position is stem change itself
+          "post/circum": >-
+            either after or around the phonological host, conditioned by some structural
+            context (category, syntax etc.)
+          "prae/in": >-
+            either before or inside the phonological host, conditioned by some structural
+            context (category, syntax etc.)
+          "prae (in)": >-
+            before the phonological host by default, inside the host under exceptional
+            conditions (typically lexical)
+      # -- end of VerbInflectionMarkerPosition
+
+      VerbInflectionMarkerPositionBinned4:
+        variant_of: VerbInflectionMarkerPosition
+        description: >-
+          Four-way agreement inflectional category marker position aggregation
+          (prae, post, in/simul, split)
+        kind: manual data entry
+        data: value-list
+        values: 
+          "prae": >-
+            Marker occurs before its phonological host
+          "in/simul": >-
+            Marker occurs inside its phonological host
+          "post": >-
+            Marker occurs after its phonological host
+          "split": >-
+            Marker has multiple parts that occur at different positions
+      # -- end of VerbInflectionMarkerPositionBinned4
+
+      VerbInflectionMarkerPositionBinned5:
+        variant_of: VerbInflectionMarkerPosition
+        description: >-
+          Five-way agreement inflectional category marker position aggregation
+          (prae, post, in, simul, split)
+        kind: manual data entry
+        data: value-list
+        values: 
+          "prae": >-
+            Marker occurs before its phonological host
+          "in": >-
+            Marker occurs inside its phonological host
+          "post": >-
+            Marker occurs after its phonological host
+          "split": >-
+            Marker has multiple parts that occur at different positions (before or after)
+          "simul": >-
+            Marker has multiple parts that occur at different positions inside the host
+      # -- end of VerbInflectionMarkerPositionBinned5
+
+      VerbInflectionMarkerHasPreposedExponent:
+        variant_of: VerbInflectionMarkerPosition
+        description: >-
+          Does least some exponence of the inflectional category marker precede
+          the phonological host?
+        kind: manual data entry
+        data: logical
+      # -- end of VerbInflectionMarkerHasPreposedExponent
+
+      VerbInflectionMarkerHasPostposedExponent:
+        variant_of: VerbInflectionMarkerPosition
+        description: >-
+          Does least some exponence of the inflectional category marker follow
+          the phonological host?
+        kind: manual data entry
+        data: logical
+      # -- end of VerbInflectionMarkerHasPostposedExponent
+
+      VerbInflectionMarkerHasMultipleExponents:
+        variant_of: VerbInflectionMarkerPosition
+        description: >-
+          Is there at least some multiple/simultaneous realization of the
+          inflectional category marker at the issue?
+        kind: manual data entry
+        data: logical
+      # -- end of VerbInflectionMarkerHasMultipleExponents
+  # -- end of VerbInflectionCategories
+
+  IsVerbAgreementSurveyComplete:
+    description: >-
+      Flag showing wheher the agreement survey is sufficiently complete
+      for aggregations
+    kind: manual data entry
+    data: logical
+  # -- end of IsVerbAgreementSurveyComplete
+
+  VerbAgreement:
+    description: >-
+      Agreement markers present on maximally inflected verb forms
+    kind: manual data entry
+    data: table
+    fields: 
+      VerbAgreementMicrorelation:
+        description: >-
+          Syntactic argument role (microrelation)
+        kind: manual data entry
+        data: value-list
+        values: 
+          "A-default": >-
+            Most agentive argument of (di)transitive verb. Includes experiencers as long
+            as they are coded in the same way as agents. If they are coded like patients,
+            they are treated as ‘A-exp’ here.
+          "U-default": >-
+            Most patientive argument of monotransitive verb. Includes ‘contents/stimuli’
+            as long as they are coded in the same way as patients. If they are coded like
+            agents, they are treated as ‘C’ here
+          "S-default": >-
+            Single argument of intransitive verb
+          "Pat": >-
+            Patientive argument irrespective of transitivity. Typical in active/stative
+            systems, but often grammaticalized to a degree where ‘agentivity’ or ‘control’
+            do no longer predict the distribution of the role.
+          "T-default": >-
+            Theme argument of ditransitives; corresponds to ‘secondary object’ in a
+            language that conflates U and G.
+          "B-default": >-
+            beneficiary, goal, recipient argument of ditransitives; corresponds to
+            ‘indirect object’ in a language that conflates U and T.
+          "A-exp": >-
+            Experiencers that behave like A but not entirely. Since this is a form
+            class concept, it includes arguments that are ‘obliged’ in an obligation
+            construction and possessors in dative possessor constructions (subspecies of
+            A-obl). An experiencer is an A-exp only if it is thematically/topically more
+            prominent than the stimulus; otherwise it is a plain Patient.
+          "U-def": >-
+            Definite U. Good example: accusative marked Turkish direct objects
+          "T-def": >-
+            Definite T. Good example: accusative marked Turkish direct objects
+          "U-emp": >-
+            U with high empathy/animacy. Good example: Spanish a, Indo-Iranian datives
+          "T-emp": >-
+            U with high empathy/animacy. Good example: Spanish a, Indo-Iranian datives
+          "A-anim": >-
+            Transitive actors that are animate
+          "G-default": >-
+            Goal of motion verbs
+          "<any>": >-
+            any role depending on the syntactic environment
+          "S-d": >-
+            Single argument in intransitives that are derived from transitives through
+            (anti)passives and other detransitivizing morpholexical operations (only if
+            the language makes a distinction between derived and non-derived S)
+          "U-stim": >-
+            stimuli that mostly but not entirely behave like the most patientive argument
+            of transitive verbs
+          "Act": >-
+            volitional, agentive actors irrespective of transitivity. Typical in active/
+            stative systems, but often grammaticalized to a degree where ‘agentivity’ or
+            ‘control’ do no longer predict the distribution of the role.
+          "core": >-
+            any of S, A or U arguments
+          "oblique": >-
+            general oblique
+          "O-adp": >-
+            object of adposition
+          "A-pro": >-
+            Pronominal A’s, including demonstratives. If the distinction is between
+            personal pronouns and everything else it is more likely to have to with
+            empathy (‘A-emp’)
+          "U-com": >-
+            comitative object of applicative
+          "U-loc": >-
+            locative object of applicative
+          "U-circ": >-
+            circumstantial object of applicative
+          "U-instr": >-
+            instrumental object of applicative
+          "U-nom": >-
+            U in the nominative, unmarked case
+          "A-nom": >-
+            A in the nominative, unmarked case
+          "T-nom": >-
+            T in the nominative, unmarked case
+          "B-rec": >-
+            Recipients of ditransitives if formally distinct from beneficiaries and goals
+          "locative": >-
+            locative
+          "I-default": >-
+            Instrument
+          "B-ben": >-
+            Recipients of ditransitives if formally distinct from recipients and goals
+          "A-poss": >-
+            Possessor (in clause construction translatable with ‘have’).
+          "A>U": >-
+            roles marked simultaneously; A acts on U; typical in inverse markers
+          "POSS-default": >-
+            Possessor: all genitival relations in an NP. Note: if a POSS marker is sused
+            for indicating experience beyond literal possession (e.g. my-thirst/my-
+            love is.there vs. literal my-leg/my-heart hurts) note this as A-exp (if with
+            bivalent predicate) or as S-exp (if with a monovalent predicate)
+          "S-exp": >-
+            Experiencers that mostly behave like S but not entirely
+          "E-default": >-
+            Experiencer. Only if covering ALL experiencers as distinct from A’s. If only
+            some experiencers are covered, the others being coded like agentive A’s, then
+            this is coded as ‘A-exp’
+          "U-ref": >-
+            Referential object,i.e. all arguments except those that refer to generic kinds
+          "U-pro": >-
+            Incorporated pronoun (can’t co-occur with co-referential overt object NP in
+            the same clause).
+          "U-gener": >-
+            Nonspecific U
+          "ATTR-default": >-
+            The relation borne by attributive adjectives.
+          "ARG-nom": >-
+            any argument in the unmarked (nominative) case.
+          "S-nom": >-
+            S in the unmarked (nominative) case
+          "AFF": >-
+            ‘Affected’ non-argumental participant, e.g. ethical datives, ascended
+            possessors etc.
+          "U-disamb": >-
+            U in the presence of an unmarked A; if the A is case-marked, U is not also
+            case-marked. Example: Rapanui Accusative
+          "POSS-def": >-
+            possessor with specific reference
+          "U-spec.anim": >-
+            U with both specific and animate reference
+          "PRED.N": >-
+            Predicate nouns
+          "U-spec": >-
+            U with specific reference
+          "B-spec": >-
+            B with specific reference
+          "S-oblig": >-
+            S in obligative constructions (Russ. emu [nado] skazat’; Kewa ‘his says’ =
+            ‘it’s up to him to say’)
+          "B-def": >-
+            B with definite reference
+          "Temporal": >-
+            time circumstance
+          "U-ref.human": >-
+            U with human reference
+          "COMP": >-
+            Standard of comparison
+          "B-gen": >-
+            B in a possessor-denoting case (genitive)
+          "COM": >-
+            comitative (e.g. a verb agreement role in Abkhaz)
+          "U/B-default": >-
+            the same marker used for both patients/undergoes of transitives and
+            beneficiary, goal, recipient argument of ditransitives;
+      # -- end of VerbAgreementMicrorelation
+
+      VerbAgreementMarkerPosition:
+        description: >-
+          Agrement marker position
+        kind: manual data entry
+        data: value-list
+        values: 
+          "prae": >-
+            before the phonological host
+          "in": >-
+            inside the phonological host
+          "post": >-
+            after the phonological host
+          "simul": >-
+            the formative has two exponents at different positions in the phonological
+            host (but it is not the case that one is positioned before and the other after
+            the host, which is coded as “circum”)
+          "circum": >-
+            the formative has two exponents, one before and one after the phonological
+            host. This is a special case of the “simul” position
+          "prae/post": >-
+            either before or after the phonological host, conditioned by some structural
+            context (category, syntax etc.)
+          "in/prae": >-
+            either inside or before the phonological host, conditioned by some structural
+            context (category, syntax etc.)
+          "in/post": >-
+            either inside or after the phonological host, conditioned by some structural
+            context (category, syntax etc.)
+          "post (prae)": >-
+            after the phonological host by default, before the host under exceptional
+            conditions (typically lexical)
+          "prae/circum": >-
+            either before or around the phonological host, conditioned by some structural
+            context (category, syntax etc.)
+          "Wackernagel": >-
+            DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post)
+            -- see log 77
+          "in (post)": >-
+            inside the phonological host by default, after the host under exceptional
+            conditions (typically lexical)
+          "prae/post/circum": >-
+            either before, after or around the phonological host, conditioned by some
+            structural context (category, syntax etc.)
+          "post (circum)": >-
+            after the phonological host by default, around the host under exceptional
+            conditions (typically lexical)
+          "circum (prae)": >-
+            around the phonological host by default, before the host under exceptional
+            conditions (typically lexical)
+          "prae (circum)": >-
+            before the phonological host by default, around the host under exceptional
+            conditions (typically lexical)
+          "circum (post)": >-
+            around the phonological host by default, after the host under exceptional
+            conditions (typically lexical)
+          "circum (W)": >-
+            DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post)
+            -- see log 77
+          "simul (prae)": >-
+            in two or more different positions in (but not around) the phonological host
+            by default, before the host under exceptional conditions (typically lexical)
+          "prae/in/post": >-
+            either before, inside or after the phonological host, conditioned by some
+            structural context (category, syntax etc.)
+          "prae (post)": >-
+            before the phonological host by default, after the host under exceptional
+            conditions (typically lexical)
+          "post (in)": >-
+            after the phonological host by default, inside the host under exceptional
+            conditions (typically lexical)
+          "post/prae (simul)": >-
+            either before, after or in two or more positions in the phonological host,
+            conditioned by some structural context (category, syntax etc.)
+          "prae/post/in/circum": >-
+            either before, after, inside or around the phonological host, conditioned by
+            some structural context (category, syntax etc.)
+          "unknown": >-
+            position is unknown
+          "any": >-
+            unspecified; can appear anywhere where the language allows it.
+          "simul (post)": >-
+            in two or more different positions in the phonological host by default, after
+            the host under exceptional conditions (typically lexical)
+          "stem change": >-
+            a special case of “simul” where one position is stem change itself
+          "post/circum": >-
+            either after or around the phonological host, conditioned by some structural
+            context (category, syntax etc.)
+          "prae/in": >-
+            either before or inside the phonological host, conditioned by some structural
+            context (category, syntax etc.)
+          "prae (in)": >-
+            before the phonological host by default, inside the host under exceptional
+            conditions (typically lexical)
+      # -- end of VerbAgreementMarkerPosition
+
+      VerbAgreementMarkerPositionBinned4:
+        variant_of: VerbAgreementMarkerPosition
+        description: >-
+          Four-way agreement marker position aggregation (prae, post, in/simul,
+          split)
+        kind: manual data entry
+        data: value-list
+        values: 
+          "prae": >-
+            Marker occurs before its phonological host
+          "in/simul": >-
+            Marker occurs inside its phonological host
+          "post": >-
+            Marker occurs after its phonological host
+          "split": >-
+            Marker has multiple parts that occur at different positions
+      # -- end of VerbAgreementMarkerPositionBinned4
+
+      VerbAgreementMarkerPositionBinned5:
+        variant_of: VerbAgreementMarkerPosition
+        description: >-
+          Five-way agreement marker position aggregation (prae, post, in, simul,
+          split)
+        kind: manual data entry
+        data: value-list
+        values: 
+          "prae": >-
+            Marker occurs before its phonological host
+          "in": >-
+            Marker occurs inside its phonological host
+          "post": >-
+            Marker occurs after its phonological host
+          "split": >-
+            Marker has multiple parts that occur at different positions (before or after)
+          "simul": >-
+            Marker has multiple parts that occur at different positions inside the host
+      # -- end of VerbAgreementMarkerPositionBinned5
+
+      VerbAgreementMarkerHasPreposedExponent:
+        variant_of: VerbAgreementMarkerPosition
+        description: >-
+          Does least some exponence of the agreement marker precede the
+          phonological host?
+        kind: manual data entry
+        data: logical
+      # -- end of VerbAgreementMarkerHasPreposedExponent
+
+      VerbAgreementMarkerHasPostposedExponent:
+        variant_of: VerbAgreementMarkerPosition
+        description: >-
+          Does least some exponence of the agreement marker follow the
+          phonological host?
+        kind: manual data entry
+        data: logical
+      # -- end of VerbAgreementMarkerHasPostposedExponent
+
+      VerbAgreementMarkerHasMultipleExponents:
+        variant_of: VerbAgreementMarkerPosition
+        description: >-
+          Is there at least some multiple/simultaneous realization of the
+          agreement marker at the issue?
+        kind: manual data entry
+        data: logical
+      # -- end of VerbAgreementMarkerHasMultipleExponents
+  # -- end of VerbAgreement

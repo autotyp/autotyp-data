@@ -208,10 +208,10 @@ provided as part of the module `Definitions`. Many datasets rely on these value 
 encode the presence of categories in a way that permits compatible coding and quick
 cross-referencing. For instance, the definition table `Position` establishes a set of values for
 describing the location of a grammatical marker in relation to its phonological host. These values
-are then used across multiple datasets (e.g. `GrammaticalMarkers`, `VerbSynthesis` etc.). Note that
-most of these values are not a-priory defined, but produced through the process of autotypology —
-the set of defined values is extended when new phenomena is discovered that cannot be adequately
-described with the existing set. 
+are then used across multiple datasets (e.g. `GrammaticalMarkers`, 
+`MaximallyInflectedVerbSynthesis` etc.). Note that most of these values are not a-priory defined, 
+but produced through the process of autotypology — the set of defined values is extended when new 
+phenomena is discovered that cannot be adequately described with the existing set. 
 
 For variables that rely on shared definitions, the dataset metadata will specify their type as 
 `value-list` and `values` will list the values and their explanations. Such variables are presented
@@ -263,24 +263,25 @@ Detailed list of datasets is available in the [overview of available datasets](d
 
 ## Data coverage
 
-The current release includes over 260 primary 
+The current release includes over 200 primary 
 (hand-entered) typological variables (not counting auxiliary variables, comments, bookkeeping and
 recodings) that describe 1,220 languages over 
-approximately 280,000 data points. Together with the 
+approximately 260,000 data points. Together with the 
 derived (aggregated) data, we provide over 1,900,000 data points. 
 The following table breaks down the data coverage per AUTOTYP module:
 
 
-|Module               | Primary variables| Derived variables| Number of languages covered|Number of primary typological datapoints |
-|:--------------------|-----------------:|-----------------:|---------------------------:|:----------------------------------------|
-|Categories           |                14|                 7|                         505|~4,000                                   |
-|GrammaticalRelations |                64|               111|                         812|~110,000                                 |
-|Morphology           |                51|               248|                         999|~110,000                                 |
-|NP                   |                13|               121|                         485|~9,000                                   |
-|Sentence             |                47|                 0|                         468|~8,000                                   |
-|Word                 |                36|                 3|                          76|~25,000                                  |
-|                     |                  |                  |                            |                                         |
-|Total                |               291|               970|                        1166|~280,000                                 |
+|Module                              | Primary variables| Derived variables| Number of languages covered|Number of primary typological datapoints |
+|:-----------------------------------|-----------------:|-----------------:|---------------------------:|:----------------------------------------|
+|Categories                          |                14|                 7|                         505|~4,000                                   |
+|GrammaticalRelations                |                64|               111|                         812|~110,000                                 |
+|InflectionOnMaximallyInflectedVerbs |                 0|               546|                         229|0                                        |
+|Morphology                          |                51|               248|                         999|~110,000                                 |
+|NP                                  |                13|               121|                         485|~9,000                                   |
+|Sentence                            |                47|                 0|                         468|~8,000                                   |
+|Word                                |                36|                 3|                          76|~25,000                                  |
+|                                    |                  |                  |                            |                                         |
+|Total                               |               225|              1036|                        1166|~260,000                                 |
 
 The following map shows how the primary data are distributed over the world. Points are sized in 
 proportion to the number of primary typological variables available for each language

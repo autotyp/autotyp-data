@@ -1,0 +1,791 @@
+description: >-
+  Marker position (from `GrammaticalMarkers::MarkerPosition`), reshaped and aggregated per language and inflection category on maximally inflected verbs
+kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+data: table
+counts:
+  n_languages: 228
+  n_variables: 54
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      In this database a language is actually a dialect or variety, in that
+      individual dialects are entered as languages. That is, each language has
+      its own ID number (the 'LID') distinct from that of the pan-dialectal
+      language:e.g. LID 87 German, 1227 Upper Austrian German, 1295 Berlin
+      German, 1310 Zürich German, 2845 Old High German, etc. (The pan-dialectal
+      language is identified as the lowest taxonomic level, the `dialect group',
+      but this information is incomplete in many areas and has not been included
+      in the current release.) The general criterion for a separate language
+      record in the database is that it has a distinct property in at least one
+      of the typological variables that we survey; this may or may not coincide
+      with sociolinguistic criteria.
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  MarkerPositionForTAM:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for TAM
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post (prae)": >-
+        after the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "post (in)": >-
+        after the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+      "post/circum": >-
+        either after or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "multiple": >-
+        multiple markers at different positions
+  # -- end of MarkerPositionForTAM
+
+  MarkerPositionForPolarity:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Polarity
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "simul": >-
+        the formative has two exponents at different positions in the phonological host
+        (but it is not the case that one is positioned before and the other after the
+        host, which is coded as “circum”)
+      "circum": >-
+        the formative has two exponents, one before and one after the phonological host.
+        This is a special case of the “simul” position
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post (prae)": >-
+        after the phonological host by default, before the host under exceptional
+        conditions (typically lexical)
+      "prae/circum": >-
+        either before or around the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post/prae (simul)": >-
+        either before, after or in two or more positions in the phonological host,
+        conditioned by some structural context (category, syntax etc.)
+      "prae (in)": >-
+        before the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+  # -- end of MarkerPositionForPolarity
+
+  MarkerPositionForVoice:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Voice
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "multiple": >-
+        multiple markers at different positions
+  # -- end of MarkerPositionForVoice
+
+  MarkerPositionForMood:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Mood
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post (in)": >-
+        after the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+      "multiple": >-
+        multiple markers at different positions
+  # -- end of MarkerPositionForMood
+
+  MarkerPositionForValence:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Valence
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+  # -- end of MarkerPositionForValence
+
+  MarkerPositionForAktionsart:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Aktionsart
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+  # -- end of MarkerPositionForAktionsart
+
+  MarkerPositionForConnective:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Connective
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+  # -- end of MarkerPositionForConnective
+
+  MarkerPositionForSemistem:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Semistem
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+  # -- end of MarkerPositionForSemistem
+
+  MarkerPositionForReferential:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Referential
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForReferential
+
+  MarkerPositionForCausative:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Causative
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "multiple": >-
+        multiple markers at different positions
+  # -- end of MarkerPositionForCausative
+
+  MarkerPositionForAspect:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Aspect
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "circum (post)": >-
+        around the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+      "multiple": >-
+        multiple markers at different positions
+  # -- end of MarkerPositionForAspect
+
+  MarkerPositionForTM:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for TM
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+      "prae/in/post": >-
+        either before, inside or after the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+  # -- end of MarkerPositionForTM
+
+  MarkerPositionForDeixis:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Deixis
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForDeixis
+
+  MarkerPositionForMSE:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for MSE
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+  # -- end of MarkerPositionForMSE
+
+  MarkerPositionForQuantificational:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Quantificational
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "multiple": >-
+        multiple markers at different positions
+  # -- end of MarkerPositionForQuantificational
+
+  MarkerPositionForMA:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for MA
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "prae/in/post": >-
+        either before, inside or after the phonological host, conditioned by some
+        structural context (category, syntax etc.)
+      "multiple": >-
+        multiple markers at different positions
+  # -- end of MarkerPositionForMA
+
+  MarkerPositionForTense:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Tense
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/post": >-
+        either inside or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "post (in)": >-
+        after the phonological host by default, inside the host under exceptional
+        conditions (typically lexical)
+      "multiple": >-
+        multiple markers at different positions
+  # -- end of MarkerPositionForTense
+
+  MarkerPositionForTA:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for TA
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "in/prae": >-
+        either inside or before the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "multiple": >-
+        multiple markers at different positions
+  # -- end of MarkerPositionForTA
+
+  MarkerPositionForPotentialis:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Potentialis
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+  # -- end of MarkerPositionForPotentialis
+
+  MarkerPositionForApplicative:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Applicative
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForApplicative
+
+  MarkerPositionForNumber:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Number
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "multiple": >-
+        multiple markers at different positions
+  # -- end of MarkerPositionForNumber
+
+  MarkerPositionForReflexiveAndReciprocal:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for ReflexiveAndReciprocal
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+      "prae (post)": >-
+        before the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+  # -- end of MarkerPositionForReflexiveAndReciprocal
+
+  MarkerPositionForVersion:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Version
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+  # -- end of MarkerPositionForVersion
+
+  MarkerPositionForIllocution:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Illocution
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForIllocution
+
+  MarkerPositionForMTN:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for MTN
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForMTN
+
+  MarkerPositionForStatus:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Status
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "multiple": >-
+        multiple markers at different positions
+  # -- end of MarkerPositionForStatus
+
+  MarkerPositionForEvidential:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Evidential
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForEvidential
+
+  MarkerPositionForConstruct:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Construct
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForConstruct
+
+  MarkerPositionForNominalizer:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Nominalizer
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForNominalizer
+
+  MarkerPositionForHonorificity:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Honorificity
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "in (post)": >-
+        inside the phonological host by default, after the host under exceptional
+        conditions (typically lexical)
+  # -- end of MarkerPositionForHonorificity
+
+  MarkerPositionForFocus:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Focus
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+      "multiple": >-
+        multiple markers at different positions
+  # -- end of MarkerPositionForFocus
+
+  MarkerPositionForSwitchReference:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for SwitchReference
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForSwitchReference
+
+  MarkerPositionForSymmetricalVoice:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for SymmetricalVoice
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: {}
+  # -- end of MarkerPositionForSymmetricalVoice
+
+  MarkerPositionForRECIP:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for RECIP
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "in": >-
+        inside the phonological host
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForRECIP
+
+  MarkerPositionForTE:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for TE
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
+      "prae/post": >-
+        either before or after the phonological host, conditioned by some structural
+        context (category, syntax etc.)
+  # -- end of MarkerPositionForTE
+
+  MarkerPositionForReflexive:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Reflexive
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+      "multiple": >-
+        multiple markers at different positions
+  # -- end of MarkerPositionForReflexive
+
+  MarkerPositionForClassifier:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Classifier
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: {}
+  # -- end of MarkerPositionForClassifier
+
+  MarkerPositionForME:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for ME
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForME
+
+  MarkerPositionForRepetition:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Repetition
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForRepetition
+
+  MarkerPositionForSpatial:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Spatial
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForSpatial
+
+  MarkerPositionForMotion:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Motion
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
+      "simul (post)": >-
+        in two or more different positions in the phonological host by default, after the
+        host under exceptional conditions (typically lexical)
+  # -- end of MarkerPositionForMotion
+
+  MarkerPositionForModality:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Modality
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForModality
+
+  MarkerPositionForDirection:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Direction
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForDirection
+
+  MarkerPositionForPosterior:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Posterior
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForPosterior
+
+  MarkerPositionForControl:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Control
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForControl
+
+  MarkerPositionForQuotative:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Quotative
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForQuotative
+
+  MarkerPositionForReversative:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Reversative
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForReversative
+
+  MarkerPositionForAffect:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Affect
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForAffect
+
+  MarkerPositionForAE:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for AE
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForAE
+
+  MarkerPositionForTAME:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for TAME
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForTAME
+
+  MarkerPositionForConditional:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Conditional
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForConditional
+
+  MarkerPositionForPossessor:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for Possessor
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "prae": >-
+        before the phonological host
+  # -- end of MarkerPositionForPossessor
+
+  MarkerPositionForTAE:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for TAE
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForTAE
+
+  MarkerPositionForTN:
+    description: >-
+      GrammaticalMarkers::MarkerPosition value for TN
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: value-list
+    values: 
+      "post": >-
+        after the phonological host
+  # -- end of MarkerPositionForTN
