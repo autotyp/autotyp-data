@@ -8,7 +8,7 @@ description: >-
 kind: computed data (aggregation-scripts/Alignment.R)
 data: table
 counts:
-  n_languages: 682
+  n_languages: 687
   n_variables: 20
 fields: 
   LID:

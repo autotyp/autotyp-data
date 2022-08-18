@@ -1055,12 +1055,31 @@
         "IsAgreementCodedForDefaultPredicates": true,
         "IsAgreementCodedForDitransitivePredicates": null,
         "IsAgreementCodedForOtherPredicates": null,
-        "IsAgreementMarkersCodedForDefaultPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": true,
         "IsAgreementMarkersCodedForDitransitivePredicates": null,
         "IsAgreementMarkersCodedForOtherPredicates": null
       }
     ],
-    "PersonNumberCategories": []
+    "PersonNumberCategories": [
+      {
+        "PersonNumberCategory": "1sg"
+      },
+      {
+        "PersonNumberCategory": "2sg"
+      },
+      {
+        "PersonNumberCategory": "2pl"
+      },
+      {
+        "PersonNumberCategory": "3sg"
+      },
+      {
+        "PersonNumberCategory": "3pl"
+      },
+      {
+        "PersonNumberCategory": "1pl"
+      }
+    ]
   },
   {
     "LID": 53,
@@ -2543,15 +2562,34 @@
     "Agreement": [
       {
         "HasAgreement": true,
-        "IsAgreementCodedForDefaultPredicates": null,
+        "IsAgreementCodedForDefaultPredicates": true,
         "IsAgreementCodedForDitransitivePredicates": null,
         "IsAgreementCodedForOtherPredicates": null,
-        "IsAgreementMarkersCodedForDefaultPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": true,
         "IsAgreementMarkersCodedForDitransitivePredicates": null,
         "IsAgreementMarkersCodedForOtherPredicates": null
       }
     ],
-    "PersonNumberCategories": []
+    "PersonNumberCategories": [
+      {
+        "PersonNumberCategory": "1sg"
+      },
+      {
+        "PersonNumberCategory": "1pl"
+      },
+      {
+        "PersonNumberCategory": "2sg"
+      },
+      {
+        "PersonNumberCategory": "2pl"
+      },
+      {
+        "PersonNumberCategory": "3sg"
+      },
+      {
+        "PersonNumberCategory": "3pl"
+      }
+    ]
   },
   {
     "LID": 126,
@@ -2970,15 +3008,49 @@
     "Agreement": [
       {
         "HasAgreement": true,
-        "IsAgreementCodedForDefaultPredicates": false,
+        "IsAgreementCodedForDefaultPredicates": true,
         "IsAgreementCodedForDitransitivePredicates": null,
         "IsAgreementCodedForOtherPredicates": null,
-        "IsAgreementMarkersCodedForDefaultPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": true,
         "IsAgreementMarkersCodedForDitransitivePredicates": null,
         "IsAgreementMarkersCodedForOtherPredicates": null
       }
     ],
-    "PersonNumberCategories": []
+    "PersonNumberCategories": [
+      {
+        "PersonNumberCategory": "1sg"
+      },
+      {
+        "PersonNumberCategory": "3pl"
+      },
+      {
+        "PersonNumberCategory": "1du.incl"
+      },
+      {
+        "PersonNumberCategory": "1pl.incl"
+      },
+      {
+        "PersonNumberCategory": "1du.excl"
+      },
+      {
+        "PersonNumberCategory": "1pl.excl"
+      },
+      {
+        "PersonNumberCategory": "2du"
+      },
+      {
+        "PersonNumberCategory": "3du"
+      },
+      {
+        "PersonNumberCategory": "2sg"
+      },
+      {
+        "PersonNumberCategory": "2pl"
+      },
+      {
+        "PersonNumberCategory": "3sg"
+      }
+    ]
   },
   {
     "LID": 148,
@@ -3592,15 +3664,37 @@
     "Agreement": [
       {
         "HasAgreement": true,
-        "IsAgreementCodedForDefaultPredicates": null,
+        "IsAgreementCodedForDefaultPredicates": true,
         "IsAgreementCodedForDitransitivePredicates": null,
         "IsAgreementCodedForOtherPredicates": null,
-        "IsAgreementMarkersCodedForDefaultPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": true,
         "IsAgreementMarkersCodedForDitransitivePredicates": null,
         "IsAgreementMarkersCodedForOtherPredicates": null
       }
     ],
-    "PersonNumberCategories": []
+    "PersonNumberCategories": [
+      {
+        "PersonNumberCategory": "1sg"
+      },
+      {
+        "PersonNumberCategory": "2sg"
+      },
+      {
+        "PersonNumberCategory": "2pl"
+      },
+      {
+        "PersonNumberCategory": "3sg"
+      },
+      {
+        "PersonNumberCategory": "3pl"
+      },
+      {
+        "PersonNumberCategory": "1pl.incl"
+      },
+      {
+        "PersonNumberCategory": "1pl.excl"
+      }
+    ]
   },
   {
     "LID": 3037,
@@ -5608,15 +5702,43 @@
     "Agreement": [
       {
         "HasAgreement": true,
-        "IsAgreementCodedForDefaultPredicates": false,
-        "IsAgreementCodedForDitransitivePredicates": false,
+        "IsAgreementCodedForDefaultPredicates": true,
+        "IsAgreementCodedForDitransitivePredicates": null,
         "IsAgreementCodedForOtherPredicates": null,
-        "IsAgreementMarkersCodedForDefaultPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": true,
         "IsAgreementMarkersCodedForDitransitivePredicates": null,
         "IsAgreementMarkersCodedForOtherPredicates": null
       }
     ],
-    "PersonNumberCategories": []
+    "PersonNumberCategories": [
+      {
+        "PersonNumberCategory": "1sg"
+      },
+      {
+        "PersonNumberCategory": "1pl.excl"
+      },
+      {
+        "PersonNumberCategory": "1pl.incl"
+      },
+      {
+        "PersonNumberCategory": "1du.incl"
+      },
+      {
+        "PersonNumberCategory": "2sg"
+      },
+      {
+        "PersonNumberCategory": "3sg_fem378"
+      },
+      {
+        "PersonNumberCategory": "2pl"
+      },
+      {
+        "PersonNumberCategory": "3sg_masc378"
+      },
+      {
+        "PersonNumberCategory": "3pl"
+      }
+    ]
   },
   {
     "LID": 379,
@@ -14471,15 +14593,37 @@
     "Agreement": [
       {
         "HasAgreement": true,
-        "IsAgreementCodedForDefaultPredicates": false,
+        "IsAgreementCodedForDefaultPredicates": true,
         "IsAgreementCodedForDitransitivePredicates": null,
         "IsAgreementCodedForOtherPredicates": null,
-        "IsAgreementMarkersCodedForDefaultPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": true,
         "IsAgreementMarkersCodedForDitransitivePredicates": null,
         "IsAgreementMarkersCodedForOtherPredicates": null
       }
     ],
-    "PersonNumberCategories": []
+    "PersonNumberCategories": [
+      {
+        "PersonNumberCategory": "1du.incl"
+      },
+      {
+        "PersonNumberCategory": "1sg"
+      },
+      {
+        "PersonNumberCategory": "2sg"
+      },
+      {
+        "PersonNumberCategory": "3sg"
+      },
+      {
+        "PersonNumberCategory": "3pl"
+      },
+      {
+        "PersonNumberCategory": "1pl.excl"
+      },
+      {
+        "PersonNumberCategory": "2pl"
+      }
+    ]
   },
   {
     "LID": 2939,
@@ -25286,6 +25430,291 @@
       },
       {
         "PersonNumberCategory": "3pl"
+      }
+    ]
+  },
+  {
+    "LID": 3375,
+    "Glottocode": "magd1235",
+    "Language": "Magdalena Peñasco Mixtec",
+    "Case": [
+      {
+        "HasCase": true,
+        "IsCaseCodedForDefaultPredicates": true,
+        "IsCaseCodedForDitransitivePredicates": null,
+        "IsCaseCodedForOtherPredicates": null
+      }
+    ],
+    "Agreement": [
+      {
+        "HasAgreement": true,
+        "IsAgreementCodedForDefaultPredicates": true,
+        "IsAgreementCodedForDitransitivePredicates": null,
+        "IsAgreementCodedForOtherPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": true,
+        "IsAgreementMarkersCodedForDitransitivePredicates": null,
+        "IsAgreementMarkersCodedForOtherPredicates": null
+      }
+    ],
+    "PersonNumberCategories": [
+      {
+        "PersonNumberCategory": "3pl"
+      },
+      {
+        "PersonNumberCategory": "3sg"
+      },
+      {
+        "PersonNumberCategory": "1sg"
+      },
+      {
+        "PersonNumberCategory": "2sg"
+      },
+      {
+        "PersonNumberCategory": "2pl"
+      },
+      {
+        "PersonNumberCategory": "1pl"
+      }
+    ]
+  },
+  {
+    "LID": 3399,
+    "Glottocode": "sout2996",
+    "Language": "Southern Aymara",
+    "Case": [
+      {
+        "HasCase": true,
+        "IsCaseCodedForDefaultPredicates": true,
+        "IsCaseCodedForDitransitivePredicates": null,
+        "IsCaseCodedForOtherPredicates": null
+      }
+    ],
+    "Agreement": [
+      {
+        "HasAgreement": true,
+        "IsAgreementCodedForDefaultPredicates": true,
+        "IsAgreementCodedForDitransitivePredicates": null,
+        "IsAgreementCodedForOtherPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": true,
+        "IsAgreementMarkersCodedForDitransitivePredicates": null,
+        "IsAgreementMarkersCodedForOtherPredicates": null
+      }
+    ],
+    "PersonNumberCategories": [
+      {
+        "PersonNumberCategory": "1sg"
+      },
+      {
+        "PersonNumberCategory": "2sg"
+      },
+      {
+        "PersonNumberCategory": "2pl"
+      },
+      {
+        "PersonNumberCategory": "1du.incl"
+      },
+      {
+        "PersonNumberCategory": "1pl.incl"
+      },
+      {
+        "PersonNumberCategory": "1pl.excl"
+      },
+      {
+        "PersonNumberCategory": "3pl"
+      },
+      {
+        "PersonNumberCategory": "3sg"
+      }
+    ]
+  },
+  {
+    "LID": 2352,
+    "Glottocode": "nort2980",
+    "Language": "Quechua (Tarma)",
+    "Case": [
+      {
+        "HasCase": true,
+        "IsCaseCodedForDefaultPredicates": null,
+        "IsCaseCodedForDitransitivePredicates": null,
+        "IsCaseCodedForOtherPredicates": null
+      }
+    ],
+    "Agreement": [
+      {
+        "HasAgreement": true,
+        "IsAgreementCodedForDefaultPredicates": true,
+        "IsAgreementCodedForDitransitivePredicates": null,
+        "IsAgreementCodedForOtherPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": true,
+        "IsAgreementMarkersCodedForDitransitivePredicates": null,
+        "IsAgreementMarkersCodedForOtherPredicates": null
+      }
+    ],
+    "PersonNumberCategories": [
+      {
+        "PersonNumberCategory": "1sg"
+      },
+      {
+        "PersonNumberCategory": "3sg"
+      },
+      {
+        "PersonNumberCategory": "3pl"
+      },
+      {
+        "PersonNumberCategory": "2sg"
+      },
+      {
+        "PersonNumberCategory": "2pl"
+      },
+      {
+        "PersonNumberCategory": "1pl.excl"
+      },
+      {
+        "PersonNumberCategory": "1pl.incl"
+      }
+    ]
+  },
+  {
+    "LID": 2639,
+    "Glottocode": "tusc1257",
+    "Language": "Tuscarora",
+    "Case": [
+      {
+        "HasCase": null,
+        "IsCaseCodedForDefaultPredicates": null,
+        "IsCaseCodedForDitransitivePredicates": null,
+        "IsCaseCodedForOtherPredicates": null
+      }
+    ],
+    "Agreement": [
+      {
+        "HasAgreement": true,
+        "IsAgreementCodedForDefaultPredicates": true,
+        "IsAgreementCodedForDitransitivePredicates": null,
+        "IsAgreementCodedForOtherPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": true,
+        "IsAgreementMarkersCodedForDitransitivePredicates": null,
+        "IsAgreementMarkersCodedForOtherPredicates": null
+      }
+    ],
+    "PersonNumberCategories": [
+      {
+        "PersonNumberCategory": "1sg"
+      },
+      {
+        "PersonNumberCategory": "1pl.excl"
+      },
+      {
+        "PersonNumberCategory": "1pl.incl"
+      },
+      {
+        "PersonNumberCategory": "1du.excl"
+      },
+      {
+        "PersonNumberCategory": "1du.incl"
+      },
+      {
+        "PersonNumberCategory": "3sg"
+      },
+      {
+        "PersonNumberCategory": "3pl"
+      },
+      {
+        "PersonNumberCategory": "2du"
+      },
+      {
+        "PersonNumberCategory": "2sg"
+      },
+      {
+        "PersonNumberCategory": "2pl"
+      },
+      {
+        "PersonNumberCategory": "3du"
+      }
+    ]
+  },
+  {
+    "LID": 2702,
+    "Glottocode": "wage1238",
+    "Language": "Wagiman",
+    "Case": [
+      {
+        "HasCase": true,
+        "IsCaseCodedForDefaultPredicates": null,
+        "IsCaseCodedForDitransitivePredicates": null,
+        "IsCaseCodedForOtherPredicates": null
+      }
+    ],
+    "Agreement": [
+      {
+        "HasAgreement": true,
+        "IsAgreementCodedForDefaultPredicates": true,
+        "IsAgreementCodedForDitransitivePredicates": null,
+        "IsAgreementCodedForOtherPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": true,
+        "IsAgreementMarkersCodedForDitransitivePredicates": null,
+        "IsAgreementMarkersCodedForOtherPredicates": null
+      }
+    ],
+    "PersonNumberCategories": [
+      {
+        "PersonNumberCategory": "1sg"
+      },
+      {
+        "PersonNumberCategory": "2sg"
+      },
+      {
+        "PersonNumberCategory": "1pl"
+      },
+      {
+        "PersonNumberCategory": "2pl"
+      },
+      {
+        "PersonNumberCategory": "3sg"
+      },
+      {
+        "PersonNumberCategory": "3pl"
+      }
+    ]
+  },
+  {
+    "LID": 665,
+    "Glottocode": "yana1271",
+    "Language": "Yana",
+    "Case": [
+      {
+        "HasCase": true,
+        "IsCaseCodedForDefaultPredicates": true,
+        "IsCaseCodedForDitransitivePredicates": null,
+        "IsCaseCodedForOtherPredicates": null
+      }
+    ],
+    "Agreement": [
+      {
+        "HasAgreement": true,
+        "IsAgreementCodedForDefaultPredicates": true,
+        "IsAgreementCodedForDitransitivePredicates": null,
+        "IsAgreementCodedForOtherPredicates": null,
+        "IsAgreementMarkersCodedForDefaultPredicates": true,
+        "IsAgreementMarkersCodedForDitransitivePredicates": null,
+        "IsAgreementMarkersCodedForOtherPredicates": null
+      }
+    ],
+    "PersonNumberCategories": [
+      {
+        "PersonNumberCategory": "1sg"
+      },
+      {
+        "PersonNumberCategory": "3sg"
+      },
+      {
+        "PersonNumberCategory": "3pl"
+      },
+      {
+        "PersonNumberCategory": "1pl"
+      },
+      {
+        "PersonNumberCategory": "2sg"
       }
     ]
   }

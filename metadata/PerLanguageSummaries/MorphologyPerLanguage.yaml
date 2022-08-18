@@ -3,7 +3,7 @@ description: >-
 kind: computed data (aggregation-scripts/MorphologyPerLanguage.R)
 data: table
 counts:
-  n_languages: 1006
+  n_languages: 1011
   n_variables: 25
 fields: 
   LID:

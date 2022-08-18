@@ -251,7 +251,7 @@ export_dataset(
   "MaximallyInflectedVerbInflectionCategoriesAggregatedPresence",
   MaximallyInflectedVerbInflectionCategoriesAggregatedPresence,
   descriptor,
-  c("PerLanguageSummaries", "InflectionOnMaximallyInflectedVerbs")
+  c("PerLanguageSummaries", "InflectionForMaximallyInflectedVerbs")
 )
 
 
@@ -310,7 +310,7 @@ export_dataset(
   "MaximallyInflectedVerbInflectionAndAgreementCountsByPosition",
   MaximallyInflectedVerbInflectionAndAgreementCountsByPosition,
   descriptor,
-  c("PerLanguageSummaries", "Morphology")
+  c("PerLanguageSummaries")
 )
 
 for(i in seq_along(aggregates_by_position)) {
@@ -375,7 +375,7 @@ for(i in seq_along(aggregates_by_position)) {
     names(aggregates_by_position)[[i]],
     aggregates_by_position[[i]],
     descriptor,
-    c("PerLanguageSummaries", "InflectionOnMaximallyInflectedVerbs")
+    c("PerLanguageSummaries")
   )
 }
 

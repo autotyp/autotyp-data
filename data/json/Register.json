@@ -79376,5 +79376,31 @@
     "Continent": "NG and Oceania",
     "Area": "Oceania",
     "Macrocontinent": "Pacific"
+  },
+  {
+    "LID": 3399,
+    "Glottocode": "sout2996",
+    "Language": "Southern Aymara",
+    "ISO639_3": "ayc",
+    "LanguageAlternativeNames": "Southern Aymara, Aymara, Aimara",
+    "Stock": "Aymaran",
+    "StockAlternativeName": "Aymaran, Jaqi",
+    "MacroQuasiStock": null,
+    "QuasiStock": "Quechumaran (Andean)",
+    "MajorBranch": null,
+    "SubBranch": null,
+    "SubSubBranch": null,
+    "LowestSubBranch": null,
+    "Genesis": null,
+    "Longitude": -70.34,
+    "Latitude": -17.14,
+    "LocalRegion": null,
+    "IsNearProtoHomeland": true,
+    "Modality": null,
+    "Subsistence": "not hg",
+    "OriginContinent": "South America",
+    "Continent": "S America",
+    "Area": "Andean",
+    "Macrocontinent": "Americas"
   }
 ]

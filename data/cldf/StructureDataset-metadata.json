@@ -36,7 +36,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 278557,
+            "dc:extent": 286355,
             "tableSchema": {
                 "columns": [
                     {
@@ -138,7 +138,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
             "dc:description": "This module tracks information on genealogical, geographical and other aspects of language classification. It was previously released as [Nichols et al. (2013)](https://www.autotyp.uzh.ch/download/release_2013/autotyp-release_2013.pdf). There are three main data components:\n- IDs: apart from our own unique language identifier (LID), the database is matched to Glottolog and ISO codes.\n- Genealogical information: The genealogy part is based on the state of the art in each family. We stay away from geographical groupings, widely mentioned but unproven groupings, or similar hypothetical groupings. (In the few cases where we felt it necessary to include a label for a residual grouping that is not a clade, such as Western Malayo-Polynesian, we have included 'non-clade' in the name of the group.) Thus, our genealogy is similar to the classifications of Campbell & Poser (2008) or Glottolog, but does not attempt to include languages or families for which there is classificatory information but little or no typological information (e.g. Beothuk, Cayuse) and does not include languages with typological information available that happen not to be in our database. The genealogical database uses two classificatory levels (and corresponding database fields) that are cross-linguistically comparable: Language and Stock, as defined in the metadata. Between these two levels, the database provides various nested convenience levels that reflect the current state of the art in subgrouping research. They are not comparable across families (e.g. what is called a major branch can reflect a primary split in one but later splits in another family). Also, they are not necessarily complete.\n- Geographical information: The geography database contains information on the geographical location of languages and a small-scale and a large-scale classification of languages into areas. The area classifications are based on our assumptions about contact events in history, informed by current knowledge of the historical, genetic, anthropological, and archeological record. We try to keep our definition of areas free of linguistic information in order to avoid circularity in areal linguistics research (Bickel & Nichols 2006). The individual definitions are given in the metadata and illustrated in static area and continent pictures.\n- Other information: This contains information on the genesis (creole vs. regular) and modality (spoken vs. signed) of languages, and on the main subsistence of their speakers.",
-            "dc:extent": 3053,
+            "dc:extent": 3054,
             "tableSchema": {
                 "columns": [
                     {

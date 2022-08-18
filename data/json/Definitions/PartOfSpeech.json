@@ -2878,5 +2878,21 @@
     "SemanticDomain": null,
     "ClausalDomain": null,
     "Definition": "Krongo 3rd person neuter singular agreement"
+  },
+  {
+    "PoS": "3sg_masc378",
+    "ProjectionType": "terminal",
+    "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
+    "Definition": "Tiwi 3rd person feminine singular agreement"
+  },
+  {
+    "PoS": "3sg_fem378",
+    "ProjectionType": "terminal",
+    "SyntacticDomain": "verbal",
+    "SemanticDomain": null,
+    "ClausalDomain": null,
+    "Definition": "Tiwi 3rd person feminine singular agreement"
   }
 ]

@@ -3,7 +3,7 @@ description: >-
 kind: computed data (aggregation-scripts/Alignment.R)
 data: table
 counts:
-  n_languages: 677
+  n_languages: 682
   n_variables: 33
 fields: 
   LID:
