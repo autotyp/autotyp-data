@@ -5,7 +5,7 @@ description: >-
 kind: manual data entry
 data: table
 counts:
-  n_languages: 841
+  n_languages: 846
   n_variables: 28
 fields: 
   LID:
@@ -1772,6 +1772,10 @@ fields:
             Krongo 3rd person feminine singular agreement
           "3sg_neu495": >-
             Krongo 3rd person neuter singular agreement
+          "3sg_masc378": >-
+            Tiwi 3rd person feminine singular agreement
+          "3sg_fem378": >-
+            Tiwi 3rd person feminine singular agreement
       # -- end of MarkerHostCategory
 
       MarkerHostProjectionType:

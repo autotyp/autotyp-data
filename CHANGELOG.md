@@ -1,3 +1,86 @@
+# AUTOTYP 1.1.0
+
+The main changes in this release are:
+
+ - A new [CLDF](https://cldf.clld.org) export, kindly contributed by Robert Forkel
+ - Revamp of the verb synthesis datasets which has been renamed to 
+ `MaximallyInflectedVerbSynthesis` (see below)
+ - Enhancements to `GrammaticalRelations`
+
+Important: this release introduces breaking changes to the Morphology module.
+
+### CLDF export
+
+A CLDF export of AUTOTYP database was one of the most requested features since the new release. 
+We are very thankful to Robert Forkel for writing the code that generates a CLDF dataset of
+AUTOTYP data. Starting from AUTOTYP 1.1.0 there is a CLDF dataset in `data`. The accompanying
+Python scripts used to generate this export can be found in the repository 
+[autotyp/autotyp-cldf-scripts](https://github.com/autotyp/autotyp-cldf-scripts)
+
+### Revamp of verb synthesis datasets in the Morphology module 
+
+We wanted to clarify that the verb synthesis dataset in the Morphology module describes
+maximally inflected verb forms only rather than all attested verb forms. To make this more
+obvious we have renamed the affected datasets to include the phrase `MaximallyInflected` as well as 
+updated the variable metadata to clarify this point. Thus: 
+
+  - `VerbSynthesis` becomes `MaximallyInflectedVerbSynthesis`
+  - `VerbInflectionAndAgreementCountsByPosition` becomes  `MaximallyInflectedVerbInflectionAndAgreementCountsByPosition`
+  - `VerbAgreementAggregatedByMarkerPosition` becomes `MaximallyInflectedVerbAgreementAggregatedByMarkerPosition`
+  - `VerbInflectionCategoriesAggregatedByMarkerPosition` becomes  `MaximallyInflectedVerbInflectionCategoriesAggregatedByMarkerPosition`
+  - etc.
+
+This is a breaking change.
+
+### Enhancements to `GrammaticalRelations`
+
+Multiple new variables that describe properties of grammatical relations have been added to 
+`GrammaticalRelations` dataset. Please refer to the list of changes below. 
+
+### Detailed list of changes
+
+  - CLDF export is now available in `data/cldf`
+  - `VerbSynthesis` has been renamed to `MaximallyInflectedVerbSynthesis` for clarity, with updates
+    to the metadata 
+  - Aggregated inflectional categories datasets have been renamed to reflect the changes to the 
+    synthesis module:
+    - `VerbInflectionAndAgreementCountsByPosition` is now  `MaximallyInflectedVerbInflectionAndAgreementCountsByPosition`
+    - `VerbInflectionCategoriesAggregatedPresence` is now  `MaximallyInflectedVerbInflectionCategoriesAggregatedPresence`
+    - `VerbAgreementAggregatedByMarkerPosition` is now `MaximallyInflectedVerbAgreementAggregatedByMarkerPosition`
+    - `VerbAgreementAggregatedByMarkerPositionBinned4` is now  `MaximallyInflectedVerbAgreementAggregatedByMarkerPositionBinned4`
+    - `VerbAgreementAggregatedByMarkerPositionBinned5` is now  `MaximallyInflectedVerbAgreementAggregatedByMarkerPositionBinned5`
+    - `VerbAgreementAggregatedByMarkerHasMultipleExponents` is now `MaximallyInflectedVerbAgreementAggregatedByMarkerHasMultipleExponents`
+    - `VerbAgreementAggregatedByMarkerHasPostposedExponent` is now `MaximallyInflectedVerbAgreementAggregatedByMarkerHasPostposedExponent`
+    - `VerbAgreementAggregatedByMarkerHasPreposedExponent` is now  `MaximallyInflectedVerbAgreementAggregatedByMarkerHasPreposedExponent`
+    - `VerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents` is now  `MaximallyInflectedVerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents`
+    - `VerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent` is now  `MaximallyInflectedVerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent`
+    - `VerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent` is now `MaximallyInflectedVerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent`
+    - `VerbInflectionCategoriesAggregatedByMarkerPosition` is now  `MaximallyInflectedVerbInflectionCategoriesAggregatedByMarkerPosition`
+    - `VerbInflectionCategoriesAggregatedByMarkerPositionBinned4` is now `MaximallyInflectedVerbInflectionCategoriesAggregatedByMarkerPositionBinned4`
+    - `VerbInflectionCategoriesAggregatedByMarkerPositionBinned5` is now `MaximallyInflectedVerbInflectionCategoriesAggregatedByMarkerPositionBinned5`
+    - `VerbInflectionMacrocategoriesAggregatedByMarkerPosition` is now `MaximallyInflectedVerbInflectionMacrocategoriesAggregatedByMarkerPosition`
+    - `VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned4` is now  `MaximallyInflectedVerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned4`
+    - `VerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned5` is now  `MaximallyInflectedVerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned5`
+    - `VerbInflectionMacrocategoriesAggregatedByMarkerHasMultipleExponents` is now `MaximallyInflectedVerbInflectionMacrocategoriesAggregatedByMarkerHasMultipleExponents`
+    - `VerbInflectionMacrocategoriesAggregatedByMarkerHasPostposedExponent` is now `MaximallyInflectedVerbInflectionMacrocategoriesAggregatedByMarkerHasPostposedExponent`
+    - `VerbInflectionMacrocategoriesAggregatedByMarkerHasPreposedExponent` is now  `MaximallyInflectedVerbInflectionMacrocategoriesAggregatedByMarkerHasPreposedExponent`
+  - `MorphologyPerLanguage$HasAgreement` has been retired in favor  
+    ofMorphologyPerLanguage$HasAnyVerbAgreement`. The old variable used overly strict aggregation
+    logic which could produce misleading results. The new `HasAnyVerbAgreement` reports presence 
+    of agreement if any of the relevant AUTOTYP modules code agreement for verbs in any form or 
+    fashion. The metadata has been updated to clarify this.   
+  - Additional properties of grammatical relations are added to `GrammaticalRelationsRaw` 
+  and `GrammaticalRelations`:
+    - `SelectorTypeBinned4` (grammatical relation macrotype)
+    - `IsOvertlyCoded` (whether the GR is overtly coded)
+    - `SelectorLocusOfMarking`
+    - `SelectorClauseScope` (does the GR operate within a clause or across multiple clauses)
+    - `CoreferenceControllerOrControllee`
+    - `CoreferenceArgumentTreatment` (treatment of arguments under co-reference in the GR)
+  - Fixed some issues in the documentation ( #44)
+  - Various data updates
+
+
 # AUTOTYP 1.0.1
 
 This is a bugfix release that focuses on JSON output and improving metadata for variables of type

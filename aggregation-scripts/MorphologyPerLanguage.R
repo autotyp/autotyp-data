@@ -34,8 +34,8 @@ source("R/expand_na.R")
 #
 # In case of a conflict we report an NA
 MorphologyPerLanguage_Agreement <- list(
-    # presence of agreement in VerbSynthesis
-    filter(VerbSynthesis, IsVerbInflectionSurveyComplete) %>%
+    # presence of agreement in MaximallyInflectedVerbSynthesis
+    filter(MaximallyInflectedVerbSynthesis, IsVerbInflectionSurveyComplete) %>%
     transmute(LID = LID, HasAgreement_VerbSynthesis = list_sizes(VerbAgreement) > 0),
     # presence of agreement in GrammaticalRelationCoverage
     unnest(GrammaticalRelationCoverage, Agreement) %>%
@@ -57,13 +57,10 @@ MorphologyPerLanguage_Agreement <- list(
   # combine the data
   transmute(
     LID = LID,
+    # we have agreement if any source has agreement
     HasAnyVerbAgreement = pmap_lgl(cur_data(), function(LID, ...) {
-      # collect the unique values (drop the NAs)
-      values <- c(...)
-      value <- unique(values[!is.na(values)])
-
-      # report NA if we have contradictions
-      if (length(value) != 1L) NA else value
+      x <- as.logical(unlist(list(...)))
+      if(all(is.na(x))) NA else any(x[!is.na(x)])
     })
   )
 
@@ -364,9 +361,13 @@ descriptor <- describe_data(
       ptype = logical(),
       computed = "MorphologyPerLanguage.R",
       description = "
-        Does the language have some kind of verb agreement (including pronominal/anaphoric
-        agreement), based on our records in the Synthesis, Locus and Grammatical Relations
-        modules"
+        Presence of any type of verb agreement as indicated by the records in 
+        MaximallyInflectedVerbSynthesis, LocusOfMarkingPerMicrorelation and GrammaticalRelations.
+        This aggregated variable will be set to TRUE if any of the mentioned data sets describe any 
+        type of agreement. If will be set to FALSE if none of the mentioned data sets describe any
+        type of agreement. Finally, it will be set to NA (missing value) if none of the mentioned
+        data sets have data on the language. 
+      "
     ),
     MorphemeClassesCount = describe_data(
       ptype = integer(),

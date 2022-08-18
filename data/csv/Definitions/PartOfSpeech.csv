@@ -359,3 +359,5 @@ N_M8M9classes2972,terminal,nominal,,,Kambaata M8 and M9 noun inflection class
 3sg_masc495,terminal,verbal,,,Krongo 3rd person masculine singular agreement
 3sg_fem495,terminal,verbal,,,Krongo 3rd person feminine singular agreement
 3sg_neu495,terminal,verbal,,,Krongo 3rd person neuter singular agreement
+3sg_masc378,terminal,verbal,,,Tiwi 3rd person feminine singular agreement
+3sg_fem378,terminal,verbal,,,Tiwi 3rd person feminine singular agreement

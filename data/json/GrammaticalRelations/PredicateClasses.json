@@ -31283,5 +31283,25 @@
     "PredicateClassDiscourseFrequency": null,
     "IndividualPredicates": [],
     "PredicateClassDescription": "closed class, exclusively intr. verbs, mostly a state or position, also changes of position and changes of state"
+  },
+  {
+    "LID": 512,
+    "Glottocode": "apur1254",
+    "Language": "Apurina",
+    "PredicateClassID": 1055,
+    "PredicateClassLabel": "Sp",
+    "PredicateClassDiscourseFrequency": null,
+    "IndividualPredicates": [],
+    "PredicateClassDescription": "object-agreement group (good, pretty, be hot) (facundes2000apurina:278-284)."
+  },
+  {
+    "LID": 51,
+    "Glottocode": "chim1301",
+    "Language": "Chimariko",
+    "PredicateClassID": 1056,
+    "PredicateClassLabel": "Sp (stative)",
+    "PredicateClassDiscourseFrequency": null,
+    "IndividualPredicates": [],
+    "PredicateClassDescription": "to cough, to be afraid, to be glad, to be named, to jerk, to starve to death, \rSet II pronominals generally identify a significantly affected participant who is not in control. Other verbs that appear with Set II prefixes include those meaning ‘have a rash or irritation’, ‘be afraid or fear’, ‘hurt or ache’, ‘be dried or parched’, ‘cough’, ‘be glad’, ‘fall’, ‘give out or be short of breath’, ‘sneeze’, ‘sweat’, ‘yawn’, ‘twitch (body part)’, and ‘get well or recover’. The pro‐ nominal prefixes show a semantically motivated agent/patient pattern, with Set I pronominals representing grammatical agents and Set II representing grammatical patients.\rto cough, to be afraid, to be glad, to be named, to jerk, to starve to death, \rSet II pronominals generally identify a significantly affected participant who is not in control. Other verbs that appear with Set II prefixes include those meaning ‘have a rash or irritation’, ‘be afraid or fear’, ‘hurt or ache’, ‘be dried or parched’, ‘cough’, ‘be glad’, ‘fall’, ‘give out or be short of breath’, ‘sneeze’, ‘sweat’, ‘yawn’, ‘twitch (body part)’, and ‘get well or recover’. The pro‐ nominal prefixes show a semantically motivated agent/patient pattern, with Set I pronominals representing grammatical agents and Set II representing grammatical patients."
   }
 ]

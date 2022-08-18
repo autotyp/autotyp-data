@@ -144,13 +144,6 @@ fields:
     data: logical
   # -- end of NPMarkerSourceIsFree
 
-  NPMarkerTypeIsConstrainedToFormative:
-    description: >-
-      <pending>
-    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
-    data: logical
-  # -- end of NPMarkerTypeIsConstrainedToFormative
-
   NPMarkerTypeIsConstrainedToPoSWd:
     description: >-
       <pending>
@@ -158,19 +151,19 @@ fields:
     data: logical
   # -- end of NPMarkerTypeIsConstrainedToPoSWd
 
+  NPMarkerTypeIsConstrainedToFormative:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPMarkerTypeIsConstrainedToFormative
+
   NPLocusOfMarkingIsD:
     description: >-
       <pending>
     kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
     data: logical
   # -- end of NPLocusOfMarkingIsD
-
-  NPLocusOfMarkingIsdonh:
-    description: >-
-      <pending>
-    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
-    data: logical
-  # -- end of NPLocusOfMarkingIsdonh
 
   NPLocusOfMarkingIsDonH:
     description: >-
@@ -199,6 +192,13 @@ fields:
     kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
     data: logical
   # -- end of NPLocusOfMarkingIsP
+
+  NPLocusOfMarkingIsdonh:
+    description: >-
+      <pending>
+    kind: computed data (aggregation-scripts/NPStructurePerLanguage.R)
+    data: logical
+  # -- end of NPLocusOfMarkingIsdonh
 
   NPLocusOfMarkingBinned6IsD:
     description: >-

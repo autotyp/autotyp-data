@@ -984,7 +984,33 @@ GR_roles <- GR_roles %>%
   filter(!SelectorID %in% no_agreement_ID) %>%
   # add glottocodes
   left_join(select(Register, LID, Glottocode), by = "LID") %>%
-  select(LID, Glottocode, Language, everything()) %>%
+  # add selector properties
+  left_join(select(GrammaticalRelationsRaw,
+    SelectorID,
+    SelectorTypeBinned,
+    SelectorTypeBinned4,
+    IsOvertlyCoded,
+    SelectorLocusOfMarking,
+    SelectorClauseScope,
+    CoreferenceControllerOrControllee,
+    CoreferenceArgumentTreatment
+  ), by = "SelectorID") %>%
+  select(
+    LID,
+    Glottocode,
+    Language,
+    SelectorID,
+    SelectorLabel,
+    SelectorType,
+    SelectorTypeBinned,
+    SelectorTypeBinned4,
+    MarkerID,
+    IsOvertlyCoded,
+    SelectorLocusOfMarking,
+    SelectorClauseScope,
+    CoreferenceControllerOrControllee,
+    CoreferenceArgumentTreatment,
+    everything()) %>%
   # drop unused factor levels
   mutate(
     ReferentialCondition = fct_drop(ReferentialCondition),
@@ -1044,9 +1070,16 @@ descriptor <- describe_data(
     Glottocode = .metadata$Register$fields$Glottocode,
     Language = .metadata$Register$fields$Language,
     SelectorID = .metadata$GrammaticalRelations$fields$SelectorID,
-    MarkerID = .metadata$GrammaticalRelations$fields$MarkerID,
-    SelectorType = .metadata$GrammaticalRelationsRaw$fields$SelectorType,
     SelectorLabel = .metadata$GrammaticalRelationsRaw$fields$SelectorLabel,
+    SelectorType = .metadata$GrammaticalRelationsRaw$fields$SelectorType,
+    SelectorTypeBinned = .metadata$GrammaticalRelationsRaw$fields$SelectorTypeBinned,
+    SelectorTypeBinned4 = .metadata$GrammaticalRelationsRaw$fields$SelectorTypeBinned4,
+    MarkerID = .metadata$GrammaticalRelations$fields$MarkerID,
+    IsOvertlyCoded = .metadata$GrammaticalRelations$fields$IsOvertlyCoded,
+    SelectorLocusOfMarking = .metadata$GrammaticalRelations$fields$SelectorLocusOfMarking,
+    SelectorClauseScope = .metadata$GrammaticalRelations$fields$SelectorClauseScope,
+    CoreferenceControllerOrControllee = .metadata$GrammaticalRelations$fields$CoreferenceControllerOrControllee,
+    CoreferenceArgumentTreatment = .metadata$GrammaticalRelations$fields$CoreferenceArgumentTreatment,
     ReferentialCondition = fix_metadata_levels(
       .metadata$GrammaticalRelationsRaw$fields$SelectedArguments$element$fields$ReferentialCondition,
       GR_roles$ReferentialCondition

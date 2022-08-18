@@ -1,0 +1,122 @@
+description: >-
+  Marker position (from `GrammaticalMarkers::MarkerHasMultipleExponents`), reshaped and aggregated per language and inflection category (binned into broad types) on maximally inflected verbs
+kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+data: table
+counts:
+  n_languages: 228
+  n_variables: 12
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      In this database a language is actually a dialect or variety, in that
+      individual dialects are entered as languages. That is, each language has
+      its own ID number (the 'LID') distinct from that of the pan-dialectal
+      language:e.g. LID 87 German, 1227 Upper Austrian German, 1295 Berlin
+      German, 1310 Zürich German, 2845 Old High German, etc. (The pan-dialectal
+      language is identified as the lowest taxonomic level, the `dialect group',
+      but this information is incomplete in many areas and has not been included
+      in the current release.) The general criterion for a separate language
+      record in the database is that it has a distinct property in at least one
+      of the typological variables that we survey; this may or may not coincide
+      with sociolinguistic criteria.
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  MarkerHasMultipleExponentsForTAMPlus:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for TAMPlus
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForTAMPlus
+
+  MarkerHasMultipleExponentsForOperators:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for Operators
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForOperators
+
+  MarkerHasMultipleExponentsForValence:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for Valence
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForValence
+
+  MarkerHasMultipleExponentsForInterClausal:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for InterClausal
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForInterClausal
+
+  MarkerHasMultipleExponentsForOther:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for Other
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForOther
+
+  MarkerHasMultipleExponentsForPragmatic:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for Pragmatic
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForPragmatic
+
+  MarkerHasMultipleExponentsForNumber:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for Number
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForNumber
+
+  MarkerHasMultipleExponentsForEvidential:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for Evidential
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForEvidential
+
+  MarkerHasMultipleExponentsForNPRelated:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for NPRelated
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForNPRelated
+
+  MarkerHasMultipleExponentsForClassification:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for Classification
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForClassification
+
+  MarkerHasMultipleExponentsForEventSpecs:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for EventSpecs
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForEventSpecs
+
+  MarkerHasMultipleExponentsForRole:
+    description: >-
+      GrammaticalMarkers::MarkerHasMultipleExponents value for Role
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasMultipleExponentsForRole

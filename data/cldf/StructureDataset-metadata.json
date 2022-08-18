@@ -1,0 +1,519 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
+    "dc:source": "sources.bib",
+    "prov:wasDerivedFrom": [
+        {
+            "rdf:about": "autotyp-data",
+            "rdf:type": "prov:Entity",
+            "dc:created": "v1.1.0",
+            "dc:title": "Repository"
+        },
+        {
+            "rdf:about": "glottolog",
+            "rdf:type": "prov:Entity",
+            "dc:created": "glottolog",
+            "dc:title": "Glottolog"
+        }
+    ],
+    "prov:wasGeneratedBy": [
+        {
+            "dc:title": "python",
+            "dc:description": "3.9.13"
+        },
+        {
+            "dc:title": "python-packages",
+            "dc:relation": "requirements.txt"
+        }
+    ],
+    "rdf:ID": "autotyp",
+    "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
+    "tables": [
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
+            "dc:extent": 286355,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "dc:extent": "singlevalued",
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+                        "required": true,
+                        "name": "Language_ID"
+                    },
+                    {
+                        "dc:extent": "singlevalued",
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
+                        "required": true,
+                        "name": "Parameter_ID"
+                    },
+                    {
+                        "dc:extent": "singlevalued",
+                        "datatype": "string",
+                        "null": [
+                            "?",
+                            ""
+                        ],
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#value",
+                        "required": false,
+                        "name": "Value"
+                    },
+                    {
+                        "dc:extent": "singlevalued",
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#codeReference",
+                        "required": false,
+                        "name": "Code_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#comment",
+                        "required": false,
+                        "name": "Comment"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                        "required": false,
+                        "separator": ";",
+                        "name": "Source"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Language_ID"
+                        ],
+                        "reference": {
+                            "resource": "languages.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
+                            "Parameter_ID"
+                        ],
+                        "reference": {
+                            "resource": "parameters.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
+                            "Code_ID"
+                        ],
+                        "reference": {
+                            "resource": "codes.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "values.csv"
+        },
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
+            "dc:description": "This module tracks information on genealogical, geographical and other aspects of language classification. It was previously released as [Nichols et al. (2013)](https://www.autotyp.uzh.ch/download/release_2013/autotyp-release_2013.pdf). There are three main data components:\n- IDs: apart from our own unique language identifier (LID), the database is matched to Glottolog and ISO codes.\n- Genealogical information: The genealogy part is based on the state of the art in each family. We stay away from geographical groupings, widely mentioned but unproven groupings, or similar hypothetical groupings. (In the few cases where we felt it necessary to include a label for a residual grouping that is not a clade, such as Western Malayo-Polynesian, we have included 'non-clade' in the name of the group.) Thus, our genealogy is similar to the classifications of Campbell & Poser (2008) or Glottolog, but does not attempt to include languages or families for which there is classificatory information but little or no typological information (e.g. Beothuk, Cayuse) and does not include languages with typological information available that happen not to be in our database. The genealogical database uses two classificatory levels (and corresponding database fields) that are cross-linguistically comparable: Language and Stock, as defined in the metadata. Between these two levels, the database provides various nested convenience levels that reflect the current state of the art in subgrouping research. They are not comparable across families (e.g. what is called a major branch can reflect a primary split in one but later splits in another family). Also, they are not necessarily complete.\n- Geographical information: The geography database contains information on the geographical location of languages and a small-scale and a large-scale classification of languages into areas. The area classifications are based on our assumptions about contact events in history, informed by current knowledge of the historical, genetic, anthropological, and archeological record. We try to keep our definition of areas free of linguistic information in order to avoid circularity in areal linguistics research (Bickel & Nichols 2006). The individual definitions are given in the metadata and illustrated in static area and continent pictures.\n- Other information: This contains information on the genesis (creole vs. regular) and modality (spoken vs. signed) of languages, and on the main subsistence of their speakers.",
+            "dc:extent": 3054,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                        "required": false,
+                        "name": "Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#macroarea",
+                        "required": false,
+                        "name": "Macroarea"
+                    },
+                    {
+                        "datatype": {
+                            "base": "decimal",
+                            "minimum": "-90",
+                            "maximum": "90"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#latitude",
+                        "required": false,
+                        "name": "Latitude"
+                    },
+                    {
+                        "datatype": {
+                            "base": "decimal",
+                            "minimum": "-180",
+                            "maximum": "180"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#longitude",
+                        "required": false,
+                        "name": "Longitude"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-z0-9]{4}[1-9][0-9]{3}"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#glottocode",
+                        "required": false,
+                        "valueUrl": "http://glottolog.org/resource/languoid/id/{Glottocode}",
+                        "name": "Glottocode"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-z]{3}"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#iso639P3code",
+                        "required": false,
+                        "name": "ISO639P3code"
+                    },
+                    {
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+                        "separator": "; ",
+                        "name": "Source"
+                    },
+                    {
+                        "dc:description": "Alternative names of the language",
+                        "dc:format": "manual data entry",
+                        "datatype": "string",
+                        "name": "LanguageAlternativeNames"
+                    },
+                    {
+                        "dc:description": "Highest-level language family that satisfies the two criteria of demonstrability and reconstructability. A grouping is demonstrable if there is evidence showing that it is a family, or its resemblances significantly exceed what can be expected by chance or from typological or universal principles. It is reconstructable if it exhibits recurrent sound correspondences so that reconstruction is possible in principle. (For this definition of the stock see Nichols in Ann. Rev. Anth. 1997) Stocks do not all have the same internal age. Note that every isolate, every unclassified language, every creole, and every sign language in our database counts as a separate stock.",
+                        "dc:format": "manual data entry",
+                        "datatype": "string",
+                        "name": "Stock"
+                    },
+                    {
+                        "dc:description": "Alternative name of the stock",
+                        "dc:format": "manual data entry",
+                        "datatype": "string",
+                        "name": "StockAlternativeName"
+                    },
+                    {
+                        "dc:description": "Macro quasi stock",
+                        "dc:format": "manual data entry",
+                        "datatype": "string",
+                        "name": "MacroQuasiStock"
+                    },
+                    {
+                        "dc:description": "Proposed larger grouping; controversial, or demonstrable but not reconstructable.",
+                        "dc:format": "manual data entry",
+                        "datatype": "string",
+                        "name": "QuasiStock"
+                    },
+                    {
+                        "dc:description": "Intermediate genealogical convenience level grouping that roughly represents the current consensus in the field",
+                        "dc:format": "manual data entry",
+                        "datatype": "string",
+                        "name": "MajorBranch"
+                    },
+                    {
+                        "dc:description": "Intermediate genealogical convenience level grouping that roughly represents the current consensus in the field",
+                        "dc:format": "manual data entry",
+                        "datatype": "string",
+                        "name": "SubBranch"
+                    },
+                    {
+                        "dc:description": "Intermediate genealogical convenience level grouping that roughly represents the current consensus in the field",
+                        "dc:format": "manual data entry",
+                        "datatype": "string",
+                        "name": "SubSubBranch"
+                    },
+                    {
+                        "dc:description": "Intermediate genealogical convenience level grouping that roughly represents the current consensus in the field",
+                        "dc:format": "manual data entry",
+                        "datatype": "string",
+                        "name": "LowestSubBranch"
+                    },
+                    {
+                        "dc:description": "Glossogenesis by regular vs. interrupted transmission",
+                        "dc:format": "manual data entry",
+                        "datatype": "string",
+                        "name": "Genesis"
+                    },
+                    {
+                        "dc:description": "Ad-hoc coding of small-scale geographical regions. Currently only for the Caucasus and the Himalayas",
+                        "dc:format": "manual data entry",
+                        "datatype": "string",
+                        "name": "LocalRegion"
+                    },
+                    {
+                        "dc:description": "The language is spoken near the assumed or reconstructed or known homeland of its family (note: this variable is only filled as TRUE for languages near the known homeland, so NA entries can mean either FALSE or 'unknown')",
+                        "dc:format": "manual data entry",
+                        "datatype": "boolean",
+                        "name": "IsNearProtoHomeland"
+                    },
+                    {
+                        "dc:description": "Modality of linguistic communication: spoken vs signed",
+                        "dc:format": "manual data entry",
+                        "datatype": "string",
+                        "name": "Modality"
+                    },
+                    {
+                        "dc:description": "The strategy providing the majority of the society\u2019s diet (until at least recently): hunting/fishing/gathering/foraging vs. food production vs. split (e.g. over different parts of the society). The coding is based the Human Relations Area Files (http://www.yale.edu/hraf), published ethnographic works, consultation with experts, and our own knowledge of some of the cultures. Some of the information was provided by Tom G\u00fcldemann in 2009.",
+                        "dc:format": "manual data entry",
+                        "datatype": "string",
+                        "name": "Subsistence"
+                    },
+                    {
+                        "dc:description": "Continent where the assumed or reconstructed homeland of the protolanguage was.",
+                        "dc:format": "manual data entry",
+                        "datatype": "string",
+                        "name": "OriginContinent"
+                    },
+                    {
+                        "dc:description": "Continent-sized macroarea, based on our assumptions about contact events in history, informed by current knowledge of the historical, genetic, anthropological, and archeological record. See [figures/continents.jpg](figures/continents.jpg) for the visual continent breakdown.\n\nAfrica: All of Africa.\nW and SW Eurasia: Western and Southwestern Eurasia. Including the Caucasus and following the northern shore of the Black Sea and the Carpathians to the Baltic sea. Also includes the languages of Ancient Anatolia and Mesopotamia east to the Hindu Kush (including the Iranian plateau).\nN-C Asia: Northern and Central Asia. Siberia, the Tibetan plateau, Mongolia, Korea, and Japan.\nS/SE Asia: South and Southeast Asia. The Indic subcontinent (including the Himalayas, but not the Tibetan plateau), mainland Southeast Asia, and insular Southeast Asia up to the Wallace Line (between Sumbawa and Flores).\nAustralia: All of Australia.\nNG and Oceania: New Guinea and Oceania (all islands east of the Wallace Line).\nW N America: Western North America. From the Pacific coast (excluding the Aleutian islands, including only mainland Alaska) to the lower eastern slope of the major coastal range (Cascades, Rocky Mountains), thus comprising the coastal and intermontane regions. The southern boundary of North America runs along the US/Mexican border.\nE N America: Eastern North America. From the lower eastern slope of the Cascades and Rocky Mountains to the Atlantic coast (thus comprising the Great Plains and eastern US and Canada). The southern boundary runs along the US/Mexican border; perhaps this boundary should eventually be placed at the northern limit of the Mesoamerican cultural area.\nC America: Central America. The southern boundary is the Panama Canal; the northern boundary is the U.S.-Mexico border. Perhaps this boundary should eventually be placed at the northern limit of the Mesoamerican cultural area.\nS America: All of South America.",
+                        "dc:format": "manual data entry",
+                        "datatype": {
+                            "base": "string",
+                            "format": "Africa|W\\ and\\ SW\\ Eurasia|N\\-C\\ Asia|S/SE\\ Asia|Australia|NG\\ and\\ Oceania|W\\ N\\ America|E\\ N\\ America|C\\ America|S\\ America"
+                        },
+                        "name": "Continent"
+                    },
+                    {
+                        "dc:description": "Smaller-scale linguistic areas, based on our assumptions about contact events in history, informed by current knowledge of the historical, genetic, anthropological, and archeological record. See [figures/areas.jpg](figures/areas.jpg) for the visual area breakdown.\n\nAlaska-Oregon: Western North America from the coast up to the crest of the major coastal range and from mainland Alaska (not including the Aleutian Islands in the Bering Sea) through the Pacific Northwest down to southern Coos Bay (43\u00b0 N).\nBasin and Plains: The southwestern desert and semidesert and the prairie, extending into interior northern Canada. The southern extent needs to be defined; Coahuiltec (which straddles the Texas-Mexico border) has for now been put in this area. Approximate eastern boundary: line from Matamoros/Brownsville or Houston to the Mississippi delta and up the Mississippi to its headwaters, then to the eastern Rocky Mountains foothills at about 58\u00b0 N. The western boundary runs along the crest of the major coast range (Sierra Nevada, Cascades), so the area includes the old east slope riverine and lacustrine environment and its immediate periphery.\nCalifornia: Defined culturally as the area where acorns were the main basis of the economy. Eastern boundary: the crest of the Sierras. Northern boundary: Coos Bay (latitude 43\u00b0 N). Otherwise congruent with the state of California.\nGreater Mesopotamia: Anatolia, Caucasus, Near East, Mesopotamia, and Iran. From the northern limits of the Black and Caspian seas south to ancient Anatolia (modern Turkey) and Mesopotamia and the Iranian Plateau. Includes the Arabian peninsula.\nE North America: Southeast and Eastern North America. The Gulf Coast and eastern woodlands. East of a line from Brownsville/Matamoros at the Mexico/US border to the Mississippi delta and up the Mississippi to its headwaters; from there to about Fort Nelson (58\u00b0 N, 122\u00b0 W).\nNE South America: The northeast of South America. From the eastern slope of the Andes to the Caribbean and Atlantic coasts (between Caracas and Port of Spain), south to 18\u00b0 S (this is an arbitrary demarcation of the Amazon and La Plata drainages).\nEurope: Europe up to the Eurasian steppe. Starting from the Black Sea, the eastern border of Europe follows the eastern slopes of the Carpathian mountains up to about the 22\u00b0 E and then follows the Wisla up to the Baltic See; and from there we draw a straight line north. (This puts Poland inside Europe, based on its tight historical interaction with the rest of Europe; but one could as well draw the limit following the Oder-Elbe line.)\nInner Asia: Inner Siberia and Central Asia: western Turkestan and Afghanistan but not the Iranian plateau, and also the Eastern Eurasian steppe up to the Carpathians; the Tibetan Plateau; Mongolia (inner and outer); most of Siberia.\nIndic: The Indic subcontinent. Extends to the eastern border of the Iranian Plateau in the west, to the south-oriented valleys of the Himalayas, the Karakorum, and the Pamirs and also those of the high-altitude Hindu Kush (but excluding Afghanistan and the Tibetan plateau) in the north, and to the Brahmaputra in the east.\nMesoamerica: The southern boundary is the Panama Canal; the northern boundary is the US/Mexico border. Perhaps this boundary should eventually be placed at the northern limit of the Mesoamerican cultural area.\nN Africa: Northern Africa. North of about 14\u00b0 N (the latitude of the northern end of Lake Chad and north of the Niger, just north of Khartoum, without Eritrea), but excluding the Ethiopian Plateau (i.e. no farther east than about 35\u00b0).\nN Coast Asia: Coastal Northern Asia. Manchuria, Korea, Japan, and Siberia up to about 100 miles or 160 km inland from the coast. Also including the Aleutian Islands.\nInterior New Guinea: The highlands and most of their north slope.\nN Coast New Guinea: Northern coastal New Guinea (up to within about 20 miles of the coast) including the Bird\u2019s Head peninsula; small offshore islands (e.g. Karkar) and the Bismarcks (New Britain, New Ireland) but not the Solomons.\nN Australia: Northern Australia. North of 18\u00b0 S. (This is an artificial boundary and could probably be improved.)\nOceania: Pacific islands, including the Solomons. Western boundary is the Wallace Line (about 120\u00b0 E), so the Philippines, Sulawesi, Flores, Sumba, Timor, etc. are in Oceania.\nS Africa: Southern Africa. South of about 4.5\u00b0 N and east of about 10\u00b0 E. Includes the rain forest and everything to the south of it. (The northwest corner is just southeast of Cameroon Mountain, or at about Douala, Cameroon. The northeast border is from Mogadishu to the Ethiopian border.)\nS New Guinea: Southern New Guinea. The southern slope and coast.\nSoutheast Asia: From the Brahmaputra to near insular Southeast Asia (up to the Wallace Line, between Sumbawa and Flores, thus including Sumatra, Java, and Borneo) and most of China (but not Qinghai, Tibet, Xinjiang or Inner Mongolia).\nS Australia: Southern Australia. South of 18\u00b0 S. (This is an artificial boundary and could probably be improved.)\nAndean: Andean South America. The western coast, the Andes, and their eastern slope, south of the border of Panama (about 5\u00b0 N). Southern boundary: about 50\u00b0 S.\nAfrican Savannah: The savannah north of the African rain forest. Between about 15\u00b0 N and about 5\u00b0 N, and east to about 35\u00b0 E.\nGreater Abyssinia: Between about 5\u00b0 N and about 17\u00b0 N, and east of about 35\u00b0 E (this line slants up to about 38\u00b0 E at 17\u00b0 N). Includes the Ethiopian plateau and northern Somalia (and could possibly be redrawn to include the Yemen tip of the Arabian peninsula).\nSE South America: The southeast of South America. From the eastern slopes of the Andes to the Atlantic coast, south of 18\u00b0 S. Includes all of Patagonia and the Gran Chaco, and all of Tierra del Fuego.",
+                        "dc:format": "manual data entry",
+                        "datatype": {
+                            "base": "string",
+                            "format": "Alaska\\-Oregon|Basin\\ and\\ Plains|California|Greater\\ Mesopotamia|E\\ North\\ America|NE\\ South\\ America|Europe|Inner\\ Asia|Indic|Mesoamerica|N\\ Africa|N\\ Coast\\ Asia|Interior\\ New\\ Guinea|N\\ Coast\\ New\\ Guinea|N\\ Australia|Oceania|S\\ Africa|S\\ New\\ Guinea|Southeast\\ Asia|S\\ Australia|Andean|African\\ Savannah|Greater\\ Abyssinia|SE\\ South\\ America"
+                        },
+                        "name": "Area"
+                    },
+                    {
+                        "dc:description": "A four-way geographical breakdown: Africa, Eurasia, Pacific, Americas\n\nAfrica: Afrika\nEurasia: Eurasia\nPacific: Pacific\nAmericas: Americas",
+                        "dc:format": "manual data entry",
+                        "datatype": {
+                            "base": "string",
+                            "format": "Africa|Eurasia|Pacific|Americas"
+                        },
+                        "name": "Macrocontinent"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "languages.csv"
+        },
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
+            "dc:extent": 46,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                        "required": false,
+                        "name": "Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+                        "required": false,
+                        "name": "Description"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#contributor",
+                        "required": false,
+                        "name": "Contributor"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#citation",
+                        "required": false,
+                        "name": "Citation"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "dataset_kind"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "contributions.csv"
+        },
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
+            "dc:extent": 1013,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                        "required": false,
+                        "name": "Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+                        "required": false,
+                        "name": "Description"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "module"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "submodule"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "kind"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "datatype"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "dim"
+                    },
+                    {
+                        "datatype": "json",
+                        "name": "typespec"
+                    },
+                    {
+                        "datatype": "boolean",
+                        "name": "unitset"
+                    },
+                    {
+                        "datatype": "boolean",
+                        "name": "multivalued"
+                    },
+                    {
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#contributionReference",
+                        "name": "dataset"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "dataset"
+                        ],
+                        "reference": {
+                            "resource": "contributions.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "parameters.csv"
+        },
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CodeTable",
+            "dc:extent": 1402,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "dc:description": "The parameter or variable the code belongs to.",
+                        "dc:extent": "singlevalued",
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
+                        "required": true,
+                        "name": "Parameter_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                        "required": false,
+                        "name": "Name"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+                        "required": false,
+                        "name": "Description"
+                    }
+                ],
+                "foreignKeys": [
+                    {
+                        "columnReference": [
+                            "Parameter_ID"
+                        ],
+                        "reference": {
+                            "resource": "parameters.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "codes.csv"
+        }
+    ]
+}

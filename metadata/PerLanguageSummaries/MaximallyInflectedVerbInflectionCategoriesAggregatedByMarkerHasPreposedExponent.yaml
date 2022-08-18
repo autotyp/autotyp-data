@@ -1,0 +1,416 @@
+description: >-
+  Marker position (from `GrammaticalMarkers::MarkerHasPreposedExponent`), reshaped and aggregated per language and inflection category on maximally inflected verbs
+kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+data: table
+counts:
+  n_languages: 228
+  n_variables: 54
+fields: 
+  LID:
+    description: >-
+      Unique language ID
+    kind: manual data entry
+    data: integer
+  # -- end of LID
+
+  Glottocode:
+    description: >-
+      Glottolog ID
+    kind: manual data entry
+    data: string
+  # -- end of Glottocode
+
+  Language:
+    description: >-
+      In this database a language is actually a dialect or variety, in that
+      individual dialects are entered as languages. That is, each language has
+      its own ID number (the 'LID') distinct from that of the pan-dialectal
+      language:e.g. LID 87 German, 1227 Upper Austrian German, 1295 Berlin
+      German, 1310 Zürich German, 2845 Old High German, etc. (The pan-dialectal
+      language is identified as the lowest taxonomic level, the `dialect group',
+      but this information is incomplete in many areas and has not been included
+      in the current release.) The general criterion for a separate language
+      record in the database is that it has a distinct property in at least one
+      of the typological variables that we survey; this may or may not coincide
+      with sociolinguistic criteria.
+    kind: manual data entry
+    data: string
+  # -- end of Language
+
+  MarkerHasPreposedExponentForTAM:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for TAM
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForTAM
+
+  MarkerHasPreposedExponentForPolarity:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Polarity
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForPolarity
+
+  MarkerHasPreposedExponentForVoice:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Voice
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForVoice
+
+  MarkerHasPreposedExponentForMood:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Mood
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForMood
+
+  MarkerHasPreposedExponentForValence:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Valence
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForValence
+
+  MarkerHasPreposedExponentForAktionsart:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Aktionsart
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForAktionsart
+
+  MarkerHasPreposedExponentForConnective:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Connective
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForConnective
+
+  MarkerHasPreposedExponentForSemistem:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Semistem
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForSemistem
+
+  MarkerHasPreposedExponentForReferential:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Referential
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForReferential
+
+  MarkerHasPreposedExponentForCausative:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Causative
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForCausative
+
+  MarkerHasPreposedExponentForAspect:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Aspect
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForAspect
+
+  MarkerHasPreposedExponentForTM:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for TM
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForTM
+
+  MarkerHasPreposedExponentForDeixis:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Deixis
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForDeixis
+
+  MarkerHasPreposedExponentForMSE:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for MSE
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForMSE
+
+  MarkerHasPreposedExponentForQuantificational:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Quantificational
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForQuantificational
+
+  MarkerHasPreposedExponentForMA:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for MA
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForMA
+
+  MarkerHasPreposedExponentForTense:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Tense
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForTense
+
+  MarkerHasPreposedExponentForTA:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for TA
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForTA
+
+  MarkerHasPreposedExponentForPotentialis:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Potentialis
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForPotentialis
+
+  MarkerHasPreposedExponentForApplicative:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Applicative
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForApplicative
+
+  MarkerHasPreposedExponentForNumber:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Number
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForNumber
+
+  MarkerHasPreposedExponentForReflexiveAndReciprocal:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for ReflexiveAndReciprocal
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForReflexiveAndReciprocal
+
+  MarkerHasPreposedExponentForVersion:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Version
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForVersion
+
+  MarkerHasPreposedExponentForIllocution:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Illocution
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForIllocution
+
+  MarkerHasPreposedExponentForMTN:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for MTN
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForMTN
+
+  MarkerHasPreposedExponentForStatus:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Status
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForStatus
+
+  MarkerHasPreposedExponentForEvidential:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Evidential
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForEvidential
+
+  MarkerHasPreposedExponentForConstruct:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Construct
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForConstruct
+
+  MarkerHasPreposedExponentForNominalizer:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Nominalizer
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForNominalizer
+
+  MarkerHasPreposedExponentForHonorificity:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Honorificity
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForHonorificity
+
+  MarkerHasPreposedExponentForFocus:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Focus
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForFocus
+
+  MarkerHasPreposedExponentForSwitchReference:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for SwitchReference
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForSwitchReference
+
+  MarkerHasPreposedExponentForSymmetricalVoice:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for SymmetricalVoice
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForSymmetricalVoice
+
+  MarkerHasPreposedExponentForRECIP:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for RECIP
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForRECIP
+
+  MarkerHasPreposedExponentForTE:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for TE
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForTE
+
+  MarkerHasPreposedExponentForReflexive:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Reflexive
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForReflexive
+
+  MarkerHasPreposedExponentForClassifier:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Classifier
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForClassifier
+
+  MarkerHasPreposedExponentForME:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for ME
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForME
+
+  MarkerHasPreposedExponentForRepetition:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Repetition
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForRepetition
+
+  MarkerHasPreposedExponentForSpatial:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Spatial
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForSpatial
+
+  MarkerHasPreposedExponentForMotion:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Motion
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForMotion
+
+  MarkerHasPreposedExponentForModality:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Modality
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForModality
+
+  MarkerHasPreposedExponentForDirection:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Direction
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForDirection
+
+  MarkerHasPreposedExponentForPosterior:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Posterior
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForPosterior
+
+  MarkerHasPreposedExponentForControl:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Control
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForControl
+
+  MarkerHasPreposedExponentForQuotative:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Quotative
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForQuotative
+
+  MarkerHasPreposedExponentForReversative:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Reversative
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForReversative
+
+  MarkerHasPreposedExponentForAffect:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Affect
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForAffect
+
+  MarkerHasPreposedExponentForAE:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for AE
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForAE
+
+  MarkerHasPreposedExponentForTAME:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for TAME
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForTAME
+
+  MarkerHasPreposedExponentForConditional:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Conditional
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForConditional
+
+  MarkerHasPreposedExponentForPossessor:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for Possessor
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForPossessor
+
+  MarkerHasPreposedExponentForTAE:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for TAE
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForTAE
+
+  MarkerHasPreposedExponentForTN:
+    description: >-
+      GrammaticalMarkers::MarkerHasPreposedExponent value for TN
+    kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
+    data: logical
+  # -- end of MarkerHasPreposedExponentForTN

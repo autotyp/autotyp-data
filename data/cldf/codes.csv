@@ -1,0 +1,1403 @@
+ID,Parameter_ID,Name,Description
+1,4,None,No possessive marking
+2,4,"Alienable D, inalienable D","Alienable D, inalienable D"
+3,4,"Alienable appositive classificatory possessive noun, inalienable H","Alienable appositive classificatory possessive noun, inalienable H"
+4,4,"Alienable H, inalienable H","Alienable H, inalienable H"
+5,4,"Alienable D+H, inalienable H","Alienable D+H, inalienable H"
+6,4,"Alienable D, inalienable H","Alienable D, inalienable H"
+7,4,"Alienables split, inalienables H","Alienables split, inalienables H"
+8,4,"Alienable Ø, inalienable H","Alienable Ø, inalienable H"
+9,4,"Alienable D, inalienable Ø","Alienable D, inalienable Ø"
+10,4,"Alienable D, inalienable split","Alienable D, inalienable split"
+11,4,"Alienable split, inalienable Ø","Alienable split, inalienable Ø"
+12,4,"Alienable D, inalienable D+H","Alienable D, inalienable D+H"
+13,4,"Alienable split, inalienable split","Alienable split, inalienable split"
+14,4,"Alienable via verbal linker, inalienable H","Alienable via verbal linker, inalienable H"
+15,4,"Alienable H, inalienable Ø","Alienable H, inalienable Ø"
+16,4,"Alienable Ø, inalienable Ø","Alienable Ø, inalienable Ø"
+17,4,"Alienable D+H, inalienable D+H","Alienable D+H, inalienable D+H"
+18,4,Other,Other type of marking
+19,6,classificatory,Opaque posessive classification
+20,6,semantic,Possesive classification based on semantic opposition
+21,20,AO,AO
+22,20,OA,OA
+23,20,mixed,mixed
+24,26,AOV,AOV
+25,26,OAV,OAV
+26,26,AVO,AVO
+27,26,OVA,OVA
+28,26,VAO,VAO
+29,26,VOA,VOA
+30,26,xxV,xxV
+31,26,xVx,xVx
+32,26,Vxx,Vxx
+33,26,free,free
+34,26,V-2,V-2
+35,26,SV,SV
+36,26,VS,VS
+37,26,mixed,mixed
+38,27,dep-head,dep-head
+39,27,head-dep,head-dep
+40,27,variable,variable
+41,28,AO,AO
+42,28,OA,OA
+43,29,dep-head,dep-head
+44,29,head-dep,head-dep
+45,29,variable,variable
+46,30,dep-head,dep-head
+47,30,head-dep,head-dep
+48,30,variable,variable
+49,31,V=1,V=1
+50,31,V=2,V=2
+51,31,V=3,V=3
+52,31,free,free
+53,36,AOV,AOV
+54,36,OAV,OAV
+55,36,AVO,AVO
+56,36,OVA,OVA
+57,36,VAO,VAO
+58,36,VOA,VOA
+59,36,xxV,xxV
+60,36,xVx,xVx
+61,36,Vxx,Vxx
+62,36,free,free
+63,36,V-2,V-2
+64,36,SV,SV
+65,36,VS,VS
+66,36,mixed,mixed
+67,37,dep-head,dep-head
+68,37,head-dep,head-dep
+69,37,variable,variable
+70,38,AO,AO
+71,38,OA,OA
+72,39,dep-head,dep-head
+73,39,head-dep,head-dep
+74,39,variable,variable
+75,40,dep-head,dep-head
+76,40,head-dep,head-dep
+77,40,variable,variable
+78,41,V=1,V=1
+79,41,V=2,V=2
+80,41,V=3,V=3
+81,41,free,free
+82,50,no i/e,no clusivity distinction
+83,50,plain i/e type,there is clusivity distinction
+84,50,excl as person type,clusivity is a person category
+85,50,min/aug type,clusivity is present with a minimal/augmented number system
+86,58,2,two distinct genders
+87,58,3,three distinct genders
+88,58,4,four distinct genders
+89,58,more,more than four distinct genders
+90,113,low,lowest 33% percentile
+91,113,medium,middle 33% percentile
+92,113,high,top 33% percentile
+93,114,low,lowest 33% percentile
+94,114,medium,middle 33% percentile
+95,114,high,top 33% percentile
+96,115,low,lowest 33% percentile
+97,115,medium,middle 33% percentile
+98,115,high,top 33% percentile
+99,116,low,lowest 33% percentile
+100,116,medium,middle 33% percentile
+101,116,high,top 33% percentile
+102,117,low,lowest 33% percentile
+103,117,medium,middle 33% percentile
+104,117,high,top 33% percentile
+105,118,low,lowest 33% percentile
+106,118,medium,middle 33% percentile
+107,118,high,top 33% percentile
+108,143,formative,"Marker of a category that cannot occur as an independent part of speech unit in the syntax, but instead grammatically requires some host."
+109,143,PoSWd,"A syntactic unit that has its own part of speech (PoS) category. Depending on the diversity of grammatical words (g-word) in a language (see “word_type” database), this may or may not coincide with the g-word defined as ‘terminal node’. If g- word domains differ, “PoSWd” as used here refers to the one domain that has a PoS label attached to it. What counts is the syntactic behavior, e.g. if an element behaves like a verb but is defective morphologically, it still has the PoS label ‘verb’ (see for example Quileute negation ‘é’, which behaves like a verb syntactically even thought its inflectional paradigm is defective)."
+110,144,formative,"Marker of a category that cannot occur as an independent part of speech unit in the syntax, but instead grammatically requires some host."
+111,144,PoSWd,"A syntactic unit that has its own part of speech (PoS) category. Depending on the diversity of grammatical words (g-word) in a language (see “word_type” database), this may or may not coincide with the g-word defined as ‘terminal node’. If g- word domains differ, “PoSWd” as used here refers to the one domain that has a PoS label attached to it. What counts is the syntactic behavior, e.g. if an element behaves like a verb but is defective morphologically, it still has the PoS label ‘verb’ (see for example Quileute negation ‘é’, which behaves like a verb syntactically even thought its inflectional paradigm is defective)."
+112,145,formative,"Marker of a category that cannot occur as an independent part of speech unit in the syntax, but instead grammatically requires some host."
+113,145,PoSWd,"A syntactic unit that has its own part of speech (PoS) category. Depending on the diversity of grammatical words (g-word) in a language (see “word_type” database), this may or may not coincide with the g-word defined as ‘terminal node’. If g- word domains differ, “PoSWd” as used here refers to the one domain that has a PoS label attached to it. What counts is the syntactic behavior, e.g. if an element behaves like a verb but is defective morphologically, it still has the PoS label ‘verb’ (see for example Quileute negation ‘é’, which behaves like a verb syntactically even thought its inflectional paradigm is defective)."
+114,146,formative,"Marker of a category that cannot occur as an independent part of speech unit in the syntax, but instead grammatically requires some host."
+115,151,restricted,"Is restricted to a specific type of host. When descriptions are silent about the range of hosts that a marker can combine with, but analyze the marker as an “affix”, we assume it is restricted."
+116,151,semi-restricted,"Can occur with some, but not all host elements (so, NOT a ‘phrasal affix’, but rather simply a ‘particle’-like formative that has some degree of selectional restrictions). Allows at least two distinct hosts (in terms of their parts of speech categories)"
+117,152,restricted,"Is restricted to a specific type of host. When descriptions are silent about the range of hosts that a marker can combine with, but analyze the marker as an “affix”, we assume it is restricted."
+118,152,semi-restricted,"Can occur with some, but not all host elements (so, NOT a ‘phrasal affix’, but rather simply a ‘particle’-like formative that has some degree of selectional restrictions). Allows at least two distinct hosts (in terms of their parts of speech categories)"
+119,153,restricted,"Is restricted to a specific type of host. When descriptions are silent about the range of hosts that a marker can combine with, but analyze the marker as an “affix”, we assume it is restricted."
+120,153,semi-restricted,"Can occur with some, but not all host elements (so, NOT a ‘phrasal affix’, but rather simply a ‘particle’-like formative that has some degree of selectional restrictions). Allows at least two distinct hosts (in terms of their parts of speech categories)"
+121,153,unrestricted,occurs with anything (e.g. Turkish mi)
+122,154,restricted,"Is restricted to a specific type of host. When descriptions are silent about the range of hosts that a marker can combine with, but analyze the marker as an “affix”, we assume it is restricted."
+123,154,semi-restricted,"Can occur with some, but not all host elements (so, NOT a ‘phrasal affix’, but rather simply a ‘particle’-like formative that has some degree of selectional restrictions). Allows at least two distinct hosts (in terms of their parts of speech categories)"
+124,155,isolating,"The formative is a free phonological word. If it is, it is likely to be written as a separate word, though this is not always true: non-isolating formatives like clitics are often written as separate words, and isolating formatives are written with hyphens or clitic boundary markers. Therefore you will need to look at prosodic factors such as word stress."
+125,155,concatenative,"The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel harmony), word-internal kinds of sandhi, prosodic phenomena (such as word stress) or general inability to stand alone, identify a formative as concatenative (rather than an independent word). Unless there is evidence to the contrary, zeroes are coded as concatenative."
+126,155,tonal,"A tone contrast marks a morphological contrast. The tone must be not be the result of a general phonological sandhi rule, but represent true internal tone changes."
+127,155,concatenative_and_ablaut,Concatenative formative plus ablaut (usually stem ablaut).
+128,155,concatenative_or_ablaut,"Concatenative formative or ablaut, neither one clearly primary (or both equally primary)."
+129,155,suppletive,One root or morpheme replaces another in part of a paradigm.
+130,155,ablaut,Alternation of stem segments in some grammatical context. Distinct from phonologically conditioned alternation.
+131,155,concatenative_or_suppletive,"Concatenative formative or suppletion, under different conditions."
+132,156,isolating,"The formative is a free phonological word. If it is, it is likely to be written as a separate word, though this is not always true: non-isolating formatives like clitics are often written as separate words, and isolating formatives are written with hyphens or clitic boundary markers. Therefore you will need to look at prosodic factors such as word stress."
+133,156,concatenative,"The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel harmony), word-internal kinds of sandhi, prosodic phenomena (such as word stress) or general inability to stand alone, identify a formative as concatenative (rather than an independent word). Unless there is evidence to the contrary, zeroes are coded as concatenative."
+134,156,isolating_or_concatenative,"Isolating as regards stress, concatenative as regards segmental rules -- or vice versa."
+135,156,reduplicative,A category is marked by some kind of reduplication effect
+136,156,tonal,"A tone contrast marks a morphological contrast. The tone must be not be the result of a general phonological sandhi rule, but represent true internal tone changes."
+137,156,concatenative_and_ablaut,Concatenative formative plus ablaut (usually stem ablaut).
+138,156,concatenative_or_ablaut,"Concatenative formative or ablaut, neither one clearly primary (or both equally primary)."
+139,156,ablaut,Alternation of stem segments in some grammatical context. Distinct from phonologically conditioned alternation.
+140,157,isolating,"The formative is a free phonological word. If it is, it is likely to be written as a separate word, though this is not always true: non-isolating formatives like clitics are often written as separate words, and isolating formatives are written with hyphens or clitic boundary markers. Therefore you will need to look at prosodic factors such as word stress."
+141,157,concatenative,"The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel harmony), word-internal kinds of sandhi, prosodic phenomena (such as word stress) or general inability to stand alone, identify a formative as concatenative (rather than an independent word). Unless there is evidence to the contrary, zeroes are coded as concatenative."
+142,157,isolating_or_concatenative,"Isolating as regards stress, concatenative as regards segmental rules -- or vice versa."
+143,157,isolating_then_concatenative,"First part of the formative is isolating, second part is concatenative."
+144,157,concatenative_then_isolating,"First part of the formative is concatenative, second part is isolating."
+145,157,tonal_or_ablaut_then_isolating,"First part of the formative is a tonal or ablaut alternation; second part is isolating. Example: Kisi negation, where the verb stem undergoes tone changes and a particle is added (Childs, A Grammar of Kisi, 220ff.; Mouton de Gruyter 1995."
+146,157,concatenative_default_or_isolating,Concatenative formative is default; isolating allomorph under certain conditions.
+147,157,isolating_default_or_concatenative,Isolating formative is default; concatenative allomorph under certain conditions.
+148,158,isolating,"The formative is a free phonological word. If it is, it is likely to be written as a separate word, though this is not always true: non-isolating formatives like clitics are often written as separate words, and isolating formatives are written with hyphens or clitic boundary markers. Therefore you will need to look at prosodic factors such as word stress."
+149,158,concatenative,"The formative is a clitic or segmentable affix. Word-level phonological processes (such as vowel harmony), word-internal kinds of sandhi, prosodic phenomena (such as word stress) or general inability to stand alone, identify a formative as concatenative (rather than an independent word). Unless there is evidence to the contrary, zeroes are coded as concatenative."
+150,158,reduplicative,A category is marked by some kind of reduplication effect
+151,158,concatenative_and_reduplicative,"Concatenative formative plus reduplication (usually reduplication of stem). If some lexemes take just the affix and others take the affix plus the reduplication, choose Concat + redupl and code for lexeme-based formative flexivity. (The flexivity lies in whether they do or do not take the reduplication part.)"
+152,158,concatenative_and_ablaut,Concatenative formative plus ablaut (usually stem ablaut).
+153,158,concatenative_or_ablaut,"Concatenative formative or ablaut, neither one clearly primary (or both equally primary)."
+154,158,replacive,"The formative replaces a stem (or theme or base) segment. This is different from regularly concatenative formatives which alternate with other formatives, and not with stem segments. Examples: Marxist derived from Marxism (-ism replaces -ist) (Spencer in Spencer & Zwicky, Handbook of Morphology, 140; Oxford, 1998). In Slavic hypocoristics, after truncation, the stem-final consonant is replaced with /x/, e.g. Russ. smex ‘laughter’ < smej- ‘laugh’."
+155,158,ablaut,Alternation of stem segments in some grammatical context. Distinct from phonologically conditioned alternation.
+156,159,isolating,The formative is a free phonological word
+157,159,concatenative,The formative is a clitic or segmentable affix
+158,159,stem,Some kind of effect within the stem
+159,159,tonal,A tone contrast
+160,160,isolating,The formative is a free phonological word
+161,160,concatenative,The formative is a clitic or segmentable affix
+162,160,reduplicative,Some kind of reduplication effect
+163,160,stem,Some kind of effect within the stem
+164,160,tonal,A tone contrast
+165,161,isolating,The formative is a free phonological word
+166,161,concatenative,The formative is a clitic or segmentable affix
+167,161,stem,Some kind of effect within the stem
+168,162,isolating,The formative is a free phonological word
+169,162,concatenative,The formative is a clitic or segmentable affix
+170,162,reduplicative,Some kind of reduplication effect
+171,162,replacive,The formative replaces the stem
+172,162,stem,Some kind of effect within the stem
+173,179,cat-based,"Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem ablaut in certain tense forms, across the regular lexicon)"
+174,179,lex-based,"Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with some verbs, but not with others)"
+175,179,none,No allomorphic variation
+176,180,cat-based,"Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem ablaut in certain tense forms, across the regular lexicon)"
+177,180,lex-based,"Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with some verbs, but not with others)"
+178,180,none,No allomorphic variation
+179,180,both,Allomorphic variation determined by both the inflectional category and the lexical host
+180,181,cat-based,"Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem ablaut in certain tense forms, across the regular lexicon)"
+181,181,lex-based,"Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with some verbs, but not with others)"
+182,181,none,No allomorphic variation
+183,182,cat-based,"Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem ablaut in certain tense forms, across the regular lexicon)"
+184,182,lex-based,"Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with some verbs, but not with others)"
+185,182,none,No allomorphic variation
+186,183,cat-based,"Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem ablaut in certain tense forms, across the regular lexicon)"
+187,183,lex-based,"Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with some verbs, but not with others)"
+188,183,none,No allomorphic variation
+189,183,both,Allomorphic variation determined by both the inflectional category and the lexical host
+190,184,cat-based,"Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem ablaut in certain tense forms, across the regular lexicon)"
+191,184,lex-based,"Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with some verbs, but not with others)"
+192,184,none,No allomorphic variation
+193,185,cat-based,"Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem ablaut in certain tense forms, across the regular lexicon)"
+194,185,lex-based,"Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with some verbs, but not with others)"
+195,185,none,No allomorphic variation
+196,185,both,Allomorphic variation determined by both the inflectional category and the lexical host
+197,186,cat-based,"Allomorphic variation determined by the choice of inflectional category (e.g., a certain stem ablaut in certain tense forms, across the regular lexicon)"
+198,186,lex-based,"Allomorphic variation determined by the choice of lexical host (e.g., a certain stem ablaut with some verbs, but not with others)"
+199,186,none,No allomorphic variation
+200,187,prae,before the phonological host
+201,187,in,inside the phonological host
+202,187,post,after the phonological host
+203,187,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+204,188,prae,before the phonological host
+205,188,in,inside the phonological host
+206,188,post,after the phonological host
+207,188,simul,"the formative has two exponents at different positions in the phonological host (but it is not the case that one is positioned before and the other after the host, which is coded as “circum”)"
+208,188,circum,"the formative has two exponents, one before and one after the phonological host. This is a special case of the “simul” position"
+209,188,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+210,188,in/prae,"either inside or before the phonological host, conditioned by some structural context (category, syntax etc.)"
+211,188,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+212,189,prae,before the phonological host
+213,189,post,after the phonological host
+214,189,simul,"the formative has two exponents at different positions in the phonological host (but it is not the case that one is positioned before and the other after the host, which is coded as “circum”)"
+215,189,circum,"the formative has two exponents, one before and one after the phonological host. This is a special case of the “simul” position"
+216,189,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+217,189,post (circum),"after the phonological host by default, around the host under exceptional conditions (typically lexical)"
+218,189,circum (prae),"around the phonological host by default, before the host under exceptional conditions (typically lexical)"
+219,189,prae (circum),"before the phonological host by default, around the host under exceptional conditions (typically lexical)"
+220,189,circum (post),"around the phonological host by default, after the host under exceptional conditions (typically lexical)"
+221,189,circum (W),DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) -- see log 77
+222,189,simul (prae),"in two or more different positions in (but not around) the phonological host by default, before the host under exceptional conditions (typically lexical)"
+223,190,prae,before the phonological host
+224,190,in,inside the phonological host
+225,190,post,after the phonological host
+226,190,simul,"the formative has two exponents at different positions in the phonological host (but it is not the case that one is positioned before and the other after the host, which is coded as “circum”)"
+227,190,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+228,190,prae/circum,"either before or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+229,190,prae/post/circum,"either before, after or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+230,191,prae,Marker occurs before its phonological host
+231,191,in/simul,Marker occurs inside its phonological host
+232,191,post,Marker occurs after its phonological host
+233,192,prae,Marker occurs before its phonological host
+234,192,in/simul,Marker occurs inside its phonological host
+235,192,post,Marker occurs after its phonological host
+236,192,split,Marker has multiple parts that occur at different positions
+237,193,prae,Marker occurs before its phonological host
+238,193,in/simul,Marker occurs inside its phonological host
+239,193,post,Marker occurs after its phonological host
+240,193,split,Marker has multiple parts that occur at different positions
+241,194,prae,Marker occurs before its phonological host
+242,194,in/simul,Marker occurs inside its phonological host
+243,194,post,Marker occurs after its phonological host
+244,194,split,Marker has multiple parts that occur at different positions
+245,195,prae,Marker occurs before its phonological host
+246,195,in,Marker occurs inside its phonological host
+247,195,post,Marker occurs after its phonological host
+248,196,prae,Marker occurs before its phonological host
+249,196,in,Marker occurs inside its phonological host
+250,196,post,Marker occurs after its phonological host
+251,196,split,Marker has multiple parts that occur at different positions (before or after)
+252,196,simul,Marker has multiple parts that occur at different positions inside the host
+253,197,prae,Marker occurs before its phonological host
+254,197,post,Marker occurs after its phonological host
+255,197,split,Marker has multiple parts that occur at different positions (before or after)
+256,197,simul,Marker has multiple parts that occur at different positions inside the host
+257,198,prae,Marker occurs before its phonological host
+258,198,in,Marker occurs inside its phonological host
+259,198,post,Marker occurs after its phonological host
+260,198,split,Marker has multiple parts that occur at different positions (before or after)
+261,198,simul,Marker has multiple parts that occur at different positions inside the host
+262,219,inert,"Not spreading, not stacking. Default for non-phrasal elements."
+263,219,spreading,"See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology and Syntactic Description (CUP 2007)"
+264,219,stacking,"See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology and Syntactic Description, (CUP 2007)"
+265,219,final,"Inert and at the end of its domain (e.g. at the end of the clause for TAM markers, or at the end of the NP for case markers)"
+266,219,initial,"Inert and at the beginning (first element) of its domain (e.g. at the first element of the clause for TAM markers, or at the beginning of the NP for case markers). Combined with a “post” value in position, a “following” value in Placement, and freedom of hosts, this is a typical Wackernagel clitic."
+267,219,on head,"Inert and positioned on the head of its domain: V for TAM, N for case. This is typical for suffixes. Since clitics are typically insensitive to the host category, their placement is regulated by more abstract positions (initial, final, penultimate, pre-initial etc.) rather than the head. “On head” is used only with phrases where the head can vary its position."
+268,219,flexible,Inert and freely positioned within its domain (ie. position is not defined with respect to H or D but by something else).
+269,220,inert,"Not spreading, not stacking. Default for non-phrasal elements."
+270,220,final,"Inert and at the end of its domain (e.g. at the end of the clause for TAM markers, or at the end of the NP for case markers)"
+271,220,initial,"Inert and at the beginning (first element) of its domain (e.g. at the first element of the clause for TAM markers, or at the beginning of the NP for case markers). Combined with a “post” value in position, a “following” value in Placement, and freedom of hosts, this is a typical Wackernagel clitic."
+272,220,flexible,Inert and freely positioned within its domain (ie. position is not defined with respect to H or D but by something else).
+273,221,inert,"Not spreading, not stacking. Default for non-phrasal elements."
+274,221,final,"Inert and at the end of its domain (e.g. at the end of the clause for TAM markers, or at the end of the NP for case markers)"
+275,221,initial,"Inert and at the beginning (first element) of its domain (e.g. at the first element of the clause for TAM markers, or at the beginning of the NP for case markers). Combined with a “post” value in position, a “following” value in Placement, and freedom of hosts, this is a typical Wackernagel clitic."
+276,221,on head,"Inert and positioned on the head of its domain: V for TAM, N for case. This is typical for suffixes. Since clitics are typically insensitive to the host category, their placement is regulated by more abstract positions (initial, final, penultimate, pre-initial etc.) rather than the head. “On head” is used only with phrases where the head can vary its position."
+277,221,flexible,Inert and freely positioned within its domain (ie. position is not defined with respect to H or D but by something else).
+278,221,on head and final,Simultaneously on head and final.
+279,221,on head and initial,Simultaneously on head and initial.
+280,222,inert,"Not spreading, not stacking. Default for non-phrasal elements."
+281,222,spreading,"See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology and Syntactic Description (CUP 2007)"
+282,222,stacking,"See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology and Syntactic Description, (CUP 2007)"
+283,222,final,"Inert and at the end of its domain (e.g. at the end of the clause for TAM markers, or at the end of the NP for case markers)"
+284,222,initial,"Inert and at the beginning (first element) of its domain (e.g. at the first element of the clause for TAM markers, or at the beginning of the NP for case markers). Combined with a “post” value in position, a “following” value in Placement, and freedom of hosts, this is a typical Wackernagel clitic."
+285,222,flexible,Inert and freely positioned within its domain (ie. position is not defined with respect to H or D but by something else).
+286,223,initial,Inert and at the beginning of its domain
+287,223,final,Inert and at the end of its domain
+288,223,on head,Inert and positioned on the head of its domain
+289,223,spreading,"See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology and Syntactic Description (CUP 2007)"
+290,224,initial,Inert and at the beginning of its domain
+291,224,final,Inert and at the end of its domain
+292,225,initial,Inert and at the beginning of its domain
+293,225,final,Inert and at the end of its domain
+294,225,on head,Inert and positioned on the head of its domain
+295,226,initial,Inert and at the beginning of its domain
+296,226,final,Inert and at the end of its domain
+297,226,spreading,"See Bickel & Nichols, ‘Inflectional morphology’ in Shopen ed., Language Typology and Syntactic Description (CUP 2007)"
+298,260,D,"On dependent. For zero formative on dependent, code as Ø."
+299,260,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+300,260,h+D,Dependent marking is dominant. Additional head marking with some verbs only or under specific morphosyntactic conditions as noted.
+301,261,H,On head.
+302,261,D,"On dependent. For zero formative on dependent, code as Ø."
+303,261,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+304,261,F,"Free or floating, including particles or similar in phrase-second position (Wackernagel position), e.g. Tagalog ‘linkers’"
+305,261,F+D,Simultaneously (or mostly simultaneously) detached and on dependent (e.g. an argument role is marked by both a Wackernagel agreement clitic and case)
+306,261,P,The relation is marked by position (word or morpheme order).
+307,261,h+D,Dependent marking is dominant. Additional head marking with some verbs only or under specific morphosyntactic conditions as noted.
+308,261,H+d,Head marking is dominant. Additional dependent marking with some NPs or under specific morphosyntactic conditions as noted.
+309,261,d,Dependent marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+310,261,Ø,No marking
+311,261,h,Head marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+312,261,h+d,"Simultaneously on head and dependent, both with restrictions."
+313,261,D on H,"Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the dependent argument can be realized by agreement morphology on the head. If it is, it absorbs the argument position in the clause and therefore does not allow an independent NP to show up in the same clausal core.)"
+314,261,Hh+D,Two head marks (one restricted) plus one dependent.
+315,261,H+F,Head plus floating
+316,261,F+d,Floating plus restricted dependent marking.
+317,262,H,On head.
+318,262,D,"On dependent. For zero formative on dependent, code as Ø."
+319,262,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+320,262,F,"Free or floating, including particles or similar in phrase-second position (Wackernagel position), e.g. Tagalog ‘linkers’"
+321,262,F+D,Simultaneously (or mostly simultaneously) detached and on dependent (e.g. an argument role is marked by both a Wackernagel agreement clitic and case)
+322,262,P,The relation is marked by position (word or morpheme order).
+323,262,h+D,Dependent marking is dominant. Additional head marking with some verbs only or under specific morphosyntactic conditions as noted.
+324,262,H+d,Head marking is dominant. Additional dependent marking with some NPs or under specific morphosyntactic conditions as noted.
+325,262,d,Dependent marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+326,262,Ø,No marking
+327,262,h,Head marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+328,262,h+d,"Simultaneously on head and dependent, both with restrictions."
+329,262,Hh+D,Two head marks (one restricted) plus one dependent.
+330,262,hh+d,Two restricted H markers and one restricted D marker.
+331,262,H+F,Head plus floating
+332,262,F+d,Floating plus restricted dependent marking.
+333,263,H,On head.
+334,263,D,"On dependent. For zero formative on dependent, code as Ø."
+335,264,H,On head.
+336,264,D,"On dependent. For zero formative on dependent, code as Ø."
+337,264,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+338,264,F,"Free or floating, including particles or similar in phrase-second position (Wackernagel position), e.g. Tagalog ‘linkers’"
+339,264,F+D,Simultaneously (or mostly simultaneously) detached and on dependent (e.g. an argument role is marked by both a Wackernagel agreement clitic and case)
+340,264,P,The relation is marked by position (word or morpheme order).
+341,264,h+D,Dependent marking is dominant. Additional head marking with some verbs only or under specific morphosyntactic conditions as noted.
+342,264,H+d,Head marking is dominant. Additional dependent marking with some NPs or under specific morphosyntactic conditions as noted.
+343,264,d,Dependent marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+344,264,Ø,No marking
+345,264,h,Head marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+346,264,HH,"On head, with more than one formative or more than one category. Typical case: construct state or linker on head plus head-driven agreement ; or Philippine-style voice plus agreement"
+347,264,h+d,"Simultaneously on head and dependent, both with restrictions."
+348,264,D on H,"Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the dependent argument can be realized by agreement morphology on the head. If it is, it absorbs the argument position in the clause and therefore does not allow an independent NP to show up in the same clausal core.)"
+349,264,d on h,"Headward-migrated dependent marking, restricted in some way. Typical cases: Bagirmi or standard French, where there is no case on independent pronouns and nouns, so only pronominal agreement markers are case-marked. As a result, arguments are differentiated only in headward-migrated dependent marking. This marking realizes the dependent argument syntactically and leaves no place for an independent NP to show up in the same clausal core."
+350,264,Hh+D,Two head marks (one restricted) plus one dependent.
+351,264,f,"Floating, under limited circumstances (e.g. Yagua DOM by floating agreement with definite noun)"
+352,265,H,On head.
+353,265,D,"On dependent. For zero formative on dependent, code as Ø."
+354,265,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+355,265,F,"Free or floating, including particles or similar in phrase-second position (Wackernagel position), e.g. Tagalog ‘linkers’"
+356,265,H+d,Head marking is dominant. Additional dependent marking with some NPs or under specific morphosyntactic conditions as noted.
+357,265,Ø,No marking
+358,265,HH,"On head, with more than one formative or more than one category. Typical case: construct state or linker on head plus head-driven agreement ; or Philippine-style voice plus agreement"
+359,266,D,"On dependent. For zero formative on dependent, code as Ø."
+360,266,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+361,266,h+D,Dependent marking is dominant. Additional head marking with some verbs only or under specific morphosyntactic conditions as noted.
+362,267,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+363,268,H,On head.
+364,268,D,"On dependent. For zero formative on dependent, code as Ø."
+365,268,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+366,268,h+D,Dependent marking is dominant. Additional head marking with some verbs only or under specific morphosyntactic conditions as noted.
+367,268,d,Dependent marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+368,268,Ø,No marking
+369,268,h,Head marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+370,268,d on h,"Headward-migrated dependent marking, restricted in some way. Typical cases: Bagirmi or standard French, where there is no case on independent pronouns and nouns, so only pronominal agreement markers are case-marked. As a result, arguments are differentiated only in headward-migrated dependent marking. This marking realizes the dependent argument syntactically and leaves no place for an independent NP to show up in the same clausal core."
+371,269,H,On head.
+372,269,D,"On dependent. For zero formative on dependent, code as Ø."
+373,269,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+374,269,h+D,Dependent marking is dominant. Additional head marking with some verbs only or under specific morphosyntactic conditions as noted.
+375,269,H+d,Head marking is dominant. Additional dependent marking with some NPs or under specific morphosyntactic conditions as noted.
+376,269,d,Dependent marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+377,269,Ø,No marking
+378,269,h,Head marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+379,269,HH,"On head, with more than one formative or more than one category. Typical case: construct state or linker on head plus head-driven agreement ; or Philippine-style voice plus agreement"
+380,269,D on H,"Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the dependent argument can be realized by agreement morphology on the head. If it is, it absorbs the argument position in the clause and therefore does not allow an independent NP to show up in the same clausal core.)"
+381,269,H/D,"Split, either H or D."
+382,269,f,"Floating, under limited circumstances (e.g. Yagua DOM by floating agreement with definite noun)"
+383,270,D,"On dependent. For zero formative on dependent, code as Ø."
+384,270,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+385,271,H,On head.
+386,271,D,"On dependent. For zero formative on dependent, code as Ø."
+387,272,D,"On dependent. For zero formative on dependent, code as Ø."
+388,272,h+D,Dependent marking is dominant. Additional head marking with some verbs only or under specific morphosyntactic conditions as noted.
+389,273,D,"On dependent. For zero formative on dependent, code as Ø."
+390,273,H+d,Head marking is dominant. Additional dependent marking with some NPs or under specific morphosyntactic conditions as noted.
+391,273,d,Dependent marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+392,274,D,"On dependent. For zero formative on dependent, code as Ø."
+393,275,h+D,Dependent marking is dominant. Additional head marking with some verbs only or under specific morphosyntactic conditions as noted.
+394,276,H,On head.
+395,276,D,"On dependent. For zero formative on dependent, code as Ø."
+396,276,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+397,276,F,"Free or floating, including particles or similar in phrase-second position (Wackernagel position), e.g. Tagalog ‘linkers’"
+398,276,h+D,Dependent marking is dominant. Additional head marking with some verbs only or under specific morphosyntactic conditions as noted.
+399,276,H+d,Head marking is dominant. Additional dependent marking with some NPs or under specific morphosyntactic conditions as noted.
+400,276,Ø,No marking
+401,276,D on H,"Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the dependent argument can be realized by agreement morphology on the head. If it is, it absorbs the argument position in the clause and therefore does not allow an independent NP to show up in the same clausal core.)"
+402,276,d on h,"Headward-migrated dependent marking, restricted in some way. Typical cases: Bagirmi or standard French, where there is no case on independent pronouns and nouns, so only pronominal agreement markers are case-marked. As a result, arguments are differentiated only in headward-migrated dependent marking. This marking realizes the dependent argument syntactically and leaves no place for an independent NP to show up in the same clausal core."
+403,276,H+d on h,"Head marking (construct state type, i.e. registers a dependent but does not index its properties) plus headward-migrated dependent-marked pronouns"
+404,277,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+405,278,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+406,279,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+407,280,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+408,281,D,"On dependent. For zero formative on dependent, code as Ø."
+409,281,h+D,Dependent marking is dominant. Additional head marking with some verbs only or under specific morphosyntactic conditions as noted.
+410,282,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+411,283,H,On head.
+412,283,D,"On dependent. For zero formative on dependent, code as Ø."
+413,283,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+414,283,F,"Free or floating, including particles or similar in phrase-second position (Wackernagel position), e.g. Tagalog ‘linkers’"
+415,283,h+D,Dependent marking is dominant. Additional head marking with some verbs only or under specific morphosyntactic conditions as noted.
+416,283,H+d,Head marking is dominant. Additional dependent marking with some NPs or under specific morphosyntactic conditions as noted.
+417,283,d,Dependent marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+418,283,Ø,No marking
+419,283,DD,"On dependent, with more than one formative or more than one category. Typical instance: genitive (or possessive form of pronoun) plus head-driven agreement (dependent agreeing with head)."
+420,283,Dd,"Same as DD but with the additional formative or category restricted to some possessors only (e.g. pronouns only: German; contrast Hindi, where all possessors show head-driven agreement)"
+421,283,h,Head marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+422,283,HH,"On head, with more than one formative or more than one category. Typical case: construct state or linker on head plus head-driven agreement ; or Philippine-style voice plus agreement"
+423,283,hh,"On head, with more than one formative or more than one category, but both formatives have restricted distribution."
+424,283,D on H,"Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the dependent argument can be realized by agreement morphology on the head. If it is, it absorbs the argument position in the clause and therefore does not allow an independent NP to show up in the same clausal core.)"
+425,283,d on h,"Headward-migrated dependent marking, restricted in some way. Typical cases: Bagirmi or standard French, where there is no case on independent pronouns and nouns, so only pronominal agreement markers are case-marked. As a result, arguments are differentiated only in headward-migrated dependent marking. This marking realizes the dependent argument syntactically and leaves no place for an independent NP to show up in the same clausal core."
+426,283,H/D/DH,"Split, e.g. inalienables take H or D+H, alienables take only D."
+427,283,H/D,"Split, either H or D."
+428,283,f,"Floating, under limited circumstances (e.g. Yagua DOM by floating agreement with definite noun)"
+429,283,H/F,"Split, head or floating. E.g. Halkomelem (Galloway 1984:179): possessive 1sg is F, 3sg is H."
+430,284,H,On head.
+431,284,D,"On dependent. For zero formative on dependent, code as Ø."
+432,284,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+433,284,F,"Free or floating, including particles or similar in phrase-second position (Wackernagel position), e.g. Tagalog ‘linkers’"
+434,284,d,Dependent marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+435,284,Ø,No marking
+436,284,DD,"On dependent, with more than one formative or more than one category. Typical instance: genitive (or possessive form of pronoun) plus head-driven agreement (dependent agreeing with head)."
+437,284,H’,NP-internal head in a modifier-headed agreement pattern
+438,285,H,On head.
+439,285,D,"On dependent. For zero formative on dependent, code as Ø."
+440,285,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+441,285,F,"Free or floating, including particles or similar in phrase-second position (Wackernagel position), e.g. Tagalog ‘linkers’"
+442,285,F+D,Simultaneously (or mostly simultaneously) detached and on dependent (e.g. an argument role is marked by both a Wackernagel agreement clitic and case)
+443,285,P,The relation is marked by position (word or morpheme order).
+444,285,Ø,No marking
+445,285,DD,"On dependent, with more than one formative or more than one category. Typical instance: genitive (or possessive form of pronoun) plus head-driven agreement (dependent agreeing with head)."
+446,285,h,Head marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+447,285,D on H,"Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the dependent argument can be realized by agreement morphology on the head. If it is, it absorbs the argument position in the clause and therefore does not allow an independent NP to show up in the same clausal core.)"
+448,285,d on h,"Headward-migrated dependent marking, restricted in some way. Typical cases: Bagirmi or standard French, where there is no case on independent pronouns and nouns, so only pronominal agreement markers are case-marked. As a result, arguments are differentiated only in headward-migrated dependent marking. This marking realizes the dependent argument syntactically and leaves no place for an independent NP to show up in the same clausal core."
+449,285,h+d on h,"Head marking (construct state type, i.e. registers a dependent but does not index its properties) plus headward-migrated dependent-marked pronouns"
+450,285,H+d on h,"Head marking (construct state type, i.e. registers a dependent but does not index its properties) plus headward-migrated dependent-marked pronouns"
+451,285,H/D,"Split, either H or D."
+452,285,H+,"Possessor promoted to verb argument (external possession), and indexed or registered on verb. Example: Registered in Nez Perce (Rude, U. Ore. diss. 1985:199ff.)."
+453,285,multiple,multiple different loci
+454,286,H,On head.
+455,286,D,"On dependent. For zero formative on dependent, code as Ø."
+456,286,F,"Free or floating, including particles or similar in phrase-second position (Wackernagel position), e.g. Tagalog ‘linkers’"
+457,286,Ø,No marking
+458,287,H,On head.
+459,287,D,"On dependent. For zero formative on dependent, code as Ø."
+460,287,d,Dependent marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+461,287,h+d on h,"Head marking (construct state type, i.e. registers a dependent but does not index its properties) plus headward-migrated dependent-marked pronouns"
+462,288,H,On head.
+463,288,D,"On dependent. For zero formative on dependent, code as Ø."
+464,288,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+465,288,F,"Free or floating, including particles or similar in phrase-second position (Wackernagel position), e.g. Tagalog ‘linkers’"
+466,288,F+D,Simultaneously (or mostly simultaneously) detached and on dependent (e.g. an argument role is marked by both a Wackernagel agreement clitic and case)
+467,288,Ø,No marking
+468,288,D on H,"Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the dependent argument can be realized by agreement morphology on the head. If it is, it absorbs the argument position in the clause and therefore does not allow an independent NP to show up in the same clausal core.)"
+469,288,H/D/DH,"Split, e.g. inalienables take H or D+H, alienables take only D."
+470,288,H/D,"Split, either H or D."
+471,288,multiple,multiple different loci
+472,289,D,"On dependent. For zero formative on dependent, code as Ø."
+473,289,d,Dependent marking that is available only on a limited set of NPs or under specific morphosyntactic conditions as noted.
+474,289,Ø,No marking
+475,289,H’,NP-internal head in a modifier-headed agreement pattern
+476,290,H,On head.
+477,290,D,"On dependent. For zero formative on dependent, code as Ø."
+478,290,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+479,290,Ø,No marking
+480,291,H,On head.
+481,291,D,"On dependent. For zero formative on dependent, code as Ø."
+482,291,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+483,292,H,On head.
+484,292,D,"On dependent. For zero formative on dependent, code as Ø."
+485,292,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+486,292,Ø,No marking
+487,292,D on H,"Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the dependent argument can be realized by agreement morphology on the head. If it is, it absorbs the argument position in the clause and therefore does not allow an independent NP to show up in the same clausal core.)"
+488,292,d on h,"Headward-migrated dependent marking, restricted in some way. Typical cases: Bagirmi or standard French, where there is no case on independent pronouns and nouns, so only pronominal agreement markers are case-marked. As a result, arguments are differentiated only in headward-migrated dependent marking. This marking realizes the dependent argument syntactically and leaves no place for an independent NP to show up in the same clausal core."
+489,293,H,On head.
+490,293,D,"On dependent. For zero formative on dependent, code as Ø."
+491,293,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+492,293,Ø,No marking
+493,293,hh,"On head, with more than one formative or more than one category, but both formatives have restricted distribution."
+494,293,multiple,multiple different loci
+495,294,Ø,No marking
+496,295,Ø,No marking
+497,296,D,"On dependent. For zero formative on dependent, code as Ø."
+498,297,H,On head.
+499,297,D,"On dependent. For zero formative on dependent, code as Ø."
+500,297,Ø,No marking
+501,297,D on H,"Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the dependent argument can be realized by agreement morphology on the head. If it is, it absorbs the argument position in the clause and therefore does not allow an independent NP to show up in the same clausal core.)"
+502,297,h+d on h,"Head marking (construct state type, i.e. registers a dependent but does not index its properties) plus headward-migrated dependent-marked pronouns"
+503,297,multiple,multiple different loci
+504,298,D on H,"Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the dependent argument can be realized by agreement morphology on the head. If it is, it absorbs the argument position in the clause and therefore does not allow an independent NP to show up in the same clausal core.)"
+505,299,H,On head.
+506,299,D,"On dependent. For zero formative on dependent, code as Ø."
+507,299,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+508,299,F,"Free or floating, including particles or similar in phrase-second position (Wackernagel position), e.g. Tagalog ‘linkers’"
+509,299,H+d,Head marking is dominant. Additional dependent marking with some NPs or under specific morphosyntactic conditions as noted.
+510,299,Ø,No marking
+511,299,HH,"On head, with more than one formative or more than one category. Typical case: construct state or linker on head plus head-driven agreement ; or Philippine-style voice plus agreement"
+512,300,H,On head.
+513,300,D,"On dependent. For zero formative on dependent, code as Ø."
+514,300,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+515,300,H+d,Head marking is dominant. Additional dependent marking with some NPs or under specific morphosyntactic conditions as noted.
+516,300,D on H,"Headward-migrated dependent marking. Typical case: Arabic or Irish pronominal agreement, where nouns and independent pronouns are case-marked. (The case itself is dependent marking, but the dependent argument can be realized by agreement morphology on the head. If it is, it absorbs the argument position in the clause and therefore does not allow an independent NP to show up in the same clausal core.)"
+517,300,F+d,Floating plus restricted dependent marking.
+518,301,H,On head.
+519,301,H+d,Head marking is dominant. Additional dependent marking with some NPs or under specific morphosyntactic conditions as noted.
+520,302,Ø,No marking
+521,303,H,On head.
+522,304,H,On head.
+523,305,H+D,Simultaneously (or mostly simultaneously) on head and dependent
+524,306,H,On head.
+525,307,Ø,No marking
+526,308,D,"On dependent. For zero formative on dependent, code as Ø."
+527,309,D,"On dependent. For zero formative on dependent, code as Ø."
+528,310,2,Simultaneously markign on head and the dependent
+529,310,D,Marking on dependent
+530,311,2,Simultaneously markign on head and the dependent
+531,311,D,Marking on dependent
+532,311,FloatingorClitic,Floating marker or clitic
+533,311,H,Marking on head
+534,311,Ø,No marking
+535,312,2,Simultaneously markign on head and the dependent
+536,312,D,Marking on dependent
+537,312,FloatingorClitic,Floating marker or clitic
+538,312,H,Marking on head
+539,312,Ø,No marking
+540,313,D,Marking on dependent
+541,313,H,Marking on head
+542,314,2,Simultaneously markign on head and the dependent
+543,314,D,Marking on dependent
+544,314,FloatingorClitic,Floating marker or clitic
+545,314,H,Marking on head
+546,314,Ø,No marking
+547,315,2,Simultaneously markign on head and the dependent
+548,315,D,Marking on dependent
+549,315,FloatingorClitic,Floating marker or clitic
+550,315,H,Marking on head
+551,315,Ø,No marking
+552,316,2,Simultaneously markign on head and the dependent
+553,316,D,Marking on dependent
+554,317,2,Simultaneously markign on head and the dependent
+555,318,2,Simultaneously markign on head and the dependent
+556,318,D,Marking on dependent
+557,318,FloatingorClitic,Floating marker or clitic
+558,318,H,Marking on head
+559,318,Ø,No marking
+560,319,2,Simultaneously markign on head and the dependent
+561,319,D,Marking on dependent
+562,319,FloatingorClitic,Floating marker or clitic
+563,319,H,Marking on head
+564,319,Ø,No marking
+565,320,2,Simultaneously markign on head and the dependent
+566,320,D,Marking on dependent
+567,321,D,Marking on dependent
+568,321,H,Marking on head
+569,322,D,Marking on dependent
+570,323,D,Marking on dependent
+571,323,H,Marking on head
+572,324,D,Marking on dependent
+573,325,D,Marking on dependent
+574,326,2,Simultaneously markign on head and the dependent
+575,326,D,Marking on dependent
+576,326,FloatingorClitic,Floating marker or clitic
+577,326,H,Marking on head
+578,326,Ø,No marking
+579,327,2,Simultaneously markign on head and the dependent
+580,328,2,Simultaneously markign on head and the dependent
+581,329,2,Simultaneously markign on head and the dependent
+582,330,2,Simultaneously markign on head and the dependent
+583,331,D,Marking on dependent
+584,332,2,Simultaneously markign on head and the dependent
+585,333,2,Simultaneously markign on head and the dependent
+586,333,D,Marking on dependent
+587,333,FloatingorClitic,Floating marker or clitic
+588,333,H,Marking on head
+589,333,Ø,No marking
+590,334,2,Simultaneously markign on head and the dependent
+591,334,D,Marking on dependent
+592,334,FloatingorClitic,Floating marker or clitic
+593,334,H,Marking on head
+594,334,Ø,No marking
+595,335,2,Simultaneously markign on head and the dependent
+596,335,D,Marking on dependent
+597,335,FloatingorClitic,Floating marker or clitic
+598,335,H,Marking on head
+599,335,Ø,No marking
+600,335,multiple,multiple different loci
+601,336,D,Marking on dependent
+602,336,FloatingorClitic,Floating marker or clitic
+603,336,H,Marking on head
+604,336,Ø,No marking
+605,337,D,Marking on dependent
+606,337,FloatingorClitic,Floating marker or clitic
+607,337,H,Marking on head
+608,338,2,Simultaneously markign on head and the dependent
+609,338,D,Marking on dependent
+610,338,FloatingorClitic,Floating marker or clitic
+611,338,H,Marking on head
+612,338,Ø,No marking
+613,338,multiple,multiple different loci
+614,339,D,Marking on dependent
+615,339,H,Marking on head
+616,339,Ø,No marking
+617,340,2,Simultaneously markign on head and the dependent
+618,340,D,Marking on dependent
+619,340,H,Marking on head
+620,340,Ø,No marking
+621,341,2,Simultaneously markign on head and the dependent
+622,341,D,Marking on dependent
+623,341,H,Marking on head
+624,342,2,Simultaneously markign on head and the dependent
+625,342,D,Marking on dependent
+626,342,FloatingorClitic,Floating marker or clitic
+627,342,H,Marking on head
+628,342,Ø,No marking
+629,343,2,Simultaneously markign on head and the dependent
+630,343,D,Marking on dependent
+631,343,H,Marking on head
+632,343,Ø,No marking
+633,343,multiple,multiple different loci
+634,344,Ø,No marking
+635,345,Ø,No marking
+636,346,D,Marking on dependent
+637,347,D,Marking on dependent
+638,347,FloatingorClitic,Floating marker or clitic
+639,347,H,Marking on head
+640,347,Ø,No marking
+641,347,multiple,multiple different loci
+642,348,FloatingorClitic,Floating marker or clitic
+643,349,2,Simultaneously markign on head and the dependent
+644,349,D,Marking on dependent
+645,349,FloatingorClitic,Floating marker or clitic
+646,349,H,Marking on head
+647,349,Ø,No marking
+648,350,2,Simultaneously markign on head and the dependent
+649,350,D,Marking on dependent
+650,350,FloatingorClitic,Floating marker or clitic
+651,350,H,Marking on head
+652,351,H,Marking on head
+653,352,Ø,No marking
+654,353,H,Marking on head
+655,354,H,Marking on head
+656,355,2,Simultaneously markign on head and the dependent
+657,356,H,Marking on head
+658,357,Ø,No marking
+659,358,D,Marking on dependent
+660,359,D,Marking on dependent
+661,360,2,Simultaneously markign on head and the dependent
+662,360,D,Marking on dependent
+663,361,2,Simultaneously markign on head and the dependent
+664,361,D,Marking on dependent
+665,361,D on H,Headward-migrated dependent marking
+666,361,F,Floating marker
+667,361,H,Marking on head
+668,361,Ø,No marking
+669,362,2,Simultaneously markign on head and the dependent
+670,362,D,Marking on dependent
+671,362,F,Floating marker
+672,362,H,Marking on head
+673,362,Ø,No marking
+674,363,D,Marking on dependent
+675,363,H,Marking on head
+676,364,2,Simultaneously markign on head and the dependent
+677,364,D,Marking on dependent
+678,364,D on H,Headward-migrated dependent marking
+679,364,F,Floating marker
+680,364,H,Marking on head
+681,364,Ø,No marking
+682,365,2,Simultaneously markign on head and the dependent
+683,365,D,Marking on dependent
+684,365,F,Floating marker
+685,365,H,Marking on head
+686,365,Ø,No marking
+687,366,2,Simultaneously markign on head and the dependent
+688,366,D,Marking on dependent
+689,367,2,Simultaneously markign on head and the dependent
+690,368,2,Simultaneously markign on head and the dependent
+691,368,D,Marking on dependent
+692,368,D on H,Headward-migrated dependent marking
+693,368,H,Marking on head
+694,368,Ø,No marking
+695,369,2,Simultaneously markign on head and the dependent
+696,369,D,Marking on dependent
+697,369,D on H,Headward-migrated dependent marking
+698,369,F,Floating marker
+699,369,H,Marking on head
+700,369,Ø,No marking
+701,370,2,Simultaneously markign on head and the dependent
+702,370,D,Marking on dependent
+703,371,D,Marking on dependent
+704,371,H,Marking on head
+705,372,2,Simultaneously markign on head and the dependent
+706,372,D,Marking on dependent
+707,373,2,Simultaneously markign on head and the dependent
+708,373,D,Marking on dependent
+709,374,D,Marking on dependent
+710,375,2,Simultaneously markign on head and the dependent
+711,376,2,Simultaneously markign on head and the dependent
+712,376,D,Marking on dependent
+713,376,D on H,Headward-migrated dependent marking
+714,376,F,Floating marker
+715,376,H,Marking on head
+716,376,Ø,No marking
+717,377,2,Simultaneously markign on head and the dependent
+718,378,2,Simultaneously markign on head and the dependent
+719,379,2,Simultaneously markign on head and the dependent
+720,380,2,Simultaneously markign on head and the dependent
+721,381,2,Simultaneously markign on head and the dependent
+722,381,D,Marking on dependent
+723,382,2,Simultaneously markign on head and the dependent
+724,383,2,Simultaneously markign on head and the dependent
+725,383,D,Marking on dependent
+726,383,D on H,Headward-migrated dependent marking
+727,383,F,Floating marker
+728,383,H,Marking on head
+729,383,Ø,No marking
+730,384,2,Simultaneously markign on head and the dependent
+731,384,D,Marking on dependent
+732,384,F,Floating marker
+733,384,H,Marking on head
+734,384,Ø,No marking
+735,385,2,Simultaneously markign on head and the dependent
+736,385,D,Marking on dependent
+737,385,D on H,Headward-migrated dependent marking
+738,385,F,Floating marker
+739,385,H,Marking on head
+740,385,Ø,No marking
+741,385,multiple,multiple different loci
+742,386,D,Marking on dependent
+743,386,F,Floating marker
+744,386,H,Marking on head
+745,386,Ø,No marking
+746,387,D,Marking on dependent
+747,387,D on H,Headward-migrated dependent marking
+748,387,H,Marking on head
+749,388,2,Simultaneously markign on head and the dependent
+750,388,D,Marking on dependent
+751,388,D on H,Headward-migrated dependent marking
+752,388,F,Floating marker
+753,388,H,Marking on head
+754,388,Ø,No marking
+755,388,multiple,multiple different loci
+756,389,D,Marking on dependent
+757,389,H,Marking on head
+758,389,Ø,No marking
+759,390,2,Simultaneously markign on head and the dependent
+760,390,D,Marking on dependent
+761,390,H,Marking on head
+762,390,Ø,No marking
+763,391,2,Simultaneously markign on head and the dependent
+764,391,D,Marking on dependent
+765,391,H,Marking on head
+766,392,2,Simultaneously markign on head and the dependent
+767,392,D,Marking on dependent
+768,392,D on H,Headward-migrated dependent marking
+769,392,H,Marking on head
+770,392,Ø,No marking
+771,393,2,Simultaneously markign on head and the dependent
+772,393,D,Marking on dependent
+773,393,H,Marking on head
+774,393,Ø,No marking
+775,393,multiple,multiple different loci
+776,394,Ø,No marking
+777,395,Ø,No marking
+778,396,D,Marking on dependent
+779,397,D,Marking on dependent
+780,397,D on H,Headward-migrated dependent marking
+781,397,H,Marking on head
+782,397,Ø,No marking
+783,397,multiple,multiple different loci
+784,398,D on H,Headward-migrated dependent marking
+785,399,2,Simultaneously markign on head and the dependent
+786,399,D,Marking on dependent
+787,399,F,Floating marker
+788,399,H,Marking on head
+789,399,Ø,No marking
+790,400,2,Simultaneously markign on head and the dependent
+791,400,D,Marking on dependent
+792,400,D on H,Headward-migrated dependent marking
+793,400,H,Marking on head
+794,401,2,Simultaneously markign on head and the dependent
+795,401,H,Marking on head
+796,402,Ø,No marking
+797,403,H,Marking on head
+798,404,H,Marking on head
+799,405,2,Simultaneously markign on head and the dependent
+800,406,H,Marking on head
+801,407,Ø,No marking
+802,408,D,Marking on dependent
+803,409,D,Marking on dependent
+804,491,prae,before the phonological host
+805,491,post,after the phonological host
+806,491,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+807,491,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+808,491,post (prae),"after the phonological host by default, before the host under exceptional conditions (typically lexical)"
+809,491,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+810,491,post/circum,"either after or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+811,491,multiple,multiple markers at different positions
+812,492,prae,before the phonological host
+813,492,in,inside the phonological host
+814,492,post,after the phonological host
+815,492,simul,"the formative has two exponents at different positions in the phonological host (but it is not the case that one is positioned before and the other after the host, which is coded as “circum”)"
+816,492,circum,"the formative has two exponents, one before and one after the phonological host. This is a special case of the “simul” position"
+817,492,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+818,492,post (prae),"after the phonological host by default, before the host under exceptional conditions (typically lexical)"
+819,492,prae/circum,"either before or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+820,492,post/prae (simul),"either before, after or in two or more positions in the phonological host, conditioned by some structural context (category, syntax etc.)"
+821,492,prae (in),"before the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+822,493,prae,before the phonological host
+823,493,post,after the phonological host
+824,493,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+825,493,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+826,493,multiple,multiple markers at different positions
+827,494,prae,before the phonological host
+828,494,post,after the phonological host
+829,494,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+830,494,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+831,494,multiple,multiple markers at different positions
+832,495,prae,before the phonological host
+833,495,post,after the phonological host
+834,495,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+835,496,prae,before the phonological host
+836,496,post,after the phonological host
+837,496,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+838,497,prae,before the phonological host
+839,497,post,after the phonological host
+840,497,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+841,498,prae,before the phonological host
+842,499,prae,before the phonological host
+843,499,post,after the phonological host
+844,500,prae,before the phonological host
+845,500,in,inside the phonological host
+846,500,post,after the phonological host
+847,500,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+848,500,multiple,multiple markers at different positions
+849,501,prae,before the phonological host
+850,501,in,inside the phonological host
+851,501,post,after the phonological host
+852,501,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+853,501,circum (post),"around the phonological host by default, after the host under exceptional conditions (typically lexical)"
+854,501,multiple,multiple markers at different positions
+855,502,prae,before the phonological host
+856,502,post,after the phonological host
+857,502,prae/in/post,"either before, inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+858,503,prae,before the phonological host
+859,503,post,after the phonological host
+860,504,post,after the phonological host
+861,504,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+862,505,prae,before the phonological host
+863,505,in,inside the phonological host
+864,505,post,after the phonological host
+865,505,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+866,505,multiple,multiple markers at different positions
+867,506,prae,before the phonological host
+868,506,in,inside the phonological host
+869,506,post,after the phonological host
+870,506,prae/in/post,"either before, inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+871,506,multiple,multiple markers at different positions
+872,507,prae,before the phonological host
+873,507,post,after the phonological host
+874,507,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+875,507,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+876,507,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+877,507,multiple,multiple markers at different positions
+878,508,prae,before the phonological host
+879,508,post,after the phonological host
+880,508,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+881,508,in/prae,"either inside or before the phonological host, conditioned by some structural context (category, syntax etc.)"
+882,508,multiple,multiple markers at different positions
+883,509,prae,before the phonological host
+884,510,prae,before the phonological host
+885,510,post,after the phonological host
+886,511,prae,before the phonological host
+887,511,in,inside the phonological host
+888,511,post,after the phonological host
+889,511,multiple,multiple markers at different positions
+890,512,prae,before the phonological host
+891,512,post,after the phonological host
+892,512,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+893,512,prae (post),"before the phonological host by default, after the host under exceptional conditions (typically lexical)"
+894,513,prae,before the phonological host
+895,514,prae,before the phonological host
+896,514,post,after the phonological host
+897,515,prae,before the phonological host
+898,515,post,after the phonological host
+899,516,prae,before the phonological host
+900,516,in,inside the phonological host
+901,516,post,after the phonological host
+902,516,multiple,multiple markers at different positions
+903,517,post,after the phonological host
+904,518,in,inside the phonological host
+905,518,post,after the phonological host
+906,519,post,after the phonological host
+907,520,prae,before the phonological host
+908,520,in,inside the phonological host
+909,520,post,after the phonological host
+910,520,in (post),"inside the phonological host by default, after the host under exceptional conditions (typically lexical)"
+911,521,prae,before the phonological host
+912,521,in,inside the phonological host
+913,521,post,after the phonological host
+914,521,multiple,multiple markers at different positions
+915,522,post,after the phonological host
+916,524,prae,before the phonological host
+917,524,in,inside the phonological host
+918,524,post,after the phonological host
+919,525,post,after the phonological host
+920,525,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+921,526,prae,before the phonological host
+922,526,post,after the phonological host
+923,526,multiple,multiple markers at different positions
+924,528,post,after the phonological host
+925,529,prae,before the phonological host
+926,529,post,after the phonological host
+927,530,post,after the phonological host
+928,531,post,after the phonological host
+929,531,simul (post),"in two or more different positions in the phonological host by default, after the host under exceptional conditions (typically lexical)"
+930,532,prae,before the phonological host
+931,532,post,after the phonological host
+932,533,prae,before the phonological host
+933,533,post,after the phonological host
+934,534,post,after the phonological host
+935,535,post,after the phonological host
+936,536,post,after the phonological host
+937,537,post,after the phonological host
+938,538,prae,before the phonological host
+939,538,post,after the phonological host
+940,539,post,after the phonological host
+941,540,post,after the phonological host
+942,541,post,after the phonological host
+943,542,prae,before the phonological host
+944,543,post,after the phonological host
+945,544,post,after the phonological host
+946,548,prae,Marker occurs before its phonological host
+947,548,post,Marker occurs after its phonological host
+948,548,split,Marker has multiple parts that occur at different positions
+949,548,multiple,multiple markers at different positions
+950,549,prae,Marker occurs before its phonological host
+951,549,in/simul,Marker occurs inside its phonological host
+952,549,post,Marker occurs after its phonological host
+953,549,split,Marker has multiple parts that occur at different positions
+954,550,prae,Marker occurs before its phonological host
+955,550,post,Marker occurs after its phonological host
+956,550,split,Marker has multiple parts that occur at different positions
+957,550,multiple,multiple markers at different positions
+958,551,prae,Marker occurs before its phonological host
+959,551,post,Marker occurs after its phonological host
+960,551,split,Marker has multiple parts that occur at different positions
+961,551,multiple,multiple markers at different positions
+962,552,prae,Marker occurs before its phonological host
+963,552,post,Marker occurs after its phonological host
+964,552,split,Marker has multiple parts that occur at different positions
+965,553,prae,Marker occurs before its phonological host
+966,553,post,Marker occurs after its phonological host
+967,553,split,Marker has multiple parts that occur at different positions
+968,554,prae,Marker occurs before its phonological host
+969,554,post,Marker occurs after its phonological host
+970,554,split,Marker has multiple parts that occur at different positions
+971,555,prae,Marker occurs before its phonological host
+972,556,prae,Marker occurs before its phonological host
+973,556,post,Marker occurs after its phonological host
+974,557,prae,Marker occurs before its phonological host
+975,557,in/simul,Marker occurs inside its phonological host
+976,557,post,Marker occurs after its phonological host
+977,557,split,Marker has multiple parts that occur at different positions
+978,557,multiple,multiple markers at different positions
+979,558,prae,Marker occurs before its phonological host
+980,558,in/simul,Marker occurs inside its phonological host
+981,558,post,Marker occurs after its phonological host
+982,558,split,Marker has multiple parts that occur at different positions
+983,558,multiple,multiple markers at different positions
+984,559,prae,Marker occurs before its phonological host
+985,559,post,Marker occurs after its phonological host
+986,559,split,Marker has multiple parts that occur at different positions
+987,560,prae,Marker occurs before its phonological host
+988,560,post,Marker occurs after its phonological host
+989,561,post,Marker occurs after its phonological host
+990,561,split,Marker has multiple parts that occur at different positions
+991,562,prae,Marker occurs before its phonological host
+992,562,in/simul,Marker occurs inside its phonological host
+993,562,post,Marker occurs after its phonological host
+994,562,split,Marker has multiple parts that occur at different positions
+995,562,multiple,multiple markers at different positions
+996,563,prae,Marker occurs before its phonological host
+997,563,in/simul,Marker occurs inside its phonological host
+998,563,post,Marker occurs after its phonological host
+999,563,split,Marker has multiple parts that occur at different positions
+1000,563,multiple,multiple markers at different positions
+1001,564,prae,Marker occurs before its phonological host
+1002,564,post,Marker occurs after its phonological host
+1003,564,split,Marker has multiple parts that occur at different positions
+1004,564,multiple,multiple markers at different positions
+1005,565,prae,Marker occurs before its phonological host
+1006,565,post,Marker occurs after its phonological host
+1007,565,split,Marker has multiple parts that occur at different positions
+1008,565,multiple,multiple markers at different positions
+1009,566,prae,Marker occurs before its phonological host
+1010,567,prae,Marker occurs before its phonological host
+1011,567,post,Marker occurs after its phonological host
+1012,568,prae,Marker occurs before its phonological host
+1013,568,in/simul,Marker occurs inside its phonological host
+1014,568,post,Marker occurs after its phonological host
+1015,568,multiple,multiple markers at different positions
+1016,569,prae,Marker occurs before its phonological host
+1017,569,post,Marker occurs after its phonological host
+1018,569,split,Marker has multiple parts that occur at different positions
+1019,570,prae,Marker occurs before its phonological host
+1020,571,prae,Marker occurs before its phonological host
+1021,571,post,Marker occurs after its phonological host
+1022,572,prae,Marker occurs before its phonological host
+1023,572,post,Marker occurs after its phonological host
+1024,573,prae,Marker occurs before its phonological host
+1025,573,in/simul,Marker occurs inside its phonological host
+1026,573,post,Marker occurs after its phonological host
+1027,573,multiple,multiple markers at different positions
+1028,574,post,Marker occurs after its phonological host
+1029,575,in/simul,Marker occurs inside its phonological host
+1030,575,post,Marker occurs after its phonological host
+1031,576,post,Marker occurs after its phonological host
+1032,577,prae,Marker occurs before its phonological host
+1033,577,in/simul,Marker occurs inside its phonological host
+1034,577,post,Marker occurs after its phonological host
+1035,578,prae,Marker occurs before its phonological host
+1036,578,in/simul,Marker occurs inside its phonological host
+1037,578,post,Marker occurs after its phonological host
+1038,578,multiple,multiple markers at different positions
+1039,579,post,Marker occurs after its phonological host
+1040,581,prae,Marker occurs before its phonological host
+1041,581,in/simul,Marker occurs inside its phonological host
+1042,581,post,Marker occurs after its phonological host
+1043,582,post,Marker occurs after its phonological host
+1044,582,split,Marker has multiple parts that occur at different positions
+1045,583,prae,Marker occurs before its phonological host
+1046,583,post,Marker occurs after its phonological host
+1047,583,multiple,multiple markers at different positions
+1048,585,post,Marker occurs after its phonological host
+1049,586,prae,Marker occurs before its phonological host
+1050,586,post,Marker occurs after its phonological host
+1051,587,post,Marker occurs after its phonological host
+1052,588,in/simul,Marker occurs inside its phonological host
+1053,588,post,Marker occurs after its phonological host
+1054,589,prae,Marker occurs before its phonological host
+1055,589,post,Marker occurs after its phonological host
+1056,590,prae,Marker occurs before its phonological host
+1057,590,post,Marker occurs after its phonological host
+1058,591,post,Marker occurs after its phonological host
+1059,592,post,Marker occurs after its phonological host
+1060,593,post,Marker occurs after its phonological host
+1061,594,post,Marker occurs after its phonological host
+1062,595,prae,Marker occurs before its phonological host
+1063,595,post,Marker occurs after its phonological host
+1064,596,post,Marker occurs after its phonological host
+1065,597,post,Marker occurs after its phonological host
+1066,598,post,Marker occurs after its phonological host
+1067,599,prae,Marker occurs before its phonological host
+1068,600,post,Marker occurs after its phonological host
+1069,601,post,Marker occurs after its phonological host
+1070,605,prae,Marker occurs before its phonological host
+1071,605,post,Marker occurs after its phonological host
+1072,605,split,Marker has multiple parts that occur at different positions (before or after)
+1073,605,multiple,multiple markers at different positions
+1074,606,prae,Marker occurs before its phonological host
+1075,606,in,Marker occurs inside its phonological host
+1076,606,post,Marker occurs after its phonological host
+1077,606,split,Marker has multiple parts that occur at different positions (before or after)
+1078,606,simul,Marker has multiple parts that occur at different positions inside the host
+1079,607,prae,Marker occurs before its phonological host
+1080,607,post,Marker occurs after its phonological host
+1081,607,split,Marker has multiple parts that occur at different positions (before or after)
+1082,607,multiple,multiple markers at different positions
+1083,608,prae,Marker occurs before its phonological host
+1084,608,post,Marker occurs after its phonological host
+1085,608,split,Marker has multiple parts that occur at different positions (before or after)
+1086,608,multiple,multiple markers at different positions
+1087,609,prae,Marker occurs before its phonological host
+1088,609,post,Marker occurs after its phonological host
+1089,609,split,Marker has multiple parts that occur at different positions (before or after)
+1090,610,prae,Marker occurs before its phonological host
+1091,610,post,Marker occurs after its phonological host
+1092,610,split,Marker has multiple parts that occur at different positions (before or after)
+1093,611,prae,Marker occurs before its phonological host
+1094,611,post,Marker occurs after its phonological host
+1095,611,split,Marker has multiple parts that occur at different positions (before or after)
+1096,612,prae,Marker occurs before its phonological host
+1097,613,prae,Marker occurs before its phonological host
+1098,613,post,Marker occurs after its phonological host
+1099,614,prae,Marker occurs before its phonological host
+1100,614,in,Marker occurs inside its phonological host
+1101,614,post,Marker occurs after its phonological host
+1102,614,split,Marker has multiple parts that occur at different positions (before or after)
+1103,614,multiple,multiple markers at different positions
+1104,615,prae,Marker occurs before its phonological host
+1105,615,in,Marker occurs inside its phonological host
+1106,615,post,Marker occurs after its phonological host
+1107,615,split,Marker has multiple parts that occur at different positions (before or after)
+1108,615,simul,Marker has multiple parts that occur at different positions inside the host
+1109,615,multiple,multiple markers at different positions
+1110,616,prae,Marker occurs before its phonological host
+1111,616,post,Marker occurs after its phonological host
+1112,616,split,Marker has multiple parts that occur at different positions (before or after)
+1113,617,prae,Marker occurs before its phonological host
+1114,617,post,Marker occurs after its phonological host
+1115,618,post,Marker occurs after its phonological host
+1116,618,split,Marker has multiple parts that occur at different positions (before or after)
+1117,619,prae,Marker occurs before its phonological host
+1118,619,in,Marker occurs inside its phonological host
+1119,619,post,Marker occurs after its phonological host
+1120,619,split,Marker has multiple parts that occur at different positions (before or after)
+1121,619,multiple,multiple markers at different positions
+1122,620,prae,Marker occurs before its phonological host
+1123,620,in,Marker occurs inside its phonological host
+1124,620,post,Marker occurs after its phonological host
+1125,620,split,Marker has multiple parts that occur at different positions (before or after)
+1126,620,multiple,multiple markers at different positions
+1127,621,prae,Marker occurs before its phonological host
+1128,621,post,Marker occurs after its phonological host
+1129,621,split,Marker has multiple parts that occur at different positions (before or after)
+1130,621,multiple,multiple markers at different positions
+1131,622,prae,Marker occurs before its phonological host
+1132,622,post,Marker occurs after its phonological host
+1133,622,split,Marker has multiple parts that occur at different positions (before or after)
+1134,622,multiple,multiple markers at different positions
+1135,623,prae,Marker occurs before its phonological host
+1136,624,prae,Marker occurs before its phonological host
+1137,624,post,Marker occurs after its phonological host
+1138,625,prae,Marker occurs before its phonological host
+1139,625,in,Marker occurs inside its phonological host
+1140,625,post,Marker occurs after its phonological host
+1141,625,multiple,multiple markers at different positions
+1142,626,prae,Marker occurs before its phonological host
+1143,626,post,Marker occurs after its phonological host
+1144,626,split,Marker has multiple parts that occur at different positions (before or after)
+1145,627,prae,Marker occurs before its phonological host
+1146,628,prae,Marker occurs before its phonological host
+1147,628,post,Marker occurs after its phonological host
+1148,629,prae,Marker occurs before its phonological host
+1149,629,post,Marker occurs after its phonological host
+1150,630,prae,Marker occurs before its phonological host
+1151,630,in,Marker occurs inside its phonological host
+1152,630,post,Marker occurs after its phonological host
+1153,630,multiple,multiple markers at different positions
+1154,631,post,Marker occurs after its phonological host
+1155,632,in,Marker occurs inside its phonological host
+1156,632,post,Marker occurs after its phonological host
+1157,633,post,Marker occurs after its phonological host
+1158,634,prae,Marker occurs before its phonological host
+1159,634,in,Marker occurs inside its phonological host
+1160,634,post,Marker occurs after its phonological host
+1161,635,prae,Marker occurs before its phonological host
+1162,635,in,Marker occurs inside its phonological host
+1163,635,post,Marker occurs after its phonological host
+1164,635,multiple,multiple markers at different positions
+1165,636,post,Marker occurs after its phonological host
+1166,638,prae,Marker occurs before its phonological host
+1167,638,in,Marker occurs inside its phonological host
+1168,638,post,Marker occurs after its phonological host
+1169,639,post,Marker occurs after its phonological host
+1170,639,split,Marker has multiple parts that occur at different positions (before or after)
+1171,640,prae,Marker occurs before its phonological host
+1172,640,post,Marker occurs after its phonological host
+1173,640,multiple,multiple markers at different positions
+1174,642,post,Marker occurs after its phonological host
+1175,643,prae,Marker occurs before its phonological host
+1176,643,post,Marker occurs after its phonological host
+1177,644,post,Marker occurs after its phonological host
+1178,645,post,Marker occurs after its phonological host
+1179,645,simul,Marker has multiple parts that occur at different positions inside the host
+1180,646,prae,Marker occurs before its phonological host
+1181,646,post,Marker occurs after its phonological host
+1182,647,prae,Marker occurs before its phonological host
+1183,647,post,Marker occurs after its phonological host
+1184,648,post,Marker occurs after its phonological host
+1185,649,post,Marker occurs after its phonological host
+1186,650,post,Marker occurs after its phonological host
+1187,651,post,Marker occurs after its phonological host
+1188,652,prae,Marker occurs before its phonological host
+1189,652,post,Marker occurs after its phonological host
+1190,653,post,Marker occurs after its phonological host
+1191,654,post,Marker occurs after its phonological host
+1192,655,post,Marker occurs after its phonological host
+1193,656,prae,Marker occurs before its phonological host
+1194,657,post,Marker occurs after its phonological host
+1195,658,post,Marker occurs after its phonological host
+1196,833,prae,before the phonological host
+1197,833,post,after the phonological host
+1198,833,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1199,833,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1200,833,post (prae),"after the phonological host by default, before the host under exceptional conditions (typically lexical)"
+1201,833,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+1202,833,multiple,multiple markers at different positions
+1203,834,prae,before the phonological host
+1204,834,in,inside the phonological host
+1205,834,post,after the phonological host
+1206,834,simul,"the formative has two exponents at different positions in the phonological host (but it is not the case that one is positioned before and the other after the host, which is coded as “circum”)"
+1207,834,circum,"the formative has two exponents, one before and one after the phonological host. This is a special case of the “simul” position"
+1208,834,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1209,834,post (prae),"after the phonological host by default, before the host under exceptional conditions (typically lexical)"
+1210,834,prae/circum,"either before or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+1211,834,post/prae (simul),"either before, after or in two or more positions in the phonological host, conditioned by some structural context (category, syntax etc.)"
+1212,834,prae (in),"before the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+1213,835,prae,before the phonological host
+1214,835,in,inside the phonological host
+1215,835,post,after the phonological host
+1216,835,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1217,835,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1218,835,prae (post),"before the phonological host by default, after the host under exceptional conditions (typically lexical)"
+1219,835,multiple,multiple markers at different positions
+1220,836,prae,before the phonological host
+1221,836,post,after the phonological host
+1222,836,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1223,837,prae,before the phonological host
+1224,838,prae,before the phonological host
+1225,838,in,inside the phonological host
+1226,838,post,after the phonological host
+1227,838,in (post),"inside the phonological host by default, after the host under exceptional conditions (typically lexical)"
+1228,838,multiple,multiple markers at different positions
+1229,839,prae,before the phonological host
+1230,839,in,inside the phonological host
+1231,839,post,after the phonological host
+1232,839,in/post,"either inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1233,839,multiple,multiple markers at different positions
+1234,840,post,after the phonological host
+1235,841,prae,before the phonological host
+1236,841,in,inside the phonological host
+1237,841,post,after the phonological host
+1238,843,prae,before the phonological host
+1239,843,post,after the phonological host
+1240,843,simul (post),"in two or more different positions in the phonological host by default, after the host under exceptional conditions (typically lexical)"
+1241,844,prae,before the phonological host
+1242,844,post,after the phonological host
+1243,848,prae,Marker occurs before its phonological host
+1244,848,post,Marker occurs after its phonological host
+1245,848,split,Marker has multiple parts that occur at different positions
+1246,848,multiple,multiple markers at different positions
+1247,849,prae,Marker occurs before its phonological host
+1248,849,in/simul,Marker occurs inside its phonological host
+1249,849,post,Marker occurs after its phonological host
+1250,849,split,Marker has multiple parts that occur at different positions
+1251,850,prae,Marker occurs before its phonological host
+1252,850,in/simul,Marker occurs inside its phonological host
+1253,850,post,Marker occurs after its phonological host
+1254,850,split,Marker has multiple parts that occur at different positions
+1255,850,multiple,multiple markers at different positions
+1256,851,prae,Marker occurs before its phonological host
+1257,851,post,Marker occurs after its phonological host
+1258,851,split,Marker has multiple parts that occur at different positions
+1259,852,prae,Marker occurs before its phonological host
+1260,853,prae,Marker occurs before its phonological host
+1261,853,in/simul,Marker occurs inside its phonological host
+1262,853,post,Marker occurs after its phonological host
+1263,853,multiple,multiple markers at different positions
+1264,854,prae,Marker occurs before its phonological host
+1265,854,in/simul,Marker occurs inside its phonological host
+1266,854,post,Marker occurs after its phonological host
+1267,854,split,Marker has multiple parts that occur at different positions
+1268,854,multiple,multiple markers at different positions
+1269,855,post,Marker occurs after its phonological host
+1270,856,prae,Marker occurs before its phonological host
+1271,856,in/simul,Marker occurs inside its phonological host
+1272,856,post,Marker occurs after its phonological host
+1273,858,prae,Marker occurs before its phonological host
+1274,858,in/simul,Marker occurs inside its phonological host
+1275,858,post,Marker occurs after its phonological host
+1276,859,prae,Marker occurs before its phonological host
+1277,859,post,Marker occurs after its phonological host
+1278,863,prae,Marker occurs before its phonological host
+1279,863,post,Marker occurs after its phonological host
+1280,863,split,Marker has multiple parts that occur at different positions (before or after)
+1281,863,multiple,multiple markers at different positions
+1282,864,prae,Marker occurs before its phonological host
+1283,864,in,Marker occurs inside its phonological host
+1284,864,post,Marker occurs after its phonological host
+1285,864,split,Marker has multiple parts that occur at different positions (before or after)
+1286,864,simul,Marker has multiple parts that occur at different positions inside the host
+1287,865,prae,Marker occurs before its phonological host
+1288,865,in,Marker occurs inside its phonological host
+1289,865,post,Marker occurs after its phonological host
+1290,865,split,Marker has multiple parts that occur at different positions (before or after)
+1291,865,multiple,multiple markers at different positions
+1292,866,prae,Marker occurs before its phonological host
+1293,866,post,Marker occurs after its phonological host
+1294,866,split,Marker has multiple parts that occur at different positions (before or after)
+1295,867,prae,Marker occurs before its phonological host
+1296,868,prae,Marker occurs before its phonological host
+1297,868,in,Marker occurs inside its phonological host
+1298,868,post,Marker occurs after its phonological host
+1299,868,multiple,multiple markers at different positions
+1300,869,prae,Marker occurs before its phonological host
+1301,869,in,Marker occurs inside its phonological host
+1302,869,post,Marker occurs after its phonological host
+1303,869,split,Marker has multiple parts that occur at different positions (before or after)
+1304,869,multiple,multiple markers at different positions
+1305,870,post,Marker occurs after its phonological host
+1306,871,prae,Marker occurs before its phonological host
+1307,871,in,Marker occurs inside its phonological host
+1308,871,post,Marker occurs after its phonological host
+1309,873,prae,Marker occurs before its phonological host
+1310,873,post,Marker occurs after its phonological host
+1311,873,simul,Marker has multiple parts that occur at different positions inside the host
+1312,874,prae,Marker occurs before its phonological host
+1313,874,post,Marker occurs after its phonological host
+1314,923,prae,before the phonological host
+1315,923,in,inside the phonological host
+1316,923,post,after the phonological host
+1317,923,simul,"the formative has two exponents at different positions in the phonological host (but it is not the case that one is positioned before and the other after the host, which is coded as “circum”)"
+1318,923,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1319,923,Wackernagel,DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) -- see log 77
+1320,923,prae/post/circum,"either before, after or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+1321,923,prae/in/post,"either before, inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1322,923,prae (post),"before the phonological host by default, after the host under exceptional conditions (typically lexical)"
+1323,923,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+1324,923,post/prae (simul),"either before, after or in two or more positions in the phonological host, conditioned by some structural context (category, syntax etc.)"
+1325,923,prae/post/in/circum,"either before, after, inside or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+1326,924,prae,before the phonological host
+1327,924,in,inside the phonological host
+1328,924,post,after the phonological host
+1329,924,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1330,924,post (prae),"after the phonological host by default, before the host under exceptional conditions (typically lexical)"
+1331,924,Wackernagel,DO NOT USE (Wackernagel is defined as Behavior = Initial and Position = post) -- see log 77
+1332,924,prae/post/circum,"either before, after or around the phonological host, conditioned by some structural context (category, syntax etc.)"
+1333,924,prae/in/post,"either before, inside or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1334,924,prae (post),"before the phonological host by default, after the host under exceptional conditions (typically lexical)"
+1335,924,post/prae (simul),"either before, after or in two or more positions in the phonological host, conditioned by some structural context (category, syntax etc.)"
+1336,925,prae,before the phonological host
+1337,925,post,after the phonological host
+1338,926,prae,before the phonological host
+1339,926,post,after the phonological host
+1340,926,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1341,926,prae (post),"before the phonological host by default, after the host under exceptional conditions (typically lexical)"
+1342,927,prae,before the phonological host
+1343,927,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1344,928,post,after the phonological host
+1345,929,prae,before the phonological host
+1346,930,post,after the phonological host
+1347,930,post (in),"after the phonological host by default, inside the host under exceptional conditions (typically lexical)"
+1348,931,prae,before the phonological host
+1349,932,post,after the phonological host
+1350,933,prae,before the phonological host
+1351,934,post,after the phonological host
+1352,935,prae/post,"either before or after the phonological host, conditioned by some structural context (category, syntax etc.)"
+1353,936,post,after the phonological host
+1354,940,prae,Marker occurs before its phonological host
+1355,940,in/simul,Marker occurs inside its phonological host
+1356,940,post,Marker occurs after its phonological host
+1357,940,split,Marker has multiple parts that occur at different positions
+1358,941,prae,Marker occurs before its phonological host
+1359,941,in/simul,Marker occurs inside its phonological host
+1360,941,post,Marker occurs after its phonological host
+1361,941,split,Marker has multiple parts that occur at different positions
+1362,942,prae,Marker occurs before its phonological host
+1363,942,post,Marker occurs after its phonological host
+1364,943,prae,Marker occurs before its phonological host
+1365,943,post,Marker occurs after its phonological host
+1366,943,split,Marker has multiple parts that occur at different positions
+1367,944,prae,Marker occurs before its phonological host
+1368,944,split,Marker has multiple parts that occur at different positions
+1369,945,post,Marker occurs after its phonological host
+1370,946,prae,Marker occurs before its phonological host
+1371,947,post,Marker occurs after its phonological host
+1372,948,prae,Marker occurs before its phonological host
+1373,949,post,Marker occurs after its phonological host
+1374,950,prae,Marker occurs before its phonological host
+1375,951,post,Marker occurs after its phonological host
+1376,952,split,Marker has multiple parts that occur at different positions
+1377,953,post,Marker occurs after its phonological host
+1378,957,prae,Marker occurs before its phonological host
+1379,957,in,Marker occurs inside its phonological host
+1380,957,post,Marker occurs after its phonological host
+1381,957,split,Marker has multiple parts that occur at different positions (before or after)
+1382,957,simul,Marker has multiple parts that occur at different positions inside the host
+1383,958,prae,Marker occurs before its phonological host
+1384,958,in,Marker occurs inside its phonological host
+1385,958,post,Marker occurs after its phonological host
+1386,958,split,Marker has multiple parts that occur at different positions (before or after)
+1387,959,prae,Marker occurs before its phonological host
+1388,959,post,Marker occurs after its phonological host
+1389,960,prae,Marker occurs before its phonological host
+1390,960,post,Marker occurs after its phonological host
+1391,960,split,Marker has multiple parts that occur at different positions (before or after)
+1392,961,prae,Marker occurs before its phonological host
+1393,961,split,Marker has multiple parts that occur at different positions (before or after)
+1394,962,post,Marker occurs after its phonological host
+1395,963,prae,Marker occurs before its phonological host
+1396,964,post,Marker occurs after its phonological host
+1397,965,prae,Marker occurs before its phonological host
+1398,966,post,Marker occurs after its phonological host
+1399,967,prae,Marker occurs before its phonological host
+1400,968,post,Marker occurs after its phonological host
+1401,969,split,Marker has multiple parts that occur at different positions (before or after)
+1402,970,post,Marker occurs after its phonological host
