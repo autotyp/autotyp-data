@@ -271,18 +271,17 @@ derived (aggregated) data, we provide over 2,000,000 data points.
 The following table breaks down the data coverage per AUTOTYP module:
 
 
-|Module                               | Primary variables| Derived variables| Number of languages covered|Number of primary typological datapoints |
-|:------------------------------------|-----------------:|-----------------:|---------------------------:|:----------------------------------------|
-|                                     |                 1|               484|                         222|0                                        |
-|Categories                           |                14|                 7|                         505|~4,000                                   |
-|GrammaticalRelations                 |                64|               111|                         818|~110,000                                 |
-|InflectionForMaximallyInflectedVerbs |                 0|                66|                         228|0                                        |
-|Morphology                           |                50|               244|                        1004|~110,000                                 |
-|NP                                   |                13|               121|                         485|~9,000                                   |
-|Sentence                             |                47|                 0|                         468|~8,000                                   |
-|Word                                 |                36|                 3|                          76|~25,000                                  |
-|                                     |                  |                  |                            |                                         |
-|Total                                |               225|              1036|                        1171|~270,000                                 |
+|Module               | Primary variables| Derived variables| Number of languages covered|Number of primary typological datapoints |
+|:--------------------|-----------------:|-----------------:|---------------------------:|:----------------------------------------|
+|                     |                 1|               550|                         229|0                                        |
+|Categories           |                14|                 7|                         505|~4,000                                   |
+|GrammaticalRelations |                64|               111|                         818|~110,000                                 |
+|Morphology           |                50|               244|                        1004|~110,000                                 |
+|NP                   |                13|               121|                         485|~9,000                                   |
+|Sentence             |                47|                 0|                         468|~8,000                                   |
+|Word                 |                36|                 3|                          76|~25,000                                  |
+|                     |                  |                  |                            |                                         |
+|Total                |               225|              1036|                        1171|~270,000                                 |
 
 The following map shows how the primary data are distributed over the world. Points are sized in 
 proportion to the number of primary typological variables available for each language
