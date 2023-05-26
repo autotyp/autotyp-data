@@ -1,3 +1,9 @@
+# AUTOTYP 1.1.1
+
+This is a minor maintenance release with improvements to the CLDF export
+
+ - Better CLDF export for the dataset `MaximallyInflectedVerbSynthesis`
+
 # AUTOTYP 1.1.0
 
 The main changes in this release are:

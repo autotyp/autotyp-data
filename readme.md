@@ -1,4 +1,4 @@
-# The AUTOTYP database v1.1.0
+# The AUTOTYP database v1.1.1
 
 > Balthasar Bickel, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, 
 > Kristine Hildebrandt, Michael Rießler, Lennart Bierkandt, Fernando Zúñiga and John B. Lowe
@@ -335,7 +335,7 @@ Please use the AUTOTYP database issue tracker at
 
 Bickel, Balthasar, Nichols, Johanna, Zakharko, Taras, Witzlack-Makarevich, Alena, Hildebrandt, 
 Kristine, Rießler, Michael, Bierkandt, Lennart, Zúñiga, Fernando & Lowe, John B.
-2022. The AUTOTYP database (v1.1.0). https://doi.org/10.5281/zenodo.6793367
+2023. The AUTOTYP database (v1.1.1). <INSERT DOI HERE>
 
 ```bibtex
 @misc{AUTOTYP,
@@ -351,9 +351,9 @@ Kristine, Rießler, Michael, Bierkandt, Lennart, Zúñiga, Fernando & Lowe, John
     Lowe, John B
   },
   doi = {10.5281/zenodo.6793367},
-  title = {The AUTOTYP database (v1.1.0)},
-  url = {https://doi.org/10.5281/zenodo.6793367},
-  year = {2022}
+  title = {The AUTOTYP database (v1.1.1)},
+  url = {<INSERT DOI HERE>},
+  year = {2023}
 }
 ```
 
