@@ -7,11 +7,12 @@
     ],
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#StructureDataset",
     "dc:source": "sources.bib",
+    "dcat:accessURL": "git@github.com:autotyp/autotyp-data",
     "prov:wasDerivedFrom": [
         {
-            "rdf:about": "autotyp-data",
+            "rdf:about": "git@github.com:autotyp/autotyp-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v1.1.0",
+            "dc:created": "v.1.1.0",
             "dc:title": "Repository"
         },
         {
@@ -19,12 +20,18 @@
             "rdf:type": "prov:Entity",
             "dc:created": "glottolog",
             "dc:title": "Glottolog"
+        },
+        {
+            "rdf:about": "git@github.com:autotyp/autotyp-data",
+            "rdf:type": "prov:Entity",
+            "dc:created": "v.1.1.0",
+            "dc:title": "Repository"
         }
     ],
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.9.13"
+            "dc:description": "3.9.16"
         },
         {
             "dc:title": "python-packages",
@@ -36,7 +43,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 286355,
+            "dc:extent": 288740,
             "tableSchema": {
                 "columns": [
                     {
@@ -381,7 +388,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 1013,
+            "dc:extent": 1026,
             "tableSchema": {
                 "columns": [
                     {
@@ -424,10 +431,6 @@
                     {
                         "datatype": "integer",
                         "name": "dim"
-                    },
-                    {
-                        "datatype": "json",
-                        "name": "typespec"
                     },
                     {
                         "datatype": "boolean",
