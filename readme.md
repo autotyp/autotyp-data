@@ -1,11 +1,11 @@
-# The AUTOTYP database v1.1.0
+# The AUTOTYP database v1.1.1
 
 > Balthasar Bickel, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, 
 > Kristine Hildebrandt, Michael Rießler, Lennart Bierkandt, Fernando Zúñiga and John B. Lowe
 
 ---
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6793367.svg)](https://doi.org/10.5281/zenodo.6793367)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7976754.svg)](https://doi.org/10.5281/zenodo.7976754)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 This work is licensed under a Creative Commons Attribution 4.0 International License
@@ -335,7 +335,7 @@ Please use the AUTOTYP database issue tracker at
 
 Bickel, Balthasar, Nichols, Johanna, Zakharko, Taras, Witzlack-Makarevich, Alena, Hildebrandt, 
 Kristine, Rießler, Michael, Bierkandt, Lennart, Zúñiga, Fernando & Lowe, John B.
-2022. The AUTOTYP database (v1.1.0). https://doi.org/10.5281/zenodo.6793367
+2023. The AUTOTYP database (v1.1.1). <https://doi.org/10.5281/zenodo.7976754>
 
 ```bibtex
 @misc{AUTOTYP,
@@ -350,10 +350,10 @@ Kristine, Rießler, Michael, Bierkandt, Lennart, Zúñiga, Fernando & Lowe, John
     Zúñiga, Fernando and 
     Lowe, John B
   },
-  doi = {10.5281/zenodo.6793367},
-  title = {The AUTOTYP database (v1.1.0)},
-  url = {https://doi.org/10.5281/zenodo.6793367},
-  year = {2022}
+  doi = {10.5281/zenodo.7976754},
+  title = {The AUTOTYP database (v1.1.1)},
+  url = {https://doi.org/10.5281/zenodo.7976754},
+  year = {2023}
 }
 ```
 
