@@ -2,7 +2,9 @@
 
 This is a minor maintenance release with improvements to the CLDF export
 
- - Better CLDF export for the dataset `MaximallyInflectedVerbSynthesis`
+ - Improved CLDF export for the dataset `MaximallyInflectedVerbSynthesis`
+
+Many thanks to Robert Forkel for implementing this change. 
 
 # AUTOTYP 1.1.0
 
