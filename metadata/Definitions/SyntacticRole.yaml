@@ -57,9 +57,9 @@ fields:
         stimuli that mostly but not entirely behave like the most patientive argument of
         transitive verbs
       "Act": >-
-        volitional, agentive actors irrespective of transitivity. Typical in active/
-        stative systems, but often grammaticalized to a degree where ‘agentivity’ or
-        ‘control’ do no longer predict the distribution of the role.
+        volitional, agentive actors irrespective of transitivity. Typical in
+        active/stative systems, but often grammaticalized to a degree where ‘agentivity’
+        or ‘control’ do no longer predict the distribution of the role.
       "core": >-
         any of S, A or U arguments
       "oblique": >-
@@ -123,8 +123,8 @@ fields:
         ‘Affected’ non-argumental participant, e.g. ethical datives, ascended possessors
         etc.
       "U-disamb": >-
-        U in the presence of an unmarked A; if the A is case-marked, U is not also case-
-        marked. Example: Rapanui Accusative
+        U in the presence of an unmarked A; if the A is case-marked, U is not also
+        case-marked. Example: Rapanui Accusative
       "POSS-def": >-
         possessor with specific reference
       "U-spec.anim": >-

@@ -1,5 +1,6 @@
 description: >-
-  Marker position (from `GrammaticalMarkers::MarkerPosition`), reshaped and aggregated per language and inflection category on maximally inflected verbs
+  Marker position (from `GrammaticalMarkers::MarkerPosition`),
+  reshaped and aggregated per language and inflection category on maximally inflected verbs
 kind: computed data (aggregation-scripts/MaximallyInflectedVerbInflection.R)
 data: table
 counts:

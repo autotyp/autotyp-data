@@ -115,7 +115,7 @@ descriptor <- describe_data(
       # build the descriptor
       descriptor <- .metadata$GrammaticalMarkers$fields[[.$Variable]]
       descriptor$description <- format_inline(
-        "Value of `GrammaticalMarkers::{.$Variable}` for exemplar {.q {.$MarkerExemplar}}"
+        "Value of `GrammaticalMarkers::{(.$Variable)}` for exemplar {.q {(.$MarkerExemplar)}}"
       )
       descriptor$computed <- "GrammaticalMarkers.R"
       descriptor

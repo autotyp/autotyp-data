@@ -1,6 +1,6 @@
-# The AUTOTYP database v1.1.1
+# The AUTOTYP database
 
-> Balthasar Bickel, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich, 
+> Balthasar Bickel, Johanna Nichols, Taras Zakharko, Alena Witzlack-Makarevich,
 > Kristine Hildebrandt, Michael Rießler, Lennart Bierkandt, Fernando Zúñiga and John B. Lowe
 
 ---
@@ -327,9 +327,8 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 ## How to report errors
 
-Please use the AUTOTYP database issue tracker at 
+Please use the AUTOTYP database issue tracker at
 [https://github.com/autotyp/autotyp-data/issues](https://github.com/autotyp/autotyp-data/issues)
-
 
 ## How to cite
 
@@ -340,28 +339,27 @@ Kristine, Rießler, Michael, Bierkandt, Lennart, Zúñiga, Fernando & Lowe, John
 ```bibtex
 @misc{AUTOTYP,
   author = {
-    Bickel, Balthasar and 
-    Nichols, Johanna and 
-    Zakharko, Taras and 
-    Witzlack-Makarevich, Alena and 
-    Hildebrandt, Kristine and 
-    Rießler, Michael and 
-    Bierkandt, Lennart and 
-    Zúñiga, Fernando and 
+    Bickel, Balthasar and
+    Nichols, Johanna and
+    Zakharko, Taras and
+    Witzlack-Makarevich, Alena and
+    Hildebrandt, Kristine and
+    Rießler, Michael and
+    Bierkandt, Lennart and
+    Zúñiga, Fernando and
     Lowe, John B
   },
   doi = {10.5281/zenodo.7976754},
   title = {The AUTOTYP database (v1.1.1)},
   url = {https://doi.org/10.5281/zenodo.7976754},
   year = {2023}
-}
+}}
 ```
 
-
-Please make sure to always include the correct database version number and DOI with your citation. 
-We use Zenodo to archive database releases which ensures that the results can always be reproduced. 
-Please take extra care when citing unreleased versions (e.g. a github revision) as these are not 
-guaranteed to be archived. We recommend only using released database versions for publications. 
+Please make sure to always include the correct database version number and DOI with your citation.
+We use Zenodo to archive database releases which ensures that the results can always be reproduced.
+Please take extra care when citing unreleased versions (e.g. a github revision) as these are not
+guaranteed to be archived. We recommend only using released database versions for publications.
 
 ---
 

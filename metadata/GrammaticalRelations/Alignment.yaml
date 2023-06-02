@@ -179,8 +179,8 @@ fields:
         ‘3Pro-low’ (where rank is determined by discourse factors with language-specific
         weights)
       "3Pro-low": >-
-        3rd person pronoun (no number distinction) with a lower discourse rank than ‘3Pro-
-        high’ (where rank is determined by discourse factors with language-specific
+        3rd person pronoun (no number distinction) with a lower discourse rank than
+        ‘3Pro-high’ (where rank is determined by discourse factors with language-specific
         weights)
       "3sgPro-anim": >-
         3rd person singular pronouns with animate reference
@@ -237,9 +237,9 @@ fields:
         3rd person dual pronoun with a lower discourse rank than ‘3plPro-low’ (where rank
         is determined by discourse factors with language-specific weights)
       "3sg-high": >-
-        3rd person singular argument with a higher discourse rank than ‘3sg-anim-
-        low’ (where rank is determined by discourse factors with language-specific
-        weights)
+        3rd person singular argument with a higher discourse rank than
+        ‘3sg-anim-low’ (where rank is determined by discourse factors with
+        language-specific weights)
       "3du-high": >-
         3rd person dual argument with a higher discourse rank than ‘3sg-anim-low’ (where
         rank is determined by discourse factors with language-specific weights)
@@ -247,9 +247,9 @@ fields:
         3rd person plural argument with a higher discourse rank than ‘3sg-anim-low’ (where
         rank is determined by discourse factors with language-specific weights)
       "3sg-low": >-
-        3rd person singular argument with a lower discourse rank than ‘3sg-anim-
-        high’ (where rank is determined by discourse factors with language-specific
-        weights)
+        3rd person singular argument with a lower discourse rank than
+        ‘3sg-anim-high’ (where rank is determined by discourse factors with
+        language-specific weights)
       "3du-low": >-
         3rd person dual argument with a lower discourse rank than ‘3sg-anim-high’ (where
         rank is determined by discourse factors with language-specific weights)

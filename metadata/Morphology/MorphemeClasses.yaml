@@ -48,15 +48,15 @@ fields:
       "PoSWd": >-
         A syntactic unit that has its own part of speech (PoS) category. Depending on the
         diversity of grammatical words (g-word) in a language (see “word_type” database),
-        this may or may not coincide with the g-word defined as ‘terminal node’. If g-
-        word domains differ, “PoSWd” as used here refers to the one domain that has
+        this may or may not coincide with the g-word defined as ‘terminal node’. If
+        g-word domains differ, “PoSWd” as used here refers to the one domain that has
         a PoS label attached to it. What counts is the syntactic behavior, e.g. if an
         element behaves like a verb but is defective morphologically, it still has the
         PoS label ‘verb’ (see for example Quileute negation ‘é’, which behaves like a verb
         syntactically even thought its inflectional paradigm is defective).
       "any": >-
-        A unit that can be used both as a formative or as PoSWd, e.g. SEA versatile verbs/
-        coverbs
+        A unit that can be used both as a formative or as PoSWd, e.g. SEA versatile
+        verbs/coverbs
       "SemiWd": >-
         DO NOT USE ANYMORE! Semiwords have some but not all the syntactic properties of
         ordinary SynWds. Typical examples of semiwords are incorpated nouns and verbs,

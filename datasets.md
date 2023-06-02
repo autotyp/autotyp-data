@@ -316,75 +316,93 @@ Currently available aggregations are:
 
 - **`MaximallyInflectedVerbInflectionCategoriesAggregatedByMarkerPosition`** (derived)
 
-    Marker position (from `GrammaticalMarkers::MarkerPosition`), reshaped and aggregated per language and inflection category on maximally inflected verbs
+    Marker position (from `GrammaticalMarkers::MarkerPosition`),
+    reshaped and aggregated per language and inflection category on maximally inflected verbs
 
 - **`MaximallyInflectedVerbInflectionCategoriesAggregatedByMarkerPositionBinned4`** (derived)
 
-    Marker position (from `GrammaticalMarkers::MarkerPositionBinned4`), reshaped and aggregated per language and inflection category on maximally inflected verbs
+    Marker position (from `GrammaticalMarkers::MarkerPositionBinned4`),
+    reshaped and aggregated per language and inflection category on maximally inflected verbs
 
 - **`MaximallyInflectedVerbInflectionCategoriesAggregatedByMarkerPositionBinned5`** (derived)
 
-    Marker position (from `GrammaticalMarkers::MarkerPositionBinned5`), reshaped and aggregated per language and inflection category on maximally inflected verbs
+    Marker position (from `GrammaticalMarkers::MarkerPositionBinned5`),
+    reshaped and aggregated per language and inflection category on maximally inflected verbs
 
 - **`MaximallyInflectedVerbInflectionCategoriesAggregatedByMarkerHasPreposedExponent`** (derived)
 
-    Marker position (from `GrammaticalMarkers::MarkerHasPreposedExponent`), reshaped and aggregated per language and inflection category on maximally inflected verbs
+    Marker position (from `GrammaticalMarkers::MarkerHasPreposedExponent`),
+    reshaped and aggregated per language and inflection category on maximally inflected verbs
 
 - **`MaximallyInflectedVerbInflectionCategoriesAggregatedByMarkerHasPostposedExponent`** (derived)
 
-    Marker position (from `GrammaticalMarkers::MarkerHasPostposedExponent`), reshaped and aggregated per language and inflection category on maximally inflected verbs
+    Marker position (from `GrammaticalMarkers::MarkerHasPostposedExponent`),
+    reshaped and aggregated per language and inflection category on maximally inflected verbs
 
 - **`MaximallyInflectedVerbInflectionCategoriesAggregatedByMarkerHasMultipleExponents`** (derived)
 
-    Marker position (from `GrammaticalMarkers::MarkerHasMultipleExponents`), reshaped and aggregated per language and inflection category on maximally inflected verbs
+    Marker position (from `GrammaticalMarkers::MarkerHasMultipleExponents`),
+    reshaped and aggregated per language and inflection category on maximally inflected verbs
 
 - **`MaximallyInflectedVerbInflectionMacrocategoriesAggregatedByMarkerPosition`** (derived)
 
-    Marker position (from `GrammaticalMarkers::MarkerPosition`), reshaped and aggregated per language and inflection category (binned into broad types) on maximally inflected verbs
+    Marker position (from `GrammaticalMarkers::MarkerPosition`),
+    reshaped and aggregated per language and inflection category (binned into broad types) on maximally inflected verbs
 
 - **`MaximallyInflectedVerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned4`** (derived)
 
-    Marker position (from `GrammaticalMarkers::MarkerPositionBinned4`), reshaped and aggregated per language and inflection category (binned into broad types) on maximally inflected verbs
+    Marker position (from `GrammaticalMarkers::MarkerPositionBinned4`),
+    reshaped and aggregated per language and inflection category (binned into broad types) on maximally inflected verbs
 
 - **`MaximallyInflectedVerbInflectionMacrocategoriesAggregatedByMarkerPositionBinned5`** (derived)
 
-    Marker position (from `GrammaticalMarkers::MarkerPositionBinned5`), reshaped and aggregated per language and inflection category (binned into broad types) on maximally inflected verbs
+    Marker position (from `GrammaticalMarkers::MarkerPositionBinned5`),
+    reshaped and aggregated per language and inflection category (binned into broad types) on maximally inflected verbs
 
 - **`MaximallyInflectedVerbInflectionMacrocategoriesAggregatedByMarkerHasPreposedExponent`** (derived)
 
-    Marker position (from `GrammaticalMarkers::MarkerHasPreposedExponent`), reshaped and aggregated per language and inflection category (binned into broad types) on maximally inflected verbs
+    Marker position (from `GrammaticalMarkers::MarkerHasPreposedExponent`),
+    reshaped and aggregated per language and inflection category (binned into broad types) on maximally inflected verbs
 
 - **`MaximallyInflectedVerbInflectionMacrocategoriesAggregatedByMarkerHasPostposedExponent`** (derived)
 
-    Marker position (from `GrammaticalMarkers::MarkerHasPostposedExponent`), reshaped and aggregated per language and inflection category (binned into broad types) on maximally inflected verbs
+    Marker position (from `GrammaticalMarkers::MarkerHasPostposedExponent`),
+    reshaped and aggregated per language and inflection category (binned into broad types) on maximally inflected verbs
 
 - **`MaximallyInflectedVerbInflectionMacrocategoriesAggregatedByMarkerHasMultipleExponents`** (derived)
 
-    Marker position (from `GrammaticalMarkers::MarkerHasMultipleExponents`), reshaped and aggregated per language and inflection category (binned into broad types) on maximally inflected verbs
+    Marker position (from `GrammaticalMarkers::MarkerHasMultipleExponents`),
+    reshaped and aggregated per language and inflection category (binned into broad types) on maximally inflected verbs
 
 - **`MaximallyInflectedVerbAgreementAggregatedByMarkerPosition`** (derived)
 
-    Marker position (from `GrammaticalMarkers::MarkerPosition`), reshaped and aggregated per language and agreement microrelation on maximally inflected verbs
+    Marker position (from `GrammaticalMarkers::MarkerPosition`),
+    reshaped and aggregated per language and agreement microrelation on maximally inflected verbs
 
 - **`MaximallyInflectedVerbAgreementAggregatedByMarkerPositionBinned4`** (derived)
 
-    Marker position (from `GrammaticalMarkers::MarkerPositionBinned4`), reshaped and aggregated per language and agreement microrelation on maximally inflected verbs
+    Marker position (from `GrammaticalMarkers::MarkerPositionBinned4`),
+    reshaped and aggregated per language and agreement microrelation on maximally inflected verbs
 
 - **`MaximallyInflectedVerbAgreementAggregatedByMarkerPositionBinned5`** (derived)
 
-    Marker position (from `GrammaticalMarkers::MarkerPositionBinned5`), reshaped and aggregated per language and agreement microrelation on maximally inflected verbs
+    Marker position (from `GrammaticalMarkers::MarkerPositionBinned5`),
+    reshaped and aggregated per language and agreement microrelation on maximally inflected verbs
 
 - **`MaximallyInflectedVerbAgreementAggregatedByMarkerHasPreposedExponent`** (derived)
 
-    Marker position (from `GrammaticalMarkers::MarkerHasPreposedExponent`), reshaped and aggregated per language and agreement microrelation on maximally inflected verbs
+    Marker position (from `GrammaticalMarkers::MarkerHasPreposedExponent`),
+    reshaped and aggregated per language and agreement microrelation on maximally inflected verbs
 
 - **`MaximallyInflectedVerbAgreementAggregatedByMarkerHasPostposedExponent`** (derived)
 
-    Marker position (from `GrammaticalMarkers::MarkerHasPostposedExponent`), reshaped and aggregated per language and agreement microrelation on maximally inflected verbs
+    Marker position (from `GrammaticalMarkers::MarkerHasPostposedExponent`),
+    reshaped and aggregated per language and agreement microrelation on maximally inflected verbs
 
 - **`MaximallyInflectedVerbAgreementAggregatedByMarkerHasMultipleExponents`** (derived)
 
-    Marker position (from `GrammaticalMarkers::MarkerHasMultipleExponents`), reshaped and aggregated per language and agreement microrelation on maximally inflected verbs
+    Marker position (from `GrammaticalMarkers::MarkerHasMultipleExponents`),
+    reshaped and aggregated per language and agreement microrelation on maximally inflected verbs
 
 - **`MorphologyPerLanguage`** (derived)
 

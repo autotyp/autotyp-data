@@ -51,7 +51,7 @@ LID,Glottocode,Language,AccDegreeForAgreement,AccDegreeForCase,AccDegreeForMarke
 91,gumu1244,Gumuz,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
 93,gunw1252,Gunwinggu,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
 98,haus1257,Hausa,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
-99,hind1269,Hindi,0.5,0.8333333333333334,0.875,0.5,0.25,0.5,medium,high,high,medium,low,medium,mixed,S=Atr≠P,S=Atr≠P,mixed,S=Atr=Aditr≠P=G≠T,,mixed,mixed,,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+99,hind1269,Hindi,0.5,0.8333333333333334,0.875,0.5,0.25,0.5,medium,high,high,medium,low,medium,mixed,S=Atr≠P,S=Atr≠P,mixed,S=Atr=Aditr≠P=G≠T,,mixed,P=G≠T,,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
 100,hitt1242,Hittite,1,0.6666666666666666,,0,0.3333333333333333,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
 101,hixk1239,Hixkaryana,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
 103,yaga1260,Hua,0,0,0.8333333333333334,0,1,0,low,low,high,low,high,low,S=Atr=P,S=P≠Atr,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=P=T=G≠Atr=Aditr,,P=G≠T,P=T=G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
@@ -75,7 +75,7 @@ LID,Glottocode,Language,AccDegreeForAgreement,AccDegreeForCase,AccDegreeForMarke
 134,nort2930,Kiwai,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 136,kobo1249,Kobon,1,0.5,,0,0,,high,medium,,low,low,,S=Atr≠P,mixed,,S=Atr=Aditr≠P=T=G,mixed,,P=T=G,P=T=G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
 138,komb1274,Kombai,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
-139,komi1268,Komi (Zyrian),1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=T≠P≠G,,P=T=G,T≠P≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+139,komi1268,Komi (Zyrian),1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=T≠P≠G,,P=T=G,P≠T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
 140,rapo1238,Konua,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 141,kore1280,Korean,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
 142,kota1263,Kota,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
@@ -96,7 +96,7 @@ LID,Glottocode,Language,AccDegreeForAgreement,AccDegreeForCase,AccDegreeForMarke
 170,mull1237,Malak-Malak,0,0,1,0,1,0,low,low,high,low,high,low,S=Atr=P,S=P≠Atr,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=P=T≠Atr=Aditr≠G,,P=G≠T,P=T≠G,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 171,mand1415,Mandarin,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
 172,mand1436,Mandinka,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
-173,mang1381,Mangarayi,,0.5,,,0.5,,,medium,,,medium,,,mixed,,,mixed,,,mixed,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+173,mang1381,Mangarayi,,0.5,,,0.5,,,medium,,,medium,,,mixed,,,mixed,,,P=G≠T,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
 175,maor1246,Maori,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 176,mapu1245,Mapudungun,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 178,mari1424,Marrithiyel,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
@@ -115,8 +115,8 @@ LID,Glottocode,Language,AccDegreeForAgreement,AccDegreeForCase,AccDegreeForMarke
 210,wang1291,Ngiyambaa,,0.6,,,0.4,,,medium,,,medium,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
 211,ngka1235,Ngkalmpw Knwme,,0,,,1,,,low,,,high,,,S=P≠Atr,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 223,sout2729,Pumi,,0,,,0.25,,,low,,,low,,,S=Atr=P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
-225,lahu1253,Lahu,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr=T≠P=G,,,T≠P=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
-228,pare1266,Gorum,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr=G≠P=T,,,G≠P=T,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+225,lahu1253,Lahu,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr=T≠P=G,,,P=G≠T,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+228,pare1266,Gorum,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr=G≠P=T,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
 299,nand1266,Nandi,0,1,0.75,0,0,0,low,high,high,low,low,low,S=Atr=P,S=Atr≠P,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 317,nuuc1236,Nuuchahnulth,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
 318,nung1290,Nunggubuyu,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,S=Atr=Aditr=P=G≠T,S=Atr=Aditr=P=T≠G,,P=G≠T,P=T≠G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
@@ -170,7 +170,7 @@ LID,Glottocode,Language,AccDegreeForAgreement,AccDegreeForCase,AccDegreeForMarke
 399,wara1303,Warao,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 401,ward1246,Wardaman,,0,,,1,,,low,,,high,,,S=P≠Atr,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 402,ware1253,Warembori,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
-403,wari1266,Waris,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr=T≠P=G,,,T≠P=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+403,wari1266,Waris,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr=T≠P=G,,,P=G≠T,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
 404,warl1254,Warlpiri,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T≠Atr=Aditr≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 407,wask1241,Waskia,0,0.5714285714285714,0.75,0,0,0,low,medium,high,low,low,low,S=Atr=P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr=P=T≠G,S=Atr=Aditr=P=T=G,,P=T≠G,P=T=G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 408,west2443,Wemba Wemba,1,0.5,,0,0.5,,high,medium,,low,medium,,S=Atr≠P,mixed,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
@@ -178,7 +178,7 @@ LID,Glottocode,Language,AccDegreeForAgreement,AccDegreeForCase,AccDegreeForMarke
 414,yagu1244,Yagua,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 416,yank1247,Yankunytjara,,0.5,,,0.5,,,medium,,,medium,,,mixed,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
 417,nucl1454,Yawa,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
-419,yess1239,Yessan-Mayo,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr=T≠P=G,,,T≠P=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+419,yess1239,Yessan-Mayo,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr=T≠P=G,,,P=G≠T,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
 421,yoru1245,Yoruba,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,P=G≠T,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
 422,yuch1247,Yuchi,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 424,gang1267,Yukulta,0,0,,0,0.5,,low,low,,low,medium,,S=Atr=P,mixed,,,mixed,,,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
@@ -199,7 +199,7 @@ LID,Glottocode,Language,AccDegreeForAgreement,AccDegreeForCase,AccDegreeForMarke
 465,mari1440,Maricopa,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 466,sang1328,Sango,1,0,1,0,0,0,high,low,high,low,low,low,S=Atr≠P,S=Atr=P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 468,east2773,Newar (Dolakha),1,0.6666666666666666,,0,1,,high,medium,,low,high,,S=Atr≠P,S≠Atr≠P,,S=Atr=Aditr≠P=T=G,S≠Atr=Aditr≠P=T=G,,P=T=G,P=T=G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
-469,awac1239,Awa Pit,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr=T≠P=G,,,T≠P=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+469,awac1239,Awa Pit,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr=T≠P=G,,,P=G≠T,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
 471,colo1256,Tsafiki,,0.5,,,0,,,medium,,,low,,,mixed,,,mixed,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
 475,trio1238,Trió,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
 480,aman1265,Amanab,1,0,1,0,0,0,high,low,high,low,low,low,S=Atr≠P,S=Atr=P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T≠G,,P=T=G,P=T≠G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
@@ -250,7 +250,7 @@ LID,Glottocode,Language,AccDegreeForAgreement,AccDegreeForCase,AccDegreeForMarke
 614,cent1989,Cambodian,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 616,coco1261,Cocopa,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 618,alab1237,Alabama,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
-629,chan1310,Chantyal,,0.6666666666666666,,,1,,,medium,,,high,,,S≠Atr≠P,,,S=T≠Atr=Aditr≠P=G,,,T≠P=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+629,chan1310,Chantyal,,0.6666666666666666,,,1,,,medium,,,high,,,S≠Atr≠P,,,S=T≠Atr=Aditr≠P=G,,,P=G≠T,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
 632,wayu1241,Hayu,0,0,,0,1,,low,low,,low,high,,S=Atr=P,S=P≠Atr,,,,,,,,FALSE,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
 634,saur1249,Malto,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
 635,sant1410,Santali,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
@@ -266,7 +266,7 @@ LID,Glottocode,Language,AccDegreeForAgreement,AccDegreeForCase,AccDegreeForMarke
 658,yany1243,Yanyuwa,,0,,,0.5,,,low,,,medium,,,mixed,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
 659,kala1377,Kala Lagaw La,0,0.3333333333333333,,1,0.3333333333333333,,low,low,,high,low,,S=P≠Atr,S=Atr=P,,S=P=T≠Atr=Aditr=G,,,P=T≠G,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
 662,apat1240,Apatani,,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
-663,drun1238,Drung,,0.6666666666666666,,,1,,,medium,,,high,,,S≠Atr≠P,,,S=T≠Atr=Aditr≠P=G,,,T≠P=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+663,drun1238,Drung,,0.6666666666666666,,,1,,,medium,,,high,,,S≠Atr≠P,,,S=T≠Atr=Aditr≠P=G,,,P=G≠T,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
 665,yana1271,Yana,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
 667,thul1246,Thulung (Mukli),0,,0.1280045351473923,0,,0.06848072562358276,low,,low,low,,low,S=Atr=P,,S=Atr=P,,,,,,,FALSE,,TRUE,TRUE,,TRUE,FALSE,,FALSE,FALSE,,FALSE
 669,gras1249,Koiari,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,,,,,,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
@@ -353,7 +353,7 @@ LID,Glottocode,Language,AccDegreeForAgreement,AccDegreeForCase,AccDegreeForMarke
 1144,tiri1258,Tinrin,1,1,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
 1146,west2650,Cham (Western),,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 1155,cakc1235,Cakchiquel,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
-1163,lowl1260,Chontal (Huamelultec Oaxaca),,0.7142857142857143,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr=T≠P=G,,,T≠P=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+1163,lowl1260,Chontal (Huamelultec Oaxaca),,0.7142857142857143,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr=T≠P=G,,,P=G≠T,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
 1168,coca1259,Cocama,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 1169,kore1283,Koreguaje,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
 1172,copt1239,Coptic,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
@@ -408,7 +408,7 @@ LID,Glottocode,Language,AccDegreeForAgreement,AccDegreeForCase,AccDegreeForMarke
 1621,hupa1239,Hupa,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 1628,hawa1245,Hawaiian,,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 1644,ilok1237,Ilocano,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
-1645,anam1248,Anamuxra,0,0.6666666666666666,0.875,0,0,0,low,medium,high,low,low,low,S=Atr=P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=Atr=Aditr=T≠P=G,,P=G≠T,T≠P=G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1645,anam1248,Anamuxra,0,0.6666666666666666,0.875,0,0,0,low,medium,high,low,low,low,S=Atr=P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr=P=G≠T,S=Atr=Aditr=T≠P=G,,P=G≠T,P=G≠T,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 1650,iqui1243,Iquito,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 1660,itza1241,Itzaj,0,0,0.40476190476190477,0,0,0.40476190476190477,low,low,medium,low,low,medium,S=Atr=P,S=Atr=P,mixed,,S=Atr=Aditr=P=T=G,,,P=T=G,,FALSE,TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 1671,java1254,Javanese,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
@@ -420,7 +420,7 @@ LID,Glottocode,Language,AccDegreeForAgreement,AccDegreeForCase,AccDegreeForMarke
 1703,kawa1283,Kawaiisu,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 1704,kama1373,Kamayurá,0,,0.9473684210526315,0,,0.5526315789473685,low,,high,low,,medium,S=Atr=P,,S=Atr≠P,,,,,,,FALSE,,TRUE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE
 1709,kama1370,Kamano-Kafe,0,0,,0,0,,low,low,,low,low,,S=Atr=P,S=Atr=P,,S=Atr=Aditr=P=G≠T,S=Atr=Aditr=P=T=G,,P=G≠T,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
-1739,kusu1250,Kusunda,1,0.6666666666666666,1,0,0,1,high,medium,high,low,low,high,S=Atr≠P,S=Atr≠P,S≠Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=T≠P=G,,P=T=G,T≠P=G,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+1739,kusu1250,Kusunda,1,0.6666666666666666,1,0,0,1,high,medium,high,low,low,high,S=Atr≠P,S=Atr≠P,S≠Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=T≠P=G,,P=T=G,P=G≠T,,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 1740,kaiw1246,Kaiwá,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
 1743,abun1252,Abun,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 1750,khar1287,Kharia,1,0.75,1,0,0,0,high,high,high,low,low,low,S=Atr≠P,S=Atr≠P,S=Atr≠P,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T=G,,P=T=G,P=T=G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
@@ -524,7 +524,7 @@ LID,Glottocode,Language,AccDegreeForAgreement,AccDegreeForCase,AccDegreeForMarke
 2476,siri1273,Sirionó,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
 2498,mwag1236,Mupun,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
 2513,tari1256,Tariana,1,,,0,,,high,,,low,,,S=Atr≠P,,,S=Atr=Aditr≠P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,,
-2514,tapi1253,Tapiete,0,0.8571428571428571,0.4482758620689655,0,0,0.22413793103448276,low,high,medium,low,low,low,S=Atr=P,S=Atr≠P,S=Atr=P,,S=Atr=Aditr=G≠P=T,,,G≠P=T,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2514,tapi1253,Tapiete,0,0.8571428571428571,0.4482758620689655,0,0,0.22413793103448276,low,high,medium,low,low,low,S=Atr=P,S=Atr≠P,S=Atr=P,,S=Atr=Aditr=G≠P=T,,,P=T≠G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 2536,tami1289,Tamil,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
 2537,telu1262,Telugu,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,,,,,,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
 2539,tulu1258,Tulu,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
@@ -539,7 +539,7 @@ LID,Glottocode,Language,AccDegreeForAgreement,AccDegreeForCase,AccDegreeForMarke
 2580,tobe1252,Tobelo,0,0,1,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 2586,haru1245,Haruai,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T=G,,P=T=G,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
 2591,tani1257,Retuarã,1,0,,0,0,,high,low,,low,low,,S=Atr≠P,S=Atr=P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=P=T=G,,P=T=G,P=T=G,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
-2607,copa1237,Trique (Copala),,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr=T≠P=G,,,T≠P=G,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
+2607,copa1237,Trique (Copala),,0.6666666666666666,,,0,,,medium,,,low,,,S=Atr≠P,,,S=Atr=Aditr=T≠P=G,,,P=G≠T,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
 2617,tsha1245,Tshangla,,0,,,1,,,low,,,high,,,S=P≠Atr,,,S=P=T≠Atr=Aditr≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 2628,toba1266,Tobati,0,0,0.7857142857142857,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 2638,hdii1240,Hdi,,1,,,0,,,high,,,low,,,S=Atr≠P,,,,,,,,,TRUE,,,FALSE,,,FALSE,,,FALSE,
@@ -559,7 +559,7 @@ LID,Glottocode,Language,AccDegreeForAgreement,AccDegreeForCase,AccDegreeForMarke
 2726,wels1247,Welsh,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T≠G,,,P=T≠G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 2727,wamb1259,Wambon,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 2729,want1252,Wantoat,,0,,,1,,,low,,,high,,,S=P≠Atr,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
-2736,hang1263,Hanga Hundi,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=T≠P=G,,P=T=G,T≠P=G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
+2736,hang1263,Hanga Hundi,1,0.6666666666666666,,0,0,,high,medium,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr=T≠P=G,,P=T=G,P=G≠T,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
 2772,kweg1241,Koegu,1,0,0.75,0,0,0,high,low,high,low,low,low,S=Atr≠P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 2790,yuec1235,Cantonese,,0,,,0,,,low,,,low,,,S=Atr=P,,,S=Atr=Aditr=P=T=G,,,P=T=G,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 2795,yukp1241,Yukpa,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
@@ -572,7 +572,7 @@ LID,Glottocode,Language,AccDegreeForAgreement,AccDegreeForCase,AccDegreeForMarke
 2848,sawe1240,Saweru,0,0,1,0,0,0,low,low,high,low,low,low,S=Atr=P,S=Atr=P,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 2854,oldh1241,High German (Old),1,0.7,,0,0,,high,high,,low,low,,S=Atr≠P,S=Atr≠P,,S=Atr=Aditr≠P=T=G,S=Atr=Aditr≠P=T≠G,,P=T=G,P=T≠G,,FALSE,TRUE,,FALSE,FALSE,,FALSE,FALSE,,FALSE,FALSE,
 2862,chhi1245,Chintang,0,0,0.2649659863945578,0,0.6666666666666666,0.12431972789115646,low,low,low,low,medium,low,S=Atr=P,S=P≠Atr,S=Atr=P,,S=P=T≠Atr=Aditr≠G,,,P=T≠G,,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
-2863,puma1239,Puma,0,0.6666666666666666,0.2303206997084548,0,1,0.12633624878522837,low,medium,low,low,high,low,S=Atr=P,S≠Atr≠P,S=Atr=P,,S=T≠Atr=Aditr≠P=G,,,T≠P=G,,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+2863,puma1239,Puma,0,0.6666666666666666,0.2303206997084548,0,1,0.12633624878522837,low,medium,low,low,high,low,S=Atr=P,S≠Atr≠P,S=Atr=P,,S=T≠Atr=Aditr≠P=G,,,P=G≠T,,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 2864,tour1242,Toura,,0,,,0,,,low,,,low,,,S=Atr=P,,,,,,,,,FALSE,,,FALSE,,,FALSE,,,FALSE,
 2865,wamb1257,Wambule,0,0,0.38639455782312926,0,1,0.29297052154195014,low,low,medium,low,high,low,S=Atr=P,S=P≠Atr,S=Atr=P,,S=P=T=G≠Atr=Aditr,,,P=T=G,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
 2869,yaga1260,Yagaria,0,0,0.9444444444444444,0,1,0,low,low,high,low,high,low,S=Atr=P,S=P≠Atr,S=Atr≠P,,,,,,,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE

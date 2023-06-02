@@ -63,22 +63,22 @@ DefaultLocusOfMarkingPerMacrorelation <- LocusOfMarkingPerMicrorelation %>%
       select(cur_data(), -Microrelation)[1L, ]
     } else
     # disambiguate A (A-default comes first)
-    if(Macrorelation == "A" && "A-default" %in% Microrelation) {
+    if(Macrorelation[[1L]] == "A" && "A-default" %in% Microrelation) {
       filter(cur_data(), Microrelation == "A-default") %>%
       select(-Microrelation)
     } else
     # disambiguate A (Act comes next)
-    if(Macrorelation == "A" && "Act" %in% Microrelation) {
+    if(Macrorelation[[1L]] == "A" && "Act" %in% Microrelation) {
       filter(cur_data(), Microrelation == "Act") %>%
       select(-Microrelation)
     } else
     # disambiguate P (U-default comes first)
-    if(Macrorelation == "P" && "U-default" %in% Microrelation) {
+    if(Macrorelation[[1L]] == "P" && "U-default" %in% Microrelation) {
       filter(cur_data(), Microrelation == "U-default") %>%
       select(-Microrelation)
     } else
     # disambiguate P (Pat comes next)
-    if(Macrorelation == "P" && "Pat" %in% Microrelation) {
+    if(Macrorelation[[1L]] == "P" && "Pat" %in% Microrelation) {
       filter(cur_data(), Microrelation == "Pat") %>%
       select(-Microrelation)
     }

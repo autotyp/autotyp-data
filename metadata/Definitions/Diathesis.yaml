@@ -29,16 +29,16 @@ fields:
         properties with the S argument. For Philippine-type languages. the so-called
         Actor-Focus diathesis (cf. Schachter & Otanes 1972).
       "sympromP": >-
-        a symmetrical diathesis with the P (and T or G) argument sharing certain morpho-
-        syntactic properties with the S argument. For Philippine-type languages. the so-
-        called Object-Focus diathesis (Schachter & Otanes 1972)
+        a symmetrical diathesis with the P (and T or G) argument sharing certain
+        morpho-syntactic properties with the S argument. For Philippine-type languages.
+        the so-called Object-Focus diathesis (Schachter & Otanes 1972)
       "sympromG": >-
         a symmetrical diathesis with the G argument sharing certain morpho-syntactic
         properties with the S argument. For Philippine-type languages. the so-called
         Directional-Focus diathesis (Schachter & Otanes 1972)
       "sympromADJ": >-
-        a symmetrical diathesis with an adjunct (non-argument) sharing certain morpho-
-        syntactic properties with the S argument.
+        a symmetrical diathesis with an adjunct (non-argument) sharing certain
+        morpho-syntactic properties with the S argument.
       "DIR": >-
         direct
       "INV": >-

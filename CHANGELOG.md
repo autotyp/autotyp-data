@@ -1,3 +1,10 @@
+# (unreleased)
+
+- (bugfix) ditransitive object alignment (`Alignment$AlignmentPTG`) computation
+  did not properly order the roles, resulting in ambigous alignment specification
+  (e.g. "P=T≠G" vs. "G≠P=T"). This is now fixed, the roles are always in canonical 
+  order. 
+
 # AUTOTYP 1.1.1
 
 This is a minor maintenance release with improvements to the CLDF export

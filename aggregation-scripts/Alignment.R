@@ -894,15 +894,16 @@ alignments <- GR_expanded %>%
     vec_assign(list_sizes(CombinedPredicateClassID) < 3L, NA),
     # alignment of  P, T and G
     AlignmentPTG = map_chr(Alignment, ~ {
-      # add the missing pieces
-      map(., intersect, c("P", "T", "G")) %>%
-      compact() %>%
-      map_chr(str_flatten, "=") %>%
-      str_flatten("≠")
+      # sort the roles
+      roles <- map(., ~ factor(intersect(., c("P", "T", "G")), RELEVANT_ROLES)) %>% compact()
+      roles <- roles[order(map_int(roles, ~ min(as.integer(.))))]
+
+      roles %>% map_chr(str_flatten, "=") %>% str_flatten("≠")
     }) %>%
     # set it to NA when there are no ditransitives
     vec_assign(list_sizes(CombinedPredicateClassID) < 3L, NA)
   )
+
 
 # ███████╗██╗   ██╗███╗   ███╗███╗   ███╗ █████╗ ██████╗ ██╗   ██╗
 # ██╔════╝██║   ██║████╗ ████║████╗ ████║██╔══██╗██╔══██╗╚██╗ ██╔╝

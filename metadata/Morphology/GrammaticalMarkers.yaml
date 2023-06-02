@@ -113,15 +113,15 @@ fields:
       "PoSWd": >-
         A syntactic unit that has its own part of speech (PoS) category. Depending on the
         diversity of grammatical words (g-word) in a language (see “word_type” database),
-        this may or may not coincide with the g-word defined as ‘terminal node’. If g-
-        word domains differ, “PoSWd” as used here refers to the one domain that has
+        this may or may not coincide with the g-word defined as ‘terminal node’. If
+        g-word domains differ, “PoSWd” as used here refers to the one domain that has
         a PoS label attached to it. What counts is the syntactic behavior, e.g. if an
         element behaves like a verb but is defective morphologically, it still has the
         PoS label ‘verb’ (see for example Quileute negation ‘é’, which behaves like a verb
         syntactically even thought its inflectional paradigm is defective).
       "any": >-
-        A unit that can be used both as a formative or as PoSWd, e.g. SEA versatile verbs/
-        coverbs
+        A unit that can be used both as a formative or as PoSWd, e.g. SEA versatile
+        verbs/coverbs
       "SemiWd": >-
         DO NOT USE ANYMORE! Semiwords have some but not all the syntactic properties of
         ordinary SynWds. Typical examples of semiwords are incorpated nouns and verbs,
@@ -1054,13 +1054,13 @@ fields:
           "N-def": >-
             definite noun
           "high": >-
-            ‘high-indexability’, nouns or pronouns with a higher discourse rank than ‘low-
-            indexability’ (where rank is determined by discourse factors with language-
-            specific weights)
+            ‘high-indexability’, nouns or pronouns with a higher discourse rank than
+            ‘low-indexability’ (where rank is determined by discourse factors with
+            language-specific weights)
           "low": >-
-            ‘low-indexability’, nouns or pronouns with a higher discourse rank than ‘low-
-            indexability’ (where rank is determined by discourse factors with language-
-            specific weights)
+            ‘low-indexability’, nouns or pronouns with a higher discourse rank than
+            ‘low-indexability’ (where rank is determined by discourse factors with
+            language-specific weights)
           "N-def_or_Pro": >-
             definite nouns or pronouns
           "N-indef": >-
@@ -1165,21 +1165,21 @@ fields:
             non-personal noun (common nouns and proper nouns which are not personal names
             (e.g. toponyms))
           "3sgPro-high": >-
-            3rd person singular pronoun with a higher discourse rank than ‘3sgPro-
-            low’ (where rank is determined by discourse factors with language-specific
-            weights)
+            3rd person singular pronoun with a higher discourse rank than
+            ‘3sgPro-low’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3plPro-high": >-
-            3rd person plural pronoun with a higher discourse rank than ‘3plPro-
-            low’ (where rank is determined by discourse factors with language-specific
-            weights)
+            3rd person plural pronoun with a higher discourse rank than
+            ‘3plPro-low’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3sgPro-low": >-
-            3rd person plural pronoun with a lower discourse rank than ‘3sgPro-
-            high’ (where rank is determined by discourse factors with language-specific
-            weights)
+            3rd person plural pronoun with a lower discourse rank than
+            ‘3sgPro-high’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3plPro-low": >-
-            3rd person plural pronoun with a lower discourse rank than ‘3plPro-
-            high’ (where rank is determined by discourse factors with language-specific
-            weights)
+            3rd person plural pronoun with a lower discourse rank than
+            ‘3plPro-high’ (where rank is determined by discourse factors with
+            language-specific weights)
           "N-sg-proper": >-
             proper noun in singular
           "N-pl-proper": >-
@@ -1251,13 +1251,13 @@ fields:
           "anim": >-
             animate referent
           "3Pro-high": >-
-            3rd person pronoun (no number distinction) with a higher discourse rank than
-            ‘3Pro-low’ (where rank is determined by discourse factors with language-
-            specific weights)
+            3rd person pronoun (no number distinction) with a higher discourse rank
+            than ‘3Pro-low’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3Pro-low": >-
-            3rd person pronoun (no number distinction) with a lower discourse rank than
-            ‘3Pro-high’ (where rank is determined by discourse factors with language-
-            specific weights)
+            3rd person pronoun (no number distinction) with a lower discourse rank
+            than ‘3Pro-high’ (where rank is determined by discourse factors with
+            language-specific weights)
           "N-du": >-
             noun in dual number
           "N-sg-anim": >-
@@ -1295,21 +1295,21 @@ fields:
           "3": >-
             3rd person
           "3sg-anim-high": >-
-            3rd person singular animate argument with a higher discourse rank than ‘3sg-
-            anim-low’ (where rank is determined by discourse factors with language-
-            specific weights)
+            3rd person singular animate argument with a higher discourse rank than
+            ‘3sg-anim-low’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3pl-anim-high": >-
-            3rd person plural animate argument with a higher discourse rank than ‘3pl-
-            anim-low’ (where rank is determined by discourse factors with language-
-            specific weights)
+            3rd person plural animate argument with a higher discourse rank than
+            ‘3pl-anim-low’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3sg-anim-low": >-
-            3rd person singular animate argument with a lower discourse rank than ‘3sg-
-            anim-high’ (where rank is determined by discourse factors with language-
-            specific weights)
+            3rd person singular animate argument with a lower discourse rank than
+            ‘3sg-anim-high’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3pl-anim-low": >-
-            3rd person plural animate argument with a lower discourse rank than ‘3pl-anim-
-            high’ (where rank is determined by discourse factors with language-specific
-            weights)
+            3rd person plural animate argument with a lower discourse rank than
+            ‘3pl-anim-high’ (where rank is determined by discourse factors with
+            language-specific weights)
           "indef": >-
             indefinite referent
           "N-anim-high": >-
@@ -1342,20 +1342,20 @@ fields:
             rank is determined by discourse factors with language-specific weights)
           "3anim-nhum-high": >-
             3rd person animate non-human argument with a higher discourse rank than
-            ‘3anim-nhum-low’ (where rank is determined by discourse factors with language-
-            specific weights)
+            ‘3anim-nhum-low’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3anim-nhum-low": >-
-            3rd person animate non-human argument with a lower discourse rank than ‘3anim-
-            nhum-high’ (where rank is determined by discourse factors with language-
-            specific weights)
+            3rd person animate non-human argument with a lower discourse rank than
+            ‘3anim-nhum-high’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3inanim-high": >-
-            3rd person inanimate argument with a higher discourse rank than ‘3inanim-
-            low’ (where rank is determined by discourse factors with language-specific
-            weights)
+            3rd person inanimate argument with a higher discourse rank than
+            ‘3inanim-low’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3inanim-low": >-
-            3rd person inanimate argument with a lower discourse rank than ‘3inanim-
-            high’ (where rank is determined by discourse factors with language-specific
-            weights)
+            3rd person inanimate argument with a lower discourse rank than
+            ‘3inanim-high’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3sg-inanim": >-
             inanimate singular referent (of the 3rd person)
           "3pl-inanim": >-
@@ -1383,13 +1383,13 @@ fields:
             3rd person plural animate further obviative argument (i.e. with a lower
             dicourse rank than the 3rd person pl. animate low argument)
           "3du-anim-high": >-
-            3rd person dual animate argument with a higher discourse rank than ‘3sg-anim-
-            low’ (where rank is determined by discourse factors with language-specific
-            weights)
+            3rd person dual animate argument with a higher discourse rank than
+            ‘3sg-anim-low’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3du-anim-low": >-
-            3rd person dual animate argument with a lower discourse rank than ‘3sg-anim-
-            high’ (where rank is determined by discourse factors with language-specific
-            weights)
+            3rd person dual animate argument with a lower discourse rank than
+            ‘3sg-anim-high’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3du-inanim": >-
             inanimate dual referent (of the 3rd person)
           "1du": >-
@@ -1419,29 +1419,29 @@ fields:
             3rd person dual pronoun with a lower discourse rank than ‘3plPro-low’ (where
             rank is determined by discourse factors with language-specific weights)
           "3sg-high": >-
-            3rd person singular argument with a higher discourse rank than ‘3sg-anim-
-            low’ (where rank is determined by discourse factors with language-specific
-            weights)
+            3rd person singular argument with a higher discourse rank than
+            ‘3sg-anim-low’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3du-high": >-
-            3rd person dual argument with a higher discourse rank than ‘3sg-anim-
-            low’ (where rank is determined by discourse factors with language-specific
-            weights)
+            3rd person dual argument with a higher discourse rank than
+            ‘3sg-anim-low’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3pl-high": >-
-            3rd person plural argument with a higher discourse rank than ‘3sg-anim-
-            low’ (where rank is determined by discourse factors with language-specific
-            weights)
+            3rd person plural argument with a higher discourse rank than
+            ‘3sg-anim-low’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3sg-low": >-
-            3rd person singular argument with a lower discourse rank than ‘3sg-anim-
-            high’ (where rank is determined by discourse factors with language-specific
-            weights)
+            3rd person singular argument with a lower discourse rank than
+            ‘3sg-anim-high’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3du-low": >-
-            3rd person dual argument with a lower discourse rank than ‘3sg-anim-
-            high’ (where rank is determined by discourse factors with language-specific
-            weights)
+            3rd person dual argument with a lower discourse rank than
+            ‘3sg-anim-high’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3pl-low": >-
-            3rd person plural argument with a lower discourse rank than ‘3sg-anim-
-            high’ (where rank is determined by discourse factors with language-specific
-            weights)
+            3rd person plural argument with a lower discourse rank than
+            ‘3sg-anim-high’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3sg-anim": >-
             3rd person singular animate argument
           "3du-anim": >-
@@ -1522,13 +1522,13 @@ fields:
           "2pl-high": >-
             2nd person plural high
           "3sg-hum-high": >-
-            3rd person singular human argument with a higher discourse rank than ‘3sg-
-            anim-low’ (where rank is determined by discourse factors with language-
-            specific weights)
+            3rd person singular human argument with a higher discourse rank than
+            ‘3sg-anim-low’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3pl-hum-high": >-
-            3rd person plural human argument with a higher discourse rank than ‘3sg-anim-
-            low’ (where rank is determined by discourse factors with language-specific
-            weights)
+            3rd person plural human argument with a higher discourse rank than
+            ‘3sg-anim-low’ (where rank is determined by discourse factors with
+            language-specific weights)
           "3sg-y": >-
             3rd person singular argument with unknown/unclear referential properties
             that result in a split, if there is a split triggered by unclear referential
@@ -1714,10 +1714,10 @@ fields:
             of all genders in the vocalic/strong declension, nouns in minor consonantal
             declensions, neuter nouns of the weak -n-declension)
           "N-nsyncr2854": >-
-            High German (old) nouns without NOM/ACC syncretism in sg.(masc. and fem. nouns
-            of the weak declension); pl. is always syncreticvocalic/strong declension,
-            nouns in minor consonantal declensions, neuter nouns of the weak -n-
-            declension)
+            High German (old) nouns without NOM/ACC syncretism in sg.(masc. and fem.
+            nouns of the weak declension); pl. is always syncreticvocalic/strong
+            declension, nouns in minor consonantal declensions, neuter nouns of the weak
+            -n-declension)
           "3sgPro-masc2854": >-
             High German (old) 3sgPro without NOM/ACC syncretism
           "3sgPro-fem2854": >-
@@ -1878,9 +1878,9 @@ fields:
             stimuli that mostly but not entirely behave like the most patientive argument
             of transitive verbs
           "Act": >-
-            volitional, agentive actors irrespective of transitivity. Typical in active/
-            stative systems, but often grammaticalized to a degree where ‘agentivity’ or
-            ‘control’ do no longer predict the distribution of the role.
+            volitional, agentive actors irrespective of transitivity. Typical in
+            active/stative systems, but often grammaticalized to a degree where
+            ‘agentivity’ or ‘control’ do no longer predict the distribution of the role.
           "core": >-
             any of S, A or U arguments
           "oblique": >-
@@ -1919,8 +1919,8 @@ fields:
             roles marked simultaneously; A acts on U; typical in inverse markers
           "POSS-default": >-
             Possessor: all genitival relations in an NP. Note: if a POSS marker is sused
-            for indicating experience beyond literal possession (e.g. my-thirst/my-
-            love is.there vs. literal my-leg/my-heart hurts) note this as A-exp (if with
+            for indicating experience beyond literal possession (e.g. my-thirst/my-love
+            is.there vs. literal my-leg/my-heart hurts) note this as A-exp (if with
             bivalent predicate) or as S-exp (if with a monovalent predicate)
           "S-exp": >-
             Experiencers that mostly behave like S but not entirely
@@ -2059,8 +2059,8 @@ fields:
             passives, antipassives, diathetic reflexives, middles etc.
           "Version": >-
             Category that registers the presence of an indirect object, goal, or
-            applicative object and responds to its person (typically distinguishing 1st/
-            2nd vs. 3rd person). Term and concept from Kartvelian languages.
+            applicative object and responds to its person (typically distinguishing
+            1st/2nd vs. 3rd person). Term and concept from Kartvelian languages.
           "Semistem": >-
             The more wordlike or noun-like element of a bipartite stem that interacts with
             the inflectional system.

@@ -12,7 +12,7 @@
         {
             "rdf:about": "git@github.com:autotyp/autotyp-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v.1.1.0",
+            "dc:created": "v.1.1.1",
             "dc:title": "Repository"
         },
         {
@@ -24,7 +24,7 @@
         {
             "rdf:about": "git@github.com:autotyp/autotyp-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v.1.1.0",
+            "dc:created": "v.1.1.1",
             "dc:title": "Repository"
         }
     ],
